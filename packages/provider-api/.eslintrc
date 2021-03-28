@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "extends": [
+    "@trejgun/eslint-config/presets/ts"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "root": true
+}

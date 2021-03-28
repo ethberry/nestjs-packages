@@ -1,0 +1,57 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "@trejgun/material-ui-toolbar": "0.0.145"
+  },
+  "description": "react widget",
+  "devDependencies": {
+    "@material-ui/core": "4.11.3",
+    "@types/react": "17.0.3",
+    "@types/react-router-dom": "5.1.7",
+    "formik": "2.2.6",
+    "react": "17.0.2",
+    "react-intl": "5.15.2",
+    "react-router-dom": "5.2.0"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/material-ui-form",
+  "peerDependencies": {
+    "formik": "^2",
+    "react": "^17",
+    "react-intl": "^5",
+    "react-router-dom": "^5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx",
+    "prebuild": "rm -rf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "sideEffects": false,
+  "title": "-=Encoder=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.156"
+}

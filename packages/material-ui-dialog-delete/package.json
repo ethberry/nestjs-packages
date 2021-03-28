@@ -1,0 +1,62 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "@trejgun/material-ui-dialog-confirmation": "0.0.152",
+    "@trejgun/material-ui-progress": "0.0.143"
+  },
+  "description": "react widget",
+  "devDependencies": {
+    "@material-ui/core": "4.11.3",
+    "@testing-library/jest-dom": "5.11.10",
+    "@testing-library/react": "11.2.5",
+    "@types/jest": "26.0.22",
+    "@types/react": "17.0.3",
+    "jest": "26.6.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-intl": "5.15.2",
+    "ts-jest": "26.5.4"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/material-ui-dialog-delete",
+  "peerDependencies": {
+    "@material-ui/core": "4.11.3",
+    "react": "^17",
+    "react-intl": "^5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx",
+    "prebuild": "rm -rf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "jest --config jest.config.json --no-watch --verbose",
+    "test:coverage": "jest  --config jest.config.json --coverage",
+    "test:watch": "jest --config jest.config.json"
+  },
+  "sideEffects": false,
+  "title": "-=Encoder=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.145"
+}

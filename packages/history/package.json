@@ -1,0 +1,45 @@
+{
+  "author": {
+    "email": "TrejGun+trejgun@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "history": "4.10.1"
+  },
+  "devDependencies": {
+    "@types/history": "4.7.8"
+  },
+  "description": "react history",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/history",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx",
+    "prebuild": "rm -rf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "sideEffects": false,
+  "title": "-=Common-Packages=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.86"
+}

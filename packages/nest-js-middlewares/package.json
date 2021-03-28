@@ -1,0 +1,63 @@
+{
+  "author": {
+    "email": "TrejGun+nestjs@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "@trejgun/nest-js-create-middleware-module": "0.0.15",
+    "@trejgun/redis": "0.0.85",
+    "connect-redis": "5.1.0",
+    "express-rate-limit": "5.2.6",
+    "express-session": "1.17.1",
+    "rate-limit-redis": "2.1.0",
+    "strict-transport-security": "0.3.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "7.6.15",
+    "@types/connect-redis": "0.0.16",
+    "@types/express": "4.17.11",
+    "@types/express-rate-limit": "5.1.1",
+    "@types/express-session": "1.17.3",
+    "@types/passport": "1.0.6",
+    "@types/rate-limit-redis": "1.7.1",
+    "express": "4.17.1",
+    "passport": "0.4.1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/nest-js-middlewares",
+  "peerDependencies": {
+    "@nestjs/common": "^7",
+    "express": "^4",
+    "passport": "^0.4"
+  },
+  "publishConfig": {
+    "cache": "~/.npm",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx",
+    "prebuild": "rm -rf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "-=Common-Packages=-",
+  "types": "./dist/index.d.ts",
+  "version": "1.0.14"
+}

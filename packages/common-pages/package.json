@@ -1,0 +1,78 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "@trejgun/constants-regexp": "0.0.84",
+    "@trejgun/material-ui-form": "0.0.156",
+    "@trejgun/material-ui-icons-social-networks": "0.0.139",
+    "@trejgun/material-ui-inputs-captcha": "0.0.157",
+    "@trejgun/material-ui-inputs-core": "0.0.162",
+    "@trejgun/material-ui-page-header": "0.0.152",
+    "@trejgun/material-ui-progress": "0.0.143",
+    "@trejgun/material-ui-toolbar": "0.0.145",
+    "@trejgun/provider-api": "0.0.50",
+    "@trejgun/provider-user": "0.0.93",
+    "@trejgun/yup-rules": "0.0.96",
+    "yup": "0.32.9"
+  },
+  "description": "react context provider",
+  "devDependencies": {
+    "@material-ui/core": "4.11.3",
+    "@material-ui/lab": "4.0.0-alpha.57",
+    "@types/node": "14.14.37",
+    "@types/react": "17.0.3",
+    "@types/react-router": "5.1.13",
+    "@types/react-router-dom": "5.1.7",
+    "@types/yup": "0.29.11",
+    "formik": "2.2.6",
+    "notistack": "1.0.5",
+    "react": "17.0.2",
+    "react-intl": "5.15.2",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/common-pages",
+  "peerDependencies": {
+    "@material-ui/core": "^4",
+    "@material-ui/lab": "^4.11.3-deprecations",
+    "formik": "^2",
+    "notistack": "^1",
+    "react": "^17",
+    "react-intl": "^5",
+    "react-router": "^5",
+    "react-router-dom": "^5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx",
+    "prebuild": "rm -rf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "sideEffects": false,
+  "title": "-=Common-Packages=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.302"
+}

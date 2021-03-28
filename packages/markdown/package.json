@@ -1,0 +1,52 @@
+{
+  "author": {
+    "email": "TrejGun+trejgun@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "dompurify": "2.2.7",
+    "marked": "2.0.1"
+  },
+  "description": "react widget",
+  "devDependencies": {
+    "@types/dompurify": "2.2.1",
+    "@types/marked": "2.0.0",
+    "@types/react": "17.0.3",
+    "react": "17.0.2"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/markdown",
+  "peerDependencies": {
+    "react": "^17"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx",
+    "prebuild": "rm -rf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "sideEffects": false,
+  "title": "-=Common-Packages=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.92"
+}

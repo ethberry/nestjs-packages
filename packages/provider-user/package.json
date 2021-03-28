@@ -1,0 +1,52 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "@trejgun/provider-api": "0.0.50"
+  },
+  "description": "react context provider",
+  "devDependencies": {
+    "@types/react": "17.0.3",
+    "@types/react-router": "5.1.13",
+    "react": "17.0.2",
+    "react-router": "5.2.0"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/provider-user",
+  "peerDependencies": {
+    "react": "^17",
+    "react-router": "^5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix --ext .ts,.tsx",
+    "prebuild": "rm -rf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "sideEffects": false,
+  "title": "-=Common-Packages=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.93"
+}

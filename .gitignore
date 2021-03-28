@@ -1,0 +1,18 @@
+# Project
+dist/
+
+# IDE
+.idea
+
+# OS
+.DS_Store
+
+# NODE
+node_modules/
+npm-debug.log
+package.json.lerna_backup
+yarn.lock
+/lerna-debug.log
+/report.*.json
+/package-lock.json
+
