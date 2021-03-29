@@ -13,7 +13,7 @@
     "@nestjs/passport": "7.1.5",
     "@nestjs/swagger": "4.8.0",
     "@nestjs/websockets": "7.6.15",
-    "rxjs": "6.6.6"
+    "rxjs": "6.6.7"
   },
   "engines": {
     "node": ">=10"
