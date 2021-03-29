@@ -7,15 +7,21 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "dompurify": "2.2.7",
-    "marked": "2.0.1"
+    "@trejgun/material-ui-dialog-confirmation": "0.0.153",
+    "@trejgun/material-ui-inputs-core": "0.0.163",
+    "@trejgun/material-ui-inputs-file-s3": "0.0.2",
+    "@trejgun/material-ui-progress": "0.0.144",
+    "react-beautiful-dnd": "13.1.0"
   },
   "description": "react widget",
   "devDependencies": {
-    "@types/dompurify": "2.2.1",
-    "@types/marked": "2.0.0",
+    "@material-ui/core": "4.11.3",
+    "@material-ui/icons": "4.11.2",
     "@types/react": "17.0.3",
-    "react": "17.0.2"
+    "@types/react-beautiful-dnd": "13.0.0",
+    "formik": "2.2.6",
+    "react": "17.0.2",
+    "react-intl": "5.15.3"
   },
   "engines": {
     "node": ">=10"
@@ -26,9 +32,13 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/markdown",
+  "name": "@trejgun/material-ui-inputs-image-s3",
   "peerDependencies": {
-    "react": "^17"
+    "@material-ui/core": "^4",
+    "@material-ui/icons": "^4",
+    "formik": "^2",
+    "react": "^17",
+    "react-intl": "^5"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -48,5 +58,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.93"
+  "version": "0.0.2"
 }

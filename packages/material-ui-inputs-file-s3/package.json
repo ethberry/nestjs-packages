@@ -7,14 +7,11 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "dompurify": "2.2.7",
-    "marked": "2.0.1"
+    "react-s3-uploader": "5.0.0",
+    "@trejgun/material-ui-inputs-file": "0.0.158"
   },
   "description": "react widget",
   "devDependencies": {
-    "@types/dompurify": "2.2.1",
-    "@types/marked": "2.0.0",
-    "@types/react": "17.0.3",
     "react": "17.0.2"
   },
   "engines": {
@@ -26,7 +23,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/markdown",
+  "name": "@trejgun/material-ui-inputs-file-s3",
   "peerDependencies": {
     "react": "^17"
   },
@@ -48,5 +45,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.93"
+  "version": "0.0.2"
 }

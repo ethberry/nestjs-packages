@@ -7,15 +7,13 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "dompurify": "2.2.7",
-    "marked": "2.0.1"
+    "aws-sdk": "2.874.0"
   },
-  "description": "react widget",
   "devDependencies": {
-    "@types/dompurify": "2.2.1",
-    "@types/marked": "2.0.0",
-    "@types/react": "17.0.3",
-    "react": "17.0.2"
+    "@nestjs/common": "7.6.15"
+  },
+  "peerDependenciesMeta": {
+    "@nestjs/common": "7"
   },
   "engines": {
     "node": ">=10"
@@ -26,9 +24,11 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/markdown",
+  "name": "@trejgun/nest-js-module-ses",
   "peerDependencies": {
-    "react": "^17"
+    "@nestjs/common": "^7",
+    "@nestjs/microservices": "^7",
+    "@nestjs/swagger": "^4"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -45,8 +45,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.93"
+  "version": "0.0.1"
 }
