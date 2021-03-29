@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.160](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-file-firebase@0.0.159...@trejgun/material-ui-inputs-file-firebase@0.0.160) (2021-03-29)
+
+**Note:** Version bump only for package @trejgun/material-ui-inputs-file-firebase
+
+
+
+
+
 ## 0.0.159 (2021-03-29)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-file-firebase

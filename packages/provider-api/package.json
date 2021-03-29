@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/history": "0.0.87",
+    "@trejgun/history": "0.0.88",
     "content-disposition": "0.5.3"
   },
   "description": "react context provider",
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.51"
+  "version": "0.0.52"
 }
