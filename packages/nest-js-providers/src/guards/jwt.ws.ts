@@ -12,7 +12,7 @@ export class JwtWsGuard extends AuthGuard("jwt-ws") implements CanActivate {
   public async canActivate(context: ExecutionContext): Promise<boolean> {
     // `super` has to be called to set `user` on `request`
     // see https://github.com/nestjs/passport/blob/master/lib/auth.guard.ts
-    return super.canActivate(context).catch(e => {
+    return (super.canActivate(context) as Promise<boolean>).catch(e => {
       const isPublicHandler = this.reflector.get<boolean>("isPublic", context.getHandler());
       const isPublicClass = this.reflector.get<boolean>("isPublic", context.getClass());
 
