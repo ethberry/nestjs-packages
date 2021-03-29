@@ -64,7 +64,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --fix --ext .ts,.tsx",
-    "prebuild": "rm -rf dist/",
+    "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
     "report": "cat ./coverage/lcov.info | coveralls",
