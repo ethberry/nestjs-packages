@@ -1,3 +1,4 @@
+export {SocialLogin} from "./guest/social-login";
 export {Login} from "./guest/login";
 export {ForgotPassword} from "./guest/forgot-password";
 export {ResendVerificationEmail} from "./guest/resend-verification-email";
