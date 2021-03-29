@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.97 (2021-03-29)
+
+**Note:** Version bump only for package @trejgun/yup-rules
+
+
+
+
+
 ## 0.0.96 (2021-03-25)
 
 **Note:** Version bump only for package @trejgun/yup-rules
