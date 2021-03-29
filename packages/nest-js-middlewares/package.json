@@ -57,7 +57,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "-=Common-Packages=-",
+  "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
   "version": "1.0.14"
 }

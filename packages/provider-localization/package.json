@@ -45,7 +45,7 @@
     "test": "exit 0"
   },
   "sideEffects": false,
-  "title": "-=Common-Packages=-",
+  "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
   "version": "0.0.103"
 }
