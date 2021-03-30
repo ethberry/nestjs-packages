@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "@trejgun/nest-js-create-middleware-module": "0.0.17",
-    "ioredis": "4.24.5",
     "connect-redis": "5.1.0",
-    "express-session": "1.17.1"
+    "express-session": "1.17.1",
+    "ioredis": "4.24.5"
   },
   "devDependencies": {
     "@types/connect-redis": "0.0.16",
@@ -44,5 +44,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
