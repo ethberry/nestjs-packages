@@ -9,12 +9,12 @@
   "dependencies": {
     "@trejgun/nest-js-create-middleware-module": "0.0.17",
     "connect-redis": "5.1.0",
-    "express-session": "1.17.1",
-    "ioredis": "4.24.5"
+    "express-session": "1.17.1"
   },
   "devDependencies": {
     "@types/connect-redis": "0.0.16",
-    "@types/express-session": "1.17.3"
+    "@types/express-session": "1.17.3",
+    "ioredis": "4.24.5"
   },
   "engines": {
     "node": ">=10"
@@ -26,6 +26,9 @@
   "license": "UNLICENSED",
   "main": "./dist/index.js",
   "name": "@trejgun/nest-js-module-session",
+  "peerDependencies": {
+    "ioredis": "^4"
+  },
   "publishConfig": {
     "cache": "~/.npm",
     "registry": "https://npm.pkg.github.com/"
