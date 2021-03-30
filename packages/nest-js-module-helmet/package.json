@@ -19,7 +19,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-helmet",
+  "name": "@trejgun/nest-js-module-helmet",
   "publishConfig": {
     "cache": "~/.npm",
     "registry": "https://npm.pkg.github.com/"
@@ -38,5 +38,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.2"
+  "version": "0.0.1"
 }
