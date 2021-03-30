@@ -5,16 +5,16 @@ import {MiddlewareConsumer} from "@nestjs/common/interfaces";
 @Module({
   providers: [Logger],
 })
-export class LoggerModule {
+export class RequestLoggerModule {
   constructor(
     @Inject(Logger)
     private readonly loggerService: LoggerService,
   ) {}
 
-  configure(consumer: MiddlewareConsumer) {
+  configure(consumer: MiddlewareConsumer): void {
     consumer
       .apply((req: Request, _res: Response, next: NextFunction): void => {
-        this.loggerService.log(`${req.method} ${req.url}`, LoggerModule.name);
+        this.loggerService.log(`${req.method} ${req.url}`, RequestLoggerModule.name);
         next();
       })
       .forRoutes("/");
