@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@trejgun/material-ui-dialog-confirmation": "0.0.153",
-    "@trejgun/material-ui-inputs-core": "0.0.163",
+    "@trejgun/material-ui-inputs-core": "0.0.164",
     "@trejgun/material-ui-inputs-file-s3": "0.0.3",
     "@trejgun/material-ui-progress": "0.0.144",
     "react-beautiful-dnd": "13.1.0"
@@ -58,5 +58,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
