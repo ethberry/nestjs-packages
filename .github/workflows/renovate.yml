@@ -7,35 +7,9 @@ on:
     types: [closed]
 
 jobs:
-  get-info:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: actions/checkout@v2
-
-      - name: See condition
-        run: |
-          echo "GITHUB_HEAD_REF:"${GITHUB_HEAD_REF}
-          echo "GITHUB_REF:"${GITHUB_REF#refs/*/}
-          echo "GITHUB_ACTOR:"${GITHUB_ACTOR}
-          echo "github.event.pull_request.merged:"$VAR1
-          echo "github.ref:"$VAR2
-          echo "github.head_ref:"$VAR3
-          echo "github.event_name:"$VAR4
-          echo "github.actor:"$VAR5
-          echo "github.event.label:"$VAR6
-        env:
-          VAR1: ${{ github.event.pull_request.merged }}
-          VAR2: ${{ github.ref }}
-          VAR3: ${{ github.head_ref }}
-          VAR4: ${{ github.event_name }}
-          VAR5: ${{ github.actor }}
-          VAR6: ${{ github.event.label.name}}
-
-  # update: workflow don't publish chore renovate updates
-  # update: don't publish dev labeled renovate updates
+  # update: publish only renovate PR with 'deps' label
   renovate-release-patch:
-    if: ${{github.event.pull_request.merged == true && contains(github.head_ref,'renovate') && (!contains(github.event.label.name,'dev') && (!contains(github.event.pull_request.title,'chore(deps)') || contains(github.event.pull_request.title,'update all'))}}
+    if: ${{github.event.pull_request.merged == true && contains(github.head_ref,'renovate') && contains(github.event.label.name,'deps')}}
     runs-on: ubuntu-latest
     steps:
       - name: checkout
