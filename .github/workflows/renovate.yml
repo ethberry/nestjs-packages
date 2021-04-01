@@ -23,7 +23,7 @@ jobs:
           echo "github.head_ref:"$VAR3
           echo "github.event_name:"$VAR4
           echo "github.actor:"$VAR5
-          echo "github.actor:"$VAR6
+          echo "github.event.label.name:"$VAR6
         env:
           VAR1: ${{ github.event.pull_request.merged }}
           VAR2: ${{ github.ref }}
