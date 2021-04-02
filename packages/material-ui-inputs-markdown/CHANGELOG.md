@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.163](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-markdown@0.0.162...@trejgun/material-ui-inputs-markdown@0.0.163) (2021-04-02)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([7867377](https://github.com/trejgun/common-packages/commit/786737716439880412e2f7acfa8fdeb1948baa5c))
+
+
+
+
+
 ## 0.0.162 (2021-03-29)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-markdown

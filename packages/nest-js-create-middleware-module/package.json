@@ -71,5 +71,5 @@
     "test": "jest --config jest.config.json --no-watch --verbose"
   },
   "types": "./dist/index.d.ts",
-  "version": "0.0.17"
+  "version": "0.0.18"
 }
