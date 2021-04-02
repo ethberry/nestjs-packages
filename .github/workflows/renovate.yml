@@ -33,7 +33,7 @@ jobs:
           VAR6: ${{ github.event.label.name }}
   # update: publish only renovate PR with 'deps' label
   renovate-release-patch:
-    if: ${{github.event.pull_request.merged == true && contains(github.head_ref,'renovate') && contains(github.event.label.name,'deps')}}
+    if: ${{github.event.pull_request.merged == true && contains(github.event.label.name,'deps')}}
     runs-on: ubuntu-latest
     steps:
       - name: checkout
