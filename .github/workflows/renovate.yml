@@ -31,7 +31,7 @@ jobs:
           VAR4: ${{ github.event_name }}
           VAR5: ${{ github.actor }}
           VAR6: ${{ github.event.label.name }}
-  # update: publish only renovate PR with 'deps' label
+  # update: publish only renovate PR with 'deps' in labels
   renovate-release-patch:
     if: ${{github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name,'deps')}}
     runs-on: ubuntu-latest
