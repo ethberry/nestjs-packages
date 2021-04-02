@@ -23,15 +23,15 @@ jobs:
           echo "github.head_ref:"$VAR3
           echo "github.event_name:"$VAR4
           echo "github.actor:"$VAR5
-          echo "github.event.pull_request.labels.*.name:"$VAR6
+          echo "github.event.pull_request.labels:"$VAR6
         env:
           VAR1: ${{ github.event.pull_request.merged }}
           VAR2: ${{ github.ref }}
           VAR3: ${{ github.head_ref }}
           VAR4: ${{ github.event_name }}
           VAR5: ${{ github.actor }}
-          VAR6: ${{ github.event.pull_request.labels.*.name }}
-  # update: publish only renovate PR with 'deps' in labels
+          VAR6: ${{ github.event.pull_request.labels }}
+  # update: publish only renovate PR with 'deps' label
   renovate-release-patch:
     if: ${{github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name,'deps')}}
     runs-on: ubuntu-latest
