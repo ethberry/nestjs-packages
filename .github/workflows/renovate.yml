@@ -23,7 +23,7 @@ jobs:
           echo "github.head_ref:"$VAR3
           echo "github.event_name:"$VAR4
           echo "github.actor:"$VAR5
-          echo "github.event.label.name:"$VAR6
+          echo "github.event.pull_request.labels.*.name:"$VAR6
         env:
           VAR1: ${{ github.event.pull_request.merged }}
           VAR2: ${{ github.ref }}
@@ -33,7 +33,7 @@ jobs:
           VAR6: ${{ github.event.label.name }}
   # update: publish only renovate PR with 'deps' label
   renovate-release-patch:
-    if: ${{github.event.pull_request.merged == true && contains(github.event.label.name,'deps')}}
+    if: ${{github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name,'deps')}}
     runs-on: ubuntu-latest
     steps:
       - name: checkout
