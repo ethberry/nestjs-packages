@@ -9,8 +9,7 @@
   "devDependencies": {
     "@nestjs/common": "7.6.15",
     "@nestjs/core": "7.6.15",
-    "@nestjs/passport": "7.1.5",
-    "@nestjs/swagger": "4.8.0",
+    "@nestjs/microservices": "7.6.15",
     "rxjs": "6.6.7"
   },
   "engines": {
@@ -22,12 +21,11 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-providers",
+  "name": "@trejgun/nest-js-providers-ms",
   "peerDependencies": {
     "@nestjs/common": "^7",
     "@nestjs/core": "^7",
-    "@nestjs/passport": "^7",
-    "@nestjs/swagger": "^4",
+    "@nestjs/microservices": "^7",
     "rxjs": "^6"
   },
   "publishConfig": {
@@ -45,7 +43,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "nest js providers http",
+  "title": "nest js providers ms",
   "types": "./dist/index.d.ts",
-  "version": "0.0.187"
+  "version": "0.0.1"
 }

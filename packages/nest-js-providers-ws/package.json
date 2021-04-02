@@ -10,8 +10,7 @@
     "@nestjs/common": "7.6.15",
     "@nestjs/core": "7.6.15",
     "@nestjs/passport": "7.1.5",
-    "@nestjs/swagger": "4.8.0",
-    "rxjs": "6.6.7"
+    "@nestjs/websockets": "7.6.15"
   },
   "engines": {
     "node": ">=10"
@@ -22,13 +21,12 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-providers",
+  "name": "@trejgun/nest-js-providers-ws",
   "peerDependencies": {
     "@nestjs/common": "^7",
     "@nestjs/core": "^7",
     "@nestjs/passport": "^7",
-    "@nestjs/swagger": "^4",
-    "rxjs": "^6"
+    "@nestjs/websockets": "^7"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -45,7 +43,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "nest js providers http",
+  "title": "nest js providers ws",
   "types": "./dist/index.d.ts",
-  "version": "0.0.187"
+  "version": "0.0.1"
 }
