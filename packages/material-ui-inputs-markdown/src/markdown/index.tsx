@@ -73,6 +73,7 @@ export const MarkdownInput: FC<IRichTextFieldProps & TextFieldProps> = props => 
       label={localizedLabel}
       placeholder={localizedPlaceholder}
       focused={isFocused}
+      onClick={() => setIsFocused(true)}
       InputLabelProps={{
         ...InputLabelProps,
         shrink: true,
