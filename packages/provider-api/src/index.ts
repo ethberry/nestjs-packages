@@ -1,3 +1,4 @@
+export * from "./error";
 export * from "./fetch";
 export * from "./context";
 export * from "./provider";
