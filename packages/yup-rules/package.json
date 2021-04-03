@@ -9,7 +9,7 @@
   "dependencies": {
     "@trejgun/constants-regexp": "0.0.85",
     "@trejgun/constants-validation": "0.0.84",
-    "@trejgun/provider-api": "0.0.53",
+    "@trejgun/provider-api": "0.0.54",
     "yup": "0.32.9"
   },
   "description": "yup rules",
@@ -41,5 +41,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.99"
+  "version": "0.0.100"
 }

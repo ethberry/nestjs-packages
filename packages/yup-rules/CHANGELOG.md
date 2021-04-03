@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.100](https://github.com/trejgun/common-packages/compare/@trejgun/yup-rules@0.0.99...@trejgun/yup-rules@0.0.100) (2021-04-03)
+
+**Note:** Version bump only for package @trejgun/yup-rules
+
+
+
+
+
 ## [0.0.99](https://github.com/trejgun/common-packages/compare/@trejgun/yup-rules@0.0.98...@trejgun/yup-rules@0.0.99) (2021-04-03)
 
 **Note:** Version bump only for package @trejgun/yup-rules
