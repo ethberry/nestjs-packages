@@ -30,7 +30,6 @@
     "ioredis": "^4"
   },
   "publishConfig": {
-    "cache": "~/.npm",
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {

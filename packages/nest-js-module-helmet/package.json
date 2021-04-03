@@ -21,7 +21,6 @@
   "main": "./dist/index.js",
   "name": "@trejgun/nest-js-module-helmet",
   "publishConfig": {
-    "cache": "~/.npm",
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
