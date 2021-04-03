@@ -1,4 +1,6 @@
-export interface IMessage {
+// https://github.com/typestack/class-validator/blob/develop/src/validation/ValidationError.ts
+
+export interface IValidationError {
   target: any;
   value: string;
   property: string;
@@ -6,15 +8,12 @@ export interface IMessage {
   constraints: Record<string, string>;
 }
 
-export function localizeErrors(messages: Array<IMessage>): any {
-  if (messages && messages.length) {
-    return messages.reduce(
-      (memo: Record<string, string>, message: IMessage) => ({
-        ...memo,
-        ...{[message.property]: `form.validations.${Object.values(message.constraints)[0]}`},
-      }),
-      {},
-    );
-  }
-  return void 0;
+export function localizeErrors(messages: Array<IValidationError>): Record<string, string> {
+  return messages.reduce(
+    (memo: Record<string, string>, message: IValidationError) => ({
+      ...memo,
+      ...{[message.property]: `form.validations.${Object.values(message.constraints)[0]}`},
+    }),
+    {},
+  );
 }

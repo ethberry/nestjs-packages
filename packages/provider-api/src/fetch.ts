@@ -1,5 +1,6 @@
 import {history} from "@trejgun/history";
 import {parse} from "content-disposition";
+import {ApiError} from "./error";
 
 export const fetchRaw = (input: RequestInfo, init?: RequestInit): Promise<{json: any; status: number}> => {
   return window
@@ -53,11 +54,7 @@ export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> 
     }
     if (![200, 201].includes(response.status)) {
       return response.json().then(json => {
-        throw Object.assign(new Error(), {
-          statusText: response.statusText,
-          status: response.status,
-          message: json.message,
-        });
+        throw new ApiError(json.message, response.status);
       });
     }
     return response.json();
@@ -83,11 +80,7 @@ export const fetchFile = (input: RequestInfo, init?: RequestInit): Promise<void>
     }
     if (![200, 201].includes(response.status)) {
       return response.json().then(json => {
-        throw Object.assign(new Error(), {
-          statusText: response.statusText,
-          status: response.status,
-          message: json.message,
-        });
+        throw new ApiError(json.message, response.status);
       });
     }
     const contentDisposition = response.headers.get("Content-Disposition");
