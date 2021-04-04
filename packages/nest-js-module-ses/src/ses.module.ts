@@ -10,7 +10,7 @@ import {ProviderType} from "./ses.constants";
   providers: [SesService],
   exports: [SesService],
 })
-export class S3Module {
+export class SesModule {
   static forRoot(options: ISESOptions & IAwsOptions): DynamicModule {
     const {accessKeyId, secretAccessKey, region, ...rest} = options;
 
@@ -20,7 +20,7 @@ export class S3Module {
     };
 
     return {
-      module: S3Module,
+      module: SesModule,
       providers: [
         {
           provide: ProviderType.SES,
@@ -33,7 +33,7 @@ export class S3Module {
 
   static forRootAsync(options: ISESModuleOptions): DynamicModule {
     return {
-      module: S3Module,
+      module: SesModule,
       imports: options.imports,
       providers: [
         {
