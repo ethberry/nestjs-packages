@@ -61,9 +61,9 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
   const handleFileChange = (urls: Array<string>): void => {
     setIsLoading(true);
     const newValue = formik.values[name];
-    urls.forEach(url => {
+    urls.forEach(imageUrl => {
       newValue.push({
-        imageUrl: url,
+        imageUrl,
         title: "",
       });
     });
