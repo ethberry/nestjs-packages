@@ -4,7 +4,6 @@ export * from "./decorators/public";
 export * from "./decorators/roles";
 
 export * from "./filters/http";
-export * from "./filters/native-to-http";
 
 export * from "./guards/jwks.apple";
 export * from "./guards/jwks.google";
