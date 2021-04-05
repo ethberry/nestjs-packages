@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.98](https://github.com/trejgun/common-packages/compare/@trejgun/provider-user@0.0.97...@trejgun/provider-user@0.0.98) (2021-04-05)
+
+**Note:** Version bump only for package @trejgun/provider-user
+
+
+
+
+
 ## [0.0.97](https://github.com/trejgun/common-packages/compare/@trejgun/provider-user@0.0.96...@trejgun/provider-user@0.0.97) (2021-04-03)
 
 **Note:** Version bump only for package @trejgun/provider-user
