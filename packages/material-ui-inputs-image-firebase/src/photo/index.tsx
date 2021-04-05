@@ -38,7 +38,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
   const handleDeleteConfirm = async (): Promise<void> => {
     const newValue = formik.values[name];
     const [deleted] = newValue.splice(selectedImageIndex, 1);
-    const fileName = path.basename(new URL(deleted.url).pathname);
+    const fileName = path.basename(new URL(deleted.imageUrl).pathname);
     const storageRef = firebase.storage().ref();
 
     await storageRef
@@ -63,7 +63,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
     const newValue = formik.values[name];
     urls.forEach(url => {
       newValue.push({
-        url,
+        imageUrl: url,
         title: "",
       });
     });
@@ -110,12 +110,12 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
                   <FirebaseFileInput onChange={handleFileChange} classes={{root: classes.media}} accept={accept} />
                 </ProgressOverlay>
               </Grid>
-              {formik.values[name].map((option: {url: string; title: string}, i: number) => (
+              {formik.values[name].map((option: {imageUrl: string; title: string}, i: number) => (
                 <Draggable key={i} draggableId={i.toString()} index={i}>
                   {provided => (
                     <Grid item ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
                       <Card>
-                        <CardMedia image={option.url} onClick={popup(option.url)} className={classes.media} />
+                        <CardMedia image={option.imageUrl} onClick={popup(option.imageUrl)} className={classes.media} />
                         <CardContent>
                           <TextInput name={`${name}[${i}].title`} value={option.title} />
                         </CardContent>
