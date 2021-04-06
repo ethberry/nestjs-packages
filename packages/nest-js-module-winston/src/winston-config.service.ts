@@ -5,6 +5,7 @@ import {PapertrailTransport} from "winston-papertrail-transport";
 import {format, transports} from "winston";
 import Transport from "winston-transport";
 import chalk from "chalk";
+import os from "os";
 
 @Injectable()
 export class WinstonConfigService {
@@ -20,6 +21,7 @@ export class WinstonConfigService {
         new PapertrailTransport({
           host: this.configService.get<string>("PAPERTRAIL_HOST", "localhost"),
           port: this.configService.get<number>("PAPERTRAIL_PORT", 0),
+          hostname: `${os.hostname()}-${nodeEnv}`,
         }),
       );
     }
