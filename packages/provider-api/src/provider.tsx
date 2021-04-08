@@ -46,7 +46,7 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
             refreshToken: jwt.refreshToken,
           }),
         })
-          .then(({json}: {json: T}) => {
+          .then((json: T) => {
             setToken(json);
             return json;
           })
