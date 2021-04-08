@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.100](https://github.com/trejgun/common-packages/compare/@trejgun/provider-settings@0.0.99...@trejgun/provider-settings@0.0.100) (2021-04-08)
+
+**Note:** Version bump only for package @trejgun/provider-settings
+
+
+
+
+
 ## [0.0.99](https://github.com/trejgun/common-packages/compare/@trejgun/provider-settings@0.0.98...@trejgun/provider-settings@0.0.99) (2021-04-05)
 
 **Note:** Version bump only for package @trejgun/provider-settings

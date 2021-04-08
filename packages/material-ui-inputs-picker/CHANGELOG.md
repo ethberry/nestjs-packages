@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.165](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-picker@0.0.164...@trejgun/material-ui-inputs-picker@0.0.165) (2021-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([256ea84](https://github.com/trejgun/common-packages/commit/256ea84c88084d493d9902f397743ba8cde79814))
+
+
+
+
+
 ## [0.0.164](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-picker@0.0.163...@trejgun/material-ui-inputs-picker@0.0.164) (2021-04-05)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-picker
