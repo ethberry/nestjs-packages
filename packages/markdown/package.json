@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "dompurify": "2.2.7",
-    "marked": "2.0.1"
+    "marked": "2.0.3"
   },
   "description": "react widget",
   "devDependencies": {
     "@types/dompurify": "2.2.1",
-    "@types/marked": "2.0.1",
+    "@types/marked": "2.0.2",
     "@types/react": "17.0.3",
     "react": "17.0.2"
   },
