@@ -1,4 +1,4 @@
-import {Inject, Injectable} from "@nestjs/common";
+import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
 import {SES} from "aws-sdk";
 
 import {ISESOptions, ISesSendFields} from "./interfaces";
@@ -7,6 +7,8 @@ import {ProviderType} from "./ses.constants";
 @Injectable()
 export class SesService {
   constructor(
+    @Inject(Logger)
+    private readonly loggerService: LoggerService,
     @Inject(ProviderType.SES)
     private readonly ses: SES,
     @Inject(ProviderType.SES_OPTIONS)
@@ -31,6 +33,13 @@ export class SesService {
           },
         },
       })
-      .promise();
+      .promise()
+      .then(() => {
+        return {status: true};
+      })
+      .catch(e => {
+        this.loggerService.error(e);
+        return {status: false};
+      });
   }
 }

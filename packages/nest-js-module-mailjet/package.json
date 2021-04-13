@@ -7,10 +7,11 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "aws-sdk": "2.885.0"
+    "node-mailjet": "3.3.1"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.15"
+    "@nestjs/common": "7.6.15",
+    "@types/node-mailjet": "3.3.4"
   },
   "peerDependenciesMeta": {
     "@nestjs/common": "7"
@@ -24,7 +25,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-module-ses",
+  "name": "@trejgun/nest-js-module-mailjet",
   "peerDependencies": {
     "@nestjs/common": "^7",
     "@nestjs/microservices": "^7"
@@ -46,5 +47,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.8"
+  "version": "0.0.1"
 }
