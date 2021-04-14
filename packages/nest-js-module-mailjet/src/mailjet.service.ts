@@ -41,7 +41,7 @@ export class MailjetService {
         return {status: true};
       })
       .catch(e => {
-        this.loggerService.error(e.message, e.stack);
+        this.loggerService.error(e.message, e.stack, MailjetService.name);
         return {status: false};
       });
   }

@@ -15,7 +15,7 @@ export class SesService {
     private readonly options: ISESOptions,
   ) {}
 
-  async sendMail(mail: ISesSendFields): Promise<any> {
+  async sendMail(mail: ISesSendFields): Promise<{status: boolean}> {
     return this.ses
       .sendEmail({
         Source: this.options.from,
@@ -38,7 +38,7 @@ export class SesService {
         return {status: true};
       })
       .catch(e => {
-        this.loggerService.error(e);
+        this.loggerService.error(e.message, e.stack, SesService.name);
         return {status: false};
       });
   }
