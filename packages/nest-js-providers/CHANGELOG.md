@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.190 (2021-04-14)
+
+**Note:** Version bump only for package @trejgun/nest-js-providers
+
+
+
+
+
 ## [0.0.189](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-providers@0.0.188...@trejgun/nest-js-providers@0.0.189) (2021-04-05)
 
 **Note:** Version bump only for package @trejgun/nest-js-providers

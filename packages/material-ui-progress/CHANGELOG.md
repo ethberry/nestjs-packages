@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.145 (2021-04-14)
+
+**Note:** Version bump only for package @trejgun/material-ui-progress
+
+
+
+
+
 ## 0.0.144 (2021-03-29)
 
 **Note:** Version bump only for package @trejgun/material-ui-progress

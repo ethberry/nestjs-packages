@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.202 (2021-04-14)
+
+**Note:** Version bump only for package @trejgun/nest-js-validators
+
+
+
+
+
 ## [0.0.201](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-validators@0.0.200...@trejgun/nest-js-validators@0.0.201) (2021-03-29)
 
 **Note:** Version bump only for package @trejgun/nest-js-validators

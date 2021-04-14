@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.312 (2021-04-14)
+
+**Note:** Version bump only for package @trejgun/common-pages
+
+
+
+
+
 ## [0.0.310](https://github.com/trejgun/common-packages/compare/@trejgun/common-pages@0.0.309...@trejgun/common-pages@0.0.310) (2021-04-08)
 
 **Note:** Version bump only for package @trejgun/common-pages

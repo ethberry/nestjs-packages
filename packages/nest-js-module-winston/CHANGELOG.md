@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.160 (2021-04-14)
+
+**Note:** Version bump only for package @trejgun/nest-js-module-winston
+
+
+
+
+
 ## [0.0.158](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-winston@0.0.157...@trejgun/nest-js-module-winston@0.0.158) (2021-04-08)
 
 **Note:** Version bump only for package @trejgun/nest-js-module-winston
