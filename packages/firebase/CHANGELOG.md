@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.92](https://github.com/trejgun/common-packages/compare/@trejgun/firebase@0.0.91...@trejgun/firebase@0.0.92) (2021-04-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency firebase to v8.4.1 ([27db9e7](https://github.com/trejgun/common-packages/commit/27db9e76535b7147b835d0e817aa180b8d919a5e))
+
+
+
+
+
 ## [0.0.90](https://github.com/trejgun/common-packages/compare/@trejgun/firebase@0.0.89...@trejgun/firebase@0.0.90) (2021-04-02)
 
 
