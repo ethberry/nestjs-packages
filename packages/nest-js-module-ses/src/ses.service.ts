@@ -15,7 +15,7 @@ export class SesService {
     private readonly options: ISESOptions,
   ) {}
 
-  async sendMail(mail: ISesSendFields): Promise<{status: boolean}> {
+  async sendEmail(mail: ISesSendFields): Promise<{status: boolean}> {
     return this.ses
       .sendEmail({
         Source: this.options.from,
