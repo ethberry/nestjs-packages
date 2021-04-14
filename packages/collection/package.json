@@ -41,7 +41,7 @@
     "lint": "eslint . --fix --ext .ts,.tsx",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
-    "preversion": "npm run test",
+    "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
   "sideEffects": false,
