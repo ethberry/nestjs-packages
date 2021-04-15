@@ -57,5 +57,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.168"
+  "version": "0.0.169"
 }
