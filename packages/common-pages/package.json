@@ -7,17 +7,17 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/constants-regexp": "0.0.86",
-    "@trejgun/material-ui-form": "0.0.162",
-    "@trejgun/material-ui-icons-social-networks": "0.0.141",
-    "@trejgun/material-ui-inputs-captcha": "0.0.163",
-    "@trejgun/material-ui-inputs-core": "0.0.169",
-    "@trejgun/material-ui-page-header": "0.0.158",
-    "@trejgun/material-ui-progress": "0.0.145",
-    "@trejgun/material-ui-toolbar": "0.0.148",
-    "@trejgun/provider-api": "0.0.57",
-    "@trejgun/provider-user": "0.0.100",
-    "@trejgun/yup-rules": "0.0.103",
+    "@trejgun/constants-regexp": "0.0.87",
+    "@trejgun/material-ui-form": "0.0.163",
+    "@trejgun/material-ui-icons-social-networks": "0.0.142",
+    "@trejgun/material-ui-inputs-captcha": "0.0.164",
+    "@trejgun/material-ui-inputs-core": "0.0.170",
+    "@trejgun/material-ui-page-header": "0.0.159",
+    "@trejgun/material-ui-progress": "0.0.146",
+    "@trejgun/material-ui-toolbar": "0.0.149",
+    "@trejgun/provider-api": "0.0.58",
+    "@trejgun/provider-user": "0.0.101",
+    "@trejgun/yup-rules": "0.0.104",
     "yup": "0.32.9"
   },
   "description": "react context provider",
@@ -74,5 +74,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.312"
+  "version": "0.0.313"
 }
