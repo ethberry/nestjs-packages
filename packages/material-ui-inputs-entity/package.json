@@ -18,7 +18,7 @@
     "@material-ui/styles": "4.11.3",
     "@types/react": "17.0.3",
     "formik": "2.2.6",
-    "notistack": "1.0.5",
+    "notistack": "1.0.6",
     "react": "17.0.2",
     "react-intl": "5.15.8"
   },
