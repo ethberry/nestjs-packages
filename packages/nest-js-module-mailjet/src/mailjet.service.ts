@@ -45,7 +45,7 @@ export class MailjetService {
   public addToContactList(
     listId: string,
     data: {email: string; name: string},
-    props: Record<string, string | number>,
+    props: Record<string, any>,
   ): Promise<Email.Response> {
     return this.mailjet
       .post("contactslist", {version: "v3"})
