@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.166 (2021-04-18)
+
+**Note:** Version bump only for package @trejgun/material-ui-inputs-image-firebase
+
+
+
+
+
 ## 0.0.165 (2021-04-15)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-image-firebase
