@@ -15,10 +15,6 @@ export class MailjetService {
     private readonly options: IMailjetOptions,
   ) {}
 
-  public getClient(): Email.Client {
-    return this.mailjet;
-  }
-
   public sendEmail(mail: IMailjetSendFields): Promise<{status: boolean}> {
     return this.mailjet
       .post("send", {version: "v3.1"})
@@ -43,6 +39,46 @@ export class MailjetService {
       .catch(e => {
         this.loggerService.error(e.message, e.stack, MailjetService.name);
         return {status: false};
+      });
+  }
+
+  public addToContactList(
+    listId: string,
+    data: {email: string; name: string},
+    props: Record<string, string | number>,
+  ): Promise<Email.Response> {
+    return this.mailjet
+      .post("contactslist", {version: "v3"})
+      .id(listId)
+      .action("managecontact")
+      .request({
+        Name: data.name,
+        Properties: props,
+        Action: "addnoforce",
+        Email: data.email,
+      })
+      .then((result: Email.Response) => {
+        // @ts-ignore
+        if (result.body.Total) {
+          this.loggerService.log(`Successfully added ${data.email} to contact list`, MailjetService.name);
+        }
+        return result;
+      });
+  }
+
+  public async deleteFromContactList(listID: string, data: {email: string}): Promise<void> {
+    await this.mailjet
+      .post("contactslist", {version: "v3"})
+      .id(listID)
+      .action("managecontact")
+      .request({
+        Action: "remove",
+        Email: data.email,
+      })
+      .then((result: any) => {
+        if (result.body.Total) {
+          this.loggerService.log(`Successfully deleted ${data.email} from contact list list`, MailjetService.name);
+        }
       });
   }
 }
