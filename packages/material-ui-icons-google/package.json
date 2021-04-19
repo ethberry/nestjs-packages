@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "Material UI Google flat icons",
   "types": "./dist/index.d.ts",
-  "version": "0.0.147"
+  "version": "0.0.148"
 }
