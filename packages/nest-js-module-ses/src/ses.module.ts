@@ -2,7 +2,7 @@ import {DynamicModule, Logger, Module} from "@nestjs/common";
 import {Provider} from "@nestjs/common/interfaces";
 import {SES} from "aws-sdk";
 
-import {ISdkOptions, ISESModuleOptions, ISESOptions} from "./interfaces";
+import {ISdkOptions, ISesModuleOptions, ISesOptions} from "./interfaces";
 import {SesService} from "./ses.service";
 import {ProviderType} from "./ses.constants";
 
@@ -11,10 +11,10 @@ import {ProviderType} from "./ses.constants";
   exports: [SesService],
 })
 export class SesModule {
-  static forRoot(options: ISESOptions & ISdkOptions): DynamicModule {
+  static forRoot(options: ISesOptions & ISdkOptions): DynamicModule {
     const {accessKeyId, secretAccessKey, region, ...rest} = options;
 
-    const optionsProvider: Provider<ISESOptions> = {
+    const optionsProvider: Provider<ISesOptions> = {
       provide: ProviderType.SES_OPTIONS,
       useValue: rest,
     };
@@ -31,7 +31,7 @@ export class SesModule {
     };
   }
 
-  static forRootAsync(options: ISESModuleOptions): DynamicModule {
+  static forRootAsync(options: ISesModuleOptions): DynamicModule {
     return {
       module: SesModule,
       imports: options.imports,

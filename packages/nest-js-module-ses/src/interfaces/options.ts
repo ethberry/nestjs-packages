@@ -6,12 +6,12 @@ export interface ISdkOptions {
   secretAccessKey: string;
 }
 
-export interface ISESOptions {
+export interface ISesOptions {
   from: string;
 }
 
-export interface ISESModuleOptions extends Pick<ModuleMetadata, "imports"> {
+export interface ISesModuleOptions extends Pick<ModuleMetadata, "imports"> {
   name?: string;
-  useFactory: (...args: any[]) => Promise<ISESOptions & ISdkOptions> | (ISESOptions & ISdkOptions);
+  useFactory: (...args: any[]) => Promise<ISesOptions & ISdkOptions> | (ISesOptions & ISdkOptions);
   inject?: any[];
 }

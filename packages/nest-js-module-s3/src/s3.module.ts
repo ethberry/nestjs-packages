@@ -2,7 +2,7 @@ import {DynamicModule, Module} from "@nestjs/common";
 import {Provider} from "@nestjs/common/interfaces";
 import {S3} from "aws-sdk";
 
-import {IAwsOptions, IS3ModuleOptions, IS3Options} from "./interfaces";
+import {ISdkOptions, IS3ModuleOptions, IS3Options} from "./interfaces";
 import {S3Controller} from "./s3.controller";
 import {S3Service} from "./s3.service";
 import {ProviderType} from "./s3.constants";
@@ -13,7 +13,7 @@ import {ProviderType} from "./s3.constants";
   exports: [S3Service],
 })
 export class S3Module {
-  static forRoot(options: IS3Options & IAwsOptions): DynamicModule {
+  static forRoot(options: IS3Options & ISdkOptions): DynamicModule {
     const {accessKeyId, secretAccessKey, region, ...rest} = options;
 
     const optionsProvider: Provider<IS3Options> = {

@@ -1,7 +1,7 @@
 import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
 import {SES} from "aws-sdk";
 
-import {ISESOptions, ISesSendFields} from "./interfaces";
+import {ISesOptions, ISesSendFields} from "./interfaces";
 import {ProviderType} from "./ses.constants";
 
 @Injectable()
@@ -12,7 +12,7 @@ export class SesService {
     @Inject(ProviderType.SES)
     private readonly ses: SES,
     @Inject(ProviderType.SES_OPTIONS)
-    private readonly options: ISESOptions,
+    private readonly options: ISesOptions,
   ) {}
 
   async sendEmail(mail: ISesSendFields): Promise<{status: boolean}> {
