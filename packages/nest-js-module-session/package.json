@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@trejgun/nest-js-create-middleware-module": "0.0.26",
-    "connect-redis": "5.1.0",
+    "connect-redis": "5.2.0",
     "express-session": "1.17.1"
   },
   "devDependencies": {
