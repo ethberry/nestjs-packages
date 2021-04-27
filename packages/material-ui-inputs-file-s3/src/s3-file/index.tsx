@@ -1,6 +1,7 @@
-import React, {FC, useCallback} from "react";
+import React, {FC, useCallback, useContext, useEffect, useState} from "react";
 import "react-s3-uploader"; // this is required for types
 import S3Upload from "react-s3-uploader/s3upload";
+import {ApiContext, IApiContext, IAuth} from "@trejgun/provider-api";
 
 import {FileInput, IFileInputProps} from "@trejgun/material-ui-inputs-file";
 
@@ -15,6 +16,15 @@ interface IS3FileInputProps extends Omit<IFileInputProps, "onChange"> {
 
 export const S3FileInput: FC<IS3FileInputProps> = props => {
   const {onChange, onProgress, ...rest} = props;
+
+  const [auth, setAuth] = useState<IAuth | null>(null);
+
+  const api = useContext<IApiContext<IAuth>>(ApiContext);
+
+  useEffect(() => {
+    // this gonna be async
+    setAuth(api.getToken());
+  }, []);
 
   const handleChange = useCallback((files: Array<File>): void => {
     // eslint-disable-next-line no-new
@@ -33,6 +43,10 @@ export const S3FileInput: FC<IS3FileInputProps> = props => {
       signingUrlMethod: "GET",
       signingUrlWithCredentials: true,
       server: process.env.BE_URL,
+      signingUrlHeaders: {
+        // @ts-ignore
+        authorization: auth ? `Bearer ${auth.accessToken}` : "",
+      },
     });
   }, []);
 

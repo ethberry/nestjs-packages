@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@trejgun/material-ui-inputs-file": "0.0.169",
+    "@trejgun/provider-api": "0.0.61",
     "react-s3-uploader": "5.0.0"
   },
   "description": "react widget",
