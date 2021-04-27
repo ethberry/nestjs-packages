@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/nest-js-validators": "0.0.207",
-    "@trejgun/types-collection": "0.0.83",
+    "@trejgun/nest-js-validators": "0.0.208",
+    "@trejgun/types-collection": "0.0.84",
     "class-transformer": "0.4.0",
     "class-validator": "0.13.1"
   },
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.284"
+  "version": "0.0.285"
 }

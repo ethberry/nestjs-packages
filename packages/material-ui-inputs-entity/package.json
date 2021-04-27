@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-progress": "0.0.150",
-    "@trejgun/provider-api": "0.0.62"
+    "@trejgun/material-ui-progress": "0.0.151",
+    "@trejgun/provider-api": "0.0.63"
   },
   "description": "react widget",
   "devDependencies": {
@@ -60,5 +60,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.167"
+  "version": "0.0.168"
 }

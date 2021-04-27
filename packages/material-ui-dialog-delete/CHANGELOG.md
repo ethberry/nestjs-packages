@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.158 (2021-04-27)
+
+**Note:** Version bump only for package @trejgun/material-ui-dialog-delete
+
+
+
+
+
 ## 0.0.157 (2021-04-27)
 
 **Note:** Version bump only for package @trejgun/material-ui-dialog-delete
