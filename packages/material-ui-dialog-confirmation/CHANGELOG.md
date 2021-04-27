@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.164 (2021-04-27)
+
+**Note:** Version bump only for package @trejgun/material-ui-dialog-confirmation
+
+
+
+
+
 ## [0.0.163](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-dialog-confirmation@0.0.162...@trejgun/material-ui-dialog-confirmation@0.0.163) (2021-04-24)
 
 **Note:** Version bump only for package @trejgun/material-ui-dialog-confirmation

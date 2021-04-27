@@ -7,11 +7,11 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/firebase": "0.0.98",
-    "@trejgun/material-ui-dialog-confirmation": "0.0.163",
-    "@trejgun/material-ui-inputs-core": "0.0.174",
-    "@trejgun/material-ui-inputs-file-firebase": "0.0.171",
-    "@trejgun/material-ui-progress": "0.0.149",
+    "@trejgun/firebase": "0.0.99",
+    "@trejgun/material-ui-dialog-confirmation": "0.0.164",
+    "@trejgun/material-ui-inputs-core": "0.0.175",
+    "@trejgun/material-ui-inputs-file-firebase": "0.0.172",
+    "@trejgun/material-ui-progress": "0.0.150",
     "react-beautiful-dnd": "13.1.0"
   },
   "description": "react widget",
@@ -59,5 +59,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.168"
+  "version": "0.0.169"
 }
