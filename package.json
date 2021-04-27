@@ -8,7 +8,6 @@
   },
   "devDependencies": {
     "@trejgun/eslint-config": "0.1.5",
-    "@trejgun/provider-api": "0.0.61",
     "@typescript-eslint/eslint-plugin": "4.22.0",
     "@typescript-eslint/parser": "4.22.0",
     "eslint": "7.25.0",
