@@ -8,13 +8,13 @@
   },
   "dependencies": {
     "@trejgun/constants-regexp": "0.0.92",
-    "@trejgun/material-ui-form": "0.0.169",
-    "@trejgun/material-ui-icons-social-networks": "0.0.147",
-    "@trejgun/material-ui-inputs-captcha": "0.0.170",
-    "@trejgun/material-ui-inputs-core": "0.0.176",
-    "@trejgun/material-ui-page-header": "0.0.165",
-    "@trejgun/material-ui-progress": "0.0.151",
-    "@trejgun/material-ui-toolbar": "0.0.155",
+    "@trejgun/material-ui-form": "0.0.170",
+    "@trejgun/material-ui-icons-social-networks": "0.0.148",
+    "@trejgun/material-ui-inputs-captcha": "0.0.171",
+    "@trejgun/material-ui-inputs-core": "0.0.177",
+    "@trejgun/material-ui-page-header": "0.0.166",
+    "@trejgun/material-ui-progress": "0.0.152",
+    "@trejgun/material-ui-toolbar": "0.0.156",
     "@trejgun/provider-api": "0.0.63",
     "@trejgun/provider-user": "0.0.106",
     "@trejgun/yup-rules": "0.0.109",
@@ -74,5 +74,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.319"
+  "version": "0.0.320"
 }
