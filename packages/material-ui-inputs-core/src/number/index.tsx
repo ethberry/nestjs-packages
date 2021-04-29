@@ -11,8 +11,8 @@ export interface INumberInputProps extends IRequireName {
 }
 
 export const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>): void => {
-  if (e.keyCode === 69 || e.keyCode === 189 || (e.shiftKey && e.keyCode === 187)) {
-    // disallow e/-/+
+  if (e.keyCode === 69 || (e.shiftKey && e.keyCode === 187)) {
+    // disallow e/+
     e.preventDefault();
   }
 };
