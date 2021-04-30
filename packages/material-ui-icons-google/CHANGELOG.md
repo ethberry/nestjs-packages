@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.152 (2021-04-30)
+
+**Note:** Version bump only for package @trejgun/material-ui-icons-google
+
+
+
+
+
 ## [0.0.151](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-icons-google@0.0.150...@trejgun/material-ui-icons-google@0.0.151) (2021-04-28)
 
 **Note:** Version bump only for package @trejgun/material-ui-icons-google

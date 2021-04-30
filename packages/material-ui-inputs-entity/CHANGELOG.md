@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.170 (2021-04-30)
+
+**Note:** Version bump only for package @trejgun/material-ui-inputs-entity
+
+
+
+
+
 ## [0.0.169](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-entity@0.0.168...@trejgun/material-ui-inputs-entity@0.0.169) (2021-04-28)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-entity
