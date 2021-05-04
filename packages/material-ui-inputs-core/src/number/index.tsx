@@ -11,10 +11,6 @@ export interface INumberInputProps extends IRequireName {
   readOnly?: boolean;
 }
 
-export interface ICurrencyInputKeyDownProps {
-  allowNegative: boolean;
-}
-
 export const NumberInput: FC<INumberInputProps & TextFieldProps> = props => {
   const {name, allowNegative = false, ...rest} = props;
 
