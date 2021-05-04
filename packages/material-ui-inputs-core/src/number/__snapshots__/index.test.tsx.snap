@@ -4,13 +4,12 @@ exports[`<NumberInput /> renders negative value 1`] = `
 <DocumentFragment>
   <div
     class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-    container="[object HTMLDivElement]"
   >
     <label
       class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
       data-shrink="true"
     >
-      Fraction
+      form.labels.number-test
     </label>
     <div
       class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
@@ -18,8 +17,8 @@ exports[`<NumberInput /> renders negative value 1`] = `
       <input
         aria-invalid="false"
         class="MuiInputBase-input MuiInput-input"
-        name="data.singleChoiceImageOptions[0].singleChoiceImageOptionFraction"
-        placeholder="50"
+        name="number-test"
+        placeholder="form.placeholders.number-test"
         type="number"
         value="-50"
       />
@@ -32,13 +31,12 @@ exports[`<NumberInput /> renders positive value 1`] = `
 <DocumentFragment>
   <div
     class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-    container="[object HTMLDivElement]"
   >
     <label
       class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
       data-shrink="true"
     >
-      Fraction
+      form.labels.number-test
     </label>
     <div
       class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
@@ -46,8 +44,8 @@ exports[`<NumberInput /> renders positive value 1`] = `
       <input
         aria-invalid="false"
         class="MuiInputBase-input MuiInput-input"
-        name="data.singleChoiceImageOptions[0].singleChoiceImageOptionFraction"
-        placeholder="50"
+        name="number-test"
+        placeholder="form.placeholders.number-test"
         type="number"
         value="50"
       />

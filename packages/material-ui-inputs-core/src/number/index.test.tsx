@@ -15,13 +15,9 @@ const i18n = {
 
 describe("<NumberInput />", () => {
   it("renders positive value", () => {
-    const container = document.createElement("div");
-    document.body.append(container);
-
-    const name = "data.singleChoiceImageOptions[0].singleChoiceImageOptionFraction";
+    const name = "number-test";
 
     const props = {
-      container,
       name,
       value: "50",
     };
@@ -41,20 +37,15 @@ describe("<NumberInput />", () => {
           </Formik>
         </IntlProvider>
       </MuiThemeProvider>,
-      {container},
     );
 
     expect(asFragment()).toMatchSnapshot();
   });
 
   it("renders negative value", () => {
-    const container = document.createElement("div");
-    document.body.append(container);
-
-    const name = "data.singleChoiceImageOptions[0].singleChoiceImageOptionFraction";
+    const name = "number-test";
 
     const props = {
-      container,
       name,
       value: "-50",
     };
@@ -74,7 +65,6 @@ describe("<NumberInput />", () => {
           </Formik>
         </IntlProvider>
       </MuiThemeProvider>,
-      {container},
     );
 
     expect(asFragment()).toMatchSnapshot();
