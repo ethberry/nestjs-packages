@@ -15,25 +15,23 @@ export interface ICurrencyInputKeyDownProps {
   allowNegative: boolean;
 }
 
-export const handleKeyDown = ({allowNegative}: ICurrencyInputKeyDownProps) => (
-  e: KeyboardEvent<HTMLInputElement>,
-): void => {
-  if (e.keyCode === 69 || (!allowNegative && e.keyCode === 189) || (e.shiftKey && e.keyCode === 187)) {
-    // disallow e/-/+
-    e.preventDefault();
-  }
-};
-
 export const NumberInput: FC<INumberInputProps & TextFieldProps> = props => {
   const {name, allowNegative = false, ...rest} = props;
 
   const formik = useFormikContext<any>();
   const value = getIn(formik.values, name);
 
+  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>): void => {
+    if (e.keyCode === 69 || (!allowNegative && e.keyCode === 189) || (e.shiftKey && e.keyCode === 187)) {
+      // disallow e/-/+
+      e.preventDefault();
+    }
+  };
+
   return (
     <TextInput
       type="number"
-      onKeyDown={handleKeyDown({allowNegative})}
+      onKeyDown={handleKeyDown}
       value={value === null && value === void 0 ? "" : Number(value)}
       name={name}
       {...rest}
