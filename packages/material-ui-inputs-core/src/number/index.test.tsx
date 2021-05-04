@@ -9,23 +9,21 @@ import {NumberInput} from "./";
 afterEach(cleanup);
 
 const i18n = {
-  "form.labels.singleChoiceImageOptionFraction": "Fraction",
-  "form.placeholders.singleChoiceImageOptionFraction": "50",
+  "form.labels.number": "Number",
+  "form.placeholders.number": "50",
 };
 
 describe("<NumberInput />", () => {
   it("renders positive value", () => {
-    const name = "number-test";
-
     const props = {
-      name,
+      name: "number",
       value: "50",
     };
 
     const formikProps = {
       onSubmit: jest.fn(),
       initialValues: {
-        [name]: "50",
+        number: "50",
       },
     };
 
@@ -43,17 +41,41 @@ describe("<NumberInput />", () => {
   });
 
   it("renders negative value", () => {
-    const name = "number-test";
-
     const props = {
-      name,
+      name: "number",
       value: "-50",
     };
 
     const formikProps = {
       onSubmit: jest.fn(),
       initialValues: {
-        [name]: "-50",
+        number: "-50",
+      },
+    };
+
+    const {asFragment} = render(
+      <MuiThemeProvider theme={createMuiTheme()}>
+        <IntlProvider locale="en" messages={i18n}>
+          <Formik {...formikProps}>
+            <NumberInput {...props} />
+          </Formik>
+        </IntlProvider>
+      </MuiThemeProvider>,
+    );
+
+    expect(asFragment()).toMatchSnapshot();
+  });
+
+  it("renders decimal value", () => {
+    const props = {
+      name: "number",
+      value: "9.99",
+    };
+
+    const formikProps = {
+      onSubmit: jest.fn(),
+      initialValues: {
+        number: "9.99",
       },
     };
 
