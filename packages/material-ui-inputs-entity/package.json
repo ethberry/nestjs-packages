@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-progress": "0.0.152",
-    "@trejgun/provider-api": "0.0.63"
+    "@trejgun/material-ui-progress": "0.0.153",
+    "@trejgun/provider-api": "0.0.64"
   },
   "description": "react widget",
   "devDependencies": {
@@ -20,7 +20,7 @@
     "formik": "2.2.6",
     "notistack": "1.0.6",
     "react": "17.0.2",
-    "react-intl": "5.17.1"
+    "react-intl": "5.17.4"
   },
   "engines": {
     "node": ">=10"
@@ -60,5 +60,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.169"
+  "version": "0.0.170"
 }

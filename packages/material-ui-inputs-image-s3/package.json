@@ -7,10 +7,10 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-dialog-confirmation": "0.0.166",
-    "@trejgun/material-ui-inputs-core": "0.0.177",
-    "@trejgun/material-ui-inputs-file-s3": "0.0.16",
-    "@trejgun/material-ui-progress": "0.0.152",
+    "@trejgun/material-ui-dialog-confirmation": "0.0.167",
+    "@trejgun/material-ui-inputs-core": "0.0.178",
+    "@trejgun/material-ui-inputs-file-s3": "0.0.17",
+    "@trejgun/material-ui-progress": "0.0.153",
     "react-beautiful-dnd": "13.1.0"
   },
   "description": "react widget",
@@ -21,7 +21,7 @@
     "@types/react-beautiful-dnd": "13.0.0",
     "formik": "2.2.6",
     "react": "17.0.2",
-    "react-intl": "5.17.1"
+    "react-intl": "5.17.4"
   },
   "engines": {
     "node": ">=10"
@@ -58,5 +58,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.17"
+  "version": "0.0.18"
 }
