@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.12 (2021-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/trejgun/common-packages/issues/47)) ([06b9b84](https://github.com/trejgun/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+
+
+
+
+
 ## 0.0.11 (2021-05-06)
 
 **Note:** Version bump only for package @trejgun/nest-js-providers-ms
