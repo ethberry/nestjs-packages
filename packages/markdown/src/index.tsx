@@ -4,7 +4,7 @@ import {sanitize} from "dompurify";
 
 export const COMMENT = "[//]:#";
 
-interface IMarkdownProps {
+export interface IMarkdownProps {
   text: string;
 }
 

@@ -1,11 +1,11 @@
 module.exports = {
   stories: [
-    "../packages/**/*.stories.@(ts|tsx)"
+    "../packages/**/*.stories.@(ts|tsx)",
   ],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/preset-create-react-app"
+    "@storybook/preset-create-react-app",
   ],
   webpackFinal: config => {
     config.module.rules.push({
@@ -45,4 +45,4 @@ module.exports = {
     });
     return config;
   },
-}
+};
