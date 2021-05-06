@@ -60,7 +60,7 @@ export const MarkdownInput: FC<IRichTextFieldProps & TextFieldProps> = props => 
     controls,
     isFocused,
     label: localizedPlaceholder,
-    onStateChange: debounced.callback,
+    onStateChange: debounced,
     onFocus: () => setIsFocused(true),
     onBlur: () => setIsFocused(false),
   };
