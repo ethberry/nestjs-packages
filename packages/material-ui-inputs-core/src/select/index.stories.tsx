@@ -37,3 +37,10 @@ Simple.args = {
   name: "select",
   options: SelectOptions,
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  name: "select",
+  options: SelectOptions,
+  disabled: true,
+};

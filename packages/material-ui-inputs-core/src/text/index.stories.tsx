@@ -30,3 +30,9 @@ export const Simple = Template.bind({});
 Simple.args = {
   name: "text",
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  name: "text",
+  disabled: true,
+};

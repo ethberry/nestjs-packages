@@ -30,3 +30,9 @@ export const Simple = Template.bind({});
 Simple.args = {
   name: "textarea",
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  name: "textarea",
+  disabled: true,
+};

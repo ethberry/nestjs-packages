@@ -33,12 +33,18 @@ Simple.args = {
 
 export const Negative = Template.bind({});
 Negative.args = {
-  allowNegative: true,
   name: "number",
+  allowNegative: true,
 };
 
 export const ReadOnly = Template.bind({});
 ReadOnly.args = {
-  readOnly: true,
   name: "number",
+  readOnly: true,
+};
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  name: "number",
+  disabled: true,
 };

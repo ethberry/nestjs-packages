@@ -29,3 +29,9 @@ export const Simple = Template.bind({});
 Simple.args = {
   name: "switch",
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  name: "switch",
+  disabled: true,
+};

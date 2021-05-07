@@ -3,6 +3,7 @@ import {useIntl} from "react-intl";
 import {getIn, useFormikContext} from "formik";
 
 import {FormControlLabel, Slider, SliderProps} from "@material-ui/core";
+import {useStyles} from "./styles";
 
 export interface ISliderInputProps extends SliderProps {
   name: string;
@@ -11,6 +12,7 @@ export interface ISliderInputProps extends SliderProps {
 
 export const SliderInput: FC<ISliderInputProps> = props => {
   const {name, label, ...rest} = props;
+  const classes = useStyles();
 
   const suffix = name.split(".").pop() as string;
 
@@ -22,10 +24,13 @@ export const SliderInput: FC<ISliderInputProps> = props => {
 
   return (
     <FormControlLabel
+      labelPlacement="start"
+      classes={{root: classes.label}}
       control={
         <Slider
           name={name}
           value={value}
+          classes={{root: classes.slider}}
           onChange={(_event: ChangeEvent<unknown>, value): void => {
             formik.setFieldValue(name, value);
           }}
@@ -36,17 +41,4 @@ export const SliderInput: FC<ISliderInputProps> = props => {
       label={localizedLabel}
     />
   );
-  // <FormControl>
-  //   <InputLabel htmlFor="my-input">{localizedLabel}</InputLabel>
-  //   <Slider
-  //     name={name}
-  //     value={value}
-  //     onChange={(_event: ChangeEvent<unknown>, value): void => {
-  //       formik.setFieldValue(name, value);
-  //     }}
-  //     onBlur={formik.handleBlur}
-  //     {...rest}
-  //   />
-  //   <FormHelperText id="my-helper-text">Well never share your email.</FormHelperText>
-  // </FormControl>
 };

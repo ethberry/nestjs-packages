@@ -29,3 +29,9 @@ export const Simple = Template.bind({});
 Simple.args = {
   name: "checkbox",
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  name: "checkbox",
+  disabled: true,
+};

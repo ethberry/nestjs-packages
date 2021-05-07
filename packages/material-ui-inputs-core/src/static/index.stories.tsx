@@ -29,3 +29,9 @@ export const Simple = Template.bind({});
 Simple.args = {
   name: "static",
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  name: "static",
+  disabled: true,
+};

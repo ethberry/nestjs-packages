@@ -31,3 +31,11 @@ Simple.args = {
   min: 100,
   max: 1000,
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  name: "slider",
+  min: 100,
+  max: 1000,
+  disabled: true,
+};
