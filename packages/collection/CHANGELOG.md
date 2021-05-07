@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.289](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.0.288...@trejgun/collection@0.0.289) (2021-05-07)
+
+**Note:** Version bump only for package @trejgun/collection
+
+
+
+
+
 ## 0.0.288 (2021-05-06)
 
 
