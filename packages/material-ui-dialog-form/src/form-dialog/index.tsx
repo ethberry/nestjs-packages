@@ -4,7 +4,7 @@ import {ConfirmationDialog} from "@trejgun/material-ui-dialog-confirmation";
 import {ProgressOverlay} from "@trejgun/material-ui-progress";
 import {FormikForm} from "@trejgun/material-ui-form";
 
-interface IFormikFormProps<T> {
+export interface IFormikFormProps<T> {
   showButtons?: boolean;
   showPrompt?: boolean;
   onConfirm: (values: T, formikBag: any) => Promise<void> | void;
