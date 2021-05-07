@@ -1,11 +1,11 @@
 import {ApiPropertyOptional} from "@nestjs/swagger";
 
 import {IsString} from "@trejgun/nest-js-validators";
-import {IOrderDto, OrderDirection} from "@trejgun/types-collection";
+import {ISortDto, SortDirection} from "@trejgun/types-collection";
 
 import {SearchDto} from "./search";
 
-export class OrderDto<T> extends SearchDto implements IOrderDto<T> {
+export class SortDto<T> extends SearchDto implements ISortDto<T> {
   @ApiPropertyOptional()
   @IsString({
     required: false,
@@ -13,11 +13,11 @@ export class OrderDto<T> extends SearchDto implements IOrderDto<T> {
   public orderBy: keyof T;
 
   @ApiPropertyOptional({
-    enum: OrderDirection,
+    enum: SortDirection,
   })
   @IsString({
     required: false,
-    enum: OrderDirection,
+    enum: SortDirection,
   })
-  public order: OrderDirection;
+  public order: SortDirection;
 }
