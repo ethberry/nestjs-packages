@@ -1,11 +1,11 @@
 import {ApiPropertyOptional} from "@nestjs/swagger";
 
 import {IsString} from "@trejgun/nest-js-validators";
-import {ISearchFields} from "@trejgun/types-collection";
+import {ISearchDto} from "@trejgun/types-collection";
 
-import {CommonPaginationSchema} from "./pagination";
+import {PaginationDto} from "./pagination";
 
-export class CommonSearchSchema extends CommonPaginationSchema implements ISearchFields {
+export class SearchDto extends PaginationDto implements ISearchDto {
   @ApiPropertyOptional()
   @IsString({
     required: false,

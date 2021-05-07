@@ -2,11 +2,11 @@ import {Type} from "class-transformer";
 import {ApiPropertyOptional} from "@nestjs/swagger";
 
 import {IsNumber} from "@trejgun/nest-js-validators";
-import {IPaginationFields} from "@trejgun/types-collection";
+import {IPaginationDto} from "@trejgun/types-collection";
 
 import {defaultItemsPerPage} from "./constants";
 
-export class CommonPaginationSchema implements IPaginationFields {
+export class PaginationDto implements IPaginationDto {
   @ApiPropertyOptional({
     type: Number,
     default: 0,

@@ -1,5 +1,5 @@
-import {IPaginationFields} from "./pagination";
+import {IPaginationDto} from "./pagination";
 
-export interface ISearchFields extends IPaginationFields {
+export interface ISearchDto extends IPaginationDto {
   query: string;
 }

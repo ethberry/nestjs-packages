@@ -1,4 +1,4 @@
-export interface IPaginationFields {
+export interface IPaginationDto {
   skip: number;
   take: number;
 }
