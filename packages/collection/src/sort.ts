@@ -10,7 +10,7 @@ export class SortDto<T> extends SearchDto implements ISortDto<T> {
   @IsString({
     required: false,
   })
-  public orderBy: keyof T;
+  public sortBy: keyof T;
 
   @ApiPropertyOptional({
     enum: SortDirection,
@@ -19,5 +19,5 @@ export class SortDto<T> extends SearchDto implements ISortDto<T> {
     required: false,
     enum: SortDirection,
   })
-  public order: SortDirection;
+  public sort: SortDirection;
 }

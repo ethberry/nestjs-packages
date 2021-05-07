@@ -6,6 +6,6 @@ export enum SortDirection {
 }
 
 export interface ISortDto<T> extends ISearchDto {
-  order: SortDirection;
-  orderBy: keyof T;
+  sort: SortDirection;
+  sortBy: keyof T;
 }
