@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@trejgun/firebase": "0.0.104",
-    "@trejgun/material-ui-inputs-file": "0.0.175"
+    "@trejgun/material-ui-inputs-file": "0.0.176"
   },
   "description": "react widget",
   "devDependencies": {
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.178"
+  "version": "0.0.179"
 }

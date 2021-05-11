@@ -7,9 +7,9 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-dialog-confirmation": "0.0.170",
-    "@trejgun/material-ui-inputs-core": "0.0.181",
-    "@trejgun/material-ui-inputs-file-s3": "0.0.20",
+    "@trejgun/material-ui-dialog-confirmation": "0.0.171",
+    "@trejgun/material-ui-inputs-core": "0.0.182",
+    "@trejgun/material-ui-inputs-file-s3": "0.0.21",
     "@trejgun/material-ui-progress": "0.0.156",
     "@trejgun/provider-api": "0.0.67",
     "notistack": "1.0.7",
@@ -66,5 +66,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.21"
+  "version": "0.0.22"
 }
