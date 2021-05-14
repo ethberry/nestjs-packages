@@ -16,7 +16,7 @@ export class WinstonConfigService {
 
     const nodeEnv = this.configService.get<string>("NODE_ENV", "development");
 
-    if (nodeEnv === "production") {
+    if (nodeEnv === "production" || nodeEnv === "staging") {
       adaptors.push(
         new PapertrailTransport({
           host: this.configService.get<string>("PAPERTRAIL_HOST", "localhost"),
