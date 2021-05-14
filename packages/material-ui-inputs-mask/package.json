@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-inputs-core": "0.0.182",
+    "@trejgun/material-ui-inputs-core": "0.0.183",
     "imask": "6.0.7",
     "react-imask": "6.0.7"
   },
@@ -54,5 +54,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.179"
+  "version": "0.0.180"
 }

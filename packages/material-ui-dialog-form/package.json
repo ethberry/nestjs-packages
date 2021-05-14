@@ -7,14 +7,14 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-dialog-confirmation": "0.0.171",
-    "@trejgun/material-ui-form": "0.0.175",
-    "@trejgun/material-ui-progress": "0.0.156"
+    "@trejgun/material-ui-dialog-confirmation": "0.0.172",
+    "@trejgun/material-ui-form": "0.0.176",
+    "@trejgun/material-ui-progress": "0.0.157"
   },
   "description": "react widget",
   "devDependencies": {
     "@storybook/react": "6.2.9",
-    "@trejgun/material-ui-inputs-core": "0.0.182",
+    "@trejgun/material-ui-inputs-core": "0.0.183",
     "history": "4.10.1",
     "react": "17.0.2",
     "react-intl": "5.17.5",
@@ -51,5 +51,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.176"
+  "version": "0.0.177"
 }
