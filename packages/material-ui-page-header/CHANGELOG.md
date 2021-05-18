@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.173](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.172...@trejgun/material-ui-page-header@0.0.173) (2021-05-18)
+
+**Note:** Version bump only for package @trejgun/material-ui-page-header
+
+
+
+
+
 ## 0.0.172 (2021-05-14)
 
 **Note:** Version bump only for package @trejgun/material-ui-page-header

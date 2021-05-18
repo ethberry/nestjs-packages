@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "@trejgun/firebase": "0.0.105",
-    "@trejgun/material-ui-dialog-confirmation": "0.0.172",
-    "@trejgun/material-ui-inputs-core": "0.0.183",
-    "@trejgun/material-ui-inputs-file-firebase": "0.0.180",
+    "@trejgun/material-ui-dialog-confirmation": "0.0.173",
+    "@trejgun/material-ui-inputs-core": "0.0.184",
+    "@trejgun/material-ui-inputs-file-firebase": "0.0.181",
     "@trejgun/material-ui-progress": "0.0.157",
     "@trejgun/provider-api": "0.0.68",
     "notistack": "1.0.8",
@@ -67,5 +67,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.177"
+  "version": "0.0.178"
 }

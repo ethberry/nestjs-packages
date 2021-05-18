@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-inputs-file": "0.0.177",
+    "@trejgun/material-ui-inputs-file": "0.0.178",
     "@trejgun/provider-api": "0.0.68",
     "react-s3-uploader": "5.0.0"
   },
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.22"
+  "version": "0.0.23"
 }

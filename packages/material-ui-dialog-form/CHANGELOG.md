@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.178](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-dialog-form@0.0.177...@trejgun/material-ui-dialog-form@0.0.178) (2021-05-18)
+
+**Note:** Version bump only for package @trejgun/material-ui-dialog-form
+
+
+
+
+
 ## 0.0.177 (2021-05-14)
 
 **Note:** Version bump only for package @trejgun/material-ui-dialog-form

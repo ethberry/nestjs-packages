@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.23](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-file-s3@0.0.22...@trejgun/material-ui-inputs-file-s3@0.0.23) (2021-05-18)
+
+**Note:** Version bump only for package @trejgun/material-ui-inputs-file-s3
+
+
+
+
+
 ## 0.0.22 (2021-05-14)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-file-s3
