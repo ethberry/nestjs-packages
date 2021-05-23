@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.110 (2021-05-23)
+
+
+### Bug Fixes
+
+* typeOrm config logging ([7734340](https://github.com/trejgun/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+
+
+
+
+
 ## 0.0.109 (2021-05-14)
 
 **Note:** Version bump only for package @trejgun/markdown

@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-inputs-file": "0.0.178",
-    "@trejgun/provider-api": "0.0.68",
+    "@trejgun/material-ui-inputs-file": "0.0.179",
+    "@trejgun/provider-api": "0.0.69",
     "react-s3-uploader": "5.0.0"
   },
   "description": "react widget",
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.23"
+  "version": "0.0.24"
 }
