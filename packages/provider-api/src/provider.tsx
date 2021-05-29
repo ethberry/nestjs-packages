@@ -34,8 +34,8 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
     let jwt = getToken();
 
     if (jwt) {
-      if (jwt.accessTokenExpiresAt < new Date().getTime()) {
-        if (jwt.refreshTokenExpiresAt! < new Date().getTime()) {
+      if (jwt.accessTokenExpiresAt < Date.now()) {
+        if (jwt.refreshTokenExpiresAt! < Date.now()) {
           history.push("/login");
           setToken(null);
           throw Object.assign(new Error("unauthorized"), {status: 401});
@@ -68,39 +68,39 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
     return jwt ? jwt.accessToken : "";
   };
 
-  const prepare = (fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>) => async (
-    props: IFetchProps,
-  ): Promise<any> => {
-    const {url, method = "GET", data = {}} = props;
-    const newUrl = new URL(`${process.env.BE_URL}${url}`);
-    const hasData = method === "POST" || method === "PUT" || method === "PATCH";
+  const prepare =
+    (fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>) =>
+    async (props: IFetchProps): Promise<any> => {
+      const {url, method = "GET", data = {}} = props;
+      const newUrl = new URL(`${process.env.BE_URL}${url}`);
+      const hasData = method === "POST" || method === "PUT" || method === "PATCH";
 
-    const headers = new Headers();
-    headers.append("Accept", "application/json");
-    headers.append("Authorization", `Bearer ${await getAuthToken()}`);
+      const headers = new Headers();
+      headers.append("Accept", "application/json");
+      headers.append("Authorization", `Bearer ${await getAuthToken()}`);
 
-    if (!(data instanceof FormData)) {
-      if (hasData) {
-        headers.append("Content-Type", "application/json; charset=utf-8");
-      } else {
-        Object.keys(data).forEach(key => {
-          if (Array.isArray(data[key])) {
-            data[key].map((value: string) => newUrl.searchParams.append(`${key}[]`, value));
-          } else {
-            newUrl.searchParams.append(key, data[key]);
-          }
-        });
+      if (!(data instanceof FormData)) {
+        if (hasData) {
+          headers.append("Content-Type", "application/json; charset=utf-8");
+        } else {
+          Object.keys(data).forEach(key => {
+            if (Array.isArray(data[key])) {
+              data[key].map((value: string) => newUrl.searchParams.append(`${key}[]`, value));
+            } else {
+              newUrl.searchParams.append(key, data[key]);
+            }
+          });
+        }
       }
-    }
 
-    return fetch(newUrl.toString(), {
-      headers: headers,
-      credentials: "include",
-      mode: "cors",
-      method,
-      body: hasData ? (data instanceof FormData ? data : JSON.stringify(data)) : void 0,
-    });
-  };
+      return fetch(newUrl.toString(), {
+        headers: headers,
+        credentials: "include",
+        mode: "cors",
+        method,
+        body: hasData ? (data instanceof FormData ? data : JSON.stringify(data)) : void 0,
+      });
+    };
 
   return (
     <ApiContext.Provider
