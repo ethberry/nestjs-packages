@@ -7,12 +7,12 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/firebase": "0.0.106",
-    "@trejgun/material-ui-dialog-confirmation": "0.0.174",
-    "@trejgun/material-ui-inputs-core": "0.0.185",
-    "@trejgun/material-ui-inputs-file-firebase": "0.0.182",
-    "@trejgun/material-ui-progress": "0.0.158",
-    "@trejgun/provider-api": "0.0.69",
+    "@trejgun/firebase": "0.0.107",
+    "@trejgun/material-ui-dialog-confirmation": "0.0.175",
+    "@trejgun/material-ui-inputs-core": "0.0.186",
+    "@trejgun/material-ui-inputs-file-firebase": "0.0.183",
+    "@trejgun/material-ui-progress": "0.0.159",
+    "@trejgun/provider-api": "0.0.70",
     "notistack": "1.0.9",
     "react-beautiful-dnd": "13.1.0"
   },
@@ -64,5 +64,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.179"
+  "version": "0.0.180"
 }

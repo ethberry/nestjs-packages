@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "chalk": "4.1.1",
+    "logdna-winston": "3.0.5",
     "winston": "3.3.3",
     "winston-papertrail-transport": "1.0.9",
-    "winston-transport": "4.4.0",
-    "logdna-winston": "3.0.5"
+    "winston-transport": "4.4.0"
   },
   "devDependencies": {
     "@nestjs/common": "7.6.17",
@@ -48,5 +48,5 @@
   },
   "title": "nestjs winston module",
   "types": "./dist/index.d.ts",
-  "version": "0.0.173"
+  "version": "0.0.174"
 }

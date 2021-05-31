@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.155 (2021-05-31)
+
+**Note:** Version bump only for package @trejgun/material-ui-icons-social-networks
+
+
+
+
+
 ## 0.0.154 (2021-05-23)
 
 

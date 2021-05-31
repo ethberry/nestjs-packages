@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.98 (2021-05-31)
+
+**Note:** Version bump only for package @trejgun/constants-validation
+
+
+
+
+
 ## 0.0.97 (2021-05-23)
 
 

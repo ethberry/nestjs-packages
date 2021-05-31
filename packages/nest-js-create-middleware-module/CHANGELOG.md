@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.35 (2021-05-31)
+
+**Note:** Version bump only for package @trejgun/nest-js-create-middleware-module
+
+
+
+
+
 ## 0.0.34 (2021-05-23)
 
 

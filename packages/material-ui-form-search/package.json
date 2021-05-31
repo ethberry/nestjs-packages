@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-form": "0.0.178",
-    "@trejgun/material-ui-inputs-core": "0.0.185"
+    "@trejgun/material-ui-form": "0.0.179",
+    "@trejgun/material-ui-inputs-core": "0.0.186"
   },
   "description": "react widget",
   "devDependencies": {
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.130"
+  "version": "0.0.131"
 }
