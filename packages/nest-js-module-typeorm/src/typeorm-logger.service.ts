@@ -8,7 +8,7 @@ export class TypeOrmLoggerService implements TypeOrmLogger {
 
   constructor(@Inject(Logger) private readonly loggerService: LoggerService) {}
 
-  public setOptions(options: TypeOrmLoggerOptions) {
+  public setOptions(options: TypeOrmLoggerOptions = "all") {
     this.options = options;
   }
 
