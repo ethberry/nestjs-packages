@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.204 (2021-06-01)
+
+
+### Features
+
+* send app name to logDna ([df3476a](https://github.com/trejgun/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+
+
+
+
+
 ## 0.0.203 (2021-05-31)
 
 **Note:** Version bump only for package @trejgun/nest-js-providers
