@@ -8,6 +8,7 @@ import {format, transports} from "winston";
 import Transport from "winston-transport";
 import chalk from "chalk";
 import os from "os";
+import path from "path";
 
 @Injectable()
 export class WinstonConfigService {
@@ -37,7 +38,7 @@ export class WinstonConfigService {
           new LogdnaWinstonTransport({
             key: logdnaIngestionKey,
             hostname: os.hostname(),
-            app: nodeEnv,
+            app: path.basename(process.cwd()),
             env: nodeEnv,
           }),
         );
