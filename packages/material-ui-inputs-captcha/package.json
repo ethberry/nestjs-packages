@@ -40,7 +40,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",

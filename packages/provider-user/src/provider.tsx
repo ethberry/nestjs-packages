@@ -44,10 +44,10 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
 
   const sync = (url?: string): Promise<void> => {
     return api
-      .fetch({
+      .fetchJson({
         url: "/profile",
       })
-      .then(({json}) => {
+      .then((json: T) => {
         logIn(json);
         if (isAuthenticated()) {
           if (url) {

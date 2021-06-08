@@ -7,7 +7,7 @@ export class ApiError extends Error {
 
   getLocalizedValidationErrors(): Record<string, string> {
     if (this.status === 400) {
-      return localizeErrors((this.message as unknown) as Array<IValidationError>);
+      return localizeErrors(this.message as unknown as Array<IValidationError>);
     }
     return {};
   }

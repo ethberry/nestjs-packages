@@ -27,6 +27,7 @@
   "main": "./dist/index.js",
   "name": "@trejgun/material-ui-form",
   "peerDependencies": {
+    "@material-ui/core": "^4",
     "formik": "^2",
     "react": "^17",
     "react-intl": "^5",
@@ -41,7 +42,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
