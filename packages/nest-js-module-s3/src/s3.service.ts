@@ -14,9 +14,9 @@ export class S3Service {
     private readonly options: IS3Options,
   ) {}
 
-  getObject({objectName}: IS3GetFields): Promise<IS3Result> {
+  getObject({objectName, bucket}: IS3GetFields): Promise<IS3Result> {
     const params = {
-      Bucket: this.options.bucket,
+      Bucket: bucket || this.options.bucket,
       Key: objectName,
     };
 
@@ -25,11 +25,11 @@ export class S3Service {
     }));
   }
 
-  putObject({contentType}: IS3PutFields): Promise<IS3Result> {
+  putObject({contentType, bucket}: IS3PutFields): Promise<IS3Result> {
     const filename = `${v4()}.${contentType.split("/")[1]}`;
 
     const params = {
-      Bucket: this.options.bucket,
+      Bucket: bucket || this.options.bucket,
       Key: filename,
       Expires: 60,
       ContentType: contentType,
@@ -41,9 +41,9 @@ export class S3Service {
     }));
   }
 
-  deleteObject({objectName}: IS3DeleteFields): Promise<any> {
+  deleteObject({objectName, bucket}: IS3DeleteFields): Promise<any> {
     const params = {
-      Bucket: this.options.bucket,
+      Bucket: bucket || this.options.bucket,
       Key: objectName,
     };
 

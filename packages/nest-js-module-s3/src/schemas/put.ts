@@ -16,4 +16,10 @@ export class S3PutSchema implements IS3PutFields {
     required: true,
   })
   public contentType: string;
+
+  @ApiProperty()
+  @IsString({
+    required: false,
+  })
+  public bucket: string;
 }
