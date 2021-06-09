@@ -11,9 +11,9 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "17.0.8",
+    "@types/react": "17.0.9",
     "react": "17.0.2",
-    "react-intl": "5.18.1"
+    "react-intl": "5.20.1"
   },
   "engines": {
     "node": ">=10"
