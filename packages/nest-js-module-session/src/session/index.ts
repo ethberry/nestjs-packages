@@ -21,7 +21,7 @@ export const SessionModule = createModule<ISessionOptions>(options => {
       secure,
       maxAge: maxAge * 1000,
       signed: false,
-      sameSite: "none",
+      sameSite: secure ? "none" : "lax",
     },
     name,
     resave: false,
