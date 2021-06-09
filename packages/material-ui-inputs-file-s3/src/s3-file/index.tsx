@@ -10,13 +10,18 @@ export interface IS3Result {
 }
 
 interface IS3FileInputProps extends Omit<IFileInputProps, "onChange"> {
-  onProgress?: (percent: number, status: string, file: File) => void;
+  baseUrl?: string;
+  bucket?: string;
   onChange: (url: string) => void;
+  onError?: (message: string) => void;
+  onProgress?: (percent: number, status: string, file: File) => void;
   validate?: (files: File[]) => Promise<boolean>;
 }
 
 export const S3FileInput: FC<IS3FileInputProps> = props => {
-  const {onChange, onProgress, validate, ...rest} = props;
+  const {bucket = process.env.AWS_S3_BUCKET, onChange, onError, onProgress, validate, ...rest} = props;
+
+  const {baseUrl = `https://${bucket}.s3-${process.env.AWS_REGION}.amazonaws.com`} = props;
 
   const api = useContext<IApiContext<IAuth>>(ApiContext);
 
@@ -27,7 +32,7 @@ export const S3FileInput: FC<IS3FileInputProps> = props => {
     const isValid = validate ? await validate(files) : true;
 
     if (!isValid) {
-      console.error("Provided file is not valid", files);
+      console.error("Manifest is missing in zip file in", files);
       return;
     }
 
@@ -36,20 +41,20 @@ export const S3FileInput: FC<IS3FileInputProps> = props => {
       files,
       signingUrl: "/s3/put",
       onFinishS3Put: (data: IS3Result) => {
-        onChange(
-          `https://${process.env.AWS_S3_BUCKET}.s3-${process.env.AWS_REGION}.amazonaws.com${
-            new URL(data.signedUrl).pathname
-          }`,
-        );
+        onChange(`${baseUrl}${new URL(data.signedUrl).pathname}`);
       },
-      onProgress: onProgress,
-      onError: console.error,
+      onProgress: onProgress || (() => {}),
+      onError: onError || (() => {}),
       signingUrlMethod: "GET",
       signingUrlWithCredentials: true,
       server: process.env.BE_URL,
       signingUrlHeaders: {
         // @ts-ignore
         authorization: authToken ? `Bearer ${authToken}` : "",
+      },
+      signingUrlQueryParams: {
+        // @ts-ignore
+        bucket,
       },
     });
   }, []);
