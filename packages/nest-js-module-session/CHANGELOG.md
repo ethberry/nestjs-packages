@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-session@0.0.24...@trejgun/nest-js-module-session@0.1.0) (2021-06-09)
+
+
+### Bug Fixes
+
+* chrome 91 ([dc12945](https://github.com/trejgun/common-packages/commit/dc1294598d9b437dd996c6466f46ea9b54fa74d9))
+
+
+### Features
+
+* use fetchJson ([fc3d86e](https://github.com/trejgun/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+
+
+
+
+
 ## 0.0.24 (2021-06-01)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-create-middleware-module@0.0.36...@trejgun/nest-js-create-middleware-module@0.1.0) (2021-06-09)
+
+
+### Features
+
+* use fetchJson ([fc3d86e](https://github.com/trejgun/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+
+
+
+
+
 ## 0.0.36 (2021-06-01)
 
 

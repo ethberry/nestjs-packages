@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-toolbar": "0.0.165"
+    "@trejgun/material-ui-toolbar": "0.1.0"
   },
   "description": "react widget",
   "devDependencies": {
@@ -51,5 +51,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.180"
+  "version": "0.1.0"
 }
