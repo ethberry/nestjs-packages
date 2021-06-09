@@ -10,7 +10,7 @@
     "@nestjs/common": "7.6.17",
     "@nestjs/config": "0.6.3",
     "@nestjs/typeorm": "7.1.5",
-    "typeorm": "0.2.32"
+    "typeorm": "0.2.34"
   },
   "engines": {
     "node": ">=10"
