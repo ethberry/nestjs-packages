@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "aws-sdk": "2.918.0"
+    "aws-sdk": "2.924.0"
   },
   "devDependencies": {
     "@nestjs/common": "7.6.17"
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -43,5 +43,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.30"
+  "version": "0.1.2"
 }

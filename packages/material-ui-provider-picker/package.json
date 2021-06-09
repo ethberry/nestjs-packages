@@ -33,7 +33,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -42,5 +42,5 @@
   "sideEffects": false,
   "title": "-=Material UI=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.153"
+  "version": "0.1.2"
 }

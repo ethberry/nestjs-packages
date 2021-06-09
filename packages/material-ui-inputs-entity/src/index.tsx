@@ -45,11 +45,11 @@ export const EntityInput: FC<IEntityInputProps> = props => {
   const fetchOptions = async (): Promise<void> => {
     setIsLoading(true);
     return api
-      .fetch({
+      .fetchJson({
         url: `/${controller}/autocomplete`,
         data,
       })
-      .then(({json}: {json: Array<any>}) => {
+      .then((json: Array<any>) => {
         setOptions(json);
       })
       .catch(e => {

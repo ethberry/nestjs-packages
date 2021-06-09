@@ -10,7 +10,7 @@
     "@nestjs/common": "7.6.17",
     "@nestjs/config": "0.6.3",
     "@nestjs/typeorm": "7.1.5",
-    "typeorm": "0.2.32"
+    "typeorm": "0.2.34"
   },
   "engines": {
     "node": ">=10"
@@ -34,7 +34,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -42,5 +42,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "0.0.173"
+  "version": "0.1.2"
 }

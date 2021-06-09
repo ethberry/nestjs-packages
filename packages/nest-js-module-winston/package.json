@@ -40,7 +40,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -48,5 +48,5 @@
   },
   "title": "nestjs winston module",
   "types": "./dist/index.d.ts",
-  "version": "0.0.175"
+  "version": "0.1.2"
 }

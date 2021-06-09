@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.2 (2021-06-09)
+
+**Note:** Version bump only for package @trejgun/provider-api
+
+
+
+
+
+## 0.1.1 (2021-06-09)
+
+**Note:** Version bump only for package @trejgun/provider-api
+
+
+
+
+
+# [0.1.0](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.0.71...@trejgun/provider-api@0.1.0) (2021-06-09)
+
+
+### Bug Fixes
+
+* get errors from nested schema for localizeErrors ([#65](https://github.com/trejgun/common-packages/issues/65)) ([c7c6f71](https://github.com/trejgun/common-packages/commit/c7c6f716581d599afd75fdbb40ce03c533e6b182))
+
+
+### Features
+
+* use fetchJson ([fc3d86e](https://github.com/trejgun/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+
+
+
+
+
 ## 0.0.71 (2021-06-01)
 
 

@@ -14,10 +14,10 @@
   "devDependencies": {
     "@material-ui/core": "4.11.4",
     "@material-ui/icons": "4.11.2",
-    "@types/react": "17.0.8",
+    "@types/react": "17.0.9",
     "notistack": "1.0.9",
     "react": "17.0.2",
-    "react-intl": "5.18.1"
+    "react-intl": "5.20.1"
   },
   "engines": {
     "node": ">=10"
@@ -42,7 +42,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -51,5 +51,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.181"
+  "version": "0.1.2"
 }

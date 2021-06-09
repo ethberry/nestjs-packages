@@ -12,19 +12,17 @@ export const useDeleteUrl = (): ((url: string) => Promise<void>) => {
 
   return async (url: string): Promise<void> => {
     await api
-      .fetch({
+      .fetchJson({
         url: "/s3/delete",
         data: {
           objectName: url.split("/").pop(),
         },
       })
-      .then(data => {
-        // eslint-disable-next-line no-console
-        console.log("data", data);
+      .then(() => {
         enqueueSnackbar(formatMessage({id: "snackbar.deleted"}), {variant: "success"});
       })
-      .catch(error => {
-        console.error("error", error);
+      .catch(e => {
+        console.error(e);
         enqueueSnackbar(formatMessage({id: "snackbar.error"}), {variant: "error"});
       });
   };

@@ -32,7 +32,7 @@ export const S3FileInput: FC<IS3FileInputProps> = props => {
     const isValid = validate ? await validate(files) : true;
 
     if (!isValid) {
-      console.error("Manifest is missing in zip file in", files);
+      console.error("Provided file is not valid", files);
       return;
     }
 

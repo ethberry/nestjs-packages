@@ -12,11 +12,11 @@
   "description": "react widget",
   "devDependencies": {
     "@material-ui/core": "4.11.4",
-    "@types/react": "17.0.8",
+    "@types/react": "17.0.9",
     "@types/react-google-recaptcha": "2.1.0",
-    "formik": "2.2.8",
+    "formik": "2.2.9",
     "react": "17.0.2",
-    "react-intl": "5.18.1"
+    "react-intl": "5.20.1"
   },
   "engines": {
     "node": ">=10"
@@ -40,7 +40,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -49,5 +49,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.181"
+  "version": "0.1.2"
 }

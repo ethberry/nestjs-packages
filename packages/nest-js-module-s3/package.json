@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/nest-js-validators": "0.0.216",
-    "aws-sdk": "2.918.0",
+    "@trejgun/nest-js-validators": "0.1.2",
+    "aws-sdk": "2.924.0",
     "uuid": "8.3.2"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -44,5 +44,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.30"
+  "version": "0.1.2"
 }

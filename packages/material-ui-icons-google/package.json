@@ -34,7 +34,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -43,5 +43,5 @@
   "sideEffects": false,
   "title": "Material UI Google flat icons",
   "types": "./dist/index.d.ts",
-  "version": "0.0.159"
+  "version": "0.1.2"
 }

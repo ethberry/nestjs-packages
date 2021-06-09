@@ -13,10 +13,10 @@
   "devDependencies": {
     "@material-ui/core": "4.11.4",
     "@material-ui/pickers": "4.0.0-alpha.12",
-    "@types/react": "17.0.8",
-    "formik": "2.2.8",
+    "@types/react": "17.0.9",
+    "formik": "2.2.9",
     "react": "17.0.2",
-    "react-intl": "5.18.1"
+    "react-intl": "5.20.1"
   },
   "engines": {
     "node": ">=10"
@@ -41,7 +41,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -50,5 +50,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.185"
+  "version": "0.1.2"
 }

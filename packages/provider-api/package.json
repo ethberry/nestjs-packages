@@ -7,13 +7,13 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/history": "0.0.103",
+    "@trejgun/history": "0.1.2",
     "content-disposition": "0.5.3"
   },
   "description": "react context provider",
   "devDependencies": {
     "@types/content-disposition": "0.5.3",
-    "@types/react": "17.0.8",
+    "@types/react": "17.0.9",
     "react": "17.0.2"
   },
   "engines": {
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.71"
+  "version": "0.1.2"
 }

@@ -7,15 +7,15 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "dompurify": "2.2.8",
-    "marked": "2.0.6"
+    "dompurify": "2.2.9",
+    "marked": "2.0.7"
   },
   "description": "react widget",
   "devDependencies": {
     "@storybook/react": "6.2.9",
     "@types/dompurify": "2.2.2",
     "@types/marked": "2.0.3",
-    "@types/react": "17.0.8",
+    "@types/react": "17.0.9",
     "react": "17.0.2"
   },
   "engines": {
@@ -37,7 +37,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix --ext .ts,.tsx",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.112"
+  "version": "0.1.2"
 }
