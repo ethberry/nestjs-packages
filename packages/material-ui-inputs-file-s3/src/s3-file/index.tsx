@@ -12,16 +12,24 @@ export interface IS3Result {
 interface IS3FileInputProps extends Omit<IFileInputProps, "onChange"> {
   onProgress?: (percent: number, status: string, file: File) => void;
   onChange: (url: string) => void;
+  validate?: (files: File[]) => Promise<boolean>;
 }
 
 export const S3FileInput: FC<IS3FileInputProps> = props => {
-  const {onChange, onProgress, ...rest} = props;
+  const {onChange, onProgress, validate, ...rest} = props;
 
   const api = useContext<IApiContext<IAuth>>(ApiContext);
 
-  const handleChange = useCallback((files: Array<File>): void => {
+  const handleChange = useCallback(async (files: Array<File>): Promise<void> => {
     // @ts-ignore
     const authToken = api.getToken().accessToken;
+
+    const isValid = validate ? await validate(files) : true;
+
+    if (!isValid) {
+      console.error("Provided file is not valid", files);
+      return;
+    }
 
     // eslint-disable-next-line no-new
     new S3Upload({
