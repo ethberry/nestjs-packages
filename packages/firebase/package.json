@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "firebase": "8.6.5"
+    "firebase": "8.6.7"
   },
   "description": "firebase config",
   "engines": {

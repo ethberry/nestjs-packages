@@ -13,10 +13,10 @@
   "devDependencies": {
     "@material-ui/core": "4.11.4",
     "@material-ui/pickers": "4.0.0-alpha.12",
-    "@types/react": "17.0.10",
+    "@types/react": "17.0.11",
     "formik": "2.2.9",
     "react": "17.0.2",
-    "react-intl": "5.20.1"
+    "react-intl": "5.20.2"
   },
   "engines": {
     "node": ">=10"
