@@ -10,4 +10,10 @@ export class S3GetSchema implements IS3GetFields {
     required: true,
   })
   public objectName: string;
+
+  @ApiProperty()
+  @IsString({
+    required: false,
+  })
+  public bucket: string;
 }

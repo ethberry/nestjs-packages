@@ -10,4 +10,10 @@ export class S3DeleteSchema implements IS3DeleteFields {
     required: true,
   })
   public objectName: string;
+
+  @ApiProperty()
+  @IsString({
+    required: false,
+  })
+  public bucket: string;
 }
