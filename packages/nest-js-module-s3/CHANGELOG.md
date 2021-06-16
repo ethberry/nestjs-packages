@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-s3@0.1.2...@trejgun/nest-js-module-s3@0.2.0) (2021-06-16)
+
+
+### Features
+
+* implement consuming bucket for nest-js-module-s3 ([f155bd2](https://github.com/trejgun/common-packages/commit/f155bd23c8316889c21b213ee992d41182b963d8))
+
+
+
+
+
 ## 0.1.2 (2021-06-09)
 
 **Note:** Version bump only for package @trejgun/nest-js-module-s3

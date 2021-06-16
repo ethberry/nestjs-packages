@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-file-s3@0.1.3...@trejgun/material-ui-inputs-file-s3@0.2.0) (2021-06-16)
+
+
+### Features
+
+* implement consuming bucket for inputs-file-s3 ([a27afea](https://github.com/trejgun/common-packages/commit/a27afea1351932d24c0339f5c7b51b1a0263755a))
+* implement custom validation for input-file-s3 ([be510f0](https://github.com/trejgun/common-packages/commit/be510f08b049b00256cb4a04949e7e9f3e8df557))
+
+
+
+
+
 ## [0.1.3](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-file-s3@0.1.2...@trejgun/material-ui-inputs-file-s3@0.1.3) (2021-06-09)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-file-s3
