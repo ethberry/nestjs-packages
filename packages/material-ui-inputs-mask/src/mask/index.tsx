@@ -61,7 +61,7 @@ export const MaskedInput: FC<IMaskedInputProps & TextFieldProps> = props => {
   return (
     <TextInput
       name={name}
-      value={value || defaultValue || ""}
+      value={value || defaultValue}
       onBlur={() => {}}
       onFocus={() => {}}
       onChange={() => {}}
