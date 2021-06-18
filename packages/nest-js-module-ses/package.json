@@ -7,10 +7,10 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "aws-sdk": "2.928.0"
+    "aws-sdk": "2.931.0"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.17"
+    "@nestjs/common": "7.6.18"
   },
   "peerDependenciesMeta": {
     "@nestjs/common": "7"
