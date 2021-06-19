@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-mask@0.1.5...@trejgun/material-ui-inputs-mask@0.1.6) (2021-06-19)
+
+
+### Bug Fixes
+
+* currency input ([834d69d](https://github.com/trejgun/common-packages/commit/834d69d27c8a7639c7bc67d4727ead3409f43639))
+
+
+
+
+
 ## [0.1.5](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-mask@0.1.4...@trejgun/material-ui-inputs-mask@0.1.5) (2021-06-16)
 
 
