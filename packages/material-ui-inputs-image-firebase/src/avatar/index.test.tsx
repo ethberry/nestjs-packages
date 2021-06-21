@@ -118,7 +118,7 @@ describe("<AvatarInput />", () => {
         avatar: "form.validations.valueMissing",
       },
       initialTouched: {
-        avatar: "form.validations.valueMissing",
+        avatar: true,
       },
     };
 
