@@ -116,6 +116,9 @@ describe("<AvatarInput />", () => {
       initialErrors: {
         avatar: "form.validations.valueMissing",
       },
+      initialTouched: {
+        avatar: "form.validations.valueMissing",
+      },
     };
 
     const {asFragment} = render(
