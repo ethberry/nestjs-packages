@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.2.0...@trejgun/provider-api@0.2.1) (2021-06-21)
+
+
+### Bug Fixes
+
+* redirect to login if 402 ([ed0bcd8](https://github.com/trejgun/common-packages/commit/ed0bcd878c67367c005a57d604ea89b87bb202fd))
+
+
+
+
+
 # [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.1.4...@trejgun/provider-api@0.2.0) (2021-06-19)
 
 

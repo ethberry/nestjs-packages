@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-image-s3@0.1.6...@trejgun/material-ui-inputs-image-s3@0.1.7) (2021-06-21)
+
+
+### Bug Fixes
+
+* fix gitignore, add env sample and fix tests formik value ([26c2c72](https://github.com/trejgun/common-packages/commit/26c2c72a2bd121154c35866edbc71ef45e41e280))
+* image-s3 test ([24604d3](https://github.com/trejgun/common-packages/commit/24604d395cc21e2520f9bd35904128b56ca5d28c))
+
+
+
+
+
 ## [0.1.6](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-image-s3@0.1.5...@trejgun/material-ui-inputs-image-s3@0.1.6) (2021-06-19)
 
 

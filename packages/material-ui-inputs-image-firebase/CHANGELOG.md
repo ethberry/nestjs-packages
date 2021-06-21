@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-image-firebase@0.1.6...@trejgun/material-ui-inputs-image-firebase@0.1.7) (2021-06-21)
+
+
+### Bug Fixes
+
+* fix gitignore, add env sample and fix tests formik value ([26c2c72](https://github.com/trejgun/common-packages/commit/26c2c72a2bd121154c35866edbc71ef45e41e280))
+* image-firebase test and env issue ([019b321](https://github.com/trejgun/common-packages/commit/019b3216c734c5515bc7029e56c3d547bf2002d9))
+
+
+
+
+
 ## [0.1.6](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-image-firebase@0.1.5...@trejgun/material-ui-inputs-image-firebase@0.1.6) (2021-06-19)
 
 
