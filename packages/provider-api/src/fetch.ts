@@ -52,6 +52,10 @@ export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> 
     if (response.status === 204) {
       return;
     }
+    if (response.status === 401) {
+      history.push("/login");
+      return;
+    }
     if (![200, 201].includes(response.status)) {
       return response.json().then(json => {
         throw new ApiError(json.message, response.status);
@@ -76,6 +80,10 @@ export const saveData = (blob: Blob, fileName: string): void => {
 export const fetchFile = (input: RequestInfo, init?: RequestInit): Promise<void> => {
   return window.fetch(input, init).then(async response => {
     if (response.status === 204) {
+      return;
+    }
+    if (response.status === 401) {
+      history.push("/login");
       return;
     }
     if (![200, 201].includes(response.status)) {
