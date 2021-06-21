@@ -5,6 +5,7 @@ import {createMuiTheme, MuiThemeProvider} from "@material-ui/core";
 import {Formik} from "formik";
 import {SnackbarProvider} from "notistack";
 
+import "../env";
 import {AvatarInput} from "./";
 
 afterEach(cleanup);
@@ -114,6 +115,9 @@ describe("<AvatarInput />", () => {
       onChange: jest.fn(),
       initialValues: {},
       initialErrors: {
+        avatar: "form.validations.valueMissing",
+      },
+      initialTouched: {
         avatar: "form.validations.valueMissing",
       },
     };
