@@ -7,9 +7,9 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/constants-regexp": "0.1.2",
-    "@trejgun/constants-validation": "0.1.2",
-    "@trejgun/provider-api": "0.2.1",
+    "@trejgun/constants-regexp": "0.1.3",
+    "@trejgun/constants-validation": "0.1.3",
+    "@trejgun/provider-api": "0.2.2",
     "yup": "0.32.9"
   },
   "description": "yup rules",
@@ -38,5 +38,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.6"
+  "version": "0.1.7"
 }

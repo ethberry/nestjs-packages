@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.1 (2021-06-24)
+
+**Note:** Version bump only for package @trejgun/nest-js-module-mailjet
+
+
+
+
+
 # [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-mailjet@0.1.3...@trejgun/nest-js-module-mailjet@0.2.0) (2021-06-19)
 
 
