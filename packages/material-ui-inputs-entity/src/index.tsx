@@ -11,6 +11,7 @@ import {ApiContext} from "@trejgun/provider-api";
 export interface IAutocompleteOption {
   id: string | number;
   title: string;
+  [key: string]: string | number;
 }
 
 export interface IEntityInputProps {
