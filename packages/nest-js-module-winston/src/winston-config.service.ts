@@ -19,7 +19,7 @@ export class WinstonConfigService {
 
     const nodeEnv = this.configService.get<string>("NODE_ENV", "development");
 
-    if (nodeEnv === "production" || nodeEnv === "staging") {
+    if (nodeEnv !== "development" && nodeEnv !== "test") {
       const papertrailHost = this.configService.get<string>("PAPERTRAIL_HOST", "");
       const papertrailPort = this.configService.get<number>("PAPERTRAIL_PORT", 0);
       if (papertrailHost && papertrailPort) {
