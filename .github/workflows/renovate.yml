@@ -24,7 +24,7 @@ jobs:
           echo "github.event_name:"$VAR4
           echo "github.actor:"$VAR5
           echo "toJson(github.event.pull_request.labels):"$VAR6
-          echo "toJson(github.event.pull_request.labels.*.names):"$VAR7
+          echo "toJson(github.event.pull_request.labels.*.name):"$VAR7
         env:
           VAR1: ${{ github.event.pull_request.merged }}
           VAR2: ${{ github.ref }}
@@ -32,7 +32,7 @@ jobs:
           VAR4: ${{ github.event_name }}
           VAR5: ${{ github.actor }}
           VAR6: ${{ toJson(github.event.pull_request.labels) }}
-          VAR7: ${{ toJson(github.event.pull_request.labels.*.names) }}
+          VAR7: ${{ toJson(github.event.pull_request.labels.*.name) }}
   # update: publish only renovate PR with 'deps' label
   renovate-release-patch:
     if: ${{github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name,'deps')}}
