@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "clsx": "1.1.1",
-    "react-dropzone": "11.3.2"
+    "react-dropzone": "11.3.4"
   },
   "description": "react widget",
   "devDependencies": {
@@ -17,7 +17,7 @@
     "@types/react": "17.0.11",
     "notistack": "1.0.9",
     "react": "17.0.2",
-    "react-intl": "5.20.2"
+    "react-intl": "5.20.4"
   },
   "engines": {
     "node": ">=10"

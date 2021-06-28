@@ -14,11 +14,11 @@
   "description": "react widget",
   "devDependencies": {
     "@material-ui/core": "4.11.4",
-    "@storybook/react": "6.2.9",
+    "@storybook/react": "6.3.0",
     "@types/react": "17.0.11",
     "formik": "2.2.9",
     "react": "17.0.2",
-    "react-intl": "5.20.2"
+    "react-intl": "5.20.4"
   },
   "engines": {
     "node": ">=10"
