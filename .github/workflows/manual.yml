@@ -1,5 +1,5 @@
 
-name: Manual Publish
+name: Manual release Publish
 on:
   workflow_dispatch:
     inputs:
@@ -7,9 +7,14 @@ on:
         description: Bump Version
         default: patch
         required: true
+  pull_request:
+    branches:
+      - master
+    types: [closed]
 
 jobs:
   user-publish:
+    if: ${{ github.event.pull_request.merged == true }} || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: checkout
