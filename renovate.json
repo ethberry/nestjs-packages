@@ -3,6 +3,7 @@
   "baseBranches": ["master"],
   "packageRules": [
     {
+      "matchPackageNames": ["*"],
       "automerge": false
     }
   ]
