@@ -9,4 +9,7 @@ export * from "./interceptors/empty-pipe";
 export * from "./interceptors/not-found";
 export * from "./interceptors/pagination";
 
+export * from "./middlewares/json-body";
+export * from "./middlewares/raw-body";
+
 export * from "./pipes/validation.http";
