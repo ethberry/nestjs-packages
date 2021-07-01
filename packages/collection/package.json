@@ -14,7 +14,7 @@
   },
   "description": "Collection",
   "devDependencies": {
-    "@nestjs/swagger": "4.8.1"
+    "@nestjs/swagger": "4.8.2"
   },
   "engines": {
     "node": ">=10"
