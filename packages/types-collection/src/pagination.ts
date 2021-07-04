@@ -4,6 +4,6 @@ export interface IPaginationDto {
 }
 
 export interface IPaginationResult<T> {
-  list: Array<T>;
+  rows: Array<T>;
   count: number;
 }

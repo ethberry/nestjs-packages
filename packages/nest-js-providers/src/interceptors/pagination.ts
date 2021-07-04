@@ -5,6 +5,6 @@ import {CallHandler, ExecutionContext, Injectable, NestInterceptor} from "@nestj
 @Injectable()
 export class PaginationInterceptor implements NestInterceptor {
   intercept(_context: ExecutionContext, next: CallHandler): Observable<any> {
-    return next.handle().pipe(map(([list, count]) => ({list, count})));
+    return next.handle().pipe(map(([rows, count]) => ({rows, count})));
   }
 }
