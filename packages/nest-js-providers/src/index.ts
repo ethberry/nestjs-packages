@@ -11,5 +11,6 @@ export * from "./interceptors/pagination";
 
 export * from "./middlewares/json-body";
 export * from "./middlewares/raw-body";
+export * from "./middlewares/url-body";
 
 export * from "./pipes/validation.http";
