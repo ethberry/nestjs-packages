@@ -1,51 +1,8 @@
-import {history} from "@trejgun/history";
 import {parse} from "content-disposition";
-import {ApiError} from "./error";
 
-export const fetchRaw = (input: RequestInfo, init?: RequestInit): Promise<{json: any; status: number}> => {
-  return window
-    .fetch(input, init)
-    .then(response => {
-      if (response.status === 401) {
-        history.push("/login");
-        throw new Error("Unauthorized");
-      }
-      if (response.status === 403) {
-        history.push("/error/access-denied");
-        throw new Error("Access Denied");
-      }
-      if (response.status === 404) {
-        history.push("/error/page-not-found");
-        throw new Error("Not Found");
-      }
-      if (response.status === 429) {
-        history.push("/error/too-many-requests");
-        throw new Error("Too Many Requests");
-      }
-      if (response.status === 500) {
-        history.push("/error/internal-server-error");
-        throw new Error("Internal Server Error");
-      }
-      if (response.status === 503) {
-        history.push("/error/service-unavailable");
-        throw new Error("Service Unavailable");
-      }
-      // 200, 201, 400, 409
-      return response;
-    })
-    .then(response => {
-      if (response.status === 204) {
-        return {
-          json: void 0,
-          status: response.status,
-        };
-      }
-      return response.json().then(json => ({
-        json,
-        status: response.status,
-      }));
-    });
-};
+import {history} from "@trejgun/history";
+
+import {ApiError} from "./error";
 
 export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> => {
   return window.fetch(input, init).then(response => {

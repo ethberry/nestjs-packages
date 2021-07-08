@@ -12,6 +12,7 @@ export interface IValidationError {
 enum ValidationTypes {
   WHITELIST = "whitelistValidation",
 }
+
 function getParentProperty(parentProperty: string, property: string): string {
   return parentProperty ? `${parentProperty}.${property}` : property;
 }

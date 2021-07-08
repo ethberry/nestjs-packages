@@ -20,7 +20,6 @@ export interface IFetchProps {
 }
 
 export interface IApiContext<T extends any> {
-  fetch: (data: IFetchProps) => Promise<{json: any; status: number}>;
   fetchJson: (data: IFetchProps) => Promise<any>;
   fetchFile: (data: IFetchProps) => Promise<void>;
   setToken: (jwt: T | null) => void;

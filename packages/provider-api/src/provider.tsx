@@ -3,7 +3,7 @@ import React, {PropsWithChildren, ReactElement} from "react";
 import {history} from "@trejgun/history";
 
 import {ApiContext, IAuth, IFetchProps} from "./context";
-import {fetchRaw, fetchFile, fetchJson} from "./fetch";
+import {fetchFile, fetchJson} from "./fetch";
 
 const STORAGE_NAME = "jwt";
 
@@ -105,7 +105,6 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
   return (
     <ApiContext.Provider
       value={{
-        fetch: prepare(fetchRaw),
         fetchJson: prepare(fetchJson),
         fetchFile: prepare(fetchFile),
         setToken,
