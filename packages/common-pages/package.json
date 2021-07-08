@@ -15,9 +15,9 @@
     "@trejgun/material-ui-page-header": "0.1.6",
     "@trejgun/material-ui-progress": "0.1.4",
     "@trejgun/material-ui-toolbar": "0.1.6",
-    "@trejgun/provider-api": "0.2.3",
-    "@trejgun/provider-user": "0.1.8",
-    "@trejgun/yup-rules": "0.1.8",
+    "@trejgun/provider-api": "0.2.4",
+    "@trejgun/provider-user": "0.1.9",
+    "@trejgun/yup-rules": "0.1.9",
     "yup": "0.32.9"
   },
   "description": "react context provider",
@@ -71,5 +71,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.3"
+  "version": "0.2.4"
 }

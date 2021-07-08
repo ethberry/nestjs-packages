@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@trejgun/nest-js-validators": "0.1.4",
-    "@trejgun/types-collection": "0.1.4",
+    "@trejgun/types-collection": "0.1.5",
     "class-transformer": "0.4.0",
     "class-validator": "0.13.1"
   },
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.5"
+  "version": "0.1.6"
 }

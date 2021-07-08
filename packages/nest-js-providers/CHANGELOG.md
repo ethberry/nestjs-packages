@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-providers@0.1.5...@trejgun/nest-js-providers@0.2.0) (2021-07-08)
+
+
+### Features
+
+* undefined || null ([35b4c30](https://github.com/trejgun/common-packages/commit/35b4c305c128aebaf51bf0d56788cba6bdb64d73))
+* urlecoded middleware ([fd31813](https://github.com/trejgun/common-packages/commit/fd31813e5b88dc6515ccddd0436324b4044765eb))
+
+
+
+
+
 ## 0.1.5 (2021-07-02)
 
 **Note:** Version bump only for package @trejgun/nest-js-providers
