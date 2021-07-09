@@ -11,9 +11,9 @@
   },
   "description": "react widget",
   "devDependencies": {
-    "@material-ui/core": "4.11.4",
-    "@types/react": "17.0.13",
-    "@types/react-router-dom": "5.1.7",
+    "@material-ui/core": "4.12.1",
+    "@types/react": "17.0.14",
+    "@types/react-router-dom": "5.1.8",
     "formik": "2.2.9",
     "react": "17.0.2",
     "react-intl": "5.20.4",
