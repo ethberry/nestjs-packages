@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-providers@0.2.1...@trejgun/nest-js-providers@0.2.2) (2021-07-10)
+
+
+### Bug Fixes
+
+* 404 error handling ([c3ddc09](https://github.com/trejgun/common-packages/commit/c3ddc09a592fa64b3c077ecb00c140fbd6f5bd83))
+
+
+
+
+
 ## [0.2.1](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-providers@0.2.0...@trejgun/nest-js-providers@0.2.1) (2021-07-10)
 
 **Note:** Version bump only for package @trejgun/nest-js-providers
