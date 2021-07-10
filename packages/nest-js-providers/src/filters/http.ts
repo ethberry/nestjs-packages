@@ -23,7 +23,11 @@ export class HttpExceptionFilter extends BaseExceptionFilter {
     if (exception instanceof HttpException) {
       if (exception instanceof NotFoundException) {
         if (exception.message.startsWith("Cannot")) {
-          super.catch(new NotFoundException("pageNotFound"), host);
+          const error = new NotFoundException("pageNotFound");
+          const res = host.switchToHttp().getResponse();
+          // header with status code 404 already sent
+          res.json(error.getResponse());
+          return;
         }
       }
       return super.catch(exception, host);
