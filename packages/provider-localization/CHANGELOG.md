@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.10](https://github.com/trejgun/common-packages/compare/@trejgun/provider-localization@0.1.9...@trejgun/provider-localization@0.1.10) (2021-07-10)
+
+**Note:** Version bump only for package @trejgun/provider-localization
+
+
+
+
+
 ## [0.1.9](https://github.com/trejgun/common-packages/compare/@trejgun/provider-localization@0.1.8...@trejgun/provider-localization@0.1.9) (2021-07-08)
 
 **Note:** Version bump only for package @trejgun/provider-localization
