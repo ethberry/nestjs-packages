@@ -15,7 +15,7 @@
     "@types/zxcvbn": "4.4.1"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",

@@ -13,7 +13,7 @@ export const ButtonToolbar: FC<IButtonToolbarProps> = ({children = [], ...props}
 
   const {className, justify = "flex-end"} = props;
   return (
-    <Grid container justify={justify} className={className}>
+    <Grid container justifyContent={justify} className={className}>
       {Children.map(children as Array<any>, (checkbox: ReactElement<ButtonProps>) =>
         cloneElement(checkbox, {
           className: classes[justify],

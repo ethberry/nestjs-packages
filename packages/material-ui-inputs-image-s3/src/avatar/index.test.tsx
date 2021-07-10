@@ -1,7 +1,7 @@
 import React from "react";
 import {IntlProvider} from "react-intl";
 import {cleanup, render} from "@testing-library/react";
-import {createMuiTheme, MuiThemeProvider} from "@material-ui/core";
+import {createTheme, MuiThemeProvider} from "@material-ui/core";
 import {Formik} from "formik";
 import {SnackbarProvider} from "notistack";
 
@@ -31,7 +31,7 @@ describe("<AvatarInput />", () => {
     };
 
     const {asFragment} = render(
-      <MuiThemeProvider theme={createMuiTheme()}>
+      <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <SnackbarProvider maxSnack={3}>
             <Formik {...formikProps}>
@@ -59,7 +59,7 @@ describe("<AvatarInput />", () => {
     };
 
     const {asFragment} = render(
-      <MuiThemeProvider theme={createMuiTheme()}>
+      <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <SnackbarProvider maxSnack={3}>
             <Formik {...formikProps}>
@@ -90,7 +90,7 @@ describe("<AvatarInput />", () => {
     };
 
     const {asFragment} = render(
-      <MuiThemeProvider theme={createMuiTheme()}>
+      <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <SnackbarProvider maxSnack={3}>
             <Formik {...formikProps}>
@@ -122,7 +122,7 @@ describe("<AvatarInput />", () => {
     };
 
     const {asFragment} = render(
-      <MuiThemeProvider theme={createMuiTheme()}>
+      <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <SnackbarProvider maxSnack={3}>
             <Formik {...formikProps}>

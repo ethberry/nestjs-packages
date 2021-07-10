@@ -17,7 +17,7 @@
     "ioredis": "4.27.6"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",

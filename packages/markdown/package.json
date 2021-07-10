@@ -19,7 +19,7 @@
     "react": "17.0.2"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",

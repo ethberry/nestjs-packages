@@ -21,7 +21,7 @@
     "react-router-dom": "5.2.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",

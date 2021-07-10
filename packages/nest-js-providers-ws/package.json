@@ -11,7 +11,7 @@
     "@nestjs/websockets": "7.6.18"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",

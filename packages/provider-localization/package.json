@@ -16,7 +16,7 @@
     "react-intl": "5.20.4"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",

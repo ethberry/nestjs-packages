@@ -1,7 +1,7 @@
 import React, {FC, useEffect, useState} from "react";
 import * as mediaQuery from "css-mediaquery";
 
-import {createMuiTheme, CssBaseline, MuiThemeProvider} from "@material-ui/core";
+import {createTheme, CssBaseline, MuiThemeProvider} from "@material-ui/core";
 import {MuiMediaQueryList} from "@material-ui/core/useMediaQuery";
 import {PaletteOptions} from "@material-ui/core/styles/createPalette";
 
@@ -38,7 +38,7 @@ export const ThemeProvider: FC<IThemeProviderProps> = props => {
     }),
   });
 
-  const theme = createMuiTheme({
+  const theme = createTheme({
     props: {
       MuiUseMediaQuery: {
         ssrMatchMedia,

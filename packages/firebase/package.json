@@ -11,7 +11,7 @@
   },
   "description": "firebase config",
   "engines": {
-    "node": ">=10"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",

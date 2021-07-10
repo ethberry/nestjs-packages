@@ -1,7 +1,7 @@
 import React from "react";
 import {IntlProvider} from "react-intl";
 import {render, cleanup} from "@testing-library/react";
-import {MuiThemeProvider, createMuiTheme} from "@material-ui/core";
+import {MuiThemeProvider, createTheme} from "@material-ui/core";
 
 import {DeleteDialog} from "./";
 
@@ -32,7 +32,7 @@ describe("<DeleteDialog />", () => {
     };
 
     const {asFragment} = render(
-      <MuiThemeProvider theme={createMuiTheme()}>
+      <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <DeleteDialog {...props} />
         </IntlProvider>

@@ -17,7 +17,7 @@
     "@nestjs/common": "7"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",
