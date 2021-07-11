@@ -5,6 +5,6 @@ import {raw} from "body-parser";
 @Injectable()
 export class RawBodyMiddleware implements NestMiddleware {
   public use(req: Request, res: Response, next: NextFunction): void {
-    raw({type: "application/json"})(req, res, next);
+    raw({type: "*/*"})(req, res, next);
   }
 }
