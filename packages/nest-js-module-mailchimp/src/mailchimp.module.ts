@@ -1,4 +1,4 @@
-import {createConfigurableDynamicRootModule} from "@golevelup/nestjs-modules";
+import {createConfigurableDynamicRootModule} from "@trejgun/nest-js-create-dynamic-module";
 import {HttpModule, Logger, Module} from "@nestjs/common";
 
 import {ProviderType} from "./mailchimp.constants";
