@@ -1,17 +1,14 @@
 import {ModuleMetadata} from "@nestjs/common/interfaces";
 
-export interface ISdkOptions {
+export interface IMailjetOptions {
   publicKey: string;
   privateKey: string;
-}
-
-export interface IMailjetOptions {
   from: string;
   name: string;
 }
 
 export interface IMailjetModuleOptions extends Pick<ModuleMetadata, "imports"> {
   name?: string;
-  useFactory: (...args: any[]) => Promise<IMailjetOptions & ISdkOptions> | (IMailjetOptions & ISdkOptions);
+  useFactory: (...args: any[]) => IMailjetOptions | Promise<IMailjetOptions>;
   inject?: any[];
 }
