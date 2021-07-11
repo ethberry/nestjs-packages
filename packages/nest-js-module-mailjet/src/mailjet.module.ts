@@ -8,10 +8,10 @@ import {IMailjetOptions} from "./interfaces";
 @Module({
   imports: [HttpModule],
   providers: [Logger, MailjetService],
-  exports: [MailchimpModule, MailjetService],
+  exports: [MailjetModule, MailjetService],
 })
-export class MailchimpModule extends createConfigurableDynamicRootModule<MailchimpModule, IMailjetOptions>(
+export class MailjetModule extends createConfigurableDynamicRootModule<MailjetModule, IMailjetOptions>(
   ProviderType.MAILJET_OPTIONS,
 ) {
-  static Deferred = MailchimpModule.externallyConfigured(MailchimpModule, 1000);
+  static Deferred = MailjetModule.externallyConfigured(MailjetModule, 1000);
 }
