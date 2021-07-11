@@ -7,10 +7,10 @@ import {IMailchimpOptions} from "./interfaces";
 
 @Module({
   providers: [MailchimpService],
-  exports: [S3Module, MailchimpService],
+  exports: [MailchimpModule, MailchimpService],
 })
-export class S3Module extends createConfigurableDynamicRootModule<S3Module, IMailchimpOptions>(
+export class MailchimpModule extends createConfigurableDynamicRootModule<MailchimpModule, IMailchimpOptions>(
   ProviderType.MAILCHIMP_OPTIONS,
 ) {
-  static Deferred = S3Module.externallyConfigured(S3Module, 1000);
+  static Deferred = MailchimpModule.externallyConfigured(MailchimpModule, 1000);
 }
