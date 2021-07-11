@@ -8,13 +8,13 @@
   },
   "dependencies": {
     "@trejgun/constants-regexp": "0.1.5",
-    "@trejgun/material-ui-form": "0.1.7",
+    "@trejgun/material-ui-form": "0.1.8",
     "@trejgun/material-ui-icons-social-networks": "0.1.5",
     "@trejgun/material-ui-inputs-captcha": "0.1.7",
     "@trejgun/material-ui-inputs-core": "0.1.7",
-    "@trejgun/material-ui-page-header": "0.1.7",
+    "@trejgun/material-ui-page-header": "0.1.8",
     "@trejgun/material-ui-progress": "0.1.5",
-    "@trejgun/material-ui-toolbar": "0.1.7",
+    "@trejgun/material-ui-toolbar": "0.1.8",
     "@trejgun/provider-api": "0.2.5",
     "@trejgun/provider-user": "0.1.10",
     "@trejgun/yup-rules": "0.1.10",
@@ -71,5 +71,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.5"
+  "version": "0.2.6"
 }
