@@ -90,7 +90,7 @@ export const SocialLogin: FC = () => {
           <PasswordInput name="password" autoComplete="current-password" />
           <LoginButtons />
         </FormikForm>
-        <ButtonToolbar justify="center">
+        <ButtonToolbar justifyContent="center">
           <Button
             variant="outlined"
             startIcon={<GooglePlus />}

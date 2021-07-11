@@ -5,18 +5,18 @@ import useStyles from "./styles";
 
 export interface IButtonToolbarProps {
   className?: string;
-  justify?: GridJustification;
+  justifyContent?: GridJustification;
 }
 
 export const ButtonToolbar: FC<IButtonToolbarProps> = ({children = [], ...props}) => {
   const classes = useStyles();
 
-  const {className, justify = "flex-end"} = props;
+  const {className, justifyContent = "flex-end"} = props;
   return (
-    <Grid container justifyContent={justify} className={className}>
+    <Grid container justifyContent={justifyContent} className={className}>
       {Children.map(children as Array<any>, (checkbox: ReactElement<ButtonProps>) =>
         cloneElement(checkbox, {
-          className: classes[justify],
+          className: classes[justifyContent],
         }),
       )}
     </Grid>

@@ -102,7 +102,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
               container
               spacing={2}
               direction="row"
-              justify="flex-start"
+              justifyContent="flex-start"
               alignItems="flex-start"
               className={classes.images}
               ref={provided.innerRef}
