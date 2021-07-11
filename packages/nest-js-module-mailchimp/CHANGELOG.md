@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-mailchimp@0.1.2...@trejgun/nest-js-module-mailchimp@0.2.0) (2021-07-11)
+
+
+### Features
+
+* dynamic module ([bf9c6d2](https://github.com/trejgun/common-packages/commit/bf9c6d29d1214e5b5c8a463c106d4c0bc5e4763b))
+
+
+
+
+
 ## [0.1.2](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-mailchimp@0.1.1...@trejgun/nest-js-module-mailchimp@0.1.2) (2021-07-11)
 
 
