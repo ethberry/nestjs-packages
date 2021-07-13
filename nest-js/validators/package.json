@@ -1,0 +1,42 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "@trejgun/types-validation": "0.1.5",
+    "class-validator": "0.13.1",
+    "zxcvbn": "4.4.2"
+  },
+  "devDependencies": {
+    "@types/zxcvbn": "4.4.1"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/nest-js-validators",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint  --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "nest js validators",
+  "types": "./dist/index.d.ts",
+  "version": "0.1.5"
+}

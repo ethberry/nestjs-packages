@@ -1,0 +1,60 @@
+{
+  "author": {
+    "email": "jesse.r.carter@gmail.com",
+    "name": "Jesse Carter",
+    "url": "https://github.com/golevelup"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "contributors": [
+    {
+      "email": "TrejGun@gmail.com",
+      "name": "TrejGun"
+    }
+  ],
+  "dependencies": {
+    "rxjs": "6.6.7"
+  },
+  "description": "Reusable utilities to help level up NestJS Modules",
+  "devDependencies": {
+    "@nestjs/common": "7.6.18",
+    "rxjs": "6.6.7"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [
+    "nest",
+    "nestjs",
+    "nest.js",
+    "module",
+    "dynamic",
+    "config",
+    "configure"
+  ],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/nest-js-create-dynamic-module",
+  "peerDependencies": {
+    "@nestjs/common": "^7",
+    "rxjs": "^6"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint  --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "types": "./dist/index.d.ts",
+  "version": "0.1.0"
+}
