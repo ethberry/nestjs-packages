@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/nest-js-create-dynamic-module": "0.1.0"
+    "@trejgun/nest-js-create-dynamic-module": "0.1.1"
   },
   "devDependencies": {
     "@nestjs/common": "7.6.18",
@@ -44,5 +44,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.1"
+  "version": "0.2.2"
 }

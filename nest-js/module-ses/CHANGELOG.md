@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.4 (2021-07-13)
+
+**Note:** Version bump only for package @trejgun/nest-js-module-ses
+
+
+
+
+
 ## [0.2.3](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-ses@0.2.2...@trejgun/nest-js-module-ses@0.2.3) (2021-07-10)
 
 **Note:** Version bump only for package @trejgun/nest-js-module-ses

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.6 (2021-07-13)
+
+**Note:** Version bump only for package @trejgun/provider-api
+
+
+
+
+
 ## [0.2.5](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.2.4...@trejgun/provider-api@0.2.5) (2021-07-10)
 
 **Note:** Version bump only for package @trejgun/provider-api

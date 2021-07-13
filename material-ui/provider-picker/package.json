@@ -42,5 +42,5 @@
   "sideEffects": false,
   "title": "-=Material UI=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.5"
+  "version": "0.1.6"
 }
