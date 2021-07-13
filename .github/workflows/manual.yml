@@ -7,10 +7,7 @@ on:
         description: Bump Version
         default: patch
         required: true
-  pull_request:
-    branches:
-      - master
-    types: [closed]
+
 
 jobs:
   user-publish:
