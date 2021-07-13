@@ -6,14 +6,17 @@ import {ProviderType} from "./ses.constants";
 
 @Injectable()
 export class SesService {
+  private ses: SES;
+
   constructor(
     @Inject(Logger)
     private readonly loggerService: LoggerService,
-    @Inject(ProviderType.SES)
-    private readonly ses: SES,
     @Inject(ProviderType.SES_OPTIONS)
     private readonly options: ISesOptions,
-  ) {}
+  ) {
+    const {accessKeyId, secretAccessKey, region} = options;
+    this.ses = new SES({accessKeyId, secretAccessKey, region});
+  }
 
   async sendEmail(mail: ISesSendDto): Promise<{status: boolean}> {
     return this.ses

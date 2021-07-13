@@ -7,6 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
+    "@trejgun/nest-js-create-dynamic-module": "0.1.0",
     "aws-sdk": "2.943.0"
   },
   "devDependencies": {
