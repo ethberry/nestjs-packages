@@ -1,10 +1,17 @@
 name: CD Renovate
 
 on:
-  pull_request:
-    branches:
-      - master
-    types: [closed]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Bump Version
+        default: patch
+        required: true
+#on:
+#  pull_request:
+#    branches:
+#      - master
+#    types: [closed]
 
 jobs:
   get-info:
