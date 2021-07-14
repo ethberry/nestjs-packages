@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.2.6...@trejgun/provider-api@2.0.0) (2021-07-14)
+
+
+* feat!: baseUrl ([b851b33](https://github.com/trejgun/common-packages/commit/b851b3393b94b39fb58f4623175c8389dcaf9fdd))
+
+
+### BREAKING CHANGES
+
+* baseUrl should be passed to api provider by app
+
+
+
+
+
 ## 0.2.6 (2021-07-13)
 
 **Note:** Version bump only for package @trejgun/provider-api
