@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@trejgun/nest-js-create-dynamic-module": "0.1.1",
-    "aws-sdk": "2.945.0"
+    "aws-sdk": "2.946.0"
   },
   "devDependencies": {
     "@nestjs/common": "7.6.18"
