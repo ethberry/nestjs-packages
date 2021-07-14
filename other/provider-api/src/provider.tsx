@@ -7,10 +7,12 @@ import {fetchFile, fetchJson} from "./fetch";
 
 const STORAGE_NAME = "jwt";
 
-interface IApiProviderProps {}
+interface IApiProviderProps {
+  baseUrl: string;
+}
 
 export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProviderProps>): ReactElement | null => {
-  const {children} = props;
+  const {children, baseUrl} = props;
 
   const read = (key: string): T | null => {
     const auth = localStorage.getItem(key);
@@ -41,7 +43,7 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
           throw Object.assign(new Error("unauthorized"), {status: 401});
         }
 
-        jwt = await fetchJson(`${process.env.BE_URL}/auth/refresh`, {
+        jwt = await fetchJson(`${baseUrl}/auth/refresh`, {
           headers: new Headers({
             Accept: "application/json",
             "Content-Type": "application/json; charset=utf-8",
@@ -72,7 +74,7 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
     (fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>) =>
     async (props: IFetchProps): Promise<any> => {
       const {url, method = "GET", data = {}} = props;
-      const newUrl = new URL(`${process.env.BE_URL}${url}`);
+      const newUrl = new URL(`${baseUrl}${url}`);
       const hasData = method === "POST" || method === "PUT" || method === "PATCH";
 
       const headers = new Headers();
