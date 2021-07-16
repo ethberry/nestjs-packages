@@ -1,0 +1,59 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/common-packages/issues"
+  },
+  "dependencies": {
+    "@liaoliaots/nestjs-redis": "2.1.0",
+    "@trejgun/nest-js-providers": "0.2.4",
+    "@trejgun/nest-js-validators": "0.1.6",
+    "@trejgun/provider-api": "2.0.0",
+    "class-validator": "0.13.1",
+    "qs": "6.10.1",
+    "rxjs": "6.6.7",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@nestjs/common": "7.6.18",
+    "@nestjs/config": "0.6.3",
+    "@nestjs/schedule": "1.0.0",
+    "@nestjs/swagger": "4.8.2",
+    "@types/uuid": "8.3.1",
+    "ioredis": "4.27.6"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@trejgun/nest-js-module-gee-test",
+  "peerDependencies": {
+    "@nestjs/common": "^7",
+    "@nestjs/config": "^0.6",
+    "@nestjs/schedule": "^1",
+    "@nestjs/swagger": "^4",
+    "ioredis": "^4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint  --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "nestjs typeorm module",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.1"
+}

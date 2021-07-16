@@ -1,0 +1,1 @@
+export const GEE_TEST_STORAGE = "GEE_TEST_STORAGE";
