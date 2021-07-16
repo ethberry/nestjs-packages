@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "chalk": "4.1.1",
-    "logdna-winston": "3.0.5",
     "winston": "3.3.3",
     "winston-papertrail-transport": "1.0.9",
     "winston-transport": "4.4.0"
@@ -25,7 +24,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-module-winston",
+  "name": "@trejgun/nest-js-module-winston-papertrail",
   "peerDependencies": {
     "@nestjs/common": "^7",
     "@nestjs/config": "^0.6",
@@ -48,5 +47,5 @@
   },
   "title": "nestjs winston module",
   "types": "./dist/index.d.ts",
-  "version": "0.1.7"
+  "version": "0.0.1"
 }

@@ -1,5 +1,5 @@
-import React, {FC, useContext, useLayoutEffect, useRef} from "react";
-import {useFormikContext} from "formik";
+import React, {FC, useContext, useEffect, useLayoutEffect, useRef, useState} from "react";
+import {useFormikContext, getIn} from "formik";
 
 import {ApiContext} from "@trejgun/provider-api";
 
@@ -18,9 +18,18 @@ export interface IGeeTestCaptchaProps {
 export const GeeTestCaptcha: FC<IGeeTestCaptchaProps> = props => {
   const {name, className} = props;
 
+  const [captchaObj, setCaptchaObj] = useState<any | null>(null);
   const ref = useRef<HTMLDivElement | null>(null);
   const api = useContext(ApiContext);
   const formik = useFormikContext<any>();
+
+  const error = getIn(formik.errors, name);
+
+  useEffect(() => {
+    if (error) {
+      captchaObj.reset();
+    }
+  }, [error]);
 
   useLayoutEffect(() => {
     void api
@@ -37,6 +46,7 @@ export const GeeTestCaptcha: FC<IGeeTestCaptchaProps> = props => {
             offline: !json.success,
             product: "float",
             width: "100%",
+            lang: "en", // TODO use user.profile.language
           },
           (instance: any) => {
             instance.appendTo(ref.current);
@@ -51,6 +61,7 @@ export const GeeTestCaptcha: FC<IGeeTestCaptchaProps> = props => {
             instance.onError((...arg: any) => {
               console.error(arg);
             });
+            setCaptchaObj(instance);
           },
         );
       });

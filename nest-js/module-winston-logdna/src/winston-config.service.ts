@@ -2,7 +2,6 @@ import {Injectable} from "@nestjs/common";
 import {ConfigService} from "@nestjs/config";
 
 import {WinstonModuleOptions} from "nest-winston";
-import {PapertrailTransport} from "winston-papertrail-transport";
 import LogdnaWinstonTransport from "logdna-winston";
 import {format, transports} from "winston";
 import Transport from "winston-transport";
@@ -20,18 +19,6 @@ export class WinstonConfigService {
     const nodeEnv = this.configService.get<string>("NODE_ENV", "development");
 
     if (nodeEnv !== "development" && nodeEnv !== "test") {
-      const papertrailHost = this.configService.get<string>("PAPERTRAIL_HOST", "");
-      const papertrailPort = this.configService.get<number>("PAPERTRAIL_PORT", 0);
-      if (papertrailHost && papertrailPort) {
-        adaptors.push(
-          new PapertrailTransport({
-            host: papertrailHost,
-            port: papertrailPort,
-            hostname: `${os.hostname()}-${nodeEnv}`,
-          }),
-        );
-      }
-
       const logdnaIngestionKey = this.configService.get<string>("LOGDNA_INGESTION_KEY", "");
       if (logdnaIngestionKey) {
         adaptors.push(
