@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/trejgun/common-packages/compare/@trejgun/geetest@0.1.0...@trejgun/geetest@0.1.1) (2021-07-16)
+
+
+### Bug Fixes
+
+* split winston module ([a0ac356](https://github.com/trejgun/common-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
+
+
+
+
+
 # 0.1.0 (2021-07-16)
 
 
