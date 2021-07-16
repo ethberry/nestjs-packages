@@ -1,1 +1,1 @@
-# nest-js-module-typeorm
+# nest-js-module-typeorm-logger
