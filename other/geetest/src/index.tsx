@@ -15,6 +15,8 @@ export interface IGeeTestCaptchaProps {
   className?: string;
 }
 
+// https://docs.geetest.com/captcha/apirefer/api/web
+
 export const GeeTestCaptcha: FC<IGeeTestCaptchaProps> = props => {
   const {name, className} = props;
 
