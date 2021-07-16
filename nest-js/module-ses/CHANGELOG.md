@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.7](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-ses@0.2.6...@trejgun/nest-js-module-ses@0.2.7) (2021-07-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency aws-sdk to v2.947.0 ([20708ac](https://github.com/trejgun/common-packages/commit/20708acfbe0c4e50a79e81ad2207abec898d0a79))
+
+
+
+
+
 ## [0.2.6](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-ses@0.2.5...@trejgun/nest-js-module-ses@0.2.6) (2021-07-15)
 
 
