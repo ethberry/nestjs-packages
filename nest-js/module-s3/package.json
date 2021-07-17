@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@trejgun/nest-js-validators": "0.1.6",
-    "aws-sdk": "2.947.0",
+    "aws-sdk": "2.948.0",
     "uuid": "8.3.2"
   },
   "devDependencies": {

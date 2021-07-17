@@ -9,7 +9,7 @@
   "dependencies": {
     "@trejgun/mui-rte": "0.0.14",
     "draft-js": "0.11.7",
-    "markdown-draft-js": "2.2.1",
+    "markdown-draft-js": "2.3.0",
     "use-debounce": "6.0.1"
   },
   "description": "react widget",
