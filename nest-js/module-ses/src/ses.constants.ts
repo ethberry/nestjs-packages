@@ -1,3 +1,1 @@
-export enum ProviderType {
-  SES_OPTIONS = "SES_OPTIONS",
-}
+export const SES_OPTIONS_PROVIDER = "SES_OPTIONS_PROVIDER";

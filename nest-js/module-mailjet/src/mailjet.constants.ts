@@ -1,3 +1,1 @@
-export enum ProviderType {
-  MAILJET_OPTIONS = "MAILJET_OPTIONS",
-}
+export const MAILJET_OPTIONS_PROVIDER = "MAILJET_OPTIONS_PROVIDER";

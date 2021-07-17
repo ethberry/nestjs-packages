@@ -2,7 +2,7 @@ import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
 import {SES} from "aws-sdk";
 
 import {ISesOptions, ISesSendDto} from "./interfaces";
-import {ProviderType} from "./ses.constants";
+import {SES_OPTIONS_PROVIDER} from "./ses.constants";
 
 @Injectable()
 export class SesService {
@@ -11,7 +11,7 @@ export class SesService {
   constructor(
     @Inject(Logger)
     private readonly loggerService: LoggerService,
-    @Inject(ProviderType.SES_OPTIONS)
+    @Inject(SES_OPTIONS_PROVIDER)
     private readonly options: ISesOptions,
   ) {
     const {accessKeyId, secretAccessKey, region} = options;

@@ -1,7 +1,7 @@
 import {createConfigurableDynamicRootModule} from "@trejgun/nest-js-create-dynamic-module";
-import {HttpModule, Logger, Module} from "@nestjs/common";
+import {DynamicModule, HttpModule, Logger, Module} from "@nestjs/common";
 
-import {ProviderType} from "./mailchimp.constants";
+import {MAILCHIMP_OPTIONS_PROVIDER} from "./mailchimp.constants";
 import {MailchimpService} from "./mailchimp.service";
 import {IMailchimpOptions} from "./interfaces";
 
@@ -11,7 +11,7 @@ import {IMailchimpOptions} from "./interfaces";
   exports: [MailchimpModule, MailchimpService],
 })
 export class MailchimpModule extends createConfigurableDynamicRootModule<MailchimpModule, IMailchimpOptions>(
-  ProviderType.MAILCHIMP_OPTIONS,
+  MAILCHIMP_OPTIONS_PROVIDER,
 ) {
-  static Deferred = MailchimpModule.externallyConfigured(MailchimpModule, 1000);
+  static deferred = (): Promise<DynamicModule> => MailchimpModule.externallyConfigured(MailchimpModule, 0);
 }

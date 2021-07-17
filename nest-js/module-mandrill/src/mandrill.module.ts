@@ -1,7 +1,7 @@
 import {createConfigurableDynamicRootModule} from "@trejgun/nest-js-create-dynamic-module";
-import {HttpModule, Logger, Module} from "@nestjs/common";
+import {DynamicModule, HttpModule, Logger, Module} from "@nestjs/common";
 
-import {ProviderType} from "./mandrill.constants";
+import {MANDRILL_OPTIONS_PROVIDER} from "./mandrill.constants";
 import {MandrillService} from "./mandrill.service";
 import {IMandrillOptions} from "./interfaces";
 
@@ -11,7 +11,7 @@ import {IMandrillOptions} from "./interfaces";
   exports: [MandrillModule, MandrillService],
 })
 export class MandrillModule extends createConfigurableDynamicRootModule<MandrillModule, IMandrillOptions>(
-  ProviderType.MANDRILL_OPTIONS,
+  MANDRILL_OPTIONS_PROVIDER,
 ) {
-  static Deferred = MandrillModule.externallyConfigured(MandrillModule, 1000);
+  static deferred = (): Promise<DynamicModule> => MandrillModule.externallyConfigured(MandrillModule, 0);
 }

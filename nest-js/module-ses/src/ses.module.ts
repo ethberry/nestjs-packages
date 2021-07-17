@@ -1,7 +1,7 @@
 import {createConfigurableDynamicRootModule} from "@trejgun/nest-js-create-dynamic-module";
-import {HttpModule, Logger, Module} from "@nestjs/common";
+import {DynamicModule, HttpModule, Logger, Module} from "@nestjs/common";
 
-import {ProviderType} from "./ses.constants";
+import {SES_OPTIONS_PROVIDER} from "./ses.constants";
 import {SesService} from "./ses.service";
 import {ISesOptions} from "./interfaces";
 
@@ -10,6 +10,6 @@ import {ISesOptions} from "./interfaces";
   providers: [Logger, SesService],
   exports: [SesModule, SesService],
 })
-export class SesModule extends createConfigurableDynamicRootModule<SesModule, ISesOptions>(ProviderType.SES_OPTIONS) {
-  static Deferred = SesModule.externallyConfigured(SesModule, 1000);
+export class SesModule extends createConfigurableDynamicRootModule<SesModule, ISesOptions>(SES_OPTIONS_PROVIDER) {
+  static Deferred = (): Promise<DynamicModule> => SesModule.externallyConfigured(SesModule, 0);
 }

@@ -1,7 +1,7 @@
 import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
 import {Email, connect} from "node-mailjet";
 
-import {ProviderType} from "./mailjet.constants";
+import {MAILJET_OPTIONS_PROVIDER} from "./mailjet.constants";
 import {IMailjetOptions, IMailjetSendDto} from "./interfaces";
 
 @Injectable()
@@ -11,7 +11,7 @@ export class MailjetService {
   constructor(
     @Inject(Logger)
     private readonly loggerService: LoggerService,
-    @Inject(ProviderType.MAILJET_OPTIONS)
+    @Inject(MAILJET_OPTIONS_PROVIDER)
     private readonly options: IMailjetOptions,
   ) {
     this.mailjet = connect(options.publicKey, options.privateKey);

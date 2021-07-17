@@ -1,7 +1,7 @@
 import {HttpService, Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
 
 import {IMandrillOptions, IMandrillSendFields} from "./interfaces";
-import {ProviderType} from "./mandrill.constants";
+import {MANDRILL_OPTIONS_PROVIDER} from "./mandrill.constants";
 
 @Injectable()
 export class MandrillService {
@@ -9,7 +9,7 @@ export class MandrillService {
     private readonly httpService: HttpService,
     @Inject(Logger)
     private readonly loggerService: LoggerService,
-    @Inject(ProviderType.MANDRILL_OPTIONS)
+    @Inject(MANDRILL_OPTIONS_PROVIDER)
     private readonly options: IMandrillOptions,
   ) {}
 

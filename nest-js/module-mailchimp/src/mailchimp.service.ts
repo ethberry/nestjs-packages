@@ -2,7 +2,7 @@ import {HttpService, Inject, Injectable, Logger, LoggerService} from "@nestjs/co
 import {map} from "rxjs/operators";
 
 import {IAddMemberToListResponse, IMailchimpOptions} from "./interfaces";
-import {ProviderType} from "./mailchimp.constants";
+import {MAILCHIMP_OPTIONS_PROVIDER} from "./mailchimp.constants";
 
 @Injectable()
 export class MailchimpService {
@@ -10,7 +10,7 @@ export class MailchimpService {
     private readonly httpService: HttpService,
     @Inject(Logger)
     private readonly loggerService: LoggerService,
-    @Inject(ProviderType.MAILCHIMP_OPTIONS)
+    @Inject(MAILCHIMP_OPTIONS_PROVIDER)
     private readonly options: IMailchimpOptions,
   ) {}
 

@@ -1,7 +1,7 @@
 import {createConfigurableDynamicRootModule} from "@trejgun/nest-js-create-dynamic-module";
-import {HttpModule, Logger, Module} from "@nestjs/common";
+import {DynamicModule, HttpModule, Logger, Module} from "@nestjs/common";
 
-import {ProviderType} from "./mailjet.constants";
+import {MAILJET_OPTIONS_PROVIDER} from "./mailjet.constants";
 import {MailjetService} from "./mailjet.service";
 import {IMailjetOptions} from "./interfaces";
 
@@ -11,7 +11,7 @@ import {IMailjetOptions} from "./interfaces";
   exports: [MailjetModule, MailjetService],
 })
 export class MailjetModule extends createConfigurableDynamicRootModule<MailjetModule, IMailjetOptions>(
-  ProviderType.MAILJET_OPTIONS,
+  MAILJET_OPTIONS_PROVIDER,
 ) {
-  static Deferred = MailjetModule.externallyConfigured(MailjetModule, 1000);
+  static deferred = (): Promise<DynamicModule> => MailjetModule.externallyConfigured(MailjetModule, 0);
 }
