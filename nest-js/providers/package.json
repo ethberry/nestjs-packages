@@ -46,5 +46,5 @@
   },
   "title": "nest js providers http",
   "types": "./dist/index.d.ts",
-  "version": "0.2.4"
+  "version": "0.3.0"
 }

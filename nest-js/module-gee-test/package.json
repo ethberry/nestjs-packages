@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@liaoliaots/nestjs-redis": "2.1.0",
-    "@trejgun/nest-js-providers": "0.2.4",
+    "@trejgun/nest-js-providers": "0.3.0",
     "@trejgun/nest-js-validators": "0.1.6",
     "@trejgun/provider-api": "2.0.0",
     "class-validator": "0.13.1",
@@ -55,5 +55,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.1.1"
 }

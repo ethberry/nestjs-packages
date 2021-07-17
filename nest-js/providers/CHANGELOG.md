@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-providers@0.2.4...@trejgun/nest-js-providers@0.3.0) (2021-07-17)
+
+
+### Features
+
+* user param decorator ([0926f5c](https://github.com/trejgun/common-packages/commit/0926f5c76513bbfd934b48a8aeaf875b4ad02f57))
+
+
+
+
+
 ## 0.2.4 (2021-07-13)
 
 **Note:** Version bump only for package @trejgun/nest-js-providers
