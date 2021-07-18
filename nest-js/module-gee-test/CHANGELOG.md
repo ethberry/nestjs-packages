@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-gee-test@0.1.1...@trejgun/nest-js-module-gee-test@0.1.2) (2021-07-18)
+
+
+### Bug Fixes
+
+* nestjs-redis is no peerDeps ([0e7459f](https://github.com/trejgun/common-packages/commit/0e7459fd6a6463f701e4832abc07a53370755479))
+
+
+
+
+
 ## [0.1.1](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-gee-test@0.1.0...@trejgun/nest-js-module-gee-test@0.1.1) (2021-07-17)
 
 **Note:** Version bump only for package @trejgun/nest-js-module-gee-test
