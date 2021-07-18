@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.15](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-image-s3@0.1.14...@trejgun/material-ui-inputs-image-s3@0.1.15) (2021-07-18)
+
+
+### Bug Fixes
+
+* downgrade notistack ([a7c477a](https://github.com/trejgun/common-packages/commit/a7c477add3b0a4a7fcc157ddbad70bb510512c07))
+
+
+
+
+
 ## [0.1.14](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-image-s3@0.1.13...@trejgun/material-ui-inputs-image-s3@0.1.14) (2021-07-15)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-image-s3

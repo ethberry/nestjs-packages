@@ -9,7 +9,7 @@
   "dependencies": {
     "@trejgun/material-ui-dialog-confirmation": "0.1.8",
     "@trejgun/material-ui-inputs-core": "0.1.8",
-    "@trejgun/material-ui-inputs-file-s3": "0.2.8",
+    "@trejgun/material-ui-inputs-file-s3": "0.2.9",
     "@trejgun/material-ui-progress": "0.1.6",
     "@trejgun/provider-api": "2.0.0",
     "notistack": "1.0.6",
@@ -65,5 +65,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.14"
+  "version": "0.1.15"
 }
