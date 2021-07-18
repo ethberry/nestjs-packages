@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-provider-theme@0.1.6...@trejgun/material-ui-provider-theme@0.2.0) (2021-07-18)
+
+
+### Features
+
+* split ssr from theme provider, ake theme lighter ([ad921be](https://github.com/trejgun/common-packages/commit/ad921beb961386cf93b0e42c111f7ab1cba9c37f))
+
+
+
+
+
 ## 0.1.6 (2021-07-13)
 
 **Note:** Version bump only for package @trejgun/material-ui-provider-theme

@@ -11,8 +11,8 @@
   },
   "description": "Material UI theme provider",
   "devDependencies": {
-    "@types/css-mediaquery": "0.1.1",
     "@material-ui/core": "4.12.1",
+    "@types/css-mediaquery": "0.1.1",
     "react": "17.0.2"
   },
   "engines": {
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=Material UI=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.6"
+  "version": "0.2.0"
 }
