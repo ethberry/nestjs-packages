@@ -12,7 +12,7 @@
     "@trejgun/material-ui-inputs-file-s3": "0.2.8",
     "@trejgun/material-ui-progress": "0.1.6",
     "@trejgun/provider-api": "2.0.0",
-    "notistack": "1.0.9",
+    "notistack": "1.0.6",
     "react-beautiful-dnd": "13.1.0"
   },
   "description": "react widget",
