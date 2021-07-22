@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.9](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-s3@0.3.8...@trejgun/nest-js-module-s3@0.3.9) (2021-07-22)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([b9fa790](https://github.com/trejgun/common-packages/commit/b9fa790f110b545edbfd0f0a022d9a508deaff4f))
+
+
+
+
+
 ## [0.3.8](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-s3@0.3.7...@trejgun/nest-js-module-s3@0.3.8) (2021-07-18)
 
 

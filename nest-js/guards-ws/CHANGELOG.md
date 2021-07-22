@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-guards-ws@0.1.7...@trejgun/nest-js-guards-ws@0.2.0) (2021-07-22)
+
+
+### Features
+
+* local ws guard ([6f53fbe](https://github.com/trejgun/common-packages/commit/6f53fbecc5c636651a1c13f28a432342c4f13e0d))
+
+
+
+
+
 ## 0.1.7 (2021-07-13)
 
 **Note:** Version bump only for package @trejgun/nest-js-guards-ws

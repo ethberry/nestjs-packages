@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.16](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-image-s3@0.1.15...@trejgun/material-ui-inputs-image-s3@0.1.16) (2021-07-22)
+
+
+### Bug Fixes
+
+* jwt type ([3074038](https://github.com/trejgun/common-packages/commit/30740387dfb414ca89fd9f35489641e825271a0b))
+
+
+
+
+
 ## [0.1.15](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-image-s3@0.1.14...@trejgun/material-ui-inputs-image-s3@0.1.15) (2021-07-18)
 
 

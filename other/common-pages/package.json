@@ -8,16 +8,16 @@
   },
   "dependencies": {
     "@trejgun/constants-regexp": "0.1.6",
-    "@trejgun/material-ui-form": "0.1.9",
-    "@trejgun/material-ui-icons-social-networks": "0.1.6",
-    "@trejgun/material-ui-inputs-captcha": "0.1.8",
-    "@trejgun/material-ui-inputs-core": "0.1.8",
-    "@trejgun/material-ui-page-header": "0.1.9",
-    "@trejgun/material-ui-progress": "0.1.6",
-    "@trejgun/material-ui-toolbar": "0.1.9",
-    "@trejgun/provider-api": "2.0.0",
-    "@trejgun/provider-user": "0.1.12",
-    "@trejgun/yup-rules": "0.1.12",
+    "@trejgun/material-ui-form": "0.1.10",
+    "@trejgun/material-ui-icons-social-networks": "0.1.7",
+    "@trejgun/material-ui-inputs-captcha": "0.1.9",
+    "@trejgun/material-ui-inputs-core": "0.1.9",
+    "@trejgun/material-ui-page-header": "0.1.10",
+    "@trejgun/material-ui-progress": "0.1.7",
+    "@trejgun/material-ui-toolbar": "0.1.10",
+    "@trejgun/provider-api": "2.0.1",
+    "@trejgun/provider-user": "0.1.13",
+    "@trejgun/yup-rules": "0.1.13",
     "yup": "0.32.9"
   },
   "description": "react context provider",
@@ -71,5 +71,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.9"
+  "version": "0.2.10"
 }
