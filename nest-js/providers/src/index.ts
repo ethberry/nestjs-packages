@@ -15,3 +15,5 @@ export * from "./middlewares/raw-body";
 export * from "./middlewares/url-body";
 
 export * from "./pipes/validation.http";
+
+export * from "./validators/re-captcha";
