@@ -9,7 +9,6 @@
   "dependencies": {
     "@trejgun/nest-js-providers": "0.4.1",
     "@trejgun/nest-js-validators": "0.1.6",
-    "@trejgun/provider-api": "2.0.1",
     "class-validator": "0.13.1",
     "qs": "6.10.1",
     "rxjs": "6.6.7",
