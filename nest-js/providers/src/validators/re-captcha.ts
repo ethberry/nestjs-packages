@@ -20,7 +20,7 @@ interface ICaptchaConstraints {
 
 @Injectable()
 @ValidatorConstraint({async: true})
-export class ValidateCaptcha implements ValidatorConstraintInterface {
+export class ValidateReCaptcha implements ValidatorConstraintInterface {
   private reason: string;
 
   constructor(private readonly httpService: HttpService, private readonly configService: ConfigService) {}
@@ -73,7 +73,7 @@ export function Captcha(constraints: Partial<ICaptchaConstraints> = {}, validati
       propertyName,
       constraints: [constraints],
       options: validationOptions,
-      validator: ValidateCaptcha,
+      validator: ValidateReCaptcha,
     });
   };
 }
