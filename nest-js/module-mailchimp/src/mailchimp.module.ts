@@ -1,5 +1,6 @@
 import {createConfigurableDynamicRootModule} from "@trejgun/nest-js-create-dynamic-module";
-import {DynamicModule, HttpModule, Logger, Module} from "@nestjs/common";
+import {DynamicModule, Logger, Module} from "@nestjs/common";
+import {HttpModule} from "@nestjs/axios";
 
 import {MAILCHIMP_OPTIONS_PROVIDER} from "./mailchimp.constants";
 import {MailchimpService} from "./mailchimp.service";
@@ -8,7 +9,7 @@ import {IMailchimpOptions} from "./interfaces";
 @Module({
   imports: [HttpModule],
   providers: [Logger, MailchimpService],
-  exports: [MailchimpModule, MailchimpService],
+  exports: [MailchimpService],
 })
 export class MailchimpModule extends createConfigurableDynamicRootModule<MailchimpModule, IMailchimpOptions>(
   MAILCHIMP_OPTIONS_PROVIDER,

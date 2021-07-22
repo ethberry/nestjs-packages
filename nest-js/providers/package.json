@@ -7,14 +7,15 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.18",
-    "@nestjs/config": "0.6.3",
-    "@nestjs/core": "7.6.18",
-    "@nestjs/swagger": "4.8.2",
+    "@nestjs/axios": "0.0.1",
+    "@nestjs/common": "8.0.4",
+    "@nestjs/config": "1.0.0",
+    "@nestjs/core": "8.0.4",
+    "@nestjs/swagger": "5.0.4",
     "body-parser": "1.19.0",
     "class-validator": "0.13.1",
     "express": "4.17.1",
-    "rxjs": "6.6.7"
+    "rxjs": "7.2.0"
   },
   "engines": {
     "node": ">=12.13"
@@ -24,14 +25,15 @@
   "main": "./dist/index.js",
   "name": "@trejgun/nest-js-providers",
   "peerDependencies": {
-    "@nestjs/common": "^7",
-    "@nestjs/config": "^0",
-    "@nestjs/core": "^7",
-    "@nestjs/swagger": "^4",
+    "@nestjs/axios": "^0",
+    "@nestjs/common": "^8",
+    "@nestjs/config": "^1",
+    "@nestjs/core": "^8",
+    "@nestjs/swagger": "^5",
     "body-parser": "^1",
     "class-validator": "^0",
     "express": "^4",
-    "rxjs": "^6"
+    "rxjs": "^7"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -1,4 +1,5 @@
-import {HttpService, Injectable} from "@nestjs/common";
+import {Injectable} from "@nestjs/common";
+import {HttpService} from "@nestjs/axios";
 import {ConfigService} from "@nestjs/config";
 import {
   registerDecorator,
@@ -7,9 +8,10 @@ import {
   ValidatorConstraint,
   ValidatorConstraintInterface,
 } from "class-validator";
+import {firstValueFrom} from "rxjs";
 import {map} from "rxjs/operators";
 
-interface ICaptchaResponse {
+interface IReCaptchaResponse {
   success: boolean;
   "error-codes": Array<string>;
 }
@@ -23,7 +25,7 @@ interface IReCaptchaConstraints {
 export class ValidateReCaptcha implements ValidatorConstraintInterface {
   private reason: string;
 
-  constructor(private readonly httpService: HttpService, private readonly configService: ConfigService) {}
+  constructor(private readonly configService: ConfigService, private readonly httpService: HttpService) {}
 
   public async validate(value: unknown, args: ValidationArguments): Promise<boolean> {
     this.reason = await this.isValid(value, args);
@@ -45,7 +47,7 @@ export class ValidateReCaptcha implements ValidatorConstraintInterface {
       return "";
     }
 
-    return this.httpService
+    const response = this.httpService
       .request({
         url: "https://www.google.com/recaptcha/api/siteverify",
         method: "POST",
@@ -54,14 +56,14 @@ export class ValidateReCaptcha implements ValidatorConstraintInterface {
           response: value,
         },
       })
-      .pipe(map((response: {data: ICaptchaResponse}) => response.data))
-      .toPromise()
-      .then(data => {
-        if (!data.success) {
-          return `recaptcha-${data["error-codes"][0]}`.replace(/-./g, (x: string) => x.toUpperCase()[1]);
-        }
-        return "";
-      });
+      .pipe(map((response: {data: IReCaptchaResponse}) => response.data));
+
+    return firstValueFrom(response).then(data => {
+      if (!data.success) {
+        return `recaptcha-${data["error-codes"][0]}`.replace(/-./g, (x: string) => x.toUpperCase()[1]);
+      }
+      return "";
+    });
   }
 }
 

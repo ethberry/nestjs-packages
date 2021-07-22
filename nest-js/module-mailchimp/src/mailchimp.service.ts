@@ -1,4 +1,6 @@
-import {HttpService, Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
+import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
+import {HttpService} from "@nestjs/axios";
+import {firstValueFrom} from "rxjs";
 import {map} from "rxjs/operators";
 
 import {IAddMemberToListResponse, IMailchimpOptions} from "./interfaces";
@@ -20,7 +22,7 @@ export class MailchimpService {
     fields: Record<string, string>,
   ): Promise<IAddMemberToListResponse | null> {
     // https://mailchimp.com/developer/marketing/api/list-members/add-member-to-list/
-    return this.httpService
+    const response = this.httpService
       .request({
         method: "post",
         url: `https://${this.options.dc}.api.mailchimp.com/3.0/lists/${listId}/members/`,
@@ -34,11 +36,11 @@ export class MailchimpService {
           merge_fields: fields,
         },
       })
-      .pipe(map((response: {data: IAddMemberToListResponse}) => response.data))
-      .toPromise()
-      .catch(e => {
-        this.loggerService.error(e.message, e.stack, MailchimpService.name);
-        return null;
-      });
+      .pipe(map((response: {data: IAddMemberToListResponse}) => response.data));
+
+    return firstValueFrom(response).catch(e => {
+      this.loggerService.error(e.message, e.stack, MailchimpService.name);
+      return null;
+    });
   }
 }

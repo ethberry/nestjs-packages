@@ -1,6 +1,6 @@
 import {DynamicModule, Provider, Type} from "@nestjs/common";
 import {ModuleMetadata} from "@nestjs/common/interfaces";
-import {interval, race, Subject} from "rxjs";
+import {firstValueFrom, interval, race, Subject} from "rxjs";
 import {first, map} from "rxjs/operators";
 
 type InjectionToken = string | symbol | Type<any>;
@@ -130,7 +130,7 @@ export function createConfigurableDynamicRootModule<T, U>(
         }),
       );
 
-      return race(timeout$, DynamicRootModule.moduleSubject.pipe(first())).toPromise();
+      return firstValueFrom(race(timeout$, DynamicRootModule.moduleSubject.pipe(first())));
     }
   }
 

@@ -11,11 +11,8 @@
     "node-mailjet": "3.3.4"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.18",
+    "@nestjs/common": "8.0.4",
     "@types/node-mailjet": "3.3.7"
-  },
-  "peerDependenciesMeta": {
-    "@nestjs/common": "7"
   },
   "engines": {
     "node": ">=12.13"
@@ -25,8 +22,8 @@
   "main": "./dist/index.js",
   "name": "@trejgun/nest-js-module-mailjet",
   "peerDependencies": {
-    "@nestjs/common": "^7",
-    "@nestjs/microservices": "^7"
+    "@nestjs/common": "^8",
+    "@nestjs/microservices": "^8"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -7,9 +7,9 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.18",
-    "@nestjs/core": "7.6.18",
-    "@nestjs/passport": "7.1.6"
+    "@nestjs/common": "8.0.4",
+    "@nestjs/core": "8.0.4",
+    "@nestjs/passport": "8.0.0"
   },
   "engines": {
     "node": ">=12.13"
@@ -19,9 +19,9 @@
   "main": "./dist/index.js",
   "name": "@trejgun/nest-js-guards",
   "peerDependencies": {
-    "@nestjs/common": "^7",
-    "@nestjs/core": "^7",
-    "@nestjs/passport": "^7"
+    "@nestjs/common": "^8",
+    "@nestjs/core": "^8",
+    "@nestjs/passport": "^8"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

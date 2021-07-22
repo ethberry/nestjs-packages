@@ -7,7 +7,7 @@ import {
 } from "class-validator";
 import zxcvbn from "zxcvbn";
 
-import {NativeValidation, CustomValidation} from "@trejgun/types-validation";
+import {NativeValidation, CustomValidation} from "../../../types/validation";
 
 interface IPasswordConstraints {
   required: boolean;

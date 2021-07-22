@@ -1,10 +1,12 @@
-import {HttpService, Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
+import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
+import {HttpService} from "@nestjs/axios";
 import {ConfigService} from "@nestjs/config";
 import {Cron, CronExpression} from "@nestjs/schedule";
 import {InjectRedis} from "@liaoliaots/nestjs-redis";
 import {Redis} from "ioredis";
 import crypto from "crypto";
 import {v4} from "uuid";
+import {firstValueFrom} from "rxjs";
 import {map} from "rxjs/operators";
 import {stringify} from "qs";
 
@@ -124,29 +126,28 @@ export class GeeTestService {
   async requestRegister(params: IRegisterDto): Promise<any> {
     const geetestId = this.configService.get<string>("GEE_TEST_ID", "");
 
-    return (
-      this.httpService
-        .request({
-          url: "http://api.geetest.com/register.php",
-          method: "GET",
-          params: {
-            ...params,
-            gt: geetestId,
-            json_format: "1",
-            sdk: GeeTestService.VERSION,
-          },
-        })
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-        .pipe(map(response => response.data))
-        .toPromise()
-        .then((data: {challenge: string}) => {
-          return data.challenge;
-        })
-        .catch(e => {
-          this.loggerService.error(e.message, e.stack, GeeTestService.name);
-          return "";
-        })
-    );
+    const response = this.httpService
+      .request({
+        url: "http://api.geetest.com/register.php",
+        method: "GET",
+        params: {
+          ...params,
+          gt: geetestId,
+          json_format: "1",
+          sdk: GeeTestService.VERSION,
+        },
+      })
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+      .pipe(map(response => response.data));
+
+    return firstValueFrom(response)
+      .then((data: {challenge: string}) => {
+        return data.challenge;
+      })
+      .catch(e => {
+        this.loggerService.error(e.message, e.stack, GeeTestService.name);
+        return "";
+      });
   }
 
   public async successValidate(challenge: string, validate: string, seccode: string): Promise<string> {
@@ -178,33 +179,32 @@ export class GeeTestService {
   public requestValidate(challenge: string, _validate: string, seccode: string): Promise<string> {
     const geetestId = this.configService.get<string>("GEE_TEST_ID", "");
 
-    return (
-      this.httpService
-        .request({
-          url: "http://api.geetest.com/validate.php",
-          method: "POST",
-          data: stringify({
-            seccode: seccode,
-            json_format: "1",
-            challenge: challenge,
-            sdk: GeeTestService.VERSION,
-            captchaid: geetestId,
-          }),
-          headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-          },
-        })
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-        .pipe(map(response => response.data))
-        .toPromise()
-        .then((data: {seccode: string}) => {
-          return data.seccode;
-        })
-        .catch(e => {
-          this.loggerService.error(e.message, e.stack, GeeTestService.name);
-          return "";
-        })
-    );
+    const response = this.httpService
+      .request({
+        url: "http://api.geetest.com/validate.php",
+        method: "POST",
+        data: stringify({
+          seccode: seccode,
+          json_format: "1",
+          challenge: challenge,
+          sdk: GeeTestService.VERSION,
+          captchaid: geetestId,
+        }),
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      })
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+      .pipe(map(response => response.data));
+
+    return firstValueFrom(response)
+      .then((data: {seccode: string}) => {
+        return data.seccode;
+      })
+      .catch(e => {
+        this.loggerService.error(e.message, e.stack, GeeTestService.name);
+        return "";
+      });
   }
 
   protected checkParam(challenge: string, validate: string, seccode: string): boolean {
@@ -221,29 +221,29 @@ export class GeeTestService {
   @Cron(CronExpression.EVERY_MINUTE)
   async getBypassStatus(): Promise<void> {
     const geetestId = this.configService.get<string>("GEE_TEST_ID", "");
-    return (
-      this.httpService
-        .request({
-          url: "https://bypass.geetest.com/v1/bypass_status.php",
-          method: "GET",
-          params: {
-            gt: geetestId,
-          },
-        })
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-        .pipe(map(response => response.data))
-        .toPromise()
-        .then(async (data: {status: string}) => {
-          if (data.status === "success") {
-            await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "success");
-          } else {
-            await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "fail");
-          }
-        })
-        .catch(async e => {
-          this.loggerService.error(e.message, e.stack, GeeTestService.name);
+
+    const response = this.httpService
+      .request({
+        url: "https://bypass.geetest.com/v1/bypass_status.php",
+        method: "GET",
+        params: {
+          gt: geetestId,
+        },
+      })
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+      .pipe(map(response => response.data));
+
+    return firstValueFrom(response)
+      .then(async (data: {status: string}) => {
+        if (data.status === "success") {
+          await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "success");
+        } else {
           await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "fail");
-        })
-    );
+        }
+      })
+      .catch(async e => {
+        this.loggerService.error(e.message, e.stack, GeeTestService.name);
+        await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "fail");
+      });
   }
 }

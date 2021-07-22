@@ -1,4 +1,5 @@
-import {Module, Logger, HttpModule} from "@nestjs/common";
+import {Module, Logger} from "@nestjs/common";
+import {HttpModule} from "@nestjs/axios";
 import {ConfigModule} from "@nestjs/config";
 
 import {GeeTestController} from "./geetest.controller";

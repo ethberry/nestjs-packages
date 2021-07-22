@@ -2,7 +2,7 @@ import {Type} from "class-transformer";
 import {ApiPropertyOptional} from "@nestjs/swagger";
 
 import {IsNumber} from "@trejgun/nest-js-validators";
-import {IPaginationDto} from "@trejgun/types-collection";
+import {IPaginationDto} from "../../../types/collection";
 
 import {defaultItemsPerPage} from "./constants";
 

@@ -19,7 +19,7 @@
   },
   "keywords": [],
   "license": "UNLICENSED",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "name": "@trejgun/nest-js-validators",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -31,7 +31,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint  --fix",
-    "prebuild": "rimraf dist/",
+    "prebuild": "rimraf dist",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
