@@ -11,7 +11,7 @@
     "@nestjs/common": "8.0.4",
     "@nestjs/config": "1.0.1",
     "@nestjs/core": "8.0.4",
-    "@nestjs/swagger": "5.0.4",
+    "@nestjs/swagger": "5.0.5",
     "body-parser": "1.19.0",
     "class-validator": "0.13.1",
     "express": "4.17.1",
