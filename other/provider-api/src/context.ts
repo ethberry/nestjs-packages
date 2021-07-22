@@ -1,10 +1,10 @@
 import {createContext} from "react";
 
-export interface IAuth {
+export interface IJwt {
   accessToken: string;
   accessTokenExpiresAt: number;
-  refreshToken?: string;
-  refreshTokenExpiresAt?: number;
+  refreshToken: string;
+  refreshTokenExpiresAt: number;
 }
 
 type TMethods = "POST" | "GET" | "PUT" | "DELETE" | "PATCH";

@@ -2,7 +2,7 @@ import React, {PropsWithChildren, ReactElement} from "react";
 
 import {history} from "@trejgun/history";
 
-import {ApiContext, IAuth, IFetchProps} from "./context";
+import {ApiContext, IJwt, IFetchProps} from "./context";
 import {fetchFile, fetchJson} from "./fetch";
 
 const STORAGE_NAME = "jwt";
@@ -11,7 +11,7 @@ interface IApiProviderProps {
   baseUrl: string;
 }
 
-export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProviderProps>): ReactElement | null => {
+export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProviderProps>): ReactElement | null => {
   const {children, baseUrl} = props;
 
   const read = (key: string): T | null => {
@@ -37,7 +37,7 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
 
     if (jwt) {
       if (jwt.accessTokenExpiresAt < Date.now()) {
-        if (jwt.refreshTokenExpiresAt! < Date.now()) {
+        if (jwt.refreshTokenExpiresAt < Date.now()) {
           history.push("/login");
           setToken(null);
           throw Object.assign(new Error("unauthorized"), {status: 401});
