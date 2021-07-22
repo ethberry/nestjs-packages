@@ -1,4 +1,4 @@
-import {createContext} from "react";
+import { createContext } from "react";
 
 type TMethods = "POST" | "GET" | "PUT" | "DELETE" | "PATCH";
 

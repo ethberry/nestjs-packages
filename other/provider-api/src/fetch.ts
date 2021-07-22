@@ -1,8 +1,8 @@
-import {parse} from "content-disposition";
+import { parse } from "content-disposition";
 
-import {history} from "@trejgun/history";
+import { history } from "@trejgun/history";
 
-import {ApiError} from "./error";
+import { ApiError } from "./error";
 
 export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> => {
   return window.fetch(input, init).then(response => {
@@ -49,7 +49,7 @@ export const fetchFile = (input: RequestInfo, init?: RequestInit): Promise<void>
       });
     }
     const contentDisposition = response.headers.get("Content-Disposition");
-    const {filename} = contentDisposition ? parse(contentDisposition).parameters : {filename: ""};
+    const { filename } = contentDisposition ? parse(contentDisposition).parameters : { filename: "" };
     // it is fine to keep filename empty, then real name would be something like uuid
     return response.blob().then(blob => {
       saveData(blob, filename);

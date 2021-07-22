@@ -1,9 +1,9 @@
-import {ApiPropertyOptional} from "@nestjs/swagger";
+import { ApiPropertyOptional } from "@nestjs/swagger";
 
-import {IsString} from "@trejgun/nest-js-validators";
-import {ISortDto, SortDirection} from "../../../types/collection";
+import { IsString } from "@trejgun/nest-js-validators";
+import { ISortDto, SortDirection } from "../../../types/collection";
 
-import {SearchDto} from "./search";
+import { SearchDto } from "./search";
 
 export class SortDto<T> extends SearchDto implements ISortDto<T> {
   @ApiPropertyOptional()

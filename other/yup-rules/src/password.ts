@@ -1,7 +1,7 @@
 import * as Yup from "yup";
 
-import {fetchJson} from "@trejgun/provider-api";
-import {passwordMinLength, passwordScore} from "@trejgun/constants-validation";
+import { fetchJson } from "@trejgun/provider-api";
+import { passwordMinLength, passwordScore } from "@trejgun/constants-validation";
 
 export const passwordValidationSchema = Yup.string()
   .min(passwordMinLength, "form.validations.tooShort")
@@ -24,6 +24,6 @@ export const passwordValidationSchema = Yup.string()
         body: JSON.stringify({
           password,
         }),
-      }).then(({score}: {score: number}): boolean => score > passwordScore);
+      }).then(({ score }: { score: number }): boolean => score > passwordScore);
     },
   });

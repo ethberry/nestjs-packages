@@ -1,4 +1,4 @@
-import {createStyles, makeStyles} from "@material-ui/core";
+import { createStyles, makeStyles } from "@material-ui/core";
 
 export default makeStyles(
   () =>
@@ -8,5 +8,5 @@ export default makeStyles(
         margin: "auto",
       },
     }),
-  {name: "VerifyEmail"},
+  { name: "VerifyEmail" },
 );

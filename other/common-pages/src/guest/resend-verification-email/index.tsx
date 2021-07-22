@@ -1,17 +1,17 @@
-import React, {FC, useContext} from "react";
-import {useHistory} from "react-router";
-import {useSnackbar} from "notistack";
-import {Grid} from "@material-ui/core";
-import {useIntl} from "react-intl";
+import React, { FC, useContext } from "react";
+import { useHistory } from "react-router";
+import { useSnackbar } from "notistack";
+import { Grid } from "@material-ui/core";
+import { useIntl } from "react-intl";
 
-import {Captcha} from "@trejgun/material-ui-inputs-captcha";
-import {PageHeader} from "@trejgun/material-ui-page-header";
-import {TextInput} from "@trejgun/material-ui-inputs-core";
-import {FormikForm} from "@trejgun/material-ui-form";
-import {ApiContext, localizeErrors} from "@trejgun/provider-api";
+import { Captcha } from "@trejgun/material-ui-inputs-captcha";
+import { PageHeader } from "@trejgun/material-ui-page-header";
+import { TextInput } from "@trejgun/material-ui-inputs-core";
+import { FormikForm } from "@trejgun/material-ui-form";
+import { ApiContext, localizeErrors } from "@trejgun/provider-api";
 
 import useStyles from "./styles";
-import {validationSchema} from "./validation";
+import { validationSchema } from "./validation";
 
 interface IResendVerificationEmailDto {
   email: string;
@@ -21,8 +21,8 @@ interface IResendVerificationEmailDto {
 export const ResendVerificationEmail: FC = () => {
   const classes = useStyles();
   const history = useHistory();
-  const {enqueueSnackbar} = useSnackbar();
-  const {formatMessage} = useIntl();
+  const { enqueueSnackbar } = useSnackbar();
+  const { formatMessage } = useIntl();
 
   const api = useContext(ApiContext);
 
@@ -41,10 +41,10 @@ export const ResendVerificationEmail: FC = () => {
           formikBag.setErrors(localizeErrors(e.message));
         } else if (e.status) {
           // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-          enqueueSnackbar(formatMessage({id: `snackbar.${e.message}`}), {variant: "error"});
+          enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
         } else {
           console.error(e);
-          enqueueSnackbar(formatMessage({id: "snackbar.error"}), {variant: "error"});
+          enqueueSnackbar(formatMessage({ id: "snackbar.error" }), { variant: "error" });
         }
       });
   };

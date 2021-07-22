@@ -1,7 +1,7 @@
 import React from "react";
-import {Story} from "@storybook/react";
+import { Story } from "@storybook/react";
 
-import {IMarkdownProps, Markdown} from ".";
+import { IMarkdownProps, Markdown } from ".";
 
 import text from "./test.md";
 

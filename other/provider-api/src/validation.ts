@@ -24,7 +24,7 @@ export function localizeErrors(messages: Array<IValidationError>, parentProperty
       constraints[ValidationTypes.WHITELIST] = ValidationTypes.WHITELIST;
     }
 
-    let result = {...memo};
+    let result = { ...memo };
 
     if (Object.values(constraints)[0]) {
       const validationKey = getParentProperty(parentProperty, message.property);

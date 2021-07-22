@@ -1,4 +1,4 @@
-import {IValidationError, localizeErrors} from "./validation";
+import { IValidationError, localizeErrors } from "./validation";
 
 export class ApiError extends Error {
   constructor(public readonly message: string, public readonly status: number) {

@@ -1,8 +1,8 @@
-import React, {PropsWithChildren, ReactElement, useContext, useEffect, useState} from "react";
+import React, { PropsWithChildren, ReactElement, useContext, useEffect, useState } from "react";
 
-import {UserContext, IUserContext} from "@trejgun/provider-user";
+import { UserContext, IUserContext } from "@trejgun/provider-user";
 
-import {SettingsContext} from "./context";
+import { SettingsContext } from "./context";
 
 interface ISettings<T extends string> {
   language?: T;
@@ -17,7 +17,7 @@ const STORAGE_NAME = "settings";
 export const SettingsProvider = <T extends string, U extends any>(
   props: PropsWithChildren<ISettingsProviderProps<T>>,
 ): ReactElement | null => {
-  const {children, defaultLanguage} = props;
+  const { children, defaultLanguage } = props;
   const [settings, setSettings] = useState<ISettings<T>>({});
 
   const user = useContext<IUserContext<U>>(UserContext);
@@ -39,7 +39,7 @@ export const SettingsProvider = <T extends string, U extends any>(
   };
 
   const setLanguage = (language: T): void => {
-    const newSettings = {...settings, language};
+    const newSettings = { ...settings, language };
     setSettings(newSettings);
     save(STORAGE_NAME, newSettings);
   };

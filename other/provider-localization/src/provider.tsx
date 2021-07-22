@@ -1,9 +1,9 @@
-import React, {PropsWithChildren, ReactElement, useContext} from "react";
-import {IntlProvider} from "react-intl";
+import React, { PropsWithChildren, ReactElement, useContext } from "react";
+import { IntlProvider } from "react-intl";
 
-import {ISettingsContext, SettingsContext} from "@trejgun/provider-settings";
+import { ISettingsContext, SettingsContext } from "@trejgun/provider-settings";
 
-import {flattenMessages} from "./utils";
+import { flattenMessages } from "./utils";
 
 interface ILocalizationProviderProps<T extends string> {
   i18n: Record<T, any>;
@@ -13,7 +13,7 @@ interface ILocalizationProviderProps<T extends string> {
 export const LocalizationProvider = <T extends string>(
   props: PropsWithChildren<ILocalizationProviderProps<T>>,
 ): ReactElement | null => {
-  const {children, i18n, defaultLanguage} = props;
+  const { children, i18n, defaultLanguage } = props;
   const settings = useContext<ISettingsContext<T>>(SettingsContext);
 
   return (

@@ -1,10 +1,10 @@
-import React, {PropsWithChildren, ReactElement} from "react";
+import React, { PropsWithChildren, ReactElement } from "react";
 
-import {history} from "@trejgun/history";
-import {IJwt} from "../../../types/jwt";
+import { history } from "@trejgun/history";
+import { IJwt } from "../../../types/jwt";
 
-import {ApiContext, IFetchProps} from "./context";
-import {fetchFile, fetchJson} from "./fetch";
+import { ApiContext, IFetchProps } from "./context";
+import { fetchFile, fetchJson } from "./fetch";
 
 const STORAGE_NAME = "jwt";
 
@@ -13,7 +13,7 @@ interface IApiProviderProps {
 }
 
 export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProviderProps>): ReactElement | null => {
-  const {children, baseUrl} = props;
+  const { children, baseUrl } = props;
 
   const read = (key: string): T | null => {
     const auth = localStorage.getItem(key);
@@ -41,7 +41,7 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
         if (jwt.refreshTokenExpiresAt < Date.now()) {
           history.push("/login");
           setToken(null);
-          throw Object.assign(new Error("unauthorized"), {status: 401});
+          throw Object.assign(new Error("unauthorized"), { status: 401 });
         }
 
         jwt = await fetchJson(`${baseUrl}/auth/refresh`, {
@@ -74,7 +74,7 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
   const prepare =
     (fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>) =>
     async (props: IFetchProps): Promise<any> => {
-      const {url, method = "GET", data = {}} = props;
+      const { url, method = "GET", data = {} } = props;
       const newUrl = new URL(`${baseUrl}${url}`);
       const hasData = method === "POST" || method === "PUT" || method === "PATCH";
 

@@ -1,21 +1,21 @@
-import React, {FC, useContext, useEffect} from "react";
-import {useSnackbar} from "notistack";
-import {FormattedMessage, useIntl} from "react-intl";
-import {Button, Grid} from "@material-ui/core";
-import {Facebook, GooglePlus} from "@trejgun/material-ui-icons-social-networks";
+import React, { FC, useContext, useEffect } from "react";
+import { useSnackbar } from "notistack";
+import { FormattedMessage, useIntl } from "react-intl";
+import { Button, Grid } from "@material-ui/core";
+import { Facebook, GooglePlus } from "@trejgun/material-ui-icons-social-networks";
 
-import {PasswordInput, TextInput} from "@trejgun/material-ui-inputs-core";
-import {PageHeader} from "@trejgun/material-ui-page-header";
-import {FormikForm} from "@trejgun/material-ui-form";
-import {ApiContext, IJwt} from "@trejgun/provider-api";
-import {UserContext} from "@trejgun/provider-user";
-import {ButtonToolbar} from "@trejgun/material-ui-toolbar";
+import { PasswordInput, TextInput } from "@trejgun/material-ui-inputs-core";
+import { PageHeader } from "@trejgun/material-ui-page-header";
+import { FormikForm } from "@trejgun/material-ui-form";
+import { ApiContext, IJwt } from "@trejgun/provider-api";
+import { UserContext } from "@trejgun/provider-user";
+import { ButtonToolbar } from "@trejgun/material-ui-toolbar";
 
-import {popup} from "./popup";
-import {validationSchema} from "./validation";
+import { popup } from "./popup";
+import { validationSchema } from "./validation";
 import useStyles from "./styles";
 
-import {LoginButtons} from "./buttons";
+import { LoginButtons } from "./buttons";
 
 interface ILoginDto {
   email: string;
@@ -24,8 +24,8 @@ interface ILoginDto {
 
 export const SocialLogin: FC = () => {
   const classes = useStyles();
-  const {enqueueSnackbar} = useSnackbar();
-  const {formatMessage} = useIntl();
+  const { enqueueSnackbar } = useSnackbar();
+  const { formatMessage } = useIntl();
 
   const user = useContext(UserContext);
   const api = useContext(ApiContext);
@@ -44,10 +44,10 @@ export const SocialLogin: FC = () => {
       .catch(e => {
         if (e.status) {
           // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-          enqueueSnackbar(formatMessage({id: `snackbar.${e.message}`}), {variant: "error"});
+          enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
         } else {
           console.error(e);
-          enqueueSnackbar(formatMessage({id: "snackbar.error"}), {variant: "error"});
+          enqueueSnackbar(formatMessage({ id: "snackbar.error" }), { variant: "error" });
         }
       });
   };

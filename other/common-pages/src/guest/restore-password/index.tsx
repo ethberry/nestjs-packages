@@ -1,15 +1,15 @@
-import React, {FC, useContext} from "react";
-import {useHistory, useParams} from "react-router";
-import {Grid} from "@material-ui/core";
-import {useSnackbar} from "notistack";
-import {useIntl} from "react-intl";
+import React, { FC, useContext } from "react";
+import { useHistory, useParams } from "react-router";
+import { Grid } from "@material-ui/core";
+import { useSnackbar } from "notistack";
+import { useIntl } from "react-intl";
 
-import {PasswordInput} from "@trejgun/material-ui-inputs-core";
-import {PageHeader} from "@trejgun/material-ui-page-header";
-import {FormikForm} from "@trejgun/material-ui-form";
-import {ApiContext, localizeErrors} from "@trejgun/provider-api";
+import { PasswordInput } from "@trejgun/material-ui-inputs-core";
+import { PageHeader } from "@trejgun/material-ui-page-header";
+import { FormikForm } from "@trejgun/material-ui-form";
+import { ApiContext, localizeErrors } from "@trejgun/provider-api";
 
-import {validationSchema} from "./validation";
+import { validationSchema } from "./validation";
 import useStyles from "./styles";
 
 interface IRestorePasswordDto {
@@ -21,9 +21,9 @@ interface IRestorePasswordDto {
 export const RestorePassword: FC = () => {
   const classes = useStyles();
   const history = useHistory();
-  const {token} = useParams<{token: string}>();
-  const {formatMessage} = useIntl();
-  const {enqueueSnackbar} = useSnackbar();
+  const { token } = useParams<{ token: string }>();
+  const { formatMessage } = useIntl();
+  const { enqueueSnackbar } = useSnackbar();
 
   const api = useContext(ApiContext);
 
@@ -35,7 +35,7 @@ export const RestorePassword: FC = () => {
         data: values,
       })
       .then(() => {
-        enqueueSnackbar(formatMessage({id: "snackbar.password-changed"}), {variant: "success"});
+        enqueueSnackbar(formatMessage({ id: "snackbar.password-changed" }), { variant: "success" });
         history.push("/login");
       })
       .catch(e => {
@@ -43,11 +43,11 @@ export const RestorePassword: FC = () => {
           formikBag.setErrors(localizeErrors(e.message));
         } else if (e.status) {
           // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-          enqueueSnackbar(formatMessage({id: `snackbar.${e.message}`}), {variant: "error"});
+          enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
           history.push("/forgot-password");
         } else {
           console.error(e);
-          enqueueSnackbar(formatMessage({id: "snackbar.error"}), {variant: "error"});
+          enqueueSnackbar(formatMessage({ id: "snackbar.error" }), { variant: "error" });
         }
       });
   };

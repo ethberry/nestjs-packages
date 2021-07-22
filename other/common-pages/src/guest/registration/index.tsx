@@ -1,25 +1,25 @@
-import React, {FC, useContext, useEffect} from "react";
-import {Grid} from "@material-ui/core";
-import {useHistory} from "react-router";
-import {useSnackbar} from "notistack";
-import {useIntl} from "react-intl";
+import React, { FC, useContext, useEffect } from "react";
+import { Grid } from "@material-ui/core";
+import { useHistory } from "react-router";
+import { useSnackbar } from "notistack";
+import { useIntl } from "react-intl";
 
-import {PasswordInput, TextInput} from "@trejgun/material-ui-inputs-core";
-import {UserContext} from "@trejgun/provider-user";
-import {Captcha} from "@trejgun/material-ui-inputs-captcha";
-import {PageHeader} from "@trejgun/material-ui-page-header";
-import {FormikForm} from "@trejgun/material-ui-form";
-import {ApiContext, IJwt, localizeErrors} from "@trejgun/provider-api";
+import { PasswordInput, TextInput } from "@trejgun/material-ui-inputs-core";
+import { UserContext } from "@trejgun/provider-user";
+import { Captcha } from "@trejgun/material-ui-inputs-captcha";
+import { PageHeader } from "@trejgun/material-ui-page-header";
+import { FormikForm } from "@trejgun/material-ui-form";
+import { ApiContext, IJwt, localizeErrors } from "@trejgun/provider-api";
 
 import useStyles from "./styles";
-import {validationSchema} from "./validation";
-import {emptyUser} from "./utils";
+import { validationSchema } from "./validation";
+import { emptyUser } from "./utils";
 
 export const Registration: FC = () => {
   const history = useHistory();
   const classes = useStyles();
-  const {enqueueSnackbar} = useSnackbar();
-  const {formatMessage} = useIntl();
+  const { enqueueSnackbar } = useSnackbar();
+  const { formatMessage } = useIntl();
 
   const user = useContext(UserContext);
   const api = useContext(ApiContext);
@@ -35,7 +35,7 @@ export const Registration: FC = () => {
         if (json.accessToken) {
           api.setToken(json);
         }
-        enqueueSnackbar(formatMessage({id: "snackbar.created"}), {variant: "success"});
+        enqueueSnackbar(formatMessage({ id: "snackbar.created" }), { variant: "success" });
         history.push("/message/registration-successful");
       })
       .catch(e => {
@@ -43,10 +43,10 @@ export const Registration: FC = () => {
           formikBag.setErrors(localizeErrors(e.message));
         } else if (e.status) {
           // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-          enqueueSnackbar(formatMessage({id: `snackbar.${e.message}`}), {variant: "error"});
+          enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
         } else {
           console.error(e);
-          enqueueSnackbar(formatMessage({id: "snackbar.error"}), {variant: "error"});
+          enqueueSnackbar(formatMessage({ id: "snackbar.error" }), { variant: "error" });
         }
       });
   };

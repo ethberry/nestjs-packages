@@ -1,9 +1,9 @@
-import {ApiPropertyOptional} from "@nestjs/swagger";
+import { ApiPropertyOptional } from "@nestjs/swagger";
 
-import {IsString} from "@trejgun/nest-js-validators";
-import {ISearchDto} from "../../../types/collection";
+import { IsString } from "@trejgun/nest-js-validators";
+import { ISearchDto } from "../../../types/collection";
 
-import {PaginationDto} from "./pagination";
+import { PaginationDto } from "./pagination";
 
 export class SearchDto extends PaginationDto implements ISearchDto {
   @ApiPropertyOptional()

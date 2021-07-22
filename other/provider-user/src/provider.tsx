@@ -1,9 +1,9 @@
-import React, {useContext, useEffect, useState, PropsWithChildren, ReactElement} from "react";
-import {useHistory} from "react-router";
+import React, { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
+import { useHistory } from "react-router";
 
-import {ApiContext, IApiContext} from "@trejgun/provider-api";
+import { ApiContext, IApiContext } from "@trejgun/provider-api";
 
-import {UserContext, IUser} from "./context";
+import { UserContext, IUser } from "./context";
 
 const STORAGE_NAME = "auth";
 
@@ -12,7 +12,7 @@ interface IUserProviderProps<T> {
 }
 
 export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProviderProps<T>>): ReactElement | null => {
-  const {profile: defaultProfile = null, children} = props;
+  const { profile: defaultProfile = null, children } = props;
   const [profile, setProfile] = useState<T | null>(defaultProfile);
   const history = useHistory();
 

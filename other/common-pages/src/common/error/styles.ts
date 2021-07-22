@@ -1,4 +1,4 @@
-import {createStyles, makeStyles} from "@material-ui/core";
+import { createStyles, makeStyles } from "@material-ui/core";
 
 export default makeStyles(
   () =>
@@ -12,5 +12,5 @@ export default makeStyles(
         marginTop: "-120px",
       },
     }),
-  {name: "NotFound"},
+  { name: "NotFound" },
 );

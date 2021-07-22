@@ -1,2 +1,2 @@
-export {LocalizationProvider} from "./provider";
-export {flattenMessages} from "./utils";
+export { LocalizationProvider } from "./provider";
+export { flattenMessages } from "./utils";

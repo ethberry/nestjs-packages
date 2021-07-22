@@ -1,4 +1,4 @@
-import {createStyles, makeStyles} from "@material-ui/core";
+import { createStyles, makeStyles } from "@material-ui/core";
 
 export default makeStyles(
   () =>
@@ -17,5 +17,5 @@ export default makeStyles(
         marginRight: 0,
       },
     }),
-  {name: "RestorePassword"},
+  { name: "RestorePassword" },
 );
