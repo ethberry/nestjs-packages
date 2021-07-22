@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-guards@0.1.9...@trejgun/nest-js-guards@1.0.1) (2021-07-22)
+
+**Note:** Version bump only for package @trejgun/nest-js-guards
+
+
+
+
+
 ## [0.1.9](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-guards@0.1.8...@trejgun/nest-js-guards@0.1.9) (2021-07-22)
 
 **Note:** Version bump only for package @trejgun/nest-js-guards
