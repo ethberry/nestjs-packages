@@ -10,7 +10,7 @@ export class LocalGoogleGuard extends AuthGuard("local-google") {
     return result;
   }
 
-  public handleRequest<UserEntity>(e: Error, userEntity: UserEntity): UserEntity {
+  public handleRequest<T>(e: Error, userEntity: T): T {
     if (e) {
       console.error(e);
       throw new UnauthorizedException("unauthorized");
