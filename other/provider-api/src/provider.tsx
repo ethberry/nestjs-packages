@@ -1,7 +1,7 @@
 import React, { PropsWithChildren, ReactElement } from "react";
 
 import { history } from "@trejgun/history";
-import { IJwt } from "../../../types/jwt";
+import { IJwt } from "@trejgun/types-jwt";
 
 import { ApiContext, IFetchProps } from "./context";
 import { fetchFile, fetchJson } from "./fetch";
