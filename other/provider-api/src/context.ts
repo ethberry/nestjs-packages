@@ -1,12 +1,5 @@
 import {createContext} from "react";
 
-export interface IJwt {
-  accessToken: string;
-  accessTokenExpiresAt: number;
-  refreshToken: string;
-  refreshTokenExpiresAt: number;
-}
-
 type TMethods = "POST" | "GET" | "PUT" | "DELETE" | "PATCH";
 
 export interface IPayload {

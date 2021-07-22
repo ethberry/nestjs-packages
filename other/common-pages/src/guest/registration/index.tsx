@@ -9,7 +9,7 @@ import {UserContext} from "@trejgun/provider-user";
 import {Captcha} from "@trejgun/material-ui-inputs-captcha";
 import {PageHeader} from "@trejgun/material-ui-page-header";
 import {FormikForm} from "@trejgun/material-ui-form";
-import {ApiContext, IAuth, localizeErrors} from "@trejgun/provider-api";
+import {ApiContext, IJwt, localizeErrors} from "@trejgun/provider-api";
 
 import useStyles from "./styles";
 import {validationSchema} from "./validation";
@@ -31,7 +31,7 @@ export const Registration: FC = () => {
         method: "POST",
         data: values,
       })
-      .then((json: IAuth) => {
+      .then((json: IJwt) => {
         if (json.accessToken) {
           api.setToken(json);
         }

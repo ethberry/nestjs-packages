@@ -2,10 +2,10 @@ import {useContext} from "react";
 import {useSnackbar} from "notistack";
 import {useIntl} from "react-intl";
 
-import {IApiContext, IAuth, ApiContext} from "@trejgun/provider-api";
+import {ApiContext, IApiContext, IJwt} from "@trejgun/provider-api";
 
 export const useDeleteUrl = (): ((url: string) => Promise<void>) => {
-  const api = useContext<IApiContext<IAuth>>(ApiContext);
+  const api = useContext<IApiContext<IJwt>>(ApiContext);
 
   const {enqueueSnackbar} = useSnackbar();
   const {formatMessage} = useIntl();

@@ -7,7 +7,7 @@ import {Facebook, GooglePlus} from "@trejgun/material-ui-icons-social-networks";
 import {PasswordInput, TextInput} from "@trejgun/material-ui-inputs-core";
 import {PageHeader} from "@trejgun/material-ui-page-header";
 import {FormikForm} from "@trejgun/material-ui-form";
-import {ApiContext, IAuth} from "@trejgun/provider-api";
+import {ApiContext, IJwt} from "@trejgun/provider-api";
 import {UserContext} from "@trejgun/provider-user";
 import {ButtonToolbar} from "@trejgun/material-ui-toolbar";
 
@@ -37,7 +37,7 @@ export const SocialLogin: FC = () => {
         method: "POST",
         data: values,
       })
-      .then((json: IAuth) => {
+      .then((json: IJwt) => {
         api.setToken(json);
         return user.sync("/dashboard");
       })

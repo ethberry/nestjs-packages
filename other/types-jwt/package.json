@@ -6,27 +6,14 @@
   "bugs": {
     "url": "https://github.com/trejgun/common-packages/issues"
   },
-  "dependencies": {
-    "@trejgun/types-jwt": "0.0.1",
-    "@trejgun/history": "0.1.6",
-    "content-disposition": "0.5.3"
-  },
-  "description": "react context provider",
-  "devDependencies": {
-    "@types/content-disposition": "0.5.4",
-    "@types/react": "17.0.14",
-    "react": "17.0.2"
-  },
+  "description": "JWT type",
   "engines": {
     "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/provider-api",
-  "peerDependencies": {
-    "react": "^17"
-  },
+  "name": "@trejgun/types-jwt",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -45,5 +32,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.0"
+  "version": "0.0.1"
 }

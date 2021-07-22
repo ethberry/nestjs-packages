@@ -1,8 +1,9 @@
 import React, {PropsWithChildren, ReactElement} from "react";
 
 import {history} from "@trejgun/history";
+import {IJwt} from "@trejgun/types-jwt";
 
-import {ApiContext, IJwt, IFetchProps} from "./context";
+import {ApiContext, IFetchProps} from "./context";
 import {fetchFile, fetchJson} from "./fetch";
 
 const STORAGE_NAME = "jwt";
