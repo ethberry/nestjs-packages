@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-create-middleware-module@1.0.1...@trejgun/nest-js-create-middleware-module@1.0.2) (2021-07-22)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([c588d74](https://github.com/trejgun/common-packages/commit/c588d74d0de68cc8e21ed317da1b73314bcda884))
+
+
+
+
+
 ## [1.0.1](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-create-middleware-module@0.1.9...@trejgun/nest-js-create-middleware-module@1.0.1) (2021-07-22)
 
 **Note:** Version bump only for package @trejgun/nest-js-create-middleware-module

@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-dialog-confirmation": "0.1.9",
+    "@trejgun/material-ui-dialog-confirmation": "0.1.10",
     "@trejgun/material-ui-progress": "0.1.7"
   },
   "description": "react widget",
@@ -57,5 +57,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.9"
+  "version": "0.1.10"
 }
