@@ -6,7 +6,7 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import {NativeValidation} from "../../../types/validation";
+import { NativeValidation } from "@trejgun/types-validation";
 
 interface IAnyConstraints {
   required: boolean;
@@ -26,7 +26,7 @@ class ValidateAny implements ValidatorConstraintInterface {
   }
 
   private static isValid(value: unknown, args: ValidationArguments): string {
-    const {required = true}: IAnyConstraints = args.constraints[0];
+    const { required = true }: IAnyConstraints = args.constraints[0];
 
     if (typeof value === "undefined") {
       if (required) {

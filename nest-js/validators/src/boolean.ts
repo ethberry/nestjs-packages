@@ -6,7 +6,7 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import {NativeValidation} from "../../../types/validation";
+import { NativeValidation } from "@trejgun/types-validation";
 
 interface IBooleanConstraints {
   required: boolean;
@@ -27,7 +27,7 @@ class ValidateBoolean implements ValidatorConstraintInterface {
   }
 
   private static isValid(value: unknown, args: ValidationArguments): string {
-    const {required = true, isArray}: IBooleanConstraints = args.constraints[0];
+    const { required = true, isArray }: IBooleanConstraints = args.constraints[0];
 
     if (typeof value === "undefined" || (isArray && Array.isArray(value) && value.length === 0)) {
       if (required) {

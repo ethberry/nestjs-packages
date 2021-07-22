@@ -6,7 +6,7 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import {NativeValidation} from "../../../types/validation";
+import { NativeValidation } from "@trejgun/types-validation";
 
 interface IConfirmConstraints {
   required: boolean;
@@ -27,7 +27,7 @@ class ValidateConfirm implements ValidatorConstraintInterface {
   }
 
   private static isValid(value: unknown, args: ValidationArguments): string {
-    const {required = true, relatedPropertyName = "password"}: IConfirmConstraints = args.constraints[0];
+    const { required = true, relatedPropertyName = "password" }: IConfirmConstraints = args.constraints[0];
 
     const relatedValue = (args.object as any)[relatedPropertyName];
 

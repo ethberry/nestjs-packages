@@ -7,7 +7,7 @@ import {
 } from "class-validator";
 import zxcvbn from "zxcvbn";
 
-import {NativeValidation, CustomValidation} from "../../../types/validation";
+import { NativeValidation, CustomValidation } from "@trejgun/types-validation";
 
 interface IPasswordConstraints {
   required: boolean;
@@ -28,7 +28,7 @@ class ValidatePassword implements ValidatorConstraintInterface {
   }
 
   private static isValid(value: unknown, args: ValidationArguments): string {
-    const {required = true, score = 0}: IPasswordConstraints = args.constraints[0];
+    const { required = true, score = 0 }: IPasswordConstraints = args.constraints[0];
 
     if (typeof value === "undefined" || value === "") {
       if (required) {

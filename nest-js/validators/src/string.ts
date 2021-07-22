@@ -6,7 +6,7 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import {NativeValidation} from "../../../types/validation";
+import { NativeValidation } from "@trejgun/types-validation";
 
 interface IStringConstraints {
   required: boolean;
@@ -31,7 +31,7 @@ class ValidateString implements ValidatorConstraintInterface {
   }
 
   private static isValid(value: unknown, args: ValidationArguments): string {
-    const {required = true, isArray}: IStringConstraints = args.constraints[0];
+    const { required = true, isArray }: IStringConstraints = args.constraints[0];
 
     if (
       typeof value === "undefined" ||
@@ -66,7 +66,7 @@ class ValidateString implements ValidatorConstraintInterface {
   }
 
   private static check(value: unknown, args: ValidationArguments): string {
-    const {minLength, maxLength, regexp, enum: type}: IStringConstraints = args.constraints[0];
+    const { minLength, maxLength, regexp, enum: type }: IStringConstraints = args.constraints[0];
 
     if (typeof value !== "string") {
       return NativeValidation.typeMismatch;
