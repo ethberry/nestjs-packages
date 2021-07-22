@@ -14,7 +14,7 @@ interface ICaptchaResponse {
   "error-codes": Array<string>;
 }
 
-interface ICaptchaConstraints {
+interface IReCaptchaConstraints {
   required: boolean;
 }
 
@@ -35,7 +35,7 @@ export class ValidateReCaptcha implements ValidatorConstraintInterface {
   }
 
   private async isValid(value: unknown, args: ValidationArguments): Promise<string> {
-    const {required = true}: ICaptchaConstraints = args.constraints[0];
+    const {required = true}: IReCaptchaConstraints = args.constraints[0];
 
     if (process.env.NODE_ENV === "test") {
       return "";
@@ -65,10 +65,10 @@ export class ValidateReCaptcha implements ValidatorConstraintInterface {
   }
 }
 
-export function Captcha(constraints: Partial<ICaptchaConstraints> = {}, validationOptions?: ValidationOptions) {
+export function ReCaptcha(constraints: Partial<IReCaptchaConstraints> = {}, validationOptions?: ValidationOptions) {
   return (object: Record<string, any>, propertyName: string): void => {
     registerDecorator({
-      name: "Captcha",
+      name: "ReCaptcha",
       target: object.constructor,
       propertyName,
       constraints: [constraints],
