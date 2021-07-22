@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/provider-api": "2.0.1"
+    "@trejgun/provider-api": "2.0.2"
   },
   "description": "react widget",
   "devDependencies": {
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.3"
+  "version": "0.1.4"
 }
