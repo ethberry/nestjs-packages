@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/nest-js-providers": "1.0.1",
+    "@trejgun/nest-js-providers": "1.0.2",
     "@trejgun/nest-js-validators": "1.0.2",
     "class-validator": "0.13.1",
     "qs": "6.10.1",
@@ -58,5 +58,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
