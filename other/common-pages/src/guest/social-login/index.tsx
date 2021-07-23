@@ -10,8 +10,8 @@ import { FormikForm } from "@trejgun/material-ui-form";
 import { ApiContext, IJwt } from "@trejgun/provider-api";
 import { UserContext } from "@trejgun/provider-user";
 import { ButtonToolbar } from "@trejgun/material-ui-toolbar";
+import { popup } from "@trejgun/popup";
 
-import { popup } from "./popup";
 import { validationSchema } from "./validation";
 import useStyles from "./styles";
 

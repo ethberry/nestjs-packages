@@ -15,6 +15,7 @@
     "@trejgun/material-ui-page-header": "0.1.11",
     "@trejgun/material-ui-progress": "0.1.7",
     "@trejgun/material-ui-toolbar": "0.1.11",
+    "@trejgun/popup": "0.0.0",
     "@trejgun/provider-api": "2.0.3",
     "@trejgun/provider-user": "0.1.15",
     "@trejgun/yup-rules": "0.1.15",

@@ -1,18 +1,18 @@
-import React, {FC, Fragment, useState} from "react";
-import {Button, Card, CardActions, CardContent, CardMedia, FormHelperText, Grid, Typography} from "@material-ui/core";
-import {useFormikContext, getIn} from "formik";
-import {FormattedMessage, useIntl} from "react-intl";
+import React, { FC, Fragment, useState } from "react";
+import { Button, Card, CardActions, CardContent, CardMedia, FormHelperText, Grid, Typography } from "@material-ui/core";
+import { useFormikContext, getIn } from "formik";
+import { FormattedMessage, useIntl } from "react-intl";
+import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import path from "path";
-import {DragDropContext, Draggable, Droppable} from "react-beautiful-dnd";
 
-import {TextInput} from "@trejgun/material-ui-inputs-core";
-import {ProgressOverlay} from "@trejgun/material-ui-progress";
-import {ConfirmationDialog} from "@trejgun/material-ui-dialog-confirmation";
-import {FirebaseFileInput} from "@trejgun/material-ui-inputs-file-firebase";
+import { TextInput } from "@trejgun/material-ui-inputs-core";
+import { ProgressOverlay } from "@trejgun/material-ui-progress";
+import { ConfirmationDialog } from "@trejgun/material-ui-dialog-confirmation";
+import { FirebaseFileInput } from "@trejgun/material-ui-inputs-file-firebase";
+import { popup } from "@trejgun/popup";
 
-import {popup} from "../popup";
-import {useStyles} from "./styles";
-import {useDeleteUrl} from "../utils";
+import { useStyles } from "./styles";
+import { useDeleteUrl } from "../utils";
 
 interface IPhotoInputProps {
   name: string;
@@ -21,7 +21,7 @@ interface IPhotoInputProps {
 }
 
 export const PhotoInput: FC<IPhotoInputProps> = props => {
-  const {name, label, accept} = props;
+  const { name, label, accept } = props;
 
   const formik = useFormikContext<any>();
   const error = getIn(formik.errors, name);
@@ -29,15 +29,15 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
   const touched = getIn(formik.touched, name);
 
   const classes = useStyles();
-  const {formatMessage} = useIntl();
+  const { formatMessage } = useIntl();
   const deleteUrl = useDeleteUrl();
   const [isLoading, setIsLoading] = useState(false);
   const [isDeleteImageDialogOpen, setIsDeleteImageDialogOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
   const suffix = name.split(".").pop() as string;
-  const localizedLabel = label === void 0 ? formatMessage({id: `form.labels.${suffix}`}) : label;
-  const localizedHelperText = error ? formatMessage({id: error}, {label: localizedLabel}) : "";
+  const localizedLabel = label === void 0 ? formatMessage({ id: `form.labels.${suffix}` }) : label;
+  const localizedHelperText = error ? formatMessage({ id: error }, { label: localizedLabel }) : "";
 
   const handleOptionDelete = (index: number): (() => void) => {
     return (): void => {
@@ -110,10 +110,10 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
             >
               <Grid item>
                 <ProgressOverlay isLoading={isLoading}>
-                  <FirebaseFileInput onChange={handleFileChange} classes={{root: classes.media}} accept={accept} />
+                  <FirebaseFileInput onChange={handleFileChange} classes={{ root: classes.media }} accept={accept} />
                 </ProgressOverlay>
               </Grid>
-              {value.map((option: {imageUrl: string; title: string}, i: number) => (
+              {value.map((option: { imageUrl: string; title: string }, i: number) => (
                 <Draggable key={i} draggableId={i.toString()} index={i}>
                   {provided => (
                     <Grid item ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
