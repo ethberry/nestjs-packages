@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.14](https://github.com/trejgun/common-packages/compare/@trejgun/common-pages@0.2.13...@trejgun/common-pages@0.2.14) (2021-07-24)
+
+
+### Bug Fixes
+
+* name ([2d72dc4](https://github.com/trejgun/common-packages/commit/2d72dc44efbbfbbe0fdd5163254492fa9370f494))
+
+
+
+
+
 ## [0.2.13](https://github.com/trejgun/common-packages/compare/@trejgun/common-pages@0.2.12...@trejgun/common-pages@0.2.13) (2021-07-23)
 
 **Note:** Version bump only for package @trejgun/common-pages
