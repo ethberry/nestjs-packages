@@ -16,11 +16,11 @@
   "devDependencies": {
     "@material-ui/core": "4.12.2",
     "@material-ui/icons": "4.11.2",
-    "@types/markdown-draft-js": "2.2.3",
+    "@types/markdown-draft-js": "2.2.4",
     "@types/react": "17.0.14",
     "formik": "2.2.9",
     "react": "17.0.2",
-    "react-intl": "5.20.5"
+    "react-intl": "5.20.6"
   },
   "engines": {
     "node": ">=12.13"
