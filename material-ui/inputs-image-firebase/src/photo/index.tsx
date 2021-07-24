@@ -9,7 +9,7 @@ import { TextInput } from "@trejgun/material-ui-inputs-core";
 import { ProgressOverlay } from "@trejgun/material-ui-progress";
 import { ConfirmationDialog } from "@trejgun/material-ui-dialog-confirmation";
 import { FirebaseFileInput } from "@trejgun/material-ui-inputs-file-firebase";
-import { popup } from "@trejgun/popup";
+import { openUrlOnClick } from "@trejgun/popup";
 
 import { useStyles } from "./styles";
 import { useDeleteUrl } from "../utils";
@@ -118,7 +118,11 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
                   {provided => (
                     <Grid item ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
                       <Card>
-                        <CardMedia image={option.imageUrl} onClick={popup(option.imageUrl)} className={classes.media} />
+                        <CardMedia
+                          image={option.imageUrl}
+                          onClick={openUrlOnClick(option.imageUrl)}
+                          className={classes.media}
+                        />
                         <CardContent>
                           <TextInput name={`${name}[${i}].title`} value={option.title} />
                         </CardContent>

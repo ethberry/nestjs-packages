@@ -10,7 +10,7 @@ import { FormikForm } from "@trejgun/material-ui-form";
 import { ApiContext, IJwt } from "@trejgun/provider-api";
 import { UserContext } from "@trejgun/provider-user";
 import { ButtonToolbar } from "@trejgun/material-ui-toolbar";
-import { popup } from "@trejgun/popup";
+import { openUrlOnClick } from "@trejgun/popup";
 
 import { validationSchema } from "./validation";
 import useStyles from "./styles";
@@ -95,7 +95,7 @@ export const SocialLogin: FC = () => {
             variant="outlined"
             startIcon={<GooglePlus />}
             type="button"
-            onClick={popup(`${process.env.BE_URL}/auth/google`)}
+            onClick={openUrlOnClick(`${process.env.BE_URL}/auth/google`)}
           >
             <FormattedMessage id="form.buttons.google" />
           </Button>
@@ -103,7 +103,7 @@ export const SocialLogin: FC = () => {
             variant="outlined"
             startIcon={<Facebook />}
             type="button"
-            onClick={popup(`${process.env.BE_URL}/auth/facebook`)}
+            onClick={openUrlOnClick(`${process.env.BE_URL}/auth/facebook`)}
           >
             <FormattedMessage id="form.buttons.facebook" />
           </Button>
