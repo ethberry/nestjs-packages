@@ -12,7 +12,7 @@
   },
   "description": "react widget",
   "devDependencies": {
-    "@storybook/react": "6.3.5",
+    "@storybook/react": "6.3.6",
     "@types/dompurify": "2.2.3",
     "@types/marked": "2.0.4",
     "@types/react": "17.0.15",
