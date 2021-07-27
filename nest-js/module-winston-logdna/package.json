@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "chalk": "4.1.1",
+    "@trejgun/winston-formatter": "0.0.0",
     "logdna-winston": "3.0.5",
     "winston": "3.3.3",
     "winston-transport": "4.4.0"

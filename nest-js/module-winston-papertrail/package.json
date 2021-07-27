@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "chalk": "4.1.1",
+    "@trejgun/winston-formatter": "0.0.0",
     "winston": "3.3.3",
     "winston-papertrail-transport": "1.0.9",
     "winston-transport": "4.4.0"
