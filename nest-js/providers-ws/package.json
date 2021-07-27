@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "8.0.4",
-    "@nestjs/websockets": "8.0.4"
+    "@nestjs/common": "8.0.5",
+    "@nestjs/websockets": "8.0.5"
   },
   "engines": {
     "node": ">=12.13"
