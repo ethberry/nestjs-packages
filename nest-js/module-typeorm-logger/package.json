@@ -40,7 +40,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "nestjs typeorm module",
+  "title": "NestJS TypeORM logger module",
   "types": "./dist/index.d.ts",
   "version": "1.0.2"
 }
