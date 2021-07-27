@@ -45,7 +45,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "nestjs winston module",
+  "title": "NestJS Winston+Papertrail module",
   "types": "./dist/index.d.ts",
   "version": "1.0.2"
 }
