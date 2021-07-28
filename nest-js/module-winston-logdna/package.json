@@ -7,6 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
+    "@logdna/logger": "2.3.2",
     "@trejgun/winston-formatter": "0.0.0",
     "logdna-winston": "3.0.5",
     "winston": "3.3.3",
@@ -15,7 +16,6 @@
   "devDependencies": {
     "@nestjs/common": "8.0.5",
     "@nestjs/config": "1.0.1",
-    "@types/chalk": "2.2.0",
     "nest-winston": "1.5.0"
   },
   "engines": {
