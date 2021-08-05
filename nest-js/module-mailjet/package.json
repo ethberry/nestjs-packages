@@ -11,7 +11,7 @@
     "node-mailjet": "3.3.4"
   },
   "devDependencies": {
-    "@nestjs/common": "8.0.5",
+    "@nestjs/common": "8.0.6",
     "@types/node-mailjet": "3.3.7"
   },
   "engines": {
