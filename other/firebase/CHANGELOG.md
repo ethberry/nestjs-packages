@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.10](https://github.com/trejgun/common-packages/compare/@trejgun/firebase@0.1.9...@trejgun/firebase@0.1.10) (2021-08-06)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([d8f25e9](https://github.com/trejgun/common-packages/commit/d8f25e9e839b754f2cdfc9a5ea76fd58542091c7))
+
+
+
+
+
 ## [0.1.9](https://github.com/trejgun/common-packages/compare/@trejgun/firebase@0.1.8...@trejgun/firebase@0.1.9) (2021-07-23)
 
 **Note:** Version bump only for package @trejgun/firebase

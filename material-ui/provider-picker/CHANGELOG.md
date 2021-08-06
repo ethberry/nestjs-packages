@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-provider-picker@0.1.7...@trejgun/material-ui-provider-picker@0.1.8) (2021-08-06)
+
+**Note:** Version bump only for package @trejgun/material-ui-provider-picker
+
+
+
+
+
 ## [0.1.7](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-provider-picker@0.1.6...@trejgun/material-ui-provider-picker@0.1.7) (2021-07-22)
 
 **Note:** Version bump only for package @trejgun/material-ui-provider-picker

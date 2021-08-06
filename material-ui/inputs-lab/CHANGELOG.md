@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.11](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-lab@0.1.10...@trejgun/material-ui-inputs-lab@0.1.11) (2021-08-06)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([17134c5](https://github.com/trejgun/common-packages/commit/17134c5509a87ea00c96807b7ce0ec39dcf85000))
+
+
+
+
+
 ## [0.1.10](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-lab@0.1.9...@trejgun/material-ui-inputs-lab@0.1.10) (2021-07-23)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-lab

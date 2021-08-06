@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.13](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-form-search@0.1.12...@trejgun/material-ui-form-search@0.1.13) (2021-08-06)
+
+**Note:** Version bump only for package @trejgun/material-ui-form-search
+
+
+
+
+
 ## [0.1.12](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-form-search@0.1.11...@trejgun/material-ui-form-search@0.1.12) (2021-07-23)
 
 **Note:** Version bump only for package @trejgun/material-ui-form-search

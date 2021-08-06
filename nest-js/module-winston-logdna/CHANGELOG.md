@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-winston-logdna@1.0.2...@trejgun/nest-js-module-winston-logdna@1.0.3) (2021-08-06)
+
+
+### Bug Fixes
+
+* types ([8210a0c](https://github.com/trejgun/common-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
+
+
+
+
+
 ## [1.0.2](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-winston-logdna@1.0.1...@trejgun/nest-js-module-winston-logdna@1.0.2) (2021-07-23)
 
 **Note:** Version bump only for package @trejgun/nest-js-module-winston-logdna

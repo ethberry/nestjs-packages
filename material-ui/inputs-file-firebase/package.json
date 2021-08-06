@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/firebase": "0.1.9",
-    "@trejgun/material-ui-inputs-file": "0.1.11"
+    "@trejgun/firebase": "0.1.10",
+    "@trejgun/material-ui-inputs-file": "0.1.12"
   },
   "description": "react widget",
   "devDependencies": {
@@ -42,5 +42,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.12"
+  "version": "0.1.13"
 }

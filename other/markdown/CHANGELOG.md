@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.12](https://github.com/trejgun/common-packages/compare/@trejgun/markdown@0.1.11...@trejgun/markdown@0.1.12) (2021-08-06)
+
+**Note:** Version bump only for package @trejgun/markdown
+
+
+
+
+
 ## [0.1.11](https://github.com/trejgun/common-packages/compare/@trejgun/markdown@0.1.10...@trejgun/markdown@0.1.11) (2021-07-23)
 
 **Note:** Version bump only for package @trejgun/markdown
