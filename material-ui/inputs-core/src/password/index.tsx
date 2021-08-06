@@ -1,9 +1,9 @@
-import React, {FC, useState, MouseEvent} from "react";
+import React, { FC, useState, MouseEvent } from "react";
 
-import {IconButton, InputAdornment} from "@material-ui/core";
-import {Visibility, VisibilityOff} from "@material-ui/icons";
+import { IconButton, InputAdornment } from "@material-ui/core";
+import { Visibility, VisibilityOff } from "@material-ui/icons";
 
-import {TextInput, ITextInputProps} from "../text";
+import { TextInput, ITextInputProps } from "../text";
 
 export type IPasswordInputProps = ITextInputProps;
 

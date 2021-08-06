@@ -1,1 +1,1 @@
-export {ButtonToolbar, IButtonToolbarProps} from "./button-toolbar";
+export { ButtonToolbar, IButtonToolbarProps } from "./button-toolbar";

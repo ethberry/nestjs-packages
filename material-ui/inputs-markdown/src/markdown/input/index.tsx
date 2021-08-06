@@ -1,7 +1,7 @@
-import React, {FC, Ref, useCallback, useEffect, useImperativeHandle, useRef} from "react";
-import {InputBaseComponentProps} from "@material-ui/core";
-import {EditorState} from "draft-js";
-import {RichTextEditor, IRichTextEditorRef} from "@trejgun/mui-rte";
+import React, { FC, Ref, useCallback, useEffect, useImperativeHandle, useRef } from "react";
+import { InputBaseComponentProps } from "@material-ui/core";
+import { EditorState } from "draft-js";
+import { RichTextEditor, IRichTextEditorRef } from "@trejgun/mui-rte";
 
 export interface IRichTextInputProps extends Omit<InputBaseComponentProps, "value"> {
   inputRef?: Ref<unknown>;
@@ -10,7 +10,7 @@ export interface IRichTextInputProps extends Omit<InputBaseComponentProps, "valu
 }
 
 export const RichTextInput: FC<IRichTextInputProps> = props => {
-  const {inputRef, onStateChange, isFocused, ...rest} = props;
+  const { inputRef, onStateChange, isFocused, ...rest } = props;
 
   // Setup ref for the rich text editor
   const richTextRef = useRef<IRichTextEditorRef>(null);
@@ -21,7 +21,7 @@ export const RichTextInput: FC<IRichTextInputProps> = props => {
   }, [richTextRef]);
 
   // Pass on the focus event of the input ref to the rich text ref
-  useImperativeHandle(inputRef, () => ({focus: () => focusRichText}));
+  useImperativeHandle(inputRef, () => ({ focus: () => focusRichText }));
 
   // If the `isFocused` is changed and its value is `true`, focus the editor
   useEffect(() => {

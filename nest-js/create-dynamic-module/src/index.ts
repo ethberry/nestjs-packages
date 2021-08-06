@@ -1,7 +1,7 @@
-import {DynamicModule, Provider, Type} from "@nestjs/common";
-import {ModuleMetadata} from "@nestjs/common/interfaces";
-import {firstValueFrom, interval, race, Subject} from "rxjs";
-import {first, map} from "rxjs/operators";
+import { DynamicModule, Provider, Type } from "@nestjs/common";
+import { ModuleMetadata } from "@nestjs/common/interfaces";
+import { firstValueFrom, interval, race, Subject } from "rxjs";
+import { first, map } from "rxjs/operators";
 
 type InjectionToken = string | symbol | Type<any>;
 

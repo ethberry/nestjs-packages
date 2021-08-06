@@ -1,8 +1,8 @@
-import React, {FC, useState} from "react";
-import {FormattedMessage} from "react-intl";
+import React, { FC, useState } from "react";
+import { FormattedMessage } from "react-intl";
 
-import {ConfirmationDialog} from "@trejgun/material-ui-dialog-confirmation";
-import {ProgressOverlay} from "@trejgun/material-ui-progress";
+import { ConfirmationDialog } from "@trejgun/material-ui-dialog-confirmation";
+import { ProgressOverlay } from "@trejgun/material-ui-progress";
 
 export interface IDeleteDialogProps {
   open: boolean;
@@ -13,7 +13,7 @@ export interface IDeleteDialogProps {
 }
 
 export const DeleteDialog: FC<IDeleteDialogProps> = props => {
-  const {initialValues, onConfirm, getTitle, ...rest} = props;
+  const { initialValues, onConfirm, getTitle, ...rest } = props;
 
   const [isLoading, setIsLoading] = useState(false);
 

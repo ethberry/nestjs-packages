@@ -1,8 +1,8 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 
-import {Form, Formik, FormikConfig} from "formik";
-import {PromptIfDirty} from "../prompt";
-import {FormButtons} from "../buttons";
+import { Form, Formik, FormikConfig } from "formik";
+import { PromptIfDirty } from "../prompt";
+import { FormButtons } from "../buttons";
 
 interface IFormikFormProps extends FormikConfig<any> {
   showButtons?: boolean;
@@ -12,7 +12,7 @@ interface IFormikFormProps extends FormikConfig<any> {
 }
 
 export const FormikForm: FC<IFormikFormProps> = props => {
-  const {children, showButtons, showPrompt, submit, className, ...rest} = props;
+  const { children, showButtons, showPrompt, submit, className, ...rest } = props;
   return (
     <Formik validateOnBlur enableReinitialize {...rest}>
       <Form className={className}>

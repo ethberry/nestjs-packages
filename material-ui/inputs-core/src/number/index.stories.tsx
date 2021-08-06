@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {INumberInputProps, NumberInput} from "./index";
+import { INumberInputProps, NumberInput } from "./index";
 
 const i18n = {
   "form.labels.number": "Number",
@@ -16,7 +16,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{number: 50}}>
+        <Formik onSubmit={() => {}} initialValues={{ number: 50 }}>
           <Story />
         </Formik>
       </IntlProvider>

@@ -1,9 +1,9 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 // eslint-disable-next-line import/no-named-as-default
 import ReCAPTCHA from "react-google-recaptcha";
-import {FormattedMessage} from "react-intl";
-import {getIn, useFormikContext} from "formik";
-import {Grid, FormHelperText} from "@material-ui/core";
+import { FormattedMessage } from "react-intl";
+import { getIn, useFormikContext } from "formik";
+import { Grid, FormHelperText } from "@material-ui/core";
 
 import useStyles from "./styles";
 
@@ -12,7 +12,7 @@ interface ICaptchaProps {
 }
 
 export const Captcha: FC<ICaptchaProps> = props => {
-  const {name = "captcha"} = props;
+  const { name = "captcha" } = props;
 
   const formik = useFormikContext<any>();
   const error = getIn(formik.errors, name);

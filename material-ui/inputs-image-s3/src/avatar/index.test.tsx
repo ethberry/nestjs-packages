@@ -1,11 +1,11 @@
 import React from "react";
-import {IntlProvider} from "react-intl";
-import {cleanup, render} from "@testing-library/react";
-import {createTheme, MuiThemeProvider} from "@material-ui/core";
-import {Formik} from "formik";
-import {SnackbarProvider} from "notistack";
+import { IntlProvider } from "react-intl";
+import { cleanup, render } from "@testing-library/react";
+import { createTheme, MuiThemeProvider } from "@material-ui/core";
+import { Formik } from "formik";
+import { SnackbarProvider } from "notistack";
 
-import {AvatarInput} from "./index";
+import { AvatarInput } from "./index";
 
 afterEach(cleanup);
 
@@ -30,7 +30,7 @@ describe("<AvatarInput />", () => {
       },
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <SnackbarProvider maxSnack={3}>
@@ -58,7 +58,7 @@ describe("<AvatarInput />", () => {
       },
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <SnackbarProvider maxSnack={3}>
@@ -89,7 +89,7 @@ describe("<AvatarInput />", () => {
       },
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <SnackbarProvider maxSnack={3}>
@@ -121,7 +121,7 @@ describe("<AvatarInput />", () => {
       },
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <SnackbarProvider maxSnack={3}>

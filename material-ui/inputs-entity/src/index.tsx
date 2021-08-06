@@ -1,12 +1,12 @@
-import React, {ChangeEvent, FC, ReactElement, useContext, useEffect, useState} from "react";
-import {useIntl} from "react-intl";
-import {useSnackbar} from "notistack";
-import {getIn, useFormikContext} from "formik";
-import {TextField} from "@material-ui/core";
-import {Autocomplete, AutocompleteRenderInputParams} from "@material-ui/lab";
+import React, { ChangeEvent, FC, ReactElement, useContext, useEffect, useState } from "react";
+import { useIntl } from "react-intl";
+import { useSnackbar } from "notistack";
+import { getIn, useFormikContext } from "formik";
+import { TextField } from "@material-ui/core";
+import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
 
-import {ProgressOverlay} from "@trejgun/material-ui-progress";
-import {ApiContext} from "@trejgun/provider-api";
+import { ProgressOverlay } from "@trejgun/material-ui-progress";
+import { ApiContext } from "@trejgun/provider-api";
 
 export interface IAutocompleteOption {
   id: string | number;
@@ -24,7 +24,7 @@ export interface IEntityInputProps {
 }
 
 export const EntityInput: FC<IEntityInputProps> = props => {
-  const {name, controller, getTitle, multiple, data, onChange} = props;
+  const { name, controller, getTitle, multiple, data, onChange } = props;
   const suffix = name.split(".").pop() as string;
 
   const formik = useFormikContext<any>();
@@ -32,15 +32,15 @@ export const EntityInput: FC<IEntityInputProps> = props => {
   const touched = getIn(formik.touched, name);
   const value = getIn(formik.values, name);
 
-  const {formatMessage} = useIntl();
-  const localizedLabel = formatMessage({id: `form.labels.${suffix}`});
-  const localizedPlaceholder = formatMessage({id: `form.placeholders.${suffix}`});
-  const localizedHelperText = error && touched ? formatMessage({id: error}, {label: localizedLabel}) : "";
+  const { formatMessage } = useIntl();
+  const localizedLabel = formatMessage({ id: `form.labels.${suffix}` });
+  const localizedPlaceholder = formatMessage({ id: `form.placeholders.${suffix}` });
+  const localizedHelperText = error && touched ? formatMessage({ id: error }, { label: localizedLabel }) : "";
 
   const [isLoading, setIsLoading] = useState(false);
   const [options, setOptions] = useState<Array<IAutocompleteOption>>([]);
 
-  const {enqueueSnackbar} = useSnackbar();
+  const { enqueueSnackbar } = useSnackbar();
   const api = useContext(ApiContext);
 
   const fetchOptions = async (): Promise<void> => {
@@ -55,7 +55,7 @@ export const EntityInput: FC<IEntityInputProps> = props => {
       })
       .catch(e => {
         console.error(e);
-        enqueueSnackbar(formatMessage({id: "snackbar.error"}), {variant: "error"});
+        enqueueSnackbar(formatMessage({ id: "snackbar.error" }), { variant: "error" });
       })
       .finally(() => {
         setIsLoading(false);
@@ -88,8 +88,8 @@ export const EntityInput: FC<IEntityInputProps> = props => {
           renderInput={(params: AutocompleteRenderInputParams): ReactElement => (
             <TextField
               {...params}
-              label={formatMessage({id: `form.labels.${suffix}`})}
-              placeholder={formatMessage({id: `form.placeholders.${suffix}`})}
+              label={formatMessage({ id: `form.labels.${suffix}` })}
+              placeholder={formatMessage({ id: `form.placeholders.${suffix}` })}
               error={!!error}
               helperText={localizedHelperText}
               fullWidth

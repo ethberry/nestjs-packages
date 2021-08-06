@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {ISearchInputProps, SearchInput} from "./index";
+import { ISearchInputProps, SearchInput } from "./index";
 
 const i18n = {
   "form.labels.search": "Search",
@@ -16,7 +16,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{search: ""}}>
+        <Formik onSubmit={() => {}} initialValues={{ search: "" }}>
           <Story />
         </Formik>
       </IntlProvider>

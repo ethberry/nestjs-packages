@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 export default makeStyles(
   () => ({
@@ -33,5 +33,5 @@ export default makeStyles(
       opacity: 0.4,
     },
   }),
-  {name: "AvatarInput"},
+  { name: "AvatarInput" },
 );

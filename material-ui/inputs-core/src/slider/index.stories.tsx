@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {ISliderInputProps, SliderInput} from "./index";
+import { ISliderInputProps, SliderInput } from "./index";
 
 const i18n = {
   "form.labels.slider": "Slider",
@@ -15,7 +15,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{slider: 250}}>
+        <Formik onSubmit={() => {}} initialValues={{ slider: 250 }}>
           <Story />
         </Formik>
       </IntlProvider>

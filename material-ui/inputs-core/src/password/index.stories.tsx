@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {IPasswordInputProps, PasswordInput} from "./index";
+import { IPasswordInputProps, PasswordInput } from "./index";
 
 const i18n = {
   "form.labels.password": "Password",
@@ -16,7 +16,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{password: ""}}>
+        <Formik onSubmit={() => {}} initialValues={{ password: "" }}>
           <Story />
         </Formik>
       </IntlProvider>

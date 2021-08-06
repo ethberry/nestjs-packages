@@ -1,8 +1,8 @@
-import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
-import {Email, connect} from "node-mailjet";
+import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
+import { Email, connect } from "node-mailjet";
 
-import {MAILJET_OPTIONS_PROVIDER} from "./mailjet.constants";
-import {IMailjetOptions, IMailjetSendDto} from "./interfaces";
+import { MAILJET_OPTIONS_PROVIDER } from "./mailjet.constants";
+import { IMailjetOptions, IMailjetSendDto } from "./interfaces";
 
 @Injectable()
 export class MailjetService {
@@ -17,9 +17,9 @@ export class MailjetService {
     this.mailjet = connect(options.publicKey, options.privateKey);
   }
 
-  public sendEmail(mail: IMailjetSendDto): Promise<{status: boolean}> {
+  public sendEmail(mail: IMailjetSendDto): Promise<{ status: boolean }> {
     return this.mailjet
-      .post("send", {version: "v3.1"})
+      .post("send", { version: "v3.1" })
       .request({
         Messages: [
           {
@@ -36,17 +36,17 @@ export class MailjetService {
         ],
       })
       .then(() => {
-        return {status: true};
+        return { status: true };
       })
       .catch(e => {
         this.loggerService.error(e.message, e.stack, MailjetService.name);
-        return {status: false};
+        return { status: false };
       });
   }
 
   public addToContactList(listId: number, email: string, props: Record<string, any>): Promise<Email.Response> {
     return this.mailjet
-      .post("contactslist", {version: "v3"})
+      .post("contactslist", { version: "v3" })
       .id(listId)
       .action("managecontact")
       .request({
@@ -66,7 +66,7 @@ export class MailjetService {
 
   public async deleteFromContactList(listId: number, email: string): Promise<void> {
     await this.mailjet
-      .post("contactslist", {version: "v3"})
+      .post("contactslist", { version: "v3" })
       .id(listId)
       .action("managecontact")
       .request({

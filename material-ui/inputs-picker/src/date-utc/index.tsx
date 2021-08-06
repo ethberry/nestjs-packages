@@ -1,9 +1,9 @@
-import React, {FC, ReactElement} from "react";
-import {useIntl} from "react-intl";
-import {getIn, useFormikContext} from "formik";
-import {TextField, TextFieldProps} from "@material-ui/core";
-import {DatePicker} from "@material-ui/pickers";
-import {addMinutes, subMinutes} from "date-fns";
+import React, { FC, ReactElement } from "react";
+import { useIntl } from "react-intl";
+import { getIn, useFormikContext } from "formik";
+import { TextField, TextFieldProps } from "@material-ui/core";
+import { DatePicker } from "@material-ui/pickers";
+import { addMinutes, subMinutes } from "date-fns";
 
 interface IDateUtcInputProps {
   name: string;
@@ -13,14 +13,14 @@ interface IDateUtcInputProps {
 }
 
 export const DateUtcInput: FC<IDateUtcInputProps> = props => {
-  const {name, ...rest} = props;
+  const { name, ...rest } = props;
 
   const suffix = name.split(".").pop() as string;
 
   const formik = useFormikContext<any>();
   const value = getIn(formik.values, name);
 
-  const {formatMessage} = useIntl();
+  const { formatMessage } = useIntl();
 
   const setter = (date: Date | string): Date => {
     const d = new Date(date);
@@ -35,7 +35,7 @@ export const DateUtcInput: FC<IDateUtcInputProps> = props => {
   return (
     <DatePicker
       inputFormat="MM/dd/yyyy"
-      label={formatMessage({id: `form.labels.${suffix}`})}
+      label={formatMessage({ id: `form.labels.${suffix}` })}
       value={value ? setter(value) : value}
       onChange={(date: Date | null): void => {
         formik.setFieldValue(name, date ? getter(date) : date);

@@ -1,10 +1,10 @@
-import React, {FC, useState} from "react";
+import React, { FC, useState } from "react";
 
-import {createTheme, CssBaseline, MuiThemeProvider} from "@material-ui/core";
-import {PaletteOptions} from "@material-ui/core/styles/createPalette";
+import { createTheme, CssBaseline, MuiThemeProvider } from "@material-ui/core";
+import { PaletteOptions } from "@material-ui/core/styles/createPalette";
 
-import {ThemeContext, ThemeType} from "./context";
-import {dark, light} from "./palette";
+import { ThemeContext, ThemeType } from "./context";
+import { dark, light } from "./palette";
 
 export interface IThemeProviderProps {
   type?: ThemeType;
@@ -13,7 +13,7 @@ export interface IThemeProviderProps {
 }
 
 export const ThemeProvider: FC<IThemeProviderProps> = props => {
-  const {type: defaultType = ThemeType.light, darkPalette = dark, lightPalette = light, children} = props;
+  const { type: defaultType = ThemeType.light, darkPalette = dark, lightPalette = light, children } = props;
 
   const [type, setType] = useState<ThemeType>(defaultType);
 

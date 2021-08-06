@@ -1,8 +1,8 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 
-import {Theme, useMediaQuery} from "@material-ui/core";
+import { Theme, useMediaQuery } from "@material-ui/core";
 
-import {ITextInputProps, TextInput} from "../text";
+import { ITextInputProps, TextInput } from "../text";
 
 export type ITextAreaProps = ITextInputProps;
 

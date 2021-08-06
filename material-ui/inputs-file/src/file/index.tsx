@@ -1,12 +1,12 @@
-import React, {FC, useCallback} from "react";
+import React, { FC, useCallback } from "react";
 import clsx from "clsx";
-import {useDropzone, FileRejection, DropzoneOptions} from "react-dropzone";
-import {CloudUpload, CloudUploadOutlined, CloudOff} from "@material-ui/icons";
-import {useSnackbar} from "notistack";
-import {useIntl} from "react-intl";
+import { useDropzone, FileRejection, DropzoneOptions } from "react-dropzone";
+import { CloudUpload, CloudUploadOutlined, CloudOff } from "@material-ui/icons";
+import { useSnackbar } from "notistack";
+import { useIntl } from "react-intl";
 
-import {ACCEPTED_FORMATS, MAX_FILE_SIZE} from "./constants";
-import {humanFileSize} from "./utils";
+import { ACCEPTED_FORMATS, MAX_FILE_SIZE } from "./constants";
+import { humanFileSize } from "./utils";
 import useStyles from "./styles";
 
 export interface IFileInputProps extends DropzoneOptions {
@@ -20,10 +20,10 @@ export interface IFileInputProps extends DropzoneOptions {
 }
 
 export const FileInput: FC<IFileInputProps> = props => {
-  const {disabled, onChange, accept = ACCEPTED_FORMATS, maxSize = MAX_FILE_SIZE, ...rest} = props;
+  const { disabled, onChange, accept = ACCEPTED_FORMATS, maxSize = MAX_FILE_SIZE, ...rest } = props;
   const classes = useStyles();
-  const {formatMessage} = useIntl();
-  const {enqueueSnackbar} = useSnackbar();
+  const { formatMessage } = useIntl();
+  const { enqueueSnackbar } = useSnackbar();
 
   const onDrop = useCallback((acceptedFiles: File[], rejectedFiles: FileRejection[]) => {
     if (rejectedFiles.length) {
@@ -32,24 +32,24 @@ export const FileInput: FC<IFileInputProps> = props => {
         if (!accept.includes(rejectedFile.file.type)) {
           enqueueSnackbar(
             formatMessage(
-              {id: "components.dropzone.format"},
+              { id: "components.dropzone.format" },
               {
                 type: rejectedFile.file.type,
                 accept: Array.isArray(accept) ? accept.join(", ") : accept,
               },
             ),
-            {variant: "error"},
+            { variant: "error" },
           );
         } else if (maxSize < rejectedFile.file.size) {
           enqueueSnackbar(
             formatMessage(
-              {id: "components.dropzone.size"},
+              { id: "components.dropzone.size" },
               {
                 size: humanFileSize(rejectedFile.file.size),
                 maxSize: humanFileSize(maxSize),
               },
             ),
-            {variant: "error"},
+            { variant: "error" },
           );
         }
       });
@@ -61,7 +61,7 @@ export const FileInput: FC<IFileInputProps> = props => {
     }
   }, []);
 
-  const {getRootProps, getInputProps, isDragActive} = useDropzone({
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
     accept,
     maxSize,

@@ -1,8 +1,8 @@
-import React, {ChangeEvent, FC, ReactElement} from "react";
-import {TextField} from "@material-ui/core";
-import {Autocomplete, AutocompleteRenderInputParams} from "@material-ui/lab";
-import {useIntl} from "react-intl";
-import {getIn, useFormikContext} from "formik";
+import React, { ChangeEvent, FC, ReactElement } from "react";
+import { TextField } from "@material-ui/core";
+import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
+import { useIntl } from "react-intl";
+import { getIn, useFormikContext } from "formik";
 
 export interface IAutocompleteOptions {
   key: string | number;
@@ -17,7 +17,7 @@ export interface IAutocompleteInputProps {
 }
 
 export const AutocompleteInput: FC<IAutocompleteInputProps> = props => {
-  const {name, options, multiple} = props;
+  const { name, options, multiple } = props;
 
   const suffix = name.split(".").pop() as string;
 
@@ -25,9 +25,9 @@ export const AutocompleteInput: FC<IAutocompleteInputProps> = props => {
   const error = getIn(formik.errors, name);
   const value = getIn(formik.values, name);
 
-  const {formatMessage} = useIntl();
-  const localizedLabel = formatMessage({id: `form.labels.${suffix}`});
-  const localizedHelperText = error ? formatMessage({id: error}, {label: localizedLabel}) : "";
+  const { formatMessage } = useIntl();
+  const localizedLabel = formatMessage({ id: `form.labels.${suffix}` });
+  const localizedHelperText = error ? formatMessage({ id: error }, { label: localizedLabel }) : "";
 
   if (multiple) {
     return (
@@ -43,8 +43,8 @@ export const AutocompleteInput: FC<IAutocompleteInputProps> = props => {
         renderInput={(params: AutocompleteRenderInputParams): ReactElement => (
           <TextField
             {...params}
-            label={formatMessage({id: `form.labels.${suffix}`})}
-            placeholder={formatMessage({id: `form.placeholders.${suffix}`})}
+            label={formatMessage({ id: `form.labels.${suffix}` })}
+            placeholder={formatMessage({ id: `form.placeholders.${suffix}` })}
             error={!!error}
             helperText={localizedHelperText}
             fullWidth
@@ -66,8 +66,8 @@ export const AutocompleteInput: FC<IAutocompleteInputProps> = props => {
         renderInput={(params: AutocompleteRenderInputParams): ReactElement => (
           <TextField
             {...params}
-            label={formatMessage({id: `form.labels.${suffix}`})}
-            placeholder={formatMessage({id: `form.placeholders.${suffix}`})}
+            label={formatMessage({ id: `form.labels.${suffix}` })}
+            placeholder={formatMessage({ id: `form.placeholders.${suffix}` })}
             error={!!error}
             helperText={localizedHelperText}
             fullWidth

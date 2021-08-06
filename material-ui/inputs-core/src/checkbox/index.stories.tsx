@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {ICheckboxInputProps, CheckboxInput} from "./index";
+import { ICheckboxInputProps, CheckboxInput } from "./index";
 
 const i18n = {
   "form.labels.checkbox": "Checkbox",
@@ -15,7 +15,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{checkbox: false}}>
+        <Formik onSubmit={() => {}} initialValues={{ checkbox: false }}>
           <Story />
         </Formik>
       </IntlProvider>

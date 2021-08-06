@@ -1,9 +1,9 @@
-import {createConfigurableDynamicRootModule} from "@trejgun/nest-js-create-dynamic-module";
-import {DynamicModule, Logger, Module} from "@nestjs/common";
+import { createConfigurableDynamicRootModule } from "@trejgun/nest-js-create-dynamic-module";
+import { DynamicModule, Logger, Module } from "@nestjs/common";
 
-import {SES_OPTIONS_PROVIDER} from "./ses.constants";
-import {SesService} from "./ses.service";
-import {ISesOptions} from "./interfaces";
+import { SES_OPTIONS_PROVIDER } from "./ses.constants";
+import { SesService } from "./ses.service";
+import { ISesOptions } from "./interfaces";
 
 @Module({
   providers: [Logger, SesService],

@@ -1,8 +1,8 @@
-import {ApiProperty} from "@nestjs/swagger";
+import { ApiProperty } from "@nestjs/swagger";
 
-import {IsString} from "@trejgun/nest-js-validators";
+import { IsString } from "@trejgun/nest-js-validators";
 
-import {IS3PutDto} from "../interfaces";
+import { IS3PutDto } from "../interfaces";
 
 export class S3PutDto implements IS3PutDto {
   @ApiProperty()

@@ -1,8 +1,8 @@
-import {ApiProperty} from "@nestjs/swagger";
+import { ApiProperty } from "@nestjs/swagger";
 
-import {IsString} from "@trejgun/nest-js-validators";
+import { IsString } from "@trejgun/nest-js-validators";
 
-import {IS3GetDto} from "../interfaces";
+import { IS3GetDto } from "../interfaces";
 
 export class S3GetDto implements IS3GetDto {
   @ApiProperty()

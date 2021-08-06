@@ -1,2 +1,2 @@
-export {ProgressOverlay} from "./progress-overlay";
-export {Spinner} from "./spinner";
+export { ProgressOverlay } from "./progress-overlay";
+export { Spinner } from "./spinner";

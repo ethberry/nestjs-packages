@@ -1,8 +1,8 @@
-import {CanActivate, ExecutionContext, Injectable} from "@nestjs/common";
-import {Reflector} from "@nestjs/core";
-import {AuthGuard} from "@nestjs/passport";
-import {WsException} from "@nestjs/websockets";
-import {Socket} from "socket.io";
+import { CanActivate, ExecutionContext, Injectable } from "@nestjs/common";
+import { Reflector } from "@nestjs/core";
+import { AuthGuard } from "@nestjs/passport";
+import { WsException } from "@nestjs/websockets";
+import { Socket } from "socket.io";
 
 @Injectable()
 export class WsLocalGuard extends AuthGuard("local") implements CanActivate {

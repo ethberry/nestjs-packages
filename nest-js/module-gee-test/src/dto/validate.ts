@@ -1,9 +1,9 @@
-import {ApiProperty} from "@nestjs/swagger";
+import { ApiProperty } from "@nestjs/swagger";
 
-import {IsString} from "@trejgun/nest-js-validators";
+import { IsString } from "@trejgun/nest-js-validators";
 
-import {IGeeTestDto, IValidateDto} from "../interfaces";
-import {GeeCaptcha} from "../geetest.validator";
+import { IGeeTestDto, IValidateDto } from "../interfaces";
+import { GeeCaptcha } from "../geetest.validator";
 
 export class GeeTestDto implements IGeeTestDto {
   @ApiProperty()
@@ -20,7 +20,7 @@ export class GeeTestDto implements IGeeTestDto {
 }
 
 export class ValidateDto implements IValidateDto {
-  @ApiProperty({type: () => GeeTestDto})
+  @ApiProperty({ type: () => GeeTestDto })
   @GeeCaptcha()
   public geetest: IGeeTestDto;
 }

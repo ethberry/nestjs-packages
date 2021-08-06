@@ -1,12 +1,12 @@
-import React, {FC, useEffect, useState} from "react";
-import {match} from "css-mediaquery";
+import React, { FC, useEffect, useState } from "react";
+import { match } from "css-mediaquery";
 
-import {createTheme, CssBaseline, MuiThemeProvider} from "@material-ui/core";
-import {MuiMediaQueryList} from "@material-ui/core/useMediaQuery";
-import {PaletteOptions} from "@material-ui/core/styles/createPalette";
+import { createTheme, CssBaseline, MuiThemeProvider } from "@material-ui/core";
+import { MuiMediaQueryList } from "@material-ui/core/useMediaQuery";
+import { PaletteOptions } from "@material-ui/core/styles/createPalette";
 
-import {ThemeContext, ThemeType} from "./context";
-import {dark, light} from "./palette";
+import { ThemeContext, ThemeType } from "./context";
+import { dark, light } from "./palette";
 
 export interface IThemeProviderProps {
   type?: ThemeType;
@@ -15,7 +15,7 @@ export interface IThemeProviderProps {
 }
 
 export const ThemeProvider: FC<IThemeProviderProps> = props => {
-  const {type: defaultType = ThemeType.light, darkPalette = dark, lightPalette = light, children} = props;
+  const { type: defaultType = ThemeType.light, darkPalette = dark, lightPalette = light, children } = props;
 
   const [type, setType] = useState<ThemeType>(defaultType);
 

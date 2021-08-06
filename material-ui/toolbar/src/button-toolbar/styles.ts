@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 export default makeStyles(
   theme => ({
@@ -42,5 +42,5 @@ export default makeStyles(
     "space-around": {},
     "space-evenly": {},
   }),
-  {name: "ButtonToolbar"},
+  { name: "ButtonToolbar" },
 );

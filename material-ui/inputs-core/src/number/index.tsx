@@ -1,7 +1,7 @@
-import React, {FC, KeyboardEvent} from "react";
-import {getIn, useFormikContext} from "formik";
+import React, { FC, KeyboardEvent } from "react";
+import { getIn, useFormikContext } from "formik";
 
-import {IFilledTextInputProps, IOutlinedTextInputProps, IStandardTextInputProps, TextInput} from "../text";
+import { IFilledTextInputProps, IOutlinedTextInputProps, IStandardTextInputProps, TextInput } from "../text";
 
 export interface IStandardNumberInputProps extends IStandardTextInputProps {
   allowNegative?: boolean;
@@ -18,7 +18,7 @@ export interface IOutlinedNumberInputProps extends IOutlinedTextInputProps {
 export type INumberInputProps = IStandardNumberInputProps | IFilledNumberInputProps | IOutlinedNumberInputProps;
 
 export const NumberInput: FC<INumberInputProps> = props => {
-  const {name, allowNegative = false, ...rest} = props;
+  const { name, allowNegative = false, ...rest } = props;
 
   const formik = useFormikContext<any>();
   const value = getIn(formik.values, name);

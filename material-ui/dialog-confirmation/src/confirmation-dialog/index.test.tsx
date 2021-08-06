@@ -1,9 +1,9 @@
 import React from "react";
-import {IntlProvider} from "react-intl";
-import {render, cleanup} from "@testing-library/react";
-import {MuiThemeProvider, createTheme} from "@material-ui/core";
+import { IntlProvider } from "react-intl";
+import { render, cleanup } from "@testing-library/react";
+import { MuiThemeProvider, createTheme } from "@material-ui/core";
 
-import {ConfirmationDialog} from "./index";
+import { ConfirmationDialog } from "./index";
 
 afterEach(cleanup);
 
@@ -26,13 +26,13 @@ describe("<ConfirmationDialog />", () => {
       children: "some text",
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <ConfirmationDialog {...props} />
         </IntlProvider>
       </MuiThemeProvider>,
-      {container},
+      { container },
     );
 
     expect(asFragment()).toMatchSnapshot();
@@ -50,13 +50,13 @@ describe("<ConfirmationDialog />", () => {
       children: "some text",
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <ConfirmationDialog {...props} />
         </IntlProvider>
       </MuiThemeProvider>,
-      {container},
+      { container },
     );
 
     expect(asFragment()).toMatchSnapshot();

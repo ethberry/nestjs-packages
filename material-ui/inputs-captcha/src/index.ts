@@ -1,1 +1,1 @@
-export {Captcha} from "./captcha";
+export { Captcha } from "./captcha";

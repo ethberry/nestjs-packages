@@ -1,8 +1,8 @@
-import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
-import {SES} from "aws-sdk";
+import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
+import { SES } from "aws-sdk";
 
-import {ISesOptions, ISesSendDto} from "./interfaces";
-import {SES_OPTIONS_PROVIDER} from "./ses.constants";
+import { ISesOptions, ISesSendDto } from "./interfaces";
+import { SES_OPTIONS_PROVIDER } from "./ses.constants";
 
 @Injectable()
 export class SesService {
@@ -14,11 +14,11 @@ export class SesService {
     @Inject(SES_OPTIONS_PROVIDER)
     private readonly options: ISesOptions,
   ) {
-    const {accessKeyId, secretAccessKey, region} = options;
-    this.ses = new SES({accessKeyId, secretAccessKey, region});
+    const { accessKeyId, secretAccessKey, region } = options;
+    this.ses = new SES({ accessKeyId, secretAccessKey, region });
   }
 
-  async sendEmail(mail: ISesSendDto): Promise<{status: boolean}> {
+  async sendEmail(mail: ISesSendDto): Promise<{ status: boolean }> {
     return this.ses
       .sendEmail({
         Source: this.options.from,
@@ -38,11 +38,11 @@ export class SesService {
       })
       .promise()
       .then(() => {
-        return {status: true};
+        return { status: true };
       })
       .catch(e => {
         this.loggerService.error(e.message, e.stack, SesService.name);
-        return {status: false};
+        return { status: false };
       });
   }
 }

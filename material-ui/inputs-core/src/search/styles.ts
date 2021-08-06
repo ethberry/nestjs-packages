@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 export const useStyles = makeStyles(
   theme => ({
@@ -19,5 +19,5 @@ export const useStyles = makeStyles(
       margin: 4,
     },
   }),
-  {name: "Search"},
+  { name: "Search" },
 );

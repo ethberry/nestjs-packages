@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {ITextAreaProps, TextArea} from "./index";
+import { ITextAreaProps, TextArea } from "./index";
 
 const i18n = {
   "form.labels.textarea": "Textarea",
@@ -16,7 +16,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{textarea: "Lorem ipsum"}}>
+        <Formik onSubmit={() => {}} initialValues={{ textarea: "Lorem ipsum" }}>
           <Story />
         </Formik>
       </IntlProvider>

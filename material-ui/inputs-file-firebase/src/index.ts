@@ -1,1 +1,1 @@
-export {FirebaseFileInput, IFirebaseFileInputProps} from "./firebase-file";
+export { FirebaseFileInput, IFirebaseFileInputProps } from "./firebase-file";

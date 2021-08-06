@@ -1,5 +1,5 @@
-import React, {FC} from "react";
-import {FormattedMessage} from "react-intl";
+import React, { FC } from "react";
+import { FormattedMessage } from "react-intl";
 import {
   Button,
   Dialog,
@@ -17,7 +17,7 @@ export interface IConfirmationDialogProps extends DialogProps {
 }
 
 export const ConfirmationDialog: FC<IConfirmationDialogProps> = props => {
-  const {onCancel, onConfirm, children, message = "dialogs.confirmation", maxWidth = "sm", ...rest} = props;
+  const { onCancel, onConfirm, children, message = "dialogs.confirmation", maxWidth = "sm", ...rest } = props;
   return (
     <Dialog
       fullWidth

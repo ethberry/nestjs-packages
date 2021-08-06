@@ -1,14 +1,14 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 import firebase from "@trejgun/firebase";
 
-import {FileInput, IFileInputProps} from "@trejgun/material-ui-inputs-file";
+import { FileInput, IFileInputProps } from "@trejgun/material-ui-inputs-file";
 
 export interface IFirebaseFileInputProps extends Omit<IFileInputProps, "onChange"> {
   onChange: (urls: Array<string>) => void;
 }
 
 export const FirebaseFileInput: FC<IFirebaseFileInputProps> = props => {
-  const {onChange, ...rest} = props;
+  const { onChange, ...rest } = props;
 
   const handleChange = async (files: File[]): Promise<void> => {
     const storageRef = firebase.storage().ref();

@@ -1,8 +1,8 @@
-import React, {FC} from "react";
-import {FormattedMessage} from "react-intl";
+import React, { FC } from "react";
+import { FormattedMessage } from "react-intl";
 
-import {Grid, Typography} from "@material-ui/core";
-import {ButtonToolbar} from "@trejgun/material-ui-toolbar";
+import { Grid, Typography } from "@material-ui/core";
+import { ButtonToolbar } from "@trejgun/material-ui-toolbar";
 
 import useStyles from "./styles";
 
@@ -12,7 +12,7 @@ export interface IPageHeader {
 }
 
 export const PageHeader: FC<IPageHeader> = props => {
-  const {children, message, data} = props;
+  const { children, message, data } = props;
   const classes = useStyles();
   return (
     <Grid className={classes.header} container justifyContent="space-between" alignItems="center">

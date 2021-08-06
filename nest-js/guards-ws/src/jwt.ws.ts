@@ -1,7 +1,7 @@
-import {ExecutionContext, Injectable, CanActivate} from "@nestjs/common";
-import {Reflector} from "@nestjs/core";
-import {AuthGuard} from "@nestjs/passport";
-import {WsException} from "@nestjs/websockets";
+import { ExecutionContext, Injectable, CanActivate } from "@nestjs/common";
+import { Reflector } from "@nestjs/core";
+import { AuthGuard } from "@nestjs/passport";
+import { WsException } from "@nestjs/websockets";
 
 @Injectable()
 export class JwtWsGuard extends AuthGuard("jwt-ws") implements CanActivate {

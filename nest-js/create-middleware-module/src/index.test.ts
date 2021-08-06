@@ -1,10 +1,10 @@
-import {Express, NextFunction} from "express";
-import {ExpressAdapter, NestExpressApplication} from "@nestjs/platform-express";
-import {Controller, Get, INestApplication, Module, RequestMethod} from "@nestjs/common";
-import {NestFactory} from "@nestjs/core";
+import { Express, NextFunction } from "express";
+import { ExpressAdapter, NestExpressApplication } from "@nestjs/platform-express";
+import { Controller, Get, INestApplication, Module, RequestMethod } from "@nestjs/common";
+import { NestFactory } from "@nestjs/core";
 import supertest from "supertest";
 
-import {createModule} from "./index";
+import { createModule } from "./index";
 
 let app: INestApplication;
 
@@ -18,7 +18,7 @@ async function prepareServer(testModule: any): Promise<Express> {
   return server;
 }
 
-const params = {foo: "bar"};
+const params = { foo: "bar" };
 
 afterEach(async () => {
   await app.close();
@@ -91,7 +91,7 @@ describe(ExpressAdapter.name, () => {
     }
 
     @Module({
-      imports: [fooModule.forRootAsync({useFactory: () => params})],
+      imports: [fooModule.forRootAsync({ useFactory: () => params })],
       controllers: [TestController],
     })
     class TestModule {}
@@ -164,7 +164,7 @@ describe(ExpressAdapter.name, () => {
       imports: [
         fooModule.forRoot({
           forRoutes: [TestController],
-          exclude: [{method: RequestMethod.ALL, path: "forbid"}],
+          exclude: [{ method: RequestMethod.ALL, path: "forbid" }],
           ...params,
         }),
       ],

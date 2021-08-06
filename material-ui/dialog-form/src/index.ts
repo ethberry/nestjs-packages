@@ -1,1 +1,1 @@
-export {FormDialog} from "./form-dialog";
+export { FormDialog } from "./form-dialog";

@@ -1,10 +1,10 @@
-import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
-import {HttpService} from "@nestjs/axios";
-import {firstValueFrom} from "rxjs";
-import {map} from "rxjs/operators";
+import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
+import { HttpService } from "@nestjs/axios";
+import { firstValueFrom } from "rxjs";
+import { map } from "rxjs/operators";
 
-import {IAddMemberToListResponse, IMailchimpOptions} from "./interfaces";
-import {MAILCHIMP_OPTIONS_PROVIDER} from "./mailchimp.constants";
+import { IAddMemberToListResponse, IMailchimpOptions } from "./interfaces";
+import { MAILCHIMP_OPTIONS_PROVIDER } from "./mailchimp.constants";
 
 @Injectable()
 export class MailchimpService {
@@ -36,7 +36,7 @@ export class MailchimpService {
           merge_fields: fields,
         },
       })
-      .pipe(map((response: {data: IAddMemberToListResponse}) => response.data));
+      .pipe(map((response: { data: IAddMemberToListResponse }) => response.data));
 
     return firstValueFrom(response).catch(e => {
       this.loggerService.error(e.message, e.stack, MailchimpService.name);

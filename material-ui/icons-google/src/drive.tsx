@@ -1,6 +1,6 @@
-import React, {FC} from "react";
-import {SvgIcon} from "@material-ui/core";
-import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
+import React, { FC } from "react";
+import { SvgIcon } from "@material-ui/core";
+import { SvgIconProps } from "@material-ui/core/SvgIcon/SvgIcon";
 
 export const Drive: FC<SvgIconProps> = props => {
   return (

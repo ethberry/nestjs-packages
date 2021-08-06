@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 export const useStyles = makeStyles(
   theme => ({
@@ -18,5 +18,5 @@ export const useStyles = makeStyles(
       justifyContent: "center",
     },
   }),
-  {name: "ImageGallery"},
+  { name: "ImageGallery" },
 );

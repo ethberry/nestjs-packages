@@ -1,13 +1,13 @@
-import React, {FC, useState} from "react";
-import {TextField, TextFieldProps} from "@material-ui/core";
-import {convertToRaw, EditorState} from "draft-js";
-import {getIn, useFormikContext} from "formik";
-import {TToolbarControl} from "@trejgun/mui-rte";
-import {useIntl} from "react-intl";
-import {draftToMarkdown, markdownToDraft} from "markdown-draft-js";
-import {useDebouncedCallback} from "use-debounce";
+import React, { FC, useState } from "react";
+import { TextField, TextFieldProps } from "@material-ui/core";
+import { convertToRaw, EditorState } from "draft-js";
+import { getIn, useFormikContext } from "formik";
+import { TToolbarControl } from "@trejgun/mui-rte";
+import { useIntl } from "react-intl";
+import { draftToMarkdown, markdownToDraft } from "markdown-draft-js";
+import { useDebouncedCallback } from "use-debounce";
 
-import {IRichTextInputProps, RichTextInput} from "./input";
+import { IRichTextInputProps, RichTextInput } from "./input";
 
 const defaultControls = [
   "title",
@@ -32,7 +32,7 @@ export interface IRichTextFieldProps {
 }
 
 export const MarkdownInput: FC<IRichTextFieldProps & TextFieldProps> = props => {
-  const {id, name, controls = defaultControls, defaultValue, InputLabelProps, ...rest} = props;
+  const { id, name, controls = defaultControls, defaultValue, InputLabelProps, ...rest } = props;
 
   const suffix = name.split(".").pop() as string;
 
@@ -43,9 +43,9 @@ export const MarkdownInput: FC<IRichTextFieldProps & TextFieldProps> = props => 
 
   const [isFocused, setIsFocused] = useState(false);
 
-  const {formatMessage} = useIntl();
-  const localizedPlaceholder = formatMessage({id: `form.placeholders.${suffix}`});
-  const localizedLabel = formatMessage({id: `form.labels.${suffix}`});
+  const { formatMessage } = useIntl();
+  const localizedPlaceholder = formatMessage({ id: `form.placeholders.${suffix}` });
+  const localizedLabel = formatMessage({ id: `form.labels.${suffix}` });
 
   const debounced = useDebouncedCallback((state: EditorState) => {
     const content = state.getCurrentContent();

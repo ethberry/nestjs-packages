@@ -1,14 +1,14 @@
-import {useContext} from "react";
-import {useSnackbar} from "notistack";
-import {useIntl} from "react-intl";
+import { useContext } from "react";
+import { useSnackbar } from "notistack";
+import { useIntl } from "react-intl";
 
-import {ApiContext, IApiContext, IJwt} from "@trejgun/provider-api";
+import { ApiContext, IApiContext, IJwt } from "@trejgun/provider-api";
 
 export const useDeleteUrl = (): ((url: string) => Promise<void>) => {
   const api = useContext<IApiContext<IJwt>>(ApiContext);
 
-  const {enqueueSnackbar} = useSnackbar();
-  const {formatMessage} = useIntl();
+  const { enqueueSnackbar } = useSnackbar();
+  const { formatMessage } = useIntl();
 
   return async (url: string): Promise<void> => {
     await api
@@ -19,11 +19,11 @@ export const useDeleteUrl = (): ((url: string) => Promise<void>) => {
         },
       })
       .then(() => {
-        enqueueSnackbar(formatMessage({id: "snackbar.deleted"}), {variant: "success"});
+        enqueueSnackbar(formatMessage({ id: "snackbar.deleted" }), { variant: "success" });
       })
       .catch(e => {
         console.error(e);
-        enqueueSnackbar(formatMessage({id: "snackbar.error"}), {variant: "error"});
+        enqueueSnackbar(formatMessage({ id: "snackbar.error" }), { variant: "error" });
       });
   };
 };

@@ -1,1 +1,1 @@
-export {ConfirmationDialog, IConfirmationDialogProps} from "./confirmation-dialog";
+export { ConfirmationDialog, IConfirmationDialogProps } from "./confirmation-dialog";

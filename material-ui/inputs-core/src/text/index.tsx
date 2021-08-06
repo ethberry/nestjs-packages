@@ -1,7 +1,7 @@
-import React, {FC} from "react";
-import {useIntl} from "react-intl";
-import {getIn, useFormikContext} from "formik";
-import {TextField, StandardTextFieldProps, FilledTextFieldProps, OutlinedTextFieldProps} from "@material-ui/core";
+import React, { FC } from "react";
+import { useIntl } from "react-intl";
+import { getIn, useFormikContext } from "formik";
+import { TextField, StandardTextFieldProps, FilledTextFieldProps, OutlinedTextFieldProps } from "@material-ui/core";
 
 export interface IStandardTextInputProps extends StandardTextFieldProps {
   name: string;
@@ -21,7 +21,7 @@ export interface IOutlinedTextInputProps extends OutlinedTextFieldProps {
 export type ITextInputProps = IStandardTextInputProps | IFilledTextInputProps | IOutlinedTextInputProps;
 
 export const TextInput: FC<ITextInputProps> = props => {
-  const {name, readOnly, InputProps, label, placeholder, ...rest} = props;
+  const { name, readOnly, InputProps, label, placeholder, ...rest } = props;
 
   const suffix = name.split(".").pop() as string;
 
@@ -30,11 +30,11 @@ export const TextInput: FC<ITextInputProps> = props => {
   const touched = getIn(formik.touched, name);
   const value = getIn(formik.values, name);
 
-  const {formatMessage} = useIntl();
-  const localizedLabel = label === void 0 ? formatMessage({id: `form.labels.${suffix}`}) : label;
+  const { formatMessage } = useIntl();
+  const localizedLabel = label === void 0 ? formatMessage({ id: `form.labels.${suffix}` }) : label;
   const localizedPlaceholder =
-    placeholder === void 0 ? formatMessage({id: `form.placeholders.${suffix}`}) : placeholder;
-  const localizedHelperText = error && touched ? formatMessage({id: error}, {label: localizedLabel}) : "";
+    placeholder === void 0 ? formatMessage({ id: `form.placeholders.${suffix}` }) : placeholder;
+  const localizedHelperText = error && touched ? formatMessage({ id: error }, { label: localizedLabel }) : "";
 
   return (
     <TextField

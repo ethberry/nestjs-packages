@@ -1,9 +1,9 @@
-import React, {FC, Fragment, createElement, ChangeEvent} from "react";
-import {FormattedMessage} from "react-intl";
-import {getIn, useFormikContext} from "formik";
-import {InputLabel} from "@material-ui/core";
-import {Rating, RatingProps} from "@material-ui/lab";
-import {Star, SvgIconComponent} from "@material-ui/icons";
+import React, { FC, Fragment, createElement, ChangeEvent } from "react";
+import { FormattedMessage } from "react-intl";
+import { getIn, useFormikContext } from "formik";
+import { InputLabel } from "@material-ui/core";
+import { Rating, RatingProps } from "@material-ui/lab";
+import { Star, SvgIconComponent } from "@material-ui/icons";
 
 export interface IRatingInputProps extends RatingProps {
   name: string;
@@ -12,7 +12,7 @@ export interface IRatingInputProps extends RatingProps {
 }
 
 export const RatingInput: FC<IRatingInputProps> = props => {
-  const {name, icon = Star, color, ...rest} = props;
+  const { name, icon = Star, color, ...rest } = props;
 
   const suffix = name.split(".").pop() as string;
 
@@ -27,7 +27,7 @@ export const RatingInput: FC<IRatingInputProps> = props => {
       <Rating
         max={10}
         name={name}
-        icon={createElement(icon, {fontSize: "inherit", color})}
+        icon={createElement(icon, { fontSize: "inherit", color })}
         value={value}
         onChange={(_event: ChangeEvent<unknown>, value): void => {
           formik.setFieldValue(name, value);

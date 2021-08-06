@@ -1,1 +1,1 @@
-export {MarkdownInput} from "./markdown";
+export { MarkdownInput } from "./markdown";

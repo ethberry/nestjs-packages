@@ -1,4 +1,4 @@
-import {ISearchDto} from "./search";
+import { ISearchDto } from "./search";
 
 export enum SortDirection {
   asc = "asc",

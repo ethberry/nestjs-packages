@@ -1,6 +1,6 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 
-import {MaskedInput} from "../mask";
+import { MaskedInput } from "../mask";
 
 export interface IPhoneInputProps {
   name: string;

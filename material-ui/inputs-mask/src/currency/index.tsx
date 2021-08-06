@@ -1,9 +1,9 @@
-import React, {FC} from "react";
-import {getIn, useFormikContext} from "formik";
+import React, { FC } from "react";
+import { getIn, useFormikContext } from "formik";
 
-import {MaskedInput} from "../mask";
+import { MaskedInput } from "../mask";
 
-import {getFormattedCurrency, getNormalCurrency} from "./utils";
+import { getFormattedCurrency, getNormalCurrency } from "./utils";
 
 export interface ICurrencyInputProps {
   allowNegative?: boolean;

@@ -1,10 +1,10 @@
-import React, {FC, useRef} from "react";
-import {TextFieldProps} from "@material-ui/core";
-import {getIn, useFormikContext} from "formik";
+import React, { FC, useRef } from "react";
+import { TextFieldProps } from "@material-ui/core";
+import { getIn, useFormikContext } from "formik";
 
-import {TextInput} from "@trejgun/material-ui-inputs-core";
+import { TextInput } from "@trejgun/material-ui-inputs-core";
 
-import {MaskedInputWrapper} from "./wrapper";
+import { MaskedInputWrapper } from "./wrapper";
 
 export interface IMaskedInputProps {
   name: string;
@@ -82,7 +82,7 @@ export const MaskedInput: FC<IMaskedInputProps & TextFieldProps> = props => {
           commit,
           maskedRef,
           onBlur: handleOnBlur,
-          ...(dispatch ? {dispatch} : {}), // ??
+          ...(dispatch ? { dispatch } : {}), // ??
           ...inputProps,
         },
       }}

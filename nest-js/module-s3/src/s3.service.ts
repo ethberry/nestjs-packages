@@ -1,9 +1,9 @@
-import {Inject, Injectable} from "@nestjs/common";
-import {v4} from "uuid";
-import {S3} from "aws-sdk";
+import { Inject, Injectable } from "@nestjs/common";
+import { v4 } from "uuid";
+import { S3 } from "aws-sdk";
 
-import {IS3DeleteDto, IS3GetDto, IS3Options, IS3PutDto, IS3Result} from "./interfaces";
-import {ProviderType} from "./s3.constants";
+import { IS3DeleteDto, IS3GetDto, IS3Options, IS3PutDto, IS3Result } from "./interfaces";
+import { ProviderType } from "./s3.constants";
 
 @Injectable()
 export class S3Service {
@@ -14,7 +14,7 @@ export class S3Service {
     private readonly options: IS3Options,
   ) {}
 
-  getObject({objectName, bucket}: IS3GetDto): Promise<IS3Result> {
+  getObject({ objectName, bucket }: IS3GetDto): Promise<IS3Result> {
     const params = {
       Bucket: bucket || this.options.bucket,
       Key: objectName,
@@ -25,7 +25,7 @@ export class S3Service {
     }));
   }
 
-  putObject({contentType, bucket}: IS3PutDto): Promise<IS3Result> {
+  putObject({ contentType, bucket }: IS3PutDto): Promise<IS3Result> {
     const filename = `${v4()}.${contentType.split("/")[1]}`;
 
     const params = {
@@ -41,7 +41,7 @@ export class S3Service {
     }));
   }
 
-  deleteObject({objectName, bucket}: IS3DeleteDto): Promise<any> {
+  deleteObject({ objectName, bucket }: IS3DeleteDto): Promise<any> {
     const params = {
       Bucket: bucket || this.options.bucket,
       Key: objectName,

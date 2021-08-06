@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 export default makeStyles(
   theme => ({
@@ -7,5 +7,5 @@ export default makeStyles(
       marginBottom: theme.spacing(1),
     },
   }),
-  {name: "ReCaptcha"},
+  { name: "ReCaptcha" },
 );

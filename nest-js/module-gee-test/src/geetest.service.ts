@@ -1,17 +1,17 @@
-import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
-import {HttpService} from "@nestjs/axios";
-import {ConfigService} from "@nestjs/config";
-import {Cron, CronExpression} from "@nestjs/schedule";
-import {InjectRedis} from "@liaoliaots/nestjs-redis";
-import {Redis} from "ioredis";
+import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
+import { HttpService } from "@nestjs/axios";
+import { ConfigService } from "@nestjs/config";
+import { Cron, CronExpression } from "@nestjs/schedule";
+import { InjectRedis } from "@liaoliaots/nestjs-redis";
+import { Redis } from "ioredis";
 import crypto from "crypto";
-import {v4} from "uuid";
-import {firstValueFrom} from "rxjs";
-import {map} from "rxjs/operators";
-import {stringify} from "qs";
+import { v4 } from "uuid";
+import { firstValueFrom } from "rxjs";
+import { map } from "rxjs/operators";
+import { stringify } from "qs";
 
-import {IGeeTestDto, IRegisterDto, IRegisterResult, IValidateResult} from "./interfaces";
-import {GEE_TEST_STORAGE} from "./geetest.constants";
+import { IGeeTestDto, IRegisterDto, IRegisterResult, IValidateResult } from "./interfaces";
+import { GEE_TEST_STORAGE } from "./geetest.constants";
 
 // https://github.com/GeeTeam/gt3-server-node-express-bypass
 // https://www.geetest.com/demo/slide-en.html
@@ -141,7 +141,7 @@ export class GeeTestService {
       .pipe(map(response => response.data));
 
     return firstValueFrom(response)
-      .then((data: {challenge: string}) => {
+      .then((data: { challenge: string }) => {
         return data.challenge;
       })
       .catch(e => {
@@ -198,7 +198,7 @@ export class GeeTestService {
       .pipe(map(response => response.data));
 
     return firstValueFrom(response)
-      .then((data: {seccode: string}) => {
+      .then((data: { seccode: string }) => {
         return data.seccode;
       })
       .catch(e => {
@@ -234,7 +234,7 @@ export class GeeTestService {
       .pipe(map(response => response.data));
 
     return firstValueFrom(response)
-      .then(async (data: {status: string}) => {
+      .then(async (data: { status: string }) => {
         if (data.status === "success") {
           await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "success");
         } else {

@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {IPhoneInputProps, PhoneInput} from "./index";
+import { IPhoneInputProps, PhoneInput } from "./index";
 
 const i18n = {
   "form.labels.phoneMask": "Phone",
@@ -16,7 +16,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{phoneMask: ""}}>
+        <Formik onSubmit={() => {}} initialValues={{ phoneMask: "" }}>
           <Story />
         </Formik>
       </IntlProvider>

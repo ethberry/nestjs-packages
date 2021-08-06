@@ -1,8 +1,8 @@
-import React, {FC} from "react";
-import {Collapse, Grid} from "@material-ui/core";
+import React, { FC } from "react";
+import { Collapse, Grid } from "@material-ui/core";
 
-import {AutoSave, FormikForm} from "@trejgun/material-ui-form";
-import {SearchInput} from "@trejgun/material-ui-inputs-core";
+import { AutoSave, FormikForm } from "@trejgun/material-ui-form";
+import { SearchInput } from "@trejgun/material-ui-inputs-core";
 
 interface ICommonSearchFormProps {
   onSubmit: (values: any) => void;
@@ -11,10 +11,10 @@ interface ICommonSearchFormProps {
 }
 
 export const CommonSearchForm: FC<ICommonSearchFormProps> = props => {
-  const {onSubmit, initialValues, open = false, children} = props;
+  const { onSubmit, initialValues, open = false, children } = props;
 
-  const {query} = initialValues;
-  const fixedValues = {query};
+  const { query } = initialValues;
+  const fixedValues = { query };
 
   return (
     <FormikForm initialValues={fixedValues} onSubmit={onSubmit} showButtons={false} showPrompt={false}>

@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {CurrencyInput, ICurrencyInputProps} from "./index";
+import { CurrencyInput, ICurrencyInputProps } from "./index";
 
 const i18n = {
   "form.labels.currencyMask": "Currency",
@@ -16,7 +16,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{currencyMask: 100}}>
+        <Formik onSubmit={() => {}} initialValues={{ currencyMask: 100 }}>
           <Story />
         </Formik>
       </IntlProvider>

@@ -1,6 +1,6 @@
-import React, {FC} from "react";
-import {SvgIcon} from "@material-ui/core";
-import {SvgIconProps} from "@material-ui/core/SvgIcon/SvgIcon";
+import React, { FC } from "react";
+import { SvgIcon } from "@material-ui/core";
+import { SvgIconProps } from "@material-ui/core/SvgIcon/SvgIcon";
 
 export const Plus: FC<SvgIconProps> = props => {
   return (

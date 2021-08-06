@@ -1,8 +1,8 @@
-import {Controller, Get, Query} from "@nestjs/common";
+import { Controller, Get, Query } from "@nestjs/common";
 
-import {S3DeleteDto, S3GetDto, S3PutDto} from "./dto";
-import {S3Service} from "./s3.service";
-import {IS3Result} from "./interfaces";
+import { S3DeleteDto, S3GetDto, S3PutDto } from "./dto";
+import { S3Service } from "./s3.service";
+import { IS3Result } from "./interfaces";
 
 @Controller("/s3")
 export class S3Controller {

@@ -1,5 +1,5 @@
-import {Injectable} from "@nestjs/common";
-import {ConfigService} from "@nestjs/config";
+import { Injectable } from "@nestjs/common";
+import { ConfigService } from "@nestjs/config";
 import {
   registerDecorator,
   ValidationArguments,
@@ -8,15 +8,15 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import {IGeeTestDto} from "./interfaces";
-import {GeeTestService} from "./geetest.service";
+import { IGeeTestDto } from "./interfaces";
+import { GeeTestService } from "./geetest.service";
 
 interface IGeeTestConstraints {
   required: boolean;
 }
 
 @Injectable()
-@ValidatorConstraint({async: true})
+@ValidatorConstraint({ async: true })
 export class ValidateGeeTest implements ValidatorConstraintInterface {
   private reason: string;
 
@@ -32,7 +32,7 @@ export class ValidateGeeTest implements ValidatorConstraintInterface {
   }
 
   private async isValid(value: unknown, args: ValidationArguments): Promise<string> {
-    const {required = true}: IGeeTestConstraints = args.constraints[0];
+    const { required = true }: IGeeTestConstraints = args.constraints[0];
 
     const nodeEnv = this.configService.get<string>("NODE_ENV", "development");
     if (nodeEnv === "test") {

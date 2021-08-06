@@ -1,9 +1,9 @@
-import {createConfigurableDynamicRootModule} from "@trejgun/nest-js-create-dynamic-module";
-import {DynamicModule, Logger, Module} from "@nestjs/common";
+import { createConfigurableDynamicRootModule } from "@trejgun/nest-js-create-dynamic-module";
+import { DynamicModule, Logger, Module } from "@nestjs/common";
 
-import {MAILJET_OPTIONS_PROVIDER} from "./mailjet.constants";
-import {MailjetService} from "./mailjet.service";
-import {IMailjetOptions} from "./interfaces";
+import { MAILJET_OPTIONS_PROVIDER } from "./mailjet.constants";
+import { MailjetService } from "./mailjet.service";
+import { IMailjetOptions } from "./interfaces";
 
 @Module({
   providers: [Logger, MailjetService],

@@ -1,12 +1,12 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Story} from "@storybook/react";
-import {Router} from "react-router-dom";
-import {createMemoryHistory} from "history";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Story } from "@storybook/react";
+import { Router } from "react-router-dom";
+import { createMemoryHistory } from "history";
 
-import {TextInput} from "@trejgun/material-ui-inputs-core";
+import { TextInput } from "@trejgun/material-ui-inputs-core";
 
-import {FormDialog, IFormikFormProps} from "./index";
+import { FormDialog, IFormikFormProps } from "./index";
 
 const i18n = {
   "dialogs.edit": "Edit",
@@ -29,8 +29,8 @@ export default {
     ),
   ],
   argTypes: {
-    onConfirm: {action: "confirmed"},
-    onCancel: {action: "canceled"},
+    onConfirm: { action: "confirmed" },
+    onCancel: { action: "canceled" },
   },
 };
 

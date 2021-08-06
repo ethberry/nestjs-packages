@@ -1,8 +1,8 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Story } from "@storybook/react";
 
-import {ConfirmationDialog, IConfirmationDialogProps} from "./index";
+import { ConfirmationDialog, IConfirmationDialogProps } from "./index";
 
 const i18n = {
   "dialogs.confirmation": "Please confirm",
@@ -21,8 +21,8 @@ export default {
     ),
   ],
   argTypes: {
-    onConfirm: {action: "confirmed"},
-    onCancel: {action: "canceled"},
+    onConfirm: { action: "confirmed" },
+    onCancel: { action: "canceled" },
   },
 };
 

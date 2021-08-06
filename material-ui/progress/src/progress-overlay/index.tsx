@@ -1,6 +1,6 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 
-import {Spinner} from "../spinner";
+import { Spinner } from "../spinner";
 
 import useStyles from "./styles";
 
@@ -9,7 +9,7 @@ export interface IProgressOverlayProps {
 }
 
 export const ProgressOverlay: FC<IProgressOverlayProps> = props => {
-  const {isLoading, children} = props;
+  const { isLoading, children } = props;
   const classes = useStyles();
   return (
     <div className={classes.root}>

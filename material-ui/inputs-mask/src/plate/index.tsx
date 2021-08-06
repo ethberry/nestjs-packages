@@ -1,7 +1,7 @@
-import React, {FC} from "react";
-import {MaskedEnum} from "imask";
+import React, { FC } from "react";
+import { MaskedEnum } from "imask";
 
-import {MaskedInput} from "../mask";
+import { MaskedInput } from "../mask";
 
 export interface IPlateInputProps {
   name: string;

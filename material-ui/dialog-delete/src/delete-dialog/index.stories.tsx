@@ -1,8 +1,8 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Story } from "@storybook/react";
 
-import {IDeleteDialogProps, DeleteDialog} from "./index";
+import { IDeleteDialogProps, DeleteDialog } from "./index";
 
 const i18n = {
   "dialogs.delete": "Delete `{title}`?",
@@ -22,8 +22,8 @@ export default {
     ),
   ],
   argTypes: {
-    onConfirm: {action: "confirmed"},
-    onCancel: {action: "canceled"},
+    onConfirm: { action: "confirmed" },
+    onCancel: { action: "canceled" },
   },
 };
 

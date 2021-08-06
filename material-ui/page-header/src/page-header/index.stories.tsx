@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider, FormattedMessage} from "react-intl";
-import {Button} from "@material-ui/core";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider, FormattedMessage } from "react-intl";
+import { Button } from "@material-ui/core";
+import { Story } from "@storybook/react";
 
-import {PageHeader, IPageHeader} from "./index";
+import { PageHeader, IPageHeader } from "./index";
 
 const i18n = {
   "pages.test.title": "Page header",
@@ -33,7 +33,7 @@ Simple.args = {
 export const WithVariable = Template.bind({});
 WithVariable.args = {
   message: "pages.test.title-with-var",
-  data: {var: "VAR"},
+  data: { var: "VAR" },
 };
 
 const Template2: Story<IPageHeader> = args => (

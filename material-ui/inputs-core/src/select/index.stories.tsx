@@ -1,9 +1,9 @@
-import React, {ReactElement} from "react";
-import {IntlProvider} from "react-intl";
-import {Formik} from "formik";
-import {Story} from "@storybook/react";
+import React, { ReactElement } from "react";
+import { IntlProvider } from "react-intl";
+import { Formik } from "formik";
+import { Story } from "@storybook/react";
 
-import {ISelectInputProps, SelectInput} from "./index";
+import { ISelectInputProps, SelectInput } from "./index";
 
 const i18n = {
   "enums.select.ONE": "ONE",
@@ -22,7 +22,7 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <IntlProvider locale="en" messages={i18n}>
-        <Formik onSubmit={() => {}} initialValues={{select: SelectOptions.ONE}}>
+        <Formik onSubmit={() => {}} initialValues={{ select: SelectOptions.ONE }}>
           <Story />
         </Formik>
       </IntlProvider>

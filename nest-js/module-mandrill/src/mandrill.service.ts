@@ -1,9 +1,9 @@
-import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
-import {HttpService} from "@nestjs/axios";
+import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
+import { HttpService } from "@nestjs/axios";
 
-import {IMandrillOptions, IMandrillSendFields} from "./interfaces";
-import {MANDRILL_OPTIONS_PROVIDER} from "./mandrill.constants";
-import {firstValueFrom} from "rxjs";
+import { IMandrillOptions, IMandrillSendFields } from "./interfaces";
+import { MANDRILL_OPTIONS_PROVIDER } from "./mandrill.constants";
+import { firstValueFrom } from "rxjs";
 
 @Injectable()
 export class MandrillService {
@@ -15,7 +15,7 @@ export class MandrillService {
     private readonly options: IMandrillOptions,
   ) {}
 
-  public sendEmail(mail: IMandrillSendFields): Promise<{status: boolean}> {
+  public sendEmail(mail: IMandrillSendFields): Promise<{ status: boolean }> {
     const response = this.httpService.request({
       method: "post",
       url: `https://mandrillapp.com/api/1.0/messages/send`,
@@ -33,11 +33,11 @@ export class MandrillService {
 
     return firstValueFrom(response)
       .then(() => {
-        return {status: true};
+        return { status: true };
       })
       .catch(e => {
         this.loggerService.error(e.message, e.stack, MandrillService.name);
-        return {status: false};
+        return { status: false };
       });
   }
 }

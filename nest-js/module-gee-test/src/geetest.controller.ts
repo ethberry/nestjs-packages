@@ -1,10 +1,10 @@
-import {Body, Controller, Get, Ip, Post} from "@nestjs/common";
+import { Body, Controller, Get, Ip, Post } from "@nestjs/common";
 
-import {Public} from "@trejgun/nest-js-providers";
+import { Public } from "@trejgun/nest-js-utils";
 
-import {GeeTestService} from "./geetest.service";
-import {IRegisterResult, IValidateDto} from "./interfaces";
-import {ValidateDto} from "./dto";
+import { GeeTestService } from "./geetest.service";
+import { IRegisterResult, IValidateDto } from "./interfaces";
+import { ValidateDto } from "./dto";
 
 @Public()
 @Controller("/gee-test")

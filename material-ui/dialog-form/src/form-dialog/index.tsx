@@ -1,8 +1,8 @@
-import React, {FC, useRef, useState} from "react";
+import React, { FC, useRef, useState } from "react";
 
-import {ConfirmationDialog} from "@trejgun/material-ui-dialog-confirmation";
-import {ProgressOverlay} from "@trejgun/material-ui-progress";
-import {FormikForm} from "@trejgun/material-ui-form";
+import { ConfirmationDialog } from "@trejgun/material-ui-dialog-confirmation";
+import { ProgressOverlay } from "@trejgun/material-ui-progress";
+import { FormikForm } from "@trejgun/material-ui-form";
 
 export interface IFormikFormProps<T> {
   showButtons?: boolean;
@@ -16,7 +16,7 @@ export interface IFormikFormProps<T> {
 }
 
 export const FormDialog: FC<IFormikFormProps<any>> = props => {
-  const {children, onConfirm, onCancel, initialValues, message, open, validationSchema} = props;
+  const { children, onConfirm, onCancel, initialValues, message, open, validationSchema } = props;
 
   const [isLoading, setIsLoading] = useState(false);
 

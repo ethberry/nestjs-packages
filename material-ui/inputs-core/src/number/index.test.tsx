@@ -1,10 +1,10 @@
 import React from "react";
-import {IntlProvider} from "react-intl";
-import {render, cleanup} from "@testing-library/react";
-import {MuiThemeProvider, createTheme} from "@material-ui/core";
-import {Formik} from "formik";
+import { IntlProvider } from "react-intl";
+import { render, cleanup } from "@testing-library/react";
+import { MuiThemeProvider, createTheme } from "@material-ui/core";
+import { Formik } from "formik";
 
-import {NumberInput} from "./index";
+import { NumberInput } from "./index";
 
 afterEach(cleanup);
 
@@ -27,7 +27,7 @@ describe("<NumberInput />", () => {
       },
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <Formik {...formikProps}>
@@ -53,7 +53,7 @@ describe("<NumberInput />", () => {
       },
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <Formik {...formikProps}>
@@ -79,7 +79,7 @@ describe("<NumberInput />", () => {
       },
     };
 
-    const {asFragment} = render(
+    const { asFragment } = render(
       <MuiThemeProvider theme={createTheme()}>
         <IntlProvider locale="en" messages={i18n}>
           <Formik {...formikProps}>

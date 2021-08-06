@@ -1,6 +1,6 @@
-import {RequestHandler} from "express";
-import {DynamicModule, Inject, Module, RequestMethod} from "@nestjs/common";
-import {MiddlewareConfigProxy, MiddlewareConsumer, ModuleMetadata, Provider, Type} from "@nestjs/common/interfaces";
+import { RequestHandler } from "express";
+import { DynamicModule, Inject, Module, RequestMethod } from "@nestjs/common";
+import { MiddlewareConfigProxy, MiddlewareConsumer, ModuleMetadata, Provider, Type } from "@nestjs/common/interfaces";
 
 export type SyncOptions<T> = T & {
   forRoutes?: Parameters<MiddlewareConfigProxy["forRoutes"]>;
@@ -17,7 +17,7 @@ export interface ICoreModule<T> {
   forRootAsync(options: IAsyncOptions<T>): DynamicModule;
 }
 
-const DEFAULT_ROUTES = [{path: "*", method: RequestMethod.ALL}];
+const DEFAULT_ROUTES = [{ path: "*", method: RequestMethod.ALL }];
 const DEFAULT_OPTIONS: SyncOptions<any> = {};
 
 export function createModule<T>(
@@ -59,7 +59,7 @@ export function createModule<T>(
     ) {}
 
     configure(consumer: MiddlewareConsumer) {
-      const {exclude, forRoutes = DEFAULT_ROUTES, ...createMiddlewaresOpts} = this.options || DEFAULT_OPTIONS;
+      const { exclude, forRoutes = DEFAULT_ROUTES, ...createMiddlewaresOpts } = this.options || DEFAULT_OPTIONS;
       const result = createMiddlewares(createMiddlewaresOpts as T);
 
       let middlewares: Array<RequestHandler | Type<any>>;

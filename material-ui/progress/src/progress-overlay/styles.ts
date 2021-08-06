@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 export default makeStyles(
   () => ({
@@ -18,5 +18,5 @@ export default makeStyles(
       justifyContent: "center",
     },
   }),
-  {name: "ProgressOverlay"},
+  { name: "ProgressOverlay" },
 );

@@ -1,7 +1,7 @@
-import React, {FC, useContext, useEffect, useLayoutEffect, useRef, useState} from "react";
-import {useFormikContext, getIn} from "formik";
+import React, { FC, useContext, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useFormikContext, getIn } from "formik";
 
-import {ApiContext} from "@trejgun/provider-api";
+import { ApiContext } from "@trejgun/provider-api";
 
 interface IRegisterResult {
   challenge: string;
@@ -18,7 +18,7 @@ export interface IGeeTestCaptchaProps {
 // https://docs.geetest.com/captcha/apirefer/api/web
 
 export const GeeTestCaptcha: FC<IGeeTestCaptchaProps> = props => {
-  const {name, className} = props;
+  const { name, className } = props;
 
   const [captchaObj, setCaptchaObj] = useState<any | null>(null);
   const ref = useRef<HTMLDivElement | null>(null);

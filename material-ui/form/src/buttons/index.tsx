@@ -1,9 +1,9 @@
-import React, {FC} from "react";
-import {useFormikContext} from "formik";
-import {Button} from "@material-ui/core";
-import {FormattedMessage} from "react-intl";
+import React, { FC } from "react";
+import { useFormikContext } from "formik";
+import { Button } from "@material-ui/core";
+import { FormattedMessage } from "react-intl";
 
-import {ButtonToolbar} from "@trejgun/material-ui-toolbar";
+import { ButtonToolbar } from "@trejgun/material-ui-toolbar";
 
 interface IFormButtonsProps {
   visible?: boolean;
@@ -11,7 +11,7 @@ interface IFormButtonsProps {
 }
 
 export const FormButtons: FC<IFormButtonsProps> = props => {
-  const {visible = true, submit = "submit"} = props;
+  const { visible = true, submit = "submit" } = props;
   const formik = useFormikContext();
 
   const disabled = formik.isSubmitting || (!formik.isValid && formik.dirty);
