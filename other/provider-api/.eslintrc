@@ -4,7 +4,7 @@
     "browser": true
   },
   "extends": [
-    "@trejgun/eslint-config/presets/ts"
+    "@gemunionstudio/eslint-config/presets/ts"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
