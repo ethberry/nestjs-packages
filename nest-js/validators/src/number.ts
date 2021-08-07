@@ -6,8 +6,6 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import { NativeValidation } from "@gemunionstudio/types-validation";
-
 interface INumberConstraints {
   required: boolean;
   isArray: boolean;
@@ -37,7 +35,7 @@ class ValidateNumber implements ValidatorConstraintInterface {
       (isArray && Array.isArray(value) && value.length === 0)
     ) {
       if (required) {
-        return NativeValidation.valueMissing;
+        return "valueMissing";
       } else {
         return "";
       }
@@ -47,7 +45,7 @@ class ValidateNumber implements ValidatorConstraintInterface {
 
     if (isArray) {
       if (!Array.isArray(value)) {
-        message = NativeValidation.typeMismatch;
+        message = "typeMismatch";
       } else {
         for (const e of value) {
           message = this.check(e, args);
@@ -67,15 +65,15 @@ class ValidateNumber implements ValidatorConstraintInterface {
     const { minimum, maximum }: INumberConstraints = args.constraints[0];
 
     if (typeof value !== "number") {
-      return NativeValidation.typeMismatch;
+      return "typeMismatch";
     }
 
     if (typeof minimum !== "undefined" && value < minimum) {
-      return NativeValidation.rangeUnderflow;
+      return "rangeUnderflow";
     }
 
     if (typeof maximum !== "undefined" && value > maximum) {
-      return NativeValidation.rangeOverflow;
+      return "rangeOverflow";
     }
 
     return "";

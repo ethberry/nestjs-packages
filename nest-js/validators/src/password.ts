@@ -7,8 +7,6 @@ import {
 } from "class-validator";
 import zxcvbn from "zxcvbn";
 
-import { NativeValidation, CustomValidation } from "@gemunionstudio/types-validation";
-
 interface IPasswordConstraints {
   required: boolean;
   score: number;
@@ -32,18 +30,18 @@ class ValidatePassword implements ValidatorConstraintInterface {
 
     if (typeof value === "undefined" || value === "") {
       if (required) {
-        return NativeValidation.valueMissing;
+        return "valueMissing";
       } else {
         return "";
       }
     }
 
     if (typeof value !== "string") {
-      return NativeValidation.typeMismatch;
+      return "typeMismatch";
     }
 
     if (zxcvbn(value).score < score) {
-      return CustomValidation.weak;
+      return "weak";
     }
 
     return "";

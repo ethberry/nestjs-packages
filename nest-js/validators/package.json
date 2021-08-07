@@ -7,7 +7,6 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/types-validation": "0.1.9",
     "class-validator": "0.13.1",
     "zxcvbn": "4.4.2"
   },
@@ -19,7 +18,7 @@
   },
   "keywords": [],
   "license": "UNLICENSED",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "name": "@gemunionstudio/nest-js-validators",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

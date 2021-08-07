@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
-  "description": "JWT type",
+  "description": "JWT types",
   "engines": {
     "node": ">=12.13"
   },

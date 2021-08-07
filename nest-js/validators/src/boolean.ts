@@ -6,8 +6,6 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import { NativeValidation } from "@gemunionstudio/types-validation";
-
 interface IBooleanConstraints {
   required: boolean;
   isArray: boolean;
@@ -31,7 +29,7 @@ class ValidateBoolean implements ValidatorConstraintInterface {
 
     if (typeof value === "undefined" || (isArray && Array.isArray(value) && value.length === 0)) {
       if (required) {
-        return NativeValidation.valueMissing;
+        return "valueMissing";
       } else {
         return "";
       }
@@ -41,7 +39,7 @@ class ValidateBoolean implements ValidatorConstraintInterface {
 
     if (isArray) {
       if (!Array.isArray(value)) {
-        message = NativeValidation.typeMismatch;
+        message = "typeMismatch";
       } else {
         for (const e of value) {
           message = this.check(e, args);
@@ -59,7 +57,7 @@ class ValidateBoolean implements ValidatorConstraintInterface {
 
   private static check(value: unknown, _args: ValidationArguments): string {
     if (typeof value !== "boolean") {
-      return NativeValidation.typeMismatch;
+      return "typeMismatch";
     }
 
     return "";

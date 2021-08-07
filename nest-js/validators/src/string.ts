@@ -6,8 +6,6 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import { NativeValidation } from "@gemunionstudio/types-validation";
-
 interface IStringConstraints {
   required: boolean;
   isArray: boolean;
@@ -39,7 +37,7 @@ class ValidateString implements ValidatorConstraintInterface {
       (isArray && Array.isArray(value) && value.length === 0)
     ) {
       if (required) {
-        return NativeValidation.valueMissing;
+        return "valueMissing";
       } else {
         return "";
       }
@@ -49,7 +47,7 @@ class ValidateString implements ValidatorConstraintInterface {
 
     if (isArray) {
       if (!Array.isArray(value)) {
-        message = NativeValidation.typeMismatch;
+        message = "typeMismatch";
       } else {
         for (const e of value) {
           message = this.check(e, args);
@@ -69,23 +67,23 @@ class ValidateString implements ValidatorConstraintInterface {
     const { minLength, maxLength, regexp, enum: type }: IStringConstraints = args.constraints[0];
 
     if (typeof value !== "string") {
-      return NativeValidation.typeMismatch;
+      return "typeMismatch";
     }
 
     if (typeof minLength !== "undefined" && value.length < minLength) {
-      return NativeValidation.tooShort;
+      return "tooShort";
     }
 
     if (typeof maxLength !== "undefined" && value.length > maxLength) {
-      return NativeValidation.tooLong;
+      return "tooLong";
     }
 
     if (typeof regexp !== "undefined" && !regexp.test(value)) {
-      return NativeValidation.patternMismatch;
+      return "patternMismatch";
     }
 
     if (type && !Object.values(type).includes(value)) {
-      return NativeValidation.badInput;
+      return "badInput";
     }
 
     return "";

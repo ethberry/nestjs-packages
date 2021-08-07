@@ -6,8 +6,6 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import { NativeValidation } from "@gemunionstudio/types-validation";
-
 interface IAnyConstraints {
   required: boolean;
 }
@@ -30,7 +28,7 @@ class ValidateAny implements ValidatorConstraintInterface {
 
     if (typeof value === "undefined") {
       if (required) {
-        return NativeValidation.valueMissing;
+        return "valueMissing";
       } else {
         return "";
       }

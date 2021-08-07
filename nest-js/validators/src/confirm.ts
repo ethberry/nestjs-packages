@@ -6,8 +6,6 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import { NativeValidation } from "@gemunionstudio/types-validation";
-
 interface IConfirmConstraints {
   required: boolean;
   relatedPropertyName: string;
@@ -33,18 +31,18 @@ class ValidateConfirm implements ValidatorConstraintInterface {
 
     if (typeof value === "undefined" || value === "") {
       if (required) {
-        return NativeValidation.valueMissing;
+        return "valueMissing";
       } else {
         return "";
       }
     }
 
     if (typeof value !== "string") {
-      return NativeValidation.typeMismatch;
+      return "typeMismatch";
     }
 
     if (relatedValue !== value) {
-      return NativeValidation.badInput;
+      return "badInput";
     }
 
     return "";
