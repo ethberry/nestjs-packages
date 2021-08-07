@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@3.0.0...@gemunionstudio/provider-api@3.0.1) (2021-08-07)
+
+**Note:** Version bump only for package @gemunionstudio/provider-api
+
+
+
+
+
 # 3.0.0 (2021-08-07)
 
 

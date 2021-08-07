@@ -7,7 +7,7 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/provider-api": "3.0.0"
+    "@gemunionstudio/provider-api": "3.0.1"
   },
   "description": "react widget",
   "devDependencies": {
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.0"
+  "version": "0.2.1"
 }

@@ -9,7 +9,7 @@
   "dependencies": {
     "@gemunionstudio/nest-js-create-dynamic-module": "1.0.3",
     "@gemunionstudio/nest-js-utils": "1.0.4",
-    "@gemunionstudio/types-iex-cloud": "0.0.0",
+    "@gemunionstudio/types-iex-cloud": "0.1.0",
     "class-validator": "0.13.1"
   },
   "devDependencies": {
@@ -51,5 +51,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "1.1.0"
+  "version": "1.2.0"
 }

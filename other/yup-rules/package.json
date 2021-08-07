@@ -9,7 +9,7 @@
   "dependencies": {
     "@gemunionstudio/constants-regexp": "0.1.7",
     "@gemunionstudio/constants-validation": "0.1.7",
-    "@gemunionstudio/provider-api": "3.0.0",
+    "@gemunionstudio/provider-api": "3.0.1",
     "yup": "0.32.9"
   },
   "description": "yup rules",
@@ -38,5 +38,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.17"
+  "version": "0.1.18"
 }

@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@gemunionstudio/nest-js-utils": "1.0.4",
-    "@gemunionstudio/nest-js-validators": "1.0.4",
+    "@gemunionstudio/nest-js-validators": "1.1.0",
     "class-validator": "0.13.1",
     "qs": "6.10.1",
     "uuid": "8.3.2"
@@ -58,5 +58,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "1.1.0"
+  "version": "1.2.0"
 }

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.16](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-inputs-file-s3@0.2.15...@gemunionstudio/material-ui-inputs-file-s3@0.2.16) (2021-08-07)
+
+**Note:** Version bump only for package @gemunionstudio/material-ui-inputs-file-s3
+
+
+
+
+
 ## 0.2.15 (2021-08-07)
 
 

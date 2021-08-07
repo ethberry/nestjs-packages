@@ -13,7 +13,7 @@
     "@gemunionstudio/material-ui-inputs-file-firebase": "0.1.14",
     "@gemunionstudio/material-ui-progress": "0.1.9",
     "@gemunionstudio/popup": "0.0.4",
-    "@gemunionstudio/provider-api": "3.0.0",
+    "@gemunionstudio/provider-api": "3.0.1",
     "dotenv": "10.0.0",
     "notistack": "1.0.6",
     "react-beautiful-dnd": "13.1.0"
@@ -69,5 +69,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.22"
+  "version": "0.1.23"
 }

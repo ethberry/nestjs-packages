@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.18](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-settings@0.1.17...@gemunionstudio/provider-settings@0.1.18) (2021-08-07)
+
+**Note:** Version bump only for package @gemunionstudio/provider-settings
+
+
+
+
+
 ## 0.1.17 (2021-08-07)
 
 

@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@gemunionstudio/material-ui-inputs-file": "0.1.13",
-    "@gemunionstudio/provider-api": "3.0.0",
+    "@gemunionstudio/provider-api": "3.0.1",
     "react-s3-uploader": "5.0.0"
   },
   "description": "react widget",
@@ -43,5 +43,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.15"
+  "version": "0.2.16"
 }

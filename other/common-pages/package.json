@@ -16,9 +16,9 @@
     "@gemunionstudio/material-ui-progress": "0.1.9",
     "@gemunionstudio/material-ui-toolbar": "0.1.13",
     "@gemunionstudio/popup": "0.0.4",
-    "@gemunionstudio/provider-api": "3.0.0",
-    "@gemunionstudio/provider-user": "0.1.17",
-    "@gemunionstudio/yup-rules": "0.1.17",
+    "@gemunionstudio/provider-api": "3.0.1",
+    "@gemunionstudio/provider-user": "0.1.18",
+    "@gemunionstudio/yup-rules": "0.1.18",
     "yup": "0.32.9"
   },
   "description": "react context provider",
@@ -72,5 +72,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.16"
+  "version": "0.2.17"
 }

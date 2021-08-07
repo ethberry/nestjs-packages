@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.20](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-inputs-entity@0.1.19...@gemunionstudio/material-ui-inputs-entity@0.1.20) (2021-08-07)
+
+**Note:** Version bump only for package @gemunionstudio/material-ui-inputs-entity
+
+
+
+
+
 ## 0.1.19 (2021-08-07)
 
 

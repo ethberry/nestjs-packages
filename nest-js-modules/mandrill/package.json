@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@gemunionstudio/nest-js-create-dynamic-module": "1.0.3",
-    "@gemunionstudio/types-email": "0.0.0"
+    "@gemunionstudio/types-email": "0.1.0"
   },
   "devDependencies": {
     "@nestjs/axios": "0.0.1",
@@ -44,5 +44,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "1.1.0"
+  "version": "1.2.0"
 }

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/geetest@0.2.0...@gemunionstudio/geetest@0.2.1) (2021-08-07)
+
+**Note:** Version bump only for package @gemunionstudio/geetest
+
+
+
+
+
 # 0.2.0 (2021-08-07)
 
 
