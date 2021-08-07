@@ -4,7 +4,7 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "devDependencies": {
     "@nestjs/common": "8.0.6",
@@ -19,7 +19,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-guards-ws",
+  "name": "@gemunionstudio/nest-js-guards-ws",
   "peerDependencies": {
     "@nestjs/common": "^8",
     "@nestjs/core": "^8",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",

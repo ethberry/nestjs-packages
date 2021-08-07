@@ -5,7 +5,7 @@
     "url": "https://github.com/golevelup"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "contributors": [
     {
@@ -32,7 +32,7 @@
   ],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-create-dynamic-module",
+  "name": "@gemunionstudio/nest-js-create-dynamic-module",
   "peerDependencies": {
     "@nestjs/common": "^8",
     "rxjs": "^7"
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",

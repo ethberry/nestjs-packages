@@ -4,11 +4,11 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/nest-js-utils": "1.0.3",
-    "@trejgun/nest-js-validators": "1.0.3",
+    "@gemunionstudio/nest-js-utils": "1.0.3",
+    "@gemunionstudio/nest-js-validators": "1.0.3",
     "class-validator": "0.13.1",
     "qs": "6.10.1",
     "uuid": "8.3.2"
@@ -30,7 +30,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-module-gee-test",
+  "name": "@gemunionstudio/nest-js-module-gee-test",
   "peerDependencies": {
     "@liaoliaots/nestjs-redis": "^",
     "@nestjs/axios": "^0",
@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",

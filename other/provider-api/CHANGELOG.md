@@ -3,49 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.0.4](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@2.0.3...@trejgun/provider-api@2.0.4) (2021-08-06)
+## [2.0.4](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@2.0.3...@gemunionstudio/provider-api@2.0.4) (2021-08-06)
 
-**Note:** Version bump only for package @trejgun/provider-api
-
-
-
-
-
-## [2.0.3](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@2.0.2...@trejgun/provider-api@2.0.3) (2021-07-22)
-
-
-### Bug Fixes
-
-* path ([df0ec64](https://github.com/trejgun/common-packages/commit/df0ec645468411e3ef13710d438de3a697f830ce))
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
 
 
-## [2.0.2](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@2.0.1...@trejgun/provider-api@2.0.2) (2021-07-22)
-
-**Note:** Version bump only for package @trejgun/provider-api
-
-
-
-
-
-## [2.0.1](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@2.0.0...@trejgun/provider-api@2.0.1) (2021-07-22)
+## [2.0.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@2.0.2...@gemunionstudio/provider-api@2.0.3) (2021-07-22)
 
 
 ### Bug Fixes
 
-* jwt type ([3074038](https://github.com/trejgun/common-packages/commit/30740387dfb414ca89fd9f35489641e825271a0b))
-* jwt type ([10280fb](https://github.com/trejgun/common-packages/commit/10280fbc00158bd862db69b537d813acbcfa5d7e))
+* path ([df0ec64](https://github.com/gemunionstudio/common-packages/commit/df0ec645468411e3ef13710d438de3a697f830ce))
 
 
 
 
 
-# [2.0.0](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.2.6...@trejgun/provider-api@2.0.0) (2021-07-14)
+## [2.0.2](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@2.0.1...@gemunionstudio/provider-api@2.0.2) (2021-07-22)
+
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
-* feat!: baseUrl ([b851b33](https://github.com/trejgun/common-packages/commit/b851b3393b94b39fb58f4623175c8389dcaf9fdd))
+
+
+
+## [2.0.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@2.0.0...@gemunionstudio/provider-api@2.0.1) (2021-07-22)
+
+
+### Bug Fixes
+
+* jwt type ([3074038](https://github.com/gemunionstudio/common-packages/commit/30740387dfb414ca89fd9f35489641e825271a0b))
+* jwt type ([10280fb](https://github.com/gemunionstudio/common-packages/commit/10280fbc00158bd862db69b537d813acbcfa5d7e))
+
+
+
+
+
+# [2.0.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.2.6...@gemunionstudio/provider-api@2.0.0) (2021-07-14)
+
+
+* feat!: baseUrl ([b851b33](https://github.com/gemunionstudio/common-packages/commit/b851b3393b94b39fb58f4623175c8389dcaf9fdd))
 
 
 ### BREAKING CHANGES
@@ -58,23 +58,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.2.6 (2021-07-13)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
 
 
-## [0.2.5](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.2.4...@trejgun/provider-api@0.2.5) (2021-07-10)
+## [0.2.5](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.2.4...@gemunionstudio/provider-api@0.2.5) (2021-07-10)
 
-**Note:** Version bump only for package @trejgun/provider-api
-
-
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
-## [0.2.4](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.2.3...@trejgun/provider-api@0.2.4) (2021-07-08)
 
-**Note:** Version bump only for package @trejgun/provider-api
+
+## [0.2.4](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.2.3...@gemunionstudio/provider-api@0.2.4) (2021-07-08)
+
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -82,7 +82,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.2.3 (2021-07-02)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -90,45 +90,45 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.2.2 (2021-06-24)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
 
 
-## [0.2.1](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.2.0...@trejgun/provider-api@0.2.1) (2021-06-21)
+## [0.2.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.2.0...@gemunionstudio/provider-api@0.2.1) (2021-06-21)
 
 
 ### Bug Fixes
 
-* redirect to login if 402 ([ed0bcd8](https://github.com/trejgun/common-packages/commit/ed0bcd878c67367c005a57d604ea89b87bb202fd))
+* redirect to login if 402 ([ed0bcd8](https://github.com/gemunionstudio/common-packages/commit/ed0bcd878c67367c005a57d604ea89b87bb202fd))
 
 
 
 
 
-# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.1.4...@trejgun/provider-api@0.2.0) (2021-06-19)
+# [0.2.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.1.4...@gemunionstudio/provider-api@0.2.0) (2021-06-19)
 
 
 ### Features
 
-* rename interfaces ([9d44e32](https://github.com/trejgun/common-packages/commit/9d44e32175d76c9e5c8cab3fd58a44f8a6aaf1d5))
+* rename interfaces ([9d44e32](https://github.com/gemunionstudio/common-packages/commit/9d44e32175d76c9e5c8cab3fd58a44f8a6aaf1d5))
 
 
 
 
 
-## [0.1.4](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.1.3...@trejgun/provider-api@0.1.4) (2021-06-16)
+## [0.1.4](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.1.3...@gemunionstudio/provider-api@0.1.4) (2021-06-16)
 
-**Note:** Version bump only for package @trejgun/provider-api
-
-
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
-## [0.1.3](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.1.2...@trejgun/provider-api@0.1.3) (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/provider-api
+
+## [0.1.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.1.2...@gemunionstudio/provider-api@0.1.3) (2021-06-09)
+
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -136,7 +136,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -144,23 +144,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
 
 
-# [0.1.0](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.0.71...@trejgun/provider-api@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.0.71...@gemunionstudio/provider-api@0.1.0) (2021-06-09)
 
 
 ### Bug Fixes
 
-* get errors from nested schema for localizeErrors ([#65](https://github.com/trejgun/common-packages/issues/65)) ([c7c6f71](https://github.com/trejgun/common-packages/commit/c7c6f716581d599afd75fdbb40ce03c533e6b182))
+* get errors from nested schema for localizeErrors ([#65](https://github.com/gemunionstudio/common-packages/issues/65)) ([c7c6f71](https://github.com/gemunionstudio/common-packages/commit/c7c6f716581d599afd75fdbb40ce03c533e6b182))
 
 
 ### Features
 
-* use fetchJson ([fc3d86e](https://github.com/trejgun/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* use fetchJson ([fc3d86e](https://github.com/gemunionstudio/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -171,7 +171,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/trejgun/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunionstudio/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -179,7 +179,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.70 (2021-05-31)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -190,7 +190,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/trejgun/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunionstudio/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -198,7 +198,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.68 (2021-05-14)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -209,7 +209,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/trejgun/common-packages/issues/48)) ([1854092](https://github.com/trejgun/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunionstudio/common-packages/issues/48)) ([1854092](https://github.com/gemunionstudio/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -220,7 +220,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/trejgun/common-packages/issues/47)) ([06b9b84](https://github.com/trejgun/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunionstudio/common-packages/issues/47)) ([06b9b84](https://github.com/gemunionstudio/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -228,7 +228,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.65 (2021-05-06)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -236,7 +236,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.64 (2021-04-30)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -244,7 +244,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.63 (2021-04-27)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -252,7 +252,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.62 (2021-04-27)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -260,7 +260,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.61 (2021-04-19)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -268,7 +268,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.60 (2021-04-18)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -276,7 +276,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.59 (2021-04-15)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -284,7 +284,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.58 (2021-04-15)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -292,47 +292,47 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.57 (2021-04-14)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
 
 
-## [0.0.56](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.0.55...@trejgun/provider-api@0.0.56) (2021-04-08)
+## [0.0.56](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.0.55...@gemunionstudio/provider-api@0.0.56) (2021-04-08)
 
-**Note:** Version bump only for package @trejgun/provider-api
-
-
-
-
-
-## [0.0.55](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.0.54...@trejgun/provider-api@0.0.55) (2021-04-05)
-
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
 
 
-## [0.0.54](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.0.53...@trejgun/provider-api@0.0.54) (2021-04-03)
+## [0.0.55](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.0.54...@gemunionstudio/provider-api@0.0.55) (2021-04-05)
 
-**Note:** Version bump only for package @trejgun/provider-api
-
-
-
-
-
-## [0.0.53](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.0.52...@trejgun/provider-api@0.0.53) (2021-04-03)
-
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
 
 
-## [0.0.52](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.0.51...@trejgun/provider-api@0.0.52) (2021-03-29)
+## [0.0.54](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.0.53...@gemunionstudio/provider-api@0.0.54) (2021-04-03)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
+
+
+
+
+
+## [0.0.53](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.0.52...@gemunionstudio/provider-api@0.0.53) (2021-04-03)
+
+**Note:** Version bump only for package @gemunionstudio/provider-api
+
+
+
+
+
+## [0.0.52](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@0.0.51...@gemunionstudio/provider-api@0.0.52) (2021-03-29)
+
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -340,7 +340,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.51 (2021-03-29)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -348,7 +348,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.50 (2021-03-25)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -367,7 +367,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.48 (2021-03-22)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -408,7 +408,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.44 (2021-03-16)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -416,7 +416,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.43 (2021-03-12)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -435,7 +435,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.41 (2021-03-08)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -443,7 +443,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.40 (2021-03-07)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -462,7 +462,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.38 (2021-03-02)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -470,7 +470,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.37 (2021-03-01)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -509,9 +509,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.33](https://github.com/memoryos/misc/compare/@trejgun/provider-api@0.0.32...@trejgun/provider-api@0.0.33) (2021-02-24)
+## [0.0.33](https://github.com/memoryos/misc/compare/@gemunionstudio/provider-api@0.0.32...@gemunionstudio/provider-api@0.0.33) (2021-02-24)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -519,7 +519,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.32 (2021-02-22)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -547,9 +547,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.29](https://github.com/memoryos/misc/compare/@trejgun/provider-api@0.0.28...@trejgun/provider-api@0.0.29) (2021-02-21)
+## [0.0.29](https://github.com/memoryos/misc/compare/@gemunionstudio/provider-api@0.0.28...@gemunionstudio/provider-api@0.0.29) (2021-02-21)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -557,7 +557,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.28 (2021-02-20)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -565,7 +565,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.27 (2021-02-19)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -573,15 +573,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.26 (2021-02-17)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
 
 
-## [0.0.25](https://github.com/memoryos/misc/compare/@trejgun/provider-api@0.0.24...@trejgun/provider-api@0.0.25) (2021-02-17)
+## [0.0.25](https://github.com/memoryos/misc/compare/@gemunionstudio/provider-api@0.0.24...@gemunionstudio/provider-api@0.0.25) (2021-02-17)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -589,7 +589,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.24 (2021-02-15)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -619,7 +619,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.21 (2021-02-09)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -638,7 +638,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.19 (2021-02-04)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -668,7 +668,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.16 (2021-01-31)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api
 
 
 
@@ -819,4 +819,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2021-01-06)
 
-**Note:** Version bump only for package @trejgun/provider-api
+**Note:** Version bump only for package @gemunionstudio/provider-api

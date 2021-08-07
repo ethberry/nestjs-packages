@@ -4,10 +4,10 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/nest-js-create-middleware-module": "1.0.3",
+    "@gemunionstudio/nest-js-create-middleware-module": "1.0.3",
     "connect-redis": "6.0.0",
     "express-session": "1.17.2"
   },
@@ -22,7 +22,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-module-session",
+  "name": "@gemunionstudio/nest-js-module-session",
   "peerDependencies": {
     "ioredis": "^4"
   },
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",

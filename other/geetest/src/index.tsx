@@ -1,7 +1,7 @@
 import React, { FC, useContext, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useFormikContext, getIn } from "formik";
 
-import { ApiContext } from "@trejgun/provider-api";
+import { ApiContext } from "@gemunionstudio/provider-api";
 
 interface IRegisterResult {
   challenge: string;

@@ -3,39 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.1.13](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.1.12...@trejgun/material-ui-page-header@0.1.13) (2021-08-06)
+## [0.1.13](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.1.12...@gemunionstudio/material-ui-page-header@0.1.13) (2021-08-06)
 
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([17134c5](https://github.com/trejgun/common-packages/commit/17134c5509a87ea00c96807b7ce0ec39dcf85000))
+* **deps:** update all non-major dependencies ([17134c5](https://github.com/gemunionstudio/common-packages/commit/17134c5509a87ea00c96807b7ce0ec39dcf85000))
 
 
 
 
 
-## [0.1.12](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.1.11...@trejgun/material-ui-page-header@0.1.12) (2021-07-23)
+## [0.1.12](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.1.11...@gemunionstudio/material-ui-page-header@0.1.12) (2021-07-23)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.1.11](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.1.10...@trejgun/material-ui-page-header@0.1.11) (2021-07-22)
+
+
+## [0.1.11](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.1.10...@gemunionstudio/material-ui-page-header@0.1.11) (2021-07-22)
 
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([c588d74](https://github.com/trejgun/common-packages/commit/c588d74d0de68cc8e21ed317da1b73314bcda884))
+* **deps:** update all non-major dependencies ([c588d74](https://github.com/gemunionstudio/common-packages/commit/c588d74d0de68cc8e21ed317da1b73314bcda884))
 
 
 
 
 
-## [0.1.10](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.1.9...@trejgun/material-ui-page-header@0.1.10) (2021-07-22)
+## [0.1.10](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.1.9...@gemunionstudio/material-ui-page-header@0.1.10) (2021-07-22)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -43,23 +43,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.9 (2021-07-13)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.1.8](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.1.7...@trejgun/material-ui-page-header@0.1.8) (2021-07-11)
+## [0.1.8](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.1.7...@gemunionstudio/material-ui-page-header@0.1.8) (2021-07-11)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.1.7](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.1.6...@trejgun/material-ui-page-header@0.1.7) (2021-07-10)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+
+## [0.1.7](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.1.6...@gemunionstudio/material-ui-page-header@0.1.7) (2021-07-10)
+
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -67,7 +67,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.6 (2021-07-02)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -75,23 +75,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.5 (2021-06-24)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.1.4](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.1.3...@trejgun/material-ui-page-header@0.1.4) (2021-06-16)
+## [0.1.4](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.1.3...@gemunionstudio/material-ui-page-header@0.1.4) (2021-06-16)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.1.3](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.1.2...@trejgun/material-ui-page-header@0.1.3) (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+
+## [0.1.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.1.2...@gemunionstudio/material-ui-page-header@0.1.3) (2021-06-09)
+
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -99,7 +99,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -107,18 +107,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-# [0.1.0](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.176...@trejgun/material-ui-page-header@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.0.176...@gemunionstudio/material-ui-page-header@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* use fetchJson ([fc3d86e](https://github.com/trejgun/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* use fetchJson ([fc3d86e](https://github.com/gemunionstudio/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -129,7 +129,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/trejgun/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunionstudio/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -137,7 +137,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.175 (2021-05-31)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -148,15 +148,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/trejgun/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunionstudio/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
 
 
-## [0.0.173](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.172...@trejgun/material-ui-page-header@0.0.173) (2021-05-18)
+## [0.0.173](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.0.172...@gemunionstudio/material-ui-page-header@0.0.173) (2021-05-18)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -164,15 +164,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.172 (2021-05-14)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.0.171](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.170...@trejgun/material-ui-page-header@0.0.171) (2021-05-11)
+## [0.0.171](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.0.170...@gemunionstudio/material-ui-page-header@0.0.171) (2021-05-11)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -183,7 +183,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/trejgun/common-packages/issues/48)) ([1854092](https://github.com/trejgun/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunionstudio/common-packages/issues/48)) ([1854092](https://github.com/gemunionstudio/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -194,7 +194,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/trejgun/common-packages/issues/47)) ([06b9b84](https://github.com/trejgun/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunionstudio/common-packages/issues/47)) ([06b9b84](https://github.com/gemunionstudio/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -202,7 +202,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.168 (2021-05-06)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -210,15 +210,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.167 (2021-04-30)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.0.166](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.165...@trejgun/material-ui-page-header@0.0.166) (2021-04-28)
+## [0.0.166](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.0.165...@gemunionstudio/material-ui-page-header@0.0.166) (2021-04-28)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -226,7 +226,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.165 (2021-04-27)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -234,15 +234,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.164 (2021-04-27)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.0.163](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.162...@trejgun/material-ui-page-header@0.0.163) (2021-04-24)
+## [0.0.163](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.0.162...@gemunionstudio/material-ui-page-header@0.0.163) (2021-04-24)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -250,7 +250,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.162 (2021-04-19)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -258,7 +258,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.161 (2021-04-18)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -266,7 +266,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.160 (2021-04-15)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -274,7 +274,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.159 (2021-04-15)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -282,31 +282,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.158 (2021-04-14)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.0.156](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.155...@trejgun/material-ui-page-header@0.0.156) (2021-04-05)
+## [0.0.156](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.0.155...@gemunionstudio/material-ui-page-header@0.0.156) (2021-04-05)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
-
-
-
-## [0.0.155](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.154...@trejgun/material-ui-page-header@0.0.155) (2021-04-03)
-
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.0.154](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-page-header@0.0.153...@trejgun/material-ui-page-header@0.0.154) (2021-04-02)
+## [0.0.155](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.0.154...@gemunionstudio/material-ui-page-header@0.0.155) (2021-04-03)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
+
+
+
+
+
+## [0.0.154](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-page-header@0.0.153...@gemunionstudio/material-ui-page-header@0.0.154) (2021-04-02)
+
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -314,7 +314,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.153 (2021-03-29)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -322,7 +322,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.152 (2021-03-28)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -363,7 +363,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.148 (2021-03-17)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -426,7 +426,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.142 (2021-03-08)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -434,7 +434,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.141 (2021-03-07)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -442,7 +442,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.140 (2021-03-07)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -450,7 +450,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.139 (2021-03-05)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -458,7 +458,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.138 (2021-03-05)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -466,7 +466,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.137 (2021-03-02)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -474,7 +474,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.136 (2021-03-01)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -482,7 +482,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.135 (2021-03-01)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -556,7 +556,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.128 (2021-02-24)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -586,18 +586,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.125 (2021-02-23)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.0.124](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.123...@trejgun/material-ui-page-header@0.0.124) (2021-02-23)
+## [0.0.124](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.123...@gemunionstudio/material-ui-page-header@0.0.124) (2021-02-23)
 
 
 ### Bug Fixes
 
-* **deps:** roll back dependency @trejgun/material-ui-toolbar to 0.0.115 ([f203583](https://github.com/memoryOS/material-ui/commit/f203583fa1fd6f8a7137010b6e562f7799f0ab0f))
+* **deps:** roll back dependency @gemunionstudio/material-ui-toolbar to 0.0.115 ([f203583](https://github.com/memoryOS/material-ui/commit/f203583fa1fd6f8a7137010b6e562f7799f0ab0f))
 
 
 
@@ -605,7 +605,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.123 (2021-02-23)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -613,7 +613,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.122 (2021-02-23)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -621,7 +621,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.121 (2021-02-23)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -632,7 +632,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/material-ui-form to v0.0.123 ([28829cc](https://github.com/memoryOS/material-ui/commit/28829cc99b2eaaec06fa01c8010104b382724f90))
+* **deps:** update dependency @gemunionstudio/material-ui-form to v0.0.123 ([28829cc](https://github.com/memoryOS/material-ui/commit/28829cc99b2eaaec06fa01c8010104b382724f90))
 
 
 
@@ -640,7 +640,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.119 (2021-02-23)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -659,7 +659,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.117 (2021-02-22)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -733,7 +733,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.110 (2021-02-17)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -741,7 +741,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.109 (2021-02-16)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -749,7 +749,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.108 (2021-02-13)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -757,7 +757,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.107 (2021-02-13)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -765,7 +765,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.106 (2021-02-12)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -806,7 +806,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.102 (2021-02-09)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -858,7 +858,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.97 (2021-02-04)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -866,7 +866,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.96 (2021-02-04)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -874,7 +874,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.95 (2021-02-03)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -882,7 +882,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.94 (2021-02-02)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -1143,7 +1143,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.70 (2021-01-03)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -1151,7 +1151,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.69 (2021-01-03)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -1324,7 +1324,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.53 (2020-12-08)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -1442,7 +1442,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.42 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
@@ -1485,7 +1485,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.39](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.38...@trejgun/material-ui-page-header@0.0.39) (2020-11-19)
+## [0.0.39](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.38...@gemunionstudio/material-ui-page-header@0.0.39) (2020-11-19)
 
 
 ### Bug Fixes
@@ -1496,15 +1496,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.38](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.37...@trejgun/material-ui-page-header@0.0.38) (2020-11-16)
+## [0.0.38](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.37...@gemunionstudio/material-ui-page-header@0.0.38) (2020-11-16)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.0.37](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.36...@trejgun/material-ui-page-header@0.0.37) (2020-11-12)
+
+
+## [0.0.37](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.36...@gemunionstudio/material-ui-page-header@0.0.37) (2020-11-12)
 
 
 ### Bug Fixes
@@ -1515,7 +1515,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.36](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.35...@trejgun/material-ui-page-header@0.0.36) (2020-11-10)
+## [0.0.36](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.35...@gemunionstudio/material-ui-page-header@0.0.36) (2020-11-10)
 
 
 ### Bug Fixes
@@ -1526,15 +1526,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.35](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.34...@trejgun/material-ui-page-header@0.0.35) (2020-11-09)
+## [0.0.35](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.34...@gemunionstudio/material-ui-page-header@0.0.35) (2020-11-09)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.0.34](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.33...@trejgun/material-ui-page-header@0.0.34) (2020-11-09)
+
+
+## [0.0.34](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.33...@gemunionstudio/material-ui-page-header@0.0.34) (2020-11-09)
 
 
 ### Bug Fixes
@@ -1545,7 +1545,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.33](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.32...@trejgun/material-ui-page-header@0.0.33) (2020-11-09)
+## [0.0.33](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.32...@gemunionstudio/material-ui-page-header@0.0.33) (2020-11-09)
 
 
 ### Bug Fixes
@@ -1556,15 +1556,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.32](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.31...@trejgun/material-ui-page-header@0.0.32) (2020-11-07)
+## [0.0.32](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.31...@gemunionstudio/material-ui-page-header@0.0.32) (2020-11-07)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.0.31](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.30...@trejgun/material-ui-page-header@0.0.31) (2020-11-05)
+
+
+## [0.0.31](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.30...@gemunionstudio/material-ui-page-header@0.0.31) (2020-11-05)
 
 
 ### Bug Fixes
@@ -1575,7 +1575,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.30](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.29...@trejgun/material-ui-page-header@0.0.30) (2020-11-05)
+## [0.0.30](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.29...@gemunionstudio/material-ui-page-header@0.0.30) (2020-11-05)
 
 
 ### Bug Fixes
@@ -1586,7 +1586,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.29](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.28...@trejgun/material-ui-page-header@0.0.29) (2020-11-05)
+## [0.0.29](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.28...@gemunionstudio/material-ui-page-header@0.0.29) (2020-11-05)
 
 
 ### Bug Fixes
@@ -1597,7 +1597,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.28](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.27...@trejgun/material-ui-page-header@0.0.28) (2020-11-05)
+## [0.0.28](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.27...@gemunionstudio/material-ui-page-header@0.0.28) (2020-11-05)
 
 
 ### Bug Fixes
@@ -1608,31 +1608,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.27](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.26...@trejgun/material-ui-page-header@0.0.27) (2020-11-02)
+## [0.0.27](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.26...@gemunionstudio/material-ui-page-header@0.0.27) (2020-11-02)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
-
-
-
-## [0.0.26](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.25...@trejgun/material-ui-page-header@0.0.26) (2020-11-02)
-
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.0.25](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.24...@trejgun/material-ui-page-header@0.0.25) (2020-10-30)
+## [0.0.26](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.25...@gemunionstudio/material-ui-page-header@0.0.26) (2020-11-02)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.0.24](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.23...@trejgun/material-ui-page-header@0.0.24) (2020-10-28)
+
+
+## [0.0.25](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.24...@gemunionstudio/material-ui-page-header@0.0.25) (2020-10-30)
+
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
+
+
+
+
+
+## [0.0.24](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.23...@gemunionstudio/material-ui-page-header@0.0.24) (2020-10-28)
 
 
 ### Bug Fixes
@@ -1643,15 +1643,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.23](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.22...@trejgun/material-ui-page-header@0.0.23) (2020-10-28)
+## [0.0.23](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.22...@gemunionstudio/material-ui-page-header@0.0.23) (2020-10-28)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.0.22](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.21...@trejgun/material-ui-page-header@0.0.22) (2020-10-27)
+
+
+## [0.0.22](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.21...@gemunionstudio/material-ui-page-header@0.0.22) (2020-10-27)
 
 
 ### Bug Fixes
@@ -1662,15 +1662,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.21](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.20...@trejgun/material-ui-page-header@0.0.21) (2020-10-26)
+## [0.0.21](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.20...@gemunionstudio/material-ui-page-header@0.0.21) (2020-10-26)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.0.20](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.19...@trejgun/material-ui-page-header@0.0.20) (2020-10-26)
+
+
+## [0.0.20](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.19...@gemunionstudio/material-ui-page-header@0.0.20) (2020-10-26)
 
 
 ### Bug Fixes
@@ -1681,7 +1681,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.19](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.18...@trejgun/material-ui-page-header@0.0.19) (2020-10-26)
+## [0.0.19](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.18...@gemunionstudio/material-ui-page-header@0.0.19) (2020-10-26)
 
 
 ### Bug Fixes
@@ -1693,30 +1693,30 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.18](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.17...@trejgun/material-ui-page-header@0.0.18) (2020-10-22)
+## [0.0.18](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.17...@gemunionstudio/material-ui-page-header@0.0.18) (2020-10-22)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
-
-
-
-## [0.0.17](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.16...@trejgun/material-ui-page-header@0.0.17) (2020-10-21)
-
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
 
 
-## [0.0.16](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.14...@trejgun/material-ui-page-header@0.0.16) (2020-10-19)
+## [0.0.17](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.16...@gemunionstudio/material-ui-page-header@0.0.17) (2020-10-21)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
-
-
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
 
 
 
-## [0.0.15](https://github.com/memoryOS/material-ui/compare/@trejgun/material-ui-page-header@0.0.14...@trejgun/material-ui-page-header@0.0.15) (2020-10-15)
 
-**Note:** Version bump only for package @trejgun/material-ui-page-header
+
+## [0.0.16](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.14...@gemunionstudio/material-ui-page-header@0.0.16) (2020-10-19)
+
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header
+
+
+
+
+
+## [0.0.15](https://github.com/memoryOS/material-ui/compare/@gemunionstudio/material-ui-page-header@0.0.14...@gemunionstudio/material-ui-page-header@0.0.15) (2020-10-15)
+
+**Note:** Version bump only for package @gemunionstudio/material-ui-page-header

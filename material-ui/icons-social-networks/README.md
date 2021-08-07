@@ -5,7 +5,7 @@ This is free to use set of social network flat icons wrapped in Material UI lib
 ## Installation
 
 ```bash
-npm install @trejgun/material-ui-icons-social-networks
+npm install @gemunionstudio/material-ui-icons-social-networks
 ```
 
 ## Usage
@@ -45,7 +45,7 @@ import {
   Whatsapp,
   Xing,
   Youtube,
-} from "@trejgun/material-ui-icons-social-networks";
+} from "@gemunionstudio/material-ui-icons-social-networks";
 
 
 const useStyles = makeStyles(

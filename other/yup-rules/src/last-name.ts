@@ -1,6 +1,6 @@
 import * as Yup from "yup";
 
-import { lastNameMinLength, lastNameMaxLength } from "@trejgun/constants-validation";
+import { lastNameMinLength, lastNameMaxLength } from "@gemunionstudio/constants-validation";
 
 export const lastNameValidationSchema = Yup.string()
   .min(lastNameMinLength, "form.validations.tooShort")

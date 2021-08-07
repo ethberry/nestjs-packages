@@ -4,10 +4,10 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/winston-formatter": "0.0.1",
+    "@gemunionstudio/winston-formatter": "0.0.1",
     "winston": "3.3.3",
     "winston-papertrail-transport": "1.0.9",
     "winston-transport": "4.4.0"
@@ -23,7 +23,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-module-winston-papertrail",
+  "name": "@gemunionstudio/nest-js-module-winston-papertrail",
   "peerDependencies": {
     "@nestjs/common": "^8",
     "@nestjs/config": "^1",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",

@@ -1,9 +1,9 @@
 import React, { FC, useCallback, useContext } from "react";
 import "react-s3-uploader"; // this is required for types
 import S3Upload from "react-s3-uploader/s3upload";
-import { ApiContext, IApiContext, IJwt } from "@trejgun/provider-api";
+import { ApiContext, IApiContext, IJwt } from "@gemunionstudio/provider-api";
 
-import { FileInput, IFileInputProps } from "@trejgun/material-ui-inputs-file";
+import { FileInput, IFileInputProps } from "@gemunionstudio/material-ui-inputs-file";
 
 export interface IS3Result {
   signedUrl: string;

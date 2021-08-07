@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
 import { useHistory } from "react-router";
 
-import { ApiContext, IApiContext } from "@trejgun/provider-api";
+import { ApiContext, IApiContext } from "@gemunionstudio/provider-api";
 
 import { UserContext, IUser } from "./context";
 

@@ -1,7 +1,7 @@
 import React, { PropsWithChildren, ReactElement, useContext } from "react";
 import { IntlProvider } from "react-intl";
 
-import { ISettingsContext, SettingsContext } from "@trejgun/provider-settings";
+import { ISettingsContext, SettingsContext } from "@gemunionstudio/provider-settings";
 
 import { flattenMessages } from "./utils";
 

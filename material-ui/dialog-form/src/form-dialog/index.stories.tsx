@@ -4,7 +4,7 @@ import { Story } from "@storybook/react";
 import { Router } from "react-router-dom";
 import { createMemoryHistory } from "history";
 
-import { TextInput } from "@trejgun/material-ui-inputs-core";
+import { TextInput } from "@gemunionstudio/material-ui-inputs-core";
 
 import { FormDialog, IFormikFormProps } from "./index";
 

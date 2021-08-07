@@ -4,10 +4,10 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-toolbar": "0.1.12"
+    "@gemunionstudio/material-ui-toolbar": "0.1.12"
   },
   "description": "react widget",
   "devDependencies": {
@@ -25,7 +25,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/material-ui-form",
+  "name": "@gemunionstudio/material-ui-form",
   "peerDependencies": {
     "@material-ui/core": "^4",
     "formik": "^2",
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",

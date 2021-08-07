@@ -2,7 +2,7 @@ import React, { FC, useRef } from "react";
 import { TextFieldProps } from "@material-ui/core";
 import { getIn, useFormikContext } from "formik";
 
-import { TextInput } from "@trejgun/material-ui-inputs-core";
+import { TextInput } from "@gemunionstudio/material-ui-inputs-core";
 
 import { MaskedInputWrapper } from "./wrapper";
 

@@ -5,11 +5,11 @@ import { FormattedMessage, useIntl } from "react-intl";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import path from "path";
 
-import { TextInput } from "@trejgun/material-ui-inputs-core";
-import { ProgressOverlay } from "@trejgun/material-ui-progress";
-import { ConfirmationDialog } from "@trejgun/material-ui-dialog-confirmation";
-import { FirebaseFileInput } from "@trejgun/material-ui-inputs-file-firebase";
-import { openUrlOnClick } from "@trejgun/popup";
+import { TextInput } from "@gemunionstudio/material-ui-inputs-core";
+import { ProgressOverlay } from "@gemunionstudio/material-ui-progress";
+import { ConfirmationDialog } from "@gemunionstudio/material-ui-dialog-confirmation";
+import { FirebaseFileInput } from "@gemunionstudio/material-ui-inputs-file-firebase";
+import { openUrlOnClick } from "@gemunionstudio/popup";
 
 import { useStyles } from "./styles";
 import { useDeleteUrl } from "../utils";

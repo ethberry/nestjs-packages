@@ -4,7 +4,7 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "description": "Set of Google flat icons for Material UI",
   "devDependencies": {
@@ -20,7 +20,7 @@
   ],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/material-ui-icons-google",
+  "name": "@gemunionstudio/material-ui-icons-google",
   "peerDependencies": {
     "@material-ui/core": "^4",
     "react": "^17"
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",

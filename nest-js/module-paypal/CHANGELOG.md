@@ -8,4 +8,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([5b66c76](https://github.com/trejgun/common-packages/commit/5b66c76f423364d3a15c5cbfcbf9f70167542217))
+* **deps:** update all non-major dependencies ([5b66c76](https://github.com/gemunionstudio/common-packages/commit/5b66c76f423364d3a15c5cbfcbf9f70167542217))

@@ -1,4 +1,4 @@
-import { createConfigurableDynamicRootModule } from "@trejgun/nest-js-create-dynamic-module";
+import { createConfigurableDynamicRootModule } from "@gemunionstudio/nest-js-create-dynamic-module";
 import { DynamicModule, Logger, Module } from "@nestjs/common";
 
 import { MAILJET_OPTIONS_PROVIDER } from "./mailjet.constants";

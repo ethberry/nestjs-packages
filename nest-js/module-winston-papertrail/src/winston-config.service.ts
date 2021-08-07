@@ -5,7 +5,7 @@ import { WinstonModuleOptions } from "nest-winston";
 import { PapertrailTransport } from "winston-papertrail-transport";
 import { transports } from "winston";
 import Transport from "winston-transport";
-import { formatter } from "@trejgun/winston-formatter";
+import { formatter } from "@gemunionstudio/winston-formatter";
 import os from "os";
 
 @Injectable()

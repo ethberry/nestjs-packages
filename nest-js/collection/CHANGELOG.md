@@ -3,52 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.0.5](https://github.com/trejgun/common-packages/compare/@trejgun/collection@1.0.4...@trejgun/collection@1.0.5) (2021-08-06)
+## [1.0.5](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@1.0.4...@gemunionstudio/collection@1.0.5) (2021-08-06)
 
-**Note:** Version bump only for package @trejgun/collection
-
-
-
-
-
-## [1.0.4](https://github.com/trejgun/common-packages/compare/@trejgun/collection@1.0.3...@trejgun/collection@1.0.4) (2021-07-23)
-
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [1.0.3](https://github.com/trejgun/common-packages/compare/@trejgun/collection@1.0.2...@trejgun/collection@1.0.3) (2021-07-22)
+## [1.0.4](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@1.0.3...@gemunionstudio/collection@1.0.4) (2021-07-23)
+
+**Note:** Version bump only for package @gemunionstudio/collection
+
+
+
+
+
+## [1.0.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@1.0.2...@gemunionstudio/collection@1.0.3) (2021-07-22)
 
 
 ### Bug Fixes
 
-* path ([a7dd5c8](https://github.com/trejgun/common-packages/commit/a7dd5c834ab4c3fe052b20fa0cd76fd6036ee748))
+* path ([a7dd5c8](https://github.com/gemunionstudio/common-packages/commit/a7dd5c834ab4c3fe052b20fa0cd76fd6036ee748))
 
 
 
 
 
-## [1.0.2](https://github.com/trejgun/common-packages/compare/@trejgun/collection@1.0.1...@trejgun/collection@1.0.2) (2021-07-22)
+## [1.0.2](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@1.0.1...@gemunionstudio/collection@1.0.2) (2021-07-22)
 
-**Note:** Version bump only for package @trejgun/collection
-
-
-
-
-
-## [1.0.1](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.1.9...@trejgun/collection@1.0.1) (2021-07-22)
-
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [0.1.9](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.1.8...@trejgun/collection@0.1.9) (2021-07-22)
+## [1.0.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.1.9...@gemunionstudio/collection@1.0.1) (2021-07-22)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
+
+
+
+
+
+## [0.1.9](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.1.8...@gemunionstudio/collection@0.1.9) (2021-07-22)
+
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -56,23 +56,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.8 (2021-07-13)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [0.1.7](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.1.6...@trejgun/collection@0.1.7) (2021-07-10)
+## [0.1.7](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.1.6...@gemunionstudio/collection@0.1.7) (2021-07-10)
 
-**Note:** Version bump only for package @trejgun/collection
-
-
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
-## [0.1.6](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.1.5...@trejgun/collection@0.1.6) (2021-07-08)
 
-**Note:** Version bump only for package @trejgun/collection
+
+## [0.1.6](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.1.5...@gemunionstudio/collection@0.1.6) (2021-07-08)
+
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -80,7 +80,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.5 (2021-07-02)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -88,15 +88,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.4 (2021-06-24)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [0.1.3](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.1.2...@trejgun/collection@0.1.3) (2021-06-19)
+## [0.1.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.1.2...@gemunionstudio/collection@0.1.3) (2021-06-19)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -104,7 +104,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -112,18 +112,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-# [0.1.0](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.0.296...@trejgun/collection@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.0.296...@gemunionstudio/collection@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* use fetchJson ([fc3d86e](https://github.com/trejgun/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* use fetchJson ([fc3d86e](https://github.com/gemunionstudio/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -134,7 +134,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/trejgun/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunionstudio/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -142,7 +142,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.295 (2021-05-31)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -153,7 +153,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/trejgun/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunionstudio/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -161,7 +161,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.293 (2021-05-14)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -172,31 +172,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/trejgun/common-packages/issues/48)) ([1854092](https://github.com/trejgun/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunionstudio/common-packages/issues/48)) ([1854092](https://github.com/gemunionstudio/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
 
 
-## [0.0.291](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.0.290...@trejgun/collection@0.0.291) (2021-05-07)
+## [0.0.291](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.0.290...@gemunionstudio/collection@0.0.291) (2021-05-07)
 
-**Note:** Version bump only for package @trejgun/collection
-
-
-
-
-
-## [0.0.290](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.0.289...@trejgun/collection@0.0.290) (2021-05-07)
-
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [0.0.289](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.0.288...@trejgun/collection@0.0.289) (2021-05-07)
+## [0.0.290](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.0.289...@gemunionstudio/collection@0.0.290) (2021-05-07)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
+
+
+
+
+
+## [0.0.289](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.0.288...@gemunionstudio/collection@0.0.289) (2021-05-07)
+
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -207,7 +207,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/trejgun/common-packages/issues/47)) ([06b9b84](https://github.com/trejgun/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunionstudio/common-packages/issues/47)) ([06b9b84](https://github.com/gemunionstudio/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -215,7 +215,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.287 (2021-05-06)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -223,7 +223,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.286 (2021-04-30)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -231,7 +231,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.285 (2021-04-27)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -239,7 +239,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.284 (2021-04-27)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -247,7 +247,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.283 (2021-04-19)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -255,7 +255,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.282 (2021-04-18)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -263,7 +263,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.281 (2021-04-15)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -271,7 +271,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.280 (2021-04-15)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -279,15 +279,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.279 (2021-04-14)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [0.0.278](https://github.com/trejgun/common-packages/compare/@trejgun/collection@0.0.277...@trejgun/collection@0.0.278) (2021-03-29)
+## [0.0.278](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/collection@0.0.277...@gemunionstudio/collection@0.0.278) (2021-03-29)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -295,7 +295,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.277 (2021-03-29)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -303,7 +303,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.276 (2021-03-28)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -311,15 +311,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.275 (2021-03-27)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [0.0.274](https://github.com/memoryos/common/compare/@trejgun/collection@0.0.273...@trejgun/collection@0.0.274) (2021-03-26)
+## [0.0.274](https://github.com/memoryos/common/compare/@gemunionstudio/collection@0.0.273...@gemunionstudio/collection@0.0.274) (2021-03-26)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -327,7 +327,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.273 (2021-03-25)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -335,7 +335,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.272 (2021-03-25)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -357,7 +357,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.194 ([f85a448](https://github.com/memoryos/common/commit/f85a44878e2964cc0d4e7f5137f5f16566767570))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.194 ([f85a448](https://github.com/memoryos/common/commit/f85a44878e2964cc0d4e7f5137f5f16566767570))
 
 
 
@@ -387,7 +387,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.267 (2021-03-22)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -398,7 +398,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.191 ([1d50cec](https://github.com/memoryos/common/commit/1d50cec0d1d0b67da40a3d41c0c0b216de098142))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.191 ([1d50cec](https://github.com/memoryos/common/commit/1d50cec0d1d0b67da40a3d41c0c0b216de098142))
 
 
 
@@ -508,7 +508,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.182 ([b573262](https://github.com/memoryos/common/commit/b5732627e9184dcd848ecf05d7bed9a823398cda))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.182 ([b573262](https://github.com/memoryos/common/commit/b5732627e9184dcd848ecf05d7bed9a823398cda))
 
 
 
@@ -516,7 +516,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.255 (2021-03-15)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -538,7 +538,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.179 ([58d9f3d](https://github.com/memoryos/common/commit/58d9f3d8db6469242c0664e3e13d895699fc47d6))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.179 ([58d9f3d](https://github.com/memoryos/common/commit/58d9f3d8db6469242c0664e3e13d895699fc47d6))
 
 
 
@@ -549,7 +549,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.178 ([9b9ef43](https://github.com/memoryos/common/commit/9b9ef43f2023d5cc9e1ad3afc20e1daefd203493))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.178 ([9b9ef43](https://github.com/memoryos/common/commit/9b9ef43f2023d5cc9e1ad3afc20e1daefd203493))
 
 
 
@@ -571,7 +571,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.177 ([42ba0bb](https://github.com/memoryos/common/commit/42ba0bbc3d7922479adcfa337da7b1373d6c7f65))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.177 ([42ba0bb](https://github.com/memoryos/common/commit/42ba0bbc3d7922479adcfa337da7b1373d6c7f65))
 
 
 
@@ -593,7 +593,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.175 ([d457fc0](https://github.com/memoryos/common/commit/d457fc0e59b6e2959f0c5df46ee11b8c2a130458))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.175 ([d457fc0](https://github.com/memoryos/common/commit/d457fc0e59b6e2959f0c5df46ee11b8c2a130458))
 
 
 
@@ -601,7 +601,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.247 (2021-03-09)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -609,7 +609,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.246 (2021-03-08)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -617,7 +617,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.245 (2021-03-07)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -625,7 +625,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.244 (2021-03-07)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -633,7 +633,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.243 (2021-03-06)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -652,7 +652,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.241 (2021-03-05)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -660,7 +660,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.240 (2021-03-05)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -668,7 +668,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.239 (2021-03-05)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -676,7 +676,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.238 (2021-03-04)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -684,7 +684,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.237 (2021-03-02)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -692,7 +692,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.236 (2021-03-02)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -700,7 +700,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.235 (2021-03-02)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -708,7 +708,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.234 (2021-03-02)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -716,7 +716,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.233 (2021-03-01)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -724,7 +724,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.232 (2021-03-01)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -768,7 +768,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.163 ([9d18a9f](https://github.com/memoryos/common/commit/9d18a9f65a0f966c2fe70ccb098bb85dd1cc0f3e))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.163 ([9d18a9f](https://github.com/memoryos/common/commit/9d18a9f65a0f966c2fe70ccb098bb85dd1cc0f3e))
 
 
 
@@ -776,7 +776,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.227 (2021-02-26)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -817,7 +817,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.223 (2021-02-25)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -825,7 +825,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.222 (2021-02-25)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -833,7 +833,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.221 (2021-02-25)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -844,7 +844,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.158 ([1003fc6](https://github.com/memoryos/common/commit/1003fc6a4ab08afbd545cb50d7e42231f161e249))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.158 ([1003fc6](https://github.com/memoryos/common/commit/1003fc6a4ab08afbd545cb50d7e42231f161e249))
 
 
 
@@ -852,7 +852,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.219 (2021-02-24)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -860,7 +860,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.218 (2021-02-24)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -868,7 +868,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.217 (2021-02-24)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -898,7 +898,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.214 (2021-02-23)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -917,7 +917,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.212 (2021-02-23)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -925,7 +925,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.211 (2021-02-23)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -933,7 +933,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.210 (2021-02-22)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -941,7 +941,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.209 (2021-02-22)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -985,7 +985,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.152 ([e08a245](https://github.com/memoryos/common/commit/e08a245f2f150a904eeda5fe761834c271370b0c))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.152 ([e08a245](https://github.com/memoryos/common/commit/e08a245f2f150a904eeda5fe761834c271370b0c))
 
 
 
@@ -1004,7 +1004,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.203 (2021-02-19)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1015,7 +1015,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.149 ([2af678d](https://github.com/memoryos/common/commit/2af678d9023aaff23e3f0370ef4470f7f6971beb))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.149 ([2af678d](https://github.com/memoryos/common/commit/2af678d9023aaff23e3f0370ef4470f7f6971beb))
 
 
 
@@ -1056,7 +1056,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.198 (2021-02-17)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1067,7 +1067,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.146 ([d0f9c4e](https://github.com/memoryos/common/commit/d0f9c4e02048ff422930124789a8083d685c022d))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.146 ([d0f9c4e](https://github.com/memoryos/common/commit/d0f9c4e02048ff422930124789a8083d685c022d))
 
 
 
@@ -1075,7 +1075,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.196 (2021-02-16)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1083,7 +1083,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.195 (2021-02-16)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1091,7 +1091,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.194 (2021-02-16)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1099,7 +1099,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.193 (2021-02-15)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1129,7 +1129,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.190 (2021-02-13)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1151,7 +1151,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.142 ([d2045d6](https://github.com/memoryos/common/commit/d2045d6ef8187f8878d5d50ed9b743c9cdec605c))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.142 ([d2045d6](https://github.com/memoryos/common/commit/d2045d6ef8187f8878d5d50ed9b743c9cdec605c))
 
 
 
@@ -1170,7 +1170,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.186 (2021-02-12)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1189,7 +1189,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.184 (2021-02-11)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1197,7 +1197,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.183 (2021-02-09)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1219,7 +1219,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.135 ([3e7a587](https://github.com/memoryos/common/commit/3e7a587723c49930b7f6b73cfff66b3ad68a1893))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.135 ([3e7a587](https://github.com/memoryos/common/commit/3e7a587723c49930b7f6b73cfff66b3ad68a1893))
 
 
 
@@ -1238,7 +1238,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.179 (2021-02-05)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1249,7 +1249,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.133 ([43088ee](https://github.com/memoryos/common/commit/43088ee451fe3b86364f9c1017768494acc0d37d))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.133 ([43088ee](https://github.com/memoryos/common/commit/43088ee451fe3b86364f9c1017768494acc0d37d))
 
 
 
@@ -1290,7 +1290,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.174 (2021-02-04)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1298,7 +1298,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.173 (2021-02-04)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1317,7 +1317,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.171 (2021-02-03)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1325,7 +1325,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.170 (2021-02-03)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1333,7 +1333,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.169 (2021-02-02)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1352,7 +1352,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.167 (2021-02-02)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1371,7 +1371,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.165 (2021-01-31)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1426,7 +1426,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.121 ([87f20e1](https://github.com/memoryos/common/commit/87f20e1a966e8f2cd7baec2d8fbb964be4a3d884))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.121 ([87f20e1](https://github.com/memoryos/common/commit/87f20e1a966e8f2cd7baec2d8fbb964be4a3d884))
 
 
 
@@ -1437,7 +1437,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.120 ([f80dba9](https://github.com/memoryos/common/commit/f80dba94dddc08494688f6a870d90cd74d31492f))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.120 ([f80dba9](https://github.com/memoryos/common/commit/f80dba94dddc08494688f6a870d90cd74d31492f))
 
 
 
@@ -1448,7 +1448,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.119 ([6826624](https://github.com/memoryos/common/commit/6826624082c428aed9d86d72fc4899b42d755d16))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.119 ([6826624](https://github.com/memoryos/common/commit/6826624082c428aed9d86d72fc4899b42d755d16))
 
 
 
@@ -1558,7 +1558,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.114 ([10dfb7a](https://github.com/memoryos/common/commit/10dfb7ae958f3e0bbb95644ef9cea1bdb1b08165))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.114 ([10dfb7a](https://github.com/memoryos/common/commit/10dfb7ae958f3e0bbb95644ef9cea1bdb1b08165))
 
 
 
@@ -1580,7 +1580,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.112 ([7a671e8](https://github.com/memoryos/common/commit/7a671e84fe642d51165c775e5a1016a99c00a0f9))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.112 ([7a671e8](https://github.com/memoryos/common/commit/7a671e84fe642d51165c775e5a1016a99c00a0f9))
 
 
 
@@ -1591,7 +1591,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.111 ([193aa8e](https://github.com/memoryos/common/commit/193aa8e4140d1c7f8d341ab4941ad5e40eac30c9))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.111 ([193aa8e](https://github.com/memoryos/common/commit/193aa8e4140d1c7f8d341ab4941ad5e40eac30c9))
 
 
 
@@ -1613,7 +1613,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.110 ([e8ef53a](https://github.com/memoryos/common/commit/e8ef53aeb283c73707f52796abdda152eeb38e87))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.110 ([e8ef53a](https://github.com/memoryos/common/commit/e8ef53aeb283c73707f52796abdda152eeb38e87))
 
 
 
@@ -1624,7 +1624,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.109 ([76612aa](https://github.com/memoryos/common/commit/76612aafdc440626ff4fec84f71f31c27e4f6267))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.109 ([76612aa](https://github.com/memoryos/common/commit/76612aafdc440626ff4fec84f71f31c27e4f6267))
 
 
 
@@ -1701,7 +1701,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.105 ([a89eb46](https://github.com/memoryos/common/commit/a89eb46abceab7e51d76cb413a8bc9af0592ade3))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.105 ([a89eb46](https://github.com/memoryos/common/commit/a89eb46abceab7e51d76cb413a8bc9af0592ade3))
 
 
 
@@ -1734,7 +1734,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.103 ([b624be4](https://github.com/memoryos/common/commit/b624be427e2e1c05521df542ca54b995809d2a96))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.103 ([b624be4](https://github.com/memoryos/common/commit/b624be427e2e1c05521df542ca54b995809d2a96))
 
 
 
@@ -1745,7 +1745,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.102 ([6472602](https://github.com/memoryos/common/commit/6472602c3312bad60208ccd2f4f2464d8edfbecb))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.102 ([6472602](https://github.com/memoryos/common/commit/6472602c3312bad60208ccd2f4f2464d8edfbecb))
 
 
 
@@ -1756,7 +1756,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.101 ([f266670](https://github.com/memoryos/common/commit/f26667071b64b38870c2fe90da89442dd2cf0c23))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.101 ([f266670](https://github.com/memoryos/common/commit/f26667071b64b38870c2fe90da89442dd2cf0c23))
 
 
 
@@ -1844,7 +1844,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.96 ([4a6146d](https://github.com/memoryos/common/commit/4a6146d27a323fded8ecc6213c777ea10d247ab2))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.96 ([4a6146d](https://github.com/memoryos/common/commit/4a6146d27a323fded8ecc6213c777ea10d247ab2))
 
 
 
@@ -1852,7 +1852,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.121 (2021-01-07)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1863,7 +1863,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/provider-user to v0.0.46 ([3b087a6](https://github.com/memoryos/common/commit/3b087a6317f90f9d0cb04a246d9af68497218f26))
+* **deps:** update dependency @gemunionstudio/provider-user to v0.0.46 ([3b087a6](https://github.com/memoryos/common/commit/3b087a6317f90f9d0cb04a246d9af68497218f26))
 
 
 
@@ -1874,7 +1874,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.95 ([c1cb203](https://github.com/memoryos/common/commit/c1cb2033747c1e89f9537832dfca6886c3a51199))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.95 ([c1cb203](https://github.com/memoryos/common/commit/c1cb2033747c1e89f9537832dfca6886c3a51199))
 
 
 
@@ -1885,7 +1885,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/provider-api to v0.0.3 ([462917c](https://github.com/memoryos/common/commit/462917c0aa4067bc0bfb7fd8044aead3a3f91535))
+* **deps:** update dependency @gemunionstudio/provider-api to v0.0.3 ([462917c](https://github.com/memoryos/common/commit/462917c0aa4067bc0bfb7fd8044aead3a3f91535))
 
 
 
@@ -1918,7 +1918,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.93 ([b5ee8be](https://github.com/memoryos/common/commit/b5ee8be640a0a16ba52abded86520bb5e7b38736))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.93 ([b5ee8be](https://github.com/memoryos/common/commit/b5ee8be640a0a16ba52abded86520bb5e7b38736))
 
 
 
@@ -1951,7 +1951,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.91 ([dd423f9](https://github.com/memoryos/common/commit/dd423f93c17bd0d59022ea10ffd04ea37c0eaa8b))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.91 ([dd423f9](https://github.com/memoryos/common/commit/dd423f93c17bd0d59022ea10ffd04ea37c0eaa8b))
 
 
 
@@ -1959,7 +1959,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.111 (2021-01-03)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1967,7 +1967,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.110 (2021-01-03)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1975,7 +1975,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.109 (2021-01-03)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -1983,7 +1983,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.108 (2021-01-03)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -2005,7 +2005,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.89 ([9cc77cd](https://github.com/memoryos/common/commit/9cc77cd1ac8f54d7a68767b4feb723f984896d92))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.89 ([9cc77cd](https://github.com/memoryos/common/commit/9cc77cd1ac8f54d7a68767b4feb723f984896d92))
 
 
 
@@ -2016,7 +2016,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.88 ([d0b5084](https://github.com/memoryos/common/commit/d0b5084779b0b2ad171dbfc145658f1490c27fd5))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.88 ([d0b5084](https://github.com/memoryos/common/commit/d0b5084779b0b2ad171dbfc145658f1490c27fd5))
 
 
 
@@ -2027,7 +2027,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.87 ([c6d0af1](https://github.com/memoryos/common/commit/c6d0af18c67846ae93ff18d43bbe76af881fc955))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.87 ([c6d0af1](https://github.com/memoryos/common/commit/c6d0af18c67846ae93ff18d43bbe76af881fc955))
 
 
 
@@ -2038,7 +2038,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.86 ([6483648](https://github.com/memoryos/common/commit/6483648e7b53187b304959d7d7624b7280a15dec))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.86 ([6483648](https://github.com/memoryos/common/commit/6483648e7b53187b304959d7d7624b7280a15dec))
 
 
 
@@ -2049,7 +2049,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.85 ([5ae66a9](https://github.com/memoryos/common/commit/5ae66a95859f9ffc12536ba091dc870c35a4c0c9))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.85 ([5ae66a9](https://github.com/memoryos/common/commit/5ae66a95859f9ffc12536ba091dc870c35a4c0c9))
 
 
 
@@ -2104,7 +2104,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.83 ([7940245](https://github.com/memoryos/common/commit/7940245357d2c6e1606158d0fa532490393e8dd8))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.83 ([7940245](https://github.com/memoryos/common/commit/7940245357d2c6e1606158d0fa532490393e8dd8))
 
 
 
@@ -2115,7 +2115,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.82 ([bba0bb6](https://github.com/memoryos/common/commit/bba0bb65a156ffee7767f22afe73fb7eaf9f0ac9))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.82 ([bba0bb6](https://github.com/memoryos/common/commit/bba0bb65a156ffee7767f22afe73fb7eaf9f0ac9))
 
 
 
@@ -2126,7 +2126,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.81 ([39fd115](https://github.com/memoryos/common/commit/39fd115107cd8a98ea0d0f999c13ecc8f49afdbe))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.81 ([39fd115](https://github.com/memoryos/common/commit/39fd115107cd8a98ea0d0f999c13ecc8f49afdbe))
 
 
 
@@ -2181,7 +2181,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.77 ([1b4db45](https://github.com/memoryos/common/commit/1b4db459e43116b00c8206f6512fcb8acd2bf142))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.77 ([1b4db45](https://github.com/memoryos/common/commit/1b4db459e43116b00c8206f6512fcb8acd2bf142))
 
 
 
@@ -2225,7 +2225,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.72 ([4dfdd15](https://github.com/memoryos/common/commit/4dfdd158b1264f6b396572a7859b050f5d837db3))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.72 ([4dfdd15](https://github.com/memoryos/common/commit/4dfdd158b1264f6b396572a7859b050f5d837db3))
 
 
 
@@ -2269,7 +2269,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.68 ([2019f10](https://github.com/memoryos/common/commit/2019f10670fd7216dfbcb3f51195610eb1fca8aa))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.68 ([2019f10](https://github.com/memoryos/common/commit/2019f10670fd7216dfbcb3f51195610eb1fca8aa))
 
 
 
@@ -2280,7 +2280,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.67 ([cbb8f54](https://github.com/memoryos/common/commit/cbb8f54e2d2d11fe55dc76ce3ee941fb28d730d6))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.67 ([cbb8f54](https://github.com/memoryos/common/commit/cbb8f54e2d2d11fe55dc76ce3ee941fb28d730d6))
 
 
 
@@ -2313,7 +2313,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.66 ([a5e84e7](https://github.com/memoryos/common/commit/a5e84e77d8bf710a385ce4c7b63636a476b64a5e))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.66 ([a5e84e7](https://github.com/memoryos/common/commit/a5e84e77d8bf710a385ce4c7b63636a476b64a5e))
 
 
 
@@ -2379,7 +2379,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.63 ([e44e218](https://github.com/memoryos/common/commit/e44e218a0282d4c0edb634c34a8e9028b6b75bbc))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.63 ([e44e218](https://github.com/memoryos/common/commit/e44e218a0282d4c0edb634c34a8e9028b6b75bbc))
 
 
 
@@ -2390,7 +2390,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.62 ([ee432ac](https://github.com/memoryos/common/commit/ee432ac000407fe8ca7314b828737b830f4cbe32))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.62 ([ee432ac](https://github.com/memoryos/common/commit/ee432ac000407fe8ca7314b828737b830f4cbe32))
 
 
 
@@ -2401,7 +2401,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.61 ([aa26cf9](https://github.com/memoryos/common/commit/aa26cf9c1265834fabc1a776a7a880ac0b25e2c9))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.61 ([aa26cf9](https://github.com/memoryos/common/commit/aa26cf9c1265834fabc1a776a7a880ac0b25e2c9))
 
 
 
@@ -2412,7 +2412,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.60 ([982b3d1](https://github.com/memoryos/common/commit/982b3d1517c1245497df35b303f95dce8fccee0d))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.60 ([982b3d1](https://github.com/memoryos/common/commit/982b3d1517c1245497df35b303f95dce8fccee0d))
 
 
 
@@ -2453,7 +2453,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.65 (2020-12-07)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -2486,7 +2486,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.55 ([6b3f827](https://github.com/memoryos/common/commit/6b3f827bd040db1dc106684dbf4e3316645bd10c))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.55 ([6b3f827](https://github.com/memoryos/common/commit/6b3f827bd040db1dc106684dbf4e3316645bd10c))
 
 
 
@@ -2505,13 +2505,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.60 (2020-12-04)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [0.0.59](https://github.com/memoryos/common/compare/@trejgun/collection@0.0.58...@trejgun/collection@0.0.59) (2020-12-04)
+## [0.0.59](https://github.com/memoryos/common/compare/@gemunionstudio/collection@0.0.58...@gemunionstudio/collection@0.0.59) (2020-12-04)
 
 
 ### Bug Fixes
@@ -2538,7 +2538,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.52 ([537123c](https://github.com/memoryos/common/commit/537123c8e37f70a200e4ea9555f640ea23863666))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.52 ([537123c](https://github.com/memoryos/common/commit/537123c8e37f70a200e4ea9555f640ea23863666))
 
 
 
@@ -2549,7 +2549,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.51 ([5237d3e](https://github.com/memoryos/common/commit/5237d3e4e6da6fd7700e2fb5dcb4131fe7588986))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.51 ([5237d3e](https://github.com/memoryos/common/commit/5237d3e4e6da6fd7700e2fb5dcb4131fe7588986))
 
 
 
@@ -2648,7 +2648,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.47 ([ac29e3a](https://github.com/memoryos/common/commit/ac29e3a011534a5bad9672b5f5d0c25d718d1629))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.47 ([ac29e3a](https://github.com/memoryos/common/commit/ac29e3a011534a5bad9672b5f5d0c25d718d1629))
 
 
 
@@ -2667,7 +2667,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.45 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -2675,7 +2675,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.44 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -2683,7 +2683,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.43 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -2691,7 +2691,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.42 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -2702,7 +2702,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.44 ([d5e0102](https://github.com/memoryos/common/commit/d5e01024508546478109e74305a9f5e946811248))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.44 ([d5e0102](https://github.com/memoryos/common/commit/d5e01024508546478109e74305a9f5e946811248))
 
 
 
@@ -2710,7 +2710,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.40 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
@@ -2732,169 +2732,169 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.41 ([6617a29](https://github.com/memoryos/common/commit/6617a29887946b7f958eabe7831b592e86cff112))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.41 ([6617a29](https://github.com/memoryos/common/commit/6617a29887946b7f958eabe7831b592e86cff112))
 
 
 
 
 
-## [0.0.37](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.36...@trejgun/collection@0.0.37) (2020-11-20)
-
-
-### Bug Fixes
-
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.40 ([4a7e917](https://github.com/memoryos/misc/commit/4a7e917c5b96e29ff6118399930eac3b2f89ff85))
-
-
-
-
-
-## [0.0.36](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.35...@trejgun/collection@0.0.36) (2020-11-19)
+## [0.0.37](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.36...@gemunionstudio/collection@0.0.37) (2020-11-20)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.39 ([8e88a9b](https://github.com/memoryos/misc/commit/8e88a9bae2cd82d033079ddec5891588ac83f64f))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.40 ([4a7e917](https://github.com/memoryos/misc/commit/4a7e917c5b96e29ff6118399930eac3b2f89ff85))
 
 
 
 
 
-## [0.0.35](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.34...@trejgun/collection@0.0.35) (2020-11-19)
-
-
-### Bug Fixes
-
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.37 ([61e466f](https://github.com/memoryos/misc/commit/61e466fd1413d7930d2eb261970d741fe300a66f))
-
-
-
-
-
-## [0.0.34](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.33...@trejgun/collection@0.0.34) (2020-11-18)
+## [0.0.36](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.35...@gemunionstudio/collection@0.0.36) (2020-11-19)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.35 ([07dfa7b](https://github.com/memoryos/misc/commit/07dfa7ba8028494cf31eb746b883bd0d7e5d5d86))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.39 ([8e88a9b](https://github.com/memoryos/misc/commit/8e88a9bae2cd82d033079ddec5891588ac83f64f))
 
 
 
 
 
-## [0.0.33](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.32...@trejgun/collection@0.0.33) (2020-11-18)
-
-
-### Bug Fixes
-
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.34 ([b6a489f](https://github.com/memoryos/misc/commit/b6a489f55168af4a8ccf3521c997bfc39a23b04a))
-
-
-
-
-
-## [0.0.32](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.31...@trejgun/collection@0.0.32) (2020-11-17)
+## [0.0.35](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.34...@gemunionstudio/collection@0.0.35) (2020-11-19)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.33 ([8f00de9](https://github.com/memoryos/misc/commit/8f00de959adedaba74020fb18e6cce86e912ee72))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.37 ([61e466f](https://github.com/memoryos/misc/commit/61e466fd1413d7930d2eb261970d741fe300a66f))
 
 
 
 
 
-## [0.0.31](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.30...@trejgun/collection@0.0.31) (2020-11-17)
+## [0.0.34](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.33...@gemunionstudio/collection@0.0.34) (2020-11-18)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.32 ([6afca13](https://github.com/memoryos/misc/commit/6afca13a774d952c89c7eb568f2a9575a0e18e74))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.35 ([07dfa7b](https://github.com/memoryos/misc/commit/07dfa7ba8028494cf31eb746b883bd0d7e5d5d86))
 
 
 
 
 
-## [0.0.30](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.29...@trejgun/collection@0.0.30) (2020-11-17)
+## [0.0.33](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.32...@gemunionstudio/collection@0.0.33) (2020-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.34 ([b6a489f](https://github.com/memoryos/misc/commit/b6a489f55168af4a8ccf3521c997bfc39a23b04a))
+
+
+
+
+
+## [0.0.32](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.31...@gemunionstudio/collection@0.0.32) (2020-11-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.33 ([8f00de9](https://github.com/memoryos/misc/commit/8f00de959adedaba74020fb18e6cce86e912ee72))
+
+
+
+
+
+## [0.0.31](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.30...@gemunionstudio/collection@0.0.31) (2020-11-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.32 ([6afca13](https://github.com/memoryos/misc/commit/6afca13a774d952c89c7eb568f2a9575a0e18e74))
+
+
+
+
+
+## [0.0.30](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.29...@gemunionstudio/collection@0.0.30) (2020-11-17)
 
 
 ### Bug Fixes
 
 * **deps:** update dependency @nestjs/swagger to v4.7.5 ([7c3e8d1](https://github.com/memoryos/misc/commit/7c3e8d1e52439d0a7baa8ffe6a0e1fc667950306))
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.31 ([a734dab](https://github.com/memoryos/misc/commit/a734dabfdf3b10faed47331327d5eae6d496f106))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.31 ([a734dab](https://github.com/memoryos/misc/commit/a734dabfdf3b10faed47331327d5eae6d496f106))
 
 
 
 
 
-## [0.0.29](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.28...@trejgun/collection@0.0.29) (2020-11-16)
-
-
-### Bug Fixes
-
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.30 ([460b4bf](https://github.com/memoryos/misc/commit/460b4bfd6b24f601fc5a100e1580b9beb2ff56e0))
-
-
-
-
-
-## [0.0.28](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.27...@trejgun/collection@0.0.28) (2020-11-16)
+## [0.0.29](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.28...@gemunionstudio/collection@0.0.29) (2020-11-16)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.29 ([5dff5f4](https://github.com/memoryos/misc/commit/5dff5f47829153b233cda8e20810bf92318e53c9))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.30 ([460b4bf](https://github.com/memoryos/misc/commit/460b4bfd6b24f601fc5a100e1580b9beb2ff56e0))
 
 
 
 
 
-## [0.0.27](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.26...@trejgun/collection@0.0.27) (2020-11-16)
+## [0.0.28](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.27...@gemunionstudio/collection@0.0.28) (2020-11-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.29 ([5dff5f4](https://github.com/memoryos/misc/commit/5dff5f47829153b233cda8e20810bf92318e53c9))
+
+
+
+
+
+## [0.0.27](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.26...@gemunionstudio/collection@0.0.27) (2020-11-16)
 
 
 ### Bug Fixes
 
 * **deps:** update all non-major dependencies ([0e0880d](https://github.com/memoryos/misc/commit/0e0880d0401a131a2804d208a477cad548974fad))
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.28 ([277871f](https://github.com/memoryos/misc/commit/277871f54aba1b0f75138b2090659428cce0f199))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.28 ([277871f](https://github.com/memoryos/misc/commit/277871f54aba1b0f75138b2090659428cce0f199))
 
 
 
 
 
-## [0.0.26](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.25...@trejgun/collection@0.0.26) (2020-11-13)
-
-
-### Bug Fixes
-
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.27 ([ac0cd53](https://github.com/memoryos/misc/commit/ac0cd53d8ffbf1eb195f25bfc052534a721c2f05))
-
-
-
-
-
-## [0.0.25](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.24...@trejgun/collection@0.0.25) (2020-11-13)
+## [0.0.26](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.25...@gemunionstudio/collection@0.0.26) (2020-11-13)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.26 ([076e54b](https://github.com/memoryos/misc/commit/076e54b2181add191fcbe57c68dcc135cf0a85bf))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.27 ([ac0cd53](https://github.com/memoryos/misc/commit/ac0cd53d8ffbf1eb195f25bfc052534a721c2f05))
 
 
 
 
 
-## [0.0.24](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.23...@trejgun/collection@0.0.24) (2020-11-13)
+## [0.0.25](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.24...@gemunionstudio/collection@0.0.25) (2020-11-13)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.25 ([0ab4b87](https://github.com/memoryos/misc/commit/0ab4b87b3ae74e8168b19daf819d3494d68ed742))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.26 ([076e54b](https://github.com/memoryos/misc/commit/076e54b2181add191fcbe57c68dcc135cf0a85bf))
 
 
 
 
 
-## [0.0.23](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.22...@trejgun/collection@0.0.23) (2020-11-13)
+## [0.0.24](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.23...@gemunionstudio/collection@0.0.24) (2020-11-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.25 ([0ab4b87](https://github.com/memoryos/misc/commit/0ab4b87b3ae74e8168b19daf819d3494d68ed742))
+
+
+
+
+
+## [0.0.23](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.22...@gemunionstudio/collection@0.0.23) (2020-11-13)
 
 
 ### Bug Fixes
@@ -2905,7 +2905,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.22](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.21...@trejgun/collection@0.0.22) (2020-11-12)
+## [0.0.22](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.21...@gemunionstudio/collection@0.0.22) (2020-11-12)
 
 
 ### Bug Fixes
@@ -2916,29 +2916,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.21](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.20...@trejgun/collection@0.0.21) (2020-11-11)
+## [0.0.21](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.20...@gemunionstudio/collection@0.0.21) (2020-11-11)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.23 ([27c83f2](https://github.com/memoryos/misc/commit/27c83f29a5c88e4f7cff872cd841a02a866496d8))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.23 ([27c83f2](https://github.com/memoryos/misc/commit/27c83f29a5c88e4f7cff872cd841a02a866496d8))
 
 
 
 
 
-## [0.0.20](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.19...@trejgun/collection@0.0.20) (2020-11-10)
+## [0.0.20](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.19...@gemunionstudio/collection@0.0.20) (2020-11-10)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.22 ([57e29ac](https://github.com/memoryos/misc/commit/57e29acb9ad0a6646feed740dfb36f0e139dac1a))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.22 ([57e29ac](https://github.com/memoryos/misc/commit/57e29acb9ad0a6646feed740dfb36f0e139dac1a))
 
 
 
 
 
-## [0.0.19](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.18...@trejgun/collection@0.0.19) (2020-11-10)
+## [0.0.19](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.18...@gemunionstudio/collection@0.0.19) (2020-11-10)
 
 
 ### Bug Fixes
@@ -2949,18 +2949,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.18](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.17...@trejgun/collection@0.0.18) (2020-11-10)
+## [0.0.18](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.17...@gemunionstudio/collection@0.0.18) (2020-11-10)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.20 ([0ed66aa](https://github.com/memoryos/misc/commit/0ed66aaf101ac6d80eea151ec69a085cd8685f0a))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.20 ([0ed66aa](https://github.com/memoryos/misc/commit/0ed66aaf101ac6d80eea151ec69a085cd8685f0a))
 
 
 
 
 
-## [0.0.17](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.16...@trejgun/collection@0.0.17) (2020-11-10)
+## [0.0.17](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.16...@gemunionstudio/collection@0.0.17) (2020-11-10)
 
 
 ### Bug Fixes
@@ -2971,26 +2971,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.16](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.15...@trejgun/collection@0.0.16) (2020-11-10)
+## [0.0.16](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.15...@gemunionstudio/collection@0.0.16) (2020-11-10)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.19 ([a369bc1](https://github.com/memoryos/misc/commit/a369bc1cedb562f4dfc88e3d0557203365cf8a0b))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.19 ([a369bc1](https://github.com/memoryos/misc/commit/a369bc1cedb562f4dfc88e3d0557203365cf8a0b))
 
 
 
 
 
-## [0.0.15](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.14...@trejgun/collection@0.0.15) (2020-11-10)
+## [0.0.15](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.14...@gemunionstudio/collection@0.0.15) (2020-11-10)
 
-**Note:** Version bump only for package @trejgun/collection
-
-
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
-## [0.0.14](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.13...@trejgun/collection@0.0.14) (2020-11-10)
+
+
+## [0.0.14](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.13...@gemunionstudio/collection@0.0.14) (2020-11-10)
 
 
 ### Bug Fixes
@@ -3001,7 +3001,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.13](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.12...@trejgun/collection@0.0.13) (2020-11-09)
+## [0.0.13](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.12...@gemunionstudio/collection@0.0.13) (2020-11-09)
 
 
 ### Bug Fixes
@@ -3012,48 +3012,48 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.12](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.11...@trejgun/collection@0.0.12) (2020-11-08)
+## [0.0.12](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.11...@gemunionstudio/collection@0.0.12) (2020-11-08)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.16 ([d6b49f3](https://github.com/memoryos/misc/commit/d6b49f3219f54ebc6237ac1fbbb1943c44c584cf))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.16 ([d6b49f3](https://github.com/memoryos/misc/commit/d6b49f3219f54ebc6237ac1fbbb1943c44c584cf))
 
 
 
 
 
-## [0.0.11](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.10...@trejgun/collection@0.0.11) (2020-11-07)
+## [0.0.11](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.10...@gemunionstudio/collection@0.0.11) (2020-11-07)
 
-**Note:** Version bump only for package @trejgun/collection
-
-
-
-
-
-## [0.0.10](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.9...@trejgun/collection@0.0.10) (2020-11-06)
-
-
-### Bug Fixes
-
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.15 ([7cf0608](https://github.com/memoryos/misc/commit/7cf06084d6af0b947ce51a4193b62246b0900aea))
+**Note:** Version bump only for package @gemunionstudio/collection
 
 
 
 
 
-## [0.0.9](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.8...@trejgun/collection@0.0.9) (2020-11-06)
+## [0.0.10](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.9...@gemunionstudio/collection@0.0.10) (2020-11-06)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.14 ([c38c5c2](https://github.com/memoryos/misc/commit/c38c5c20d7c9e3bd4bac0694c862f32c3f5b4cfb))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.15 ([7cf0608](https://github.com/memoryos/misc/commit/7cf06084d6af0b947ce51a4193b62246b0900aea))
 
 
 
 
 
-## [0.0.8](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.7...@trejgun/collection@0.0.8) (2020-11-06)
+## [0.0.9](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.8...@gemunionstudio/collection@0.0.9) (2020-11-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.14 ([c38c5c2](https://github.com/memoryos/misc/commit/c38c5c20d7c9e3bd4bac0694c862f32c3f5b4cfb))
+
+
+
+
+
+## [0.0.8](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.7...@gemunionstudio/collection@0.0.8) (2020-11-06)
 
 
 ### Bug Fixes
@@ -3064,53 +3064,53 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.7](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.6...@trejgun/collection@0.0.7) (2020-11-06)
+## [0.0.7](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.6...@gemunionstudio/collection@0.0.7) (2020-11-06)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.13 ([453f1c2](https://github.com/memoryos/misc/commit/453f1c2246dcb2ca302c305cfb287e75737d99c6))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.13 ([453f1c2](https://github.com/memoryos/misc/commit/453f1c2246dcb2ca302c305cfb287e75737d99c6))
 
 
 
 
 
-## [0.0.6](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.5...@trejgun/collection@0.0.6) (2020-11-04)
-
-
-### Bug Fixes
-
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.12 ([4c3de77](https://github.com/memoryos/misc/commit/4c3de7778f2275be21d4bfa23dde97e2ea5f6354))
-
-
-
-
-
-## [0.0.5](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.4...@trejgun/collection@0.0.5) (2020-11-03)
+## [0.0.6](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.5...@gemunionstudio/collection@0.0.6) (2020-11-04)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.11 ([84f0d8d](https://github.com/memoryos/misc/commit/84f0d8d78f748d0229b40bc1e20e67eb03dc4738))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.12 ([4c3de77](https://github.com/memoryos/misc/commit/4c3de7778f2275be21d4bfa23dde97e2ea5f6354))
 
 
 
 
 
-## [0.0.4](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.3...@trejgun/collection@0.0.4) (2020-11-02)
-
-**Note:** Version bump only for package @trejgun/collection
-
-
-
-
-
-## [0.0.3](https://github.com/memoryos/misc/compare/@trejgun/collection@0.0.2...@trejgun/collection@0.0.3) (2020-10-29)
+## [0.0.5](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.4...@gemunionstudio/collection@0.0.5) (2020-11-03)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/nest-js-validators to v0.0.10 ([01733a8](https://github.com/memoryos/misc/commit/01733a865ae5658479d65040232d9d3d3f61a323))
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.11 ([84f0d8d](https://github.com/memoryos/misc/commit/84f0d8d78f748d0229b40bc1e20e67eb03dc4738))
+
+
+
+
+
+## [0.0.4](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.3...@gemunionstudio/collection@0.0.4) (2020-11-02)
+
+**Note:** Version bump only for package @gemunionstudio/collection
+
+
+
+
+
+## [0.0.3](https://github.com/memoryos/misc/compare/@gemunionstudio/collection@0.0.2...@gemunionstudio/collection@0.0.3) (2020-10-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gemunionstudio/nest-js-validators to v0.0.10 ([01733a8](https://github.com/memoryos/misc/commit/01733a865ae5658479d65040232d9d3d3f61a323))
 
 
 
@@ -3118,4 +3118,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2020-10-29)
 
-**Note:** Version bump only for package @trejgun/collection
+**Note:** Version bump only for package @gemunionstudio/collection

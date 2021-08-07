@@ -4,9 +4,9 @@ import { useSnackbar } from "notistack";
 import { useIntl } from "react-intl";
 import { Grid } from "@material-ui/core";
 
-import { ProgressOverlay } from "@trejgun/material-ui-progress";
-import { UserContext } from "@trejgun/provider-user";
-import { ApiContext } from "@trejgun/provider-api";
+import { ProgressOverlay } from "@gemunionstudio/material-ui-progress";
+import { UserContext } from "@gemunionstudio/provider-user";
+import { ApiContext } from "@gemunionstudio/provider-api";
 
 import useStyles from "./styles";
 

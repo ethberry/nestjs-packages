@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { useSnackbar } from "notistack";
 import { useIntl } from "react-intl";
 
-import { ApiContext, IApiContext, IJwt } from "@trejgun/provider-api";
+import { ApiContext, IApiContext, IJwt } from "@gemunionstudio/provider-api";
 
 export const useDeleteUrl = (): ((url: string) => Promise<void>) => {
   const api = useContext<IApiContext<IJwt>>(ApiContext);

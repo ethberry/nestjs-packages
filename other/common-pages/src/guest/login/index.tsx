@@ -3,11 +3,11 @@ import { useSnackbar } from "notistack";
 import { useIntl } from "react-intl";
 import { Grid } from "@material-ui/core";
 
-import { PasswordInput, TextInput } from "@trejgun/material-ui-inputs-core";
-import { PageHeader } from "@trejgun/material-ui-page-header";
-import { FormikForm } from "@trejgun/material-ui-form";
-import { ApiContext, IJwt } from "@trejgun/provider-api";
-import { UserContext } from "@trejgun/provider-user";
+import { PasswordInput, TextInput } from "@gemunionstudio/material-ui-inputs-core";
+import { PageHeader } from "@gemunionstudio/material-ui-page-header";
+import { FormikForm } from "@gemunionstudio/material-ui-form";
+import { ApiContext, IJwt } from "@gemunionstudio/provider-api";
+import { UserContext } from "@gemunionstudio/provider-user";
 
 import { validationSchema } from "./validation";
 import useStyles from "./styles";

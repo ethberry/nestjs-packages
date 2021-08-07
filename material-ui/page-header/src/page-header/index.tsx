@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { FormattedMessage } from "react-intl";
 
 import { Grid, Typography } from "@material-ui/core";
-import { ButtonToolbar } from "@trejgun/material-ui-toolbar";
+import { ButtonToolbar } from "@gemunionstudio/material-ui-toolbar";
 
 import useStyles from "./styles";
 

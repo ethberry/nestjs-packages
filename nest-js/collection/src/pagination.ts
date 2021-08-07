@@ -1,8 +1,8 @@
 import { Type } from "class-transformer";
 import { ApiPropertyOptional } from "@nestjs/swagger";
 
-import { IsNumber } from "@trejgun/nest-js-validators";
-import { IPaginationDto } from "@trejgun/types-collection";
+import { IsNumber } from "@gemunionstudio/nest-js-validators";
+import { IPaginationDto } from "@gemunionstudio/types-collection";
 
 import { defaultItemsPerPage } from "./constants";
 

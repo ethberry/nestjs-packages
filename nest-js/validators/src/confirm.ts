@@ -6,7 +6,7 @@ import {
   ValidatorConstraintInterface,
 } from "class-validator";
 
-import { NativeValidation } from "@trejgun/types-validation";
+import { NativeValidation } from "@gemunionstudio/types-validation";
 
 interface IConfirmConstraints {
   required: boolean;

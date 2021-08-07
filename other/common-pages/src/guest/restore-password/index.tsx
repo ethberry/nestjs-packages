@@ -4,10 +4,10 @@ import { Grid } from "@material-ui/core";
 import { useSnackbar } from "notistack";
 import { useIntl } from "react-intl";
 
-import { PasswordInput } from "@trejgun/material-ui-inputs-core";
-import { PageHeader } from "@trejgun/material-ui-page-header";
-import { FormikForm } from "@trejgun/material-ui-form";
-import { ApiContext, localizeErrors } from "@trejgun/provider-api";
+import { PasswordInput } from "@gemunionstudio/material-ui-inputs-core";
+import { PageHeader } from "@gemunionstudio/material-ui-page-header";
+import { FormikForm } from "@gemunionstudio/material-ui-form";
+import { ApiContext, localizeErrors } from "@gemunionstudio/provider-api";
 
 import { validationSchema } from "./validation";
 import useStyles from "./styles";

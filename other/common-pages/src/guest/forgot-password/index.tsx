@@ -4,12 +4,12 @@ import { useHistory } from "react-router";
 import { useSnackbar } from "notistack";
 import { useIntl } from "react-intl";
 
-import { Captcha } from "@trejgun/material-ui-inputs-captcha";
-import { PageHeader } from "@trejgun/material-ui-page-header";
-import { FormikForm } from "@trejgun/material-ui-form";
-import { TextInput } from "@trejgun/material-ui-inputs-core";
-import { UserContext } from "@trejgun/provider-user";
-import { ApiContext, localizeErrors } from "@trejgun/provider-api";
+import { Captcha } from "@gemunionstudio/material-ui-inputs-captcha";
+import { PageHeader } from "@gemunionstudio/material-ui-page-header";
+import { FormikForm } from "@gemunionstudio/material-ui-form";
+import { TextInput } from "@gemunionstudio/material-ui-inputs-core";
+import { UserContext } from "@gemunionstudio/provider-user";
+import { ApiContext, localizeErrors } from "@gemunionstudio/provider-api";
 
 import { validationSchema } from "./validation";
 import useStyles from "./styles";

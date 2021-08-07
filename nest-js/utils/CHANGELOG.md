@@ -5,75 +5,75 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.3 (2021-08-06)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [1.0.2](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@1.0.1...@trejgun/nest-js-utils@1.0.2) (2021-07-23)
+## [1.0.2](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@1.0.1...@gemunionstudio/nest-js-utils@1.0.2) (2021-07-23)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
-
-
-
-
-
-## [1.0.1](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.4.3...@trejgun/nest-js-utils@1.0.1) (2021-07-22)
-
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.4.3](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.4.2...@trejgun/nest-js-utils@0.4.3) (2021-07-22)
+## [1.0.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.4.3...@gemunionstudio/nest-js-utils@1.0.1) (2021-07-22)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
-
-
-
-
-
-## [0.4.2](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.4.1...@trejgun/nest-js-utils@0.4.2) (2021-07-22)
-
-
-### Bug Fixes
-
-* name ([e5ab9d1](https://github.com/trejgun/common-packages/commit/e5ab9d128c3f10904b672f0c616393a8f8c3d6d8))
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.4.1](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.4.0...@trejgun/nest-js-utils@0.4.1) (2021-07-22)
+## [0.4.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.4.2...@gemunionstudio/nest-js-utils@0.4.3) (2021-07-22)
+
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
+
+
+
+
+
+## [0.4.2](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.4.1...@gemunionstudio/nest-js-utils@0.4.2) (2021-07-22)
 
 
 ### Bug Fixes
 
-* name ([73366e3](https://github.com/trejgun/common-packages/commit/73366e33ef0700f6b9614ce5c9d4572de207b06e))
+* name ([e5ab9d1](https://github.com/gemunionstudio/common-packages/commit/e5ab9d128c3f10904b672f0c616393a8f8c3d6d8))
 
 
 
 
 
-# [0.4.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.3.0...@trejgun/nest-js-utils@0.4.0) (2021-07-22)
+## [0.4.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.4.0...@gemunionstudio/nest-js-utils@0.4.1) (2021-07-22)
+
+
+### Bug Fixes
+
+* name ([73366e3](https://github.com/gemunionstudio/common-packages/commit/73366e33ef0700f6b9614ce5c9d4572de207b06e))
+
+
+
+
+
+# [0.4.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.3.0...@gemunionstudio/nest-js-utils@0.4.0) (2021-07-22)
 
 
 ### Features
 
-* re-captcha validator ([4964fc4](https://github.com/trejgun/common-packages/commit/4964fc4fb7e2eedb29f12959db31d98994b3b415))
+* re-captcha validator ([4964fc4](https://github.com/gemunionstudio/common-packages/commit/4964fc4fb7e2eedb29f12959db31d98994b3b415))
 
 
 
 
 
-# [0.3.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.2.4...@trejgun/nest-js-utils@0.3.0) (2021-07-17)
+# [0.3.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.2.4...@gemunionstudio/nest-js-utils@0.3.0) (2021-07-17)
 
 
 ### Features
 
-* user param decorator ([0926f5c](https://github.com/trejgun/common-packages/commit/0926f5c76513bbfd934b48a8aeaf875b4ad02f57))
+* user param decorator ([0926f5c](https://github.com/gemunionstudio/common-packages/commit/0926f5c76513bbfd934b48a8aeaf875b4ad02f57))
 
 
 
@@ -81,49 +81,49 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.2.4 (2021-07-13)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.2.3](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.2.2...@trejgun/nest-js-utils@0.2.3) (2021-07-11)
-
-
-### Bug Fixes
-
-* raw body ([d1b038d](https://github.com/trejgun/common-packages/commit/d1b038d055583d845e32740ec4cbea6f6ace5b3a))
-
-
-
-
-
-## [0.2.2](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.2.1...@trejgun/nest-js-utils@0.2.2) (2021-07-10)
+## [0.2.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.2.2...@gemunionstudio/nest-js-utils@0.2.3) (2021-07-11)
 
 
 ### Bug Fixes
 
-* 404 error handling ([c3ddc09](https://github.com/trejgun/common-packages/commit/c3ddc09a592fa64b3c077ecb00c140fbd6f5bd83))
+* raw body ([d1b038d](https://github.com/gemunionstudio/common-packages/commit/d1b038d055583d845e32740ec4cbea6f6ace5b3a))
 
 
 
 
 
-## [0.2.1](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.2.0...@trejgun/nest-js-utils@0.2.1) (2021-07-10)
-
-**Note:** Version bump only for package @trejgun/nest-js-utils
+## [0.2.2](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.2.1...@gemunionstudio/nest-js-utils@0.2.2) (2021-07-10)
 
 
+### Bug Fixes
+
+* 404 error handling ([c3ddc09](https://github.com/gemunionstudio/common-packages/commit/c3ddc09a592fa64b3c077ecb00c140fbd6f5bd83))
 
 
 
-# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.1.5...@trejgun/nest-js-utils@0.2.0) (2021-07-08)
+
+
+## [0.2.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.2.0...@gemunionstudio/nest-js-utils@0.2.1) (2021-07-10)
+
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
+
+
+
+
+
+# [0.2.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.1.5...@gemunionstudio/nest-js-utils@0.2.0) (2021-07-08)
 
 
 ### Features
 
-* undefined || null ([35b4c30](https://github.com/trejgun/common-packages/commit/35b4c305c128aebaf51bf0d56788cba6bdb64d73))
-* urlecoded middleware ([fd31813](https://github.com/trejgun/common-packages/commit/fd31813e5b88dc6515ccddd0436324b4044765eb))
+* undefined || null ([35b4c30](https://github.com/gemunionstudio/common-packages/commit/35b4c305c128aebaf51bf0d56788cba6bdb64d73))
+* urlecoded middleware ([fd31813](https://github.com/gemunionstudio/common-packages/commit/fd31813e5b88dc6515ccddd0436324b4044765eb))
 
 
 
@@ -131,7 +131,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.5 (2021-07-02)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -139,15 +139,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.4 (2021-06-24)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.1.3](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.1.2...@trejgun/nest-js-utils@0.1.3) (2021-06-19)
+## [0.1.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.1.2...@gemunionstudio/nest-js-utils@0.1.3) (2021-06-19)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -155,7 +155,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -163,19 +163,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-# [0.1.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.0.204...@trejgun/nest-js-utils@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.0.204...@gemunionstudio/nest-js-utils@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* split provides and guards ([1d5599d](https://github.com/trejgun/common-packages/commit/1d5599dfd2239256b6169db381f03de2931d1256))
-* use fetchJson ([fc3d86e](https://github.com/trejgun/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* split provides and guards ([1d5599d](https://github.com/gemunionstudio/common-packages/commit/1d5599dfd2239256b6169db381f03de2931d1256))
+* use fetchJson ([fc3d86e](https://github.com/gemunionstudio/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -186,7 +186,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/trejgun/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunionstudio/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -194,7 +194,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.203 (2021-05-31)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -205,7 +205,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/trejgun/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunionstudio/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -213,7 +213,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.201 (2021-05-14)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -224,7 +224,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/trejgun/common-packages/issues/48)) ([1854092](https://github.com/trejgun/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunionstudio/common-packages/issues/48)) ([1854092](https://github.com/gemunionstudio/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -235,7 +235,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/trejgun/common-packages/issues/47)) ([06b9b84](https://github.com/trejgun/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunionstudio/common-packages/issues/47)) ([06b9b84](https://github.com/gemunionstudio/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -243,7 +243,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.198 (2021-05-06)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -251,7 +251,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.197 (2021-04-30)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -259,7 +259,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.196 (2021-04-27)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -267,7 +267,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.195 (2021-04-27)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -275,7 +275,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.194 (2021-04-19)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -283,7 +283,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.193 (2021-04-18)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -291,7 +291,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.192 (2021-04-15)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -299,7 +299,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.191 (2021-04-15)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -307,39 +307,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.190 (2021-04-14)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.0.189](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.0.188...@trejgun/nest-js-utils@0.0.189) (2021-04-05)
+## [0.0.189](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.0.188...@gemunionstudio/nest-js-utils@0.0.189) (2021-04-05)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
-
-
-
-
-
-## [0.0.188](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.0.187...@trejgun/nest-js-utils@0.0.188) (2021-04-02)
-
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.0.187](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.0.186...@trejgun/nest-js-utils@0.0.187) (2021-03-30)
+## [0.0.188](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.0.187...@gemunionstudio/nest-js-utils@0.0.188) (2021-04-02)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
-
-
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
-## [0.0.186](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-utils@0.0.185...@trejgun/nest-js-utils@0.0.186) (2021-03-29)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+
+## [0.0.187](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.0.186...@gemunionstudio/nest-js-utils@0.0.187) (2021-03-30)
+
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
+
+
+
+
+
+## [0.0.186](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-utils@0.0.185...@gemunionstudio/nest-js-utils@0.0.186) (2021-03-29)
+
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -347,7 +347,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.185 (2021-03-29)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -355,7 +355,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.184 (2021-03-27)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -363,7 +363,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.183 (2021-03-25)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -371,7 +371,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.182 (2021-03-25)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -379,15 +379,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.181 (2021-03-25)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.0.180](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.179...@trejgun/nest-js-utils@0.0.180) (2021-03-24)
+## [0.0.180](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.179...@gemunionstudio/nest-js-utils@0.0.180) (2021-03-24)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -395,7 +395,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.179 (2021-03-23)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -524,7 +524,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.167 (2021-03-15)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -598,7 +598,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.160 (2021-03-09)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -617,23 +617,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.158 (2021-03-07)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.0.157](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.155...@trejgun/nest-js-utils@0.0.157) (2021-03-07)
+## [0.0.157](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.155...@gemunionstudio/nest-js-utils@0.0.157) (2021-03-07)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
-
-
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
-## [0.0.155](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.154...@trejgun/nest-js-utils@0.0.155) (2021-03-07)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+
+## [0.0.155](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.154...@gemunionstudio/nest-js-utils@0.0.155) (2021-03-07)
+
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -652,7 +652,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.153 (2021-03-05)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -693,7 +693,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.149 (2021-03-02)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -701,7 +701,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.148 (2021-03-02)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -709,7 +709,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.147 (2021-03-01)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -761,7 +761,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.142 (2021-02-25)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -780,7 +780,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.140 (2021-02-24)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -810,7 +810,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.137 (2021-02-22)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -829,7 +829,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.135 (2021-02-20)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -837,7 +837,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.134 (2021-02-19)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -854,25 +854,25 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.132](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.131...@trejgun/nest-js-utils@0.0.132) (2021-02-19)
+## [0.0.132](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.131...@gemunionstudio/nest-js-utils@0.0.132) (2021-02-19)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
-
-
-
-
-
-## [0.0.131](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.130...@trejgun/nest-js-utils@0.0.131) (2021-02-19)
-
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
 
 
-## [0.0.130](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.129...@trejgun/nest-js-utils@0.0.130) (2021-02-19)
+## [0.0.131](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.130...@gemunionstudio/nest-js-utils@0.0.131) (2021-02-19)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
+
+
+
+
+
+## [0.0.130](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.129...@gemunionstudio/nest-js-utils@0.0.130) (2021-02-19)
+
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -880,7 +880,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.129 (2021-02-18)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -910,7 +910,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.126 (2021-02-17)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -940,7 +940,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.123 (2021-02-13)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -959,7 +959,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.121 (2021-02-12)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -967,7 +967,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.120 (2021-02-12)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1008,7 +1008,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.116 (2021-02-09)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1038,7 +1038,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.113 (2021-02-05)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1068,7 +1068,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.110 (2021-02-04)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1087,7 +1087,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.108 (2021-02-03)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1106,7 +1106,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.106 (2021-02-02)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1114,7 +1114,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.105 (2021-02-02)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1496,7 +1496,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.70 (2021-01-03)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1568,17 +1568,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.63](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.62...@trejgun/nest-js-utils@0.0.63) (2020-12-25)
+## [0.0.63](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.62...@gemunionstudio/nest-js-utils@0.0.63) (2020-12-25)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
-
-
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
-## [0.0.62](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.61...@trejgun/nest-js-utils@0.0.62) (2020-12-25)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+
+## [0.0.62](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.61...@gemunionstudio/nest-js-utils@0.0.62) (2020-12-25)
+
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -1925,9 +1925,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.30](https://github.com/memoryos/nest-js/compare/@trejgun/nest-js-utils@0.0.29...@trejgun/nest-js-utils@0.0.30) (2020-12-04)
+## [0.0.30](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-utils@0.0.29...@gemunionstudio/nest-js-utils@0.0.30) (2020-12-04)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -2001,7 +2001,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.23 (2020-11-24)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -2009,7 +2009,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.22 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -2017,7 +2017,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.21 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -2025,7 +2025,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.20 (2020-11-23)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -2033,7 +2033,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.19 (2020-11-21)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -2165,7 +2165,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @trejgun/redis to v0.0.15 ([2b5a0fc](https://github.com/memoryos/nest-js/commit/2b5a0fc2018fd89a150d6a4c4f185bb7ee19cff5))
+* **deps:** update dependency @gemunionstudio/redis to v0.0.15 ([2b5a0fc](https://github.com/memoryos/nest-js/commit/2b5a0fc2018fd89a150d6a4c4f185bb7ee19cff5))
 
 
 
@@ -2206,7 +2206,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.3 (2020-11-13)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils
 
 
 
@@ -2214,4 +2214,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2020-11-13)
 
-**Note:** Version bump only for package @trejgun/nest-js-utils
+**Note:** Version bump only for package @gemunionstudio/nest-js-utils

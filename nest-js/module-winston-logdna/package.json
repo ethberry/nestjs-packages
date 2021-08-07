@@ -4,11 +4,11 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
     "@logdna/logger": "2.3.2",
-    "@trejgun/winston-formatter": "0.0.1",
+    "@gemunionstudio/winston-formatter": "0.0.1",
     "logdna-winston": "3.0.5",
     "winston": "3.3.3",
     "winston-transport": "4.4.0"
@@ -24,7 +24,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/nest-js-module-winston-logdna",
+  "name": "@gemunionstudio/nest-js-module-winston-logdna",
   "peerDependencies": {
     "@nestjs/common": "^8",
     "@nestjs/config": "^1",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",

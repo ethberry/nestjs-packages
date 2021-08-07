@@ -4,7 +4,7 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/trejgun/common-packages/issues"
+    "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "description": "Set of social networks flat icons for Material UI",
   "devDependencies": {
@@ -21,7 +21,7 @@
   ],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@trejgun/material-ui-icons-social-networks",
+  "name": "@gemunionstudio/material-ui-icons-social-networks",
   "peerDependencies": {
     "@material-ui/core": "^4",
     "react": "^17"
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trejgun/common-packages"
+    "url": "https://github.com/gemunionstudio/common-packages"
   },
   "scripts": {
     "build": "tsc",
