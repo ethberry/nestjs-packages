@@ -7,7 +7,7 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/types-validation": "0.1.8",
+    "@gemunionstudio/types-validation": "0.1.9",
     "class-validator": "0.13.1",
     "zxcvbn": "4.4.2"
   },
@@ -38,5 +38,5 @@
   },
   "title": "nest js validators",
   "types": "./dist/index.d.ts",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

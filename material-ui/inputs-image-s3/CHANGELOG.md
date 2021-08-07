@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.22 (2021-08-07)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([17134c5](https://github.com/gemunionstudio/common-packages/commit/17134c5509a87ea00c96807b7ce0ec39dcf85000))
+* **deps:** update all non-major dependencies ([c588d74](https://github.com/gemunionstudio/common-packages/commit/c588d74d0de68cc8e21ed317da1b73314bcda884))
+* downgrade notistack ([a7c477a](https://github.com/gemunionstudio/common-packages/commit/a7c477add3b0a4a7fcc157ddbad70bb510512c07))
+* jwt type ([3074038](https://github.com/gemunionstudio/common-packages/commit/30740387dfb414ca89fd9f35489641e825271a0b))
+* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* name ([2d72dc4](https://github.com/gemunionstudio/common-packages/commit/2d72dc44efbbfbbe0fdd5163254492fa9370f494))
+
+
+
+
+
 ## [0.1.21](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-inputs-image-s3@0.1.20...@gemunionstudio/material-ui-inputs-image-s3@0.1.21) (2021-08-06)
 
 

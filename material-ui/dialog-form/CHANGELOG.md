@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.14 (2021-08-07)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([17134c5](https://github.com/gemunionstudio/common-packages/commit/17134c5509a87ea00c96807b7ce0ec39dcf85000))
+* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+
+
+
+
+
 ## [0.1.13](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-dialog-form@0.1.12...@gemunionstudio/material-ui-dialog-form@0.1.13) (2021-08-06)
 
 

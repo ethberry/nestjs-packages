@@ -7,8 +7,8 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/firebase": "0.1.10",
-    "@gemunionstudio/material-ui-inputs-file": "0.1.12"
+    "@gemunionstudio/firebase": "0.1.11",
+    "@gemunionstudio/material-ui-inputs-file": "0.1.13"
   },
   "description": "react widget",
   "devDependencies": {
@@ -42,5 +42,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.13"
+  "version": "0.1.14"
 }

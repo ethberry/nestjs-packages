@@ -7,18 +7,18 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/constants-regexp": "0.1.6",
-    "@gemunionstudio/material-ui-form": "0.1.13",
-    "@gemunionstudio/material-ui-icons-social-networks": "0.1.8",
-    "@gemunionstudio/material-ui-inputs-captcha": "0.1.11",
-    "@gemunionstudio/material-ui-inputs-core": "0.1.12",
-    "@gemunionstudio/material-ui-page-header": "0.1.13",
-    "@gemunionstudio/material-ui-progress": "0.1.8",
-    "@gemunionstudio/material-ui-toolbar": "0.1.12",
-    "@gemunionstudio/popup": "0.0.3",
-    "@gemunionstudio/provider-api": "2.0.4",
-    "@gemunionstudio/provider-user": "0.1.16",
-    "@gemunionstudio/yup-rules": "0.1.16",
+    "@gemunionstudio/constants-regexp": "0.1.7",
+    "@gemunionstudio/material-ui-form": "0.1.14",
+    "@gemunionstudio/material-ui-icons-social-networks": "0.1.9",
+    "@gemunionstudio/material-ui-inputs-captcha": "0.1.12",
+    "@gemunionstudio/material-ui-inputs-core": "0.1.13",
+    "@gemunionstudio/material-ui-page-header": "0.1.14",
+    "@gemunionstudio/material-ui-progress": "0.1.9",
+    "@gemunionstudio/material-ui-toolbar": "0.1.13",
+    "@gemunionstudio/popup": "0.0.4",
+    "@gemunionstudio/provider-api": "3.0.0",
+    "@gemunionstudio/provider-user": "0.1.17",
+    "@gemunionstudio/yup-rules": "0.1.17",
     "yup": "0.32.9"
   },
   "description": "react context provider",
@@ -72,5 +72,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.15"
+  "version": "0.2.16"
 }

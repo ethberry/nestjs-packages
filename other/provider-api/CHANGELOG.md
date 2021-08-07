@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0 (2021-08-07)
+
+
+### Bug Fixes
+
+* jwt type ([3074038](https://github.com/gemunionstudio/common-packages/commit/30740387dfb414ca89fd9f35489641e825271a0b))
+* jwt type ([10280fb](https://github.com/gemunionstudio/common-packages/commit/10280fbc00158bd862db69b537d813acbcfa5d7e))
+* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* path ([df0ec64](https://github.com/gemunionstudio/common-packages/commit/df0ec645468411e3ef13710d438de3a697f830ce))
+
+
+* feat!: baseUrl ([b851b33](https://github.com/gemunionstudio/common-packages/commit/b851b3393b94b39fb58f4623175c8389dcaf9fdd))
+
+
+### BREAKING CHANGES
+
+* baseUrl should be passed to api provider by app
+
+
+
+
+
 ## [2.0.4](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/provider-api@2.0.3...@gemunionstudio/provider-api@2.0.4) (2021-08-06)
 
 **Note:** Version bump only for package @gemunionstudio/provider-api

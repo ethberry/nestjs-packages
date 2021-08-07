@@ -7,7 +7,7 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/nest-js-create-middleware-module": "1.0.3"
+    "@gemunionstudio/nest-js-create-middleware-module": "1.0.4"
   },
   "devDependencies": {
     "@types/express": "4.17.13",
@@ -43,5 +43,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

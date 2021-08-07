@@ -7,7 +7,7 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/provider-user": "0.1.16"
+    "@gemunionstudio/provider-user": "0.1.17"
   },
   "description": "react context provider",
   "devDependencies": {
@@ -42,5 +42,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.16"
+  "version": "0.1.17"
 }

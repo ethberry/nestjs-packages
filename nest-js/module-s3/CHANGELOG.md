@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.6 (2021-08-07)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([17134c5](https://github.com/gemunionstudio/common-packages/commit/17134c5509a87ea00c96807b7ce0ec39dcf85000))
+* **deps:** update all non-major dependencies ([d8f25e9](https://github.com/gemunionstudio/common-packages/commit/d8f25e9e839b754f2cdfc9a5ea76fd58542091c7))
+* **deps:** update all non-major dependencies ([5b66c76](https://github.com/gemunionstudio/common-packages/commit/5b66c76f423364d3a15c5cbfcbf9f70167542217))
+* **deps:** update all non-major dependencies ([c588d74](https://github.com/gemunionstudio/common-packages/commit/c588d74d0de68cc8e21ed317da1b73314bcda884))
+* **deps:** update all non-major dependencies ([b9fa790](https://github.com/gemunionstudio/common-packages/commit/b9fa790f110b545edbfd0f0a022d9a508deaff4f))
+* **deps:** update all non-major dependencies ([18c489d](https://github.com/gemunionstudio/common-packages/commit/18c489d572277163ab95066eee69de85f4defab0))
+* **deps:** update dependency aws-sdk to v2.945.0 ([10fbe0a](https://github.com/gemunionstudio/common-packages/commit/10fbe0af3d3f1c00e5fddebebfd5021dd426458d))
+* **deps:** update dependency aws-sdk to v2.946.0 ([bcd34d4](https://github.com/gemunionstudio/common-packages/commit/bcd34d469aabff5d761eaff1241b80f0a349b8a8))
+* **deps:** update dependency aws-sdk to v2.947.0 ([20708ac](https://github.com/gemunionstudio/common-packages/commit/20708acfbe0c4e50a79e81ad2207abec898d0a79))
+* **deps:** update dependency aws-sdk to v2.955.0 ([897334f](https://github.com/gemunionstudio/common-packages/commit/897334f92745e9c3ad686814cb155eb63d66dcaf))
+* **deps:** update dependency aws-sdk to v2.958.0 ([d22a64d](https://github.com/gemunionstudio/common-packages/commit/d22a64d7baeeedb9d103ccb10a2bb35a62e77a4d))
+* **deps:** update dependency aws-sdk to v2.960.0 ([358e193](https://github.com/gemunionstudio/common-packages/commit/358e193561226a8a5fd33b3df910291c705aa351))
+* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+
+
+
+
+
 ## [1.0.5](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-s3@1.0.4...@gemunionstudio/nest-js-module-s3@1.0.5) (2021-08-06)
 
 

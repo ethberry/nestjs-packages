@@ -7,7 +7,7 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/material-ui-inputs-core": "0.1.12",
+    "@gemunionstudio/material-ui-inputs-core": "0.1.13",
     "imask": "6.1.0",
     "react-imask": "6.1.0"
   },
@@ -51,5 +51,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.14"
+  "version": "0.1.15"
 }

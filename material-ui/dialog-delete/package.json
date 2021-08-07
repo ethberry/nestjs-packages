@@ -7,8 +7,8 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/material-ui-dialog-confirmation": "0.1.12",
-    "@gemunionstudio/material-ui-progress": "0.1.8"
+    "@gemunionstudio/material-ui-dialog-confirmation": "0.1.13",
+    "@gemunionstudio/material-ui-progress": "0.1.9"
   },
   "description": "react widget",
   "devDependencies": {
@@ -57,5 +57,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.12"
+  "version": "0.1.13"
 }

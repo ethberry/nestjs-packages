@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.15 (2021-08-07)
+
+
+### Bug Fixes
+
+* jwt type ([3074038](https://github.com/gemunionstudio/common-packages/commit/30740387dfb414ca89fd9f35489641e825271a0b))
+* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+
+
+
+
+
 ## [0.2.14](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/material-ui-inputs-file-s3@0.2.13...@gemunionstudio/material-ui-inputs-file-s3@0.2.14) (2021-08-06)
 
 **Note:** Version bump only for package @gemunionstudio/material-ui-inputs-file-s3
