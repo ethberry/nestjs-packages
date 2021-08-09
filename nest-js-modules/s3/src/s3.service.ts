@@ -1,52 +1,62 @@
-import { Inject, Injectable } from "@nestjs/common";
+import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { v4 } from "uuid";
 import { S3 } from "aws-sdk";
 
 import { IS3DeleteDto, IS3GetDto, IS3Options, IS3PutDto, IS3Result } from "./interfaces";
-import { ProviderType } from "./s3.constants";
+import { S3_OPTIONS_PROVIDER } from "./s3.constants";
 
 @Injectable()
 export class S3Service {
-  constructor(
-    @Inject(ProviderType.S3)
-    private readonly s3: S3,
-    @Inject(ProviderType.S3_OPTIONS)
-    private readonly options: IS3Options,
-  ) {}
+  private client: S3;
 
-  getObject({ objectName, bucket }: IS3GetDto): Promise<IS3Result> {
+  constructor(
+    @Inject(Logger)
+    private readonly loggerService: LoggerService,
+    @Inject(S3_OPTIONS_PROVIDER)
+    private readonly options: IS3Options,
+  ) {
+    const { accessKeyId, secretAccessKey, region } = options;
+    this.client = new S3({ accessKeyId, secretAccessKey, region });
+  }
+
+  getObject(dto: IS3GetDto): Promise<IS3Result> {
+    const { objectName, bucket = this.options.bucket } = dto;
+
     const params = {
-      Bucket: bucket || this.options.bucket,
+      Bucket: bucket,
       Key: objectName,
     };
 
-    return this.s3.getSignedUrlPromise("getObject", params).then((signedUrl: string) => ({
+    return this.client.getSignedUrlPromise("getObject", params).then((signedUrl: string) => ({
       signedUrl,
     }));
   }
 
-  putObject({ contentType, bucket }: IS3PutDto): Promise<IS3Result> {
+  putObject(dto: IS3PutDto): Promise<IS3Result> {
+    const { contentType, bucket = this.options.bucket } = dto;
+
     const filename = `${v4()}.${contentType.split("/")[1]}`;
 
     const params = {
-      Bucket: bucket || this.options.bucket,
+      Bucket: bucket,
       Key: filename,
       Expires: 60,
       ContentType: contentType,
       ACL: "public-read",
     };
 
-    return this.s3.getSignedUrlPromise("putObject", params).then((signedUrl: string) => ({
+    return this.client.getSignedUrlPromise("putObject", params).then((signedUrl: string) => ({
       signedUrl,
     }));
   }
 
-  deleteObject({ objectName, bucket }: IS3DeleteDto): Promise<any> {
+  deleteObject(dto: IS3DeleteDto): Promise<any> {
+    const { objectName, bucket = this.options.bucket } = dto;
     const params = {
-      Bucket: bucket || this.options.bucket,
+      Bucket: bucket,
       Key: objectName,
     };
 
-    return this.s3.deleteObject(params).promise();
+    return this.client.deleteObject(params).promise();
   }
 }

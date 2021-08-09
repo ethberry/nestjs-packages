@@ -7,6 +7,7 @@
     "url": "https://github.com/gemunionstudio/common-packages/issues"
   },
   "dependencies": {
+    "@gemunionstudio/nest-js-create-dynamic-module": "1.0.3",
     "@gemunionstudio/nest-js-validators": "1.1.0",
     "aws-sdk": "2.963.0",
     "uuid": "8.3.2"
