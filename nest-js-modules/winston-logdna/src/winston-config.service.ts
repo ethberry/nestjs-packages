@@ -1,13 +1,13 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-
 import { WinstonModuleOptions } from "nest-winston";
 import LogdnaWinstonTransport from "logdna-winston";
 import { transports } from "winston";
 import Transport from "winston-transport";
-import { formatter } from "@gemunionstudio/winston-formatter";
 import os from "os";
 import path from "path";
+
+import { formatter } from "@gemunionstudio/winston-formatter";
 
 @Injectable()
 export class WinstonConfigService {

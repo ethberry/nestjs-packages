@@ -1,12 +1,12 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-
 import { WinstonModuleOptions } from "nest-winston";
 import { PapertrailTransport } from "winston-papertrail-transport";
 import { transports } from "winston";
 import Transport from "winston-transport";
-import { formatter } from "@gemunionstudio/winston-formatter";
 import os from "os";
+
+import { formatter } from "@gemunionstudio/winston-formatter";
 
 @Injectable()
 export class WinstonConfigService {
