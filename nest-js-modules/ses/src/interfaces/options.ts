@@ -1,14 +1,9 @@
-import { ModuleMetadata } from "@nestjs/common/interfaces";
-
-export interface ISesOptions {
+export interface ISdkOptions {
   region: string;
   accessKeyId: string;
   secretAccessKey: string;
-  from: string;
 }
 
-export interface ISesModuleOptions extends Pick<ModuleMetadata, "imports"> {
-  name?: string;
-  useFactory: (...args: any[]) => ISesOptions | Promise<ISesOptions>;
-  inject?: any[];
+export interface ISesOptions extends ISdkOptions {
+  from: string;
 }

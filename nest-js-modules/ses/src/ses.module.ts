@@ -1,5 +1,6 @@
-import { createConfigurableDynamicRootModule } from "@gemunionstudio/nest-js-create-dynamic-module";
 import { DynamicModule, Logger, Module } from "@nestjs/common";
+
+import { createConfigurableDynamicRootModule } from "@gemunionstudio/nest-js-create-dynamic-module";
 
 import { SES_OPTIONS_PROVIDER } from "./ses.constants";
 import { SesService } from "./ses.service";
@@ -10,5 +11,5 @@ import { ISesOptions } from "./interfaces";
   exports: [SesService],
 })
 export class SesModule extends createConfigurableDynamicRootModule<SesModule, ISesOptions>(SES_OPTIONS_PROVIDER) {
-  static Deferred = (): Promise<DynamicModule> => SesModule.externallyConfigured(SesModule, 0);
+  static deferred = (): Promise<DynamicModule> => SesModule.externallyConfigured(SesModule, 0);
 }

@@ -8,7 +8,7 @@ import { SES_OPTIONS_PROVIDER } from "./ses.constants";
 
 @Injectable()
 export class SesService implements ISendMailService {
-  private ses: SES;
+  private client: SES;
 
   constructor(
     @Inject(Logger)
@@ -17,11 +17,11 @@ export class SesService implements ISendMailService {
     private readonly options: ISesOptions,
   ) {
     const { accessKeyId, secretAccessKey, region } = options;
-    this.ses = new SES({ accessKeyId, secretAccessKey, region });
+    this.client = new SES({ accessKeyId, secretAccessKey, region });
   }
 
   async sendEmail(mail: ISendEmailDto): Promise<IEmailResult> {
-    return this.ses
+    return this.client
       .sendEmail({
         Source: this.options.from,
         Destination: {
@@ -43,7 +43,7 @@ export class SesService implements ISendMailService {
         return { status: true };
       })
       .catch(e => {
-        this.loggerService.error(e.message, e.stack, SesService.name);
+        this.loggerService.error(e.message, e.originalError.stack, SesService.name);
         return { status: false };
       });
   }
