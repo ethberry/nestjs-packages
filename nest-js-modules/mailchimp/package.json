@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@gemunionstudio/nest-js-create-dynamic-module": "1.0.3",
-    "@mailchimp/mailchimp_marketing": "3.0.56"
+    "@mailchimp/mailchimp_marketing": "3.0.57"
   },
   "devDependencies": {
     "@nestjs/axios": "0.0.1",
