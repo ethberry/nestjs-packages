@@ -7,7 +7,6 @@ import {
 } from "class-validator";
 
 interface IConfirmConstraints {
-  required: boolean;
   relatedPropertyName: string;
 }
 
@@ -25,12 +24,12 @@ class ValidateConfirm implements ValidatorConstraintInterface {
   }
 
   private static isValid(value: unknown, args: ValidationArguments): string {
-    const { required = true, relatedPropertyName = "password" }: IConfirmConstraints = args.constraints[0];
+    const { relatedPropertyName = "password" }: IConfirmConstraints = args.constraints[0];
 
     const relatedValue = (args.object as any)[relatedPropertyName];
 
     if (typeof value === "undefined" || value === "") {
-      if (required) {
+      if (relatedValue) {
         return "valueMissing";
       } else {
         return "";
