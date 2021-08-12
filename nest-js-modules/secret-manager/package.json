@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@gemunionstudio/nest-js-create-dynamic-module": "1.0.3",
-    "aws-sdk": "2.966.0"
+    "aws-sdk": "2.967.0"
   },
   "devDependencies": {
     "@nestjs/common": "8.0.6"
