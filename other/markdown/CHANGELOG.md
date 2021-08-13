@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.15](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@0.1.14...@gemunion/markdown@0.1.15) (2021-08-13)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([0000802](https://github.com/gemunion/common-packages/commit/0000802092c3ff3bc480f5a7cd655dd2a2c0a041))
+
+
+
+
+
 ## 0.1.14 (2021-08-13)
 
 
