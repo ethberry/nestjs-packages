@@ -42,5 +42,5 @@
   },
   "title": "nest js microservice utils",
   "types": "./dist/index.d.ts",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

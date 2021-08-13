@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.19 (2021-08-13)
+
+
+### Bug Fixes
+
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+
+
+
+
+
 ## [0.1.18](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@0.1.17...@gemunion/provider-user@0.1.18) (2021-08-07)
 
 **Note:** Version bump only for package @gemunion/provider-user

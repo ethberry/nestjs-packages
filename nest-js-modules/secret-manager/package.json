@@ -7,7 +7,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-create-dynamic-module": "1.0.3",
+    "@gemunion/nest-js-create-dynamic-module": "1.0.4",
     "aws-sdk": "2.967.0"
   },
   "devDependencies": {
@@ -40,5 +40,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.1"
+  "version": "0.1.0"
 }

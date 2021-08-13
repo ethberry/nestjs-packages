@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.14 (2021-08-13)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([17134c5](https://github.com/gemunion/common-packages/commit/17134c5509a87ea00c96807b7ce0ec39dcf85000))
+* downgrade notistack ([a7c477a](https://github.com/gemunion/common-packages/commit/a7c477add3b0a4a7fcc157ddbad70bb510512c07))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+
+
+
+
+
 ## 0.1.13 (2021-08-07)
 
 

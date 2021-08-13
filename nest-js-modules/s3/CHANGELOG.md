@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2021-08-13)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([278bd0b](https://github.com/gemunion/common-packages/commit/278bd0b9938ab6207f9ea885115aebe430b2b98b))
+* **deps:** update all non-major dependencies ([d2d1338](https://github.com/gemunion/common-packages/commit/d2d1338abfe2452e2b7e177a7616f4ed524ae8e6))
+* **deps:** update all non-major dependencies ([1ca82cc](https://github.com/gemunion/common-packages/commit/1ca82ccf99f2f5c0c430bb294b272128b303e936))
+* **deps:** update dependency aws-sdk to v2.967.0 ([35e808f](https://github.com/gemunion/common-packages/commit/35e808fbbbf2a72140ee0eb962711676e41d95ca))
+
+
+### Features
+
+* rework s3 module ([6200ef9](https://github.com/gemunion/common-packages/commit/6200ef943bf3712bb5ad7f812860884f2eb8f546))
+* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+
+
+
+
+
 # [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-s3@1.0.6...@gemunion/nest-js-module-s3@1.1.0) (2021-08-07)
 
 

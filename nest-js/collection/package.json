@@ -7,8 +7,8 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-validators": "1.1.0",
-    "@gemunion/types-collection": "0.1.10",
+    "@gemunion/nest-js-validators": "1.2.0",
+    "@gemunion/types-collection": "0.1.11",
     "class-transformer": "0.4.0",
     "class-validator": "0.13.1"
   },
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.7"
+  "version": "1.0.8"
 }

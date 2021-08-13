@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2021-08-13)
+
+
+### Bug Fixes
+
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* path ([719b5dc](https://github.com/gemunion/common-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
+* validation rule for password confirm field ([1c2592d](https://github.com/gemunion/common-packages/commit/1c2592dd4dde452f3f258d7d9a02dcdd5a2e6319))
+
+
+### Features
+
+* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+
+
+
+
+
 # [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@1.0.4...@gemunion/nest-js-validators@1.1.0) (2021-08-07)
 
 

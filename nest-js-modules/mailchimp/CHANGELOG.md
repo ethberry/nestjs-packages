@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2021-08-13)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([1ca82cc](https://github.com/gemunion/common-packages/commit/1ca82ccf99f2f5c0c430bb294b272128b303e936))
+
+
+### Features
+
+* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+
+
+
+
+
 # [1.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-mailchimp@1.1.0...@gemunion/nest-js-module-mailchimp@1.2.0) (2021-08-07)
 
 

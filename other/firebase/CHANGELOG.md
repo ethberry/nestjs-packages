@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.12 (2021-08-13)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([d2d1338](https://github.com/gemunion/common-packages/commit/d2d1338abfe2452e2b7e177a7616f4ed524ae8e6))
+* **deps:** update all non-major dependencies ([d8f25e9](https://github.com/gemunion/common-packages/commit/d8f25e9e839b754f2cdfc9a5ea76fd58542091c7))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+
+
+
+
+
 ## 0.1.11 (2021-08-07)
 
 

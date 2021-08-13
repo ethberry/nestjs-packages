@@ -7,9 +7,9 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants-regexp": "0.1.7",
-    "@gemunion/constants-validation": "0.1.7",
-    "@gemunion/provider-api": "3.0.1",
+    "@gemunion/constants-regexp": "0.1.8",
+    "@gemunion/constants-validation": "0.1.8",
+    "@gemunion/provider-api": "4.0.0",
     "yup": "0.32.9"
   },
   "description": "yup rules",
@@ -38,5 +38,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.18"
+  "version": "0.1.19"
 }

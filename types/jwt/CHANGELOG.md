@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2021-08-13)
+
+
+### Bug Fixes
+
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+
+
+### Features
+
+* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+
+
+
+
+
 # [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.0.5...@gemunion/types-jwt@0.1.0) (2021-08-07)
 
 
