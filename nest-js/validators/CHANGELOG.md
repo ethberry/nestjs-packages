@@ -3,12 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-validators@1.0.4...@gemunionstudio/nest-js-validators@1.1.0) (2021-08-07)
+# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@1.0.4...@gemunion/nest-js-validators@1.1.0) (2021-08-07)
 
 
 ### Features
 
-* unify email modules ([ff6eebe](https://github.com/gemunionstudio/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
 
 
 
@@ -19,43 +19,43 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
-* path ([719b5dc](https://github.com/gemunionstudio/common-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* path ([719b5dc](https://github.com/gemunion/common-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
 
 
 
 
 
-## [1.0.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-validators@1.0.2...@gemunionstudio/nest-js-validators@1.0.3) (2021-08-06)
+## [1.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@1.0.2...@gemunion/nest-js-validators@1.0.3) (2021-08-06)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
-
-
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
-## [1.0.2](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-validators@1.0.1...@gemunionstudio/nest-js-validators@1.0.2) (2021-07-22)
+
+
+## [1.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@1.0.1...@gemunion/nest-js-validators@1.0.2) (2021-07-22)
 
 
 ### Bug Fixes
 
-* path ([719b5dc](https://github.com/gemunionstudio/common-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
+* path ([719b5dc](https://github.com/gemunion/common-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
 
 
 
 
 
-## [1.0.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-validators@0.1.7...@gemunionstudio/nest-js-validators@1.0.1) (2021-07-22)
+## [1.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@0.1.7...@gemunion/nest-js-validators@1.0.1) (2021-07-22)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
-
-
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
-## [0.1.7](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-validators@0.1.6...@gemunionstudio/nest-js-validators@0.1.7) (2021-07-22)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+
+## [0.1.7](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@0.1.6...@gemunion/nest-js-validators@0.1.7) (2021-07-22)
+
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -63,15 +63,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.6 (2021-07-13)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
 
 
-## [0.1.5](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-validators@0.1.4...@gemunionstudio/nest-js-validators@0.1.5) (2021-07-10)
+## [0.1.5](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@0.1.4...@gemunion/nest-js-validators@0.1.5) (2021-07-10)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -79,7 +79,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.4 (2021-07-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -87,7 +87,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.3 (2021-06-24)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -95,7 +95,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -103,18 +103,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
 
 
-# [0.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-validators@0.0.216...@gemunionstudio/nest-js-validators@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@0.0.216...@gemunion/nest-js-validators@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* use fetchJson ([fc3d86e](https://github.com/gemunionstudio/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* use fetchJson ([fc3d86e](https://github.com/gemunion/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -125,7 +125,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/gemunionstudio/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunion/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -133,7 +133,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.215 (2021-05-31)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -144,7 +144,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/gemunionstudio/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunion/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -152,7 +152,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.213 (2021-05-14)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -163,7 +163,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/gemunionstudio/common-packages/issues/48)) ([1854092](https://github.com/gemunionstudio/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/common-packages/issues/48)) ([1854092](https://github.com/gemunion/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -174,7 +174,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunionstudio/common-packages/issues/47)) ([06b9b84](https://github.com/gemunionstudio/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/common-packages/issues/47)) ([06b9b84](https://github.com/gemunion/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -182,7 +182,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.210 (2021-05-06)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -190,7 +190,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.209 (2021-04-30)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -198,7 +198,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.208 (2021-04-27)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -206,7 +206,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.207 (2021-04-27)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -214,7 +214,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.206 (2021-04-19)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -222,7 +222,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.205 (2021-04-18)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -230,7 +230,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.204 (2021-04-15)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -238,7 +238,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.203 (2021-04-15)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -246,15 +246,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.202 (2021-04-14)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
 
 
-## [0.0.201](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-validators@0.0.200...@gemunionstudio/nest-js-validators@0.0.201) (2021-03-29)
+## [0.0.201](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-validators@0.0.200...@gemunion/nest-js-validators@0.0.201) (2021-03-29)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -262,7 +262,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.200 (2021-03-29)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -270,7 +270,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.199 (2021-03-27)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -278,7 +278,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.198 (2021-03-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -286,7 +286,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.197 (2021-03-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -294,15 +294,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.196 (2021-03-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
 
 
-## [0.0.195](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.194...@gemunionstudio/nest-js-validators@0.0.195) (2021-03-24)
+## [0.0.195](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.194...@gemunion/nest-js-validators@0.0.195) (2021-03-24)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -310,7 +310,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.194 (2021-03-23)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -439,7 +439,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.182 (2021-03-15)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -513,7 +513,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.175 (2021-03-09)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -532,7 +532,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.173 (2021-03-07)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -551,7 +551,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.171 (2021-03-05)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -592,7 +592,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.167 (2021-03-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -600,7 +600,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.166 (2021-03-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -608,7 +608,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.165 (2021-03-01)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -660,7 +660,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.160 (2021-02-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -679,7 +679,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.158 (2021-02-24)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -709,7 +709,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.155 (2021-02-22)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -728,7 +728,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.153 (2021-02-20)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -736,7 +736,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.152 (2021-02-19)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -755,7 +755,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.150 (2021-02-18)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -785,7 +785,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.147 (2021-02-17)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -815,7 +815,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.144 (2021-02-13)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -834,7 +834,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.142 (2021-02-12)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -842,7 +842,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.141 (2021-02-12)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -883,7 +883,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.137 (2021-02-09)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -913,7 +913,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.134 (2021-02-05)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -943,7 +943,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.131 (2021-02-04)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -962,7 +962,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.129 (2021-02-03)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -981,7 +981,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.127 (2021-02-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -989,7 +989,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.126 (2021-02-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -1371,7 +1371,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.91 (2021-01-03)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -1852,7 +1852,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.47 (2020-11-24)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -1860,7 +1860,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.46 (2020-11-23)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -1868,15 +1868,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.45 (2020-11-23)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
 
 
-## [0.0.44](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.43...@gemunionstudio/nest-js-validators@0.0.44) (2020-11-23)
+## [0.0.44](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.43...@gemunion/nest-js-validators@0.0.44) (2020-11-23)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -1887,16 +1887,16 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* use @gemunionstudio/types-misc 0.0.12 ([266e730](https://github.com/memoryos/nest-js/commit/266e7307ed39fa5cc4332ca9b51fecdd13d207ca))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.10 ([eea50ef](https://github.com/memoryos/nest-js/commit/eea50efb029e09f1e832b8da6c348f7bc19e0124))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.11 ([d30ff12](https://github.com/memoryos/nest-js/commit/d30ff12814460e3335fa3622fc0a1a4114045d9d))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.12 ([20b01d6](https://github.com/memoryos/nest-js/commit/20b01d6dc3460cbc93408803f10f939bccec9e5b))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.4 ([b5e586b](https://github.com/memoryos/nest-js/commit/b5e586b0da162242f63b0f97ac3f826a152b3c5d))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.5 ([29a38c1](https://github.com/memoryos/nest-js/commit/29a38c1a9187e1b61c466b220146c86197698881))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.6 ([2804ce8](https://github.com/memoryos/nest-js/commit/2804ce8ab0f243ccb13a1cb5f6679c9ce51b3f16))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.7 ([2694b2a](https://github.com/memoryos/nest-js/commit/2694b2ad3b6c842dde156d19975ba46b1637753a))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.8 ([70405e2](https://github.com/memoryos/nest-js/commit/70405e22119d5ba8c246bb7cef0cd7a7243a2dba))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.9 ([e92350a](https://github.com/memoryos/nest-js/commit/e92350a233e40c40dcf5e754f2c114679d5d6698))
+* use @gemunion/types-misc 0.0.12 ([266e730](https://github.com/memoryos/nest-js/commit/266e7307ed39fa5cc4332ca9b51fecdd13d207ca))
+* **deps:** update dependency @gemunion/types-misc to v0.0.10 ([eea50ef](https://github.com/memoryos/nest-js/commit/eea50efb029e09f1e832b8da6c348f7bc19e0124))
+* **deps:** update dependency @gemunion/types-misc to v0.0.11 ([d30ff12](https://github.com/memoryos/nest-js/commit/d30ff12814460e3335fa3622fc0a1a4114045d9d))
+* **deps:** update dependency @gemunion/types-misc to v0.0.12 ([20b01d6](https://github.com/memoryos/nest-js/commit/20b01d6dc3460cbc93408803f10f939bccec9e5b))
+* **deps:** update dependency @gemunion/types-misc to v0.0.4 ([b5e586b](https://github.com/memoryos/nest-js/commit/b5e586b0da162242f63b0f97ac3f826a152b3c5d))
+* **deps:** update dependency @gemunion/types-misc to v0.0.5 ([29a38c1](https://github.com/memoryos/nest-js/commit/29a38c1a9187e1b61c466b220146c86197698881))
+* **deps:** update dependency @gemunion/types-misc to v0.0.6 ([2804ce8](https://github.com/memoryos/nest-js/commit/2804ce8ab0f243ccb13a1cb5f6679c9ce51b3f16))
+* **deps:** update dependency @gemunion/types-misc to v0.0.7 ([2694b2a](https://github.com/memoryos/nest-js/commit/2694b2ad3b6c842dde156d19975ba46b1637753a))
+* **deps:** update dependency @gemunion/types-misc to v0.0.8 ([70405e2](https://github.com/memoryos/nest-js/commit/70405e22119d5ba8c246bb7cef0cd7a7243a2dba))
+* **deps:** update dependency @gemunion/types-misc to v0.0.9 ([e92350a](https://github.com/memoryos/nest-js/commit/e92350a233e40c40dcf5e754f2c114679d5d6698))
 
 
 
@@ -1904,7 +1904,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.41 (2020-11-23)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -1912,7 +1912,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.41 (2020-11-21)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
@@ -2044,7 +2044,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @gemunionstudio/redis to v0.0.15 ([2b5a0fc](https://github.com/memoryos/nest-js/commit/2b5a0fc2018fd89a150d6a4c4f185bb7ee19cff5))
+* **deps:** update dependency @gemunion/redis to v0.0.15 ([2b5a0fc](https://github.com/memoryos/nest-js/commit/2b5a0fc2018fd89a150d6a4c4f185bb7ee19cff5))
 
 
 
@@ -2154,7 +2154,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @gemunionstudio/redis to v0.0.14 ([705e598](https://github.com/memoryos/nest-js/commit/705e598ca54f6202a38052e43c8b8574742bab20))
+* **deps:** update dependency @gemunion/redis to v0.0.14 ([705e598](https://github.com/memoryos/nest-js/commit/705e598ca54f6202a38052e43c8b8574742bab20))
 
 
 
@@ -2165,7 +2165,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @gemunionstudio/redis to v0.0.13 ([a82131d](https://github.com/memoryos/nest-js/commit/a82131d992d0914a3dd896fb837eaf938c631d73))
+* **deps:** update dependency @gemunion/redis to v0.0.13 ([a82131d](https://github.com/memoryos/nest-js/commit/a82131d992d0914a3dd896fb837eaf938c631d73))
 
 
 
@@ -2187,7 +2187,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency @gemunionstudio/redis to v0.0.12 ([e029d3b](https://github.com/memoryos/nest-js/commit/e029d3bb0a0268d4c870a3b4e46761354ddec5fc))
+* **deps:** update dependency @gemunion/redis to v0.0.12 ([e029d3b](https://github.com/memoryos/nest-js/commit/e029d3bb0a0268d4c870a3b4e46761354ddec5fc))
 
 
 
@@ -2215,65 +2215,65 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.13](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.12...@gemunionstudio/nest-js-validators@0.0.13) (2020-11-06)
+## [0.0.13](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.12...@gemunion/nest-js-validators@0.0.13) (2020-11-06)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
-
-
-
-
-
-## [0.0.12](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.11...@gemunionstudio/nest-js-validators@0.0.12) (2020-11-04)
-
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
 
 
-## [0.0.11](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.10...@gemunionstudio/nest-js-validators@0.0.11) (2020-11-02)
+## [0.0.12](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.11...@gemunion/nest-js-validators@0.0.12) (2020-11-04)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
-
-
-
-
-
-## [0.0.10](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.9...@gemunionstudio/nest-js-validators@0.0.10) (2020-10-29)
-
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
 
 
-## [0.0.9](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.8...@gemunionstudio/nest-js-validators@0.0.9) (2020-10-28)
+## [0.0.11](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.10...@gemunion/nest-js-validators@0.0.11) (2020-11-02)
+
+**Note:** Version bump only for package @gemunion/nest-js-validators
+
+
+
+
+
+## [0.0.10](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.9...@gemunion/nest-js-validators@0.0.10) (2020-10-29)
+
+**Note:** Version bump only for package @gemunion/nest-js-validators
+
+
+
+
+
+## [0.0.9](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.8...@gemunion/nest-js-validators@0.0.9) (2020-10-28)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.10 ([eea50ef](https://github.com/memoryos/nest-js/commit/eea50efb029e09f1e832b8da6c348f7bc19e0124))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.11 ([d30ff12](https://github.com/memoryos/nest-js/commit/d30ff12814460e3335fa3622fc0a1a4114045d9d))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.12 ([20b01d6](https://github.com/memoryos/nest-js/commit/20b01d6dc3460cbc93408803f10f939bccec9e5b))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.4 ([b5e586b](https://github.com/memoryos/nest-js/commit/b5e586b0da162242f63b0f97ac3f826a152b3c5d))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.5 ([29a38c1](https://github.com/memoryos/nest-js/commit/29a38c1a9187e1b61c466b220146c86197698881))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.6 ([2804ce8](https://github.com/memoryos/nest-js/commit/2804ce8ab0f243ccb13a1cb5f6679c9ce51b3f16))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.7 ([2694b2a](https://github.com/memoryos/nest-js/commit/2694b2ad3b6c842dde156d19975ba46b1637753a))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.8 ([70405e2](https://github.com/memoryos/nest-js/commit/70405e22119d5ba8c246bb7cef0cd7a7243a2dba))
-* **deps:** update dependency @gemunionstudio/types-misc to v0.0.9 ([e92350a](https://github.com/memoryos/nest-js/commit/e92350a233e40c40dcf5e754f2c114679d5d6698))
+* **deps:** update dependency @gemunion/types-misc to v0.0.10 ([eea50ef](https://github.com/memoryos/nest-js/commit/eea50efb029e09f1e832b8da6c348f7bc19e0124))
+* **deps:** update dependency @gemunion/types-misc to v0.0.11 ([d30ff12](https://github.com/memoryos/nest-js/commit/d30ff12814460e3335fa3622fc0a1a4114045d9d))
+* **deps:** update dependency @gemunion/types-misc to v0.0.12 ([20b01d6](https://github.com/memoryos/nest-js/commit/20b01d6dc3460cbc93408803f10f939bccec9e5b))
+* **deps:** update dependency @gemunion/types-misc to v0.0.4 ([b5e586b](https://github.com/memoryos/nest-js/commit/b5e586b0da162242f63b0f97ac3f826a152b3c5d))
+* **deps:** update dependency @gemunion/types-misc to v0.0.5 ([29a38c1](https://github.com/memoryos/nest-js/commit/29a38c1a9187e1b61c466b220146c86197698881))
+* **deps:** update dependency @gemunion/types-misc to v0.0.6 ([2804ce8](https://github.com/memoryos/nest-js/commit/2804ce8ab0f243ccb13a1cb5f6679c9ce51b3f16))
+* **deps:** update dependency @gemunion/types-misc to v0.0.7 ([2694b2a](https://github.com/memoryos/nest-js/commit/2694b2ad3b6c842dde156d19975ba46b1637753a))
+* **deps:** update dependency @gemunion/types-misc to v0.0.8 ([70405e2](https://github.com/memoryos/nest-js/commit/70405e22119d5ba8c246bb7cef0cd7a7243a2dba))
+* **deps:** update dependency @gemunion/types-misc to v0.0.9 ([e92350a](https://github.com/memoryos/nest-js/commit/e92350a233e40c40dcf5e754f2c114679d5d6698))
 
 
 
 
 
-## [0.0.8](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.7...@gemunionstudio/nest-js-validators@0.0.8) (2020-10-21)
+## [0.0.8](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.7...@gemunion/nest-js-validators@0.0.8) (2020-10-21)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
-
-
+**Note:** Version bump only for package @gemunion/nest-js-validators
 
 
 
-## [0.0.7](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-validators@0.0.6...@gemunionstudio/nest-js-validators@0.0.7) (2020-10-15)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-validators
+
+## [0.0.7](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.6...@gemunion/nest-js-validators@0.0.7) (2020-10-15)
+
+**Note:** Version bump only for package @gemunion/nest-js-validators

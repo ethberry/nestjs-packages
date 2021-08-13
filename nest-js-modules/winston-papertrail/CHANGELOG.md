@@ -3,12 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston-papertrail@1.0.4...@gemunionstudio/nest-js-module-winston-papertrail@1.1.0) (2021-08-07)
+# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-papertrail@1.0.4...@gemunion/nest-js-module-winston-papertrail@1.1.0) (2021-08-07)
 
 
 ### Features
 
-* unify email modules ([ff6eebe](https://github.com/gemunionstudio/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
 
 
 
@@ -19,44 +19,44 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
-* split winston module ([a0ac356](https://github.com/gemunionstudio/common-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
-* types ([8210a0c](https://github.com/gemunionstudio/common-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* split winston module ([a0ac356](https://github.com/gemunion/common-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
+* types ([8210a0c](https://github.com/gemunion/common-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
 
 
 
 
 
-## [1.0.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston-papertrail@1.0.2...@gemunionstudio/nest-js-module-winston-papertrail@1.0.3) (2021-08-06)
+## [1.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-papertrail@1.0.2...@gemunion/nest-js-module-winston-papertrail@1.0.3) (2021-08-06)
 
 
 ### Bug Fixes
 
-* types ([8210a0c](https://github.com/gemunionstudio/common-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
+* types ([8210a0c](https://github.com/gemunion/common-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
 
 
 
 
 
-## [1.0.2](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston-papertrail@1.0.1...@gemunionstudio/nest-js-module-winston-papertrail@1.0.2) (2021-07-23)
+## [1.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-papertrail@1.0.1...@gemunion/nest-js-module-winston-papertrail@1.0.2) (2021-07-23)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston-papertrail
-
-
-
-
-
-## [1.0.1](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston-papertrail@0.0.3...@gemunionstudio/nest-js-module-winston-papertrail@1.0.1) (2021-07-22)
-
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston-papertrail
+**Note:** Version bump only for package @gemunion/nest-js-module-winston-papertrail
 
 
 
 
 
-## [0.0.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston-papertrail@0.0.2...@gemunionstudio/nest-js-module-winston-papertrail@0.0.3) (2021-07-22)
+## [1.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-papertrail@0.0.3...@gemunion/nest-js-module-winston-papertrail@1.0.1) (2021-07-22)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston-papertrail
+**Note:** Version bump only for package @gemunion/nest-js-module-winston-papertrail
+
+
+
+
+
+## [0.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-papertrail@0.0.2...@gemunion/nest-js-module-winston-papertrail@0.0.3) (2021-07-22)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-winston-papertrail
 
 
 
@@ -67,7 +67,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* split winston module ([a0ac356](https://github.com/gemunionstudio/common-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
+* split winston module ([a0ac356](https://github.com/gemunion/common-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
 
 
 
@@ -75,15 +75,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.7 (2021-07-13)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
 
 
-## [0.1.6](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston@0.1.5...@gemunionstudio/nest-js-module-winston@0.1.6) (2021-07-10)
+## [0.1.6](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.1.5...@gemunion/nest-js-module-winston@0.1.6) (2021-07-10)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -91,7 +91,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.5 (2021-07-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -99,15 +99,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.4 (2021-06-24)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
 
 
-## [0.1.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston@0.1.2...@gemunionstudio/nest-js-module-winston@0.1.3) (2021-06-19)
+## [0.1.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.1.2...@gemunion/nest-js-module-winston@0.1.3) (2021-06-19)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -115,7 +115,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -123,18 +123,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
 
 
-# [0.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston@0.0.175...@gemunionstudio/nest-js-module-winston@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.0.175...@gemunion/nest-js-module-winston@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* use fetchJson ([fc3d86e](https://github.com/gemunionstudio/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* use fetchJson ([fc3d86e](https://github.com/gemunion/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -145,7 +145,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/gemunionstudio/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunion/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -153,7 +153,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.174 (2021-05-31)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -164,7 +164,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/gemunionstudio/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunion/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -172,7 +172,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.172 (2021-05-14)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -183,7 +183,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/gemunionstudio/common-packages/issues/48)) ([1854092](https://github.com/gemunionstudio/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/common-packages/issues/48)) ([1854092](https://github.com/gemunion/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -194,7 +194,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunionstudio/common-packages/issues/47)) ([06b9b84](https://github.com/gemunionstudio/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/common-packages/issues/47)) ([06b9b84](https://github.com/gemunion/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -202,7 +202,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.169 (2021-05-06)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -210,7 +210,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.168 (2021-04-30)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -218,7 +218,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.167 (2021-04-27)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -226,15 +226,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.166 (2021-04-27)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
 
 
-## [0.0.165](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston@0.0.164...@gemunionstudio/nest-js-module-winston@0.0.165) (2021-04-24)
+## [0.0.165](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.0.164...@gemunion/nest-js-module-winston@0.0.165) (2021-04-24)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -242,7 +242,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.164 (2021-04-19)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -250,7 +250,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.163 (2021-04-18)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -258,7 +258,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.162 (2021-04-15)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -266,7 +266,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.161 (2021-04-15)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -274,23 +274,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.160 (2021-04-14)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
 
 
-## [0.0.158](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston@0.0.157...@gemunionstudio/nest-js-module-winston@0.0.158) (2021-04-08)
+## [0.0.158](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.0.157...@gemunion/nest-js-module-winston@0.0.158) (2021-04-08)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
-
-
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
-## [0.0.157](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/nest-js-module-winston@0.0.156...@gemunionstudio/nest-js-module-winston@0.0.157) (2021-03-29)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+
+## [0.0.157](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.0.156...@gemunion/nest-js-module-winston@0.0.157) (2021-03-29)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -298,7 +298,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.156 (2021-03-29)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -306,7 +306,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.155 (2021-03-27)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -314,7 +314,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.154 (2021-03-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -322,7 +322,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.153 (2021-03-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -330,15 +330,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.152 (2021-03-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
 
 
-## [0.0.151](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-module-winston@0.0.150...@gemunionstudio/nest-js-module-winston@0.0.151) (2021-03-24)
+## [0.0.151](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-module-winston@0.0.150...@gemunion/nest-js-module-winston@0.0.151) (2021-03-24)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -346,7 +346,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.150 (2021-03-23)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -475,7 +475,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.138 (2021-03-15)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -549,7 +549,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.131 (2021-03-09)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -568,7 +568,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.129 (2021-03-07)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -587,7 +587,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.127 (2021-03-05)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -628,7 +628,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.123 (2021-03-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -636,7 +636,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.122 (2021-03-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -644,7 +644,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.121 (2021-03-01)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -696,7 +696,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.116 (2021-02-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -715,7 +715,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.114 (2021-02-24)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -745,7 +745,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.111 (2021-02-22)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -764,7 +764,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.109 (2021-02-20)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -772,7 +772,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.108 (2021-02-19)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -791,7 +791,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.106 (2021-02-18)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -821,7 +821,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.103 (2021-02-17)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -851,7 +851,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.100 (2021-02-13)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -870,7 +870,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.98 (2021-02-12)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -878,7 +878,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.97 (2021-02-12)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -919,7 +919,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.93 (2021-02-09)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -949,7 +949,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.90 (2021-02-05)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -979,7 +979,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.87 (2021-02-04)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -998,7 +998,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.85 (2021-02-03)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -1017,7 +1017,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.83 (2021-02-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -1025,7 +1025,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.82 (2021-02-02)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -1407,7 +1407,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.47 (2021-01-03)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -1886,9 +1886,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.3](https://github.com/memoryos/nest-js/compare/@gemunionstudio/nest-js-module-winston@0.0.2...@gemunionstudio/nest-js-module-winston@0.0.3) (2020-11-25)
+## [0.0.3](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-module-winston@0.0.2...@gemunion/nest-js-module-winston@0.0.3) (2020-11-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston
 
 
 
@@ -1896,4 +1896,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2020-11-25)
 
-**Note:** Version bump only for package @gemunionstudio/nest-js-module-winston
+**Note:** Version bump only for package @gemunion/nest-js-module-winston

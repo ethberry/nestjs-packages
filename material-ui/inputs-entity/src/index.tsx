@@ -5,8 +5,8 @@ import { getIn, useFormikContext } from "formik";
 import { TextField } from "@material-ui/core";
 import { Autocomplete, AutocompleteRenderInputParams } from "@material-ui/lab";
 
-import { ProgressOverlay } from "@gemunionstudio/material-ui-progress";
-import { ApiContext } from "@gemunionstudio/provider-api";
+import { ProgressOverlay } from "@gemunion/material-ui-progress";
+import { ApiContext } from "@gemunion/provider-api";
 
 export interface IAutocompleteOption {
   id: string | number;

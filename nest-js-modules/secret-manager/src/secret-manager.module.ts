@@ -1,4 +1,4 @@
-import { createConfigurableDynamicRootModule } from "@gemunionstudio/nest-js-create-dynamic-module";
+import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
 import { DynamicModule, Logger, Module } from "@nestjs/common";
 
 import { SECRET_MANAGER_OPTIONS_PROVIDER } from "./secret-manager.constants";

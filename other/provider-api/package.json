@@ -4,11 +4,11 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/gemunionstudio/common-packages/issues"
+    "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/history": "0.1.9",
-    "@gemunionstudio/types-jwt": "0.1.0",
+    "@gemunion/history": "0.1.9",
+    "@gemunion/types-jwt": "0.1.0",
     "content-disposition": "0.5.3"
   },
   "description": "react context provider",
@@ -23,7 +23,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunionstudio/provider-api",
+  "name": "@gemunion/provider-api",
   "peerDependencies": {
     "react": "^17"
   },
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunionstudio/common-packages"
+    "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
     "build": "tsc",

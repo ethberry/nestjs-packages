@@ -6,7 +6,7 @@ import { transports } from "winston";
 import Transport from "winston-transport";
 import os from "os";
 
-import { formatter } from "@gemunionstudio/winston-formatter";
+import { formatter } from "@gemunion/winston-formatter";
 
 @Injectable()
 export class WinstonConfigService {

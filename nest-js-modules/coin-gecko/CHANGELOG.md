@@ -8,4 +8,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* unify email modules ([ff6eebe](https://github.com/gemunionstudio/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))

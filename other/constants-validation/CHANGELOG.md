@@ -8,7 +8,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 
 
@@ -16,15 +16,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.6 (2021-07-13)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
 
 
-## [0.1.5](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/constants-validation@0.1.4...@gemunionstudio/constants-validation@0.1.5) (2021-07-10)
+## [0.1.5](https://github.com/gemunion/common-packages/compare/@gemunion/constants-validation@0.1.4...@gemunion/constants-validation@0.1.5) (2021-07-10)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -32,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.4 (2021-07-02)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -40,7 +40,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.3 (2021-06-24)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -48,7 +48,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -56,18 +56,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
 
 
-# [0.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/constants-validation@0.0.99...@gemunionstudio/constants-validation@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants-validation@0.0.99...@gemunion/constants-validation@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* use fetchJson ([fc3d86e](https://github.com/gemunionstudio/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* use fetchJson ([fc3d86e](https://github.com/gemunion/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -78,7 +78,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/gemunionstudio/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunion/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -86,7 +86,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.98 (2021-05-31)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -97,7 +97,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/gemunionstudio/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunion/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -105,7 +105,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.96 (2021-05-14)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -116,7 +116,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/gemunionstudio/common-packages/issues/48)) ([1854092](https://github.com/gemunionstudio/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/common-packages/issues/48)) ([1854092](https://github.com/gemunion/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -127,7 +127,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunionstudio/common-packages/issues/47)) ([06b9b84](https://github.com/gemunionstudio/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/common-packages/issues/47)) ([06b9b84](https://github.com/gemunion/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -135,7 +135,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.93 (2021-05-06)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -143,7 +143,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.92 (2021-04-30)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -151,7 +151,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.91 (2021-04-27)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -159,7 +159,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.90 (2021-04-27)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -167,7 +167,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.89 (2021-04-19)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -175,7 +175,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.88 (2021-04-18)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -183,7 +183,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.87 (2021-04-15)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -191,7 +191,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.86 (2021-04-15)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -199,7 +199,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.85 (2021-04-14)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -207,7 +207,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.84 (2021-03-29)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -215,7 +215,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.83 (2021-03-25)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -234,7 +234,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.81 (2021-03-22)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -275,7 +275,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.77 (2021-03-16)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -283,7 +283,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.76 (2021-03-12)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -302,7 +302,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.74 (2021-03-08)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -310,7 +310,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.73 (2021-03-07)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -329,7 +329,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.71 (2021-03-02)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -337,7 +337,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.70 (2021-03-01)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -378,7 +378,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.66 (2021-02-22)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -408,7 +408,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.63 (2021-02-20)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -416,7 +416,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.62 (2021-02-19)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -424,7 +424,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.61 (2021-02-17)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -432,7 +432,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.60 (2021-02-15)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -462,7 +462,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.57 (2021-02-09)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -481,7 +481,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.55 (2021-02-04)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -511,7 +511,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.52 (2021-01-31)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -673,7 +673,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.37 (2021-01-03)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -890,7 +890,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.17 (2020-11-23)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -898,7 +898,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.16 (2020-11-23)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -906,29 +906,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.15 (2020-11-21)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
 
 
-## [0.0.14](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.13...@gemunionstudio/constants-validation@0.0.14) (2020-11-16)
+## [0.0.14](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.13...@gemunion/constants-validation@0.0.14) (2020-11-16)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
-
-
-
-
-
-## [0.0.13](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.12...@gemunionstudio/constants-validation@0.0.13) (2020-11-10)
-
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
 
 
-## [0.0.12](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.11...@gemunionstudio/constants-validation@0.0.12) (2020-11-09)
+## [0.0.13](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.12...@gemunion/constants-validation@0.0.13) (2020-11-10)
+
+**Note:** Version bump only for package @gemunion/constants-validation
+
+
+
+
+
+## [0.0.12](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.11...@gemunion/constants-validation@0.0.12) (2020-11-09)
 
 
 ### Bug Fixes
@@ -939,73 +939,73 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.11](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.10...@gemunionstudio/constants-validation@0.0.11) (2020-11-07)
+## [0.0.11](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.10...@gemunion/constants-validation@0.0.11) (2020-11-07)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
-
-
-
-
-
-## [0.0.10](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.9...@gemunionstudio/constants-validation@0.0.10) (2020-11-02)
-
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
 
 
-## [0.0.9](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.8...@gemunionstudio/constants-validation@0.0.9) (2020-10-28)
+## [0.0.10](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.9...@gemunion/constants-validation@0.0.10) (2020-11-02)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
-
-
-
-
-
-## [0.0.8](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.7...@gemunionstudio/constants-validation@0.0.8) (2020-10-27)
-
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
 
 
-## [0.0.7](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.6...@gemunionstudio/constants-validation@0.0.7) (2020-10-26)
+## [0.0.9](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.8...@gemunion/constants-validation@0.0.9) (2020-10-28)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
-
-
-
-
-
-## [0.0.6](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.5...@gemunionstudio/constants-validation@0.0.6) (2020-10-26)
-
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
 
 
-## [0.0.5](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.4...@gemunionstudio/constants-validation@0.0.5) (2020-10-22)
+## [0.0.8](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.7...@gemunion/constants-validation@0.0.8) (2020-10-27)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
-
-
-
-
-
-## [0.0.4](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.3...@gemunionstudio/constants-validation@0.0.4) (2020-10-21)
-
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
 
 
-## [0.0.3](https://github.com/memoryos/misc/compare/@gemunionstudio/constants-validation@0.0.2...@gemunionstudio/constants-validation@0.0.3) (2020-10-21)
+## [0.0.7](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.6...@gemunion/constants-validation@0.0.7) (2020-10-26)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation
+
+
+
+
+
+## [0.0.6](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.5...@gemunion/constants-validation@0.0.6) (2020-10-26)
+
+**Note:** Version bump only for package @gemunion/constants-validation
+
+
+
+
+
+## [0.0.5](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.4...@gemunion/constants-validation@0.0.5) (2020-10-22)
+
+**Note:** Version bump only for package @gemunion/constants-validation
+
+
+
+
+
+## [0.0.4](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.3...@gemunion/constants-validation@0.0.4) (2020-10-21)
+
+**Note:** Version bump only for package @gemunion/constants-validation
+
+
+
+
+
+## [0.0.3](https://github.com/memoryos/misc/compare/@gemunion/constants-validation@0.0.2...@gemunion/constants-validation@0.0.3) (2020-10-21)
+
+**Note:** Version bump only for package @gemunion/constants-validation
 
 
 
@@ -1013,4 +1013,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2020-10-15)
 
-**Note:** Version bump only for package @gemunionstudio/constants-validation
+**Note:** Version bump only for package @gemunion/constants-validation

@@ -4,12 +4,12 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/gemunionstudio/common-packages/issues"
+    "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/constants-regexp": "0.1.7",
-    "@gemunionstudio/constants-validation": "0.1.7",
-    "@gemunionstudio/provider-api": "3.0.1",
+    "@gemunion/constants-regexp": "0.1.7",
+    "@gemunion/constants-validation": "0.1.7",
+    "@gemunion/provider-api": "3.0.1",
     "yup": "0.32.9"
   },
   "description": "yup rules",
@@ -19,13 +19,13 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunionstudio/yup-rules",
+  "name": "@gemunion/yup-rules",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunionstudio/common-packages"
+    "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
     "build": "tsc",

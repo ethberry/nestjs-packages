@@ -1,7 +1,7 @@
 import { ApiPropertyOptional } from "@nestjs/swagger";
 
-import { IsString } from "@gemunionstudio/nest-js-validators";
-import { ISortDto, SortDirection } from "@gemunionstudio/types-collection";
+import { IsString } from "@gemunion/nest-js-validators";
+import { ISortDto, SortDirection } from "@gemunion/types-collection";
 
 import { SearchDto } from "./search";
 

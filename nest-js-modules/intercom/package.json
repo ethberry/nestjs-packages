@@ -4,10 +4,10 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/gemunionstudio/common-packages/issues"
+    "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/nest-js-create-dynamic-module": "1.0.3"
+    "@gemunion/nest-js-create-dynamic-module": "1.0.3"
   },
   "devDependencies": {
     "@nestjs/axios": "0.0.1",
@@ -21,7 +21,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunionstudio/nest-js-module-intercom",
+  "name": "@gemunion/nest-js-module-intercom",
   "peerDependencies": {
     "@nestjs/axios": "^0",
     "@nestjs/common": "^8",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunionstudio/common-packages"
+    "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
     "build": "tsc",

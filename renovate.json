@@ -1,5 +1,5 @@
 {
-  "extends": ["github>gemunionstudio/renovate-config"],
+  "extends": ["github>gemunion/renovate-config"],
   "baseBranches": ["master"],
   "packageRules": [
     {

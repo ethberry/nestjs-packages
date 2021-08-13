@@ -4,7 +4,7 @@ import { FormControl, FormHelperText, IconButton, InputLabel, Tooltip } from "@m
 import { Delete } from "@material-ui/icons";
 import { FormattedMessage, useIntl } from "react-intl";
 
-import { FirebaseFileInput } from "@gemunionstudio/material-ui-inputs-file-firebase";
+import { FirebaseFileInput } from "@gemunion/material-ui-inputs-file-firebase";
 
 import useStyles from "./styles";
 import { useDeleteUrl } from "../utils";

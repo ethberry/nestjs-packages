@@ -2,15 +2,15 @@ import React, { FC, useContext, useEffect } from "react";
 import { useSnackbar } from "notistack";
 import { FormattedMessage, useIntl } from "react-intl";
 import { Button, Grid } from "@material-ui/core";
-import { Facebook, GooglePlus } from "@gemunionstudio/material-ui-icons-social-networks";
+import { Facebook, GooglePlus } from "@gemunion/material-ui-icons-social-networks";
 
-import { PasswordInput, TextInput } from "@gemunionstudio/material-ui-inputs-core";
-import { PageHeader } from "@gemunionstudio/material-ui-page-header";
-import { FormikForm } from "@gemunionstudio/material-ui-form";
-import { ApiContext, IJwt } from "@gemunionstudio/provider-api";
-import { UserContext } from "@gemunionstudio/provider-user";
-import { ButtonToolbar } from "@gemunionstudio/material-ui-toolbar";
-import { openUrlOnClick } from "@gemunionstudio/popup";
+import { PasswordInput, TextInput } from "@gemunion/material-ui-inputs-core";
+import { PageHeader } from "@gemunion/material-ui-page-header";
+import { FormikForm } from "@gemunion/material-ui-form";
+import { ApiContext, IJwt } from "@gemunion/provider-api";
+import { UserContext } from "@gemunion/provider-user";
+import { ButtonToolbar } from "@gemunion/material-ui-toolbar";
+import { openUrlOnClick } from "@gemunion/popup";
 
 import { validationSchema } from "./validation";
 import useStyles from "./styles";

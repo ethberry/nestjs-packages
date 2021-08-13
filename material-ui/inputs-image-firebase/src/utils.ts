@@ -1,4 +1,4 @@
-import firebase from "@gemunionstudio/firebase";
+import firebase from "@gemunion/firebase";
 import { useSnackbar } from "notistack";
 import { useIntl } from "react-intl";
 

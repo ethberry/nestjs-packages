@@ -1,6 +1,6 @@
 import { DynamicModule, Logger, Module } from "@nestjs/common";
 
-import { createConfigurableDynamicRootModule } from "@gemunionstudio/nest-js-create-dynamic-module";
+import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
 
 import { IS3Options } from "./interfaces";
 import { S3Service } from "./s3.service";

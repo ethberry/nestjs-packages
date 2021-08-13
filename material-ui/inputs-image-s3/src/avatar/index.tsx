@@ -4,7 +4,7 @@ import { FormControl, FormHelperText, IconButton, InputLabel, Tooltip } from "@m
 import { Delete } from "@material-ui/icons";
 import { FormattedMessage, useIntl } from "react-intl";
 
-import { S3FileInput } from "@gemunionstudio/material-ui-inputs-file-s3";
+import { S3FileInput } from "@gemunion/material-ui-inputs-file-s3";
 
 import useStyles from "./styles";
 import { useDeleteUrl } from "../utils";

@@ -4,11 +4,11 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/gemunionstudio/common-packages/issues"
+    "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/material-ui-progress": "0.1.9",
-    "@gemunionstudio/provider-api": "3.0.1"
+    "@gemunion/material-ui-progress": "0.1.9",
+    "@gemunion/provider-api": "3.0.1"
   },
   "description": "react widget",
   "devDependencies": {
@@ -28,7 +28,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunionstudio/material-ui-inputs-entity",
+  "name": "@gemunion/material-ui-inputs-entity",
   "peerDependencies": {
     "@material-ui/core": "4",
     "@material-ui/icons": "4",
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunionstudio/common-packages"
+    "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
     "build": "tsc",

@@ -1,4 +1,4 @@
-import { BatchTypes } from "@gemunionstudio/types-iex-cloud";
+import { BatchTypes } from "@gemunion/types-iex-cloud";
 
 export interface IBatchDto {
   symbols: Array<string>;

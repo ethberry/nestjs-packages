@@ -4,10 +4,10 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/gemunionstudio/common-packages/issues"
+    "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/nest-js-create-dynamic-module": "1.0.3",
+    "@gemunion/nest-js-create-dynamic-module": "1.0.3",
     "aws-sdk": "2.967.0"
   },
   "devDependencies": {
@@ -19,7 +19,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunionstudio/nest-js-module-secret-manager",
+  "name": "@gemunion/nest-js-module-secret-manager",
   "peerDependencies": {
     "@nestjs/common": "^8"
   },
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunionstudio/common-packages"
+    "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
     "build": "tsc",

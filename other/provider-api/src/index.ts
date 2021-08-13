@@ -3,4 +3,4 @@ export * from "./fetch";
 export * from "./context";
 export * from "./provider";
 export * from "./validation";
-export * from "@gemunionstudio/types-jwt";
+export * from "@gemunion/types-jwt";

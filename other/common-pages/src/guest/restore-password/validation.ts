@@ -1,6 +1,6 @@
 import * as Yup from "yup";
 
-import { confirmValidationSchema, passwordValidationSchema } from "@gemunionstudio/yup-rules";
+import { confirmValidationSchema, passwordValidationSchema } from "@gemunion/yup-rules";
 
 export const validationSchema = Yup.object().shape({
   password: passwordValidationSchema,

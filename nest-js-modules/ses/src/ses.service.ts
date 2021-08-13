@@ -1,7 +1,7 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { SES } from "aws-sdk";
 
-import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunionstudio/types-email";
+import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
 
 import { ISesOptions } from "./interfaces";
 import { SES_OPTIONS_PROVIDER } from "./ses.constants";

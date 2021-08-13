@@ -4,11 +4,11 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/gemunionstudio/common-packages/issues"
+    "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/nest-js-create-dynamic-module": "1.0.3",
-    "@gemunionstudio/types-email": "0.1.0",
+    "@gemunion/nest-js-create-dynamic-module": "1.0.3",
+    "@gemunion/types-email": "0.1.0",
     "node-mailjet": "3.3.4"
   },
   "devDependencies": {
@@ -21,7 +21,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunionstudio/nest-js-module-mailjet",
+  "name": "@gemunion/nest-js-module-mailjet",
   "peerDependencies": {
     "@nestjs/common": "^8",
     "@nestjs/microservices": "^8"
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunionstudio/common-packages"
+    "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
     "build": "tsc",

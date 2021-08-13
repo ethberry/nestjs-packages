@@ -1,7 +1,7 @@
 import * as Yup from "yup";
 
-import { fetchJson } from "@gemunionstudio/provider-api";
-import { passwordMinLength, passwordScore } from "@gemunionstudio/constants-validation";
+import { fetchJson } from "@gemunion/provider-api";
+import { passwordMinLength, passwordScore } from "@gemunion/constants-validation";
 
 export const passwordValidationSchema = Yup.string()
   .min(passwordMinLength, "form.validations.tooShort")

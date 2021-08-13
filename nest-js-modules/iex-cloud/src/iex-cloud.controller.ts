@@ -1,7 +1,7 @@
 import { Controller, Get, Query } from "@nestjs/common";
 
-import { Public } from "@gemunionstudio/nest-js-utils";
-import { IIexBatch } from "@gemunionstudio/types-iex-cloud";
+import { Public } from "@gemunion/nest-js-utils";
+import { IIexBatch } from "@gemunion/types-iex-cloud";
 
 import { IexCloudService } from "./iex-cloud.service";
 import { BatchDto } from "./dto";

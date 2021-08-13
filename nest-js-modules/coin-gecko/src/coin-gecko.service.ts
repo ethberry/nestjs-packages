@@ -4,7 +4,7 @@ import { map } from "rxjs/operators";
 import { URLSearchParams } from "url";
 import { firstValueFrom } from "rxjs";
 
-import { ICoinGeckoCoin, ICoinGeckoCoinListItem } from "@gemunionstudio/types-coin-gecko";
+import { ICoinGeckoCoin, ICoinGeckoCoinListItem } from "@gemunion/types-coin-gecko";
 
 @Injectable()
 export class CoinGeckoService {

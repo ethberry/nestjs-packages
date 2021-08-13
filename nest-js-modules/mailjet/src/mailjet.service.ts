@@ -1,7 +1,7 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { Email, connect } from "node-mailjet";
 
-import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunionstudio/types-email";
+import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
 
 import { MAILJET_OPTIONS_PROVIDER } from "./mailjet.constants";
 import { IMailjetOptions } from "./interfaces";

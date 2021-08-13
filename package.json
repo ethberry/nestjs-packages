@@ -14,7 +14,7 @@
     "@storybook/node-logger": "6.3.7",
     "@storybook/preset-create-react-app": "3.2.0",
     "@storybook/react": "6.3.7",
-    "@gemunionstudio/eslint-config": "0.1.8",
+    "@gemunion/eslint-config": "0.1.9",
     "@typescript-eslint/eslint-plugin": "4.29.1",
     "@typescript-eslint/parser": "4.29.1",
     "babel-plugin-inline-import": "3.0.0",
@@ -40,10 +40,10 @@
     "node": ">=12.13"
   },
   "license": "UNLICENSED",
-  "name": "@gemunionstudio/common-packages",
+  "name": "@gemunion/common-packages",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunionstudio/common-packages"
+    "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",

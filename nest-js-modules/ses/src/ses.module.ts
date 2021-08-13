@@ -1,6 +1,6 @@
 import { DynamicModule, Logger, Module } from "@nestjs/common";
 
-import { createConfigurableDynamicRootModule } from "@gemunionstudio/nest-js-create-dynamic-module";
+import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
 
 import { SES_OPTIONS_PROVIDER } from "./ses.constants";
 import { SesService } from "./ses.service";

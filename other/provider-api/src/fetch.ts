@@ -1,6 +1,6 @@
 import { parse } from "content-disposition";
 
-import { history } from "@gemunionstudio/history";
+import { history } from "@gemunion/history";
 
 import { ApiError } from "./error";
 

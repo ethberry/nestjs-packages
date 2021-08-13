@@ -2,7 +2,7 @@ import session from "express-session";
 import connectRedis from "connect-redis";
 import { Redis } from "ioredis";
 
-import { createModule } from "@gemunionstudio/nest-js-create-middleware-module";
+import { createModule } from "@gemunion/nest-js-create-middleware-module";
 
 export interface ISessionOptions {
   secret: string;

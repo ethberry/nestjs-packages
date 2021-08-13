@@ -2,7 +2,7 @@ import { DynamicModule, Logger, Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { HttpModule } from "@nestjs/axios";
 
-import { createConfigurableDynamicRootModule } from "@gemunionstudio/nest-js-create-dynamic-module";
+import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
 
 import { INTERCOM_OPTIONS_PROVIDER } from "./intercom.constants";
 import { IntercomService } from "./intercom.service";

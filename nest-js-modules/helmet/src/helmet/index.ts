@@ -1,6 +1,6 @@
 import helmet from "helmet";
 
-import { createModule } from "@gemunionstudio/nest-js-create-middleware-module";
+import { createModule } from "@gemunion/nest-js-create-middleware-module";
 
 // https://github.com/helmetjs/helmet/issues/279
 // https://github.com/helmetjs/helmet/issues/271

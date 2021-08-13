@@ -1,6 +1,6 @@
 import { Controller, Get, Param } from "@nestjs/common";
 
-import { Public } from "@gemunionstudio/nest-js-utils";
+import { Public } from "@gemunion/nest-js-utils";
 
 import { CoinGeckoService } from "./coin-gecko.service";
 

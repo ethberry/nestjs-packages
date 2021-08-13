@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, ReactElement, useContext, useEffect, useState } from "react";
 
-import { UserContext, IUserContext } from "@gemunionstudio/provider-user";
+import { UserContext, IUserContext } from "@gemunion/provider-user";
 
 import { SettingsContext } from "./context";
 

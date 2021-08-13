@@ -4,7 +4,7 @@ import { Button } from "@material-ui/core";
 import { FormattedMessage } from "react-intl";
 import { Link as RouterLink } from "react-router-dom";
 
-import { ButtonToolbar } from "@gemunionstudio/material-ui-toolbar";
+import { ButtonToolbar } from "@gemunion/material-ui-toolbar";
 
 export const LoginButtons: FC = () => {
   const formik = useFormikContext();

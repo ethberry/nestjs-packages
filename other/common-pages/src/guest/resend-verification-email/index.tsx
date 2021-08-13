@@ -4,11 +4,11 @@ import { useSnackbar } from "notistack";
 import { Grid } from "@material-ui/core";
 import { useIntl } from "react-intl";
 
-import { Captcha } from "@gemunionstudio/material-ui-inputs-captcha";
-import { PageHeader } from "@gemunionstudio/material-ui-page-header";
-import { TextInput } from "@gemunionstudio/material-ui-inputs-core";
-import { FormikForm } from "@gemunionstudio/material-ui-form";
-import { ApiContext, localizeErrors } from "@gemunionstudio/provider-api";
+import { Captcha } from "@gemunion/material-ui-inputs-captcha";
+import { PageHeader } from "@gemunion/material-ui-page-header";
+import { TextInput } from "@gemunion/material-ui-inputs-core";
+import { FormikForm } from "@gemunion/material-ui-form";
+import { ApiContext, localizeErrors } from "@gemunion/provider-api";
 
 import useStyles from "./styles";
 import { validationSchema } from "./validation";

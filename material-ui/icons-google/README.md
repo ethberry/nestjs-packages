@@ -5,7 +5,7 @@ This is free to use set of google style flat icons wrapped in Material UI lib
 ## Installation
 
 ```bash
-npm install @gemunionstudio/material-ui-icons-google
+npm install @gemunion/material-ui-icons-google
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ import {
   Slides,
   Translate,
   Youtube,
-} from "@gemunionstudio/material-ui-icons-google";
+} from "@gemunion/material-ui-icons-google";
 
 
 const useStyles = makeStyles(

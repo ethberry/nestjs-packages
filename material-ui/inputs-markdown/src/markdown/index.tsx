@@ -2,7 +2,7 @@ import React, { FC, useState } from "react";
 import { TextField, TextFieldProps } from "@material-ui/core";
 import { convertToRaw, EditorState } from "draft-js";
 import { getIn, useFormikContext } from "formik";
-import { TToolbarControl } from "@gemunionstudio/mui-rte";
+import { TToolbarControl } from "@gemunion/mui-rte";
 import { useIntl } from "react-intl";
 import { draftToMarkdown, markdownToDraft } from "markdown-draft-js";
 import { useDebouncedCallback } from "use-debounce";

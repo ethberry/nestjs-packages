@@ -5,7 +5,7 @@ import { firstValueFrom } from "rxjs";
 import { map } from "rxjs/operators";
 import { URLSearchParams } from "url";
 
-import { IIexBatch, IIexSymbol } from "@gemunionstudio/types-iex-cloud";
+import { IIexBatch, IIexSymbol } from "@gemunion/types-iex-cloud";
 
 import { IBatchDto } from "./interfaces";
 

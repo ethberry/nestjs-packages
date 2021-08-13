@@ -1,7 +1,7 @@
 import { ApiPropertyOptional } from "@nestjs/swagger";
 
-import { IsString } from "@gemunionstudio/nest-js-validators";
-import { ISearchDto } from "@gemunionstudio/types-collection";
+import { IsString } from "@gemunion/nest-js-validators";
+import { ISearchDto } from "@gemunion/types-collection";
 
 import { PaginationDto } from "./pagination";
 

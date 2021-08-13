@@ -4,11 +4,11 @@
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/gemunionstudio/common-packages/issues"
+    "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunionstudio/firebase": "0.1.11",
-    "@gemunionstudio/material-ui-inputs-file": "0.1.13"
+    "@gemunion/firebase": "0.1.11",
+    "@gemunion/material-ui-inputs-file": "0.1.13"
   },
   "description": "react widget",
   "devDependencies": {
@@ -20,7 +20,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunionstudio/material-ui-inputs-file-firebase",
+  "name": "@gemunion/material-ui-inputs-file-firebase",
   "peerDependencies": {
     "react": "^17"
   },
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunionstudio/common-packages"
+    "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
     "build": "tsc",

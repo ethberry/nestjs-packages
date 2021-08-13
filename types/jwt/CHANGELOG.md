@@ -3,12 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.1.0](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/types-jwt@0.0.5...@gemunionstudio/types-jwt@0.1.0) (2021-08-07)
+# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.0.5...@gemunion/types-jwt@0.1.0) (2021-08-07)
 
 
 ### Features
 
-* unify email modules ([ff6eebe](https://github.com/gemunionstudio/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
 
 
 
@@ -19,23 +19,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunionstudio/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 
 
 
 
-## [0.0.4](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/types-jwt@0.0.3...@gemunionstudio/types-jwt@0.0.4) (2021-08-06)
+## [0.0.4](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.0.3...@gemunion/types-jwt@0.0.4) (2021-08-06)
 
-**Note:** Version bump only for package @gemunionstudio/types-jwt
-
-
+**Note:** Version bump only for package @gemunion/types-jwt
 
 
 
-## [0.0.3](https://github.com/gemunionstudio/common-packages/compare/@gemunionstudio/types-jwt@0.0.2...@gemunionstudio/types-jwt@0.0.3) (2021-07-22)
 
-**Note:** Version bump only for package @gemunionstudio/types-jwt
+
+## [0.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.0.2...@gemunion/types-jwt@0.0.3) (2021-07-22)
+
+**Note:** Version bump only for package @gemunion/types-jwt
 
 
 
@@ -46,4 +46,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* jwt type ([3074038](https://github.com/gemunionstudio/common-packages/commit/30740387dfb414ca89fd9f35489641e825271a0b))
+* jwt type ([3074038](https://github.com/gemunion/common-packages/commit/30740387dfb414ca89fd9f35489641e825271a0b))

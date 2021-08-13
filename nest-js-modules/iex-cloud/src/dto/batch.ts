@@ -1,7 +1,7 @@
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsInt, IsOptional, IsPositive, IsString } from "class-validator";
 
-import { BatchTypes } from "@gemunionstudio/types-iex-cloud";
+import { BatchTypes } from "@gemunion/types-iex-cloud";
 
 import { IBatchDto } from "../interfaces";
 

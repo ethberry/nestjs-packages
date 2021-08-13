@@ -1,7 +1,7 @@
 import React, { FC } from "react";
-import firebase from "@gemunionstudio/firebase";
+import firebase from "@gemunion/firebase";
 
-import { FileInput, IFileInputProps } from "@gemunionstudio/material-ui-inputs-file";
+import { FileInput, IFileInputProps } from "@gemunion/material-ui-inputs-file";
 
 export interface IFirebaseFileInputProps extends Omit<IFileInputProps, "onChange"> {
   onChange: (urls: Array<string>) => void;

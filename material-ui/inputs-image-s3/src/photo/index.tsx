@@ -4,11 +4,11 @@ import { useFormikContext, getIn } from "formik";
 import { FormattedMessage, useIntl } from "react-intl";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 
-import { TextInput } from "@gemunionstudio/material-ui-inputs-core";
-import { ProgressOverlay } from "@gemunionstudio/material-ui-progress";
-import { ConfirmationDialog } from "@gemunionstudio/material-ui-dialog-confirmation";
-import { S3FileInput } from "@gemunionstudio/material-ui-inputs-file-s3";
-import { openUrlOnClick } from "@gemunionstudio/popup";
+import { TextInput } from "@gemunion/material-ui-inputs-core";
+import { ProgressOverlay } from "@gemunion/material-ui-progress";
+import { ConfirmationDialog } from "@gemunion/material-ui-dialog-confirmation";
+import { S3FileInput } from "@gemunion/material-ui-inputs-file-s3";
+import { openUrlOnClick } from "@gemunion/popup";
 
 import { useStyles } from "./styles";
 import { useDeleteUrl } from "../utils";

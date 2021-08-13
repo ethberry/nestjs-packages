@@ -1,5 +1,5 @@
 import * as Yup from "yup";
-import { emailMaxLength } from "@gemunionstudio/constants-validation";
+import { emailMaxLength } from "@gemunion/constants-validation";
 
 export const emailValidationSchema = Yup.string()
   .max(emailMaxLength, "form.validations.tooLong")
