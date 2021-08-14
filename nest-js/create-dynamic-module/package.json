@@ -10,7 +10,8 @@
   "contributors": [
     {
       "email": "TrejGun@gmail.com",
-      "name": "TrejGun"
+      "name": "TrejGun",
+      "url": "https://trejgun.github.io/"
     }
   ],
   "description": "Reusable utilities to help level up NestJS Modules",

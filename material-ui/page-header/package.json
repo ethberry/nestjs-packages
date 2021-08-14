@@ -1,7 +1,8 @@
 {
   "author": {
     "email": "TrejGun@gmail.com",
-    "name": "TrejGun"
+    "name": "TrejGun",
+    "url": "https://trejgun.github.io/"
   },
   "bugs": {
     "url": "https://github.com/gemunion/common-packages/issues"
