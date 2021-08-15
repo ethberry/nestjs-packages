@@ -1,6 +1,6 @@
 {
   "extends": ["github>gemunion/renovate-config"],
-  "baseBranches": ["master"],
+  "baseBranches": ["master", "mui5"],
   "packageRules": [
     {
       "matchPackageNames": ["*"],
