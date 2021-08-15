@@ -1,4 +1,4 @@
 {
-  "packages": ["material-ui/*", "nest-js/*", "nest-js-modules/*", "other/*", "types/*"],
+  "packages": ["nest-js-utils/*", "nest-js-modules/*", "other/*", "types/*"],
   "version": "independent"
 }
