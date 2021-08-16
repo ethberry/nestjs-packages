@@ -6,7 +6,7 @@ import { BatchTypes } from "@gemunion/types-iex-cloud";
 
 import { IexCloudService } from "./iex-cloud.service";
 
-describe("IexCloudService", () => {
+describe.skip("IexCloudService", () => {
   let iexCloudService: IexCloudService;
 
   beforeEach(async () => {
