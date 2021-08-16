@@ -8,12 +8,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* coin-gecko types ([cd85cdb](https://github.com/gemunion/common-packages/commit/cd85cdb3851c48b76dbd3ac8e11f37fc59ac6eaf))
+* coin-gecko types ([cd85cdb](https://github.com/gemunion/nestjs-packages/commit/cd85cdb3851c48b76dbd3ac8e11f37fc59ac6eaf))
 
 
 ### Features
 
-* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+* unify email modules ([ff6eebe](https://github.com/gemunion/nestjs-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
 
 
 
@@ -24,4 +24,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+* unify email modules ([ff6eebe](https://github.com/gemunion/nestjs-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))

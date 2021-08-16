@@ -5,7 +5,7 @@
     "url": "https://trejgun.github.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.4"
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunion/common-packages"
+    "url": "https://github.com/gemunion/nestjs-packages"
   },
   "scripts": {
     "build": "tsc",
@@ -44,7 +44,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "-=TrejGun=-",
+  "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
   "version": "1.3.0"
 }

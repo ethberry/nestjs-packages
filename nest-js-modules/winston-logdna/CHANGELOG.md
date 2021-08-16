@@ -8,18 +8,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+* unify email modules ([ff6eebe](https://github.com/gemunion/nestjs-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
 
 
 
 
 
-# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-logdna@1.0.4...@gemunion/nest-js-module-winston-logdna@1.1.0) (2021-08-07)
+# [1.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston-logdna@1.0.4...@gemunion/nest-js-module-winston-logdna@1.1.0) (2021-08-07)
 
 
 ### Features
 
-* unify email modules ([ff6eebe](https://github.com/gemunion/common-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+* unify email modules ([ff6eebe](https://github.com/gemunion/nestjs-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
 
 
 
@@ -30,34 +30,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
-* split winston module ([a0ac356](https://github.com/gemunion/common-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
-* types ([8210a0c](https://github.com/gemunion/common-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* split winston module ([a0ac356](https://github.com/gemunion/nestjs-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
+* types ([8210a0c](https://github.com/gemunion/nestjs-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
 
 
 
 
 
-## [1.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-logdna@1.0.2...@gemunion/nest-js-module-winston-logdna@1.0.3) (2021-08-06)
+## [1.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston-logdna@1.0.2...@gemunion/nest-js-module-winston-logdna@1.0.3) (2021-08-06)
 
 
 ### Bug Fixes
 
-* types ([8210a0c](https://github.com/gemunion/common-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
+* types ([8210a0c](https://github.com/gemunion/nestjs-packages/commit/8210a0c86b5e4b5023f68aee36733d4ca0fd8928))
 
 
 
 
 
-## [1.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-logdna@1.0.1...@gemunion/nest-js-module-winston-logdna@1.0.2) (2021-07-23)
-
-**Note:** Version bump only for package @gemunion/nest-js-module-winston-logdna
-
-
-
-
-
-## [1.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-logdna@0.0.3...@gemunion/nest-js-module-winston-logdna@1.0.1) (2021-07-22)
+## [1.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston-logdna@1.0.1...@gemunion/nest-js-module-winston-logdna@1.0.2) (2021-07-23)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston-logdna
 
@@ -65,7 +57,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston-logdna@0.0.2...@gemunion/nest-js-module-winston-logdna@0.0.3) (2021-07-22)
+## [1.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston-logdna@0.0.3...@gemunion/nest-js-module-winston-logdna@1.0.1) (2021-07-22)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-winston-logdna
+
+
+
+
+
+## [0.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston-logdna@0.0.2...@gemunion/nest-js-module-winston-logdna@0.0.3) (2021-07-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston-logdna
 
@@ -78,7 +78,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* split winston module ([a0ac356](https://github.com/gemunion/common-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
+* split winston module ([a0ac356](https://github.com/gemunion/nestjs-packages/commit/a0ac356466cfa4ad8e9ff404c61d712131e5035e))
 
 
 
@@ -92,7 +92,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.1.6](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.1.5...@gemunion/nest-js-module-winston@0.1.6) (2021-07-10)
+## [0.1.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.1.5...@gemunion/nest-js-module-winston@0.1.6) (2021-07-10)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston
 
@@ -116,7 +116,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.1.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.1.2...@gemunion/nest-js-module-winston@0.1.3) (2021-06-19)
+## [0.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.1.2...@gemunion/nest-js-module-winston@0.1.3) (2021-06-19)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston
 
@@ -140,12 +140,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.0.175...@gemunion/nest-js-module-winston@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.0.175...@gemunion/nest-js-module-winston@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* use fetchJson ([fc3d86e](https://github.com/gemunion/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* use fetchJson ([fc3d86e](https://github.com/gemunion/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -156,7 +156,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/gemunion/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunion/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -175,7 +175,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/gemunion/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunion/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -194,7 +194,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/common-packages/issues/48)) ([1854092](https://github.com/gemunion/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/nestjs-packages/issues/48)) ([1854092](https://github.com/gemunion/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -205,7 +205,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/common-packages/issues/47)) ([06b9b84](https://github.com/gemunion/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/nestjs-packages/issues/47)) ([06b9b84](https://github.com/gemunion/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -243,7 +243,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.165](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.0.164...@gemunion/nest-js-module-winston@0.0.165) (2021-04-24)
+## [0.0.165](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.0.164...@gemunion/nest-js-module-winston@0.0.165) (2021-04-24)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston
 
@@ -291,7 +291,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.158](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.0.157...@gemunion/nest-js-module-winston@0.0.158) (2021-04-08)
+## [0.0.158](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.0.157...@gemunion/nest-js-module-winston@0.0.158) (2021-04-08)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston
 
@@ -299,7 +299,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.157](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-module-winston@0.0.156...@gemunion/nest-js-module-winston@0.0.157) (2021-03-29)
+## [0.0.157](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.0.156...@gemunion/nest-js-module-winston@0.0.157) (2021-03-29)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston
 

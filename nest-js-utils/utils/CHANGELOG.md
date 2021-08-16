@@ -8,7 +8,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 
 
@@ -19,7 +19,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 
 
@@ -33,7 +33,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@1.0.1...@gemunion/nest-js-utils@1.0.2) (2021-07-23)
+## [1.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.1...@gemunion/nest-js-utils@1.0.2) (2021-07-23)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
@@ -41,7 +41,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.4.3...@gemunion/nest-js-utils@1.0.1) (2021-07-22)
+## [1.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.4.3...@gemunion/nest-js-utils@1.0.1) (2021-07-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
@@ -49,7 +49,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.4.2...@gemunion/nest-js-utils@0.4.3) (2021-07-22)
+## [0.4.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.4.2...@gemunion/nest-js-utils@0.4.3) (2021-07-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
@@ -57,45 +57,45 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.2](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.4.1...@gemunion/nest-js-utils@0.4.2) (2021-07-22)
+## [0.4.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.4.1...@gemunion/nest-js-utils@0.4.2) (2021-07-22)
 
 
 ### Bug Fixes
 
-* name ([e5ab9d1](https://github.com/gemunion/common-packages/commit/e5ab9d128c3f10904b672f0c616393a8f8c3d6d8))
+* name ([e5ab9d1](https://github.com/gemunion/nestjs-packages/commit/e5ab9d128c3f10904b672f0c616393a8f8c3d6d8))
 
 
 
 
 
-## [0.4.1](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.4.0...@gemunion/nest-js-utils@0.4.1) (2021-07-22)
+## [0.4.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.4.0...@gemunion/nest-js-utils@0.4.1) (2021-07-22)
 
 
 ### Bug Fixes
 
-* name ([73366e3](https://github.com/gemunion/common-packages/commit/73366e33ef0700f6b9614ce5c9d4572de207b06e))
+* name ([73366e3](https://github.com/gemunion/nestjs-packages/commit/73366e33ef0700f6b9614ce5c9d4572de207b06e))
 
 
 
 
 
-# [0.4.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.3.0...@gemunion/nest-js-utils@0.4.0) (2021-07-22)
-
-
-### Features
-
-* re-captcha validator ([4964fc4](https://github.com/gemunion/common-packages/commit/4964fc4fb7e2eedb29f12959db31d98994b3b415))
-
-
-
-
-
-# [0.3.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.2.4...@gemunion/nest-js-utils@0.3.0) (2021-07-17)
+# [0.4.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.3.0...@gemunion/nest-js-utils@0.4.0) (2021-07-22)
 
 
 ### Features
 
-* user param decorator ([0926f5c](https://github.com/gemunion/common-packages/commit/0926f5c76513bbfd934b48a8aeaf875b4ad02f57))
+* re-captcha validator ([4964fc4](https://github.com/gemunion/nestjs-packages/commit/4964fc4fb7e2eedb29f12959db31d98994b3b415))
+
+
+
+
+
+# [0.3.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.2.4...@gemunion/nest-js-utils@0.3.0) (2021-07-17)
+
+
+### Features
+
+* user param decorator ([0926f5c](https://github.com/gemunion/nestjs-packages/commit/0926f5c76513bbfd934b48a8aeaf875b4ad02f57))
 
 
 
@@ -109,29 +109,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.2.2...@gemunion/nest-js-utils@0.2.3) (2021-07-11)
+## [0.2.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.2.2...@gemunion/nest-js-utils@0.2.3) (2021-07-11)
 
 
 ### Bug Fixes
 
-* raw body ([d1b038d](https://github.com/gemunion/common-packages/commit/d1b038d055583d845e32740ec4cbea6f6ace5b3a))
+* raw body ([d1b038d](https://github.com/gemunion/nestjs-packages/commit/d1b038d055583d845e32740ec4cbea6f6ace5b3a))
 
 
 
 
 
-## [0.2.2](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.2.1...@gemunion/nest-js-utils@0.2.2) (2021-07-10)
+## [0.2.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.2.1...@gemunion/nest-js-utils@0.2.2) (2021-07-10)
 
 
 ### Bug Fixes
 
-* 404 error handling ([c3ddc09](https://github.com/gemunion/common-packages/commit/c3ddc09a592fa64b3c077ecb00c140fbd6f5bd83))
+* 404 error handling ([c3ddc09](https://github.com/gemunion/nestjs-packages/commit/c3ddc09a592fa64b3c077ecb00c140fbd6f5bd83))
 
 
 
 
 
-## [0.2.1](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.2.0...@gemunion/nest-js-utils@0.2.1) (2021-07-10)
+## [0.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.2.0...@gemunion/nest-js-utils@0.2.1) (2021-07-10)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
@@ -139,13 +139,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.1.5...@gemunion/nest-js-utils@0.2.0) (2021-07-08)
+# [0.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.1.5...@gemunion/nest-js-utils@0.2.0) (2021-07-08)
 
 
 ### Features
 
-* undefined || null ([35b4c30](https://github.com/gemunion/common-packages/commit/35b4c305c128aebaf51bf0d56788cba6bdb64d73))
-* urlecoded middleware ([fd31813](https://github.com/gemunion/common-packages/commit/fd31813e5b88dc6515ccddd0436324b4044765eb))
+* undefined || null ([35b4c30](https://github.com/gemunion/nestjs-packages/commit/35b4c305c128aebaf51bf0d56788cba6bdb64d73))
+* urlecoded middleware ([fd31813](https://github.com/gemunion/nestjs-packages/commit/fd31813e5b88dc6515ccddd0436324b4044765eb))
 
 
 
@@ -167,7 +167,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.1.3](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.1.2...@gemunion/nest-js-utils@0.1.3) (2021-06-19)
+## [0.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.1.2...@gemunion/nest-js-utils@0.1.3) (2021-06-19)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
@@ -191,13 +191,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.0.204...@gemunion/nest-js-utils@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.204...@gemunion/nest-js-utils@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* split provides and guards ([1d5599d](https://github.com/gemunion/common-packages/commit/1d5599dfd2239256b6169db381f03de2931d1256))
-* use fetchJson ([fc3d86e](https://github.com/gemunion/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* split provides and guards ([1d5599d](https://github.com/gemunion/nestjs-packages/commit/1d5599dfd2239256b6169db381f03de2931d1256))
+* use fetchJson ([fc3d86e](https://github.com/gemunion/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -208,7 +208,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/gemunion/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunion/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -227,7 +227,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/gemunion/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunion/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -246,7 +246,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/common-packages/issues/48)) ([1854092](https://github.com/gemunion/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/nestjs-packages/issues/48)) ([1854092](https://github.com/gemunion/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -257,7 +257,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/common-packages/issues/47)) ([06b9b84](https://github.com/gemunion/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/nestjs-packages/issues/47)) ([06b9b84](https://github.com/gemunion/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -335,7 +335,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.189](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.0.188...@gemunion/nest-js-utils@0.0.189) (2021-04-05)
+## [0.0.189](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.188...@gemunion/nest-js-utils@0.0.189) (2021-04-05)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
@@ -343,7 +343,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.188](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.0.187...@gemunion/nest-js-utils@0.0.188) (2021-04-02)
+## [0.0.188](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.187...@gemunion/nest-js-utils@0.0.188) (2021-04-02)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
@@ -351,7 +351,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.187](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.0.186...@gemunion/nest-js-utils@0.0.187) (2021-03-30)
+## [0.0.187](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.186...@gemunion/nest-js-utils@0.0.187) (2021-03-30)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
@@ -359,7 +359,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.186](https://github.com/gemunion/common-packages/compare/@gemunion/nest-js-utils@0.0.185...@gemunion/nest-js-utils@0.0.186) (2021-03-29)
+## [0.0.186](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.185...@gemunion/nest-js-utils@0.0.186) (2021-03-29)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 

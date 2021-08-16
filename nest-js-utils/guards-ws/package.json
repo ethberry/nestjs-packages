@@ -5,7 +5,7 @@
     "url": "https://trejgun.github.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
     "@nestjs/common": "8.0.6",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunion/common-packages"
+    "url": "https://github.com/gemunion/nestjs-packages"
   },
   "scripts": {
     "build": "tsc",
