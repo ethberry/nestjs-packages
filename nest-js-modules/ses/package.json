@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.7",
     "@gemunion/types-email": "0.2.3",
-    "aws-sdk": "2.969.0"
+    "aws-sdk": "2.970.0"
   },
   "devDependencies": {
     "@nestjs/common": "8.0.6"
