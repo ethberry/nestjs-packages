@@ -1,9 +1,5 @@
-**/storybook
-**/src
-**/@types
-**/tsconfig.json
-**/*.config.*
-**/*.stories.*
-**/*.test.*
-**/node_modules
-.*
+/src
+/node_modules
+**/*.test.ts
+/jest.config.json
+**/*.test.ts
