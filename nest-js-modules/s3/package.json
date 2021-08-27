@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.7",
     "@gemunion/nest-js-validators": "1.2.3",
-    "aws-sdk": "2.977.0",
+    "aws-sdk": "2.978.0",
     "uuid": "8.3.2"
   },
   "devDependencies": {
