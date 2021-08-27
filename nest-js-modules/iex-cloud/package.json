@@ -20,7 +20,7 @@
     "@nestjs/swagger": "5.0.9",
     "@nestjs/testing": "8.0.6",
     "@types/jest": "26.0.24",
-    "jest": "27.0.6",
+    "jest": "27.1.0",
     "rxjs": "7.3.0",
     "ts-jest": "27.0.5"
   },
