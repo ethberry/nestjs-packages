@@ -1,5 +1,5 @@
 export interface ISendTemplateDto {
-  template: string;
+  template: number;
   to: Array<string>;
   data: Record<string, string>;
 }
