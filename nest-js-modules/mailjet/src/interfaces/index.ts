@@ -1,2 +1,2 @@
 export * from "./options";
-export * from "./send";
+export * from "./template";

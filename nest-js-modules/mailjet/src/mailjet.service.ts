@@ -1,10 +1,10 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
-import { Email, connect } from "node-mailjet";
+import { connect, Email } from "node-mailjet";
 
 import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
 
 import { MAILJET_OPTIONS_PROVIDER } from "./mailjet.constants";
-import { IMailjetOptions } from "./interfaces";
+import { IMailjetOptions, ISendTemplateDto } from "./interfaces";
 
 @Injectable()
 export class MailjetService implements ISendMailService {
@@ -19,7 +19,7 @@ export class MailjetService implements ISendMailService {
     this.client = connect(options.publicKey, options.privateKey);
   }
 
-  public sendEmail(mail: ISendEmailDto): Promise<IEmailResult> {
+  public sendEmail(dto: ISendEmailDto): Promise<IEmailResult> {
     return this.client
       .post("send", { version: "v3.1" })
       .request({
@@ -29,11 +29,39 @@ export class MailjetService implements ISendMailService {
               Email: this.options.from,
               Name: this.options.name,
             },
-            To: mail.to.map(to => ({
+            To: dto.to.map(to => ({
               Email: to,
             })),
-            Subject: mail.subject,
-            HTMLPart: mail.html,
+            Subject: dto.subject,
+            HTMLPart: dto.html,
+          },
+        ],
+      })
+      .then(() => {
+        return { status: true };
+      })
+      .catch(e => {
+        this.loggerService.error(e.message, e.stack, MailjetService.name);
+        return { status: false };
+      });
+  }
+
+  public sendTemplate(dto: ISendTemplateDto): Promise<IEmailResult> {
+    return this.client
+      .post("send", { version: "v3.1" })
+      .request({
+        Messages: [
+          {
+            From: {
+              Email: this.options.from,
+              Name: this.options.name,
+            },
+            To: dto.to.map(to => ({
+              Email: to,
+            })),
+            TemplateID: dto.template,
+            TemplateLanguage: true,
+            Variables: dto.data,
           },
         ],
       })
