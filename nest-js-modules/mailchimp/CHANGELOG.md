@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailchimp@1.3.3...@gemunion/nest-js-module-mailchimp@1.3.4) (2021-08-29)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([9f335ce](https://github.com/gemunion/nestjs-packages/commit/9f335ce822dad5d58922f5d981281ff1ea32a8c0))
+* **deps:** update dependency @mailchimp/mailchimp_marketing to v3.0.59 ([47b3063](https://github.com/gemunion/nestjs-packages/commit/47b30639a7e7888dcb2839fa48e5bf18781d5f21))
+
+
+
+
+
 ## 1.3.3 (2021-08-16)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-mailchimp

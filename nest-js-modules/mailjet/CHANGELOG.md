@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailjet@1.3.3...@gemunion/nest-js-module-mailjet@1.4.0) (2021-08-29)
+
+
+### Features
+
+* send mailjet templates ([1a2f104](https://github.com/gemunion/nestjs-packages/commit/1a2f104c6abb91819da3a372cedf780e6130e266))
+
+
+
+
+
 ## 1.3.3 (2021-08-16)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-mailjet
