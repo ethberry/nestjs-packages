@@ -9,9 +9,7 @@ export const formatter = format.combine(
     let text = "";
     if (level === "error") {
       color = chalk.red;
-      const lines = stack[0].split("\n");
-      lines[0] = color(lines[0]);
-      text = lines.join("\n");
+      text = [color(message), stack].join("\n");
     } else if (level === "info") {
       color = chalk.green;
       text = color(message);
