@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@1.2.5...@gemunion/nest-js-module-s3@1.2.6) (2021-09-04)
+
+
+### Bug Fixes
+
+* allow uploading files manually ([4d3b3c1](https://github.com/gemunion/nestjs-packages/commit/4d3b3c1f2d77b136ec5379a6679def1fe29f0910))
+* **deps:** update dependency aws-sdk to v2.979.0 ([c20dea4](https://github.com/gemunion/nestjs-packages/commit/c20dea4581d46f6feddf643fb97224ec66bad1f5))
+* **deps:** update dependency aws-sdk to v2.981.0 ([55147a8](https://github.com/gemunion/nestjs-packages/commit/55147a81be862e616b4507bf3cee66b2b77a6c3f))
+* **deps:** update dependency aws-sdk to v2.982.0 ([9063de2](https://github.com/gemunion/nestjs-packages/commit/9063de2e7f4e20611f20ac42d22a78f5f819531b))
+* **deps:** update dependency aws-sdk to v2.983.0 ([6239fae](https://github.com/gemunion/nestjs-packages/commit/6239faebc1b0ec1637fcf099f182653a2ab79d18))
+
+
+
+
+
 ## [1.2.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@1.2.4...@gemunion/nest-js-module-s3@1.2.5) (2021-08-29)
 
 

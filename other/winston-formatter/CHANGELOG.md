@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/winston-formatter@0.0.7...@gemunion/winston-formatter@0.0.8) (2021-09-04)
+
+
+### Bug Fixes
+
+* error message from nest sub services ([c42d1ab](https://github.com/gemunion/nestjs-packages/commit/c42d1ab8960bdd45de7312079dd2e2391734bd56))
+
+
+
+
+
 ## [0.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/winston-formatter@0.0.6...@gemunion/winston-formatter@0.0.7) (2021-08-29)
 
 **Note:** Version bump only for package @gemunion/winston-formatter

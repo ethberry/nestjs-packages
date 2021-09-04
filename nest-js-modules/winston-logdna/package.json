@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/winston-formatter": "0.0.7",
+    "@gemunion/winston-formatter": "0.0.8",
     "@logdna/logger": "2.3.2",
     "logdna-winston": "3.0.5",
     "winston": "3.3.3",
@@ -48,5 +48,5 @@
   },
   "title": "NestJS Winston+LogDNA module",
   "types": "./dist/index.d.ts",
-  "version": "1.2.4"
+  "version": "1.2.5"
 }
