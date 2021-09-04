@@ -64,7 +64,7 @@ export class S3Service {
       })
       .promise();
 
-    return `https://${bucket}.s3.${this.options.region}.amazonaws.com`;
+    return `https://${bucket}.s3.${this.options.region}.amazonaws.com/${filename}`;
   }
 
   public deleteObject(dto: IS3DeleteDto): Promise<any> {
