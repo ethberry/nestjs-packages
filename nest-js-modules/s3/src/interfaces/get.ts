@@ -1,4 +1,4 @@
-export interface IS3GetDto {
+export interface IS3GetSignedDto {
   objectName: string;
   bucket?: string;
 }

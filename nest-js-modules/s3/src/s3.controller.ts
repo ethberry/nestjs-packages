@@ -9,13 +9,13 @@ export class S3Controller {
   constructor(private readonly s3Service: S3Service) {}
 
   @Get("/put")
-  public putObject(@Query() data: S3PutDto): Promise<IS3Result> {
-    return this.s3Service.putObject(data);
+  public putSignedObject(@Query() data: S3PutDto): Promise<IS3Result> {
+    return this.s3Service.putSignedObject(data);
   }
 
   @Get("/get")
-  public getObject(@Query() data: S3GetDto): Promise<IS3Result> {
-    return this.s3Service.getObject(data);
+  public getSignedObject(@Query() data: S3GetDto): Promise<IS3Result> {
+    return this.s3Service.getSignedObject(data);
   }
 
   @Get("/delete")

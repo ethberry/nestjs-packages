@@ -2,9 +2,9 @@ import { ApiProperty } from "@nestjs/swagger";
 
 import { IsString } from "@gemunion/nest-js-validators";
 
-import { IS3PutDto } from "../interfaces";
+import { IS3PutSignedDto } from "../interfaces";
 
-export class S3PutDto implements IS3PutDto {
+export class S3PutDto implements IS3PutSignedDto {
   @ApiProperty()
   @IsString({
     required: true,
