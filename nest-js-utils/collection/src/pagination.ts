@@ -3,8 +3,7 @@ import { ApiPropertyOptional } from "@nestjs/swagger";
 
 import { IsNumber } from "@gemunion/nest-js-validators";
 import { IPaginationDto } from "@gemunion/types-collection";
-
-import { defaultItemsPerPage } from "./constants";
+import { defaultItemsPerPage } from "@gemunion/constants";
 
 export class PaginationDto implements IPaginationDto {
   @ApiPropertyOptional({
