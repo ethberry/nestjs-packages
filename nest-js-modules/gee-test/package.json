@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@liaoliaots/nestjs-redis": "3.0.0",
-    "@nestjs/axios": "0.0.1",
-    "@nestjs/common": "8.0.6",
+    "@nestjs/axios": "0.0.2",
+    "@nestjs/common": "8.0.7",
     "@nestjs/config": "1.0.1",
     "@nestjs/schedule": "1.0.1",
     "@nestjs/swagger": "5.0.9",
