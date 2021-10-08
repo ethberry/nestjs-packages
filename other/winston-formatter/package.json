@@ -11,9 +11,6 @@
     "chalk": "4.1.2",
     "winston": "3.3.3"
   },
-  "devDependencies": {
-    "@types/chalk": "2.2.0"
-  },
   "description": "react history",
   "engines": {
     "node": ">=12.13"
