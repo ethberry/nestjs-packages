@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.11",
     "@gemunion/nest-js-utils": "1.0.12",
-    "@gemunion/types-coin-gecko": "0.2.5"
+    "@gemunion/types-coin-gecko": "0.2.6"
   },
   "devDependencies": {
     "@nestjs/axios": "0.0.2",
