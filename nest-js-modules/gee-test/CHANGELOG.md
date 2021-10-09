@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.9 (2021-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#40](https://github.com/gemunion/nestjs-packages/issues/40)) ([41fe170](https://github.com/gemunion/nestjs-packages/commit/41fe170143aa94bc21d1ef574796ce741d863a30))
+
+
+
+
+
 ## [1.3.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-gee-test@1.3.7...@gemunion/nest-js-module-gee-test@1.3.8) (2021-10-02)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-gee-test

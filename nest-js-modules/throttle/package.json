@@ -12,10 +12,10 @@
     "nestjs-throttler-storage-redis": "0.1.15"
   },
   "devDependencies": {
+    "@liaoliaots/nestjs-redis": "4.0.1",
     "@nestjs/common": "8.0.11",
-    "@nestjs/core": "8.0.11",
     "@nestjs/config": "1.0.2",
-    "@liaoliaots/nestjs-redis": "4.0.1"
+    "@nestjs/core": "8.0.11"
   },
   "engines": {
     "node": ">=12.13"
@@ -25,10 +25,10 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-throttle",
   "peerDependencies": {
+    "@liaoliaots/nestjs-redis": "^4",
     "@nestjs/common": "^8",
-    "@nestjs/core": "^8",
     "@nestjs/config": "^1",
-    "@liaoliaots/nestjs-redis": "^4"
+    "@nestjs/core": "^8"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -47,5 +47,5 @@
   },
   "title": "NestJS Throttle module",
   "types": "./dist/index.d.ts",
-  "version": "0.0.1"
+  "version": "0.1.0"
 }

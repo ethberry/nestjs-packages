@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.9 (2021-10-09)
+
+**Note:** Version bump only for package @gemunion/winston-formatter
+
+
+
+
+
 ## [0.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/winston-formatter@0.0.7...@gemunion/winston-formatter@0.0.8) (2021-09-04)
 
 
