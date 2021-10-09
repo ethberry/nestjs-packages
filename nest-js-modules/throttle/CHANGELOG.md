@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttle@0.1.1...@gemunion/nest-js-module-throttle@0.1.2) (2021-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#42](https://github.com/gemunion/nestjs-packages/issues/42)) ([246e0ca](https://github.com/gemunion/nestjs-packages/commit/246e0ca0a25d01b10638338209434e1ff9a19c2d))
+
+
+
+
+
 ## [0.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttle@0.1.0...@gemunion/nest-js-module-throttle@0.1.1) (2021-10-09)
 
 
