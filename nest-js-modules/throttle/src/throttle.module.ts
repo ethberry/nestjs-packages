@@ -27,4 +27,4 @@ import { GemunionThrottlerGuard } from "./throttle.guard";
     }),
   ],
 })
-export class ThrottleModule {}
+export class GemunionThrottlerModule {}
