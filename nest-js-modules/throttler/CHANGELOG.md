@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2021-10-09)
+
+
+### Features
+
+* throttler gql/ws guards ([549d2e8](https://github.com/gemunion/nestjs-packages/commit/549d2e841920edc385c6324d306d88a2cc8fd708))
+
+
+
+
+
 # [0.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttle@0.1.3...@gemunion/nest-js-module-throttle@0.2.0) (2021-10-09)
 
 
