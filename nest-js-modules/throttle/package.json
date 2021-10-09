@@ -1,0 +1,51 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun",
+    "url": "https://trejgun.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
+  },
+  "dependencies": {
+    "@nestjs/throttler": "2.0.0",
+    "nestjs-throttler-storage-redis": "0.1.15"
+  },
+  "devDependencies": {
+    "@nestjs/common": "8.0.9",
+    "@nestjs/core": "8.0.9",
+    "@nestjs/config": "1.0.1",
+    "@liaoliaots/nestjs-redis": "4.0.1"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/nest-js-module-throttle",
+  "peerDependencies": {
+    "@nestjs/common": "^8",
+    "@nestjs/core": "^8",
+    "@nestjs/config": "^1",
+    "@liaoliaots/nestjs-redis": "^4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/nestjs-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "NestJS Throttle module",
+  "types": "./dist/index.d.ts",
+  "version": "1.2.4"
+}
