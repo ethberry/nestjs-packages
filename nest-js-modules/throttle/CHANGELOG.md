@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttle@0.1.3...@gemunion/nest-js-module-throttle@0.2.0) (2021-10-09)
+
+
+### Features
+
+* re-export throttler ([a362993](https://github.com/gemunion/nestjs-packages/commit/a362993a2df8fe3cd550b99b86efc7ad42c3746a))
+
+
+
+
+
 ## [0.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttle@0.1.2...@gemunion/nest-js-module-throttle@0.1.3) (2021-10-09)
 
 
