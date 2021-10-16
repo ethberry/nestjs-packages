@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.13 (2021-10-16)
+
+
+### Bug Fixes
+
+* status code ([8bcb2ef](https://github.com/gemunion/nestjs-packages/commit/8bcb2ef3b17b4ad8268622da038b9f1b4cc2df04))
+
+
+
+
+
 ## 1.0.12 (2021-10-09)
 
 
