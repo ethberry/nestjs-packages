@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-guards-ws@1.2.9...@gemunion/nest-js-guards-ws@1.2.10) (2021-10-22)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([c756a11](https://github.com/gemunion/nestjs-packages/commit/c756a11df0d867f2918063ef0122e00a22ef5b3a))
+
+
+
+
+
 ## 1.2.9 (2021-10-16)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards-ws
