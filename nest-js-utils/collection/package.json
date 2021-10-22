@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.1.1",
+    "@gemunion/constants": "0.2.0",
     "@gemunion/nest-js-validators": "1.2.5",
     "@gemunion/types-collection": "0.1.17",
     "class-transformer": "0.4.0",
@@ -16,7 +16,7 @@
   },
   "description": "Collection",
   "devDependencies": {
-    "@nestjs/swagger": "5.1.0"
+    "@nestjs/swagger": "5.1.4"
   },
   "engines": {
     "node": ">=12.13"
