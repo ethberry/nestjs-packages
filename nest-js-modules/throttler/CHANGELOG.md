@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttler@0.1.3...@gemunion/nest-js-module-throttler@0.1.4) (2021-10-23)
+
+
+### Bug Fixes
+
+* revert: throttler for gql ([5fd01bf](https://github.com/gemunion/nestjs-packages/commit/5fd01bfa84daf6600d7dbfd321eba56727579536))
+
+
+
+
+
 ## [0.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttler@0.1.2...@gemunion/nest-js-module-throttler@0.1.3) (2021-10-23)
 
 
