@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.11 (2021-10-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency logdna-winston to v4 ([38ef09f](https://github.com/gemunion/nestjs-packages/commit/38ef09f405f21bf26a01b8bbc57409c6d7f340dc))
+
+
+
+
+
 ## 1.2.10 (2021-10-16)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston-logdna
