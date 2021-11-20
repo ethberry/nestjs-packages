@@ -48,5 +48,5 @@
   },
   "title": "NestJS Winston+LogDNA module",
   "types": "./dist/index.d.ts",
-  "version": "1.2.14"
+  "version": "1.2.15"
 }
