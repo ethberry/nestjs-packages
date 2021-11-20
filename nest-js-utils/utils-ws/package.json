@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "8.2.0",
-    "@nestjs/websockets": "8.2.0"
+    "@nestjs/common": "8.2.2",
+    "@nestjs/websockets": "8.2.2"
   },
   "engines": {
     "node": ">=12.13"

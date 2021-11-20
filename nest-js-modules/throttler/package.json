@@ -9,15 +9,15 @@
   },
   "dependencies": {
     "@nestjs/throttler": "2.0.0",
-    "nestjs-throttler-storage-redis": "0.1.16"
+    "nestjs-throttler-storage-redis": "0.1.18"
   },
   "devDependencies": {
-    "@liaoliaots/nestjs-redis": "5.1.0",
-    "@nestjs/common": "8.2.0",
+    "@liaoliaots/nestjs-redis": "5.1.1",
+    "@nestjs/common": "8.2.2",
     "@nestjs/config": "1.1.0",
-    "@nestjs/core": "8.2.0",
+    "@nestjs/core": "8.2.2",
     "@nestjs/graphql": "9.1.1",
-    "@nestjs/websockets": "8.2.0"
+    "@nestjs/websockets": "8.2.2"
   },
   "engines": {
     "node": ">=12.13"

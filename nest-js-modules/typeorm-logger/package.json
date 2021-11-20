@@ -8,10 +8,10 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "8.2.0",
+    "@nestjs/common": "8.2.2",
     "@nestjs/config": "1.1.0",
     "@nestjs/typeorm": "8.0.2",
-    "typeorm": "0.2.40"
+    "typeorm": "0.2.41"
   },
   "engines": {
     "node": ">=12.13"
