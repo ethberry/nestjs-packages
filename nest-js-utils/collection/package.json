@@ -11,8 +11,8 @@
     "@gemunion/constants": "0.2.0",
     "@gemunion/nest-js-validators": "1.2.5",
     "@gemunion/types-collection": "0.1.17",
-    "class-transformer": "0.4.0",
-    "class-validator": "0.13.1"
+    "class-transformer": "0.5.1",
+    "class-validator": "0.13.2"
   },
   "description": "Collection",
   "devDependencies": {

@@ -15,8 +15,8 @@
     "winston-transport": "4.4.0"
   },
   "devDependencies": {
-    "@nestjs/common": "8.2.2",
-    "@nestjs/config": "1.1.0",
+    "@nestjs/common": "8.2.3",
+    "@nestjs/config": "1.1.5",
     "nest-winston": "1.6.1"
   },
   "engines": {

@@ -16,7 +16,7 @@
   ],
   "description": "Reusable utilities to help level up NestJS Modules",
   "devDependencies": {
-    "@nestjs/common": "8.2.2",
+    "@nestjs/common": "8.2.3",
     "rxjs": "7.4.0"
   },
   "engines": {
