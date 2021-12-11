@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-session@1.2.17...@gemunion/nest-js-module-session@1.3.0) (2021-12-11)
+
+
+### Features
+
+* manually update helmet ([8fa86d9](https://github.com/gemunion/nestjs-packages/commit/8fa86d95d8cb6605906991d61b6377769d7a116d))
+
+
+
+
+
 ## [1.2.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-session@1.2.16...@gemunion/nest-js-module-session@1.2.17) (2021-12-04)
 
 
