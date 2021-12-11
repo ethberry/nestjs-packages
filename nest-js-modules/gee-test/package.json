@@ -11,11 +11,11 @@
     "@gemunion/nest-js-utils": "1.0.19",
     "@gemunion/nest-js-validators": "1.2.6",
     "class-validator": "0.13.2",
-    "qs": "6.10.1",
+    "qs": "6.10.2",
     "uuid": "8.3.2"
   },
   "devDependencies": {
-    "@liaoliaots/nestjs-redis": "5.1.1",
+    "@liaoliaots/nestjs-redis": "5.2.0",
     "@nestjs/axios": "0.0.3",
     "@nestjs/common": "8.2.3",
     "@nestjs/config": "1.1.5",
