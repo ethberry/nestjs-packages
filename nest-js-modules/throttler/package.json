@@ -12,7 +12,7 @@
     "nestjs-throttler-storage-redis": "0.1.18"
   },
   "devDependencies": {
-    "@liaoliaots/nestjs-redis": "5.1.1",
+    "@liaoliaots/nestjs-redis": "5.2.0",
     "@nestjs/common": "8.2.3",
     "@nestjs/config": "1.1.5",
     "@nestjs/core": "8.2.3",
