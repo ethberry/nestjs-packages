@@ -2,7 +2,7 @@ import { ExecutionContext, Injectable, UnauthorizedException } from "@nestjs/com
 import { AuthGuard } from "@nestjs/passport";
 
 @Injectable()
-export class LocalGoogleGuard extends AuthGuard("local-google") {
+export class SessionFacebookGuard extends AuthGuard("session-facebook") {
   public async canActivate(context: ExecutionContext): Promise<boolean> {
     const result = (await super.canActivate(context)) as boolean;
     const request = context.switchToHttp().getRequest();

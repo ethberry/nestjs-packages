@@ -5,7 +5,7 @@ import { WsException } from "@nestjs/websockets";
 import { Socket } from "socket.io";
 
 @Injectable()
-export class WsLocalGuard extends AuthGuard("local") implements CanActivate {
+export class SessionWsGuard extends AuthGuard("session-ws") implements CanActivate {
   constructor(private readonly reflector: Reflector) {
     super();
   }

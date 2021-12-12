@@ -3,7 +3,7 @@ import { Reflector } from "@nestjs/core";
 import { AuthGuard } from "@nestjs/passport";
 
 @Injectable()
-export class LocalGuard extends AuthGuard("local") implements CanActivate {
+export class SessionGuard extends AuthGuard("session") implements CanActivate {
   constructor(private readonly reflector: Reflector) {
     super();
   }
