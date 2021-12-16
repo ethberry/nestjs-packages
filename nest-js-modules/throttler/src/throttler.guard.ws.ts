@@ -3,7 +3,7 @@ import { ThrottlerGuard } from "@nestjs/throttler";
 import { WsException } from "@nestjs/websockets";
 
 @Injectable()
-export class WsThrottlerGuard extends ThrottlerGuard {
+export class ThrottlerWsGuard extends ThrottlerGuard {
   async handleRequest(context: ExecutionContext, limit: number, ttl: number): Promise<boolean> {
     const client = context.switchToWs().getClient();
     const ip = ["conn", "_socket"]

@@ -3,7 +3,7 @@ import { ThrottlerGuard, ThrottlerException } from "@nestjs/throttler";
 import { GqlExecutionContext } from "@nestjs/graphql";
 
 @Injectable()
-export class GqlThrottlerGuard extends ThrottlerGuard {
+export class ThrottlerGqlGuard extends ThrottlerGuard {
   getRequestResponse(context: ExecutionContext): {
     req: Record<string, any>;
     res: Record<string, any>;
