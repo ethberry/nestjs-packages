@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/constants": "0.2.0",
     "@gemunion/nest-js-validators": "1.2.6",
-    "@gemunion/types-collection": "0.1.17",
+    "@gemunion/types-collection": "0.2.0",
     "class-transformer": "0.5.1",
     "class-validator": "0.13.2"
   },
