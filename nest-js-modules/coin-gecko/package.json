@@ -8,7 +8,6 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-create-dynamic-module": "1.0.16",
     "@gemunion/nest-js-utils": "1.0.20",
     "@gemunion/types-coin-gecko": "0.2.7"
   },
