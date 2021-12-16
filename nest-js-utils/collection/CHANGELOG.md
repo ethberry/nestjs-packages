@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.23](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.22...@gemunion/collection@1.0.23) (2021-12-16)
+
+
+### Bug Fixes
+
+* manual update version ([81d87d9](https://github.com/gemunion/nestjs-packages/commit/81d87d9ed73c0224058d10c770628b6eec64927a))
+
+
+
+
+
 ## [1.0.22](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.21...@gemunion/collection@1.0.22) (2021-11-26)
 
 **Note:** Version bump only for package @gemunion/collection

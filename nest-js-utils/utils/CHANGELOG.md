@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.20...@gemunion/nest-js-utils@1.1.0) (2021-12-16)
+
+
+### Features
+
+* new pipes ([1e38a82](https://github.com/gemunion/nestjs-packages/commit/1e38a829595ca89a0a0cbf890c4a84bb0cddd669))
+
+
+
+
+
 ## 1.0.20 (2021-12-11)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils

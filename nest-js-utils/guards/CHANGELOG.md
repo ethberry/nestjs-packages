@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-guards@1.0.16...@gemunion/nest-js-guards@1.1.0) (2021-12-16)
+
+
+### Features
+
+* firebase guard ([1e70e43](https://github.com/gemunion/nestjs-packages/commit/1e70e43ecec6b7770f1dcf394a620c5376cdcbc2))
+
+
+
+
+
 ## [1.0.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-guards@1.0.15...@gemunion/nest-js-guards@1.0.16) (2021-11-26)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards
