@@ -1,0 +1,55 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun",
+    "url": "https://trejgun.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
+  },
+  "dependencies": {
+    "@gemunion/nest-js-module-debug": "0.0.1",
+    "@gemunion/nest-js-module-typeorm": "0.0.2",
+    "@gemunion/nest-js-module-typeorm-logger": "1.2.14",
+    "@nestjs/axios": "0.0.3"
+  },
+  "devDependencies": {
+    "@nestjs/axios": "0.0.3",
+    "@nestjs/common": "8.2.3",
+    "@nestjs/config": "1.1.5",
+    "@nestjs/typeorm": "8.0.2",
+    "typeorm": "0.2.41"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/nest-js-module-typeorm-debug",
+  "peerDependencies": {
+    "@nestjs/axios": "^0",
+    "@nestjs/common": "^8",
+    "@nestjs/config": "^1",
+    "@nestjs/typeorm": "^8",
+    "typeorm": "^0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/nestjs-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "NestJS TypeORM module",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.2"
+}

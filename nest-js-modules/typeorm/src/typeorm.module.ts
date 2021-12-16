@@ -1,14 +1,11 @@
-import { Module, Logger, DynamicModule } from "@nestjs/common";
+import { Module, DynamicModule } from "@nestjs/common";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { ConnectionOptions } from "typeorm";
 
 import { TypeOrmLoggerModule, TypeOrmLoggerService } from "@gemunion/nest-js-module-typeorm-logger";
 
-@Module({
-  providers: [Logger, TypeOrmLoggerService],
-  exports: [TypeOrmLoggerService],
-})
+@Module({})
 export class GemunionTypeormModule {
   static forRoot(options: ConnectionOptions): DynamicModule {
     return TypeOrmModule.forRootAsync({
