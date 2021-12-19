@@ -1,1 +1,1 @@
-# Types
+# Custom Validators [DEPRECATED]
