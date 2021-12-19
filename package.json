@@ -5,8 +5,7 @@
     "url": "https://trejgun.github.io/"
   },
   "dependencies": {
-    "lerna": "4.0.0",
-    "react-scripts": "4.0.3"
+    "lerna": "4.0.0"
   },
   "devDependencies": {
     "@gemunion/eslint-config": "0.1.10",
@@ -49,7 +48,6 @@
     "release": "npm run release:version && npm run release:publish",
     "release:publish": "lerna publish from-package --yes --exact --ignore-scripts --registry=https://npm.pkg.github.com/",
     "release:version": "lerna version",
-    "storybook": "start-storybook -p 6006",
     "test": "sh scripts/test.sh"
   },
   "version": "0.0.1"
