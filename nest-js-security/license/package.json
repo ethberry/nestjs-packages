@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@nestjs/common": "8.2.4",
-    "@nestjs/core": "8.2.4",
-    "@nestjs/config": "1.1.5"
+    "@nestjs/config": "1.1.5",
+    "@nestjs/core": "8.2.4"
   },
   "engines": {
     "node": ">=12.13"
@@ -25,8 +25,8 @@
   "name": "@gemunion/nest-js-module-license",
   "peerDependencies": {
     "@nestjs/common": "^8",
-    "@nestjs/core": "^8",
-    "@nestjs/config": "^1"
+    "@nestjs/config": "^1",
+    "@nestjs/core": "^8"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -45,5 +45,5 @@
   },
   "title": "Gemunion debug module",
   "types": "./dist/index.d.ts",
-  "version": "0.0.1"
+  "version": "0.1.0"
 }

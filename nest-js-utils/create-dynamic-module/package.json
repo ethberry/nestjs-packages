@@ -54,5 +54,5 @@
     "test": "exit 0"
   },
   "types": "./dist/index.d.ts",
-  "version": "1.0.16"
+  "version": "1.0.17"
 }
