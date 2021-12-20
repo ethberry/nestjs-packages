@@ -1,3 +1,11 @@
+export enum LicenseStatus {
+  ACTIVE = "ACTIVE",
+  REVOKED = "REVOKED",
+  EXPIRED = "EXPIRED",
+}
+
 export interface ILicense {
-  success: boolean;
+  license: string;
+  status: LicenseStatus;
+  expiresAt: string;
 }

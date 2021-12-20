@@ -1,1 +1,1 @@
-export const NS = Symbol("NS");
+export const LICENSE_KEY = Symbol("LICENSE_KEY");
