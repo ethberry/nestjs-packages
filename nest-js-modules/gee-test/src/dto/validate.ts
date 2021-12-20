@@ -1,21 +1,20 @@
 import { ApiProperty } from "@nestjs/swagger";
-
-import { IsString } from "@gemunion/nest-js-validators";
+import { IsString } from "class-validator";
 
 import { IGeeTestDto, IValidateDto } from "../interfaces";
 import { GeeCaptcha } from "../geetest.validator";
 
 export class GeeTestDto implements IGeeTestDto {
   @ApiProperty()
-  @IsString()
+  @IsString({ message: "typeMismatch" })
   public challenge: string;
 
   @ApiProperty()
-  @IsString()
+  @IsString({ message: "typeMismatch" })
   public validate: string;
 
   @ApiProperty()
-  @IsString()
+  @IsString({ message: "typeMismatch" })
   public seccode: string;
 }
 

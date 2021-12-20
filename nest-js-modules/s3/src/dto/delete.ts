@@ -1,19 +1,15 @@
-import { ApiProperty } from "@nestjs/swagger";
-
-import { IsString } from "@gemunion/nest-js-validators";
+import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
+import { IsString, IsOptional } from "class-validator";
 
 import { IS3DeleteDto } from "../interfaces";
 
 export class S3DeleteDto implements IS3DeleteDto {
   @ApiProperty()
-  @IsString({
-    required: true,
-  })
+  @IsString({ message: "typeMismatch" })
   public objectName: string;
 
-  @ApiProperty()
-  @IsString({
-    required: false,
-  })
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString({ message: "typeMismatch" })
   public bucket: string;
 }

@@ -1,25 +1,19 @@
-import { ApiProperty } from "@nestjs/swagger";
-
-import { IsString } from "@gemunion/nest-js-validators";
+import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
+import { IsString, IsOptional } from "class-validator";
 
 import { IS3PutSignedDto } from "../interfaces";
 
 export class S3PutDto implements IS3PutSignedDto {
   @ApiProperty()
-  @IsString({
-    required: true,
-  })
+  @IsString({ message: "typeMismatch" })
   public objectName: string;
 
   @ApiProperty()
-  @IsString({
-    required: true,
-  })
+  @IsString({ message: "typeMismatch" })
   public contentType: string;
 
-  @ApiProperty()
-  @IsString({
-    required: false,
-  })
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString({ message: "typeMismatch" })
   public bucket: string;
 }
