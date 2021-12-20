@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-license@0.1.0...@gemunion/nest-js-module-license@0.2.0) (2021-12-20)
+
+
+### Bug Fixes
+
+* licnse module ([4c65ac7](https://github.com/gemunion/nestjs-packages/commit/4c65ac7e1414e521c858b58761a943efe9c82809))
+
+
+### Features
+
+* proper license checking ([d28328c](https://github.com/gemunion/nestjs-packages/commit/d28328c5dc9d0939a67929c719067ca4ec990fc5))
+
+
+
+
+
 # 0.1.0 (2021-12-19)
 
 

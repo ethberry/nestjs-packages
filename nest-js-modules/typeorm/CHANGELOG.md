@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm@0.1.0...@gemunion/nest-js-module-typeorm@1.0.1) (2021-12-20)
+
+
+### Bug Fixes
+
+* more default entities ([4850248](https://github.com/gemunion/nestjs-packages/commit/48502484c417c6f467e1a9099b6eea3335c47dd7))
+
+
+
+
+
 # [0.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm@0.0.2...@gemunion/nest-js-module-typeorm@0.1.0) (2021-12-19)
 
 

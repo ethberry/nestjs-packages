@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@1.2.22...@gemunion/nest-js-module-s3@1.3.0) (2021-12-20)
+
+
+### Features
+
+* remove custom validators ([7531e5d](https://github.com/gemunion/nestjs-packages/commit/7531e5d21ec261507460eaee51ba6ec93e7f2f59))
+
+
+
+
+
 ## 1.2.22 (2021-12-19)
 
 
