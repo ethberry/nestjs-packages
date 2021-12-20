@@ -1,11 +1,8 @@
-import { BaseEntity, BeforeInsert, BeforeUpdate, Column, PrimaryGeneratedColumn } from "typeorm";
+import { BaseEntity, BeforeInsert, BeforeUpdate, Column } from "typeorm";
 
-import { IBase } from "@gemunion/types-collection";
+import { IDateBase } from "@gemunion/types-collection";
 
-export abstract class GemunionBaseEntity extends BaseEntity implements IBase {
-  @PrimaryGeneratedColumn()
-  public id: number;
-
+export abstract class DateBaseEntity extends BaseEntity implements IDateBase {
   @Column({ type: "timestamptz" })
   public createdAt: string;
 
