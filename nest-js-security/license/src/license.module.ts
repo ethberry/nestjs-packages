@@ -1,15 +1,16 @@
-import { APP_GUARD, DiscoveryModule } from "@nestjs/core";
-import { DynamicModule, Global, Logger, Module } from "@nestjs/common";
+import { APP_GUARD } from "@nestjs/core";
+import { DynamicModule, Logger, Module, OnModuleInit } from "@nestjs/common";
 import { HttpModule } from "@nestjs/axios";
 import { ScheduleModule } from "@nestjs/schedule";
 
-import { LicenseService } from "./license.service";
-import { LICENSE_KEY } from "./license.constants";
-import { LicenseGuard } from "./license.guard";
+import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
 
-@Global()
+import { LicenseService } from "./license.service";
+import { LicenseGuard } from "./license.guard";
+import { LICENSE_KEY } from "./license.constants";
+
 @Module({
-  imports: [ScheduleModule.forRoot(), HttpModule, DiscoveryModule],
+  imports: [ScheduleModule.forRoot(), HttpModule],
   providers: [
     Logger,
     LicenseService,
@@ -18,18 +19,19 @@ import { LicenseGuard } from "./license.guard";
       useClass: LicenseGuard,
     },
   ],
+  exports: [LICENSE_KEY],
 })
-export class LicenseModule {
-  static forRoot(licenseKey: string): DynamicModule {
-    return {
-      module: LicenseModule,
-      providers: [
-        LicenseService,
-        {
-          provide: LICENSE_KEY,
-          useValue: licenseKey,
-        },
-      ],
-    };
+export class LicenseModule
+  extends createConfigurableDynamicRootModule<LicenseModule, string>(LICENSE_KEY)
+  implements OnModuleInit
+{
+  constructor(private readonly licenseService: LicenseService) {
+    super();
+  }
+
+  static deferred = (): Promise<DynamicModule> => LicenseModule.externallyConfigured(LicenseModule, 0);
+
+  onModuleInit(): void {
+    void this.licenseService.updateLicence();
   }
 }

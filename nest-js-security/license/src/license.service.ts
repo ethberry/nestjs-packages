@@ -18,13 +18,13 @@ export class LicenseService {
     private readonly httpService: HttpService,
   ) {}
 
-  @Cron(CronExpression.EVERY_DAY_AT_MIDNIGHT)
-  @Cron(CronExpression.EVERY_30_SECONDS)
+  @Cron(CronExpression.EVERY_HOUR)
   async updateLicence(): Promise<void> {
     this.license = await this.httpService
-      .get<ILicense>(`https://license.gemunion.com/api/v1/?license=${this.licenseKey}`)
+      .get<ILicense>(`https://license.gemunion.com/${this.licenseKey}`)
       .pipe(map(response => response.data))
-      .toPromise();
+      .toPromise()
+      .catch(() => void 0);
   }
 
   public checkLicence(): boolean {
@@ -62,24 +62,29 @@ export class LicenseService {
   }
 
   private showInvalidLicenseError(): void {
-    this.showError(["Gemunion Studio: Invalid licenseKey.", "", "Your licenseKey for Gemunion Framework is not valid"]);
+    // prettier-ignore
+    this.showError([
+      "Gemunion Studio: Invalid licenseKey.",
+      "",
+      "Your licenseKey for Gemunion Framework is not valid"
+    ]);
   }
 
   private showNotFoundLicenseError(): void {
+    // prettier-ignore
     this.showError([
       "Gemunion Studio: License key not found.",
       "",
-      "You did not enter a licenseKey key",
-      "Please visit https://gemunion.io/ to get a valid licenseKey.",
+      "You did not enter a licenseKey",
     ]);
   }
 
   private showExpiredLicenseError(): void {
+    // prettier-ignore
     this.showError([
       "Gemunion Studio: License key expired.",
       "",
       "Your subscription for Gemunion Framework has expired.",
-      "Please visit https://gemunion.io/ to get a valid licenseKey.",
     ]);
   }
 }

