@@ -37,7 +37,7 @@ import { LICENSE_KEY, LicenseModule } from "@gemunion/nest-js-module-license";
       imports: [ConfigModule],
       inject: [ConfigService],
       useFactory: (configService: ConfigService): string => {
-        return configService.get<string>("LICENSE", "XXX");
+        return configService.get<string>("LICENSE_KEY", "XXX");
       },
     }),
   ],
