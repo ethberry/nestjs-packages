@@ -9,6 +9,7 @@ import { ILicense, LicenseStatus } from "./license.interface";
 @Injectable()
 export class LicenseService {
   private license: ILicense | undefined;
+  private attemptCount = 0;
 
   constructor(
     @Inject(LICENSE_KEY)
@@ -20,11 +21,21 @@ export class LicenseService {
 
   @Cron(CronExpression.EVERY_HOUR)
   async updateLicence(): Promise<void> {
-    this.license = await this.httpService
+    const license = await this.httpService
       .get<ILicense>(`https://license.gemunion.com/${this.licenseKey}`)
       .pipe(map(response => response.data))
       .toPromise()
       .catch(() => void 0);
+
+    if (!license) {
+      if (this.attemptCount < 24) {
+        this.attemptCount++;
+        return;
+      }
+    }
+
+    this.attemptCount = 0;
+    this.license = license;
   }
 
   public checkLicence(): boolean {
@@ -49,11 +60,12 @@ export class LicenseService {
   private showError(message: Array<string>) {
     this.loggerService.error(
       [
+        "",
         "************************************************************",
         "*************************************************************",
         "",
         ...message,
-        "Please visit https://gemunion.io/ to get a valid licenseKey.",
+        "Please visit https://gemunion.io/ to get a valid license key.",
         "",
         "*************************************************************",
         "*************************************************************",
@@ -64,9 +76,9 @@ export class LicenseService {
   private showInvalidLicenseError(): void {
     // prettier-ignore
     this.showError([
-      "Gemunion Studio: Invalid licenseKey.",
+      "Gemunion Studio: Invalid license key.",
       "",
-      "Your licenseKey for Gemunion Framework is not valid"
+      "Your license key for Gemunion Framework is not valid",
     ]);
   }
 
@@ -75,7 +87,7 @@ export class LicenseService {
     this.showError([
       "Gemunion Studio: License key not found.",
       "",
-      "You did not enter a licenseKey",
+      "You did not enter a license key",
     ]);
   }
 
