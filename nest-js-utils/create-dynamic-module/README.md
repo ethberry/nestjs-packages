@@ -56,7 +56,7 @@ import { ConfigService } from './config.service'; // the service to be provided 
 export class ConfigModule extends createConfigurableDynamicRootModule<
   ConfigModule,
   ConfigModuleOptions
->(CONFIG_MODULE_OPTIONS) {}
+  >(CONFIG_MODULE_OPTIONS) {}
 ```
 
 And just like that, you've created a Dynamic module. Now in your root module you can configure it like so:
@@ -108,8 +108,8 @@ import { ConfigService } from './config.service'; // the service to be provided 
 export class ConfigModule extends createConfigurableDynamicRootModule<
   ConfigModule,
   ConfigModuleOptions
->(CONFIG_MODULE_OPTIONS) {
-  static Deferred = ConfigModule.externallyConfigured(ConfigModule, 0);
+  >(CONFIG_MODULE_OPTIONS) {
+  static deferred = () => ConfigModule.externallyConfigured(ConfigModule, 0);
 }
 ```
 
@@ -117,7 +117,7 @@ Now it can be used in another module like this:
 
 ```ts
 @Module({
-  imports: [ConfigModule.Deferred],
+  imports: [ConfigModule.deferred()],
 })
 export class ConfigModuleDependentModule {}
 ```
@@ -129,4 +129,3 @@ Contributions welcome! Read the [contribution guidelines](../../CONTRIBUTING.md)
 ## License
 
 [MIT License](../../LICENSE)
-{"mode":"full","isActive":false}
