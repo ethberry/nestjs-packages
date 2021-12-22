@@ -19,7 +19,7 @@ import { LICENSE_KEY } from "./license.constants";
       useClass: LicenseGuard,
     },
   ],
-  exports: [LICENSE_KEY],
+  exports: [LICENSE_KEY, LicenseService],
 })
 export class LicenseModule
   extends createConfigurableDynamicRootModule<LicenseModule, string>(LICENSE_KEY)
