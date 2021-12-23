@@ -1,11 +1,21 @@
 import { Module, DynamicModule } from "@nestjs/common";
+import { APP_GUARD } from "@nestjs/core";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { ConnectionOptions } from "typeorm";
 
 import { TypeOrmLoggerModule, TypeOrmLoggerService } from "@gemunion/nest-js-module-typeorm-logger";
+import { LicenseGuard, LicenseModule } from "@gemunion/nest-js-module-license";
 
-@Module({})
+@Module({
+  imports: [LicenseModule.deferred()],
+  providers: [
+    {
+      provide: APP_GUARD,
+      useClass: LicenseGuard,
+    },
+  ],
+})
 export class GemunionTypeormModule {
   static forRoot(options: ConnectionOptions): DynamicModule {
     return TypeOrmModule.forRootAsync({
