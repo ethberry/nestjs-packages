@@ -1,13 +1,17 @@
 import { Module } from "@nestjs/common";
+import { APP_GUARD } from "@nestjs/core";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { ThrottlerModule } from "@nestjs/throttler";
 import { RedisManager } from "@liaoliaots/nestjs-redis";
 import { ThrottlerStorageRedisService } from "nestjs-throttler-storage-redis";
 
+import { LicenseGuard, LicenseModule } from "@gemunion/nest-js-module-license";
+
 import { THROTTLE_STORE } from "./throttler.constants";
 
 @Module({
   imports: [
+    LicenseModule.deferred(),
     ThrottlerModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService, RedisManager],
@@ -17,6 +21,12 @@ import { THROTTLE_STORE } from "./throttler.constants";
         storage: new ThrottlerStorageRedisService(redisManager.getClient(THROTTLE_STORE)),
       }),
     }),
+  ],
+  providers: [
+    {
+      provide: APP_GUARD,
+      useClass: LicenseGuard,
+    },
   ],
 })
 export class GemunionThrottlerModule {}
