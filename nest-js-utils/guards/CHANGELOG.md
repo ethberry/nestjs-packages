@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-guards@1.1.1...@gemunion/nest-js-guards@1.2.0) (2021-12-23)
+
+
+### Features
+
+* system guard ([6424428](https://github.com/gemunion/nestjs-packages/commit/6424428fe2330d54f5ed3a4208765d1cb485d62c))
+
+
+
+
+
 ## [1.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-guards@1.1.0...@gemunion/nest-js-guards@1.1.1) (2021-12-19)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-license@0.3.0...@gemunion/nest-js-module-license@0.3.1) (2021-12-23)
+
+
+### Bug Fixes
+
+* url ([42046c6](https://github.com/gemunion/nestjs-packages/commit/42046c63f65fd22543aeb02615fe6277fa82aa21))
+
+
+
+
+
 # [0.3.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-license@0.2.1...@gemunion/nest-js-module-license@0.3.0) (2021-12-22)
 
 
