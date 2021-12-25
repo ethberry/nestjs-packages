@@ -4,7 +4,7 @@ import { AuthGuard } from "@nestjs/passport";
 import { WsException } from "@nestjs/websockets";
 
 @Injectable()
-export class JwtWsGuard extends AuthGuard("jwt-ws") implements CanActivate {
+export class JwtLocalWsGuard extends AuthGuard("jwt-local-ws") implements CanActivate {
   constructor(private readonly reflector: Reflector) {
     super();
   }

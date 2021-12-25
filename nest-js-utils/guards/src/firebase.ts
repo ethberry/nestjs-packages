@@ -3,7 +3,7 @@ import { Reflector } from "@nestjs/core";
 import { AuthGuard } from "@nestjs/passport";
 
 @Injectable()
-export class FirebaseGuard extends AuthGuard("firebase") implements CanActivate {
+export class FirebaseHttpGuard extends AuthGuard("firebase-http") implements CanActivate {
   constructor(private readonly reflector: Reflector) {
     super();
   }

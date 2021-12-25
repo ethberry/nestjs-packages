@@ -6,5 +6,5 @@ export * from "./jwt.google";
 export * from "./jwt.http";
 export * from "./session.facebook";
 export * from "./session.google";
-export * from "./session";
+export * from "./session.http";
 export * from "./session.login";
