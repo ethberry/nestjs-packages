@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.1 (2021-12-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @gemunion/constants to v0.4.0 ([5a49214](https://github.com/gemunion/nestjs-packages/commit/5a492143c954dee6c1b22621293fb937b364fe43))
+
+
+
+
+
 # [1.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.24...@gemunion/collection@1.1.0) (2021-12-20)
 
 
