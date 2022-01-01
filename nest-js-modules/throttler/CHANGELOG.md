@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.3 (2022-01-01)
+
+
+### Bug Fixes
+
+* export licanse service ([7242d64](https://github.com/gemunion/nestjs-packages/commit/7242d64d3fa6c93ae71da397341a135fc0bfc40b))
+* manually update packages ([dd975db](https://github.com/gemunion/nestjs-packages/commit/dd975db3eb929587918025408a00600715c35fb5))
+
+
+
+
+
 ## [1.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttler@1.0.1...@gemunion/nest-js-module-throttler@1.0.2) (2021-12-19)
 
 
