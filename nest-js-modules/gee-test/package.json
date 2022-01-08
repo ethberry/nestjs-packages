@@ -15,12 +15,12 @@
   },
   "devDependencies": {
     "@liaoliaots/nestjs-redis": "5.2.0",
-    "@nestjs/axios": "0.0.3",
+    "@nestjs/axios": "0.0.4",
     "@nestjs/common": "8.2.4",
-    "@nestjs/config": "1.1.5",
+    "@nestjs/config": "1.1.6",
     "@nestjs/schedule": "1.0.2",
     "@nestjs/swagger": "5.1.5",
-    "@types/uuid": "8.3.3",
+    "@types/uuid": "8.3.4",
     "ioredis": "4.28.2",
     "rxjs": "7.5.1"
   },

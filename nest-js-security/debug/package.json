@@ -8,13 +8,13 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@nestjs/axios": "0.0.3"
+    "@nestjs/axios": "0.0.4"
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "0.3.2",
-    "@nestjs/axios": "0.0.3",
+    "@nestjs/axios": "0.0.4",
     "@nestjs/common": "8.2.4",
-    "@nestjs/config": "1.1.5"
+    "@nestjs/config": "1.1.6"
   },
   "engines": {
     "node": ">=12.13"

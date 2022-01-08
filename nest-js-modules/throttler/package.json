@@ -15,7 +15,7 @@
     "@gemunion/nest-js-module-license": "0.3.2",
     "@liaoliaots/nestjs-redis": "5.2.0",
     "@nestjs/common": "8.2.4",
-    "@nestjs/config": "1.1.5",
+    "@nestjs/config": "1.1.6",
     "@nestjs/core": "8.2.4",
     "@nestjs/graphql": "9.1.2",
     "@nestjs/websockets": "8.2.4"

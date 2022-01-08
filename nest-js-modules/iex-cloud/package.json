@@ -13,14 +13,14 @@
     "class-validator": "0.13.2"
   },
   "devDependencies": {
-    "@nestjs/axios": "0.0.3",
+    "@nestjs/axios": "0.0.4",
     "@nestjs/common": "8.2.4",
-    "@nestjs/config": "1.1.5",
+    "@nestjs/config": "1.1.6",
     "@nestjs/swagger": "5.1.5",
     "@nestjs/testing": "8.2.4",
     "@types/jest": "27.4.0",
-    "jest": "27.4.5",
-    "jest-environment-node": "27.4.4",
+    "jest": "27.4.7",
+    "jest-environment-node": "27.4.6",
     "rxjs": "7.5.1",
     "ts-jest": "27.1.2"
   },
