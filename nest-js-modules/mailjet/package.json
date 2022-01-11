@@ -9,12 +9,12 @@
   },
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.19",
-    "@gemunion/types-email": "0.2.6",
+    "@gemunion/types-email": "0.2.7",
     "node-mailjet": "3.3.4"
   },
   "devDependencies": {
     "@nestjs/common": "8.2.4",
-    "@types/node-mailjet": "3.3.7"
+    "@types/node-mailjet": "3.3.8"
   },
   "engines": {
     "node": ">=12.13"
