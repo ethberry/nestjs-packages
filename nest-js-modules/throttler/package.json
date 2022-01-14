@@ -8,11 +8,11 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
+    "@gemunion/nest-js-module-license": "0.3.4",
     "@nestjs/throttler": "2.0.0",
     "nestjs-throttler-storage-redis": "0.1.18"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "0.3.4",
     "@liaoliaots/nestjs-redis": "5.2.0",
     "@nestjs/common": "8.2.4",
     "@nestjs/config": "1.1.6",
@@ -28,7 +28,6 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-throttler",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^0",
     "@liaoliaots/nestjs-redis": "^4 || ^5",
     "@nestjs/common": "^8",
     "@nestjs/config": "^1",
