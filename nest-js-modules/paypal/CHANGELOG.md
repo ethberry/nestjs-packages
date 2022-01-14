@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-pay-pal@0.2.18...@gemunion/nest-js-module-pay-pal@0.2.19) (2022-01-14)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-pay-pal
+
+
+
+
+
 ## [0.2.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-pay-pal@0.2.17...@gemunion/nest-js-module-pay-pal@0.2.18) (2022-01-11)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm@1.0.4...@gemunion/nest-js-module-typeorm@1.0.5) (2022-01-14)
+
+
+### Bug Fixes
+
+* add license to secret manager ([68b407f](https://github.com/gemunion/nestjs-packages/commit/68b407fb22b927015657f3270b92b31808c2f832))
+
+
+
+
+
 ## [1.0.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm@1.0.3...@gemunion/nest-js-module-typeorm@1.0.4) (2022-01-11)
 
 

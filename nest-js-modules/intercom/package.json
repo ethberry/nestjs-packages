@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-create-dynamic-module": "1.0.20"
+    "@gemunion/nest-js-create-dynamic-module": "1.0.21"
   },
   "devDependencies": {
     "@nestjs/axios": "0.0.4",
@@ -46,5 +46,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.3.19"
+  "version": "1.3.20"
 }
