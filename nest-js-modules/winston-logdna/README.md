@@ -1,1 +1,1 @@
-# nest-js-module-winston
+# nest-js-module-winston-logdna
