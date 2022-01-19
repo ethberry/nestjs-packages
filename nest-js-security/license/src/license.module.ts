@@ -33,5 +33,6 @@ export class LicenseModule
 
   public async onModuleInit(): Promise<void> {
     await this.licenseService.updateLicence();
+    this.licenseService.checkLicence();
   }
 }
