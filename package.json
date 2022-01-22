@@ -25,7 +25,8 @@
     "lint-staged": "12.2.2",
     "prettier": "2.5.1",
     "rimraf": "3.0.2",
-    "typescript": "4.5.5"
+    "typescript": "4.5.5",
+    "javascript-obfuscator": "3.0.0"
   },
   "engines": {
     "node": ">=12.13"
