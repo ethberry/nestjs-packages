@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/winston-formatter": "0.0.11",
+    "@gemunion/winston-formatter": "0.0.12",
     "winston": "3.4.0",
     "winston-papertrail-transport": "1.0.9",
     "winston-transport": "4.4.2"
@@ -47,5 +47,5 @@
   },
   "title": "NestJS Winston+Papertrail module",
   "types": "./dist/index.d.ts",
-  "version": "1.2.20"
+  "version": "1.2.21"
 }

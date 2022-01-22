@@ -38,5 +38,5 @@
   },
   "title": "nest js validators",
   "types": "./dist/index.d.ts",
-  "version": "1.2.8"
+  "version": "1.2.9"
 }
