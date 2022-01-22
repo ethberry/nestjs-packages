@@ -55,6 +55,6 @@ jobs:
         run: npm run obfuscate && find . -name '*obfuscated.js' -exec bash -c 'mv "$1" "${1/-obfuscated/}"' _ {} \;
 
       - name: Version & Publish by lerna
-        run: lerna version --ignore-scripts && npm run release:publish -- --force-publish
+        run: lerna version patch --ignore-scripts && npm run release:publish -- --force-publish
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
