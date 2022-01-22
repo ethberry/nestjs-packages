@@ -48,7 +48,10 @@
     "release": "npm run release:version && npm run release:publish",
     "release:publish": "lerna publish from-package --yes --exact --ignore-scripts --registry=https://npm.pkg.github.com/",
     "release:version": "lerna version",
-    "test": "sh scripts/test.sh"
+    "storybook": "start-storybook -p 6006",
+    "test": "sh scripts/test.sh",
+    "obfuscate": "sh scripts/obfuscate.sh",
+    "renamedist": "sh scripts/renameo.sh"
   },
   "version": "0.0.1"
 }
