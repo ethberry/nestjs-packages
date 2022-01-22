@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-module-license": "0.4.1",
+    "@gemunion/nest-js-module-license": "0.4.2",
     "@nestjs/throttler": "2.0.0",
     "nestjs-throttler-storage-redis": "0.1.18"
   },
@@ -60,5 +60,5 @@
   },
   "title": "NestJS Throttle module",
   "types": "./dist/index.d.ts",
-  "version": "1.0.8"
+  "version": "1.0.9"
 }

@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-create-dynamic-module": "1.0.23",
+    "@gemunion/nest-js-create-dynamic-module": "1.0.24",
     "@gemunion/types-email": "0.2.7",
     "node-mailjet": "3.3.5"
   },
@@ -44,5 +44,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.4.17"
+  "version": "1.4.18"
 }
