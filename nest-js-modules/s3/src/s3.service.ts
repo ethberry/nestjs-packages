@@ -1,8 +1,17 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { v4 } from "uuid";
 import { S3 } from "aws-sdk";
+import { Readable } from "stream";
 
-import { IS3DeleteDto, IS3GetSignedDto, IS3Options, IS3PutDto, IS3PutSignedDto, IS3Result } from "./interfaces";
+import {
+  IS3DeleteDto,
+  IS3GetDto,
+  IS3GetSignedDto,
+  IS3Options,
+  IS3PutDto,
+  IS3PutSignedDto,
+  IS3Result,
+} from "./interfaces";
 import { S3_OPTIONS_PROVIDER } from "./s3.constants";
 
 @Injectable()
@@ -67,7 +76,27 @@ export class S3Service {
     return `https://${bucket}.s3.${this.options.region}.amazonaws.com/${filename}`;
   }
 
-  public deleteObject(dto: IS3DeleteDto): Promise<any> {
+  public getObject(dto: IS3GetDto): Promise<S3.Types.GetObjectOutput> {
+    const { objectName, bucket = this.options.bucket } = dto;
+    const params = {
+      Bucket: bucket,
+      Key: objectName,
+    };
+
+    return this.client.getObject(params).promise();
+  }
+
+  public getObjectAsStream(dto: IS3GetDto): Readable {
+    const { objectName, bucket = this.options.bucket } = dto;
+    const params = {
+      Bucket: bucket,
+      Key: objectName,
+    };
+
+    return this.client.getObject(params).createReadStream();
+  }
+
+  public deleteObject(dto: IS3DeleteDto): Promise<S3.Types.DeleteObjectOutput> {
     const { objectName, bucket = this.options.bucket } = dto;
     const params = {
       Bucket: bucket,
