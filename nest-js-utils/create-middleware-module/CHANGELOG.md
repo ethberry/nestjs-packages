@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.34](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-create-middleware-module@1.0.33...@gemunion/nest-js-create-middleware-module@1.0.34) (2022-01-26)
+
+
+### Bug Fixes
+
+* eslint ([1842c5d](https://github.com/gemunion/nestjs-packages/commit/1842c5d8cedc405573cdd78a9a0da4af8a980e7e))
+
+
+
+
+
 ## [1.0.33](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-create-middleware-module@1.0.32...@gemunion/nest-js-create-middleware-module@1.0.33) (2022-01-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-create-middleware-module

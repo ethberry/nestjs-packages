@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.30](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-iex-cloud@1.3.29...@gemunion/nest-js-module-iex-cloud@1.3.30) (2022-01-26)
+
+
+### Bug Fixes
+
+* eslint ([1842c5d](https://github.com/gemunion/nestjs-packages/commit/1842c5d8cedc405573cdd78a9a0da4af8a980e7e))
+
+
+
+
+
 ## [1.3.29](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-iex-cloud@1.3.28...@gemunion/nest-js-module-iex-cloud@1.3.29) (2022-01-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-iex-cloud

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@1.4.2...@gemunion/nest-js-module-s3@1.5.0) (2022-01-26)
+
+
+### Features
+
+* get object from s3 ([d3bd552](https://github.com/gemunion/nestjs-packages/commit/d3bd5525e4dc7318a6a3d3aaaf913cb45a8bae29))
+
+
+
+
+
 ## [1.4.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@1.4.1...@gemunion/nest-js-module-s3@1.4.2) (2022-01-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-s3
