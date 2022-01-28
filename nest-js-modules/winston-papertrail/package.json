@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/winston-formatter": "0.0.13",
-    "winston": "3.4.0",
+    "winston": "3.5.0",
     "winston-papertrail-transport": "1.0.9",
     "winston-transport": "4.4.2"
   },
