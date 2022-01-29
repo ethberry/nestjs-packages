@@ -1,7 +1,7 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
-import { setConfig, lists, Status } from "@mailchimp/mailchimp_marketing";
+import { setConfig, lists } from "@mailchimp/mailchimp_marketing";
 
-import { IMailchimpOptions } from "./interfaces";
+import { IMailchimpOptions, Status } from "./interfaces";
 import { MAILCHIMP_OPTIONS_PROVIDER } from "./mailchimp.constants";
 
 @Injectable()
