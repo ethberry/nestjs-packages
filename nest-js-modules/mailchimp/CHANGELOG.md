@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.25 (2022-01-29)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([fa7ebd4](https://github.com/gemunion/nestjs-packages/commit/fa7ebd4365dc712c06419446a515147200e6cccd))
+* mailchimp ([264198f](https://github.com/gemunion/nestjs-packages/commit/264198fcef1e30d920e15054286b4e7bb522719b))
+
+
+
+
+
 ## [1.3.24](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailchimp@1.3.23...@gemunion/nest-js-module-mailchimp@1.3.24) (2022-01-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-mailchimp
