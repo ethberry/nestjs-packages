@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.21 (2022-01-31)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-typeorm-logger
+
+
+
+
+
 ## [1.2.20](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-logger@1.2.19...@gemunion/nest-js-module-typeorm-logger@1.2.20) (2022-01-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm-logger
