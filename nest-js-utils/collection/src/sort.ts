@@ -6,7 +6,9 @@ import { ISortDto, SortDirection } from "@gemunion/types-collection";
 import { SearchDto } from "./search";
 
 export class SortDto<T> extends SearchDto implements ISortDto<T> {
-  @ApiPropertyOptional()
+  @ApiPropertyOptional({
+    type: String,
+  })
   @IsOptional()
   @IsString({ message: "typeMismatch" })
   public sortBy: keyof T;
@@ -15,6 +17,6 @@ export class SortDto<T> extends SearchDto implements ISortDto<T> {
     enum: SortDirection,
   })
   @IsOptional()
-  @IsEnum({ enum: SortDirection }, { message: "badInput" })
+  @IsEnum(SortDirection, { message: "badInput" })
   public sort: SortDirection;
 }
