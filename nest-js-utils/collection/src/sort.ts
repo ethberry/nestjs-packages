@@ -1,17 +1,17 @@
 import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsString, IsOptional, IsEnum } from "class-validator";
 
-import { ISortDto, SortDirection } from "@gemunion/types-collection";
+import { ISortDto, SortDirection, IDateBase } from "@gemunion/types-collection";
 
 import { SearchDto } from "./search";
 
-export class SortDto<T> extends SearchDto implements ISortDto<T> {
+export class SortDto<T extends IDateBase> extends SearchDto implements ISortDto<T> {
   @ApiPropertyOptional({
     type: String,
   })
   @IsOptional()
   @IsString({ message: "typeMismatch" })
-  public sortBy: keyof T;
+  public sortBy: keyof T = "createdAt";
 
   @ApiPropertyOptional({
     enum: SortDirection,
