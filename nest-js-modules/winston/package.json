@@ -1,0 +1,50 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun",
+    "url": "https://gemunion.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
+  },
+  "dependencies": {
+    "@gemunion/winston-formatter": "0.0.14",
+    "winston": "3.5.0",
+    "winston-transport": "4.4.2"
+  },
+  "devDependencies": {
+    "@nestjs/common": "8.2.6",
+    "@nestjs/config": "1.1.6",
+    "nest-winston": "1.6.2"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/nest-js-module-winston",
+  "peerDependencies": {
+    "@nestjs/common": "^8",
+    "@nestjs/config": "^1",
+    "nest-winston": "^1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/nestjs-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "NestJS Winston module",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.1"
+}
