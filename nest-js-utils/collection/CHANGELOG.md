@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.9...@gemunion/collection@1.2.0) (2022-02-06)
+
+
+### Bug Fixes
+
+* collection ([b8ee787](https://github.com/gemunion/nestjs-packages/commit/b8ee78759063a10d4b064cad397a722707c02463))
+
+
+### Features
+
+* default sort column ([4305a4c](https://github.com/gemunion/nestjs-packages/commit/4305a4c0701402ec32286a6177ca37c64cf60ad5))
+
+
+
+
+
 ## [1.1.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.8...@gemunion/collection@1.1.9) (2022-01-31)
 
 **Note:** Version bump only for package @gemunion/collection
