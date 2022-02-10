@@ -15,5 +15,6 @@ export * from "./middlewares/raw-body";
 export * from "./middlewares/url-body";
 
 export * from "./pipes/validation.http";
+export * from "./pipes/to-lower-case";
 
 export * from "./validators/re-captcha";
