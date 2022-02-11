@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-utils": "1.1.10",
-    "@gemunion/types-coin-gecko": "0.2.8"
+    "@gemunion/types-coin-gecko": "0.3.0"
   },
   "devDependencies": {
     "@nestjs/axios": "0.0.5",

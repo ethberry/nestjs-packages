@@ -9,14 +9,19 @@ import { CoinGeckoService } from "./coin-gecko.service";
 export class CoinGeckoController {
   constructor(private readonly coinGeckoService: CoinGeckoService) {}
 
-  @Get("/coin-list")
+  @Get("/coins/list")
   public getCoinList(): Promise<any> {
     return this.coinGeckoService.getCoinList();
   }
 
-  @Get("/coin-list/:symbol")
+  @Get("/coins/:symbol")
   public getCoin(@Param("symbol") symbol: string): Promise<any> {
     return this.coinGeckoService.getCoin(symbol);
+  }
+
+  @Get("/coins/:symbol/ticker")
+  public getTicker(@Param("symbol") symbol: string): Promise<any> {
+    return this.coinGeckoService.getTicker(symbol);
   }
 
   @Get("/ohlc")

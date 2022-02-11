@@ -4,7 +4,7 @@ import { map } from "rxjs/operators";
 import { URLSearchParams } from "url";
 import { firstValueFrom } from "rxjs";
 
-import { ICoinGeckoCoin, ICoinGeckoCoinListItem } from "@gemunion/types-coin-gecko";
+import { ICoinGeckoCoin, ICoinGeckoCoinListItem, ICoinGeckoCoinTicker } from "@gemunion/types-coin-gecko";
 
 @Injectable()
 export class CoinGeckoService {
@@ -20,6 +20,10 @@ export class CoinGeckoService {
 
   public async getCoin(symbol: string): Promise<ICoinGeckoCoin> {
     return this.sendRequest<ICoinGeckoCoin>(`/coins/${symbol}`, {});
+  }
+
+  public async getTicker(symbol: string): Promise<ICoinGeckoCoinTicker> {
+    return this.sendRequest<ICoinGeckoCoinTicker>(`/coins/${symbol}/ticker`, {});
   }
 
   private getSearchParams(dto: Record<string, any>): string {
