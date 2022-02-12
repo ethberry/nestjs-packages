@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.9 (2022-02-12)
+
+
+### Bug Fixes
+
+* export guards ([745ecf1](https://github.com/gemunion/nestjs-packages/commit/745ecf1692941916de0112b7062b4e9e8c2ef038))
+
+
+
+
+
 ## 1.3.8 (2022-01-31)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards-ws
