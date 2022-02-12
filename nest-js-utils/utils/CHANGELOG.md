@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2022-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([3e5e082](https://github.com/gemunion/nestjs-packages/commit/3e5e082d1b7ad6e2b45bf90d400a3afa776d6f2c))
+
+
+### Features
+
+* export to-low-case-pipe ([30a1c0e](https://github.com/gemunion/nestjs-packages/commit/30a1c0e166f63b1c631a2420122595cb94a02fa9))
+
+
+
+
+
 ## [1.1.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.9...@gemunion/nest-js-utils@1.1.10) (2022-01-31)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils

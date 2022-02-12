@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2022-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([3e5e082](https://github.com/gemunion/nestjs-packages/commit/3e5e082d1b7ad6e2b45bf90d400a3afa776d6f2c))
+
+
+### Features
+
+* get ticker data from coin-gecko ([27d9af6](https://github.com/gemunion/nestjs-packages/commit/27d9af6a1c4699333e34efee28c8ad7c11ecc5c4))
+
+
+
+
+
 ## [1.3.27](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-coin-gecko@1.3.26...@gemunion/nest-js-module-coin-gecko@1.3.27) (2022-01-31)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-coin-gecko

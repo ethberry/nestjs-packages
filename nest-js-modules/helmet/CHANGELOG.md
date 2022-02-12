@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-helmet@2.1.14...@gemunion/nest-js-module-helmet@2.1.15) (2022-02-12)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-helmet
+
+
+
+
+
 ## [2.1.14](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-helmet@2.1.13...@gemunion/nest-js-module-helmet@2.1.14) (2022-02-06)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-helmet
