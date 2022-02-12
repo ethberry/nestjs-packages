@@ -1,1 +1,1 @@
-# nestjs-coin-gecko-v3-module
+# nestjs-module-coin-gecko-v3
