@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2022-02-14)
+
+
+### Features
+
+* typeorm helpers ([e758e5c](https://github.com/gemunion/nestjs-packages/commit/e758e5ca4bc3a2aadf801aecb5ce704a3b4b97cd))
+
+
+
+
+
 ## 1.0.13 (2022-02-12)
 
 
