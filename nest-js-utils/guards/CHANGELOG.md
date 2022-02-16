@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2022-02-16)
+
+
+### Features
+
+* metamask guard ([d2b0d2a](https://github.com/gemunion/nestjs-packages/commit/d2b0d2ab5f553103af343ef5ed9ba94c27f55f86))
+
+
+
+
+
 ## 1.2.6 (2022-01-31)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards
