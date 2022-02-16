@@ -4,6 +4,7 @@ export * from "./jwks.google";
 export * from "./jwt.facebook";
 export * from "./jwt.google";
 export * from "./jwt.http";
+export * from "./metamask";
 export * from "./session.facebook";
 export * from "./session.google";
 export * from "./session.http";
