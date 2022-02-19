@@ -14,11 +14,11 @@
   },
   "devDependencies": {
     "@liaoliaots/nestjs-redis": "5.2.0",
-    "@nestjs/common": "8.2.6",
-    "@nestjs/config": "1.1.7",
-    "@nestjs/core": "8.2.6",
+    "@nestjs/common": "8.3.1",
+    "@nestjs/config": "1.2.0",
+    "@nestjs/core": "8.3.1",
     "@nestjs/graphql": "9.1.2",
-    "@nestjs/websockets": "8.2.6"
+    "@nestjs/websockets": "8.3.1"
   },
   "engines": {
     "node": ">=12.13"

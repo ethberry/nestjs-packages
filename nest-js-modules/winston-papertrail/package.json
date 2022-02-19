@@ -9,13 +9,13 @@
   },
   "dependencies": {
     "@gemunion/winston-formatter": "0.0.16",
-    "winston": "3.5.1",
+    "winston": "3.6.0",
     "winston-papertrail-transport": "1.0.9",
     "winston-transport": "4.5.0"
   },
   "devDependencies": {
-    "@nestjs/common": "8.2.6",
-    "@nestjs/config": "1.1.7",
+    "@nestjs/common": "8.3.1",
+    "@nestjs/config": "1.2.0",
     "nest-winston": "1.6.2"
   },
   "engines": {

@@ -10,10 +10,10 @@
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.26",
     "@gemunion/types-email": "0.2.7",
-    "node-mailjet": "3.3.5"
+    "node-mailjet": "3.3.7"
   },
   "devDependencies": {
-    "@nestjs/common": "8.2.6",
+    "@nestjs/common": "8.3.1",
     "@types/node-mailjet": "3.3.8"
   },
   "engines": {
