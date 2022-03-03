@@ -18,5 +18,5 @@ export class SortDto<T extends IDateBase> extends SearchDto implements ISortDto<
   })
   @IsOptional()
   @IsEnum(SortDirection, { message: "badInput" })
-  public sort: SortDirection;
+  public sort: SortDirection = SortDirection.asc;
 }
