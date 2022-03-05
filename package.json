@@ -22,11 +22,11 @@
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-standard": "4.1.0",
     "husky": "4.3.8",
+    "javascript-obfuscator": "4.0.0",
     "lint-staged": "12.3.4",
     "prettier": "2.5.1",
     "rimraf": "3.0.2",
-    "typescript": "4.5.5",
-    "javascript-obfuscator": "3.2.7"
+    "typescript": "4.5.5"
   },
   "engines": {
     "node": ">=12.13"
@@ -43,16 +43,16 @@
     "clean": "sh scripts/clean.sh",
     "kill": "sudo pkill -9 node",
     "lint": "lerna run lint --stream --parallel",
+    "obfuscate": "sh scripts/obfuscate.sh",
     "precommit": "lint-staged",
     "prettier": "prettier \"other/**/*.{ts,tsx}\" \"nest-js/**/*.{ts,tsx}\" \"nest-js-modules/**/*.{ts,tsx}\" \"material-ui/**/*.{ts,tsx}\" \"types/**/*.{ts,tsx}\" --write",
     "registry": "lerna publish",
     "release": "npm run release:version && npm run release:publish",
     "release:publish": "lerna publish from-package --yes --exact --ignore-scripts --registry=https://npm.pkg.github.com/",
     "release:version": "lerna version",
+    "renamedist": "sh scripts/renameo.sh",
     "storybook": "start-storybook -p 6006",
-    "test": "sh scripts/test.sh",
-    "obfuscate": "sh scripts/obfuscate.sh",
-    "renamedist": "sh scripts/renameo.sh"
+    "test": "sh scripts/test.sh"
   },
   "version": "0.0.1"
 }
