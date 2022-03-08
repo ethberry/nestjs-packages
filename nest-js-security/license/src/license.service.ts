@@ -24,7 +24,7 @@ export class LicenseService {
   ) {}
 
   @Cron(CronExpression.EVERY_HOUR)
-  async update(): Promise<void> {
+  async refresh(): Promise<void> {
     const license = await this.httpService
       .get<ILicense>(`https://license.gemunion.io/${this.licenseKey}`)
       .pipe(map(response => response.data))

@@ -32,7 +32,7 @@ export class LicenseModule
   static deferred = (): Promise<DynamicModule> => LicenseModule.externallyConfigured(LicenseModule, 0);
 
   public async onModuleInit(): Promise<void> {
-    await this.licenseService.update();
+    await this.licenseService.refresh();
     this.licenseService.isValid();
   }
 }
