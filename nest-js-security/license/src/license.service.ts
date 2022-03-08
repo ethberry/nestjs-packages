@@ -5,8 +5,10 @@ import { map } from "rxjs/operators";
 import rimraf from "rimraf";
 import path from "path";
 
+import { licenseExpired, licenseNotFound, licenseRevoked } from "@gemunion/license-messages";
+import { ILicense, LicenseStatus } from "@gemunion/types-license";
+
 import { LICENSE_KEY } from "./license.constants";
-import { ILicense, LicenseStatus } from "./license.interface";
 
 @Injectable()
 export class LicenseService {
@@ -22,7 +24,7 @@ export class LicenseService {
   ) {}
 
   @Cron(CronExpression.EVERY_HOUR)
-  async updateLicence(): Promise<void> {
+  async update(): Promise<void> {
     const license = await this.httpService
       .get<ILicense>(`https://license.gemunion.io/${this.licenseKey}`)
       .pipe(map(response => response.data))
@@ -40,19 +42,19 @@ export class LicenseService {
     this.license = license;
   }
 
-  public checkLicence(): boolean {
+  public isValid(): boolean {
     if (!this.license) {
-      this.showNotFoundLicenseError();
+      this.loggerService.error(licenseNotFound());
       return false;
     }
 
     if (this.license.status === LicenseStatus.EXPIRED) {
-      this.showExpiredLicenseError();
+      this.loggerService.error(licenseExpired());
       return false;
     }
 
     if (this.license.status === LicenseStatus.REVOKED) {
-      this.showRevokedLicenseError();
+      this.loggerService.error(licenseRevoked());
       this.deleteCode();
       return false;
     }
@@ -62,48 +64,5 @@ export class LicenseService {
 
   private deleteCode(): void {
     rimraf(path.resolve(__dirname, "..", ".."), () => {});
-  }
-
-  private showError(message: Array<string>) {
-    this.loggerService.error(
-      [
-        "",
-        "************************************************************",
-        "*************************************************************",
-        "",
-        ...message,
-        "Please visit https://gemunion.io/ for more information.",
-        "",
-        "*************************************************************",
-        "*************************************************************",
-      ].join("\n"),
-    );
-  }
-
-  private showRevokedLicenseError(): void {
-    // prettier-ignore
-    this.showError([
-      "Gemunion Studio: License is revoked.",
-      "",
-      "Your license for Gemunion Framework was revoked",
-    ]);
-  }
-
-  private showNotFoundLicenseError(): void {
-    // prettier-ignore
-    this.showError([
-      "Gemunion Studio: License key not found.",
-      "",
-      "You did not enter a license key, please check your .env file",
-    ]);
-  }
-
-  private showExpiredLicenseError(): void {
-    // prettier-ignore
-    this.showError([
-      "Gemunion Studio: License is expired.",
-      "",
-      "Your subscription for Gemunion Framework has expired.",
-    ]);
   }
 }

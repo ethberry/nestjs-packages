@@ -78,7 +78,7 @@ export class MyModule {
   ) {}
 
   public myMethod(): void {
-    const isValid = this.licenseService.checkLicence();
+    const isValid = this.licenseService.isValid();
   }
 }
 ```

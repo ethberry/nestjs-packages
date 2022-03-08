@@ -6,7 +6,7 @@ export class LicenseGuard implements CanActivate {
   constructor(private readonly licenseService: LicenseService) {}
 
   canActivate(): boolean {
-    if (this.licenseService.checkLicence()) {
+    if (this.licenseService.isValid()) {
       return true;
     }
 
