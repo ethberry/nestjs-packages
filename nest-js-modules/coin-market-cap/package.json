@@ -11,10 +11,10 @@
     "@gemunion/nest-js-utils": "1.2.3"
   },
   "devDependencies": {
-    "@nestjs/axios": "0.0.6",
+    "@nestjs/axios": "0.0.7",
     "@nestjs/common": "8.4.0",
     "@nestjs/config": "1.2.0",
-    "rxjs": "7.5.4"
+    "rxjs": "7.5.5"
   },
   "engines": {
     "node": ">=12.13"
