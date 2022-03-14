@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-license@0.4.7...@gemunion/nest-js-module-license@0.5.0) (2022-03-14)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([59b4f23](https://github.com/gemunion/nestjs-packages/commit/59b4f238b57d91447b14987b8ca43be54359d470))
+* license types ([02d3692](https://github.com/gemunion/nestjs-packages/commit/02d3692a98480457b13fc81e49d4a1c15a38e7be))
+* rename method ([8f39834](https://github.com/gemunion/nestjs-packages/commit/8f39834259ced90a8efc9371da71d4975ce28d47))
+
+
+### Features
+
+* use external packages for license ([7a61ee8](https://github.com/gemunion/nestjs-packages/commit/7a61ee8eeedc81b43401fedc69857a271342758c))
+
+
+
+
+
 ## [0.4.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-license@0.4.6...@gemunion/nest-js-module-license@0.4.7) (2022-03-05)
 
 

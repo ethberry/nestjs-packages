@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.18 (2022-03-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency chalk to v5 ([2e77e48](https://github.com/gemunion/nestjs-packages/commit/2e77e48cfc8ce1092616898b895ee6f319886b7f))
+
+
+
+
+
 ## 0.0.17 (2022-02-19)
 
 **Note:** Version bump only for package @gemunion/winston-formatter
