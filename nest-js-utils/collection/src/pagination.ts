@@ -1,5 +1,5 @@
 import { ApiPropertyOptional } from "@nestjs/swagger";
-import { IsNumber, IsOptional, Min } from "class-validator";
+import { IsInt, IsOptional, Min } from "class-validator";
 import { Type } from "class-transformer";
 
 import { IPaginationDto } from "@gemunion/types-collection";
@@ -12,7 +12,7 @@ export class PaginationDto implements IPaginationDto {
     minimum: 0,
   })
   @IsOptional()
-  @IsNumber({}, { message: "typeMismatch" })
+  @IsInt({ message: "typeMismatch" })
   @Min(0, { message: "rangeUnderflow" })
   @Type(() => Number)
   public skip = 0;
@@ -23,7 +23,7 @@ export class PaginationDto implements IPaginationDto {
     default: defaultItemsPerPage,
   })
   @IsOptional()
-  @IsNumber({}, { message: "typeMismatch" })
+  @IsInt({ message: "typeMismatch" })
   @Min(0, { message: "rangeUnderflow" })
   @Type(() => Number)
   public take = defaultItemsPerPage;
