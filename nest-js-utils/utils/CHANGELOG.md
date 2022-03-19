@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.5 (2022-03-19)
+
+
+### Bug Fixes
+
+* remove validators ([62a1922](https://github.com/gemunion/nestjs-packages/commit/62a1922b99c9d6660165c92c177aa8a3d91c7488))
+
+
+
+
+
 ## [1.2.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.2.3...@gemunion/nest-js-utils@1.2.4) (2022-03-14)
 
 

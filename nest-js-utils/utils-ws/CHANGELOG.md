@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.26 (2022-03-19)
+
+**Note:** Version bump only for package @gemunion/nest-js-utils-ws
+
+
+
+
+
 ## 1.0.25 (2022-03-05)
 
 
