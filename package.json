@@ -45,7 +45,7 @@
     "lint": "lerna run lint --stream --parallel",
     "obfuscate": "sh scripts/obfuscate.sh",
     "precommit": "lint-staged",
-    "prettier": "prettier \"other/**/*.{ts,tsx}\" \"nest-js/**/*.{ts,tsx}\" \"nest-js-modules/**/*.{ts,tsx}\" \"material-ui/**/*.{ts,tsx}\" \"types/**/*.{ts,tsx}\" --write",
+    "prettier": "prettier \"modules/**/*.{ts,tsx}\" \"other/**/*.{ts,tsx}\" \"security/**/*.{ts,tsx}\" \"utils/**/*.{ts,tsx}\" --write",
     "registry": "lerna publish",
     "release": "npm run release:version && npm run release:publish",
     "release:publish": "lerna publish from-package --yes --exact --ignore-scripts --registry=https://npm.pkg.github.com/",

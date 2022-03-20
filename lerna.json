@@ -1,5 +1,5 @@
 {
-  "packages": ["nest-js-utils/*", "nest-js-modules/*", "nest-js-security/*", "other/*"],
+  "packages": ["utils/*", "modules/*", "security/*", "other/*"],
   "version": "independent",
   "command": {
     "version": {
