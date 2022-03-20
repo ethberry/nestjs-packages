@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.0.6...@gemunion/nest-js-module-winston@0.0.7) (2022-03-20)
+
+
+### Bug Fixes
+
+* downgrade chalk 5 -> 4 ([ae0408f](https://github.com/gemunion/nestjs-packages/commit/ae0408f12f30fe2b3a300c6fbaee4d3581e07a63))
+
+
+
+
+
 ## 0.0.6 (2022-03-19)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston

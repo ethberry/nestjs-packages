@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.19 (2022-03-20)
+
+
+### Bug Fixes
+
+* downgrade chalk 5 -> 4 ([ae0408f](https://github.com/gemunion/nestjs-packages/commit/ae0408f12f30fe2b3a300c6fbaee4d3581e07a63))
+
+
+
+
+
 ## 0.0.18 (2022-03-14)
 
 
