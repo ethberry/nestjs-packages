@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@nestjs/common": "8.4.1",
-    "@nestjs/config": "1.2.1",
+    "@nestjs/config": "2.0.0",
     "@nestjs/core": "8.4.1",
     "@nestjs/typeorm": "8.0.3",
     "typeorm": "0.2.45"
@@ -28,7 +28,7 @@
   "name": "@gemunion/nest-js-module-typeorm",
   "peerDependencies": {
     "@nestjs/common": "^8",
-    "@nestjs/config": "^1",
+    "@nestjs/config": "^2.0.0",
     "@nestjs/core": "^8",
     "@nestjs/typeorm": "^8",
     "typeorm": "^0.2"
