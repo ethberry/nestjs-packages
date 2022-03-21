@@ -13,7 +13,7 @@
     "nestjs-throttler-storage-redis": "0.1.18"
   },
   "devDependencies": {
-    "@liaoliaots/nestjs-redis": "6.0.0",
+    "@liaoliaots/nestjs-redis": "7.0.0",
     "@nestjs/common": "8.4.1",
     "@nestjs/config": "1.2.1",
     "@nestjs/core": "8.4.1",
@@ -28,7 +28,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-throttler",
   "peerDependencies": {
-    "@liaoliaots/nestjs-redis": "^4 || ^5 || ^6.0.0",
+    "@liaoliaots/nestjs-redis": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0",
     "@nestjs/common": "^8",
     "@nestjs/config": "^1",
     "@nestjs/core": "^8",
