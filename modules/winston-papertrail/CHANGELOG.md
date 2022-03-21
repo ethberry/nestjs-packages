@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.32](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston-papertrail@1.2.31...@gemunion/nest-js-module-winston-papertrail@1.2.32) (2022-03-21)
+
+
+### Bug Fixes
+
+* update nestjs config ([f722c26](https://github.com/gemunion/nestjs-packages/commit/f722c268fdeaf0d6f961dd453be77f228ce34d63))
+
+
+
+
+
 ## [1.2.31](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston-papertrail@1.2.30...@gemunion/nest-js-module-winston-papertrail@1.2.31) (2022-03-20)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston-papertrail

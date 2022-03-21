@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-create-dynamic-module": "1.0.30",
-    "@gemunion/nest-js-module-s3": "1.5.9",
+    "@gemunion/nest-js-create-dynamic-module": "1.0.31",
+    "@gemunion/nest-js-module-s3": "1.5.10",
     "@pinata/sdk": "1.1.23",
     "express": "4.17.3"
   },
@@ -46,5 +46,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.6"
+  "version": "0.0.7"
 }

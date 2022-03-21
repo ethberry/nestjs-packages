@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.6 (2022-03-21)
+
+
+### Bug Fixes
+
+* update nestjs config ([f722c26](https://github.com/gemunion/nestjs-packages/commit/f722c268fdeaf0d6f961dd453be77f228ce34d63))
+
+
+
+
+
 ## 1.1.5 (2022-03-19)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm-debug

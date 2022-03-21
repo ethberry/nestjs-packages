@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.0.7...@gemunion/nest-js-module-winston@0.0.8) (2022-03-21)
+
+
+### Bug Fixes
+
+* update nestjs config ([f722c26](https://github.com/gemunion/nestjs-packages/commit/f722c268fdeaf0d6f961dd453be77f228ce34d63))
+
+
+
+
+
 ## [0.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@0.0.6...@gemunion/nest-js-module-winston@0.0.7) (2022-03-20)
 
 
