@@ -13,11 +13,11 @@
     "@gemunion/types-collection": "1.0.2"
   },
   "devDependencies": {
-    "@nestjs/common": "8.4.1",
+    "@nestjs/common": "8.4.3",
     "@nestjs/config": "2.0.0",
-    "@nestjs/core": "8.4.1",
+    "@nestjs/core": "8.4.3",
     "@nestjs/typeorm": "8.0.3",
-    "typeorm": "0.2.45"
+    "typeorm": "0.3.3"
   },
   "engines": {
     "node": ">=12.13"
@@ -31,7 +31,7 @@
     "@nestjs/config": "^2.0.0",
     "@nestjs/core": "^8",
     "@nestjs/typeorm": "^8",
-    "typeorm": "^0.2"
+    "typeorm": "^0.2 || ^0.3.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

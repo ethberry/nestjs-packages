@@ -11,7 +11,7 @@
     "@gemunion/types-collection": "1.0.2"
   },
   "devDependencies": {
-    "typeorm": "0.2.45"
+    "typeorm": "0.3.3"
   },
   "engines": {
     "node": ">=12.13"
@@ -21,7 +21,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-typeorm-helpers",
   "peerDependencies": {
-    "typeorm": "^0.2"
+    "typeorm": "^0.2 || ^0.3.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
