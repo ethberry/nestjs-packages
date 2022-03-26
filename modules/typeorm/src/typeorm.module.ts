@@ -2,7 +2,7 @@ import { Module, DynamicModule } from "@nestjs/common";
 import { APP_GUARD } from "@nestjs/core";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TypeOrmModule } from "@nestjs/typeorm";
-import { DataSource } from "typeorm";
+import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 
 import { TypeOrmLoggerModule, TypeOrmLoggerService } from "@gemunion/nest-js-module-typeorm-logger";
 import { LicenseGuard, LicenseModule } from "@gemunion/nest-js-module-license";
@@ -17,7 +17,7 @@ import { LicenseGuard, LicenseModule } from "@gemunion/nest-js-module-license";
   ],
 })
 export class GemunionTypeormModule {
-  static forRoot(options: DataSource): DynamicModule {
+  static forRoot(options: PostgresConnectionOptions): DynamicModule {
     return TypeOrmModule.forRootAsync({
       imports: [TypeOrmLoggerModule, ConfigModule],
       inject: [TypeOrmLoggerService, ConfigService],
