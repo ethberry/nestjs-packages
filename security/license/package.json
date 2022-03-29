@@ -50,7 +50,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "Gemunion debug module",
+  "title": "Gemunion license module",
   "types": "./dist/index.d.ts",
   "version": "0.5.3"
 }

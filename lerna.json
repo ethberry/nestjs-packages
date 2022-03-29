@@ -1,14 +1,14 @@
 {
-  "packages": ["utils/*", "modules/*", "security/*", "other/*"],
-  "version": "independent",
   "command": {
-    "version": {
-      "yes": true,
-      "conventionalCommits": true,
-      "exact": true
-    },
     "publish": {
       "registry": "https://npm.pkg.github.com"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "exact": true,
+      "yes": true
     }
-  }
+  },
+  "packages": ["utils/*", "modules/*", "security/*", "other/*"],
+  "version": "independent"
 }
