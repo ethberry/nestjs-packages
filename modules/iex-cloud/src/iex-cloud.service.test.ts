@@ -13,7 +13,7 @@ describe.skip("IexCloudService", () => {
     const moduleRef = await Test.createTestingModule({
       imports: [
         ConfigModule.forRoot({
-          envFilePath: `.env.${process.env.NODE_ENV as string}`,
+          envFilePath: `.env`,
         }),
         HttpModule,
       ],
