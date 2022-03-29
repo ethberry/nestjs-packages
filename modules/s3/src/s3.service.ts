@@ -2,6 +2,7 @@ import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { v4 } from "uuid";
 import { S3 } from "aws-sdk";
 import { Readable } from "stream";
+import { extension } from "mime-types";
 
 import {
   IS3DeleteDto,
@@ -44,7 +45,7 @@ export class S3Service {
   public putSignedObject(dto: IS3PutSignedDto): Promise<IS3Result> {
     const { contentType, bucket = this.options.bucket } = dto;
 
-    const filename = `${v4()}.${contentType.split("/")[1]}`;
+    const filename = `${v4()}.${extension(contentType) as string}`;
 
     const params = {
       Bucket: bucket,

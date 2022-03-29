@@ -1,5 +1,5 @@
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
-import { IsString, IsOptional } from "class-validator";
+import { IsString, IsOptional, IsMimeType } from "class-validator";
 
 import { IS3PutSignedDto } from "../interfaces";
 
@@ -10,6 +10,7 @@ export class S3PutDto implements IS3PutSignedDto {
 
   @ApiProperty()
   @IsString({ message: "typeMismatch" })
+  @IsMimeType({ message: "badInput" })
   public contentType: string;
 
   @ApiPropertyOptional()
