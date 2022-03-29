@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.19",
-    "@gemunion/nest-js-module-license": "0.5.3",
+    "@gemunion/nest-js-module-license": "0.5.4",
     "aws-sdk": "2.1101.0"
   },
   "devDependencies": {
@@ -44,5 +44,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.41"
+  "version": "0.1.42"
 }

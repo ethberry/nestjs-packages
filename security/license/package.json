@@ -52,5 +52,5 @@
   },
   "title": "Gemunion license module",
   "types": "./dist/index.d.ts",
-  "version": "0.5.3"
+  "version": "0.5.4"
 }

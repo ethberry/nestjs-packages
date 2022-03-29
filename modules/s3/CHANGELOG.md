@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.12 (2022-03-29)
+
+
+### Bug Fixes
+
+* mime type for mdule ([e494f9e](https://github.com/gemunion/nestjs-packages/commit/e494f9ea6b136dbb272cf790e6d40263643da82f))
+
+
+
+
+
 ## [1.5.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@1.5.10...@gemunion/nest-js-module-s3@1.5.11) (2022-03-25)
 
 
