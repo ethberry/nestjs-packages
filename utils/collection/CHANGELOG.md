@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.6 (2022-04-01)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([fbf2144](https://github.com/gemunion/nestjs-packages/commit/fbf214493a2a11413ebf986c7a4a0a2676ddddd7))
+
+
+
+
+
 ## [1.2.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.2.4...@gemunion/collection@1.2.5) (2022-03-25)
 
 
