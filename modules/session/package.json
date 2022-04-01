@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/connect-redis": "0.0.18",
     "@types/express-session": "1.17.4",
-    "ioredis": "4.28.5"
+    "ioredis": "5.0.3"
   },
   "engines": {
     "node": ">=12.13"
@@ -25,7 +25,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-session",
   "peerDependencies": {
-    "ioredis": "^4"
+    "ioredis": "^4 || ^5.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
