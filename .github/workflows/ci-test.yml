@@ -49,6 +49,7 @@ jobs:
       - name: Npm run test
         run: npm run test
         env:
+          NODE_ENV: test
           GEMUNION_API_KEY: ${{ secrets.GEMUNION_API_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
