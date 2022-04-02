@@ -13,10 +13,10 @@ import * as process from "process";
 
 describe("S3Service", () => {
   let s3Service: S3Service;
-  console.log("process.env1", process.env);
+  console.info("process.env1", process.env);
 
   beforeEach(async () => {
-    console.log("process.env2", process.env);
+    console.info("process.env2", process.env);
     const moduleRef = await Test.createTestingModule({
       imports: [
         ConfigModule.forRoot({
