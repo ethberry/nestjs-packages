@@ -9,11 +9,14 @@ import { LicenseModule } from "@gemunion/nest-js-module-license";
 import { S3Service } from "./s3.service";
 import { S3_OPTIONS_PROVIDER } from "./s3.constants";
 import { IS3Options, ISdkOptions } from "./interfaces";
+import * as process from "process";
 
 describe("S3Service", () => {
   let s3Service: S3Service;
+  console.log("process.env1", process.env);
 
   beforeEach(async () => {
+    console.log("process.env2", process.env);
     const moduleRef = await Test.createTestingModule({
       imports: [
         ConfigModule.forRoot({
@@ -23,7 +26,7 @@ describe("S3Service", () => {
           imports: [ConfigModule],
           inject: [ConfigService],
           useFactory: (configService: ConfigService): string => {
-            return configService.get<string>("GEMUNION_API_KEY", "");
+            return configService.get<string>("GEMUNION_API_KEY", process.env.GEMUNION_API_KEY as string);
           },
         }),
       ],
