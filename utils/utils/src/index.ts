@@ -1,4 +1,5 @@
 export * from "./decorators/file";
+export * from "./decorators/metamask";
 export * from "./decorators/multifile";
 export * from "./decorators/public";
 export * from "./decorators/roles";
