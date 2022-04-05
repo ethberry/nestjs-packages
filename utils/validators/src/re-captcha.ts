@@ -39,7 +39,8 @@ export class ValidateReCaptcha implements ValidatorConstraintInterface {
   private async isValid(value: unknown, args: ValidationArguments): Promise<string> {
     const { required = true }: IReCaptchaConstraints = args.constraints[0];
 
-    if (process.env.NODE_ENV === "test") {
+    const nodeEnv = this.configService.get<string>("NODE_ENV");
+    if (nodeEnv === "test") {
       return "";
     }
 
@@ -47,12 +48,13 @@ export class ValidateReCaptcha implements ValidatorConstraintInterface {
       return "";
     }
 
+    const siteKey = this.configService.get<string>("GOOGLE_RECAPTCHA_PRIVATE");
     const response = this.httpService
       .request({
         url: "https://www.google.com/recaptcha/api/siteverify",
         method: "POST",
         params: {
-          secret: this.configService.get<string>("GOOGLE_RECAPTCHA_PRIVATE"),
+          secret: siteKey,
           response: value,
         },
       })
