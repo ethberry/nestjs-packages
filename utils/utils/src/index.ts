@@ -15,5 +15,6 @@ export * from "./middlewares/json-body";
 export * from "./middlewares/raw-body";
 export * from "./middlewares/url-body";
 
-export * from "./pipes/validation.http";
+export * from "./pipes/big-number";
 export * from "./pipes/to-lower-case";
+export * from "./pipes/validation.http";
