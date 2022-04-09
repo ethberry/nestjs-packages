@@ -8,9 +8,9 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-module-debug": "0.1.22",
-    "@gemunion/nest-js-module-typeorm": "1.1.11",
-    "@gemunion/nest-js-module-typeorm-logger": "1.2.30",
+    "@gemunion/nest-js-module-debug": "0.1.23",
+    "@gemunion/nest-js-module-typeorm": "1.1.12",
+    "@gemunion/nest-js-module-typeorm-logger": "1.2.31",
     "@nestjs/axios": "0.0.7"
   },
   "devDependencies": {
@@ -51,5 +51,5 @@
   },
   "title": "NestJS TypeORM module",
   "types": "./dist/index.d.ts",
-  "version": "1.1.11"
+  "version": "1.1.12"
 }
