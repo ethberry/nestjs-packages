@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2022-04-09)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([714017b](https://github.com/gemunion/nestjs-packages/commit/714017be736b899f4d4a7a73eaf86499a3733012))
+* export BigNumberPipe ([d1ab143](https://github.com/gemunion/nestjs-packages/commit/d1ab143f064d345432f0e1832b9d63b3f628d130))
+
+
+### Features
+
+* ApiBigNumber ([a6562ba](https://github.com/gemunion/nestjs-packages/commit/a6562ba832258738350d43a62536b9034503c9c2))
+* BigNumberPipe ([9982759](https://github.com/gemunion/nestjs-packages/commit/998275975449274907ea099b75f3d9662f2d64f3))
+* metamask login swagger decorator ([f3ac775](https://github.com/gemunion/nestjs-packages/commit/f3ac775e4a112196ad938667ae090332aef5178f))
+
+
+
+
+
 ## [1.2.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.2.6...@gemunion/nest-js-utils@1.2.7) (2022-03-25)
 
 

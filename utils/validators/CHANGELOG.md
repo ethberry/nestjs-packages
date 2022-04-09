@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.3.5...@gemunion/nest-js-validators@1.3.6) (2022-04-09)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([714017b](https://github.com/gemunion/nestjs-packages/commit/714017be736b899f4d4a7a73eaf86499a3733012))
+* dont use process.env in re-captcha validator ([d297552](https://github.com/gemunion/nestjs-packages/commit/d297552bc44d22044e941a9c2fe405cae886eff7))
+
+
+
+
+
 ## 1.3.5 (2022-04-01)
 
 

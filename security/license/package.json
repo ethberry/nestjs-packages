@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/license-messages": "0.0.5",
-    "@gemunion/nest-js-create-dynamic-module": "1.0.32",
+    "@gemunion/nest-js-create-dynamic-module": "1.0.33",
     "@gemunion/types-license": "0.0.3",
     "@nestjs/axios": "0.0.7",
     "@nestjs/schedule": "1.1.0",
@@ -52,5 +52,5 @@
   },
   "title": "Gemunion license module",
   "types": "./dist/index.d.ts",
-  "version": "0.5.5"
+  "version": "0.5.6"
 }

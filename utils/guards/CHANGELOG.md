@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2022-04-09)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([714017b](https://github.com/gemunion/nestjs-packages/commit/714017be736b899f4d4a7a73eaf86499a3733012))
+
+
+### Features
+
+* api key guard ([6ece0d6](https://github.com/gemunion/nestjs-packages/commit/6ece0d63f49bc757b49c4e28be86c3872e792478))
+
+
+
+
+
 ## [1.3.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-guards@1.3.4...@gemunion/nest-js-guards@1.3.5) (2022-03-25)
 
 
