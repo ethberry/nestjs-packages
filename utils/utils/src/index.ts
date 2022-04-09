@@ -1,3 +1,4 @@
+export * from "./decorators/big-number";
 export * from "./decorators/file";
 export * from "./decorators/metamask";
 export * from "./decorators/multifile";
