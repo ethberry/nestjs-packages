@@ -1,3 +1,4 @@
+export * from "./api-key";
 export * from "./firebase";
 export * from "./jwks.apple";
 export * from "./jwks.google";
