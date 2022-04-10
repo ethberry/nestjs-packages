@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.3.1...@gemunion/nest-js-utils@1.4.0) (2022-04-10)
+
+
+### Features
+
+* address pipe and api decorators ([1fa201f](https://github.com/gemunion/nestjs-packages/commit/1fa201f609133e81f8fb11ff9024f823c292099b))
+
+
+
+
+
 ## [1.3.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.3.0...@gemunion/nest-js-utils@1.3.1) (2022-04-09)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
