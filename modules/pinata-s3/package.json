@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.34",
-    "@gemunion/nest-js-module-s3": "1.5.15",
+    "@gemunion/nest-js-module-s3": "1.5.16",
     "@pinata/sdk": "1.1.25",
     "express": "4.17.3"
   },
@@ -46,5 +46,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.12"
+  "version": "0.0.13"
 }
