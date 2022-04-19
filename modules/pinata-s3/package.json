@@ -8,9 +8,9 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-create-dynamic-module": "1.0.34",
+    "@golevelup/nestjs-modules": "0.5.0",
     "@gemunion/nest-js-module-s3": "1.5.16",
-    "@pinata/sdk": "1.1.25",
+    "@pinata/sdk": "1.1.24",
     "express": "4.17.3"
   },
   "devDependencies": {

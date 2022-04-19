@@ -2,8 +2,7 @@ import { APP_GUARD } from "@nestjs/core";
 import { DynamicModule, Logger, Module, OnModuleInit } from "@nestjs/common";
 import { HttpModule } from "@nestjs/axios";
 import { ScheduleModule } from "@nestjs/schedule";
-
-import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
+import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
 import { LicenseService } from "./license.service";
 import { LicenseGuard } from "./license.guard";

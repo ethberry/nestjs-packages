@@ -1,7 +1,6 @@
 import { DynamicModule, Logger, Module } from "@nestjs/common";
 import { HttpModule } from "@nestjs/axios";
-
-import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
+import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
 import { MAILCHIMP_OPTIONS_PROVIDER } from "./mailchimp.constants";
 import { MailchimpService } from "./mailchimp.service";

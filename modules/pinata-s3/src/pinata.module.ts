@@ -1,6 +1,6 @@
 import { DynamicModule, Logger, Module } from "@nestjs/common";
+import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
-import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
 import { S3Module } from "@gemunion/nest-js-module-s3";
 
 import { IPinataOptions } from "./interfaces";

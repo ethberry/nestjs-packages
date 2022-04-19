@@ -1,8 +1,8 @@
 import { DynamicModule, Logger, Module } from "@nestjs/common";
 import { APP_GUARD } from "@nestjs/core";
+import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
 import { LicenseGuard, LicenseModule } from "@gemunion/nest-js-module-license";
-import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
 
 import { IS3Options } from "./interfaces";
 import { S3Service } from "./s3.service";

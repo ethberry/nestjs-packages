@@ -1,5 +1,0 @@
-/src
-/node_modules
-**/*.test.ts
-/jest.config.json
-**/*.test.ts
