@@ -1,8 +1,7 @@
 import { DynamicModule, Logger, Module } from "@nestjs/common";
-import { APP_GUARD } from "@nestjs/core";
 
 import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
-import { LicenseGuard, LicenseModule } from "@gemunion/nest-js-module-license";
+import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
 
 import { SECRET_MANAGER_OPTIONS_PROVIDER } from "./secret-manager.constants";
 import { SecretManagerService } from "./secret-manager.service";
@@ -10,14 +9,7 @@ import { ISecretManagerOptions } from "./interfaces";
 
 @Module({
   imports: [LicenseModule.deferred()],
-  providers: [
-    Logger,
-    SecretManagerService,
-    {
-      provide: APP_GUARD,
-      useClass: LicenseGuard,
-    },
-  ],
+  providers: [Logger, SecretManagerService, licenseProvider],
   exports: [SecretManagerService],
 })
 export class SecretManagerModule extends createConfigurableDynamicRootModule<

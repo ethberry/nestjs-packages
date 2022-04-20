@@ -13,8 +13,7 @@
     "aws-sdk": "2.1116.0"
   },
   "devDependencies": {
-    "@nestjs/common": "8.4.4",
-    "@nestjs/core": "8.4.4"
+    "@nestjs/common": "8.4.4"
   },
   "engines": {
     "node": ">=12.13"
@@ -24,8 +23,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-secret-manager",
   "peerDependencies": {
-    "@nestjs/common": "^8",
-    "@nestjs/core": "^8"
+    "@nestjs/common": "^8"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

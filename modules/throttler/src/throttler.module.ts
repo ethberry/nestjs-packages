@@ -1,11 +1,10 @@
 import { Module } from "@nestjs/common";
-import { APP_GUARD } from "@nestjs/core";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { ThrottlerModule } from "@nestjs/throttler";
 import { RedisManager } from "@liaoliaots/nestjs-redis";
 import { ThrottlerStorageRedisService } from "nestjs-throttler-storage-redis";
 
-import { LicenseGuard, LicenseModule } from "@gemunion/nest-js-module-license";
+import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
 
 import { THROTTLE_STORE } from "./throttler.constants";
 
@@ -22,11 +21,6 @@ import { THROTTLE_STORE } from "./throttler.constants";
       }),
     }),
   ],
-  providers: [
-    {
-      provide: APP_GUARD,
-      useClass: LicenseGuard,
-    },
-  ],
+  providers: [licenseProvider],
 })
 export class GemunionThrottlerModule {}

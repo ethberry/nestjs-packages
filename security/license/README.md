@@ -82,3 +82,16 @@ export class MyModule {
   }
 }
 ```
+
+
+### license provider
+```ts
+import { Module } from "@nestjs/common";
+import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+
+@Module({
+  imports: [LicenseModule.deferred()],
+  providers: [licenseProvider],
+})
+export class MyModule {}
+```

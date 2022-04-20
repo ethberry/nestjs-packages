@@ -1,4 +1,4 @@
-import { Module, OnModuleInit, Inject } from "@nestjs/common";
+import { Inject, Module, OnModuleInit } from "@nestjs/common";
 import { HttpModule, HttpService } from "@nestjs/axios";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 
