@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.6.0 (2022-04-20)
+
+
+### Bug Fixes
+
+* use golevelup ([88d6847](https://github.com/gemunion/nestjs-packages/commit/88d684752adf50d6c72f53629e0f8584b84fd2ce))
+
+
+### Features
+
+* license provider ([ab64d02](https://github.com/gemunion/nestjs-packages/commit/ab64d02d9fd4787775182a9d0fb3305fcb38157c))
+
+
+
+
+
 ## [0.5.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-license@0.5.6...@gemunion/nest-js-module-license@0.5.7) (2022-04-09)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-license
