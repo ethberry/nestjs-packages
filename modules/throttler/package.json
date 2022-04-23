@@ -16,7 +16,7 @@
     "@liaoliaots/nestjs-redis": "8.1.0",
     "@nestjs/common": "8.4.4",
     "@nestjs/config": "2.0.0",
-    "@nestjs/graphql": "10.0.9",
+    "@nestjs/graphql": "10.0.10",
     "@nestjs/websockets": "8.4.4"
   },
   "engines": {
