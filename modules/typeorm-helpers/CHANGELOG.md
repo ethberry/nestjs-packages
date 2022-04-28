@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2022-04-28)
+
+
+### Features
+
+* column decorators and migrations ([79d375d](https://github.com/gemunion/nestjs-packages/commit/79d375de101052cca5f2ab3b9f8a1498365ae92a))
+
+
+
+
+
 ## 0.1.9 (2022-04-16)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm-helpers

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.15 (2022-04-28)
+
+
+### Bug Fixes
+
+* bump minor version ([972cf95](https://github.com/gemunion/nestjs-packages/commit/972cf95637ca7a81d7f3870ec9f3f5fda411c1a8))
+
+
+
+
+
 ## [1.1.14](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm@1.1.13...@gemunion/nest-js-module-typeorm@1.1.14) (2022-04-20)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm
