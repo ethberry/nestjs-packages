@@ -1,0 +1,57 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun",
+    "url": "https://gemunion.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
+  },
+  "dependencies": {
+    "@gemunion/constants": "0.8.0",
+    "@gemunion/types-jwt": "0.3.0",
+    "@metamask/eth-sig-util": "4.0.1",
+    "class-transformer": "0.5.1",
+    "class-validator": "0.13.2"
+  },
+  "devDependencies": {
+    "@nestjs/common": "8.4.4",
+    "@nestjs/swagger": "5.2.1",
+    "@nestjs/testing": "8.4.4",
+    "@types/jest": "27.4.1",
+    "@types/uuid": "8.3.4",
+    "ethers": "5.6.4",
+    "jest": "27.5.1",
+    "jest-environment-node": "27.5.1",
+    "uuid": "8.3.2"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/nest-js-module-metamask",
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/swagger": "^5.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/nestjs-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "jest --config=jest.config.json --detectOpenHandles --runInBand --forceExit"
+  },
+  "title": "NestJS Metamask module",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.1"
+}
