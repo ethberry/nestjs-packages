@@ -1,4 +1,4 @@
-import { getMetadataArgsStorage } from "typeorm";
+import { getMetadataArgsStorage, ValueTransformer } from "typeorm";
 import { BigNumber } from "ethers";
 
 // Patch BigNumber
@@ -10,6 +10,20 @@ Object.defineProperties(BigNumber.prototype, {
   },
 });
 
+export class BigNumberValueTransformer implements ValueTransformer {
+  from(data: string | null): BigNumber | null {
+    // empty joined columns
+    if (data === null) {
+      return null;
+    }
+    return BigNumber.from(data);
+  }
+
+  to(data: BigNumber): string {
+    return data.toString();
+  }
+}
+
 export function BigNumberColumn(): (object: any, propertyName: string) => void {
   return function (object: any, propertyName: string) {
     getMetadataArgsStorage().columns.push({
@@ -18,14 +32,7 @@ export function BigNumberColumn(): (object: any, propertyName: string) => void {
       mode: "regular",
       options: {
         type: "numeric",
-        transformer: {
-          from(data: string): BigNumber {
-            return BigNumber.from(data);
-          },
-          to(data: BigNumber): string {
-            return data.toString();
-          },
-        },
+        transformer: new BigNumberValueTransformer(),
       },
     });
   };
