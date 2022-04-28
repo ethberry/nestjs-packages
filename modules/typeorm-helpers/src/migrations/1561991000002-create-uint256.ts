@@ -1,5 +1,6 @@
 import { MigrationInterface, QueryRunner } from "typeorm";
 
+// https://stackoverflow.com/questions/50072618/how-to-create-an-uint256-in-postgresql
 export function createDomainUint256() {
   return class CreateDomainUint2561561991000002 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<any> {
