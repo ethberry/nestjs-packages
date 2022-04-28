@@ -41,5 +41,5 @@
   },
   "title": "NestJS TypeORM helpers",
   "types": "./dist/index.d.ts",
-  "version": "0.2.2"
+  "version": "0.2.3"
 }
