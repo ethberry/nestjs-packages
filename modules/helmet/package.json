@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-create-middleware-module": "1.0.48",
+    "@gemunion/nest-js-create-middleware-module": "1.0.49",
     "helmet": "5.0.2"
   },
   "engines": {
@@ -35,5 +35,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.1.26"
+  "version": "2.1.27"
 }

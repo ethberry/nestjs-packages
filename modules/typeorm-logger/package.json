@@ -43,5 +43,5 @@
   },
   "title": "NestJS TypeORM logger module",
   "types": "./dist/index.d.ts",
-  "version": "1.2.33"
+  "version": "1.2.34"
 }
