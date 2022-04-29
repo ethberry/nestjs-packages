@@ -26,9 +26,9 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-typeorm",
   "peerDependencies": {
-    "@nestjs/common": "^8",
+    "@nestjs/common": "8.0.0",
     "@nestjs/config": "^2.0.0",
-    "@nestjs/typeorm": "^8",
+    "@nestjs/typeorm": "8.0.0",
     "typeorm": "^0.2 || ^0.3.0"
   },
   "publishConfig": {

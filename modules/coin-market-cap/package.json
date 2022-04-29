@@ -24,10 +24,10 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-coin-market-cap",
   "peerDependencies": {
-    "@nestjs/axios": "^0",
-    "@nestjs/common": "^8",
+    "@nestjs/axios": "0.0.0",
+    "@nestjs/common": "8.0.0",
     "@nestjs/config": "^2.0.0",
-    "rxjs": "^7"
+    "rxjs": "7.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

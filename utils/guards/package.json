@@ -20,9 +20,9 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-guards",
   "peerDependencies": {
-    "@nestjs/common": "^8",
-    "@nestjs/core": "^8",
-    "@nestjs/passport": "^8"
+    "@nestjs/common": "8.0.0",
+    "@nestjs/core": "8.0.0",
+    "@nestjs/passport": "8.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

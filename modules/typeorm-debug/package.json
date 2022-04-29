@@ -28,11 +28,11 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-typeorm-debug",
   "peerDependencies": {
-    "@nestjs/axios": "^0",
-    "@nestjs/common": "^8",
+    "@nestjs/axios": "0.0.0",
+    "@nestjs/common": "8.0.0",
     "@nestjs/config": "^2.0.0",
-    "@nestjs/typeorm": "^8",
-    "typeorm": "^0"
+    "@nestjs/typeorm": "8.0.0",
+    "typeorm": "0.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
