@@ -23,7 +23,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-ses",
   "peerDependencies": {
-    "@nestjs/common": "8.0.0"
+    "@nestjs/common": "8.4.4"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

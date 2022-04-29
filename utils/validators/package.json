@@ -28,9 +28,9 @@
   "name": "@gemunion/nest-js-validators",
   "peerDependencies": {
     "@nestjs/axios": "0.0.0",
-    "@nestjs/common": "8.0.0",
+    "@nestjs/common": "8.4.4",
     "@nestjs/config": "^2.0.0",
-    "rxjs": "7.0.0"
+    "rxjs": "7.5.5"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

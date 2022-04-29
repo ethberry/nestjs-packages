@@ -25,7 +25,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/collection",
   "peerDependencies": {
-    "@nestjs/swagger": "5.0.0"
+    "@nestjs/swagger": "5.2.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
