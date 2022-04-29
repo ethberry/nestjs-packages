@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.1 (2022-04-29)
+
+
+### Bug Fixes
+
+* export interface ([4a53918](https://github.com/gemunion/nestjs-packages/commit/4a5391839e7512180a9419230072f3c5dfa6d1a9))
+
+
+
+
+
 # 0.1.0 (2022-04-28)
 
 
