@@ -27,11 +27,11 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-throttler",
   "peerDependencies": {
-    "@liaoliaots/nestjs-redis": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0",
-    "@nestjs/common": "8.0.0",
+    "@liaoliaots/nestjs-redis": "^8.0.0",
+    "@nestjs/common": "^8.0.0",
     "@nestjs/config": "^2.0.0",
-    "@nestjs/graphql": "^9 || ^10.0.0",
-    "@nestjs/websockets": "8.0.0"
+    "@nestjs/graphql": "^9.0.0 || ^10.0.0",
+    "@nestjs/websockets": "^8.0.0"
   },
   "peerDependenciesMeta": {
     "@nestjs/graphql": {

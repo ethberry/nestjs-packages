@@ -26,9 +26,9 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-winston-papertrail",
   "peerDependencies": {
-    "@nestjs/common": "8.0.0",
+    "@nestjs/common": "^8.0.0",
     "@nestjs/config": "^2.0.0",
-    "nest-winston": "1.0.0"
+    "nest-winston": "^1.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -24,7 +24,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-passport",
   "peerDependencies": {
-    "express": "4.0.0",
+    "express": "^4.0.0",
     "passport": "^0.4.0 || ^0.5.0"
   },
   "publishConfig": {
