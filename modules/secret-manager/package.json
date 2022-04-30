@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-create-dynamic-module": "1.0.34",
-    "@gemunion/nest-js-module-license": "1.0.9",
+    "@gemunion/nest-js-module-license": "1.0.12",
     "aws-sdk": "2.1125.0"
   },
   "devDependencies": {
