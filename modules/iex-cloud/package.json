@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-utils": "1.4.3",
-    "@gemunion/types-iex-cloud": "0.2.7",
+    "@gemunion/types-iex-cloud": "0.2.8",
     "class-validator": "0.13.2"
   },
   "devDependencies": {

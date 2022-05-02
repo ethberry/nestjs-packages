@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/winston-formatter": "0.0.21",
+    "@gemunion/winston-formatter": "0.0.22",
     "@logdna/logger": "2.6.4",
     "logdna-winston": "4.0.1",
     "winston": "3.7.2",
