@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2022-05-02)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([9858ca2](https://github.com/gemunion/nestjs-packages/commit/9858ca2fa56fb8545fd7096ed648897f427d4851))
+
+
+### Features
+
+* IsBigNumber validator ([bb78243](https://github.com/gemunion/nestjs-packages/commit/bb782437af0ef7914b1381b61447ddd732017b87))
+
+
+
+
+
 ## [0.2.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-helpers@0.2.3...@gemunion/nest-js-module-typeorm-helpers@0.2.4) (2022-04-29)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm-helpers

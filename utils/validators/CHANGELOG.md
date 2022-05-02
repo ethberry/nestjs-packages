@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2022-05-02)
+
+
+### Features
+
+* IsBigNumber validator ([bb78243](https://github.com/gemunion/nestjs-packages/commit/bb782437af0ef7914b1381b61447ddd732017b87))
+
+
+
+
+
 ## [1.3.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.3.8...@gemunion/nest-js-validators@1.3.9) (2022-04-29)
 
 
