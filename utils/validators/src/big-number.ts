@@ -2,7 +2,7 @@ import { registerDecorator, ValidationArguments, ValidationOptions } from "class
 import { BigNumber } from "ethers";
 
 interface IBigNumberConstraints {
-  allowEmptyString: boolean;
+  allowEmptyString?: boolean;
 }
 
 export function IsBigNumber(constraints: Partial<IBigNumberConstraints> = {}, validationOptions?: ValidationOptions) {
