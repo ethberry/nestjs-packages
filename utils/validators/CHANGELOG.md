@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.1 (2022-05-03)
+
+
+### Bug Fixes
+
+* IsBigNumber allowEmptyString ([f33f4a2](https://github.com/gemunion/nestjs-packages/commit/f33f4a2b71ff921104c09491e7a6207fd861adc7))
+
+
+
+
+
 # 1.4.0 (2022-05-02)
 
 
