@@ -13,6 +13,6 @@ export class MetamaskService {
       signature,
     });
 
-    return recovered === wallet;
+    return recovered === wallet.toLowerCase();
   }
 }
