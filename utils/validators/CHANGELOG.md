@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.4.1...@gemunion/nest-js-validators@1.4.2) (2022-05-03)
+
+
+### Bug Fixes
+
+* IsBigNumber allowEmptyString optional ([b038d78](https://github.com/gemunion/nestjs-packages/commit/b038d7842ccf79e5a38e4e37b8f91fa32e1ae5b0))
+
+
+
+
+
 ## 1.4.1 (2022-05-03)
 
 
