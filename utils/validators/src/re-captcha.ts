@@ -21,7 +21,7 @@ interface IReCaptchaConstraints {
 }
 
 @Injectable()
-@ValidatorConstraint({ async: true })
+@ValidatorConstraint({ async: true, name: "isReCaptcha" })
 export class ValidateReCaptcha implements ValidatorConstraintInterface {
   private reason: string;
 
@@ -72,7 +72,7 @@ export class ValidateReCaptcha implements ValidatorConstraintInterface {
 export function ReCaptcha(constraints: Partial<IReCaptchaConstraints> = {}, validationOptions?: ValidationOptions) {
   return (object: Record<string, any>, propertyName: string): void => {
     registerDecorator({
-      name: "ReCaptcha",
+      name: "isReCaptcha",
       target: object.constructor,
       propertyName,
       constraints: [constraints],

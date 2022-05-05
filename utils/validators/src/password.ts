@@ -7,7 +7,10 @@ interface IPasswordConstraints {
   score: number;
 }
 
-export function IsPassword(constraints: Partial<IPasswordConstraints> = {}, validationOptions?: ValidationOptions) {
+export function IsPassword(
+  constraints: Partial<IPasswordConstraints> = {},
+  validationOptions: ValidationOptions = { message: "tooWeak" },
+) {
   return (object: Record<string, any>, propertyName: string): void => {
     registerDecorator({
       name: "isPassword",

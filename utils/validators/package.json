@@ -18,7 +18,10 @@
     "@nestjs/config": "2.0.0",
     "@types/zxcvbn": "4.4.1",
     "ethers": "5.6.4",
-    "rxjs": "7.5.5"
+    "rxjs": "7.5.5",
+    "@types/jest": "27.4.1",
+    "jest": "27.5.1",
+    "jest-environment-node": "27.5.1"
   },
   "engines": {
     "node": ">=12.13"
@@ -52,7 +55,7 @@
     "prebuild": "rimraf dist",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
-    "test": "exit 0"
+    "test": "jest --config=jest.config.json --runInBand"
   },
   "title": "nest js validators",
   "types": "./dist/index.d.ts",
