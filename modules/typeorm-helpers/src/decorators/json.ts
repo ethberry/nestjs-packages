@@ -14,7 +14,7 @@ export function JsonColumn(): (object: any, propertyName: string) => void {
   return function (object: any, propertyName: string) {
     getMetadataArgsStorage().columns.push({
       target: object.constructor,
-      propertyName: propertyName,
+      propertyName,
       mode: "regular",
       options: {
         type: "json",

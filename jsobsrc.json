@@ -16,6 +16,7 @@
     "CreateSchema1561991000001",
     "CreateDomainUint2561561991000002",
     "InstallExtensionUUID1561991000003",
-    "CreateLanguageEnum1561991000004"
+    "CreateLanguageEnum1561991000004",
+    "CreateOpenZeppelin1561991000005"
   ]
 }
