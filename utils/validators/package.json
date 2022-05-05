@@ -17,9 +17,9 @@
     "@nestjs/common": "8.4.4",
     "@nestjs/config": "2.0.0",
     "@types/zxcvbn": "4.4.1",
-    "ethers": "5.6.4",
+    "ethers": "5.6.5",
     "rxjs": "7.5.5",
-    "@types/jest": "27.4.1",
+    "@types/jest": "27.5.0",
     "jest": "27.5.1",
     "jest-environment-node": "27.5.1"
   },
