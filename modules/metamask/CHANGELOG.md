@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.3 (2022-05-05)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([d080b8b](https://github.com/gemunion/nestjs-packages/commit/d080b8b529d921a6912253fd9e9a5a39c17e459b))
+* wallet.toLowerCase ([f5ae728](https://github.com/gemunion/nestjs-packages/commit/f5ae728c06e540e8fb8a6f8ccc465b4ad846f1ca))
+
+
+
+
+
 ## 0.1.2 (2022-05-02)
 
 

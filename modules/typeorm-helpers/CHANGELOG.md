@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0 (2022-05-05)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([d080b8b](https://github.com/gemunion/nestjs-packages/commit/d080b8b529d921a6912253fd9e9a5a39c17e459b))
+
+
+### Features
+
+* OZ contract ([791d91b](https://github.com/gemunion/nestjs-packages/commit/791d91bba1c5c3b08f343d838d70125920da3c1b))
+
+
+
+
+
 # 0.3.0 (2022-05-02)
 
 
