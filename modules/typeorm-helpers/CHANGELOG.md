@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-helpers@0.5.1...@gemunion/nest-js-module-typeorm-helpers@0.6.0) (2022-05-08)
+
+
+### Features
+
+* ts-mixer ([f1eae09](https://github.com/gemunion/nestjs-packages/commit/f1eae0929d241ec8f405d3a804e21f191c1d5598))
+
+
+
+
+
 ## 0.5.1 (2022-05-08)
 
 
