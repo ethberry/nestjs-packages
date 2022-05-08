@@ -1,22 +1,23 @@
 import { BaseEntity, BeforeInsert, BeforeUpdate, Column } from "typeorm";
+import { decorate } from "ts-mixer";
 
 import { IDateBase } from "@gemunion/types-collection";
 
 export abstract class DateBaseEntity extends BaseEntity implements IDateBase {
-  @Column({ type: "timestamptz" })
+  @decorate(Column({ type: "timestamptz" }))
   public createdAt: string;
 
-  @Column({ type: "timestamptz" })
+  @decorate(Column({ type: "timestamptz" }))
   public updatedAt: string;
 
-  @BeforeInsert()
+  @decorate(BeforeInsert())
   public beforeInsert(): void {
     const date = new Date();
     this.createdAt = date.toISOString();
     this.updatedAt = date.toISOString();
   }
 
-  @BeforeUpdate()
+  @decorate(BeforeUpdate())
   public beforeUpdate(): void {
     const date = new Date();
     this.updatedAt = date.toISOString();

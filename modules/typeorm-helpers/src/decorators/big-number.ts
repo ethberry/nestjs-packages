@@ -24,11 +24,11 @@ export class BigNumberValueTransformer implements ValueTransformer {
   }
 }
 
-export function BigNumberColumn(): (object: any, propertyName: string) => void {
-  return function (object: any, propertyName: string) {
+export function BigNumberColumn(): PropertyDecorator {
+  return function (object, propertyName) {
     getMetadataArgsStorage().columns.push({
       target: object.constructor,
-      propertyName,
+      propertyName: propertyName as string,
       mode: "regular",
       options: {
         type: "numeric",

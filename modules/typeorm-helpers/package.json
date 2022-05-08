@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@gemunion/constants": "0.8.0",
-    "@gemunion/types-collection": "1.2.1"
+    "@gemunion/types-collection": "1.2.1",
+    "ts-mixer": "6.0.1"
   },
   "devDependencies": {
     "ethers": "5.6.5",
