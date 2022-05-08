@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.1 (2022-05-08)
+
+
+### Bug Fixes
+
+* add language to migration ([ed5c68c](https://github.com/gemunion/nestjs-packages/commit/ed5c68c02cdcd8f73c47309bd8b894d5cd81d502))
+* **deps:** update dependency @gemunion/types-collection to v1.2.1 ([6add1a2](https://github.com/gemunion/nestjs-packages/commit/6add1a23199c6e106ce166b47337407c0a9b4b72))
+
+
+
+
+
 # 0.5.0 (2022-05-05)
 
 
