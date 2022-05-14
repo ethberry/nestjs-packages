@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.34 (2022-05-14)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([247fb16](https://github.com/gemunion/nestjs-packages/commit/247fb16e455558413ae59bb7697e5404b6efed47))
+
+
+
+
+
 ## [1.0.33](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils-ms@1.0.32...@gemunion/nest-js-utils-ms@1.0.33) (2022-04-09)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils-ms

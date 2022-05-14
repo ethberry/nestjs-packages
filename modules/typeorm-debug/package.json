@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@gemunion/nest-js-module-debug": "0.1.40",
-    "@gemunion/nest-js-module-typeorm": "1.1.27",
-    "@gemunion/nest-js-module-typeorm-logger": "1.2.34",
+    "@gemunion/nest-js-module-typeorm": "1.1.28",
+    "@gemunion/nest-js-module-typeorm-logger": "1.2.35",
     "@nestjs/axios": "0.0.7"
   },
   "devDependencies": {
@@ -51,5 +51,5 @@
   },
   "title": "NestJS TypeORM module",
   "types": "./dist/index.d.ts",
-  "version": "1.1.28"
+  "version": "1.1.29"
 }
