@@ -6,7 +6,7 @@ export class AddressPipe implements PipeTransform<string> {
   transform(value: string): string {
     try {
       ethers.utils.getAddress(value);
-      return value;
+      return value.toLowerCase();
     } catch (_e) {
       throw new BadRequestException(`Validation failed (Address is expected)`);
     }
