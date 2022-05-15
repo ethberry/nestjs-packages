@@ -10,5 +10,5 @@ export abstract class ContractBaseEntity extends IdBaseEntity implements IContra
   public address: string;
 
   @decorate(Column({ type: "int" }))
-  public chainId: string;
+  public chainId: number;
 }
