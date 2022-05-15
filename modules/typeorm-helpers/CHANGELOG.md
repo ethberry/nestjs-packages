@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.7.0 (2022-05-15)
+
+
+### Bug Fixes
+
+* chainId ([76056d7](https://github.com/gemunion/nestjs-packages/commit/76056d7578a08cbb6aabb7dc6b52eea82b8a6525))
+* **deps:** update all non-major dependencies ([edf7232](https://github.com/gemunion/nestjs-packages/commit/edf72324387865788d598c0496366ff317456ae5))
+
+
+### Features
+
+* chainId ([13683eb](https://github.com/gemunion/nestjs-packages/commit/13683eb552815143ec63a4d5f702e4e37ca25576))
+
+
+
+
+
 ## [0.6.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-helpers@0.6.0...@gemunion/nest-js-module-typeorm-helpers@0.6.1) (2022-05-09)
 
 

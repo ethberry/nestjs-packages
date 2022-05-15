@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-module-s3": "1.5.34",
+    "@gemunion/nest-js-module-s3": "1.5.35",
     "@golevelup/nestjs-modules": "0.5.0",
     "@pinata/sdk": "1.1.25",
     "express": "4.18.1"
@@ -46,5 +46,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.31"
+  "version": "0.0.32"
 }

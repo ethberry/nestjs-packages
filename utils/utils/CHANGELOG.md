@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.5.2...@gemunion/nest-js-utils@1.5.3) (2022-05-15)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([edf7232](https://github.com/gemunion/nestjs-packages/commit/edf72324387865788d598c0496366ff317456ae5))
+* lower case of address ([83d393d](https://github.com/gemunion/nestjs-packages/commit/83d393dd49da828daee60c5e57757cf3ebecdaa6))
+
+
+
+
+
 ## 1.5.2 (2022-05-14)
 
 
