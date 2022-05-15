@@ -8,4 +8,7 @@ import { IdBaseEntity } from "./id";
 export abstract class ContractBaseEntity extends IdBaseEntity implements IContract {
   @decorate(Column({ type: "varchar" }))
   public address: string;
+
+  @decorate(Column({ type: "int" }))
+  public chainId: string;
 }
