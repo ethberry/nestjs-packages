@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@gemunion/winston-formatter": "0.0.22",
-    "@logdna/logger": "2.6.4",
+    "@logdna/logger": "2.6.5",
     "logdna-winston": "4.0.1",
     "winston": "3.7.2",
     "winston-transport": "4.5.0"
   },
   "devDependencies": {
     "@nestjs/common": "8.4.5",
-    "@nestjs/config": "2.0.0",
+    "@nestjs/config": "2.0.1",
     "nest-winston": "1.6.2"
   },
   "engines": {
