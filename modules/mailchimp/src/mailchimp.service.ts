@@ -18,8 +18,8 @@ export class MailchimpService {
     });
   }
 
-  public addToContactList(listId: string, email: string, fields: Record<string, string>): Promise<void> {
-    return lists
+  public async addToContactList(listId: string, email: string, fields: Record<string, string>): Promise<void> {
+    await lists
       .addListMember(listId, {
         email_address: email,
         status: Status.subscribed,
