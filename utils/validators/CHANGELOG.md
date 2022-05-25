@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.5.0 (2022-05-25)
+
+
+### Features
+
+* forbid enum values ([e70cb6d](https://github.com/gemunion/nestjs-packages/commit/e70cb6da2711a337f89a7922159020293e2f9067))
+
+
+
+
+
 ## 1.4.8 (2022-05-20)
 
 
