@@ -8,17 +8,17 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.8.1",
-    "@gemunion/types-jwt": "0.3.1",
+    "@gemunion/constants": "0.8.2",
+    "@gemunion/types-jwt": "0.3.2",
     "@metamask/eth-sig-util": "4.0.1",
     "class-transformer": "0.5.1",
     "class-validator": "0.13.2"
   },
   "devDependencies": {
-    "@nestjs/common": "8.4.5",
+    "@nestjs/common": "8.4.6",
     "@nestjs/swagger": "5.2.1",
-    "@nestjs/testing": "8.4.5",
-    "@types/jest": "27.5.1",
+    "@nestjs/testing": "8.4.6",
+    "@types/jest": "27.5.2",
     "@types/uuid": "8.3.4",
     "ethers": "5.6.8",
     "jest": "28.1.0",
