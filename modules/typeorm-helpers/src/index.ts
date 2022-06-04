@@ -2,7 +2,6 @@ export * from "./decorators/big-number";
 export * from "./decorators/draft";
 export * from "./decorators/json";
 
-export * from "./entities/contract.oz";
 export * from "./entities/contract";
 export * from "./entities/date";
 export * from "./entities/id";
