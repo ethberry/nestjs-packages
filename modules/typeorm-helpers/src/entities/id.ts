@@ -1,11 +1,9 @@
-import { PrimaryGeneratedColumn } from "typeorm";
+import { BaseEntity, PrimaryGeneratedColumn } from "typeorm";
 import { decorate } from "ts-mixer";
 
-import { IIdDateBase } from "@gemunion/types-collection";
+import { IIdBase } from "@gemunion/types-collection";
 
-import { DateBaseEntity } from "./date";
-
-export abstract class IdBaseEntity extends DateBaseEntity implements IIdDateBase {
+export abstract class IdBaseEntity extends BaseEntity implements IIdBase {
   @decorate(PrimaryGeneratedColumn())
   public id: number;
 }
