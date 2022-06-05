@@ -3,10 +3,10 @@ import { decorate } from "ts-mixer";
 
 import { ISearchable } from "@gemunion/types-collection";
 
-import { IdBaseEntity } from "./id";
+import { IdDateBaseEntity } from "./id-date";
 import { JsonColumn } from "../decorators/json";
 
-export abstract class SearchableEntity extends IdBaseEntity implements ISearchable {
+export abstract class SearchableEntity extends IdDateBaseEntity implements ISearchable {
   @decorate(Column({ type: "varchar" }))
   public title: string;
 

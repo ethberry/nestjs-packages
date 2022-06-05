@@ -3,9 +3,9 @@ import { decorate } from "ts-mixer";
 
 import { IContract } from "@gemunion/types-collection";
 
-import { IdBaseEntity } from "./id";
+import { IdDateBaseEntity } from "./id-date";
 
-export abstract class ContractBaseEntity extends IdBaseEntity implements IContract {
+export abstract class ContractBaseEntity extends IdDateBaseEntity implements IContract {
   @decorate(Column({ type: "varchar" }))
   public address: string;
 
