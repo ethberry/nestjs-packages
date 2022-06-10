@@ -8,7 +8,7 @@ export class NotFoundInterceptor implements NestInterceptor {
     return next.handle().pipe(
       tap(data => {
         if (data === void 0 || data === null) {
-          throw new NotFoundException("itemNotFound");
+          throw new NotFoundException("pageNotFound");
         }
       }),
     );
