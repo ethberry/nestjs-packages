@@ -19,8 +19,8 @@
     "@nestjs/swagger": "5.2.1",
     "@nestjs/testing": "8.4.6",
     "@types/jest": "28.1.1",
-    "jest": "28.1.0",
-    "jest-environment-node": "28.1.0",
+    "jest": "28.1.1",
+    "jest-environment-node": "28.1.1",
     "rxjs": "7.5.5",
     "ts-jest": "28.0.4"
   },
