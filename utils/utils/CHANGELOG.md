@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.8 (2022-06-11)
+
+
+### Bug Fixes
+
+* error message ([2b5209a](https://github.com/gemunion/nestjs-packages/commit/2b5209a749174aaad14a06df70cd6de5badbbf6f))
+* error message ([a3b1663](https://github.com/gemunion/nestjs-packages/commit/a3b1663e60e38518794998e4c4d23ee46910ec08))
+
+
+
+
+
 ## [1.5.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.5.6...@gemunion/nest-js-utils@1.5.7) (2022-06-02)
 
 
