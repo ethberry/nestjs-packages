@@ -1,14 +1,15 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
-import { connect, Email } from "node-mailjet";
+import { Client } from "node-mailjet";
+import { IAPIResponse } from "node-mailjet/declarations/types/api/Response";
 
 import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
 
 import { MAILJET_OPTIONS_PROVIDER } from "./mailjet.constants";
-import { IMailjetOptions, ISendTemplateDto } from "./interfaces";
+import { IContact, IMailjetOptions, ISendTemplateDto, TResponse } from "./interfaces";
 
 @Injectable()
 export class MailjetService implements ISendMailService {
-  private client: Email.Client;
+  private client: Client;
 
   constructor(
     @Inject(Logger)
@@ -16,7 +17,7 @@ export class MailjetService implements ISendMailService {
     @Inject(MAILJET_OPTIONS_PROVIDER)
     private readonly options: IMailjetOptions,
   ) {
-    this.client = connect(options.publicKey, options.privateKey);
+    this.client = Client.apiConnect(options.publicKey, options.privateKey);
   }
 
   public sendEmail(dto: ISendEmailDto): Promise<IEmailResult> {
@@ -74,19 +75,22 @@ export class MailjetService implements ISendMailService {
       });
   }
 
-  public addToContactList(listId: number, email: string, props: Record<string, any>): Promise<Email.Response> {
+  public addToContactList(
+    listId: number,
+    email: string,
+    props: Record<string, any>,
+  ): Promise<IAPIResponse<TResponse<IContact>>> {
     return this.client
       .post("contactslist", { version: "v3" })
       .id(listId)
       .action("managecontact")
-      .request({
+      .request<TResponse<IContact>>({
         Action: "addnoforce",
         Email: email,
         Name: props.name,
         Properties: props,
       })
-      .then((result: Email.Response) => {
-        // @ts-ignore
+      .then(result => {
         if (result.body.Total) {
           this.loggerService.log(`Successfully added ${email} to contact list`, MailjetService.name);
         }
@@ -99,12 +103,11 @@ export class MailjetService implements ISendMailService {
       .post("contactslist", { version: "v3" })
       .id(listId)
       .action("managecontact")
-      .request({
+      .request<TResponse<IContact>>({
         Action: "remove",
         Email: email,
       })
-      .then((result: Email.Response) => {
-        // @ts-ignore
+      .then(result => {
         if (result.body.Total) {
           this.loggerService.log(`Successfully deleted ${email} from contact list list`, MailjetService.name);
         }
