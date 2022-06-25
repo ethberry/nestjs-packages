@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-utils": "1.5.9"
+    "@gemunion/nest-js-utils": "1.5.10"
   },
   "devDependencies": {
     "@nestjs/axios": "0.0.8",
@@ -46,5 +46,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.25"
+  "version": "0.1.26"
 }
