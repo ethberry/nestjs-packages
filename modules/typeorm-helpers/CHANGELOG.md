@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.9.2 (2022-07-02)
+
+
+### Bug Fixes
+
+* ContractBaseEntity -> DeployableEntity ([8b6f2ee](https://github.com/gemunion/nestjs-packages/commit/8b6f2ee00b00c559cb49459a35a1a6a9b2a5fa69))
+* **deps:** update all non-major dependencies ([804c603](https://github.com/gemunion/nestjs-packages/commit/804c603f7ca50f0817390f9367f243045e6dd4a1))
+
+
+
+
+
 ## [0.9.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-helpers@0.9.0...@gemunion/nest-js-module-typeorm-helpers@0.9.1) (2022-06-25)
 
 
