@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/winston-formatter": "0.0.24",
-    "winston": "3.8.0",
+    "@gemunion/winston-formatter": "0.0.25",
+    "winston": "3.8.1",
     "winston-papertrail-transport": "1.0.9",
     "winston-transport": "4.5.0"
   },
