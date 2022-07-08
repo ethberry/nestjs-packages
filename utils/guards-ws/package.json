@@ -45,5 +45,5 @@
   },
   "title": "nest js guards ws",
   "types": "./dist/index.d.ts",
-  "version": "1.3.24"
+  "version": "2.0.0"
 }
