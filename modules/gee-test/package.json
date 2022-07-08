@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/nest-js-utils": "1.5.10",
     "class-validator": "0.13.2",
-    "qs": "6.10.5",
+    "qs": "6.11.0",
     "uuid": "8.3.2"
   },
   "devDependencies": {
@@ -21,7 +21,7 @@
     "@nestjs/schedule": "2.0.1",
     "@nestjs/swagger": "5.2.1",
     "@types/uuid": "8.3.4",
-    "ioredis": "5.0.6",
+    "ioredis": "5.1.0",
     "rxjs": "7.5.5"
   },
   "engines": {
