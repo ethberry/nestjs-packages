@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@types/connect-redis": "0.0.18",
-    "@types/express-session": "1.17.4",
-    "ioredis": "5.0.6"
+    "@types/express-session": "1.17.5",
+    "ioredis": "5.1.0"
   },
   "engines": {
     "node": ">=12.13"
