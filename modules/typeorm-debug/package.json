@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@nestjs/axios": "0.0.8",
-    "@nestjs/common": "8.4.7",
+    "@nestjs/common": "9.0.1",
     "@nestjs/config": "2.1.0",
     "@nestjs/typeorm": "9.0.0",
     "typeorm": "0.3.7"
@@ -29,7 +29,7 @@
   "name": "@gemunion/nest-js-module-typeorm-debug",
   "peerDependencies": {
     "@nestjs/axios": "^0.0.0",
-    "@nestjs/common": "^8.0.0",
+    "@nestjs/common": "^8.0.0 || ^9.0.0",
     "@nestjs/config": "^2.0.0",
     "@nestjs/typeorm": "^8.0.0 || ^9.0.0",
     "typeorm": "^0.0.0"
