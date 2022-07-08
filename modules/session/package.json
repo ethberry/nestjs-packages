@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/connect-redis": "0.0.18",
-    "@types/express-session": "1.17.4",
+    "@types/express-session": "1.17.5",
     "ioredis": "5.1.0"
   },
   "engines": {
