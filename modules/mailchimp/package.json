@@ -12,8 +12,8 @@
     "@mailchimp/mailchimp_marketing": "3.0.75"
   },
   "devDependencies": {
-    "@nestjs/axios": "0.0.8",
-    "@nestjs/common": "9.0.1",
+    "@nestjs/axios": "0.1.0",
+    "@nestjs/common": "9.0.2",
     "@types/mailchimp__mailchimp_marketing": "3.0.5"
   },
   "engines": {
