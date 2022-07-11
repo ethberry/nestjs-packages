@@ -14,10 +14,10 @@
   "devDependencies": {
     "@gemunion/nest-js-module-license": "2.0.1",
     "@liaoliaots/nestjs-redis": "8.2.2",
-    "@nestjs/common": "9.0.1",
-    "@nestjs/config": "2.1.0",
-    "@nestjs/graphql": "10.0.17",
-    "@nestjs/websockets": "9.0.1"
+    "@nestjs/common": "9.0.2",
+    "@nestjs/config": "2.2.0",
+    "@nestjs/graphql": "10.0.18",
+    "@nestjs/websockets": "9.0.2"
   },
   "engines": {
     "node": ">=12.13"
