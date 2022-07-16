@@ -8,9 +8,9 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "8.4.7",
-    "@nestjs/core": "8.4.7",
-    "@nestjs/microservices": "8.4.7",
+    "@nestjs/common": "9.0.3",
+    "@nestjs/core": "9.0.3",
+    "@nestjs/microservices": "9.0.3",
     "rxjs": "7.5.6"
   },
   "engines": {
@@ -21,9 +21,9 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-utils-ms",
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0",
-    "@nestjs/microservices": "^8.0.0",
+    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/core": "^8.0.0 || ^9.0.0",
+    "@nestjs/microservices": "^8.0.0 || ^9.0.0",
     "rxjs": "^7.0.0"
   },
   "publishConfig": {
@@ -43,5 +43,5 @@
   },
   "title": "nest js microservice utils",
   "types": "./dist/index.d.ts",
-  "version": "1.0.37"
+  "version": "2.0.1"
 }

@@ -184,9 +184,9 @@ export class GeeTestService {
         url: "http://api.geetest.com/validate.php",
         method: "POST",
         data: stringify({
-          seccode: seccode,
+          seccode,
+          challenge,
           json_format: "1",
-          challenge: challenge,
           sdk: GeeTestService.VERSION,
           captchaid: geetestId,
         }),

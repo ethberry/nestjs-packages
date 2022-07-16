@@ -8,11 +8,11 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-utils": "1.5.10"
+    "@gemunion/nest-js-utils": "2.0.1"
   },
   "devDependencies": {
     "@nestjs/axios": "0.1.0",
-    "@nestjs/common": "8.4.7",
+    "@nestjs/common": "9.0.3",
     "@nestjs/config": "2.2.0",
     "rxjs": "7.5.6"
   },
@@ -25,7 +25,7 @@
   "name": "@gemunion/nest-js-module-coin-market-cap",
   "peerDependencies": {
     "@nestjs/axios": "^0.0.0",
-    "@nestjs/common": "^8.0.0",
+    "@nestjs/common": "^8.0.0 || ^9.0.0",
     "@nestjs/config": "^2.0.0",
     "rxjs": "^7.0.0"
   },
@@ -46,5 +46,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.26"
+  "version": "1.0.1"
 }

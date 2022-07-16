@@ -15,7 +15,7 @@
   },
   "description": "Collection",
   "devDependencies": {
-    "@nestjs/swagger": "5.2.1"
+    "@nestjs/swagger": "6.0.4"
   },
   "engines": {
     "node": ">=12.13"
@@ -25,7 +25,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/collection",
   "peerDependencies": {
-    "@nestjs/swagger": "^5.0.0"
+    "@nestjs/swagger": "^5.0.0 || ^6.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.2.22"
+  "version": "2.0.1"
 }

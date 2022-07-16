@@ -16,9 +16,9 @@
   ],
   "description": "NestJS configured middleware module made simple",
   "devDependencies": {
-    "@nestjs/common": "8.4.7",
-    "@nestjs/core": "8.4.7",
-    "@nestjs/platform-express": "8.4.7",
+    "@nestjs/common": "9.0.3",
+    "@nestjs/core": "9.0.3",
+    "@nestjs/platform-express": "9.0.3",
     "@types/express": "4.17.13",
     "@types/jest": "28.1.6",
     "@types/node": "16.11.45",
@@ -46,9 +46,9 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-create-middleware-module",
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0",
-    "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/core": "^8.0.0 || ^9.0.0",
+    "@nestjs/platform-express": "^8.0.0 || ^9.0.0",
     "express": "^4.0.0"
   },
   "publishConfig": {
@@ -68,5 +68,5 @@
     "test": "jest --config jest.config.json --no-watch --verbose"
   },
   "types": "./dist/index.d.ts",
-  "version": "1.0.65"
+  "version": "2.0.1"
 }

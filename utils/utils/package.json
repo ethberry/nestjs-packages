@@ -9,10 +9,10 @@
   },
   "devDependencies": {
     "@nestjs/axios": "0.1.0",
-    "@nestjs/common": "8.4.7",
+    "@nestjs/common": "9.0.3",
     "@nestjs/config": "2.2.0",
-    "@nestjs/core": "8.4.7",
-    "@nestjs/swagger": "5.2.1",
+    "@nestjs/core": "9.0.3",
+    "@nestjs/swagger": "6.0.4",
     "body-parser": "1.20.0",
     "class-validator": "0.13.2",
     "ethers": "5.6.9",
@@ -28,10 +28,10 @@
   "name": "@gemunion/nest-js-utils",
   "peerDependencies": {
     "@nestjs/axios": "^0.0.",
-    "@nestjs/common": "^8.0.0",
+    "@nestjs/common": "^8.0.0 || ^9.0.0",
     "@nestjs/config": "^2.0.0",
-    "@nestjs/core": "^8.0.0",
-    "@nestjs/swagger": "^5.0.0",
+    "@nestjs/core": "^8.0.0 || ^9.0.0",
+    "@nestjs/swagger": "^5.0.0 || ^6.0.0",
     "body-parser": "^1.0.0",
     "class-validator": "^0.0.0",
     "ethers": "^5.6.0",
@@ -55,5 +55,5 @@
   },
   "title": "nest js core utils",
   "types": "./dist/index.d.ts",
-  "version": "1.5.10"
+  "version": "2.0.1"
 }

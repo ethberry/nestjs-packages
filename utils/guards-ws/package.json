@@ -8,10 +8,10 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "8.4.7",
-    "@nestjs/core": "8.4.7",
+    "@nestjs/common": "9.0.3",
+    "@nestjs/core": "9.0.3",
     "@nestjs/passport": "8.2.2",
-    "@nestjs/websockets": "8.4.7",
+    "@nestjs/websockets": "9.0.3",
     "socket.io": "4.5.1"
   },
   "engines": {
@@ -22,10 +22,10 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-guards-ws",
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0",
-    "@nestjs/core": "^8.0.0",
+    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/core": "^8.0.0 || ^9.0.0",
     "@nestjs/passport": "^8.0.0",
-    "@nestjs/websockets": "^8.0.0",
+    "@nestjs/websockets": "^8.0.0 || ^9.0.0",
     "socket.io": "^4.0.0"
   },
   "publishConfig": {
@@ -45,5 +45,5 @@
   },
   "title": "nest js guards ws",
   "types": "./dist/index.d.ts",
-  "version": "1.3.24"
+  "version": "2.0.1"
 }

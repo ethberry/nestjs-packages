@@ -9,6 +9,6 @@
       "yes": true
     }
   },
-  "packages": ["utils/*", "modules/*", "security/*", "other/*"],
+  "packages": ["utils/*", "modules/*", "other/*"],
   "version": "independent"
 }
