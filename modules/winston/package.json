@@ -8,14 +8,14 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/winston-formatter": "0.0.25",
+    "@gemunion/winston-formatter": "0.0.26",
     "winston": "3.8.1",
     "winston-transport": "4.5.0"
   },
   "devDependencies": {
-    "@nestjs/common": "9.0.2",
+    "@nestjs/common": "9.0.3",
     "@nestjs/config": "2.2.0",
-    "nest-winston": "1.6.2"
+    "nest-winston": "1.7.0"
   },
   "engines": {
     "node": ">=12.13"
