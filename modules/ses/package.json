@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "@gemunion/types-email": "0.2.9",
-    "@golevelup/nestjs-modules": "0.6.0",
-    "aws-sdk": "2.1181.0"
+    "@golevelup/nestjs-modules": "0.6.1",
+    "aws-sdk": "2.1185.0"
   },
   "devDependencies": {
-    "@nestjs/common": "9.0.5"
+    "@nestjs/common": "9.0.7"
   },
   "engines": {
     "node": ">=12.13"
