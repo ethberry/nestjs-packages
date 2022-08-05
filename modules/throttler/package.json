@@ -12,12 +12,12 @@
     "nestjs-throttler-storage-redis": "0.1.20"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "2.0.4",
+    "@gemunion/nest-js-module-license": "2.0.5",
     "@liaoliaots/nestjs-redis": "9.0.1",
-    "@nestjs/common": "9.0.7",
+    "@nestjs/common": "9.0.8",
     "@nestjs/config": "2.2.0",
     "@nestjs/graphql": "10.0.21",
-    "@nestjs/websockets": "9.0.7"
+    "@nestjs/websockets": "9.0.8"
   },
   "engines": {
     "node": ">=12.13"
