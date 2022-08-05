@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "@golevelup/nestjs-modules": "0.6.1",
-    "@mailchimp/mailchimp_marketing": "3.0.75"
+    "@mailchimp/mailchimp_marketing": "3.0.78"
   },
   "devDependencies": {
     "@nestjs/axios": "0.1.0",
-    "@nestjs/common": "9.0.7",
+    "@nestjs/common": "9.0.8",
     "@types/mailchimp__mailchimp_marketing": "3.0.5"
   },
   "engines": {
