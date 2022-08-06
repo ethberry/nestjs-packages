@@ -2,8 +2,8 @@ import { ValidatorConstraint, ValidatorConstraintInterface, ValidationArguments 
 
 @ValidatorConstraint({ name: "ForbidEnumValues" })
 export class ForbidEnumValues implements ValidatorConstraintInterface {
-  validate(status: string, { constraints = [] }: ValidationArguments) {
-    return !constraints.includes(status);
+  validate(value: string, { constraints = [] }: ValidationArguments) {
+    return !constraints.includes(value);
   }
 
   defaultMessage() {
