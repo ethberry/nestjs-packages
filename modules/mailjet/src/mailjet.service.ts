@@ -1,6 +1,5 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
-import { Client } from "node-mailjet";
-import { IAPIResponse } from "node-mailjet/declarations/types/api/Response";
+import { Client, ILibraryResponse } from "node-mailjet";
 
 import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
 
@@ -79,7 +78,7 @@ export class MailjetService implements ISendMailService {
     listId: number,
     email: string,
     props: Record<string, any>,
-  ): Promise<IAPIResponse<TResponse<IContact>>> {
+  ): Promise<ILibraryResponse<TResponse<IContact>>> {
     return this.client
       .post("contactslist", { version: "v3" })
       .id(listId)
