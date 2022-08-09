@@ -24,7 +24,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-mandrill",
   "peerDependencies": {
-    "@nestjs/axios": "^0.0.1",
+    "@nestjs/axios": "^0.0.1 || ^0.1.0",
     "@nestjs/common": "^8.0.0 || ^9.0.0",
     "rxjs": "^7.0.0"
   },
