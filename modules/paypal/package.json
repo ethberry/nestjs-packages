@@ -21,7 +21,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-pay-pal",
   "peerDependencies": {
-    "@nestjs/axios": "^0.0.0",
+    "@nestjs/axios": "^0.0.1",
     "@nestjs/common": "^8.0.0 || ^9.0.0",
     "@nestjs/config": "^2.0.0",
     "rxjs": "^7.0.0"
