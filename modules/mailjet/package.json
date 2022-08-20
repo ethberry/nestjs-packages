@@ -13,8 +13,8 @@
     "node-mailjet": "5.1.1"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "2.0.5",
-    "@nestjs/common": "9.0.9"
+    "@gemunion/nest-js-module-license": "2.0.6",
+    "@nestjs/common": "9.0.11"
   },
   "engines": {
     "node": ">=12.13"
