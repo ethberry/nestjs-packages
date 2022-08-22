@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.7...@gemunion/nest-js-validators@2.1.0) (2022-08-22)
+
+
+### Features
+
+* IsBeforeDate validator ([742ac71](https://github.com/gemunion/nestjs-packages/commit/742ac71316bf8ec2ec04aec0beb1ccaaf6548a6e))
+
+
+
+
+
 ## [2.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.6...@gemunion/nest-js-validators@2.0.7) (2022-08-20)
 
 **Note:** Version bump only for package @gemunion/nest-js-validators
