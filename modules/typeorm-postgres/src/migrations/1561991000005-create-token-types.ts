@@ -8,9 +8,7 @@ export function createTokenTypes(ns: string) {
           'NATIVE',
           'ERC20',
           'ERC721',
-          'ERC721D',
           'ERC998',
-          'ERC998D',
           'ERC1155'
         );
       `);

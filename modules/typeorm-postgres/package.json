@@ -23,7 +23,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/nest-js-module-typeorm-helpers",
+  "name": "@gemunion/nest-js-module-typeorm-postgres",
   "peerDependencies": {
     "ethers": "^5.6.0",
     "typeorm": "^0.2.0 || ^0.3.0"
@@ -43,7 +43,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "NestJS TypeORM helpers",
+  "title": "NestJS TypeORM Postgres",
   "types": "./dist/index.d.ts",
   "version": "0.9.7"
 }
