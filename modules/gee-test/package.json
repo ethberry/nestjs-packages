@@ -33,7 +33,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-gee-test",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^1.0.0 || ^2.0.0",
+    "@gemunion/nest-js-module-license": "^2.0.0",
     "@liaoliaots/nestjs-redis": "^8.0.0 || ^9.0.0",
     "@nestjs/axios": "^0.0.1 || ^0.1.0",
     "@nestjs/common": "^8.0.0 || ^9.0.0",
