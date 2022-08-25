@@ -9,7 +9,7 @@ import { S3_OPTIONS_PROVIDER } from "./s3.constants";
 
 @Module({
   imports: [LicenseModule.deferred()],
-  providers: [Logger, S3Service, licenseProvider],
+  providers: [Logger, licenseProvider, S3Service],
   exports: [S3Service],
 })
 export class S3Module extends createConfigurableDynamicRootModule<S3Module, IS3Options>(S3_OPTIONS_PROVIDER) {

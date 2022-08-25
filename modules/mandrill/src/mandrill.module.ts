@@ -2,13 +2,15 @@ import { DynamicModule, Logger, Module } from "@nestjs/common";
 import { HttpModule } from "@nestjs/axios";
 import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
+import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+
 import { MANDRILL_OPTIONS_PROVIDER } from "./mandrill.constants";
 import { MandrillService } from "./mandrill.service";
 import { IMandrillOptions } from "./interfaces";
 
 @Module({
-  imports: [HttpModule],
-  providers: [Logger, MandrillService],
+  imports: [LicenseModule.deferred(), HttpModule],
+  providers: [Logger, licenseProvider, MandrillService],
   exports: [MandrillService],
 })
 export class MandrillModule extends createConfigurableDynamicRootModule<MandrillModule, IMandrillOptions>(

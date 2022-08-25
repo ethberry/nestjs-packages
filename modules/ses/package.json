@@ -8,6 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
+    "@gemunion/nest-js-module-license": "2.0.7",
     "@gemunion/types-email": "0.2.9",
     "@golevelup/nestjs-modules": "0.6.1",
     "aws-sdk": "2.1199.0"
@@ -23,6 +24,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-ses",
   "peerDependencies": {
+    "@gemunion/nest-js-module-license": "^2.0.0",
     "@nestjs/common": "^8.0.0 || ^9.0.0"
   },
   "publishConfig": {
