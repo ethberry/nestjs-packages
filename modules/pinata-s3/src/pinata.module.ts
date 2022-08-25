@@ -4,13 +4,13 @@ import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 import { S3Module } from "@gemunion/nest-js-module-s3";
 
 import { IPinataOptions } from "./interfaces";
-import { PinataService } from "./pinata.service";
+import { PinataS3Service } from "./pinata.service";
 import { PINATA_OPTIONS_PROVIDER } from "./pinata.constants";
 
 @Module({
   imports: [S3Module.deferred()],
-  providers: [Logger, PinataService],
-  exports: [PinataService],
+  providers: [Logger, PinataS3Service],
+  exports: [PinataS3Service],
 })
 export class PinataModule extends createConfigurableDynamicRootModule<PinataModule, IPinataOptions>(
   PINATA_OPTIONS_PROVIDER,

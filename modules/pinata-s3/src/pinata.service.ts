@@ -1,5 +1,6 @@
 import { Inject, Injectable } from "@nestjs/common";
-import pinataSDK, { PinataClient, PinataPinResponse } from "@pinata/sdk";
+import type { PinataClient, PinataPinResponse } from "@pinata/sdk";
+import pinataSDK from "@pinata/sdk";
 import { Readable } from "stream";
 
 import { S3Service } from "@gemunion/nest-js-module-s3";
@@ -8,7 +9,7 @@ import { PINATA_OPTIONS_PROVIDER } from "./pinata.constants";
 import { IPinataAuth, IPinataOptions } from "./interfaces";
 
 @Injectable()
-export class PinataService {
+export class PinataS3Service {
   private pinata: PinataClient;
 
   constructor(
@@ -27,11 +28,6 @@ export class PinataService {
     return this.s3Service.getObjectAsStream({
       objectName,
     });
-  }
-
-  public async pinURL(objectName: string) {
-    await this.pinFileToIPFS(objectName);
-    await this.pinJSONToIPFS({}, objectName);
   }
 
   public pinFileToIPFS(objectName: string) {
@@ -60,5 +56,9 @@ export class PinataService {
         cidVersion: 0,
       },
     });
+  }
+
+  public async unpin(cid: string): Promise<void> {
+    await this.pinata.unpin(cid);
   }
 }
