@@ -16,7 +16,7 @@
     "@nestjs/axios": "0.1.0",
     "@nestjs/common": "9.0.11",
     "@nestjs/config": "2.2.0",
-    "@types/jest": "28.1.7",
+    "@types/jest": "28.1.8",
     "@types/zxcvbn": "4.4.1",
     "ethers": "5.7.0",
     "jest": "28.1.3",
