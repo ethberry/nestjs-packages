@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.8 (2022-08-28)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-intercom
+
+
+
+
+
 ## [2.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-intercom@2.0.6...@gemunion/nest-js-module-intercom@2.0.7) (2022-08-20)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-intercom

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.9.9 (2022-08-28)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([6b79a92](https://github.com/gemunion/nestjs-packages/commit/6b79a92e253f62b07fe8f6209738d489d46e05ef))
+* **deps:** update dependency @gemunion/draft-js-utils to v0.3.17 ([9b37116](https://github.com/gemunion/nestjs-packages/commit/9b37116c5a4fc2ed9861c6c7d2c3cffef85a3b06))
+
+
+
+
+
 ## 0.9.8 (2022-08-22)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm-postgres
