@@ -12,7 +12,8 @@ export AWS_S3_BUCKET=$AWS_S3_BUCKET
 export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
 
-lerna bootstrap --hoist
+lerna bootstrap --hoist --ignore-scripts
+lerna run build --stream
 
 # lerna run lint --stream
 

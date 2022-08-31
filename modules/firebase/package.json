@@ -41,7 +41,7 @@
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
-    "test": "exot 0"
+    "test": "exit 0"
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",

@@ -10,5 +10,6 @@
     }
   },
   "packages": ["utils/*", "modules/*"],
+  "useNx": true,
   "version": "independent"
 }
