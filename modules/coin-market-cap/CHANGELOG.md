@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-coin-market-cap@1.1.1...@gemunion/nest-js-module-coin-market-cap@1.1.2) (2022-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update [@gemunion](https://github.com/gemunion) packages ([a53f706](https://github.com/gemunion/nestjs-packages/commit/a53f706cb233c792f1f9cf2060e527d27e34cd24))
+
+
+
+
+
 ## 1.1.1 (2022-08-28)
 
 
