@@ -1,15 +1,14 @@
 import { JsonRpcProvider } from "@ethersproject/providers";
 
-export const blockAwait = async function (provider: JsonRpcProvider, blockDelay = 2): Promise<number> {
-  return new Promise(resolve => {
-    let initialBlockNumber = 0;
-    provider.on("block", (blockNumber: number) => {
-      if (!initialBlockNumber) {
-        initialBlockNumber = blockNumber;
-      }
-      if (blockNumber === initialBlockNumber + blockDelay) {
-        resolve(blockNumber);
-      }
-    });
-  });
+import { delay } from "./delay";
+
+export const blockAwait = async function (provider: JsonRpcProvider, blockDelay = 2): Promise<void> {
+  const initialBlock = await provider.getBlock("latest");
+  let currentBlock;
+  let delayB;
+  do {
+    await delay(5000);
+    currentBlock = await provider.getBlock("latest");
+    delayB = currentBlock.number - initialBlock.number;
+  } while (delayB < blockDelay);
 };
