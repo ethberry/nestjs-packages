@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2022-09-08)
+
+
+### Features
+
+* align coin gecko and coin market cap ([dcd612e](https://github.com/gemunion/nestjs-packages/commit/dcd612ef9f0f87884121f51aa9dd6b09a5c4bc20))
+
+
+
+
+
 ## [2.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-coin-gecko@2.0.8...@gemunion/nest-js-module-coin-gecko@2.0.9) (2022-09-03)
 
 
