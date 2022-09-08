@@ -1,29 +1,41 @@
 import { Injectable } from "@nestjs/common";
+import { ConfigService } from "@nestjs/config";
 import { HttpService } from "@nestjs/axios";
 import { map } from "rxjs/operators";
 import { URLSearchParams } from "url";
 import { firstValueFrom } from "rxjs";
 
 import { ICoinGeckoCoin, ICoinGeckoCoinListItem, ICoinGeckoCoinTicker } from "@gemunion/types-coin-gecko";
+import { ISearchOhlc, ISearchRates } from "./interfaces";
+
+// const baseUrl = "https://pro-api.coingecko.com/api/v3";
+const baseUrl = "https://api.coingecko.com/api/v3";
 
 @Injectable()
 export class CoinGeckoService {
-  constructor(private readonly httpService: HttpService) {}
+  constructor(private readonly httpService: HttpService, private readonly configService: ConfigService) {}
 
-  public async getCoinList(): Promise<Array<ICoinGeckoCoinListItem>> {
-    return this.sendRequest<Array<ICoinGeckoCoinListItem>>(`coins/list`, { include_platform: true });
+  public async coinList(): Promise<Array<ICoinGeckoCoinListItem>> {
+    return this.sendRequest<Array<ICoinGeckoCoinListItem>>("/coins/list", { include_platform: true });
   }
 
-  public async getOhlc(symbol: string): Promise<Array<Array<number>>> {
-    return this.sendRequest<Array<Array<number>>>(`/coins/${symbol}/ohlc`, { vs_currency: "usd", days: 1 });
+  // https://www.coingecko.com/en/api/documentation#operations-coins-get_coins__id__tickers
+  public async rates(dto: ISearchRates): Promise<ICoinGeckoCoinTicker | undefined> {
+    const { baseCoinId, targetCoinId, exchangeIds } = dto;
+    return this.sendRequest<ICoinGeckoCoin>(`/coins/${baseCoinId}`, {
+      exchange_ids: exchangeIds,
+    }).then(json => {
+      return json.tickers.find(ticker => ticker.target === targetCoinId.toUpperCase());
+    });
   }
 
-  public async getCoin(symbol: string): Promise<ICoinGeckoCoin> {
-    return this.sendRequest<ICoinGeckoCoin>(`/coins/${symbol}`, {});
-  }
-
-  public async getTicker(symbol: string): Promise<ICoinGeckoCoinTicker> {
-    return this.sendRequest<ICoinGeckoCoinTicker>(`/coins/${symbol}/ticker`, {});
+  // https://www.coingecko.com/en/api/documentation#operations-coins-get_coins__id__ohlc
+  public async ohlc(dto: ISearchOhlc): Promise<Array<Array<number>>> {
+    const { baseCoinId, targetCoinId, days } = dto;
+    return this.sendRequest<Array<Array<number>>>(`/coins/${baseCoinId}/ohlc`, {
+      vs_currency: targetCoinId,
+      days,
+    });
   }
 
   private getSearchParams(dto: Record<string, any>): string {
@@ -35,10 +47,16 @@ export class CoinGeckoService {
     return search.toString();
   }
 
-  private sendRequest<T>(url: string, data: Record<string, any>): Promise<T> {
+  private sendRequest<T>(url: string, params: Record<string, any>): Promise<T> {
+    const apiKey = this.configService.get<string>("COIN_GECKO_API_KEY", "");
+
+    Object.assign(params, {
+      x_cg_pro_api_key: apiKey,
+    });
+
     const response = this.httpService
       .request({
-        url: `https://api.coingecko.com/api/v/${url}?${this.getSearchParams(data)}`,
+        url: `${baseUrl}${url}?${this.getSearchParams(params)}`,
       })
       .pipe(map((response: { data: T }) => response.data));
 

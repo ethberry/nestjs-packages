@@ -4,16 +4,21 @@ import { NotFoundInterceptor, Public } from "@gemunion/nest-js-utils";
 import { ICmcQuote } from "@gemunion/types-coin-market-cap";
 
 import { CoinMarketCapService } from "./coin-market-cap.service";
-import { SearchRates } from "./dto";
+import { SearchRates, SearchOhlc } from "./dto";
 
 @Public()
 @Controller("/coin-market-cap")
 export class CoinMarketCapController {
-  constructor(private readonly cmcService: CoinMarketCapService) {}
+  constructor(private readonly coinMarketCapService: CoinMarketCapService) {}
 
   @Get("/rates")
   @UseInterceptors(NotFoundInterceptor)
   public rates(@Query() dto: SearchRates): Promise<ICmcQuote | undefined> {
-    return this.cmcService.rates(dto);
+    return this.coinMarketCapService.rates(dto);
+  }
+
+  @Get("/ohlc")
+  public ohlc(@Query() dto: SearchOhlc): Promise<any> {
+    return this.coinMarketCapService.ohlc(dto);
   }
 }

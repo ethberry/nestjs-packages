@@ -1,7 +1,8 @@
-import { Controller, Get, Param } from "@nestjs/common";
+import { Controller, Get, Query, UseInterceptors } from "@nestjs/common";
 
-import { Public } from "@gemunion/nest-js-utils";
+import { NotFoundInterceptor, Public } from "@gemunion/nest-js-utils";
 
+import { SearchOhlc, SearchRates } from "./dto";
 import { CoinGeckoService } from "./coin-gecko.service";
 
 @Public()
@@ -9,23 +10,14 @@ import { CoinGeckoService } from "./coin-gecko.service";
 export class CoinGeckoController {
   constructor(private readonly coinGeckoService: CoinGeckoService) {}
 
-  @Get("/coins/list")
-  public getCoinList(): Promise<any> {
-    return this.coinGeckoService.getCoinList();
-  }
-
-  @Get("/coins/:symbol")
-  public getCoin(@Param("symbol") symbol: string): Promise<any> {
-    return this.coinGeckoService.getCoin(symbol);
-  }
-
-  @Get("/coins/:symbol/ticker")
-  public getTicker(@Param("symbol") symbol: string): Promise<any> {
-    return this.coinGeckoService.getTicker(symbol);
+  @Get("/rates")
+  @UseInterceptors(NotFoundInterceptor)
+  public rates(@Query() dto: SearchRates): Promise<any | undefined> {
+    return this.coinGeckoService.rates(dto);
   }
 
   @Get("/ohlc")
-  public getOhlc(): Promise<any> {
-    return this.coinGeckoService.getOhlc("bitcoin");
+  public ohlc(@Query() dto: SearchOhlc): Promise<any> {
+    return this.coinGeckoService.ohlc(dto);
   }
 }
