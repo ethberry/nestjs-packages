@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/winston-formatter": "0.0.27",
-    "winston": "3.8.1",
+    "winston": "3.8.2",
     "winston-transport": "4.5.0"
   },
   "devDependencies": {
