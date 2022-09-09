@@ -15,9 +15,9 @@ export class PinataFirebaseController {
     return this.pinataService.testPinata();
   }
 
-  @Get("/test-firebase")
-  public testFirebase(@Res() res: Response): void {
-    const file = this.pinataService.testFirebase(imageUrl);
+  @Get("/test-download")
+  public testDownload(@Res() res: Response): void {
+    const file = this.pinataService.testFirebase(new URL(imageUrl).pathname.split("/").pop()!);
     file.pipe(res);
   }
 }

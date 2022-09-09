@@ -1,0 +1,51 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun",
+    "url": "https://gemunion.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
+  },
+  "dependencies": {
+    "@gemunion/constants": "0.8.5",
+    "@gemunion/nest-js-module-firebase": "0.1.1",
+    "@golevelup/nestjs-modules": "0.6.1",
+    "ipfs-http-client": "56.0.3",
+    "express": "4.18.1"
+  },
+  "devDependencies": {
+    "@nestjs/common": "9.0.11",
+    "@nestjs/core": "9.0.11",
+    "@types/express": "4.17.13"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/nest-js-module-infura-firebase",
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/core": "^8.0.0 || ^9.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/nestjs-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "-=Gemun Ion Studio=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.1"
+}

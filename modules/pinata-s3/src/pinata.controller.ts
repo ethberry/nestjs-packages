@@ -15,8 +15,8 @@ export class PinataS3Controller {
     return this.pinataService.testPinata();
   }
 
-  @Get("/test-s3")
-  public testS3(@Res() res: Response): void {
+  @Get("/test-download")
+  public testDownload(@Res() res: Response): void {
     const file = this.pinataService.testS3(imageUrl);
     file.pipe(res);
   }
