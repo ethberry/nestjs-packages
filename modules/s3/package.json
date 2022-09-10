@@ -13,7 +13,7 @@
     "aws-sdk": "2.1213.0",
     "class-validator": "0.13.2",
     "mime-types": "2.1.35",
-    "uuid": "8.3.2"
+    "uuid": "9.0.0"
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "2.0.9",
