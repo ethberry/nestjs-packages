@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.1.1...@gemunion/collection@2.2.0) (2022-09-14)
+
+
+### Features
+
+* uae ts-mixer ([17f1e6d](https://github.com/gemunion/nestjs-packages/commit/17f1e6d011ceefa8d7941a5384bc83b7afad8b86))
+
+
+
+
+
 ## [2.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.1.0...@gemunion/collection@2.1.1) (2022-09-14)
 
 
