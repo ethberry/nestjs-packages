@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.2.0...@gemunion/collection@2.2.1) (2022-09-14)
+
+
+### Bug Fixes
+
+* add type to wrapped swagger decorators ([284a395](https://github.com/gemunion/nestjs-packages/commit/284a3951ec58a894e5de738d831bfc712cec9852))
+* make search dto non-optional ([e4ef15b](https://github.com/gemunion/nestjs-packages/commit/e4ef15bd954945608293ff77dd64db91cd5ae3b5))
+* make search dto optional ([faf4ea4](https://github.com/gemunion/nestjs-packages/commit/faf4ea465e7d2007a57cb13e8ce6a2d6e214f6ff))
+
+
+
+
+
 # [2.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.1.1...@gemunion/collection@2.2.0) (2022-09-14)
 
 
