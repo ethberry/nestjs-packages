@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.1.0...@gemunion/collection@2.1.1) (2022-09-14)
+
+
+### Bug Fixes
+
+* new validators ([b3254b5](https://github.com/gemunion/nestjs-packages/commit/b3254b551c9f72f977498f8d8780f0f79eab6d42))
+
+
+
+
+
 # [2.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.0.9...@gemunion/collection@2.1.0) (2022-09-14)
 
 
