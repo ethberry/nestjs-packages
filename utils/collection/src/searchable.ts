@@ -7,22 +7,38 @@ import { ISearchableDto } from "@gemunion/types-collection";
 import { PaginationDto } from "./pagination";
 
 export class SearchableDto extends PaginationDto implements ISearchableDto {
-  @decorate(ApiProperty())
+  @decorate(
+    ApiProperty({
+      type: String,
+    }),
+  )
   @decorate(IsString({ message: "typeMismatch" }))
   public title: string;
 
-  @decorate(ApiProperty())
+  @decorate(
+    ApiProperty({
+      type: String,
+    }),
+  )
   @decorate(IsJSON({ message: "patternMismatch" }))
   public description: string;
 }
 
 export class SearchableOptionalDto extends PaginationDto implements ISearchableDto {
-  @decorate(ApiPropertyOptional())
+  @decorate(
+    ApiPropertyOptional({
+      type: String,
+    }),
+  )
   @decorate(IsOptional())
   @decorate(IsString({ message: "typeMismatch" }))
   public title: string;
 
-  @decorate(ApiPropertyOptional())
+  @decorate(
+    ApiPropertyOptional({
+      type: String,
+    }),
+  )
   @decorate(IsOptional())
   @decorate(IsJSON({ message: "patternMismatch" }))
   public description: string;

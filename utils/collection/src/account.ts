@@ -4,7 +4,11 @@ import { Transform } from "class-transformer";
 import { decorate } from "ts-mixer";
 
 export class AccountDto {
-  @decorate(ApiProperty())
+  @decorate(
+    ApiProperty({
+      type: String,
+    }),
+  )
   @decorate(IsString({ message: "typeMismatch" }))
   @decorate(IsEthereumAddress({ message: "patternMismatch" }))
   @decorate(Transform(({ value }: { value: string }) => value.toLowerCase()))
@@ -12,7 +16,11 @@ export class AccountDto {
 }
 
 export class AccountOptionalDto {
-  @decorate(ApiPropertyOptional())
+  @decorate(
+    ApiPropertyOptional({
+      type: String,
+    }),
+  )
   @decorate(IsOptional())
   @decorate(IsString({ message: "typeMismatch" }))
   @decorate(IsEthereumAddress({ message: "patternMismatch" }))
