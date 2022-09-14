@@ -1,5 +1,5 @@
-import { ApiProperty } from "@nestjs/swagger";
-import { IsString, IsJSON } from "class-validator";
+import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
+import { IsJSON, IsOptional, IsString } from "class-validator";
 
 import { ISearchableDto } from "@gemunion/types-collection";
 
@@ -11,6 +11,18 @@ export class SearchableDto extends PaginationDto implements ISearchableDto {
   public title: string;
 
   @ApiProperty()
+  @IsJSON({ message: "patternMismatch" })
+  public description: string;
+}
+
+export class SearchableOptionalDto extends PaginationDto implements ISearchableDto {
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString({ message: "typeMismatch" })
+  public title: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
   @IsJSON({ message: "patternMismatch" })
   public description: string;
 }
