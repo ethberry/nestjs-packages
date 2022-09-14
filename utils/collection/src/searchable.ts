@@ -1,28 +1,29 @@
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsJSON, IsOptional, IsString } from "class-validator";
+import { decorate } from "ts-mixer";
 
 import { ISearchableDto } from "@gemunion/types-collection";
 
 import { PaginationDto } from "./pagination";
 
 export class SearchableDto extends PaginationDto implements ISearchableDto {
-  @ApiProperty()
-  @IsString({ message: "typeMismatch" })
+  @decorate(ApiProperty())
+  @decorate(IsString({ message: "typeMismatch" }))
   public title: string;
 
-  @ApiProperty()
-  @IsJSON({ message: "patternMismatch" })
+  @decorate(ApiProperty())
+  @decorate(IsJSON({ message: "patternMismatch" }))
   public description: string;
 }
 
 export class SearchableOptionalDto extends PaginationDto implements ISearchableDto {
-  @ApiPropertyOptional()
-  @IsOptional()
-  @IsString({ message: "typeMismatch" })
+  @decorate(ApiPropertyOptional())
+  @decorate(IsOptional())
+  @decorate(IsString({ message: "typeMismatch" }))
   public title: string;
 
-  @ApiPropertyOptional()
-  @IsOptional()
-  @IsJSON({ message: "patternMismatch" })
+  @decorate(ApiPropertyOptional())
+  @decorate(IsOptional())
+  @decorate(IsJSON({ message: "patternMismatch" }))
   public description: string;
 }
