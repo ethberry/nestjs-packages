@@ -10,8 +10,8 @@
   "description": "blockchain utils",
   "devDependencies": {
     "@ethersproject/abstract-signer": "5.7.0",
-    "@ethersproject/providers": "5.7.0",
-    "ethers": "5.7.0"
+    "@ethersproject/providers": "5.7.1",
+    "ethers": "5.7.1"
   },
   "engines": {
     "node": ">=12.13"
