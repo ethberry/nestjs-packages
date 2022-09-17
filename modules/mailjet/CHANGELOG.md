@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.5 (2022-09-17)
+
+
+### Bug Fixes
+
+* **deps:** update [@gemunion](https://github.com/gemunion) packages ([41d705a](https://github.com/gemunion/nestjs-packages/commit/41d705a3fbf64de3d442217f41637ce3da32e0b5))
+
+
+
+
+
 ## [2.1.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailjet@2.1.3...@gemunion/nest-js-module-mailjet@2.1.4) (2022-09-03)
 
 
