@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/constants": "0.8.5",
-    "@gemunion/draft-js-utils": "0.3.19",
+    "@gemunion/draft-js-utils": "0.3.20",
     "@gemunion/types-collection": "1.5.2",
     "ts-mixer": "6.0.1"
   },
