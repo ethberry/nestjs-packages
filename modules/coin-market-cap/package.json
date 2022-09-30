@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-utils": "2.0.12",
-    "@gemunion/types-coin-market-cap": "0.1.1",
+    "@gemunion/types-coin-market-cap": "0.1.2",
     "class-validator": "0.13.2"
   },
   "devDependencies": {
