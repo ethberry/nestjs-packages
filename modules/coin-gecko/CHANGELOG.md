@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-coin-gecko@2.1.3...@gemunion/nest-js-module-coin-gecko@2.1.4) (2022-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update [@gemunion](https://github.com/gemunion) packages ([2b0c34b](https://github.com/gemunion/nestjs-packages/commit/2b0c34bf3cd4c9f1159938720deb3762e7d22fe3))
+
+
+
+
+
 ## [2.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-coin-gecko@2.1.2...@gemunion/nest-js-module-coin-gecko@2.1.3) (2022-09-24)
 
 
