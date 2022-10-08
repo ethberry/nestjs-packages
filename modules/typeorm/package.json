@@ -12,7 +12,7 @@
     "@gemunion/types-collection": "1.5.4"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "2.0.12",
+    "@gemunion/nest-js-module-license": "2.0.13",
     "@nestjs/common": "9.1.4",
     "@nestjs/config": "2.2.0",
     "@nestjs/typeorm": "9.0.1",
