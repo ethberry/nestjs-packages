@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager@1.0.15...@gemunion/nest-js-module-secret-manager@1.0.16) (2022-10-16)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-secret-manager
+
 ## [1.0.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager@1.0.14...@gemunion/nest-js-module-secret-manager@1.0.15) (2022-10-08)
 
 ### Bug Fixes
