@@ -1,5 +1,5 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
-import { Client, ILibraryResponse } from "node-mailjet";
+import Client, { ILibraryResponse } from "node-mailjet";
 
 import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
 
