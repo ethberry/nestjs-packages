@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.11 (2022-10-22)
+
+**Note:** Version bump only for package @gemunion/nest-js-utils-ms
+
 ## [2.0.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils-ms@2.0.9...@gemunion/nest-js-utils-ms@2.0.10) (2022-10-08)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils-ms
