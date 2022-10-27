@@ -9,7 +9,7 @@
       "yes": true
     }
   },
-  "packages": ["utils/*", "modules/*"],
+  "packages": ["ipfs/*", "modules/*", "utils/*"],
   "useNx": true,
   "version": "independent"
 }

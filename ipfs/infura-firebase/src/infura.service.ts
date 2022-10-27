@@ -26,17 +26,12 @@ export class InfuraFirebaseService {
     });
   }
 
-  public pinFileToIPFS(objectName: string) {
+  public pinFileToIPFS(objectName: string): Promise<string> {
     const stream = this.firebaseService.getObjectAsStream({ objectName });
-
-    // https://github.com/InfuraCloud/Infura-SDK/issues/28#issuecomment-816439078
-    // @ts-ignore
-    stream.path = objectName;
-
-    return this.infura.add(stream);
+    return this.infura.add(stream).then(result => result.path);
   }
 
-  public pinJSONToIPFS(data: Record<string, any>, _objectName?: string) {
-    return this.infura.add(JSON.stringify(data));
+  public pinJSONToIPFS(data: Record<string, any>, _objectName?: string): Promise<string> {
+    return this.infura.add(JSON.stringify(data)).then(result => result.path);
   }
 }
