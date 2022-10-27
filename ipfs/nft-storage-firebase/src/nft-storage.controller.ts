@@ -3,7 +3,7 @@ import { Response } from "express";
 
 import { imageUrl } from "@gemunion/constants";
 
-import { NftStorageFirebaseService } from "./storage.service";
+import { NftStorageFirebaseService } from "./nft-storage.service";
 
 @Controller("/nft-storage-firebase")
 export class NftStorageFirebaseController {

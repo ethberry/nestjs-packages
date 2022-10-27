@@ -4,8 +4,8 @@ import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 import { FirebaseModule } from "@gemunion/nest-js-module-firebase";
 
 import { IWeb3StorageOptions } from "./interfaces";
-import { Web3StorageFirebaseService } from "./storage.service";
-import { WEB3STORAGE_OPTIONS_PROVIDER } from "./storage.constants";
+import { Web3StorageFirebaseService } from "./web3-storage.service";
+import { WEB3STORAGE_OPTIONS_PROVIDER } from "./web3-storage.constants";
 
 @Module({
   imports: [FirebaseModule.deferred()],

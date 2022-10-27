@@ -3,7 +3,7 @@ import { Response } from "express";
 
 import { imageUrl } from "@gemunion/constants";
 
-import { Web3StorageFirebaseService } from "./storage.service";
+import { Web3StorageFirebaseService } from "./web3-storage.service";
 
 @Controller("/web3-storage-firebase")
 export class Web3StorageFirebaseController {
