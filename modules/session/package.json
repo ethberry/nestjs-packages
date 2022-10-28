@@ -13,7 +13,7 @@
     "express-session": "1.17.3"
   },
   "devDependencies": {
-    "@types/connect-redis": "0.0.18",
+    "@types/connect-redis": "0.0.19",
     "@types/express-session": "1.17.5",
     "ioredis": "5.2.3"
   },
