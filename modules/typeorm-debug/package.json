@@ -28,8 +28,8 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-typeorm-debug",
   "peerDependencies": {
-    "@nestjs/axios": "^0.0.1 || ^0.1.0 || ^1.0.0",
-    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/axios": "^1.0.0",
+    "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.0.0",
     "@nestjs/typeorm": "^8.0.0 || ^9.0.0",
     "typeorm": "^0.0.1 || ^0.3.0"

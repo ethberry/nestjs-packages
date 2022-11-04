@@ -35,11 +35,11 @@
   "peerDependencies": {
     "@gemunion/nest-js-module-license": "^2.0.0",
     "@liaoliaots/nestjs-redis": "^8.0.0 || ^9.0.0",
-    "@nestjs/axios": "^0.0.1 || ^0.1.0 || ^1.0.0",
-    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/axios": "^1.0.0",
+    "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.0.0",
     "@nestjs/schedule": "^1.0.0 || ^2.0.0",
-    "@nestjs/swagger": "^5.0.0 || ^6.0.0",
+    "@nestjs/swagger": "^6.0.0",
     "ioredis": "^4.0.0 || ^5.0.0",
     "rxjs": "^7.0.0"
   },

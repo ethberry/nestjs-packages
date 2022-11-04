@@ -35,7 +35,7 @@
   "name": "@gemunion/nest-js-module-metamask",
   "peerDependencies": {
     "@gemunion/nest-js-module-license": "^2.0.0",
-    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/common": "^9.0.0",
     "@nestjs/swagger": "^5.0.0 || ^6.0.0"
   },
   "publishConfig": {

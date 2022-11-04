@@ -21,7 +21,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-utils-ms",
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^8.0.0 || ^9.0.0",
     "@nestjs/microservices": "^8.0.0 || ^9.0.0",
     "rxjs": "^7.0.0"

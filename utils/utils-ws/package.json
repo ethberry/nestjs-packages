@@ -19,7 +19,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-utils-ws",
   "peerDependencies": {
-    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/common": "^9.0.0",
     "@nestjs/websockets": "^8.0.0 || ^9.0.0"
   },
   "publishConfig": {
