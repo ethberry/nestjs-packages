@@ -1,9 +1,9 @@
 import { getMetadataArgsStorage, ValueTransformer } from "typeorm";
-import { getPainText } from "@gemunion/draft-js-utils";
+import { getText } from "@gemunion/draft-js-utils";
 
 export class DraftValueTransformer implements ValueTransformer {
   from(data: Record<string, any>) {
-    return getPainText(JSON.stringify(data));
+    return getText(JSON.stringify(data));
   }
 
   to(data: string) {
