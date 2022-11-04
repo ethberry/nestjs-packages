@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "2.0.15",
-    "@nestjs/axios": "0.1.0",
+    "@nestjs/axios": "1.0.0",
     "@nestjs/common": "9.1.6",
     "@nestjs/config": "2.2.0",
     "@nestjs/swagger": "6.1.3",
@@ -30,7 +30,7 @@
   "name": "@gemunion/nest-js-module-coin-market-cap",
   "peerDependencies": {
     "@gemunion/nest-js-module-license": "^2.0.0",
-    "@nestjs/axios": "^0.0.1 || ^0.1.0",
+    "@nestjs/axios": "^0.0.1 || ^0.1.0 || ^1.0.0",
     "@nestjs/common": "^8.0.0 || ^9.0.0",
     "@nestjs/config": "^2.0.0",
     "@nestjs/swagger": "^5.0.0 || ^6.0.0",
