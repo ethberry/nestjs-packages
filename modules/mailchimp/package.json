@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "2.0.15",
-    "@nestjs/axios": "0.1.0",
+    "@nestjs/axios": "1.0.0",
     "@nestjs/common": "9.1.6",
     "@types/mailchimp__mailchimp_marketing": "3.0.6"
   },
@@ -26,7 +26,7 @@
   "name": "@gemunion/nest-js-module-mailchimp",
   "peerDependencies": {
     "@gemunion/nest-js-module-license": "^2.0.0",
-    "@nestjs/axios": "^0.0.1 || ^0.1.0",
+    "@nestjs/axios": "^0.0.1 || ^0.1.0 || ^1.0.0",
     "@nestjs/common": "^8.0.0 || ^9.0.0",
     "rxjs": "^7.0.0"
   },
