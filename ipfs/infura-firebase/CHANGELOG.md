@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-infura-firebase@0.1.2...@gemunion/nest-js-module-infura-firebase@0.1.3) (2022-11-11)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-infura-firebase
+
 ## [0.1.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-infura-firebase@0.1.1...@gemunion/nest-js-module-infura-firebase@0.1.2) (2022-11-04)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-infura-firebase
