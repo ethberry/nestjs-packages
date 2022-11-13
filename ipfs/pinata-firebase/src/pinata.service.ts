@@ -10,18 +10,18 @@ import { IPinataAuth, IPinataOptions } from "./interfaces";
 
 @Injectable()
 export class PinataFirebaseService {
-  private pinata: PinataClient;
+  private client: PinataClient;
 
   constructor(
     @Inject(PINATA_OPTIONS_PROVIDER)
     private readonly options: IPinataOptions,
     private readonly firebaseService: FirebaseService,
   ) {
-    this.pinata = pinataSDK(options.pinataApiKey, options.pinataApiSecret);
+    this.client = pinataSDK(options.pinataApiKey, options.pinataApiSecret);
   }
 
   public testPinata(): Promise<IPinataAuth> {
-    return this.pinata.testAuthentication();
+    return this.client.testAuthentication();
   }
 
   public testFirebase(objectName: string): Readable {
@@ -37,7 +37,7 @@ export class PinataFirebaseService {
     // @ts-ignore
     stream.path = objectName;
 
-    return this.pinata
+    return this.client
       .pinFileToIPFS(stream, {
         pinataMetadata: {
           name: objectName,
@@ -50,7 +50,7 @@ export class PinataFirebaseService {
   }
 
   public pinJSONToIPFS(data: Record<string, any>, objectName: string): Promise<string> {
-    return this.pinata
+    return this.client
       .pinJSONToIPFS(data, {
         pinataMetadata: {
           name: objectName,
@@ -63,6 +63,6 @@ export class PinataFirebaseService {
   }
 
   public async unpin(cid: string): Promise<void> {
-    await this.pinata.unpin(cid);
+    await this.client.unpin(cid);
   }
 }
