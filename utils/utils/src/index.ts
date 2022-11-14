@@ -8,6 +8,7 @@ export * from "./decorators/roles";
 export * from "./decorators/user";
 
 export * from "./filters/http";
+export * from "./filters/validation";
 
 export * from "./interceptors/empty-pipe";
 export * from "./interceptors/not-found";
