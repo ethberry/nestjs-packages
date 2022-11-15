@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.19...@gemunion/nest-js-utils@2.1.0) (2022-11-15)
+
+### Features
+
+- validation exception filter ([65f0a8f](https://github.com/gemunion/nestjs-packages/commit/65f0a8f388dfb4a4cb771cf6e436bdf126771e03))
+
 ## [2.0.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.18...@gemunion/nest-js-utils@2.0.19) (2022-11-11)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
