@@ -11,7 +11,7 @@
     "@nestjs/common": "9.2.1",
     "@nestjs/core": "9.2.1",
     "@nestjs/microservices": "9.2.1",
-    "rxjs": "7.5.7"
+    "rxjs": "7.6.0"
   },
   "engines": {
     "node": ">=12.13"

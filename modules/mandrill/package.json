@@ -15,7 +15,7 @@
     "@gemunion/nest-js-module-license": "2.0.17",
     "@nestjs/axios": "1.0.0",
     "@nestjs/common": "9.2.1",
-    "rxjs": "7.5.7"
+    "rxjs": "7.6.0"
   },
   "engines": {
     "node": ">=12.13"
