@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "ethers": "5.7.2",
-    "typeorm": "0.3.10"
+    "typeorm": "0.3.11"
   },
   "engines": {
     "node": ">=12.13"
