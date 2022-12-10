@@ -15,7 +15,7 @@
     "class-validator": "0.14.0"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "2.0.17",
+    "@gemunion/nest-js-module-license": "2.0.18",
     "@nestjs/common": "9.2.1",
     "@nestjs/swagger": "6.1.3",
     "@nestjs/testing": "9.2.1",
