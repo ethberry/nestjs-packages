@@ -1,7 +1,7 @@
 import { Column } from "typeorm";
 import { decorate } from "ts-mixer";
 
-import { IDeployable } from "@gemunion/types-collection";
+import type { IDeployable } from "@gemunion/types-blockchain";
 
 import { IdDateBaseEntity } from "./id-date";
 
