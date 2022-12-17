@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-module-typeorm-logger": "2.0.16",
-    "@gemunion/types-collection": "1.5.4"
+    "@gemunion/types-collection": "1.5.5"
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "2.0.19",
