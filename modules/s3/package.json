@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/nest-js-validators": "2.1.17",
     "@golevelup/nestjs-modules": "0.6.1",
-    "aws-sdk": "2.1277.0",
+    "aws-sdk": "2.1282.0",
     "class-validator": "0.14.0",
     "mime-types": "2.1.35",
     "uuid": "9.0.0"
