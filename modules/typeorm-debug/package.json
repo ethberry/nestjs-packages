@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-module-debug": "1.0.19",
+    "@gemunion/nest-js-module-debug": "1.0.20",
     "@gemunion/nest-js-module-typeorm": "2.0.24",
     "@gemunion/nest-js-module-typeorm-logger": "2.0.16",
     "@nestjs/axios": "1.0.1"
