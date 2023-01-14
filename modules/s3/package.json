@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-validators": "2.1.18",
+    "@gemunion/nest-js-validators": "2.1.19",
     "@golevelup/nestjs-modules": "0.6.1",
     "aws-sdk": "2.1295.0",
     "class-validator": "0.14.0",
@@ -58,5 +58,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.31"
+  "version": "2.0.32"
 }

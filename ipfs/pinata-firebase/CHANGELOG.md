@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-pinata-firebase@1.2.8...@gemunion/nest-js-module-pinata-firebase@1.2.9) (2023-01-14)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9115e8d](https://github.com/gemunion/nestjs-packages/commit/9115e8de4c005ea9f264ef91f80a76c3efdacb49))
+
 ## 1.2.8 (2022-12-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-pinata-firebase
