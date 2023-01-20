@@ -18,7 +18,7 @@ export class SecretManagerService {
     this.client = new SecretsManager({ accessKeyId, secretAccessKey, region });
   }
 
-  async getSecret(name: string): Promise<string | undefined> {
+  async getSecret(name: string): Promise<string | void> {
     return this.client
       .getSecretValue({ SecretId: name })
       .promise()
@@ -33,7 +33,7 @@ export class SecretManagerService {
       })
       .catch(e => {
         this.loggerService.error(e.message, e.originalError.stack, SecretManagerService.name);
-        return "";
+        return void 0;
       });
   }
 }
