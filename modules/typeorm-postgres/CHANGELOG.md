@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.28](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-postgres@0.9.27...@gemunion/nest-js-module-typeorm-postgres@0.9.28) (2023-01-21)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ceb7d1b](https://github.com/gemunion/nestjs-packages/commit/ceb7d1b14a97ad8bdf84c96aa521427dff3e580f))
+
 ## [0.9.27](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-postgres@0.9.26...@gemunion/nest-js-module-typeorm-postgres@0.9.27) (2023-01-14)
 
 ### Bug Fixes
