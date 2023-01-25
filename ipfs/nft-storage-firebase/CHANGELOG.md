@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-nft-storage-firebase@1.0.12...@gemunion/nest-js-module-nft-storage-firebase@1.1.0) (2023-01-25)
+
+### Features
+
+- gender and country enum ([5370cd4](https://github.com/gemunion/nestjs-packages/commit/5370cd4b5f9b0f3211c8f53169951cf72c42dc9f))
+
 ## [1.0.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-nft-storage-firebase@1.0.11...@gemunion/nest-js-module-nft-storage-firebase@1.0.12) (2023-01-25)
 
 ### Bug Fixes

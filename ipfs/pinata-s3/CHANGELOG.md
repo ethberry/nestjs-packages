@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-pinata-s3@1.2.13...@gemunion/nest-js-module-pinata-s3@1.3.0) (2023-01-25)
+
+### Features
+
+- gender and country enum ([5370cd4](https://github.com/gemunion/nestjs-packages/commit/5370cd4b5f9b0f3211c8f53169951cf72c42dc9f))
+
 ## [1.2.13](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-pinata-s3@1.2.12...@gemunion/nest-js-module-pinata-s3@1.2.13) (2023-01-25)
 
 ### Bug Fixes
