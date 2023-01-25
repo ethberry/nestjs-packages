@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.9.1",
+    "@gemunion/constants": "0.10.0",
     "@gemunion/nest-js-module-firebase": "0.1.16",
     "@golevelup/nestjs-modules": "0.6.1",
     "@pinata/sdk": "1.2.1",
