@@ -17,6 +17,8 @@
     "CreateDomainUint2561561991000002",
     "InstallExtensionUUID1561991000003",
     "CreateLanguageEnum1561991000004",
-    "CreateTokenTypes1561991000005"
+    "CreateTokenTypesEnum1561991000005",
+    "CreateCountryEnum1561991000006",
+    "CreateGenderEnum1561991000007"
   ]
 }
