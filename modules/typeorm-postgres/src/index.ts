@@ -15,3 +15,5 @@ export * from "./migrations/1561991000002-create-uint256";
 export * from "./migrations/1561991000003-install-extension";
 export * from "./migrations/1561991000004-create-language-enum";
 export * from "./migrations/1561991000005-create-token-types-enum";
+export * from "./migrations/1561991000006-create-country-enum";
+export * from "./migrations/1561991000007-create-gender-enum";
