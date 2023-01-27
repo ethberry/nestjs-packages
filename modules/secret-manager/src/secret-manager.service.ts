@@ -32,7 +32,7 @@ export class SecretManagerService {
         return void 0;
       })
       .catch(e => {
-        this.loggerService.error(e.message, e.originalError.stack, SecretManagerService.name);
+        this.loggerService.error(e.message, e.stack, SecretManagerService.name);
         return void 0;
       });
   }

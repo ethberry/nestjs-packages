@@ -9,7 +9,7 @@ import { ISecretManagerOptions } from "./interfaces";
 
 @Module({
   imports: [LicenseModule.deferred()],
-  providers: [Logger, SecretManagerService, licenseProvider],
+  providers: [Logger, licenseProvider, SecretManagerService],
   exports: [SecretManagerService],
 })
 export class SecretManagerModule extends createConfigurableDynamicRootModule<
