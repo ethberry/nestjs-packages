@@ -4,6 +4,4 @@ export interface ISdkOptions {
   secretAccessKey: string;
 }
 
-export interface ISecretManagerOptions extends ISdkOptions {
-  from: string;
-}
+export interface ISecretManagerOptions extends ISdkOptions {}
