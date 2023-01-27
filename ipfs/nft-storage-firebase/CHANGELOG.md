@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.2 (2023-01-27)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([6414a37](https://github.com/gemunion/nestjs-packages/commit/6414a37bf10dddf152822604bb774bd08d4c4c27))
+
 ## [1.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-nft-storage-firebase@1.1.0...@gemunion/nest-js-module-nft-storage-firebase@1.1.1) (2023-01-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-nft-storage-firebase
