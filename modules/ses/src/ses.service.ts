@@ -43,7 +43,7 @@ export class SesService implements ISendMailService {
         return { status: true };
       })
       .catch(e => {
-        this.loggerService.error(e.message, e.originalError.stack, SesService.name);
+        this.loggerService.error(e.message, e.stack, SesService.name);
         return { status: false };
       });
   }
