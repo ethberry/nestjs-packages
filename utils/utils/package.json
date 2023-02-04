@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/axios": "1.0.1",
+    "@nestjs/axios": "2.0.0",
     "@nestjs/common": "9.3.2",
     "@nestjs/config": "2.3.0",
     "@nestjs/core": "9.3.2",
@@ -27,13 +27,13 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-utils",
   "peerDependencies": {
-    "@nestjs/axios": "^0.0.",
+    "@nestjs/axios": "^2.0.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.0.0",
     "@nestjs/core": "^8.0.0 || ^9.0.0",
     "@nestjs/swagger": "^6.0.0",
     "body-parser": "^1.0.0",
-    "class-validator": "^0.3.0 || ^0.13.0 || ^0.14.0",
+    "class-validator": "^0.14.0",
     "ethers": "^5.6.0",
     "express": "^4.0.0",
     "rxjs": "^7.0.0"
