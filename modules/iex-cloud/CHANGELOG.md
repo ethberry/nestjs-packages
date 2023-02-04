@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.36](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-iex-cloud@2.0.35...@gemunion/nest-js-module-iex-cloud@2.0.36) (2023-02-04)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([cd1a8b9](https://github.com/gemunion/nestjs-packages/commit/cd1a8b9934465a32daa691e2acb54b38657ad5fc))
+
 ## [2.0.35](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-iex-cloud@2.0.34...@gemunion/nest-js-module-iex-cloud@2.0.35) (2023-02-04)
 
 ### Bug Fixes
