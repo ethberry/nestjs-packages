@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.6 (2023-02-04)
+
+### Bug Fixes
+
+- manually update nestjs/axious ([e6297ce](https://github.com/gemunion/nestjs-packages/commit/e6297ce347b7fa4974a695778bf544276f54e4e4))
+
 ## 2.1.5 (2023-01-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
