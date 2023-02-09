@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.2.4 (2023-02-09)
+
+**Note:** Version bump only for package @gemunion/nest-js-validators
+
 ## [2.2.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.2...@gemunion/nest-js-validators@2.2.3) (2023-02-04)
 
 ### Bug Fixes
