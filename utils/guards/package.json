@@ -8,9 +8,9 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "9.3.2",
-    "@nestjs/core": "9.3.2",
-    "@nestjs/passport": "9.0.1"
+    "@nestjs/common": "9.3.7",
+    "@nestjs/core": "9.3.7",
+    "@nestjs/passport": "9.0.3"
   },
   "engines": {
     "node": ">=12.13"
