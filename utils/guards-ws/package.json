@@ -12,7 +12,7 @@
     "@nestjs/core": "9.3.8",
     "@nestjs/passport": "9.0.3",
     "@nestjs/websockets": "9.3.8",
-    "socket.io": "4.5.4"
+    "socket.io": "4.6.0"
   },
   "engines": {
     "node": ">=12.13"
