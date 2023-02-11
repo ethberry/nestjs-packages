@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.10.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-postgres@0.10.5...@gemunion/nest-js-module-typeorm-postgres@0.10.6) (2023-02-11)
+
+### Bug Fixes
+
+- **deps:** update dependency ts-mixer to v6.0.3 ([0289ced](https://github.com/gemunion/nestjs-packages/commit/0289ceddde17fa065f61bba3c6d147ab066e4b13))
+
 ## 0.10.5 (2023-02-11)
 
 ### Bug Fixes
