@@ -14,7 +14,7 @@
     "aws-sdk": "2.1313.0"
   },
   "devDependencies": {
-    "@nestjs/common": "9.3.8"
+    "@nestjs/common": "9.3.9"
   },
   "engines": {
     "node": ">=12.13"
