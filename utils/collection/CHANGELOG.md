@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.4.0 (2023-02-22)
+
+### Features
+
+- add referrer dto ([ac828b0](https://github.com/gemunion/nestjs-packages/commit/ac828b057c49e15c1673b04b7509087632b4d6d4))
+
 ## 2.3.5 (2023-02-11)
 
 ### Bug Fixes
