@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nestjs-ethers": "3.0.27",
     "@gemunion/contracts-constants": "1.1.37",
+    "@gemunion/nestjs-ethers": "3.0.27",
     "@nestjs/common": "9.3.9",
     "@nestjs/config": "2.3.1",
     "ethers": "5.7.2"
@@ -37,5 +37,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
