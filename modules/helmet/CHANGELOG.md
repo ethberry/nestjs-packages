@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.28 (2023-02-25)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-helmet
+
 ## 3.1.27 (2023-02-18)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-helmet

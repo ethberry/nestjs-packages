@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.24 (2023-02-25)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-firebase
+
 ## 0.1.23 (2023-02-18)
 
 ### Bug Fixes
