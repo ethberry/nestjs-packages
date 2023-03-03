@@ -4,9 +4,7 @@ import { decorate } from "ts-mixer";
 
 import { IDateBase, ISortDto, SortDirection } from "@gemunion/types-collection";
 
-import { SearchDto } from "./search";
-
-export class SortDto<T extends IDateBase> extends SearchDto implements ISortDto<T> {
+export class SortDto<T extends IDateBase> implements ISortDto<T> {
   @decorate(
     ApiPropertyOptional({
       type: String,
