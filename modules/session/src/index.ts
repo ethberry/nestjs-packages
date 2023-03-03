@@ -1,5 +1,5 @@
 import session from "express-session";
-import connectRedis from "connect-redis";
+import RedisStore from "connect-redis";
 import { Redis } from "ioredis";
 
 import { createModule } from "@gemunion/nest-js-create-middleware-module";
@@ -26,7 +26,7 @@ export const SessionModule = createModule<ISessionOptions>(options => {
     name,
     resave: false,
     secret,
-    store: new (connectRedis(session))({ client }),
+    store: new RedisStore({ client }),
     saveUninitialized: true,
     proxy: true,
   });
