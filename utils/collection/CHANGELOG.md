@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.4.1 (2023-03-03)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([44429a7](https://github.com/gemunion/nestjs-packages/commit/44429a7dc07ed7e95e5136e4711e53006e32da9f))
+- sort does not extend search ([9db5850](https://github.com/gemunion/nestjs-packages/commit/9db58509832c8a328bc6f5c67d7e013408b1f57f))
+
 # 2.4.0 (2023-02-22)
 
 ### Features
