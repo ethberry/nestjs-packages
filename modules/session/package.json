@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-create-middleware-module": "2.0.37",
-    "connect-redis": "7.0.0",
+    "connect-redis": "7.0.1",
     "express-session": "1.17.3"
   },
   "devDependencies": {
