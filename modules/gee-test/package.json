@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-utils": "2.1.10",
+    "@gemunion/nest-js-utils": "2.1.11",
     "class-validator": "0.14.0",
     "qs": "6.11.1",
     "uuid": "9.0.0"
@@ -60,5 +60,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "2.0.38"
+  "version": "2.0.39"
 }
