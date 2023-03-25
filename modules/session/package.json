@@ -13,7 +13,7 @@
     "express-session": "1.17.3"
   },
   "devDependencies": {
-    "@types/express-session": "1.17.6",
+    "@types/express-session": "1.17.7",
     "ioredis": "5.3.1"
   },
   "engines": {
