@@ -8,10 +8,10 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
+    "@aws-sdk/client-ses": "3.299.0",
     "@gemunion/nest-js-module-license": "2.0.31",
     "@gemunion/types-email": "0.2.12",
-    "@golevelup/nestjs-modules": "0.6.1",
-    "@aws-sdk/client-ses": "3.299.0"
+    "@golevelup/nestjs-modules": "0.6.1"
   },
   "devDependencies": {
     "@nestjs/common": "9.3.12"
@@ -44,5 +44,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.0.0"
+  "version": "3.1.0"
 }

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.1.0 (2023-03-26)
+
+### Features
+
+- aws-sdk v3 SES ([31a8875](https://github.com/gemunion/nestjs-packages/commit/31a887536d2011f06a13b6ee379115822b87a21a))
+
 ## [2.0.41](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-ses@2.0.40...@gemunion/nest-js-module-ses@2.0.41) (2023-03-25)
 
 ### Bug Fixes

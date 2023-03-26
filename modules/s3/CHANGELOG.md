@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@3.1.0...@gemunion/nest-js-module-s3@3.2.0) (2023-03-26)
+
+### Features
+
+- aws-sdk v3 s3 ([4b8f8a3](https://github.com/gemunion/nestjs-packages/commit/4b8f8a329ca50e159a9ddb76e773099839c00289))
+
 # [3.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@2.0.47...@gemunion/nest-js-module-s3@3.1.0) (2023-03-26)
 
 ### Features
