@@ -1,6 +1,5 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
-import { SES } from "aws-sdk";
-
+import { SES, SendEmailCommand } from "@aws-sdk/client-ses";
 import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
 
 import { ISesOptions } from "./interfaces";
@@ -17,28 +16,31 @@ export class SesService implements ISendMailService {
     private readonly options: ISesOptions,
   ) {
     const { accessKeyId, secretAccessKey, region } = options;
-    this.client = new SES({ accessKeyId, secretAccessKey, region });
+    this.client = new SES({ credentials: { accessKeyId, secretAccessKey }, region });
   }
 
   async sendEmail(mail: ISendEmailDto): Promise<IEmailResult> {
+    const sendEmailCommand = new SendEmailCommand({
+      Source: this.options.from,
+      Destination: {
+        ToAddresses: mail.to,
+      },
+      Message: {
+        Body: {
+          Html: {
+            Charset: "UTF-8",
+            Data: mail.html,
+          },
+        },
+        Subject: {
+          Charset: "UTF-8",
+          Data: mail.subject,
+        },
+      },
+    });
+
     return this.client
-      .sendEmail({
-        Source: this.options.from,
-        Destination: {
-          ToAddresses: mail.to,
-        },
-        Message: {
-          Body: {
-            Html: {
-              Data: mail.html,
-            },
-          },
-          Subject: {
-            Data: mail.subject,
-          },
-        },
-      })
-      .promise()
+      .send(sendEmailCommand)
       .then(() => {
         return { status: true };
       })
