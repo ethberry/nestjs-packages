@@ -18,6 +18,11 @@ export class S3Controller {
     return this.s3Service.getSignedObject(data);
   }
 
+  @Get("/get-stream")
+  public getObjectAsStream(@Query() data: S3GetDto): Promise<ReadableStream> {
+    return this.s3Service.getObjectAsStream(data);
+  }
+
   @Get("/delete")
   public deleteObject(@Query() data: S3DeleteDto): Promise<any> {
     return this.s3Service.deleteObject(data);
