@@ -1,9 +1,10 @@
 import { Controller, Get, Query } from "@nestjs/common";
-
+// import { Public } from "@gemunion/nest-js-utils";
 import { S3DeleteDto, S3GetDto, S3PutDto } from "./dto";
 import { S3Service } from "./s3.service";
 import { IS3Result } from "./interfaces";
 
+// @Public()
 @Controller("/s3")
 export class S3Controller {
   constructor(private readonly s3Service: S3Service) {}
@@ -19,7 +20,7 @@ export class S3Controller {
   }
 
   @Get("/get-stream")
-  public getObjectAsStream(@Query() data: S3GetDto): Promise<ReadableStream> {
+  public async getObjectAsStream(@Query() data: S3GetDto): Promise<ReadableStream> {
     return this.s3Service.getObjectAsStream(data);
   }
 

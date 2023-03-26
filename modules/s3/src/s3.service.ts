@@ -109,8 +109,7 @@ export class S3Service {
       // handle error
       throw new Error("S3.getObjectAsStream error");
     } else {
-      // return objectData.Body.transformToWebStream();
-      return objectData.Body;
+      return objectData.Body.transformToWebStream();
     }
   }
 
