@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager@1.1.9...@gemunion/nest-js-module-secret-manager@2.1.0) (2023-03-26)
+
+### Features
+
+- aws-sdk v3 ([da0b20f](https://github.com/gemunion/nestjs-packages/commit/da0b20f6c87df41b86e7331c2b7db268365024a2))
+
 ## [1.1.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager@1.1.8...@gemunion/nest-js-module-secret-manager@1.1.9) (2023-03-25)
 
 ### Bug Fixes
