@@ -5,12 +5,12 @@ import {
   ValidatorConstraint,
   ValidatorConstraintInterface,
 } from "class-validator";
-import { BigNumber } from "ethers";
+import { BigNumber, BigNumberish } from "ethers";
 
 interface IBigNumberConstraints {
   allowEmptyString?: boolean;
-  minimum: string;
-  maximum: string;
+  minimum: BigNumberish;
+  maximum: BigNumberish;
 }
 
 @ValidatorConstraint({ name: "isBigNumber" })
