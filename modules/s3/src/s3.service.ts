@@ -1,11 +1,12 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { v4 } from "uuid";
 import {
+  DeleteObjectCommand,
   DeleteObjectCommandOutput,
   GetObjectCommand,
   GetObjectCommandOutput,
   PutObjectCommand,
-  S3,
+  S3Client,
 } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { extension } from "mime-types";
@@ -23,7 +24,7 @@ import { S3_OPTIONS_PROVIDER } from "./s3.constants";
 
 @Injectable()
 export class S3Service {
-  private client: S3;
+  private s3Client: S3Client;
 
   constructor(
     @Inject(Logger)
@@ -32,7 +33,7 @@ export class S3Service {
     private readonly options: IS3Options,
   ) {
     const { accessKeyId, secretAccessKey, region } = options;
-    this.client = new S3({ credentials: { accessKeyId, secretAccessKey }, region });
+    this.s3Client = new S3Client({ credentials: { accessKeyId, secretAccessKey }, region });
   }
 
   public getSignedObject(dto: IS3GetSignedDto): Promise<IS3Result> {
@@ -44,7 +45,7 @@ export class S3Service {
     };
 
     const command = new GetObjectCommand(params);
-    return getSignedUrl(this.client, command).then((signedUrl: string) => ({
+    return getSignedUrl(this.s3Client, command).then((signedUrl: string) => ({
       signedUrl,
     }));
   }
@@ -56,17 +57,17 @@ export class S3Service {
 
     const params = {
       expiresIn: 60,
+      unhoistableHeaders: new Set(["x-amz-acl"]),
     };
 
-    const paramsCommand = {
+    const command = new PutObjectCommand({
       Bucket: bucket,
       Key: filename,
       ContentType: contentType,
       ACL: "public-read",
-    };
-    const command = new PutObjectCommand(paramsCommand);
+    });
 
-    return getSignedUrl(this.client, command, params).then((signedUrl: string) => ({
+    return getSignedUrl(this.s3Client, command, params).then((signedUrl: string) => ({
       signedUrl,
     }));
   }
@@ -76,35 +77,37 @@ export class S3Service {
 
     const filename = `${v4()}.${contentType.split("/")[1]}`;
 
-    await this.client.putObject({
+    const command = new PutObjectCommand({
       Bucket: bucket,
       Key: filename,
       Body: content,
       ContentType: contentType,
     });
 
+    await this.s3Client.send(command);
+
     return `https://${bucket}.s3.${this.options.region}.amazonaws.com/${filename}`;
   }
 
   public getObject(dto: IS3GetDto): Promise<GetObjectCommandOutput> {
     const { objectName, bucket = this.options.bucket } = dto;
-    const params = {
+    const command = new GetObjectCommand({
       Bucket: bucket,
       Key: objectName,
-    };
+    });
 
-    return this.client.getObject(params);
+    return this.s3Client.send(command);
   }
 
   // TODO test stream!
   public async getObjectAsStream(dto: IS3GetDto): Promise<ReadableStream> {
     const { objectName, bucket = this.options.bucket } = dto;
-    const params = {
+    const command = new GetObjectCommand({
       Bucket: bucket,
       Key: objectName,
-    };
+    });
 
-    const objectData = await this.client.getObject(params);
+    const objectData = await this.s3Client.send(command);
     if (!objectData.Body) {
       // handle error
       throw new Error("S3.getObjectAsStream error");
@@ -115,11 +118,11 @@ export class S3Service {
 
   public deleteObject(dto: IS3DeleteDto): Promise<DeleteObjectCommandOutput> {
     const { objectName, bucket = this.options.bucket } = dto;
-    const params = {
+    const command = new DeleteObjectCommand({
       Bucket: bucket,
       Key: objectName,
-    };
+    });
 
-    return this.client.deleteObject(params);
+    return this.s3Client.send(command);
   }
 }
