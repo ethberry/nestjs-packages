@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.13 (2023-04-05)
+
+### Bug Fixes
+
+- types issue ([ceb4461](https://github.com/gemunion/nestjs-packages/commit/ceb4461ccba3ff303d52a8ca8a0305cfb3976090))
+
 ## [1.1.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-web3-storage-firebase@1.1.11...@gemunion/nest-js-module-web3-storage-firebase@1.1.12) (2023-03-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-web3-storage-firebase
