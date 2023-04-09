@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-exchange-signer@1.0.8...@gemunion/nest-js-module-exchange-signer@1.0.9) (2023-04-09)
+
+### Bug Fixes
+
+- deps ([6e12d92](https://github.com/gemunion/nestjs-packages/commit/6e12d92fbe68b407743489754dabbc0b412395ee))
+
 ## [1.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-exchange-signer@1.0.7...@gemunion/nest-js-module-exchange-signer@1.0.8) (2023-04-08)
 
 ### Bug Fixes

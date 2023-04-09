@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.35](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-helmet@3.1.34...@gemunion/nest-js-module-helmet@3.1.35) (2023-04-09)
+
+### Bug Fixes
+
+- **deps:** update dependency helmet to v6.1.1 ([c942de3](https://github.com/gemunion/nestjs-packages/commit/c942de3f09ad6d57c33c5b8371df6b494f7d3818))
+
 ## [3.1.34](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-helmet@3.1.33...@gemunion/nest-js-module-helmet@3.1.34) (2023-04-08)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-helmet
