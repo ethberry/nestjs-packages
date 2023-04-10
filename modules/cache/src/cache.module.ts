@@ -1,6 +1,5 @@
 import { Module } from "@nestjs/common";
 import { APP_INTERCEPTOR } from "@nestjs/core";
-import { ConfigModule, ConfigService } from "@nestjs/config";
 import { RedisManager } from "@liaoliaots/nestjs-redis";
 
 import { CacheInterceptor, CacheModule, CacheModuleAsyncOptions } from "@nestjs/cache-manager";
@@ -13,9 +12,8 @@ import { CACHE_STORE } from "./cache.constants";
   imports: [
     LicenseModule.deferred(),
     CacheModule.registerAsync<CacheModuleAsyncOptions>({
-      imports: [ConfigModule],
-      inject: [ConfigService, RedisManager],
-      useFactory: (configService: ConfigService, redisManager: RedisManager) => {
+      inject: [RedisManager],
+      useFactory: (redisManager: RedisManager) => {
         return {
           store: redisInsStore(redisManager.getClient(CACHE_STORE)),
         };
