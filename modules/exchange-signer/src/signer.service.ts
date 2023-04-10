@@ -147,10 +147,10 @@ export class SignerService {
 
   public async getManyToManyExtraSignature(
     account: string,
-    extra: string,
     params: IParams,
     items: Array<IAsset>,
     price: Array<IAsset>,
+    extra: string,
   ): Promise<string> {
     return this.signer._signTypedData(
       // Domain
@@ -164,10 +164,10 @@ export class SignerService {
       {
         EIP712: [
           { name: "account", type: "address" },
-          { name: "extra", type: "bytes32" },
           { name: "params", type: "Params" },
           { name: "items", type: "Asset[]" },
           { name: "price", type: "Asset[]" },
+          { name: "extra", type: "bytes32" },
         ],
         Params: [
           { name: "nonce", type: "bytes32" },
@@ -185,10 +185,10 @@ export class SignerService {
       // Value
       {
         account,
-        extra,
         params,
         items,
         price,
+        extra,
       },
     );
   }
