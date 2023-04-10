@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-exchange-signer@1.1.0...@gemunion/nest-js-module-exchange-signer@1.2.0) (2023-04-10)
+
+### Features
+
+- extra sign position ([2236933](https://github.com/gemunion/nestjs-packages/commit/2236933da0580e06e724fabdc9771c98dc58e6f0))
+
 # 1.1.0 (2023-04-10)
 
 ### Features
