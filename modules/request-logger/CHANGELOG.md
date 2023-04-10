@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.25 (2023-04-10)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-request-logger
+
 ## [2.0.24](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-request-logger@2.0.23...@gemunion/nest-js-module-request-logger@2.0.24) (2023-04-08)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-request-logger
