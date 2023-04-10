@@ -1,0 +1,53 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun",
+    "url": "https://gemunion.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
+  },
+  "dependencies": {
+    "cache-manager-ioredis-yet": "1.1.0"
+  },
+  "devDependencies": {
+    "@gemunion/nest-js-module-license": "2.0.32",
+    "@nestjs/cache-manager": "1.0.0",
+    "@nestjs/common": "9.4.0",
+    "@nestjs/config": "2.3.1",
+    "@nestjs/core": "9.4.0"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/nest-js-module-cache",
+  "peerDependencies": {
+    "@gemunion/nest-js-module-license": "^2.0.0",
+    "@liaoliaots/nestjs-redis": "^8.0.0 || ^9.0.0",
+    "@nestjs/cache-manager": "^1.0.0",
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.0.0",
+    "@nestjs/core": "^9.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/nestjs-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "NestJS Cache module",
+  "types": "./dist/index.d.ts",
+  "version": "1.0.0"
+}
