@@ -144,4 +144,52 @@ export class SignerService {
       },
     );
   }
+
+  public async getManyToManyExtraSignature(
+    account: string,
+    extra: string,
+    params: IParams,
+    items: Array<IAsset>,
+    price: Array<IAsset>,
+  ): Promise<string> {
+    return this.signer._signTypedData(
+      // Domain
+      {
+        name: "Exchange",
+        version: "1.0.0",
+        chainId: ~~this.configService.get<number>("CHAIN_ID", testChainId),
+        verifyingContract: this.configService.get<string>("EXCHANGE_ADDR", ""),
+      },
+      // Types
+      {
+        EIP712: [
+          { name: "account", type: "address" },
+          { name: "extra", type: "bytes32" },
+          { name: "params", type: "Params" },
+          { name: "items", type: "Asset[]" },
+          { name: "price", type: "Asset[]" },
+        ],
+        Params: [
+          { name: "nonce", type: "bytes32" },
+          { name: "externalId", type: "uint256" },
+          { name: "expiresAt", type: "uint256" },
+          { name: "referrer", type: "address" },
+        ],
+        Asset: [
+          { name: "tokenType", type: "uint256" },
+          { name: "token", type: "address" },
+          { name: "tokenId", type: "uint256" },
+          { name: "amount", type: "uint256" },
+        ],
+      },
+      // Value
+      {
+        account,
+        extra,
+        params,
+        items,
+        price,
+      },
+    );
+  }
 }
