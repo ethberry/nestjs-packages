@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2023-04-10)
+
+### Features
+
+- sign extra data ([2f949ba](https://github.com/gemunion/nestjs-packages/commit/2f949baf34bcaeb2b5e8550df0a4686cdc1cf2b1))
+
 ## [1.0.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-exchange-signer@1.0.9...@gemunion/nest-js-module-exchange-signer@1.0.10) (2023-04-10)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-exchange-signer
