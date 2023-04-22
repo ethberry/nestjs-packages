@@ -60,5 +60,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "2.0.44"
+  "version": "2.0.45"
 }
