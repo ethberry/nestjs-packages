@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/contracts-constants": "2.0.5",
-    "@gemunion/nestjs-ethers": "3.0.30",
+    "@gemunion/contracts-constants": "2.0.6",
+    "@gemunion/nestjs-ethers": "3.0.31",
     "ethers": "5.7.2"
   },
   "devDependencies": {
