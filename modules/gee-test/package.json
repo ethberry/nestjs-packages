@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-utils": "2.1.15",
+    "@gemunion/nest-js-utils": "3.0.0",
     "class-validator": "0.14.0",
     "qs": "6.11.1",
     "uuid": "9.0.0"
