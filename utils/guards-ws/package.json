@@ -15,7 +15,7 @@
     "socket.io": "4.6.1"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=16"
   },
   "keywords": [],
   "license": "UNLICENSED",

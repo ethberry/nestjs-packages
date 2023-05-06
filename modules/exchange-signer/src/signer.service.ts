@@ -16,7 +16,7 @@ export class SignerService {
   ) {}
 
   public async getOneToOneSignature(account: string, params: IParams, item: IAsset, price: IAsset): Promise<string> {
-    return this.signer._signTypedData(
+    return this.signer.signTypedData(
       // Domain
       {
         name: "Exchange",
@@ -61,7 +61,7 @@ export class SignerService {
     item: IAsset,
     price: Array<IAsset>,
   ): Promise<string> {
-    return this.signer._signTypedData(
+    return this.signer.signTypedData(
       // Domain
       {
         name: "Exchange",
@@ -106,7 +106,7 @@ export class SignerService {
     items: Array<IAsset>,
     price: Array<IAsset>,
   ): Promise<string> {
-    return this.signer._signTypedData(
+    return this.signer.signTypedData(
       // Domain
       {
         name: "Exchange",
@@ -152,7 +152,7 @@ export class SignerService {
     price: Array<IAsset>,
     extra: string,
   ): Promise<string> {
-    return this.signer._signTypedData(
+    return this.signer.signTypedData(
       // Domain
       {
         name: "Exchange",

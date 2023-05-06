@@ -1,4 +1,3 @@
-export * from "./decorators/big-number";
 export * from "./decorators/draft";
 export * from "./decorators/json";
 

@@ -30,7 +30,7 @@
     "typescript": "5.0.4"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=16"
   },
   "license": "UNLICENSED",
   "name": "@gemunion/common-packages",

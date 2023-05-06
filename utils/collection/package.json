@@ -19,7 +19,7 @@
     "@nestjs/swagger": "6.3.0"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=16"
   },
   "keywords": [],
   "license": "UNLICENSED",

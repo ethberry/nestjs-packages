@@ -15,12 +15,12 @@
     "@nestjs/swagger": "6.3.0",
     "body-parser": "1.20.2",
     "class-validator": "0.14.0",
-    "ethers": "5.7.2",
+    "ethers": "6.3.0",
     "express": "4.18.2",
     "rxjs": "7.8.0"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=16"
   },
   "keywords": [],
   "license": "UNLICENSED",
@@ -34,7 +34,7 @@
     "@nestjs/swagger": "^6.0.0",
     "body-parser": "^1.0.0",
     "class-validator": "^0.14.0",
-    "ethers": "^5.6.0",
+    "ethers": "^6.3.0",
     "express": "^4.0.0",
     "rxjs": "^7.0.0"
   },
