@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-create-middleware-module": "2.0.46",
-    "helmet": "6.1.5"
+    "helmet": "6.2.0"
   },
   "engines": {
     "node": ">=12.13"

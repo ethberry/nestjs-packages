@@ -11,7 +11,7 @@
     "@nestjs/common": "9.4.0",
     "@nestjs/config": "2.3.1",
     "@nestjs/typeorm": "9.0.1",
-    "typeorm": "0.3.15"
+    "typeorm": "0.3.16"
   },
   "engines": {
     "node": ">=12.13"
