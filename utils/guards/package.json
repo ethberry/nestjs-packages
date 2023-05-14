@@ -13,7 +13,7 @@
     "@nestjs/passport": "9.0.3"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",

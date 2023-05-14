@@ -19,7 +19,7 @@
     "nest-winston": "1.9.1"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",

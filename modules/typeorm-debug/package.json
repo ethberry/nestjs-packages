@@ -20,7 +20,7 @@
     "typeorm": "0.3.13"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",
