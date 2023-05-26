@@ -10,7 +10,7 @@
   "devDependencies": {
     "@gemunion/nest-js-module-license": "2.0.36",
     "@nestjs/axios": "2.0.0",
-    "@nestjs/common": "9.4.1",
+    "@nestjs/common": "9.4.2",
     "@nestjs/config": "2.3.2",
     "rxjs": "7.8.1"
   },

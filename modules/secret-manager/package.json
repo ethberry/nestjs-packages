@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "2.0.36",
-    "@nestjs/common": "9.4.1"
+    "@nestjs/common": "9.4.2"
   },
   "engines": {
     "node": ">=12.13"
