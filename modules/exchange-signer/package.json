@@ -13,7 +13,7 @@
     "ethers": "5.7.2"
   },
   "devDependencies": {
-    "@nestjs/common": "9.4.1",
+    "@nestjs/common": "9.4.2",
     "@nestjs/config": "2.3.2"
   },
   "engines": {
