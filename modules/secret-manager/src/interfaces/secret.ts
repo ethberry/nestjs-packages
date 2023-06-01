@@ -1,3 +1,3 @@
 export interface IAwsSecret {
-  [key: string]: string | void;
+  [key: string]: string;
 }
