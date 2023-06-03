@@ -82,6 +82,7 @@ export class SignerService {
           { name: "externalId", type: "uint256" },
           { name: "expiresAt", type: "uint256" },
           { name: "referrer", type: "address" },
+          { name: "extra", type: "bytes32" },
         ],
         Asset: [
           { name: "tokenType", type: "uint256" },
@@ -127,6 +128,7 @@ export class SignerService {
           { name: "externalId", type: "uint256" },
           { name: "expiresAt", type: "uint256" },
           { name: "referrer", type: "address" },
+          { name: "extra", type: "bytes32" },
         ],
         Asset: [
           { name: "tokenType", type: "uint256" },
@@ -150,7 +152,6 @@ export class SignerService {
     params: IParams,
     items: Array<IAsset>,
     price: Array<IAsset>,
-    extra: string,
   ): Promise<string> {
     return this.signer.signTypedData(
       // Domain
@@ -167,13 +168,13 @@ export class SignerService {
           { name: "params", type: "Params" },
           { name: "items", type: "Asset[]" },
           { name: "price", type: "Asset[]" },
-          { name: "extra", type: "bytes32" },
         ],
         Params: [
           { name: "nonce", type: "bytes32" },
           { name: "externalId", type: "uint256" },
           { name: "expiresAt", type: "uint256" },
           { name: "referrer", type: "address" },
+          { name: "extra", type: "bytes32" },
         ],
         Asset: [
           { name: "tokenType", type: "uint256" },
@@ -188,7 +189,6 @@ export class SignerService {
         params,
         items,
         price,
-        extra,
       },
     );
   }

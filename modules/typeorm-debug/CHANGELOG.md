@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.46](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@2.0.45...@gemunion/nest-js-module-typeorm-debug@2.0.46) (2023-05-26)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([8e76865](https://github.com/gemunion/nestjs-packages/commit/8e768657920ab1c0ecf046bd198dd8d5adf570a1))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ca7b648](https://github.com/gemunion/nestjs-packages/commit/ca7b648ee82529432478fda57f12106c887d26b6))
+
+## 2.0.45 (2023-05-12)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([78c98b0](https://github.com/gemunion/nestjs-packages/commit/78c98b0de78cf3910ff2c807b15e59ac360b3421))
+
+## [2.0.44](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@2.0.43...@gemunion/nest-js-module-typeorm-debug@2.0.44) (2023-04-29)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([f32b2ae](https://github.com/gemunion/nestjs-packages/commit/f32b2aefbe61345235f04a3c478e7273727d155d))
+
+## [2.0.43](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@2.0.42...@gemunion/nest-js-module-typeorm-debug@2.0.43) (2023-04-22)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([dbf84cc](https://github.com/gemunion/nestjs-packages/commit/dbf84ccd0b38f1bbb7093be908767a9ab3d26795))
+- **deps:** update all non-major dependencies ([4707453](https://github.com/gemunion/nestjs-packages/commit/470745371894709a73a3d5dfe5618b5fa60de729))
+
+## 2.0.42 (2023-04-15)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ff217ae](https://github.com/gemunion/nestjs-packages/commit/ff217ae8cbcef6e9eb8bf12a4e66c71e378d21f7))
+- **deps:** update all non-major dependencies ([99f1c63](https://github.com/gemunion/nestjs-packages/commit/99f1c63ea22f2e6aa186f7a9c5231dd44d961a69))
+
 ## 2.0.41 (2023-04-10)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm-debug

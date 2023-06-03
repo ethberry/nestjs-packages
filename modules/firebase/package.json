@@ -9,13 +9,13 @@
   },
   "dependencies": {
     "@golevelup/nestjs-modules": "0.6.1",
-    "@google-cloud/storage": "6.9.5"
+    "@google-cloud/storage": "6.10.1"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "2.0.32",
-    "@nestjs/common": "9.4.0",
-    "@nestjs/config": "2.3.1",
-    "@nestjs/core": "9.4.0"
+    "@gemunion/nest-js-module-license": "2.0.37",
+    "@nestjs/common": "9.4.2",
+    "@nestjs/config": "2.3.2",
+    "@nestjs/core": "9.4.2"
   },
   "engines": {
     "node": ">=18"
@@ -45,5 +45,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.31"
+  "version": "0.1.37"
 }

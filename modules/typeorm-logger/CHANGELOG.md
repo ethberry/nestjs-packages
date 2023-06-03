@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.30](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-logger@2.0.29...@gemunion/nest-js-module-typeorm-logger@2.0.30) (2023-05-26)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-typeorm-logger
+
+## 2.0.29 (2023-05-12)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([78c98b0](https://github.com/gemunion/nestjs-packages/commit/78c98b0de78cf3910ff2c807b15e59ac360b3421))
+
+## [2.0.28](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-logger@2.0.27...@gemunion/nest-js-module-typeorm-logger@2.0.28) (2023-04-22)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([4707453](https://github.com/gemunion/nestjs-packages/commit/470745371894709a73a3d5dfe5618b5fa60de729))
+
+## 2.0.27 (2023-04-15)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([99f1c63](https://github.com/gemunion/nestjs-packages/commit/99f1c63ea22f2e6aa186f7a9c5231dd44d961a69))
+
 ## 2.0.26 (2023-04-10)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm-logger

@@ -9,17 +9,17 @@
   },
   "dependencies": {
     "@gemunion/nest-js-utils": "3.0.0",
-    "@gemunion/types-coin-market-cap": "0.1.3",
+    "@gemunion/types-coin-market-cap": "0.1.4",
     "class-validator": "0.14.0"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "2.0.32",
+    "@gemunion/nest-js-module-license": "2.0.37",
     "@nestjs/axios": "2.0.0",
-    "@nestjs/common": "9.4.0",
-    "@nestjs/config": "2.3.1",
+    "@nestjs/common": "9.4.2",
+    "@nestjs/config": "2.3.2",
     "@nestjs/swagger": "6.3.0",
     "class-validator": "0.14.0",
-    "rxjs": "7.8.0"
+    "rxjs": "7.8.1"
   },
   "engines": {
     "node": ">=18"
@@ -53,5 +53,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.2.31"
+  "version": "1.2.35"
 }

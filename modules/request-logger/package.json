@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "9.4.0",
+    "@nestjs/common": "9.4.2",
     "express": "4.18.2"
   },
   "engines": {
@@ -39,5 +39,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.25"
+  "version": "2.0.26"
 }

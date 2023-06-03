@@ -10,4 +10,5 @@ export interface IParams {
   externalId: number | string;
   expiresAt: number;
   referrer: string;
+  extra: string;
 }
