@@ -1,11 +1,11 @@
 import { BadRequestException, Injectable, PipeTransform } from "@nestjs/common";
-import { ethers } from "ethers";
+import { getAddress } from "ethers";
 
 @Injectable()
 export class AddressPipe implements PipeTransform<string> {
   transform(value: string): string {
     try {
-      ethers.utils.getAddress(value);
+      getAddress(value);
       return value.toLowerCase();
     } catch (_e) {
       throw new BadRequestException(`Validation failed (Address is expected)`);

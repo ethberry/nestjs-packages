@@ -16,8 +16,8 @@ export class PinataS3Controller {
   }
 
   @Get("/test-download")
-  public testDownload(@Res() res: Response): void {
-    const file = this.pinataService.testS3(imageUrl);
+  public async testDownload(@Res() res: Response): Promise<void> {
+    const file = await this.pinataService.testS3(imageUrl);
     file.pipe(res);
   }
 }

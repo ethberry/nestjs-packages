@@ -1,5 +1,5 @@
 export * from "./decorators/address";
-export * from "./decorators/big-number";
+export * from "./decorators/big-int";
 export * from "./decorators/file";
 export * from "./decorators/metamask";
 export * from "./decorators/multifile";
@@ -19,6 +19,6 @@ export * from "./middlewares/raw-body";
 export * from "./middlewares/url-body";
 
 export * from "./pipes/address";
-export * from "./pipes/big-number";
+export * from "./pipes/big-int";
 export * from "./pipes/to-lower-case";
 export * from "./pipes/validation.http";

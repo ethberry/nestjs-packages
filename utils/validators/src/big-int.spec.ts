@@ -1,18 +1,18 @@
 import { Validator } from "class-validator";
-import { constants } from "ethers";
+import { WeiPerEther } from "ethers";
 
-import { IsBigNumber } from "./big-number";
+import { IsBigInt } from "./big-int";
 
-describe("IsBigNumber", () => {
+describe("IsBigInt", () => {
   describe("no options", () => {
     it("should validate with no params", () => {
       class TestClass {
-        @IsBigNumber()
+        @IsBigInt()
         amount: string;
       }
 
       const model = new TestClass();
-      model.amount = constants.WeiPerEther.toString();
+      model.amount = WeiPerEther.toString();
 
       const validator = new Validator();
       return validator.validate(model).then(errors => {
@@ -22,7 +22,7 @@ describe("IsBigNumber", () => {
 
     it("should fail: empty string", () => {
       class TestClass {
-        @IsBigNumber({})
+        @IsBigInt({})
         amount: string;
       }
 
@@ -33,7 +33,7 @@ describe("IsBigNumber", () => {
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
         expect(errors[0].constraints).toEqual({
-          isBigNumber: "typeMismatch",
+          isBigInt: "typeMismatch",
         });
       });
     });
@@ -42,7 +42,7 @@ describe("IsBigNumber", () => {
   describe("message", () => {
     it("should validate with default message", () => {
       class TestClass {
-        @IsBigNumber()
+        @IsBigInt()
         amount: string;
       }
 
@@ -53,7 +53,7 @@ describe("IsBigNumber", () => {
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
         expect(errors[0].constraints).toEqual({
-          isBigNumber: "typeMismatch",
+          isBigInt: "typeMismatch",
         });
       });
     });
@@ -62,7 +62,7 @@ describe("IsBigNumber", () => {
       const customMessage = "myCustomMessage";
 
       class TestClass {
-        @IsBigNumber({}, { message: customMessage })
+        @IsBigInt({}, { message: customMessage })
         amount: string;
       }
 
@@ -73,7 +73,7 @@ describe("IsBigNumber", () => {
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
         expect(errors[0].constraints).toEqual({
-          isBigNumber: customMessage,
+          isBigInt: customMessage,
         });
       });
     });
@@ -82,7 +82,7 @@ describe("IsBigNumber", () => {
   describe("allowEmptyString", () => {
     it("should allow empty string", () => {
       class TestClass {
-        @IsBigNumber({ allowEmptyString: true })
+        @IsBigInt({ allowEmptyString: true })
         amount: string;
       }
 
@@ -99,7 +99,7 @@ describe("IsBigNumber", () => {
   describe("minimum", () => {
     it("should validate", () => {
       class TestClass {
-        @IsBigNumber({ minimum: "100" })
+        @IsBigInt({ minimum: 100 })
         amount: string;
       }
 
@@ -114,7 +114,7 @@ describe("IsBigNumber", () => {
 
     it("should fail", () => {
       class TestClass {
-        @IsBigNumber({ minimum: "100" })
+        @IsBigInt({ minimum: 100 })
         amount: string;
       }
 
@@ -125,7 +125,7 @@ describe("IsBigNumber", () => {
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
         expect(errors[0].constraints).toEqual({
-          isBigNumber: "rangeUnderflow",
+          isBigInt: "rangeUnderflow",
         });
       });
     });
@@ -134,7 +134,7 @@ describe("IsBigNumber", () => {
   describe("maximum", () => {
     it("should validate", () => {
       class TestClass {
-        @IsBigNumber({ maximum: "100" })
+        @IsBigInt({ maximum: 100 })
         amount: string;
       }
 
@@ -149,7 +149,7 @@ describe("IsBigNumber", () => {
 
     it("should fail", () => {
       class TestClass {
-        @IsBigNumber({ maximum: "100" })
+        @IsBigInt({ maximum: 100 })
         amount: string;
       }
 
@@ -160,7 +160,7 @@ describe("IsBigNumber", () => {
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
         expect(errors[0].constraints).toEqual({
-          isBigNumber: "rangeOverflow",
+          isBigInt: "rangeOverflow",
         });
       });
     });

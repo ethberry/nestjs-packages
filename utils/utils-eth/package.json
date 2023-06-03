@@ -9,21 +9,17 @@
   },
   "description": "blockchain utils",
   "devDependencies": {
-    "@ethersproject/abstract-signer": "5.7.0",
-    "@ethersproject/providers": "5.7.2",
-    "ethers": "5.7.2"
+    "ethers": "6.3.0"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
   "name": "@gemunion/utils-eth",
   "peerDependencies": {
-    "@ethersproject/abstract-signer": "^5.6.0",
-    "@ethersproject/providers": "^5.6.0",
-    "ethers": "^5.6.0"
+    "ethers": "^6.3.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -43,5 +39,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.1"
+  "version": "1.0.0"
 }

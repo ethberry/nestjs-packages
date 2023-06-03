@@ -14,7 +14,7 @@
     "typeorm": "0.3.16"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",
@@ -23,8 +23,8 @@
   "peerDependencies": {
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.0.0",
-    "@nestjs/typeorm": "^8.0.0 || ^9.0.0",
-    "typeorm": "^0.2.0 || ^0.3.0"
+    "@nestjs/typeorm": "^9.0.0",
+    "typeorm": "^0.3.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

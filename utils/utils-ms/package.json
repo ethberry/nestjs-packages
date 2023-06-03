@@ -14,7 +14,7 @@
     "rxjs": "7.8.1"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",
@@ -22,8 +22,8 @@
   "name": "@gemunion/nest-js-utils-ms",
   "peerDependencies": {
     "@nestjs/common": "^9.0.0",
-    "@nestjs/core": "^8.0.0 || ^9.0.0",
-    "@nestjs/microservices": "^8.0.0 || ^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/microservices": "^9.0.0",
     "rxjs": "^7.0.0"
   },
   "publishConfig": {

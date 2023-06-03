@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/nest-js-module-debug": "1.0.37",
-    "@gemunion/nest-js-module-typeorm": "2.0.46",
+    "@gemunion/nest-js-module-typeorm": "3.0.0",
     "@gemunion/nest-js-module-typeorm-logger": "2.0.30"
   },
   "devDependencies": {
@@ -20,7 +20,7 @@
     "typeorm": "0.3.16"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",
@@ -30,7 +30,7 @@
     "@nestjs/axios": "^2.0.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.0.0",
-    "@nestjs/typeorm": "^8.0.0 || ^9.0.0",
+    "@nestjs/typeorm": "^9.0.0",
     "typeorm": "^0.0.1 || ^0.3.0"
   },
   "publishConfig": {

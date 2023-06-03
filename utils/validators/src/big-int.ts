@@ -5,16 +5,15 @@ import {
   ValidatorConstraint,
   ValidatorConstraintInterface,
 } from "class-validator";
-import { BigNumber, BigNumberish } from "ethers";
 
-interface IBigNumberConstraints {
+interface IBigIntConstraints {
   allowEmptyString?: boolean;
-  minimum: BigNumberish;
-  maximum: BigNumberish;
+  minimum: bigint | number;
+  maximum: bigint | number;
 }
 
-@ValidatorConstraint({ name: "isBigNumber" })
-export class ValidateBigNumber implements ValidatorConstraintInterface {
+@ValidatorConstraint({ name: "isBigInt" })
+export class ValidateBigInt implements ValidatorConstraintInterface {
   private reason: string;
 
   public validate(value: unknown, args: ValidationArguments): boolean {
@@ -27,27 +26,30 @@ export class ValidateBigNumber implements ValidatorConstraintInterface {
   }
 
   private isValid(value: unknown, args: ValidationArguments): string {
-    const { allowEmptyString, minimum, maximum }: IBigNumberConstraints = args.constraints[0];
+    const { allowEmptyString, minimum, maximum }: IBigIntConstraints = args.constraints[0];
 
-    if (allowEmptyString && value === "") {
-      return "";
+    if (value === "") {
+      if (allowEmptyString) {
+        return "";
+      }
+      return "typeMismatch";
     }
 
     let bn;
     try {
-      bn = BigNumber.from(value);
+      bn = BigInt(value as any);
     } catch (_e) {
       return "typeMismatch";
     }
 
     if (minimum !== void 0) {
-      if (bn.lt(minimum)) {
+      if (bn < minimum) {
         return "rangeUnderflow";
       }
     }
 
     if (maximum !== void 0) {
-      if (bn.gt(maximum)) {
+      if (bn > maximum) {
         return "rangeOverflow";
       }
     }
@@ -56,15 +58,15 @@ export class ValidateBigNumber implements ValidatorConstraintInterface {
   }
 }
 
-export function IsBigNumber(constraints: Partial<IBigNumberConstraints> = {}, validationOptions?: ValidationOptions) {
+export function IsBigInt(constraints: Partial<IBigIntConstraints> = {}, validationOptions?: ValidationOptions) {
   return (object: Record<string, any>, propertyName: string): void => {
     registerDecorator({
-      name: "isBigNumber",
+      name: "isBigInt",
       target: object.constructor,
       propertyName,
       constraints: [constraints],
       options: validationOptions,
-      validator: ValidateBigNumber,
+      validator: ValidateBigInt,
     });
   };
 }
