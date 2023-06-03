@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/contracts-constants": "3.0.3",
-    "@gemunion/nestjs-ethers": "3.1.4"
+    "@gemunion/nestjs-ethers": "4.0.1"
   },
   "devDependencies": {
     "@nestjs/common": "9.4.2",
