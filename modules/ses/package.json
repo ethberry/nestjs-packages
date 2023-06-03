@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@aws-sdk/client-ses": "3.338.0",
+    "@aws-sdk/client-ses": "3.345.0",
     "@gemunion/nest-js-module-license": "2.0.37",
     "@gemunion/types-email": "0.2.13",
     "@golevelup/nestjs-modules": "0.6.1"

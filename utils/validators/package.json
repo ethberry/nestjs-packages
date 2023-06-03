@@ -15,7 +15,7 @@
     "@nestjs/axios": "2.0.0",
     "@nestjs/common": "9.4.2",
     "@nestjs/config": "2.3.2",
-    "@types/jest": "29.5.1",
+    "@types/jest": "29.5.2",
     "@types/zxcvbn": "4.4.1",
     "class-validator": "0.14.0",
     "ethers": "5.7.2",
