@@ -24,7 +24,7 @@ export class PinataS3Service {
     return this.client.testAuthentication();
   }
 
-  public testS3(objectName: string): Readable {
+  public testS3(objectName: string): Promise<Readable> {
     return this.s3Service.getObjectAsStream({
       objectName,
     });

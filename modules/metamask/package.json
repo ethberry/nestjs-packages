@@ -15,7 +15,7 @@
     "class-validator": "0.14.0"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "2.0.37",
+    "@gemunion/nest-js-module-license": "3.0.1",
     "@nestjs/common": "9.4.2",
     "@nestjs/swagger": "6.3.0",
     "@nestjs/testing": "9.4.2",
@@ -34,9 +34,10 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-metamask",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^2.0.0",
+    "@gemunion/nest-js-module-license": "^3.0.0",
     "@nestjs/common": "^9.0.0",
-    "@nestjs/swagger": "^6.0.0"
+    "@nestjs/swagger": "^6.0.0",
+    "ethers": "^6.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-ses": "3.338.0",
-    "@gemunion/nest-js-module-license": "2.0.37",
+    "@gemunion/nest-js-module-license": "3.0.1",
     "@gemunion/types-email": "0.2.13",
     "@golevelup/nestjs-modules": "0.6.1"
   },
@@ -24,8 +24,8 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-ses",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^2.0.0",
-    "@nestjs/common": "^8.0.0 || ^9.0.0"
+    "@gemunion/nest-js-module-license": "^3.0.0",
+    "@nestjs/common": "^9.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -44,5 +44,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.1.9"
+  "version": "4.0.0"
 }

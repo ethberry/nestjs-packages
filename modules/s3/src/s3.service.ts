@@ -10,6 +10,7 @@ import {
 } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { extension } from "mime-types";
+import { Readable } from "stream";
 
 import {
   IS3DeleteDto,
@@ -99,8 +100,7 @@ export class S3Service {
     return this.s3Client.send(command);
   }
 
-  // TODO test stream!
-  public async getObjectAsStream(dto: IS3GetDto): Promise<ReadableStream> {
+  public async getObjectAsStream(dto: IS3GetDto): Promise<Readable> {
     const { objectName, bucket = this.options.bucket } = dto;
     const command = new GetObjectCommand({
       Bucket: bucket,
@@ -112,7 +112,7 @@ export class S3Service {
       // handle error
       throw new Error("S3.getObjectAsStream error");
     } else {
-      return objectData.Body.transformToWebStream();
+      return objectData.Body as Readable;
     }
   }
 

@@ -1,7 +1,7 @@
 import { Validator } from "class-validator";
 import { WeiPerEther } from "ethers";
 
-import { IsBigInt } from "./big-number";
+import { IsBigInt } from "./big-int";
 
 describe("IsBigInt", () => {
   describe("no options", () => {
