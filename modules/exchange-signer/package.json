@@ -14,7 +14,7 @@
     "@gemunion/nestjs-ethers": "4.0.2",
     "@nestjs/common": "9.4.2",
     "@nestjs/config": "2.3.2",
-    "ethers": "6.3.0"
+    "ethers": "6.5.1"
   },
   "engines": {
     "node": ">=18"
