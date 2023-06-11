@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.2 (2023-06-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([ed3d290](https://github.com/gemunion/nestjs-packages/commit/ed3d29096a98dab6b2ba7d34c08051275cd9ce09))
+
 ## [3.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.1.17...@gemunion/nest-js-utils@3.0.1) (2023-06-03)
 
 ### Bug Fixes
