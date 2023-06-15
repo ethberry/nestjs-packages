@@ -15,8 +15,8 @@
     "winston-transport": "4.5.0"
   },
   "devDependencies": {
-    "@nestjs/common": "9.4.2",
-    "@nestjs/config": "2.3.2",
+    "@nestjs/common": "10.0.0",
+    "@nestjs/config": "3.0.0",
     "nest-winston": "1.9.2"
   },
   "engines": {
@@ -27,8 +27,8 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-winston-logdna",
   "peerDependencies": {
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/config": "^2.0.0",
+    "@nestjs/common": "^9.0.0 || ^10.0.0",
+    "@nestjs/config": "^2.0.0 || ^3.0.0",
     "nest-winston": "^1.0.0"
   },
   "publishConfig": {

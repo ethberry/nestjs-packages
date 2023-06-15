@@ -12,8 +12,8 @@
   },
   "devDependencies": {
     "@gemunion/nestjs-ethers": "4.0.6",
-    "@nestjs/common": "9.4.2",
-    "@nestjs/config": "2.3.2",
+    "@nestjs/common": "10.0.0",
+    "@nestjs/config": "3.0.0",
     "ethers": "6.5.1"
   },
   "engines": {
@@ -25,8 +25,8 @@
   "name": "@gemunion/nest-js-module-exchange-signer",
   "peerDependencies": {
     "@gemunion/nestjs-ethers": "^4.0.0",
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/config": "^2.0.0",
+    "@nestjs/common": "^9.0.0 || ^10.0.0",
+    "@nestjs/config": "^2.0.0 || ^3.0.0",
     "ethers": "^6.0.0"
   },
   "publishConfig": {
