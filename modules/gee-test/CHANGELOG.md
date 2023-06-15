@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-gee-test@3.0.2...@gemunion/nest-js-module-gee-test@3.0.3) (2023-06-15)
+
+### Bug Fixes
+
+- better types ([095ef74](https://github.com/gemunion/nestjs-packages/commit/095ef74e8740b1f89fed33ce3ec212ae8cdd6d6a))
+
 ## 3.0.2 (2023-06-11)
 
 ### Bug Fixes
