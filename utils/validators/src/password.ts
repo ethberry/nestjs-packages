@@ -10,12 +10,12 @@ interface IPasswordConstraints {
 export function IsPassword(
   constraints: Partial<IPasswordConstraints> = {},
   validationOptions: ValidationOptions = { message: "tooWeak" },
-) {
-  return (object: Record<string, any>, propertyName: string): void => {
+): PropertyDecorator {
+  return (object: Record<string, any>, propertyName: string | symbol): void => {
     registerDecorator({
       name: "isPassword",
       target: object.constructor,
-      propertyName,
+      propertyName: propertyName as string,
       constraints: [constraints],
       options: validationOptions,
       validator: {

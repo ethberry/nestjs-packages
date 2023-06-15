@@ -58,12 +58,15 @@ export class ValidateBigInt implements ValidatorConstraintInterface {
   }
 }
 
-export function IsBigInt(constraints: Partial<IBigIntConstraints> = {}, validationOptions?: ValidationOptions) {
-  return (object: Record<string, any>, propertyName: string): void => {
+export function IsBigInt(
+  constraints: Partial<IBigIntConstraints> = {},
+  validationOptions?: ValidationOptions,
+): PropertyDecorator {
+  return (object: Record<string, any>, propertyName: string | symbol): void => {
     registerDecorator({
       name: "isBigInt",
       target: object.constructor,
-      propertyName,
+      propertyName: propertyName as string,
       constraints: [constraints],
       options: validationOptions,
       validator: ValidateBigInt,

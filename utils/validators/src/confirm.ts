@@ -7,12 +7,12 @@ interface IConfirmConstraints {
 export function IsConfirm(
   constraints: Partial<IConfirmConstraints> = {},
   validationOptions: ValidationOptions = { message: "passwordMismatch" },
-) {
-  return (object: Record<string, any>, propertyName: string): void => {
+): PropertyDecorator {
+  return (object: Record<string, any>, propertyName: string | symbol): void => {
     registerDecorator({
       name: "isConfirm",
       target: object.constructor,
-      propertyName,
+      propertyName: propertyName as string,
       constraints: [constraints],
       options: validationOptions,
       validator: {

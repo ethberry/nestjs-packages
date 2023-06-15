@@ -7,12 +7,12 @@ interface IBeforeDateConstraints {
 export function IsBeforeDate(
   constraints: Partial<IBeforeDateConstraints> = {},
   validationOptions: ValidationOptions = { message: "badInput" },
-) {
-  return (object: Record<string, any>, propertyName: string): void => {
+): PropertyDecorator {
+  return (object: Record<string, any>, propertyName: string | symbol): void => {
     registerDecorator({
       name: "isBefore",
       target: object.constructor,
-      propertyName,
+      propertyName: propertyName as string,
       constraints: [constraints],
       options: validationOptions,
       validator: {

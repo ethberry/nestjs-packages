@@ -69,12 +69,15 @@ export class ValidateReCaptcha implements ValidatorConstraintInterface {
   }
 }
 
-export function ReCaptcha(constraints: Partial<IReCaptchaConstraints> = {}, validationOptions?: ValidationOptions) {
-  return (object: Record<string, any>, propertyName: string): void => {
+export function ReCaptcha(
+  constraints: Partial<IReCaptchaConstraints> = {},
+  validationOptions?: ValidationOptions,
+): PropertyDecorator {
+  return (object: Record<string, any>, propertyName: string | symbol): void => {
     registerDecorator({
       name: "isReCaptcha",
       target: object.constructor,
-      propertyName,
+      propertyName: propertyName as string,
       constraints: [constraints],
       options: validationOptions,
       validator: ValidateReCaptcha,

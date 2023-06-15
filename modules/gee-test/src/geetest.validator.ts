@@ -52,12 +52,15 @@ export class ValidateGeeTest implements ValidatorConstraintInterface {
   }
 }
 
-export function GeeCaptcha(constraints: Partial<IGeeTestConstraints> = {}, validationOptions?: ValidationOptions) {
-  return (object: Record<string, any>, propertyName: string): void => {
+export function GeeCaptcha(
+  constraints: Partial<IGeeTestConstraints> = {},
+  validationOptions?: ValidationOptions,
+): PropertyDecorator {
+  return (object: Record<string, any>, propertyName: string | symbol): void => {
     registerDecorator({
       name: "GeeCaptcha",
       target: object.constructor,
-      propertyName,
+      propertyName: propertyName as string,
       constraints: [constraints],
       options: validationOptions,
       validator: ValidateGeeTest,
