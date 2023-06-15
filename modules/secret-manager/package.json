@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "3.0.2",
-    "@nestjs/common": "9.4.2"
+    "@nestjs/common": "10.0.0"
   },
   "engines": {
     "node": ">=18"
@@ -24,7 +24,7 @@
   "name": "@gemunion/nest-js-module-secret-manager",
   "peerDependencies": {
     "@gemunion/nest-js-module-license": "^3.0.0",
-    "@nestjs/common": "^9.0.0"
+    "@nestjs/common": "^9.0.0 || ^10.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

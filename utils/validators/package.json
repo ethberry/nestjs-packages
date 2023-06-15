@@ -12,9 +12,9 @@
     "zxcvbn": "4.4.2"
   },
   "devDependencies": {
-    "@nestjs/axios": "2.0.0",
-    "@nestjs/common": "9.4.2",
-    "@nestjs/config": "2.3.2",
+    "@nestjs/axios": "3.0.0",
+    "@nestjs/common": "10.0.0",
+    "@nestjs/config": "3.0.0",
     "@types/jest": "29.5.2",
     "@types/zxcvbn": "4.4.1",
     "class-validator": "0.14.0",
@@ -31,9 +31,9 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-validators",
   "peerDependencies": {
-    "@nestjs/axios": "^2.0.0",
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/config": "^2.0.0",
+    "@nestjs/axios": "^2.0.0 || ^3.0.0",
+    "@nestjs/common": "^9.0.0 || ^10.0.0",
+    "@nestjs/config": "^2.0.0 || ^3.0.0",
     "class-validator": "^0.14.0",
     "ethers": "^6.3.0",
     "rxjs": "^7.0.0"

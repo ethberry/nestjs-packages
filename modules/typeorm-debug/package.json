@@ -13,10 +13,10 @@
     "@gemunion/nest-js-module-typeorm-logger": "2.0.31"
   },
   "devDependencies": {
-    "@nestjs/axios": "2.0.0",
-    "@nestjs/common": "9.4.2",
-    "@nestjs/config": "2.3.2",
-    "@nestjs/typeorm": "9.0.1",
+    "@nestjs/axios": "3.0.0",
+    "@nestjs/common": "10.0.0",
+    "@nestjs/config": "3.0.0",
+    "@nestjs/typeorm": "10.0.0",
     "typeorm": "0.3.16"
   },
   "engines": {
@@ -27,10 +27,10 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-typeorm-debug",
   "peerDependencies": {
-    "@nestjs/axios": "^2.0.0",
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/config": "^2.0.0",
-    "@nestjs/typeorm": "^9.0.0",
+    "@nestjs/axios": "^2.0.0 || ^3.0.0",
+    "@nestjs/common": "^9.0.0 || ^10.0.0",
+    "@nestjs/config": "^2.0.0 || ^3.0.0",
+    "@nestjs/typeorm": "^9.0.0 || ^10.0.0",
     "typeorm": "^0.0.1 || ^0.3.0"
   },
   "publishConfig": {
