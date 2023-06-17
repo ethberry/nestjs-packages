@@ -16,7 +16,7 @@
   },
   "description": "Collection",
   "devDependencies": {
-    "@nestjs/swagger": "6.3.0"
+    "@nestjs/swagger": "7.0.0"
   },
   "engines": {
     "node": ">=18"
@@ -26,7 +26,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/collection",
   "peerDependencies": {
-    "@nestjs/swagger": "^6.0.0"
+    "@nestjs/swagger": "^6.0.0 || ^7.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

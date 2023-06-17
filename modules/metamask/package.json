@@ -17,7 +17,7 @@
   "devDependencies": {
     "@gemunion/nest-js-module-license": "3.0.2",
     "@nestjs/common": "10.0.0",
-    "@nestjs/swagger": "6.3.0",
+    "@nestjs/swagger": "7.0.0",
     "@nestjs/testing": "10.0.0",
     "@types/jest": "29.5.2",
     "@types/uuid": "9.0.2",
@@ -36,7 +36,7 @@
   "peerDependencies": {
     "@gemunion/nest-js-module-license": "^3.0.0",
     "@nestjs/common": "^9.0.0 || ^10.0.0",
-    "@nestjs/swagger": "^6.0.0",
+    "@nestjs/swagger": "^6.0.0 || ^7.0.0",
     "ethers": "^6.0.0"
   },
   "publishConfig": {
