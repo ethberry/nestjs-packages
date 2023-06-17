@@ -5,7 +5,7 @@
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "lib": ["ES2020"],
+    "lib": ["ES2021"],
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
@@ -22,8 +22,7 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": false,
-    "target": "es2020",
-    "lib": ["ES2020.Promise", "ES2015.core"]
+    "target": "ES2021"
   },
   "exclude": ["node_modules", "./dist"]
 }
