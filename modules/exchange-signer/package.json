@@ -11,7 +11,7 @@
     "@gemunion/contracts-constants": "4.0.4"
   },
   "devDependencies": {
-    "@gemunion/nestjs-ethers": "4.0.6",
+    "@gemunion/nestjs-ethers": "5.0.1",
     "@nestjs/common": "10.0.0",
     "@nestjs/config": "3.0.0",
     "ethers": "6.6.0"
@@ -24,7 +24,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-exchange-signer",
   "peerDependencies": {
-    "@gemunion/nestjs-ethers": "^4.0.0",
+    "@gemunion/nestjs-ethers": "^4.0.0 || ^5.0.0",
     "@nestjs/common": "^9.0.0 || ^10.0.0",
     "@nestjs/config": "^2.0.0 || ^3.0.0",
     "ethers": "^6.0.0"
