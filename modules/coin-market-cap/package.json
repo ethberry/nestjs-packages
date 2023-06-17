@@ -13,7 +13,7 @@
     "class-validator": "0.14.0"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "3.0.2",
+    "@gemunion/nest-js-module-license": "4.0.1",
     "@nestjs/axios": "3.0.0",
     "@nestjs/common": "10.0.0",
     "@nestjs/config": "3.0.0",
@@ -29,7 +29,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-coin-market-cap",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^3.0.0",
+    "@gemunion/nest-js-module-license": "^3.0.0 || ^4.0.0",
     "@nestjs/axios": "^2.0.0 || ^3.0.0",
     "@nestjs/common": "^9.0.0 || ^10.0.0",
     "@nestjs/config": "^2.0.0 || ^3.0.0",
