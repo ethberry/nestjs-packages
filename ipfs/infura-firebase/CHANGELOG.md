@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.1 (2023-06-17)
+
+### Bug Fixes
+
+- tsconfig ([f87654a](https://github.com/gemunion/nestjs-packages/commit/f87654a2865ada7d6cba8c3a496c298baf198d1b))
+
 ## 1.0.2 (2023-06-11)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-infura-firebase
