@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-utils": "2.1.17",
+    "@gemunion/nest-js-utils": "4.0.0",
     "@gemunion/types-iex-cloud": "0.2.14",
     "class-validator": "0.14.0"
   },
@@ -33,11 +33,11 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-iex-cloud",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^3.0.0 || ^4.0.0",
-    "@nestjs/axios": "^2.0.0 || ^3.0.0",
-    "@nestjs/common": "^9.0.0 || ^10.0.0",
-    "@nestjs/config": "^2.0.0 || ^3.0.0",
-    "@nestjs/swagger": "^6.0.0 || ^7.0.0",
+    "@gemunion/nest-js-module-license": "^4.0.0",
+    "@nestjs/axios": "^3.0.0",
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/config": "^3.0.0",
+    "@nestjs/swagger": "^7.0.0",
     "rxjs": "^7.0.0"
   },
   "publishConfig": {
@@ -57,5 +57,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.0.2"
+  "version": "4.0.0"
 }

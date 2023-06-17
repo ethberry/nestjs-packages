@@ -24,9 +24,9 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-mailjet",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^3.0.0 || ^4.0.0",
-    "@nestjs/common": "^9.0.0 || ^10.0.0",
-    "@nestjs/microservices": "^9.0.0 || ^10.0.0"
+    "@gemunion/nest-js-module-license": "^4.0.0",
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/microservices": "^10.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -45,5 +45,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.0.2"
+  "version": "4.0.0"
 }

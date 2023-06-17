@@ -19,7 +19,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/nest-js-module-request-logger",
   "peerDependencies": {
-    "@nestjs/common": "^9.0.0 || ^10.0.0",
+    "@nestjs/common": "^10.0.0",
     "express": "^4.0.0"
   },
   "publishConfig": {
@@ -39,5 +39,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.27"
+  "version": "3.0.0"
 }
