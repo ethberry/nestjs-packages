@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@gemunion/nestjs-ethers": "5.0.2",
-    "@nestjs/common": "10.0.3",
+    "@nestjs/common": "10.0.4",
     "@nestjs/config": "3.0.0",
     "ethers": "6.6.2"
   },
