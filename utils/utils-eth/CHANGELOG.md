@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2023-06-30)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([294f308](https://github.com/gemunion/nestjs-packages/commit/294f308e6894bed862e0c83839d104853605e1f8))
+- **deps:** update all non-major dependencies ([2a6a2c5](https://github.com/gemunion/nestjs-packages/commit/2a6a2c5c38e6828650206f6e5dbfa7857c61ef10))
+
+### Features
+
+- recursivelyDecodeResult ([227d8fb](https://github.com/gemunion/nestjs-packages/commit/227d8fbd3063bb43d6775d14aa80bce0d76fe8e9))
+
 ## 1.0.3 (2023-06-17)
 
 ### Bug Fixes
