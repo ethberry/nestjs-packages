@@ -29,7 +29,7 @@
     "jest-environment-node": "29.5.0",
     "reflect-metadata": "0.1.13",
     "supertest": "6.3.3",
-    "ts-jest": "29.1.0"
+    "ts-jest": "29.1.1"
   },
   "engines": {
     "node": ">=18"
