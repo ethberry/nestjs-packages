@@ -33,9 +33,11 @@ export class SignerService {
           { name: "price", type: "Asset" },
         ],
         Params: [
-          { name: "nonce", type: "bytes32" },
           { name: "externalId", type: "uint256" },
           { name: "expiresAt", type: "uint256" },
+          { name: "nonce", type: "bytes32" },
+          { name: "extra", type: "bytes32" },
+          { name: "receiver", type: "address" },
           { name: "referrer", type: "address" },
         ],
         Asset: [
@@ -78,11 +80,12 @@ export class SignerService {
           { name: "price", type: "Asset[]" },
         ],
         Params: [
-          { name: "nonce", type: "bytes32" },
           { name: "externalId", type: "uint256" },
           { name: "expiresAt", type: "uint256" },
-          { name: "referrer", type: "address" },
+          { name: "nonce", type: "bytes32" },
           { name: "extra", type: "bytes32" },
+          { name: "receiver", type: "address" },
+          { name: "referrer", type: "address" },
         ],
         Asset: [
           { name: "tokenType", type: "uint256" },
@@ -124,11 +127,12 @@ export class SignerService {
           { name: "price", type: "Asset[]" },
         ],
         Params: [
-          { name: "nonce", type: "bytes32" },
           { name: "externalId", type: "uint256" },
           { name: "expiresAt", type: "uint256" },
-          { name: "referrer", type: "address" },
+          { name: "nonce", type: "bytes32" },
           { name: "extra", type: "bytes32" },
+          { name: "receiver", type: "address" },
+          { name: "referrer", type: "address" },
         ],
         Asset: [
           { name: "tokenType", type: "uint256" },
