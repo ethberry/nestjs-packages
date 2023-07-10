@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-exchange-signer@3.0.3...@gemunion/nest-js-module-exchange-signer@3.1.0) (2023-07-10)
+
+### Features
+
+- sign receiver in params ([0e3ae16](https://github.com/gemunion/nestjs-packages/commit/0e3ae16c165496be8985bfe0d1e73d0b487b381d))
+
 ## [3.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-exchange-signer@3.0.2...@gemunion/nest-js-module-exchange-signer@3.0.3) (2023-06-30)
 
 ### Bug Fixes
