@@ -1,6 +1,5 @@
 import { Inject, Injectable } from "@nestjs/common";
-import type { PinataClient } from "@pinata/sdk";
-import pinataSDK from "@pinata/sdk";
+import PinataClient from "@pinata/sdk";
 import { Readable } from "stream";
 
 import { S3Service } from "@gemunion/nest-js-module-s3";
@@ -17,7 +16,7 @@ export class PinataS3Service {
     private readonly options: IPinataOptions,
     private readonly s3Service: S3Service,
   ) {
-    this.client = pinataSDK(options.pinataApiKey, options.pinataApiSecret);
+    this.client = new PinataClient(options.pinataApiKey, options.pinataApiSecret);
   }
 
   public testPinata(): Promise<IPinataAuth> {
