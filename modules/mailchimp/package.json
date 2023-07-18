@@ -15,7 +15,7 @@
     "@gemunion/nest-js-module-license": "4.0.7",
     "@nestjs/axios": "3.0.0",
     "@nestjs/common": "10.1.0",
-    "@types/mailchimp__mailchimp_marketing": "3.0.9"
+    "@types/mailchimp__mailchimp_marketing": "3.0.10"
   },
   "engines": {
     "node": ">=18"
