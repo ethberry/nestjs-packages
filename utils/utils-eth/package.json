@@ -19,7 +19,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/utils-eth",
   "peerDependencies": {
-    "ethers": "^6.3.0"
+    "ethers": "^6.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
