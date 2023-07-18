@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@google-cloud/secret-manager": "4.2.2",
-    "@gemunion/nest-js-create-dynamic-module": "1.0.34"
+    "@gemunion/nest-js-create-dynamic-module": "1.0.34",
+    "@google-cloud/secret-manager": "4.2.2"
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "4.0.5",
@@ -43,5 +43,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
