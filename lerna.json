@@ -1,4 +1,14 @@
 {
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "exact": true,
+      "yes": true
+    }
+  },
   "packages": ["ipfs/*", "modules/*", "utils/*"],
   "useNx": false,
   "version": "independent"
