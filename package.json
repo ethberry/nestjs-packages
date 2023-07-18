@@ -5,8 +5,8 @@
     "url": "https://gemunion.io/"
   },
   "dependencies": {
-    "lerna": "6.6.2",
-    "nx": "15.8.9"
+    "@lerna/legacy-package-management": "7.1.4",
+    "lerna": "7.1.4"
   },
   "devDependencies": {
     "@gemunion/eslint-config": "4.0.3",
@@ -43,15 +43,12 @@
     "build": "lerna run build --stream",
     "clean": "sh scripts/clean.sh",
     "kill": "sudo pkill -9 node",
+    "lerna:changed": "lerna changed",
+    "lerna:publish": "lerna publish from-package --yes --exact --ignore-scripts",
+    "lerna:version": "lerna version --ignore-scripts",
     "lint": "lerna run lint --stream --parallel",
     "obfuscate": "sh scripts/obfuscate.sh",
-    "precommit": "lint-staged",
     "prettier": "prettier \"modules/**/*.{ts,tsx}\" \"other/**/*.{ts,tsx}\" \"utils/**/*.{ts,tsx}\" --write",
-    "registry": "lerna publish",
-    "release": "npm run release:version && npm run release:publish",
-    "release:publish": "lerna publish from-package --yes --exact --ignore-scripts --registry=https://npm.pkg.github.com/",
-    "release:version": "lerna version",
-    "renamedist": "sh scripts/renameo.sh",
     "storybook": "start-storybook -p 6006",
     "test": "sh scripts/test.sh"
   },
