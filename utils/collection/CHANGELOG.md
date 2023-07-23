@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.6...@gemunion/collection@3.0.7) (2023-07-23)
+
+
+### Bug Fixes
+
+* add address dto ([ea9c040](https://github.com/gemunion/nestjs-packages/commit/ea9c04079af003f31b15157fae0b0caccbe2bc79))
+
+
+
+
+
 ## 3.0.6 (2023-07-18)
 
 
