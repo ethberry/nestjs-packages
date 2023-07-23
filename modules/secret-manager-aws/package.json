@@ -13,7 +13,7 @@
     "@gemunion/nest-js-create-dynamic-module": "1.0.34"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "4.0.7",
+    "@gemunion/nest-js-module-license": "4.0.8",
     "@gemunion/nestjs-ethers": "5.0.5",
     "@nestjs/common": "10.1.0",
     "@nestjs/config": "3.0.0",
