@@ -21,7 +21,7 @@
     "@nestjs/common": "10.1.0",
     "@nestjs/config": "3.0.0",
     "@nestjs/core": "10.1.0",
-    "@nestjs/swagger": "7.1.1",
+    "@nestjs/swagger": "7.1.2",
     "@nestjs/testing": "10.1.0",
     "@types/mime-types": "2.1.1",
     "@types/uuid": "9.0.2"
