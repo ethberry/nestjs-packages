@@ -9,7 +9,7 @@
   },
   "description": "blockchain utils",
   "devDependencies": {
-    "ethers": "6.6.4"
+    "ethers": "6.6.5"
   },
   "engines": {
     "node": ">=18"
