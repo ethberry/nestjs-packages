@@ -7,6 +7,8 @@ export * from "./decorators/public";
 export * from "./decorators/roles";
 export * from "./decorators/user";
 
+export * from "./errors/pament-required";
+
 export * from "./filters/http";
 export * from "./filters/validation";
 
