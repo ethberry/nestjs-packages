@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.9...@gemunion/nest-js-utils@4.1.0) (2023-07-25)
+
+
+### Features
+
+* add 'payment required' error ([89a238c](https://github.com/gemunion/nestjs-packages/commit/89a238c662b1feec7a2a9e57e44a8ddd575d7e72))
+
+
+
+
+
 ## [4.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.8...@gemunion/nest-js-utils@4.0.9) (2023-07-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
