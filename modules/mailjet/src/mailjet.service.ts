@@ -61,6 +61,10 @@ export class MailjetService implements ISendMailService {
             })),
             TemplateID: dto.template,
             TemplateLanguage: true,
+            TemplateErrorReporting: {
+              Email: "trejgun@gemunion.io",
+              Name: "TrejGun",
+            },
             Variables: dto.data,
           },
         ],
