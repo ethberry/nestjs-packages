@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@nestjs/axios": "3.0.0",
-    "@nestjs/common": "10.1.1",
+    "@nestjs/common": "10.1.2",
     "@nestjs/config": "3.0.0",
     "@types/jest": "29.5.3",
     "@types/zxcvbn": "4.4.1",
