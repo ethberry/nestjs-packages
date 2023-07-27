@@ -1,6 +1,7 @@
 import { Controller, Get, Query, UseInterceptors } from "@nestjs/common";
 
 import { NotFoundInterceptor, Public } from "@gemunion/nest-js-utils";
+import type { ICoinGeckoCoinTicker } from "@gemunion/types-coin-gecko";
 
 import { SearchOhlc, SearchRates } from "./dto";
 import { CoinGeckoService } from "./coin-gecko.service";
@@ -12,12 +13,12 @@ export class CoinGeckoController {
 
   @Get("/rates")
   @UseInterceptors(NotFoundInterceptor)
-  public rates(@Query() dto: SearchRates): Promise<any | undefined> {
+  public rates(@Query() dto: SearchRates): Promise<ICoinGeckoCoinTicker | undefined> {
     return this.coinGeckoService.rates(dto);
   }
 
   @Get("/ohlc")
-  public ohlc(@Query() dto: SearchOhlc): Promise<any> {
+  public ohlc(@Query() dto: SearchOhlc): Promise<Array<Array<number>>> {
     return this.coinGeckoService.ohlc(dto);
   }
 }

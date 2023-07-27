@@ -12,7 +12,10 @@ const baseUrl = "https://pro-api.coinmarketcap.com/v1";
 
 @Injectable()
 export class CoinMarketCapService {
-  constructor(private readonly httpService: HttpService, private readonly configService: ConfigService) {}
+  constructor(
+    private readonly httpService: HttpService,
+    private readonly configService: ConfigService,
+  ) {}
 
   public rates(dto: ISearchRates): Promise<ICmcQuote | undefined> {
     const { baseCoinId, targetCoinId, start = 1, limit = 10 } = dto;

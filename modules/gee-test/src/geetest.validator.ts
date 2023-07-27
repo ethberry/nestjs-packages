@@ -20,7 +20,10 @@ interface IGeeTestConstraints {
 export class ValidateGeeTest implements ValidatorConstraintInterface {
   private reason: string;
 
-  constructor(private readonly geeTestService: GeeTestService, private readonly configService: ConfigService) {}
+  constructor(
+    private readonly geeTestService: GeeTestService,
+    private readonly configService: ConfigService,
+  ) {}
 
   public async validate(value: unknown, args: ValidationArguments): Promise<boolean> {
     this.reason = await this.isValid(value, args);

@@ -25,7 +25,10 @@ interface IReCaptchaConstraints {
 export class ValidateReCaptcha implements ValidatorConstraintInterface {
   private reason: string;
 
-  constructor(private readonly configService: ConfigService, private readonly httpService: HttpService) {}
+  constructor(
+    private readonly configService: ConfigService,
+    private readonly httpService: HttpService,
+  ) {}
 
   public async validate(value: unknown, args: ValidationArguments): Promise<boolean> {
     this.reason = await this.isValid(value, args);

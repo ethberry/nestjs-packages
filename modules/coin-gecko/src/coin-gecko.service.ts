@@ -5,15 +5,18 @@ import { map } from "rxjs/operators";
 import { URLSearchParams } from "url";
 import { firstValueFrom } from "rxjs";
 
-import { ICoinGeckoCoin, ICoinGeckoCoinListItem, ICoinGeckoCoinTicker } from "@gemunion/types-coin-gecko";
-import { ISearchOhlc, ISearchRates } from "./interfaces";
+import type { ICoinGeckoCoin, ICoinGeckoCoinListItem, ICoinGeckoCoinTicker } from "@gemunion/types-coin-gecko";
+import type { ISearchOhlc, ISearchRates } from "./interfaces";
 
 // const baseUrl = "https://pro-api.coingecko.com/api/v3";
 const baseUrl = "https://api.coingecko.com/api/v3";
 
 @Injectable()
 export class CoinGeckoService {
-  constructor(private readonly httpService: HttpService, private readonly configService: ConfigService) {}
+  constructor(
+    private readonly httpService: HttpService,
+    private readonly configService: ConfigService,
+  ) {}
 
   public async coinList(): Promise<Array<ICoinGeckoCoinListItem>> {
     return this.sendRequest<Array<ICoinGeckoCoinListItem>>("/coins/list", { include_platform: true });

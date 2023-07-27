@@ -11,7 +11,10 @@ import { IBatchDto } from "./interfaces";
 
 @Injectable()
 export class IexCloudService {
-  constructor(private readonly httpService: HttpService, private readonly configService: ConfigService) {}
+  constructor(
+    private readonly httpService: HttpService,
+    private readonly configService: ConfigService,
+  ) {}
 
   public async exchangeRequest(exchange: string): Promise<Array<IIexSymbol>> {
     return this.sendRequest<Array<IIexSymbol>>(`/ref-data/exchange/${exchange}/symbols`, {});
