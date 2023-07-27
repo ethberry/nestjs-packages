@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.10 (2023-07-27)
+
+
+### Bug Fixes
+
+* exports ([4e685b6](https://github.com/gemunion/nestjs-packages/commit/4e685b639f1d7d7b161255089c245bc4132710d8))
+
+
+
+
+
 ## [4.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager-aws@4.0.8...@gemunion/nest-js-module-secret-manager-aws@4.0.9) (2023-07-25)
 
 
