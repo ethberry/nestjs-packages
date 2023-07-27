@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.6 (2023-07-27)
+
+
+### Bug Fixes
+
+* remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
+
+
+
+
+
 ## [1.1.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/utils-eth@1.1.4...@gemunion/utils-eth@1.1.5) (2023-07-25)
 
 **Note:** Version bump only for package @gemunion/utils-eth

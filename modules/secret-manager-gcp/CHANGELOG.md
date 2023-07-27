@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager-gcp@1.1.4...@gemunion/nest-js-module-secret-manager-gcp@1.1.5) (2023-07-27)
+
+
+### Bug Fixes
+
+* remove signer from secret manager ([a706cc1](https://github.com/gemunion/nestjs-packages/commit/a706cc1ff5e7ed67a317996c16c97bec6624240a))
+
+
+
+
+
 ## 1.1.4 (2023-07-27)
 
 

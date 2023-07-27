@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.10 (2023-07-27)
+
+
+### Bug Fixes
+
+* remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
+
+
+
+
+
 ## [4.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.8...@gemunion/nest-js-validators@4.0.9) (2023-07-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-validators
