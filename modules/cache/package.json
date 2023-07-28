@@ -13,9 +13,9 @@
   "devDependencies": {
     "@gemunion/nest-js-module-license": "4.0.9",
     "@nestjs/cache-manager": "2.1.0",
-    "@nestjs/common": "10.1.1",
+    "@nestjs/common": "10.1.2",
     "@nestjs/config": "3.0.0",
-    "@nestjs/core": "10.1.1"
+    "@nestjs/core": "10.1.2"
   },
   "engines": {
     "node": ">=18"
