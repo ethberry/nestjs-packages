@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-gee-test@4.0.11...@gemunion/nest-js-module-gee-test@4.0.12) (2023-07-29)
+
+
+### Bug Fixes
+
+* **deps:** update [@gemunion](https://github.com/gemunion) packages ([c0e4959](https://github.com/gemunion/nestjs-packages/commit/c0e49597d0dd4a9113c12fab4b7bc90b7241eed2))
+* remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
+
+
+
+
+
 ## 4.0.11 (2023-07-27)
 
 
