@@ -1,0 +1,47 @@
+{
+  "author": {
+    "email": "trejgun@gemunion.io",
+    "name": "TrejGun",
+    "url": "https://gemunion.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/nestjs-packages/issues"
+  },
+  "devDependencies": {
+    "@nestjs/common": "10.1.2",
+    "@nestjs/core": "10.1.2",
+    "@nestjs/passport": "10.0.0",
+    "@nestjs/graphql": "12.0.8"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/nest-js-guards-gql",
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/passport": "^10.0.0",
+    "@nestjs/graphql": "^12.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/nestjs-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "exit 0"
+  },
+  "title": "nest js guards ws",
+  "types": "./dist/index.d.ts",
+  "version": "1.0.0"
+}
