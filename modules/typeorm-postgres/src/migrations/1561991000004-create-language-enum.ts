@@ -5,7 +5,7 @@ export function createLanguageEnum(ns: string, languages = Object.keys(EnabledLa
   return class CreateLanguageEnum1561991000004 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<any> {
       await queryRunner.query(`
-        CREATE TYPE IF NOT EXISTS ${ns}.language_enum AS ENUM (${languages.map(l => `'${l}'`).join(",")});
+        CREATE TYPE ${ns}.language_enum AS ENUM (${languages.map(l => `'${l}'`).join(",")});
       `);
     }
 
