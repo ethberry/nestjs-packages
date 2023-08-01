@@ -5,7 +5,7 @@ export function createGenderEnum(ns: string, genders = Object.keys(EnabledGender
   return class CreateGenderEnum1561991000007 implements MigrationInterface {
     public async up(queryRunner: QueryRunner): Promise<any> {
       await queryRunner.query(`
-        CREATE TYPE ${ns}.gender_enum AS ENUM (${genders.map(g => `'${g}'`).join(",")});
+        CREATE TYPE IF NOT EXISTS ${ns}.gender_enum AS ENUM (${genders.map(g => `'${g}'`).join(",")});
       `);
     }
 
