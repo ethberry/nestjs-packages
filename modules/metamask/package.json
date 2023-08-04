@@ -16,9 +16,9 @@
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "4.0.10",
-    "@nestjs/common": "10.1.2",
-    "@nestjs/swagger": "7.1.4",
-    "@nestjs/testing": "10.1.2",
+    "@nestjs/common": "10.1.3",
+    "@nestjs/swagger": "7.1.6",
+    "@nestjs/testing": "10.1.3",
     "@types/jest": "29.5.3",
     "@types/uuid": "9.0.2",
     "ethers": "6.6.7",
