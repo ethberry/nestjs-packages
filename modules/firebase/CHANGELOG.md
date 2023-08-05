@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.11 (2023-08-05)
+
+
+### Bug Fixes
+
+* **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
+* **deps:** update dependency @google-cloud/storage to v7 ([381000d](https://github.com/gemunion/nestjs-packages/commit/381000dbff4e09b921362e436faa273a11d5b5bd))
+
+
+
+
+
 ## 2.0.10 (2023-07-29)
 
 

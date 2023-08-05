@@ -10,7 +10,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "3.385.0",
     "@aws-sdk/s3-request-presigner": "3.385.0",
-    "@gemunion/nest-js-validators": "4.0.11",
+    "@gemunion/nest-js-validators": "4.0.12",
     "@golevelup/nestjs-modules": "0.7.0",
     "class-validator": "0.14.0",
     "mime-types": "2.1.35",
@@ -55,5 +55,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "5.0.11"
+  "version": "5.0.12"
 }
