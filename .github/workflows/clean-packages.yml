@@ -1,13 +1,15 @@
 name: Clean Packages
 # short list packages names
-# gh api --jq '.[].name' -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" -H "Per_page: 100" "/orgs/GemunIon/packages?package_type=npm" > pkglist.txt
+# gh api --jq '.[].name' -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" -H "page: 2" -H "Per_page: 100" "/orgs/GemunIon/packages?package_type=npm" > pkglist.txt
 
 on:
   workflow_dispatch:
 
 jobs:
   clean:
+    continue-on-error: true
     strategy:
+      max-parallel: 1
       matrix:
         package: [ 'nest-js-utils',
                    'nest-js-create-middleware-module',
