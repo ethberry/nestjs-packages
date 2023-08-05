@@ -1,0 +1,414 @@
+name: Clean Packages
+# short list packages names
+# gh api --jq '.[].name' -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" -H "Per_page: 100" "/orgs/GemunIon/packages?package_type=npm" > pkglist.txt
+
+on:
+  workflow_dispatch:
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clean nest-js-utils
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-utils'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-create-middleware-module
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-create-middleware-module'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-typeorm-logger
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-typeorm-logger'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-helmet
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-helmet'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-guards
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-guards'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-request-logger
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-request-logger'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean collection
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'collection'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-winston-logdna
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-winston-logdna'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-mailjet
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-mailjet'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-throttler
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-throttler'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-create-dynamic-module
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-create-dynamic-module'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean winston-formatter
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'winston-formatter'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-passport
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-passport'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-typeorm-helpers
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-typeorm-helpers'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-typeorm
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-typeorm'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-typeorm-debug
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-typeorm-debug'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-validators
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-validators'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-s3
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-s3'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-winston
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-winston'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-guards-ws
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-guards-ws'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-utils-ws
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-utils-ws'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-session
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-session'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-metamask
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-metamask'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-typeorm-postgres
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-typeorm-postgres'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-gee-test
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-gee-test'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-firebase
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-firebase'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-coin-market-cap
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-coin-market-cap'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean utils-eth
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'utils-eth'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-coin-gecko
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-coin-gecko'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-pinata-firebase
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-pinata-firebase'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-infura-firebase
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-infura-firebase'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-exchange-signer
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-exchange-signer'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-nft-storage-firebase
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-nft-storage-firebase'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-web3-storage-firebase
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-web3-storage-firebase'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-ses
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-ses'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-secret-manager
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-secret-manager'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-cache
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-cache'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-secret-manager-gcp
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-secret-manager-gcp'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-secret-manager-aws
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-secret-manager-aws'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-secret-manager-env
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-secret-manager-env'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-gcp-secret-manager
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-gcp-secret-manager'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-iex-cloud
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-iex-cloud'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-pinata-s3
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-pinata-s3'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-intercom
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-intercom'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-mailchimp
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-mailchimp'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-utils-ms
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-utils-ms'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-guards-gql
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-guards-gql'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-winston-papertrail
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-winston-papertrail'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-mandrill
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-mandrill'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+      - name: clean nest-js-module-pay-pal
+        uses: actions/delete-package-versions@v4
+        with:
+          package-name: 'nest-js-module-pay-pal'
+          package-type: 'npm'
+          min-versions-to-keep: 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
