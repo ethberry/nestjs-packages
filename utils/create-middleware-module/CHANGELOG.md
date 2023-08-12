@@ -3,54 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 3.0.10 (2023-08-05)
-
+## 3.0.11 (2023-08-12)
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
+- **deps:** update all non-major dependencies ([aae16ea](https://github.com/gemunion/nestjs-packages/commit/aae16ea312c7396ebfc87040874346f4eaa15fd6))
+- **deps:** update all non-major dependencies ([32e7581](https://github.com/gemunion/nestjs-packages/commit/32e7581cab2a64f093db74ab91779fe7d322a862))
 
+## 3.0.10 (2023-08-05)
 
+### Bug Fixes
 
-
+- **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
 
 ## 3.0.9 (2023-07-29)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
-
-
-
-
+- **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
 
 ## [3.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-create-middleware-module@3.0.7...@gemunion/nest-js-create-middleware-module@3.0.8) (2023-07-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-create-middleware-module
 
-
-
-
-
 ## [3.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-create-middleware-module@3.0.6...@gemunion/nest-js-create-middleware-module@3.0.7) (2023-07-23)
-
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([459c2b4](https://github.com/gemunion/nestjs-packages/commit/459c2b4c98dae98c921ccc61c4d761a335ca4112))
-
-
-
-
+- **deps:** update all non-major dependencies ([459c2b4](https://github.com/gemunion/nestjs-packages/commit/459c2b4c98dae98c921ccc61c4d761a335ca4112))
 
 ## 3.0.6 (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/nest-js-create-middleware-module
-
-
-
-
 
 ## 3.0.5 (2023-07-15)
 

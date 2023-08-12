@@ -3,57 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 3.0.11 (2023-08-05)
-
+## 3.0.12 (2023-08-12)
 
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
+- **deps:** update gemunion to v2.0.10 ([88ac859](https://github.com/gemunion/nestjs-packages/commit/88ac8594b3fd057dd9bfd98a510e3bdd1742ec1d))
 
+## 3.0.11 (2023-08-05)
 
+### Bug Fixes
 
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
 
 ## 3.0.10 (2023-07-29)
 
-
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([c0e4959](https://github.com/gemunion/nestjs-packages/commit/c0e49597d0dd4a9113c12fab4b7bc90b7241eed2))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([c0e4959](https://github.com/gemunion/nestjs-packages/commit/c0e49597d0dd4a9113c12fab4b7bc90b7241eed2))
 
 ## [3.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@3.0.8...@gemunion/nest-js-module-typeorm-debug@3.0.9) (2023-07-25)
 
-
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([4b69ba9](https://github.com/gemunion/nestjs-packages/commit/4b69ba9d7d405f134acc9d3cc7c6435e20cac6ee))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4b69ba9](https://github.com/gemunion/nestjs-packages/commit/4b69ba9d7d405f134acc9d3cc7c6435e20cac6ee))
 
 ## [3.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@3.0.7...@gemunion/nest-js-module-typeorm-debug@3.0.8) (2023-07-23)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-typeorm-debug
 
-
-
-
-
 ## 3.0.7 (2023-07-18)
-
 
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
 
 ## [3.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@3.0.5...@gemunion/nest-js-module-typeorm-debug@3.0.6) (2023-07-15)
 

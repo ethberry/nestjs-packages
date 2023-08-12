@@ -3,46 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 3.0.9 (2023-08-05)
+## 3.0.10 (2023-08-12)
 
+**Note:** Version bump only for package @gemunion/collection
+
+## 3.0.9 (2023-08-05)
 
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
 
 ## 3.0.8 (2023-07-29)
 
 **Note:** Version bump only for package @gemunion/collection
 
-
-
-
-
 ## [3.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.6...@gemunion/collection@3.0.7) (2023-07-23)
-
 
 ### Bug Fixes
 
-* add address dto ([ea9c040](https://github.com/gemunion/nestjs-packages/commit/ea9c04079af003f31b15157fae0b0caccbe2bc79))
-
-
-
-
+- add address dto ([ea9c040](https://github.com/gemunion/nestjs-packages/commit/ea9c04079af003f31b15157fae0b0caccbe2bc79))
 
 ## 3.0.6 (2023-07-18)
 
-
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
 
 ## 3.0.5 (2023-07-15)
 

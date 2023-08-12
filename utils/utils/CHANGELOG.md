@@ -3,62 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 4.1.2 (2023-08-05)
+## 4.1.3 (2023-08-12)
 
+**Note:** Version bump only for package @gemunion/nest-js-utils
+
+## 4.1.2 (2023-08-05)
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
-
-
-
-
+- **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
 
 ## 4.1.1 (2023-07-29)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
-
-
-
-
+- **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
 
 # [4.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.9...@gemunion/nest-js-utils@4.1.0) (2023-07-25)
 
-
 ### Features
 
-* add 'payment required' error ([89a238c](https://github.com/gemunion/nestjs-packages/commit/89a238c662b1feec7a2a9e57e44a8ddd575d7e72))
-
-
-
-
+- add 'payment required' error ([89a238c](https://github.com/gemunion/nestjs-packages/commit/89a238c662b1feec7a2a9e57e44a8ddd575d7e72))
 
 ## [4.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.8...@gemunion/nest-js-utils@4.0.9) (2023-07-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
-
-
-
-
 ## [4.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.7...@gemunion/nest-js-utils@4.0.8) (2023-07-23)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
 
-
-
-
-
 ## 4.0.7 (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
-
-
-
-
 
 ## [4.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.5...@gemunion/nest-js-utils@4.0.6) (2023-07-15)
 
