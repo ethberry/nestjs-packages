@@ -4,9 +4,7 @@ import { decorate } from "ts-mixer";
 
 import { ISearchableDto } from "@gemunion/types-collection";
 
-import { PaginationDto } from "./pagination";
-
-export class SearchableDto extends PaginationDto implements ISearchableDto {
+export class SearchableDto implements ISearchableDto {
   @decorate(
     ApiProperty({
       type: String,
@@ -24,7 +22,7 @@ export class SearchableDto extends PaginationDto implements ISearchableDto {
   public description: string;
 }
 
-export class SearchableOptionalDto extends PaginationDto implements ISearchableDto {
+export class SearchableOptionalDto implements ISearchableDto {
   @decorate(
     ApiPropertyOptional({
       type: String,
