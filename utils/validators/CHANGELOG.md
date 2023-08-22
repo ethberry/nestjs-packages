@@ -3,67 +3,45 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 4.0.12 (2023-08-05)
-
+## 4.0.13 (2023-08-22)
 
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
-* **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
+- **deps:** update all non-major dependencies ([dec6ce8](https://github.com/gemunion/nestjs-packages/commit/dec6ce8fe0135599bee726e233c6394711577d30))
 
+## 4.0.12 (2023-08-05)
 
+### Bug Fixes
 
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
+- **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
 
 ## [4.0.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.10...@gemunion/nest-js-validators@4.0.11) (2023-07-29)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
-* remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
-
-
-
-
+- **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
+- remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
 
 ## 4.0.10 (2023-07-27)
 
-
 ### Bug Fixes
 
-* remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
-
-
-
-
+- remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
 
 ## [4.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.8...@gemunion/nest-js-validators@4.0.9) (2023-07-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-validators
 
-
-
-
-
 ## [4.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.7...@gemunion/nest-js-validators@4.0.8) (2023-07-23)
 
 **Note:** Version bump only for package @gemunion/nest-js-validators
 
-
-
-
-
 ## 4.0.7 (2023-07-18)
-
 
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
 
 ## [4.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.5...@gemunion/nest-js-validators@4.0.6) (2023-07-15)
 

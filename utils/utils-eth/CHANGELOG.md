@@ -3,62 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 1.1.8 (2023-08-05)
-
+## 1.1.9 (2023-08-22)
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
+- **deps:** update all non-major dependencies ([dec6ce8](https://github.com/gemunion/nestjs-packages/commit/dec6ce8fe0135599bee726e233c6394711577d30))
 
+## 1.1.8 (2023-08-05)
 
+### Bug Fixes
 
-
+- **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
 
 ## [1.1.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/utils-eth@1.1.6...@gemunion/utils-eth@1.1.7) (2023-07-29)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
-
-
-
-
+- **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
 
 ## 1.1.6 (2023-07-27)
 
-
 ### Bug Fixes
 
-* remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
-
-
-
-
+- remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
 
 ## [1.1.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/utils-eth@1.1.4...@gemunion/utils-eth@1.1.5) (2023-07-25)
 
 **Note:** Version bump only for package @gemunion/utils-eth
 
-
-
-
-
 ## [1.1.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/utils-eth@1.1.3...@gemunion/utils-eth@1.1.4) (2023-07-23)
 
 **Note:** Version bump only for package @gemunion/utils-eth
 
-
-
-
-
 ## 1.1.3 (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/utils-eth
-
-
-
-
 
 ## [1.1.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/utils-eth@1.1.1...@gemunion/utils-eth@1.1.2) (2023-07-15)
 

@@ -3,37 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.1.0 (2023-08-22)
+
+### Features
+
+- clean local storage ([fe023ff](https://github.com/gemunion/nestjs-packages/commit/fe023ff07f80e1c57de9cf30b2c4df17b01125f3))
+
 ## 3.0.9 (2023-08-05)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards
-
-
-
-
 
 ## 3.0.8 (2023-07-29)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards
 
-
-
-
-
 ## 3.0.7 (2023-07-25)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards
 
-
-
-
-
 ## 3.0.6 (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards
-
-
-
-
 
 ## 3.0.5 (2023-07-15)
 
