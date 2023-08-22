@@ -21,6 +21,12 @@ export class MetamaskGuard extends AuthGuard("metamask") implements CanActivate 
         return true;
       }
 
+      const ctx = context.switchToHttp();
+      const response = ctx.getResponse();
+
+      // Headers, cookies and more can be set here
+      response.setHeader("Clear-Site-Data", "storage");
+
       console.error(e);
       throw new UnauthorizedException("unauthorized");
     });

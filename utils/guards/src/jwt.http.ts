@@ -22,6 +22,12 @@ export class JwtLocalHttpGuard extends AuthGuard("jwt-local-http") implements Ca
       }
 
       console.error(e);
+      const ctx = context.switchToHttp();
+      const response = ctx.getResponse();
+
+      // Headers, cookies and more can be set here
+      response.setHeader("Clear-Site-Data", "storage");
+
       throw new UnauthorizedException("unauthorized");
     });
   }

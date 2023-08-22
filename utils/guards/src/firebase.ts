@@ -21,6 +21,12 @@ export class FirebaseHttpGuard extends AuthGuard("firebase-http") implements Can
         return true;
       }
 
+      const ctx = context.switchToHttp();
+      const response = ctx.getResponse();
+
+      // Headers, cookies and more can be set here
+      response.setHeader("Clear-Site-Data", "storage");
+
       console.error(e);
       throw new UnauthorizedException("unauthorized");
     });
