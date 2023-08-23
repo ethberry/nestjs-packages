@@ -8,9 +8,7 @@ export function createTokenTypesEnum(ns: string) {
           'NATIVE',
           'ERC20',
           'ERC721',
-          'ERC721RANDOM',
           'ERC998',
-          'ERC998RANDOM',
           'ERC1155'
         );
       `);
