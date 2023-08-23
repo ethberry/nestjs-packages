@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/constants": "0.12.7",
-    "@gemunion/types-jwt": "0.3.11",
+    "@gemunion/types-jwt": "0.3.12",
     "@metamask/eth-sig-util": "6.0.0",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.0"
