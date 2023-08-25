@@ -33,6 +33,7 @@ export class MuiSortDto<T extends IDateBase> implements IMuiSortDto<T> {
       isArray: true,
     }),
   )
+  @decorate(IsOptional())
   @decorate(IsArray({ message: "typeMismatch" }))
   @decorate(ValidateNested({ each: true }))
   @decorate(Type(() => SortDto))
