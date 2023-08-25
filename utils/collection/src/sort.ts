@@ -1,8 +1,10 @@
 import { ApiPropertyOptional } from "@nestjs/swagger";
-import { IsEnum, IsOptional, IsString } from "class-validator";
+import { IsArray, IsEnum, IsOptional, IsString, ValidateNested } from "class-validator";
+import { Type } from "class-transformer";
 import { decorate } from "ts-mixer";
 
-import { IDateBase, ISortDto, SortDirection } from "@gemunion/types-collection";
+import type { IDateBase, IMuiSortDto, ISortDto } from "@gemunion/types-collection";
+import { SortDirection } from "@gemunion/types-collection";
 
 export class SortDto<T extends IDateBase> implements ISortDto<T> {
   @decorate(
@@ -12,7 +14,7 @@ export class SortDto<T extends IDateBase> implements ISortDto<T> {
   )
   @decorate(IsOptional())
   @decorate(IsString({ message: "typeMismatch" }))
-  public sortBy: keyof T = "createdAt";
+  public field: keyof T = "createdAt";
 
   @decorate(
     ApiPropertyOptional({
@@ -22,4 +24,17 @@ export class SortDto<T extends IDateBase> implements ISortDto<T> {
   @decorate(IsOptional())
   @decorate(IsEnum(SortDirection, { message: "badInput" }))
   public sort: SortDirection = SortDirection.asc;
+}
+
+export class MuiSortDto<T extends IDateBase> implements IMuiSortDto<T> {
+  @decorate(
+    ApiPropertyOptional({
+      type: SortDto<T>,
+      isArray: true,
+    }),
+  )
+  @decorate(IsArray({ message: "typeMismatch" }))
+  @decorate(ValidateNested({ each: true }))
+  @decorate(Type(() => SortDto))
+  public order: Array<SortDto<T>>;
 }
