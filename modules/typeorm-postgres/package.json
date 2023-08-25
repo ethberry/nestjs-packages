@@ -10,8 +10,8 @@
   "dependencies": {
     "@gemunion/constants": "0.12.7",
     "@gemunion/draft-js-utils": "1.2.25",
-    "@gemunion/types-blockchain": "1.2.6",
-    "@gemunion/types-collection": "1.5.12",
+    "@gemunion/types-blockchain": "1.2.7",
+    "@gemunion/types-collection": "1.5.13",
     "ts-mixer": "6.0.3"
   },
   "devDependencies": {
