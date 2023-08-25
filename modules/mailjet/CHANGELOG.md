@@ -3,72 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 4.0.12 (2023-08-05)
+## 4.0.13 (2023-08-25)
 
+**Note:** Version bump only for package @gemunion/nest-js-module-mailjet
+
+## 4.0.12 (2023-08-05)
 
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
 
 ## [4.0.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailjet@4.0.10...@gemunion/nest-js-module-mailjet@4.0.11) (2023-07-29)
 
-
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([c0e4959](https://github.com/gemunion/nestjs-packages/commit/c0e49597d0dd4a9113c12fab4b7bc90b7241eed2))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([c0e4959](https://github.com/gemunion/nestjs-packages/commit/c0e49597d0dd4a9113c12fab4b7bc90b7241eed2))
 
 ## 4.0.10 (2023-07-27)
 
-
 ### Bug Fixes
 
-* mailjet ([0a6aaa3](https://github.com/gemunion/nestjs-packages/commit/0a6aaa36705995f4e381d2a63b76982214822f28))
-
-
-
-
+- mailjet ([0a6aaa3](https://github.com/gemunion/nestjs-packages/commit/0a6aaa36705995f4e381d2a63b76982214822f28))
 
 ## [4.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailjet@4.0.8...@gemunion/nest-js-module-mailjet@4.0.9) (2023-07-25)
 
-
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([4b69ba9](https://github.com/gemunion/nestjs-packages/commit/4b69ba9d7d405f134acc9d3cc7c6435e20cac6ee))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4b69ba9](https://github.com/gemunion/nestjs-packages/commit/4b69ba9d7d405f134acc9d3cc7c6435e20cac6ee))
 
 ## [4.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailjet@4.0.7...@gemunion/nest-js-module-mailjet@4.0.8) (2023-07-23)
 
-
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([9d719fc](https://github.com/gemunion/nestjs-packages/commit/9d719fc585e7f9850afe9d5af55235a619435bf1))
-* **deps:** update all non-major dependencies ([459c2b4](https://github.com/gemunion/nestjs-packages/commit/459c2b4c98dae98c921ccc61c4d761a335ca4112))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9d719fc](https://github.com/gemunion/nestjs-packages/commit/9d719fc585e7f9850afe9d5af55235a619435bf1))
+- **deps:** update all non-major dependencies ([459c2b4](https://github.com/gemunion/nestjs-packages/commit/459c2b4c98dae98c921ccc61c4d761a335ca4112))
 
 ## 4.0.7 (2023-07-18)
 
-
 ### Bug Fixes
 
-* **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
-
-
-
-
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
 
 ## [4.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailjet@4.0.5...@gemunion/nest-js-module-mailjet@4.0.6) (2023-07-15)
 

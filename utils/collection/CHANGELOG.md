@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.11...@gemunion/collection@3.1.0) (2023-08-25)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([dc0bf75](https://github.com/gemunion/nestjs-packages/commit/dc0bf75dc354e382b68786868a04a261df73f364))
+
+### Features
+
+- add mui sort ([ba11fbb](https://github.com/gemunion/nestjs-packages/commit/ba11fbb0e866b96b3fcf263bff4fe00a101a8f58))
+
 ## [3.0.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.10...@gemunion/collection@3.0.11) (2023-08-22)
 
 ### Bug Fixes
