@@ -17,7 +17,7 @@
   "devDependencies": {
     "@nestjs/common": "10.2.1",
     "@nestjs/config": "3.0.0",
-    "nest-winston": "1.9.3"
+    "nest-winston": "1.9.4"
   },
   "engines": {
     "node": ">=18"
