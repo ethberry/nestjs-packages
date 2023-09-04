@@ -1,5 +1,7 @@
 export * from "./account";
 export * from "./chain-id";
+export * from "./email";
+export * from "./image-url";
 export * from "./pagination";
 export * from "./search";
 export * from "./searchable";
