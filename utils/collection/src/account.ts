@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
-import { IsEthereumAddress, IsOptional, IsString } from "class-validator";
-import { Transform } from "class-transformer";
+import { IsArray, IsEthereumAddress, IsOptional, IsString } from "class-validator";
+import { Transform, Type } from "class-transformer";
 import { decorate } from "ts-mixer";
 
 export class AccountDto {
@@ -26,6 +26,21 @@ export class AccountOptionalDto {
   @decorate(IsEthereumAddress({ message: "patternMismatch" }))
   @decorate(Transform(({ value }: { value: string }) => (value === "" ? null : value.toLowerCase())))
   public account: string;
+}
+
+export class AccountsOptionalDto {
+  @decorate(
+    ApiPropertyOptional({
+      type: String,
+      isArray: true,
+    }),
+  )
+  @decorate(IsOptional())
+  @decorate(IsArray({ message: "typeMismatch" }))
+  @decorate(IsString({ each: true, message: "typeMismatch" }))
+  @decorate(IsEthereumAddress({ each: true, message: "patternMismatch" }))
+  @decorate(Type(() => String))
+  public accounts: Array<string>;
 }
 
 export class AddressDto {
