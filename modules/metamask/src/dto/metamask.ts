@@ -1,10 +1,10 @@
 import { ApiProperty } from "@nestjs/swagger";
-import { IsString, IsEthereumAddress } from "class-validator";
-import { Transform } from "class-transformer";
+import { IsString } from "class-validator";
 
 import { IMetamaskDto } from "@gemunion/types-jwt";
+import { WalletDto } from "@gemunion/collection";
 
-export class MetamaskDto implements IMetamaskDto {
+export class MetamaskDto extends WalletDto implements IMetamaskDto {
   @ApiProperty()
   @IsString({ message: "typeMismatch" })
   public nonce: string;
@@ -12,10 +12,4 @@ export class MetamaskDto implements IMetamaskDto {
   @ApiProperty()
   @IsString({ message: "typeMismatch" })
   public signature: string;
-
-  @ApiProperty()
-  @IsString({ message: "typeMismatch" })
-  @IsEthereumAddress({ message: "patternMismatch" })
-  @Transform(({ value }: { value: string }) => value.toLowerCase())
-  public wallet: string;
 }
