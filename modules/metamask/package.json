@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/collection": "3.1.1",
+    "@gemunion/collection": "3.2.0",
     "@gemunion/constants": "0.12.7",
     "@gemunion/types-jwt": "0.3.12",
     "@metamask/eth-sig-util": "6.0.0",
@@ -57,5 +57,5 @@
   },
   "title": "NestJS Metamask module",
   "types": "./dist/index.d.ts",
-  "version": "3.0.15"
+  "version": "3.1.0"
 }

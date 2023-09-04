@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.1.0 (2023-09-04)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([c78f638](https://github.com/gemunion/nestjs-packages/commit/c78f6385e63ad797c053130b3f7edf3a422b82f0))
+
+### Features
+
+- address/account/referrer/wallet dto ([a0cb904](https://github.com/gemunion/nestjs-packages/commit/a0cb904bc3339cc364acda319ca8d96a883f8b99))
+
 ## [3.0.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-metamask@3.0.14...@gemunion/nest-js-module-metamask@3.0.15) (2023-08-25)
 
 ### Bug Fixes

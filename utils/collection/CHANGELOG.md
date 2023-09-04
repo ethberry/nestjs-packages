@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.1.1...@gemunion/collection@3.2.0) (2023-09-04)
+
+### Features
+
+- accounts dto ([3078873](https://github.com/gemunion/nestjs-packages/commit/30788735ec7c3e12f8f7f5ba461ec8ad35df028e))
+- address/account/referrer/wallet dto ([a0cb904](https://github.com/gemunion/nestjs-packages/commit/a0cb904bc3339cc364acda319ca8d96a883f8b99))
+- chain id dto ([0e8a1ff](https://github.com/gemunion/nestjs-packages/commit/0e8a1ffb78117ccd987294a7dc699c3dc7bbd43e))
+- token type dto ([af32138](https://github.com/gemunion/nestjs-packages/commit/af32138725a94bffb67923ab09ea6b98669e800c))
+
 ## [3.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.1.0...@gemunion/collection@3.1.1) (2023-08-25)
 
 ### Bug Fixes
