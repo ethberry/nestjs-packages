@@ -1,6 +1,6 @@
 import { Injectable, ExecutionContext } from "@nestjs/common";
 import { ThrottlerGuard, ThrottlerException } from "@nestjs/throttler";
-import { ThrottlerOptions } from "@nestjs/throttler/dist/throttler-module-options.interface";
+import type { ThrottlerOptions } from "@nestjs/throttler";
 
 @Injectable()
 export class WsThrottlerGuard extends ThrottlerGuard {
