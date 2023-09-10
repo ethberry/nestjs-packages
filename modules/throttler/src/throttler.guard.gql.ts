@@ -10,7 +10,7 @@ export class GqlThrottlerGuard extends ThrottlerGuard {
     return { req: ctx.req, res: ctx.res };
   }
 
-  protected throwThrottlingException(): void {
+  protected throwThrottlingException(): Promise<void> {
     throw new ThrottlerException("tooManyRequests");
   }
 }
