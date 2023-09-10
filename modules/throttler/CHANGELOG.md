@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttler@5.0.13...@gemunion/nest-js-module-throttler@6.0.1) (2023-09-10)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-throttler
+
 ## 5.0.13 (2023-09-04)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-throttler

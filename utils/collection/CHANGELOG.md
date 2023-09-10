@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.2.0...@gemunion/collection@3.3.0) (2023-09-10)
+
+### Features
+
+- email/imageUrl dto ([e399d39](https://github.com/gemunion/nestjs-packages/commit/e399d39c1196e62720c3f8c7f3da621e42e8a128))
+
 # [3.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.1.1...@gemunion/collection@3.2.0) (2023-09-04)
 
 ### Features
