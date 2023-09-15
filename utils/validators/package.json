@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@nestjs/axios": "3.0.0",
-    "@nestjs/common": "10.2.4",
-    "@nestjs/config": "3.0.1",
+    "@nestjs/common": "10.2.5",
+    "@nestjs/config": "3.1.1",
     "@types/jest": "29.5.5",
     "@types/zxcvbn": "4.4.2",
     "class-validator": "0.14.0",
