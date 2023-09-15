@@ -1,4 +1,3 @@
-export * from "./decorators/draft";
 export * from "./decorators/json";
 
 export * from "./entities/deployable";
