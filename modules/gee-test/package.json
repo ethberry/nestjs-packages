@@ -11,7 +11,7 @@
     "@gemunion/nest-js-utils": "4.1.6",
     "class-validator": "0.14.0",
     "qs": "6.11.2",
-    "uuid": "9.0.0"
+    "uuid": "9.0.1"
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "4.0.12",
@@ -21,7 +21,7 @@
     "@nestjs/config": "3.0.1",
     "@nestjs/schedule": "3.0.3",
     "@nestjs/swagger": "7.1.10",
-    "@types/uuid": "9.0.3",
+    "@types/uuid": "9.0.4",
     "ioredis": "5.3.2",
     "rxjs": "7.8.1"
   },

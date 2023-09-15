@@ -11,7 +11,7 @@
     "@gemunion/collection": "3.3.0",
     "@gemunion/constants": "0.12.7",
     "@gemunion/types-jwt": "0.3.12",
-    "@metamask/eth-sig-util": "6.0.0",
+    "@metamask/eth-sig-util": "6.0.1",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.0"
   },
@@ -20,12 +20,12 @@
     "@nestjs/common": "10.2.4",
     "@nestjs/swagger": "7.1.10",
     "@nestjs/testing": "10.2.4",
-    "@types/jest": "29.5.4",
-    "@types/uuid": "9.0.3",
+    "@types/jest": "29.5.5",
+    "@types/uuid": "9.0.4",
     "ethers": "6.7.1",
-    "jest": "29.6.4",
-    "jest-environment-node": "29.6.4",
-    "uuid": "9.0.0"
+    "jest": "29.7.0",
+    "jest-environment-node": "29.7.0",
+    "uuid": "9.0.1"
   },
   "engines": {
     "node": ">=18"
