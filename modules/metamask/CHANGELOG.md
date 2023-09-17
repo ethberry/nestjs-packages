@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-metamask@3.1.1...@gemunion/nest-js-module-metamask@3.1.2) (2023-09-17)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([78ed2d8](https://github.com/gemunion/nestjs-packages/commit/78ed2d8be9f52b8da9ee8894724fcfe587ad6d1f))
+- **deps:** update all non-major dependencies ([cb9d78a](https://github.com/gemunion/nestjs-packages/commit/cb9d78a8b5f1e3466a350a32adf9dbdd648f87c4))
+- **deps:** update dependency @metamask/eth-sig-util to v7 ([ab8e716](https://github.com/gemunion/nestjs-packages/commit/ab8e7169cc082ea7d698abab951cd806bf0eea9e))
+
 ## [3.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-metamask@3.1.0...@gemunion/nest-js-module-metamask@3.1.1) (2023-09-10)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-metamask

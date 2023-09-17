@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-firebase@2.0.15...@gemunion/nest-js-module-firebase@2.0.16) (2023-09-17)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([78ed2d8](https://github.com/gemunion/nestjs-packages/commit/78ed2d8be9f52b8da9ee8894724fcfe587ad6d1f))
+
 ## [2.0.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-firebase@2.0.14...@gemunion/nest-js-module-firebase@2.0.15) (2023-09-10)
 
 ### Bug Fixes
