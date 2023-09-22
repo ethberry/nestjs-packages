@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@nestjs/throttler": "5.0.0",
-    "nestjs-throttler-storage-redis": "0.4.0"
+    "nestjs-throttler-storage-redis": "0.4.1"
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "4.0.13",
