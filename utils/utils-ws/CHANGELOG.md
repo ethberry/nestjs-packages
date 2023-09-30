@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.13](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils-ws@3.0.12...@gemunion/nest-js-utils-ws@3.0.13) (2023-09-30)
+
+**Note:** Version bump only for package @gemunion/nest-js-utils-ws
+
 ## 3.0.12 (2023-09-17)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils-ws

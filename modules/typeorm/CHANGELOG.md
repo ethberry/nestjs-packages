@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm@4.0.14...@gemunion/nest-js-module-typeorm@4.0.15) (2023-09-30)
+
+### Bug Fixes
+
+- apply log level ([4341aec](https://github.com/gemunion/nestjs-packages/commit/4341aec48b4f7fb34e934c02244153d147dc7e73))
+
 ## 4.0.14 (2023-09-17)
 
 ### Bug Fixes
