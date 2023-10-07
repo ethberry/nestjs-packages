@@ -24,7 +24,7 @@
     "@nestjs/swagger": "7.1.13",
     "@nestjs/testing": "10.2.7",
     "@types/mime-types": "2.1.2",
-    "@types/uuid": "9.0.4"
+    "@types/uuid": "9.0.5"
   },
   "engines": {
     "node": ">=18"
