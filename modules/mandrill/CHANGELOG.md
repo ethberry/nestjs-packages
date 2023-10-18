@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.17 (2023-10-18)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([3ec6b60](https://github.com/gemunion/nestjs-packages/commit/3ec6b608d4957be663d7f0d3eb1b4f0c084e6cfe))
+
 ## [4.0.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mandrill@4.0.15...@gemunion/nest-js-module-mandrill@4.0.16) (2023-10-07)
 
 ### Bug Fixes

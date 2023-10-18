@@ -57,5 +57,5 @@
   },
   "title": "NestJS Metamask module",
   "types": "./dist/index.d.ts",
-  "version": "3.1.5"
+  "version": "3.1.6"
 }
