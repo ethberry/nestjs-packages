@@ -79,23 +79,6 @@ describe("IsBigInt", () => {
     });
   });
 
-  describe("allowEmptyString", () => {
-    it("should allow empty string", () => {
-      class TestClass {
-        @IsBigInt({ allowEmptyString: true })
-        amount: string;
-      }
-
-      const model = new TestClass();
-      model.amount = "";
-
-      const validator = new Validator();
-      return validator.validate(model).then(errors => {
-        expect(errors.length).toEqual(0);
-      });
-    });
-  });
-
   describe("minimum", () => {
     it("should validate", () => {
       class TestClass {

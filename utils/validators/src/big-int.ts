@@ -7,7 +7,6 @@ import {
 } from "class-validator";
 
 interface IBigIntConstraints {
-  allowEmptyString?: boolean;
   minimum: bigint | number;
   maximum: bigint | number;
 }
@@ -26,12 +25,9 @@ export class ValidateBigInt implements ValidatorConstraintInterface {
   }
 
   private isValid(value: unknown, args: ValidationArguments): string {
-    const { allowEmptyString, minimum, maximum }: IBigIntConstraints = args.constraints[0];
+    const { minimum, maximum }: IBigIntConstraints = args.constraints[0];
 
     if (value === "") {
-      if (allowEmptyString) {
-        return "";
-      }
       return "typeMismatch";
     }
 
