@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.20](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.19...@gemunion/nest-js-validators@4.0.20) (2023-10-21)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([3489340](https://github.com/gemunion/nestjs-packages/commit/34893409c86ff071d87235743dbf71d35497125e))
+- remove allowEmptyString ([a1602c7](https://github.com/gemunion/nestjs-packages/commit/a1602c74deb0af6262420122b725d3c28cad8b02))
+
 ## 4.0.19 (2023-10-18)
 
 ### Bug Fixes
