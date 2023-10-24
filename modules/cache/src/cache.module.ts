@@ -12,6 +12,7 @@ import { CACHE_STORE } from "./cache.constants";
   imports: [
     LicenseModule.deferred(),
     CacheModule.registerAsync<CacheModuleAsyncOptions>({
+      isGlobal: true, // this makes APP_INTERCEPTOR works in app.module
       imports: [ConfigModule],
       inject: [ConfigService, RedisManager],
       useFactory: (configService: ConfigService, redisManager: RedisManager) => {
