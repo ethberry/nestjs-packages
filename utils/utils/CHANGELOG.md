@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.11 (2023-10-24)
+
+**Note:** Version bump only for package @gemunion/nest-js-utils
+
 ## 4.1.10 (2023-10-18)
 
 ### Bug Fixes

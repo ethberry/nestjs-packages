@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.18 (2023-10-24)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([3c41fb9](https://github.com/gemunion/nestjs-packages/commit/3c41fb905beb011014faea622f7cb90a0db3df12))
+- make cache module global ([fb3a64a](https://github.com/gemunion/nestjs-packages/commit/fb3a64a27dd015739b56f647da9cf2818a722822))
+
 ## 3.0.17 (2023-10-18)
 
 ### Bug Fixes
