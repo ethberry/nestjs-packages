@@ -10,9 +10,9 @@ export class WsThrottlerGuard extends ThrottlerGuard {
     ttl: number,
     throttler: ThrottlerOptions,
   ): Promise<boolean> {
-    const { req } = this.getRequestResponse(context);
-    const tracker = await this.getTracker(req);
-    const key = this.generateKey(context, tracker, throttler.name || "default");
+    const client = context.switchToWs().getClient();
+    const ip = client._socket.remoteAddress;
+    const key = this.generateKey(context, ip, throttler.name || "default");
     const { totalHits } = await this.storageService.increment(key, ttl);
 
     if (totalHits > limit) {
