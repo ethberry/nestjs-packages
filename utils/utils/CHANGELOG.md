@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.12 (2023-11-04)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([e6b8056](https://github.com/gemunion/nestjs-packages/commit/e6b80564ab65c93870f13587efd5b41f8fb58a02))
+
 ## 4.1.11 (2023-10-24)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils
