@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-metamask@3.1.10...@gemunion/nest-js-module-metamask@3.1.11) (2023-11-12)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([284ac68](https://github.com/gemunion/nestjs-packages/commit/284ac6886367b326c802b3263deb7b8a97589f18))
+- **deps:** update all non-major dependencies ([8f753de](https://github.com/gemunion/nestjs-packages/commit/8f753de173b9151eecc484cc90ece812618fda46))
+
 ## [3.1.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-metamask@3.1.9...@gemunion/nest-js-module-metamask@3.1.10) (2023-11-04)
 
 ### Bug Fixes
