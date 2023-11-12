@@ -10,7 +10,7 @@
   "devDependencies": {
     "@nestjs/common": "10.2.8",
     "@nestjs/core": "10.2.8",
-    "@nestjs/graphql": "12.0.9",
+    "@nestjs/graphql": "12.0.10",
     "@nestjs/passport": "10.0.2"
   },
   "engines": {
