@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/winston-formatter": "0.0.38",
-    "@logdna/logger": "2.6.7",
+    "@logdna/logger": "2.6.8",
     "logdna-winston": "4.0.1",
     "winston": "3.11.0",
     "winston-transport": "4.6.0"
