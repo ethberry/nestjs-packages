@@ -55,5 +55,5 @@
   },
   "title": "nest js core utils",
   "types": "./dist/index.d.ts",
-  "version": "4.1.14"
+  "version": "4.1.15"
 }
