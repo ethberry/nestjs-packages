@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.12 (2023-12-30)
+
+**Note:** Version bump only for package @gemunion/nest-js-guards-gql
+
 ## [1.0.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-guards-gql@1.0.10...@gemunion/nest-js-guards-gql@1.0.11) (2023-12-08)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards-gql
