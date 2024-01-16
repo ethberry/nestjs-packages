@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/nest-js-utils": "4.1.17",
     "@gemunion/types-iex-cloud": "0.2.18",
-    "class-validator": "0.14.0"
+    "class-validator": "0.14.1"
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "4.0.22",
