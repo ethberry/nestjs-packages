@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.17 (2024-01-17)
+
+### Bug Fixes
+
+- collection and metamask dto ([2afed51](https://github.com/gemunion/nestjs-packages/commit/2afed51d28e34569188604c9ad6c3f6902590cea))
+- **deps:** update gemunion to v0.3.13 ([77ce80b](https://github.com/gemunion/nestjs-packages/commit/77ce80b6dfd55ff4c12b5b934924ec9d57ee3508))
+
 ## [3.1.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-metamask@3.1.15...@gemunion/nest-js-module-metamask@3.1.16) (2024-01-16)
 
 ### Bug Fixes

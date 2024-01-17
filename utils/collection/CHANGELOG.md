@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.3.10 (2024-01-17)
+
+### Bug Fixes
+
+- collection and metamask dto ([2afed51](https://github.com/gemunion/nestjs-packages/commit/2afed51d28e34569188604c9ad6c3f6902590cea))
+
 ## 3.3.9 (2024-01-16)
 
 ### Bug Fixes
