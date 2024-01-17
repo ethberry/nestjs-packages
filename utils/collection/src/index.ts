@@ -1,5 +1,6 @@
 export * from "./account";
 export * from "./chain-id";
+export * from "./display-name";
 export * from "./email";
 export * from "./image-url";
 export * from "./pagination";
