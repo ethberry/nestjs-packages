@@ -17,6 +17,7 @@ export class WinstonConfigService {
     const adaptors: Array<Transport> = [new transports.Console()];
 
     const nodeEnv = this.configService.get<string>("NODE_ENV", "development");
+    const appName = this.configService.get<string>("APP_NAME", path.basename(process.cwd()));
 
     if (nodeEnv !== "development" && nodeEnv !== "test") {
       const logdnaIngestionKey = this.configService.get<string>("LOGDNA_INGESTION_KEY", "");
@@ -24,7 +25,7 @@ export class WinstonConfigService {
         new LogdnaWinstonTransport({
           key: logdnaIngestionKey,
           hostname: os.hostname(),
-          app: path.basename(process.cwd()),
+          app: appName,
           env: nodeEnv,
         }),
       );
