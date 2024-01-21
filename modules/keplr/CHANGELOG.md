@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.21](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-keplr@1.1.20...@gemunion/nest-js-module-keplr@1.1.21) (2024-01-21)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([3f4ebe3](https://github.com/gemunion/nestjs-packages/commit/3f4ebe3ead2694b7444afbd1f9024ce15e04581f))
+
 ## 1.1.20 (2024-01-17)
 
 ### Bug Fixes

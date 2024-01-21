@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.1.0 (2024-01-21)
+
+### Features
+
+- APP_NAME env for LogDna(Mezmo) ([3a8a7ea](https://github.com/gemunion/nestjs-packages/commit/3a8a7eafff58dfb3f9cc7c427cba63d02e5382e0))
+
 ## 3.0.20 (2023-12-30)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-winston-logdna
