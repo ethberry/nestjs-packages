@@ -1,3 +1,4 @@
+export * from "./decorators/chain-id";
 export * from "./decorators/address";
 export * from "./decorators/big-int";
 export * from "./decorators/file";
@@ -20,6 +21,7 @@ export * from "./middlewares/json-body";
 export * from "./middlewares/raw-body";
 export * from "./middlewares/url-body";
 
+export * from "./pipes/chain-id";
 export * from "./pipes/address";
 export * from "./pipes/big-int";
 export * from "./pipes/to-lower-case";
