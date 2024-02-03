@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.26 (2024-02-03)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([cbfc0e3](https://github.com/gemunion/nestjs-packages/commit/cbfc0e3697425fa7404f1afddab94a9bf2301dd3))
+
 ## [3.0.25](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-cache@3.0.24...@gemunion/nest-js-module-cache@3.0.25) (2024-01-16)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-cache

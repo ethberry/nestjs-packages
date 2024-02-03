@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.2.0 (2024-02-03)
+
+### Features
+
+- add chainId decorator and pipe ([a3617e7](https://github.com/gemunion/nestjs-packages/commit/a3617e7bcfddb06758b8c2016bc7686b65c362df))
+
 ## [4.1.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.17...@gemunion/nest-js-utils@4.1.18) (2024-01-16)
 
 ### Bug Fixes

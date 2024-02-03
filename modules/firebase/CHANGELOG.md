@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.28 (2024-02-03)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([cbfc0e3](https://github.com/gemunion/nestjs-packages/commit/cbfc0e3697425fa7404f1afddab94a9bf2301dd3))
+
 ## 2.0.27 (2023-12-30)
 
 ### Bug Fixes
