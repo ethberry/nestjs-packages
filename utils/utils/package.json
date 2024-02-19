@@ -8,11 +8,11 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/axios": "3.0.1",
-    "@nestjs/common": "10.3.1",
-    "@nestjs/config": "3.1.1",
-    "@nestjs/core": "10.3.1",
-    "@nestjs/swagger": "7.2.0",
+    "@nestjs/axios": "3.0.2",
+    "@nestjs/common": "10.3.3",
+    "@nestjs/config": "3.2.0",
+    "@nestjs/core": "10.3.3",
+    "@nestjs/swagger": "7.3.0",
     "body-parser": "1.20.2",
     "class-validator": "0.14.1",
     "ethers": "6.11.1",

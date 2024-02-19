@@ -13,10 +13,10 @@
     "@gemunion/nest-js-module-typeorm-logger": "3.0.20"
   },
   "devDependencies": {
-    "@nestjs/axios": "3.0.1",
-    "@nestjs/common": "10.3.1",
-    "@nestjs/config": "3.1.1",
-    "@nestjs/typeorm": "10.0.1",
+    "@nestjs/axios": "3.0.2",
+    "@nestjs/common": "10.3.3",
+    "@nestjs/config": "3.2.0",
+    "@nestjs/typeorm": "10.0.2",
     "typeorm": "0.3.20"
   },
   "engines": {
