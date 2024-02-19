@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/types-email": "0.2.17",
-    "@golevelup/nestjs-modules": "0.7.0",
+    "@golevelup/nestjs-modules": "0.7.1",
     "node-mailjet": "6.0.5"
   },
   "devDependencies": {

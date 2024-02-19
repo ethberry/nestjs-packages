@@ -8,10 +8,10 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.504.0",
-    "@aws-sdk/s3-request-presigner": "3.504.0",
+    "@aws-sdk/client-s3": "3.515.0",
+    "@aws-sdk/s3-request-presigner": "3.515.0",
     "@gemunion/nest-js-validators": "4.0.27",
-    "@golevelup/nestjs-modules": "0.7.0",
+    "@golevelup/nestjs-modules": "0.7.1",
     "class-validator": "0.14.1",
     "mime-types": "2.1.35",
     "uuid": "9.0.1"
