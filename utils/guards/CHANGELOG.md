@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-guards@3.1.10...@gemunion/nest-js-guards@3.1.11) (2024-02-19)
+
+**Note:** Version bump only for package @gemunion/nest-js-guards
+
 ## 3.1.10 (2024-02-03)
 
 **Note:** Version bump only for package @gemunion/nest-js-guards
