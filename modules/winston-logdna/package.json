@@ -12,7 +12,7 @@
     "@logdna/logger": "2.6.8",
     "logdna-winston": "4.0.1",
     "winston": "3.11.0",
-    "winston-transport": "4.6.0"
+    "winston-transport": "4.7.0"
   },
   "devDependencies": {
     "@nestjs/common": "10.3.1",

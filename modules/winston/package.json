@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/winston-formatter": "0.0.38",
     "winston": "3.11.0",
-    "winston-transport": "4.6.0"
+    "winston-transport": "4.7.0"
   },
   "devDependencies": {
     "@nestjs/common": "10.3.1",
