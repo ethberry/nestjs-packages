@@ -12,7 +12,7 @@
     "@gemunion/draft-js-utils": "1.2.34",
     "@gemunion/types-blockchain": "1.2.9",
     "@gemunion/types-collection": "1.5.14",
-    "ts-mixer": "6.0.3"
+    "ts-mixer": "6.0.4"
   },
   "devDependencies": {
     "ethers": "6.11.1",
