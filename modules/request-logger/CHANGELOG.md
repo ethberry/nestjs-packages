@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.21](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-request-logger@3.0.20...@gemunion/nest-js-module-request-logger@3.0.21) (2024-03-02)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([a26a8a7](https://github.com/gemunion/nestjs-packages/commit/a26a8a79f17ea104c94d50a5319420486348d704))
+
 ## [3.0.20](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-request-logger@3.0.19...@gemunion/nest-js-module-request-logger@3.0.20) (2024-02-19)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-request-logger

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.1...@gemunion/nest-js-utils@4.2.2) (2024-03-02)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([a26a8a7](https://github.com/gemunion/nestjs-packages/commit/a26a8a79f17ea104c94d50a5319420486348d704))
+
 ## [4.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.0...@gemunion/nest-js-utils@4.2.1) (2024-02-19)
 
 ### Bug Fixes
