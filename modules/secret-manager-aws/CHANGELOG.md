@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.37](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager-aws@4.0.36...@gemunion/nest-js-module-secret-manager-aws@4.0.37) (2024-03-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([53e2a20](https://github.com/gemunion/nestjs-packages/commit/53e2a20ce4c76109175fcf2d67edbc017135ea18))
+
 ## [4.0.36](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager-aws@4.0.35...@gemunion/nest-js-module-secret-manager-aws@4.0.36) (2024-03-02)
 
 ### Bug Fixes
