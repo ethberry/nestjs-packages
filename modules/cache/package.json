@@ -11,7 +11,7 @@
     "cache-manager-ioredis-yet": "2.0.2"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "4.0.24",
+    "@gemunion/nest-js-module-license": "4.0.25",
     "@nestjs/cache-manager": "2.2.1",
     "@nestjs/common": "10.3.4",
     "@nestjs/config": "3.2.0",
