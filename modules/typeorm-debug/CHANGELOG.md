@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.29 (2024-03-20)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0ac0681](https://github.com/gemunion/nestjs-packages/commit/0ac0681267aaf8d90b453622858a9bed43f57e9d))
+
 ## [3.0.28](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@3.0.27...@gemunion/nest-js-module-typeorm-debug@3.0.28) (2024-02-19)
 
 ### Bug Fixes

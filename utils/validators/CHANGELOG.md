@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.29 (2024-03-20)
+
+### Bug Fixes
+
+- move validation ([0d134aa](https://github.com/gemunion/nestjs-packages/commit/0d134aa0993e0f9b84d1f5c43e37ec3cf9d8c596))
+
 ## [4.0.28](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.27...@gemunion/nest-js-validators@4.0.28) (2024-02-19)
 
 ### Bug Fixes
