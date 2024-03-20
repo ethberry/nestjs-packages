@@ -3,7 +3,12 @@ import { IsString } from "class-validator";
 import { Mixin } from "ts-mixer";
 
 import { IMetamaskDto } from "@gemunion/types-jwt";
-import { DisplayNameDtoOptionalDto, EmailOptionalDto, ImageUrlOptionalDto, WalletDto } from "@gemunion/collection";
+import {
+  DisplayNameDtoOptionalDto,
+  EmailOptionalDto,
+  ImageUrlOptionalDto,
+  WalletDto,
+} from "@gemunion/nest-js-validators";
 
 export class MetamaskDto
   extends Mixin(DisplayNameDtoOptionalDto, EmailOptionalDto, ImageUrlOptionalDto, WalletDto)
