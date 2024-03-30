@@ -12,10 +12,10 @@
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "4.0.25",
-    "@nestjs/cache-manager": "2.2.1",
-    "@nestjs/common": "10.3.4",
-    "@nestjs/config": "3.2.0",
-    "@nestjs/core": "10.3.4"
+    "@nestjs/cache-manager": "2.2.2",
+    "@nestjs/common": "10.3.7",
+    "@nestjs/config": "3.2.1",
+    "@nestjs/core": "10.3.7"
   },
   "engines": {
     "node": ">=18"
