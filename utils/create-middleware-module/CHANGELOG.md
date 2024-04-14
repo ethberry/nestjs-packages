@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.36](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-create-middleware-module@3.0.35...@gemunion/nest-js-create-middleware-module@3.0.36) (2024-04-14)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([6a8ca50](https://github.com/gemunion/nestjs-packages/commit/6a8ca50679cc01cd41fe2e8ecd0bae13d46e647a))
+- **deps:** update all non-major dependencies ([f9781ba](https://github.com/gemunion/nestjs-packages/commit/f9781bada99459c4672e6879b551905b0e2d94ca))
+
 ## [3.0.35](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-create-middleware-module@3.0.34...@gemunion/nest-js-create-middleware-module@3.0.35) (2024-03-20)
 
 ### Bug Fixes
