@@ -18,7 +18,7 @@
     "@liaoliaots/nestjs-redis": "9.0.5",
     "@nestjs/axios": "3.0.2",
     "@nestjs/common": "10.3.7",
-    "@nestjs/config": "3.2.1",
+    "@nestjs/config": "3.2.2",
     "@nestjs/schedule": "4.0.1",
     "@nestjs/swagger": "7.3.1",
     "@types/uuid": "9.0.8",
