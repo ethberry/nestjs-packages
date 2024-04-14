@@ -13,7 +13,7 @@
     "@google-cloud/secret-manager": "5.3.0"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "4.0.26",
+    "@gemunion/nest-js-module-license": "4.0.27",
     "@nestjs/common": "10.3.7",
     "@nestjs/config": "3.2.2",
     "ethers": "6.11.1"
