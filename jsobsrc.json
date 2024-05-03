@@ -8,10 +8,6 @@
   "log": false,
   "numbersToExpressions": false,
   "renameGlobals": false,
-  "selfDefending": true,
-  "simplify": true,
-  "target": "node",
-  "unicodeEscapeSequence": false,
   "reservedNames": [
     "CreateSchema1561991000001",
     "CreateDomainUint2561561991000002",
@@ -19,6 +15,12 @@
     "CreateLanguageEnum1561991000004",
     "CreateTokenTypesEnum1561991000005",
     "CreateCountryEnum1561991000006",
-    "CreateGenderEnum1561991000007"
-  ]
+    "CreateGenderEnum1561991000007",
+    "CustomAssetComponentDto",
+    "CustomAssertDto"
+  ],
+  "selfDefending": true,
+  "simplify": true,
+  "target": "node",
+  "unicodeEscapeSequence": false
 }
