@@ -11,8 +11,8 @@
     "@cosmjs/amino": "0.32.3",
     "@gemunion/constants": "0.12.8",
     "@gemunion/types-jwt": "0.3.13",
-    "@keplr-wallet/cosmos": "0.12.83",
-    "@keplr-wallet/types": "0.12.83",
+    "@keplr-wallet/cosmos": "0.12.89",
+    "@keplr-wallet/types": "0.12.89",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1"
   },
@@ -23,7 +23,7 @@
     "@nestjs/testing": "10.3.8",
     "@types/jest": "29.5.12",
     "@types/uuid": "9.0.8",
-    "ethers": "6.12.0",
+    "ethers": "6.12.1",
     "jest": "29.7.0",
     "jest-environment-node": "29.7.0",
     "uuid": "9.0.1"
