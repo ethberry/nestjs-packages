@@ -10,6 +10,6 @@
     }
   },
   "packages": ["ipfs/*", "modules/*", "utils/*"],
-  "useNx": false,
+  "useNx": true,
   "version": "independent"
 }
