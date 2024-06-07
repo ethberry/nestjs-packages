@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston-logdna@3.1.7...@gemunion/nest-js-module-winston-logdna@3.1.8) (2024-06-07)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([83c82f1](https://github.com/gemunion/nestjs-packages/commit/83c82f105c0e4e2c59b7080418041b4e08b9d1d7))
+
 ## 3.1.7 (2024-05-16)
 
 ### Bug Fixes
