@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@nestjs/axios": "3.0.2",
-    "@nestjs/common": "10.3.8",
+    "@nestjs/common": "10.3.9",
     "@nestjs/config": "3.2.2",
     "@nestjs/typeorm": "10.0.2",
     "typeorm": "0.3.20"

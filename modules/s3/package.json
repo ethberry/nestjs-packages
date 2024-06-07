@@ -18,11 +18,11 @@
   },
   "devDependencies": {
     "@gemunion/nest-js-module-license": "4.0.28",
-    "@nestjs/common": "10.3.8",
+    "@nestjs/common": "10.3.9",
     "@nestjs/config": "3.2.2",
-    "@nestjs/core": "10.3.8",
+    "@nestjs/core": "10.3.9",
     "@nestjs/swagger": "7.3.1",
-    "@nestjs/testing": "10.3.8",
+    "@nestjs/testing": "10.3.9",
     "@types/mime-types": "2.1.4",
     "@types/uuid": "9.0.8"
   },
