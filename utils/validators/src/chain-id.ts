@@ -12,5 +12,5 @@ export class ChainIdDto {
   @decorate(IsInt({ message: "typeMismatch" }))
   @decorate(Min(1, { each: true, message: "rangeUnderflow" }))
   @decorate(Type(() => Number))
-  public chainId: bigint;
+  public chainId: number;
 }
