@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.38 (2024-06-08)
+
+### Bug Fixes
+
+- **deps:** update dependency @google-cloud/storage to v7.11.2 ([47cffbd](https://github.com/gemunion/nestjs-packages/commit/47cffbd798ac028da9eead86526a574c54649b03))
+
 ## [2.0.37](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-firebase@2.0.36...@gemunion/nest-js-module-firebase@2.0.37) (2024-06-07)
 
 ### Bug Fixes

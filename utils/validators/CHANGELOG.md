@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.35](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.34...@gemunion/nest-js-validators@4.0.35) (2024-06-08)
+
+### Bug Fixes
+
+- optional chain id ([ca48df8](https://github.com/gemunion/nestjs-packages/commit/ca48df8f27c210cde5079c2beffbd5cb03b92b1c))
+- schedule validation ([bfcc76b](https://github.com/gemunion/nestjs-packages/commit/bfcc76b2d6aace5b1424fa3f116f9283d58f1335))
+- schedule validation, part 2 ([6d341c3](https://github.com/gemunion/nestjs-packages/commit/6d341c3338963b278512e5008d28d4aec1e6d5d3))
+
 ## [4.0.34](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.33...@gemunion/nest-js-validators@4.0.34) (2024-06-07)
 
 ### Bug Fixes

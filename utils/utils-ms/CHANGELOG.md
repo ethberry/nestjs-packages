@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.25 (2024-06-08)
+
+### Bug Fixes
+
+- ms validation pipe ([6d2e39e](https://github.com/gemunion/nestjs-packages/commit/6d2e39ed251870fd70a30269db047669077317a0))
+
 ## 3.0.24 (2024-06-07)
 
 **Note:** Version bump only for package @gemunion/nest-js-utils-ms
