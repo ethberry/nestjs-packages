@@ -11,4 +11,5 @@ export * from "./image-url";
 export * from "./is-before-date";
 export * from "./password";
 export * from "./re-captcha";
+export * from "./schedule";
 export * from "./token-type";
