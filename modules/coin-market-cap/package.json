@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-utils": "4.2.7",
+    "@gemunion/nest-js-utils": "4.2.8",
     "@gemunion/types-coin-market-cap": "0.1.10",
     "class-validator": "0.14.1"
   },
@@ -53,5 +53,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.0.39"
+  "version": "3.0.40"
 }

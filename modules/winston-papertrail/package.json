@@ -47,5 +47,5 @@
   },
   "title": "NestJS Winston+Papertrail module",
   "types": "./dist/index.d.ts",
-  "version": "3.0.27"
+  "version": "3.0.28"
 }

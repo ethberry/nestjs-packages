@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.28 (2024-06-13)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e3b70a6](https://github.com/gemunion/nestjs-packages/commit/e3b70a6f2185f6a72ef178d6839354972e7c5fe2))
+
 ## [2.0.27](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-winston@2.0.26...@gemunion/nest-js-module-winston@2.0.27) (2024-06-07)
 
 ### Bug Fixes
