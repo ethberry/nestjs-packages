@@ -1,4 +1,4 @@
-import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
+import { Inject, Injectable } from "@nestjs/common";
 import { Readable } from "stream";
 import { Storage } from "@google-cloud/storage";
 
@@ -11,8 +11,6 @@ export class FirebaseService {
   private client: Storage;
 
   constructor(
-    @Inject(Logger)
-    private readonly loggerService: LoggerService,
     @Inject(FIREBASE_OPTIONS_PROVIDER)
     private readonly options: IFirebaseOptions,
   ) {

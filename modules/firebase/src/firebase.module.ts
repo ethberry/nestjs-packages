@@ -1,4 +1,4 @@
-import { DynamicModule, Logger, Module } from "@nestjs/common";
+import { DynamicModule, Module } from "@nestjs/common";
 import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
 import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
@@ -9,7 +9,7 @@ import { FIREBASE_OPTIONS_PROVIDER } from "./firebase.constants";
 
 @Module({
   imports: [LicenseModule.deferred()],
-  providers: [Logger, FirebaseService, licenseProvider],
+  providers: [FirebaseService, licenseProvider],
   exports: [FirebaseService],
 })
 export class FirebaseModule extends createConfigurableDynamicRootModule<FirebaseModule, IFirebaseOptions>(
