@@ -34,7 +34,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/nest-js-module-metamask",
+  "name": "@gemunion/nest-js-module-wallet-connect",
   "peerDependencies": {
     "@gemunion/nest-js-module-license": "^4.0.0",
     "@nestjs/common": "^10.0.0",
@@ -50,13 +50,13 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix",
+    "lint": "eslint  --fix",
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
     "test": "jest --config=jest.config.json --detectOpenHandles --runInBand --forceExit"
   },
-  "title": "NestJS Metamask module",
+  "title": "NestJS WalletConnect module",
   "types": "./dist/index.d.ts",
   "version": "3.1.29"
 }
