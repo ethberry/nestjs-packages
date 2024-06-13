@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "@gemunion/nest-js-utils": "4.2.7",
-    "@gemunion/types-coin-market-cap": "0.1.8",
+    "@gemunion/types-coin-market-cap": "0.1.10",
     "class-validator": "0.14.1"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "4.0.29",
+    "@gemunion/nest-js-module-license": "4.0.30",
     "@nestjs/axios": "3.0.2",
     "@nestjs/common": "10.3.9",
     "@nestjs/config": "3.2.2",
