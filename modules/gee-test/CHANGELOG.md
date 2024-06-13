@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.42 (2024-06-13)
+
+### Bug Fixes
+
+- **deps:** update dependency uuid to v10 ([93dcc21](https://github.com/gemunion/nestjs-packages/commit/93dcc2148d1efc31f1b2a1af60349b996a98cadb))
+
 ## [4.0.41](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-gee-test@4.0.40...@gemunion/nest-js-module-gee-test@4.0.41) (2024-06-07)
 
 ### Bug Fixes

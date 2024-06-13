@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.33 (2024-06-13)
+
+### Bug Fixes
+
+- add wallet connect ([0ad1b0c](https://github.com/gemunion/nestjs-packages/commit/0ad1b0c51fbecfaab3d463e626cba9a5b8ee982d))
+
 ## [1.1.32](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-keplr@1.1.31...@gemunion/nest-js-module-keplr@1.1.32) (2024-06-07)
 
 ### Bug Fixes
