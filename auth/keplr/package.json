@@ -11,8 +11,8 @@
     "@cosmjs/amino": "0.32.3",
     "@gemunion/constants": "0.12.10",
     "@gemunion/types-jwt": "0.4.4",
-    "@keplr-wallet/cosmos": "0.12.102",
-    "@keplr-wallet/types": "0.12.102",
+    "@keplr-wallet/cosmos": "0.12.103",
+    "@keplr-wallet/types": "0.12.103",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1"
   },
