@@ -17,7 +17,7 @@
     "uuid": "10.0.0"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "4.0.30",
+    "@gemunion/nest-js-module-license": "4.0.31",
     "@nestjs/common": "10.3.9",
     "@nestjs/config": "3.2.2",
     "@nestjs/core": "10.3.9",
