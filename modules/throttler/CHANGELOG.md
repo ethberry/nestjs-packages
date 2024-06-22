@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.23](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-throttler@6.0.22...@gemunion/nest-js-module-throttler@6.0.23) (2024-06-22)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9eaef2b](https://github.com/gemunion/nestjs-packages/commit/9eaef2b99e822cacaa04dab85ca0b7966934a71f))
+- **deps:** update nestjs to v5.2.0 ([d416ecd](https://github.com/gemunion/nestjs-packages/commit/d416ecd728413344f26dfb55aa490534a9d9eb86))
+
 ## 6.0.22 (2024-06-13)
 
 ### Bug Fixes
