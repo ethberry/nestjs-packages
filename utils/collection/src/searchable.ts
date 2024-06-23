@@ -12,8 +12,8 @@ export class SearchableDto implements ISearchableDto {
     }),
   )
   @decorate(IsString({ message: "typeMismatch" }))
-  @decorate(MinLength(titleMinLength, { message: "rangeUnderflow" }))
-  @decorate(MaxLength(titleMaxLength, { message: "rangeOverflow" }))
+  @decorate(MinLength(titleMinLength, { message: "tooShort" }))
+  @decorate(MaxLength(titleMaxLength, { message: "tooLong" }))
   public title: string;
 
   @decorate(
@@ -33,8 +33,8 @@ export class SearchableOptionalDto implements ISearchableDto {
   )
   @decorate(IsOptional())
   @decorate(IsString({ message: "typeMismatch" }))
-  @decorate(MinLength(titleMinLength, { message: "rangeUnderflow" }))
-  @decorate(MaxLength(titleMaxLength, { message: "rangeOverflow" }))
+  @decorate(MinLength(titleMinLength, { message: "tooShort" }))
+  @decorate(MaxLength(titleMaxLength, { message: "tooLong" }))
   public title: string;
 
   @decorate(
