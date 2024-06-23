@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@cosmjs/amino": "0.32.3",
-    "@gemunion/constants": "0.12.11",
+    "@gemunion/constants": "0.12.12",
     "@gemunion/types-jwt": "0.4.4",
     "@keplr-wallet/cosmos": "0.12.104",
     "@keplr-wallet/types": "0.12.104",
