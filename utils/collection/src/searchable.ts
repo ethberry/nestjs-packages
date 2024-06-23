@@ -1,8 +1,9 @@
 import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
-import { IsJSON, IsOptional, IsString } from "class-validator";
+import { IsJSON, IsOptional, IsString, MaxLength, MinLength } from "class-validator";
 import { decorate } from "ts-mixer";
 
 import { ISearchableDto } from "@gemunion/types-collection";
+import { titleMaxLength, titleMinLength } from "@gemunion/constants";
 
 export class SearchableDto implements ISearchableDto {
   @decorate(
@@ -11,6 +12,8 @@ export class SearchableDto implements ISearchableDto {
     }),
   )
   @decorate(IsString({ message: "typeMismatch" }))
+  @decorate(MinLength(titleMinLength, { message: "rangeUnderflow" }))
+  @decorate(MaxLength(titleMaxLength, { message: "rangeOverflow" }))
   public title: string;
 
   @decorate(
@@ -30,6 +33,8 @@ export class SearchableOptionalDto implements ISearchableDto {
   )
   @decorate(IsOptional())
   @decorate(IsString({ message: "typeMismatch" }))
+  @decorate(MinLength(titleMinLength, { message: "rangeUnderflow" }))
+  @decorate(MaxLength(titleMaxLength, { message: "rangeOverflow" }))
   public title: string;
 
   @decorate(
