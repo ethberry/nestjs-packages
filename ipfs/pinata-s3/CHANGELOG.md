@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.49](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-pinata-s3@3.0.48...@gemunion/nest-js-module-pinata-s3@3.0.49) (2024-06-23)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([85f9e35](https://github.com/gemunion/nestjs-packages/commit/85f9e355225d7b8fc2855c2e966a4e0fb4b5b3a7))
+
 ## [3.0.48](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-pinata-s3@3.0.47...@gemunion/nest-js-module-pinata-s3@3.0.48) (2024-06-22)
 
 ### Bug Fixes
