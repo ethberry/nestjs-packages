@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.3.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.18...@gemunion/collection@3.3.19) (2024-06-29)
+
+### Bug Fixes
+
+- validation message ([28d56fc](https://github.com/gemunion/nestjs-packages/commit/28d56fc558e5fb74e2ae01b2a5132692e0bea94d))
+
 ## [3.3.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.17...@gemunion/collection@3.3.18) (2024-06-23)
 
 ### Bug Fixes

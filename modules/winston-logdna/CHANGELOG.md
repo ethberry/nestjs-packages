@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.1.10 (2024-06-29)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([f5bb6d6](https://github.com/gemunion/nestjs-packages/commit/f5bb6d6ea09a2c54ef4b2097661eff41f0f8ff34))
+
 ## 3.1.9 (2024-06-13)
 
 ### Bug Fixes
