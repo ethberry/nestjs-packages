@@ -12,7 +12,7 @@
     "@gemunion/nest-js-module-firebase": "2.0.41",
     "@golevelup/nestjs-modules": "0.7.1",
     "express": "4.19.2",
-    "nft.storage": "7.1.1"
+    "nft.storage": "7.2.0"
   },
   "devDependencies": {
     "@nestjs/common": "10.3.10",
