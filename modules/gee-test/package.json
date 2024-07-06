@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/nest-js-utils": "4.2.9",
     "class-validator": "0.14.1",
-    "qs": "6.12.1",
+    "qs": "6.12.2",
     "uuid": "10.0.0"
   },
   "devDependencies": {
