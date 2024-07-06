@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.37 (2024-07-06)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([6f8a8d9](https://github.com/gemunion/nestjs-packages/commit/6f8a8d9c473faae0739a4435a93e4841e10875e0))
+
 ## [1.1.36](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-secret-manager-env@1.1.35...@gemunion/nest-js-module-secret-manager-env@1.1.36) (2024-06-23)
 
 ### Bug Fixes
