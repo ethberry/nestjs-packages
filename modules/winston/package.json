@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/winston-formatter": "0.0.42",
+    "@gemunion/winston-formatter": "0.0.43",
     "winston": "3.13.1",
     "winston-transport": "4.7.1"
   },
