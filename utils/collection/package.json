@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.12.12",
-    "@gemunion/types-collection": "1.5.16",
+    "@gemunion/constants": "0.12.13",
+    "@gemunion/types-collection": "1.5.17",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1",
     "ts-mixer": "6.0.4"
