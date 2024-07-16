@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.3.21 (2024-07-16)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([eaded9c](https://github.com/gemunion/nestjs-packages/commit/eaded9c14ab24046439c14193b46e1795702630c))
+
 ## [3.3.20](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.19...@gemunion/collection@3.3.20) (2024-07-06)
 
 **Note:** Version bump only for package @gemunion/collection

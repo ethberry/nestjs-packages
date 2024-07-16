@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.38](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@3.0.37...@gemunion/nest-js-module-typeorm-debug@3.0.38) (2024-07-16)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-typeorm-debug
+
 ## [3.0.37](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-typeorm-debug@3.0.36...@gemunion/nest-js-module-typeorm-debug@3.0.37) (2024-07-13)
 
 ### Bug Fixes

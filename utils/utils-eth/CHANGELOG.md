@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.21 (2024-07-16)
+
+**Note:** Version bump only for package @gemunion/utils-eth
+
 ## [1.1.20](https://github.com/gemunion/nestjs-packages/compare/@gemunion/utils-eth@1.1.19...@gemunion/utils-eth@1.1.20) (2024-06-22)
 
 ### Bug Fixes
