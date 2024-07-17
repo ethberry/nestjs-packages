@@ -1,5 +1,5 @@
 import { ApiProperty } from "@nestjs/swagger";
-import { IsString } from "class-validator";
+import { IsString, IsUUID } from "class-validator";
 import { Mixin } from "ts-mixer";
 
 import { IParticleDto } from "@gemunion/types-jwt";
@@ -15,7 +15,7 @@ export class ParticleDto
   implements IParticleDto
 {
   @ApiProperty()
-  @IsString({ message: "typeMismatch" })
+  @IsUUID(4, { message: "typeMismatch" })
   public nonce: string;
 
   @ApiProperty()
