@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.41](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-keplr@1.1.40...@gemunion/nest-js-module-keplr@1.1.41) (2024-07-18)
+
+### Bug Fixes
+
+- KeplrDto; WalletConnectDto; ParticleDto; MetamaskDto ([a752e2a](https://github.com/gemunion/nestjs-packages/commit/a752e2a64d32f9c0f4c82c7d015811199c76d059))
+
 ## [1.1.40](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-keplr@1.1.39...@gemunion/nest-js-module-keplr@1.1.40) (2024-07-16)
 
 ### Bug Fixes
