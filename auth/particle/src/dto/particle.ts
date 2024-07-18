@@ -15,7 +15,7 @@ export class ParticleDto
   implements IParticleDto
 {
   @ApiProperty()
-  @IsUUID(4, { message: "typeMismatch" })
+  @IsUUID(4, { message: "patternMismatch" })
   public nonce: string;
 
   @ApiProperty()

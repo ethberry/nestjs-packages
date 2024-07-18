@@ -6,7 +6,7 @@ import { WalletDto } from "@gemunion/nest-js-validators";
 
 export class MetamaskDto extends WalletDto implements IMetamaskDto {
   @ApiProperty()
-  @IsUUID(4, { message: "typeMismatch" })
+  @IsUUID(4, { message: "patternMismatch" })
   public nonce: string;
 
   @ApiProperty()

@@ -10,7 +10,7 @@ export class KeplrDto implements IKeplrDto {
   public chainPrefix: string;
 
   @ApiProperty()
-  @IsUUID(4, { message: "typeMismatch" })
+  @IsUUID(4, { message: "patternMismatch" })
   public nonce: string;
 
   @ApiProperty()
