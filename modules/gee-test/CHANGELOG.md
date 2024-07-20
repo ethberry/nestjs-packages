@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.49 (2024-07-20)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([8f60f5f](https://github.com/gemunion/nestjs-packages/commit/8f60f5f5453a145c5a384cbb50ef96ec9a56381c))
+
 ## [4.0.48](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-gee-test@4.0.47...@gemunion/nest-js-module-gee-test@4.0.48) (2024-07-16)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-gee-test
