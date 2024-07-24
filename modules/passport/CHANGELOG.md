@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.47](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-passport@3.0.46...@gemunion/nest-js-module-passport@3.0.47) (2024-07-24)
+
+**Note:** Version bump only for package @gemunion/nest-js-module-passport
+
 ## 3.0.46 (2024-07-20)
 
 **Note:** Version bump only for package @gemunion/nest-js-module-passport

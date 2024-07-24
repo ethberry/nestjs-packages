@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/constants": "0.12.16",
-    "@gemunion/nest-js-validators": "4.0.41",
+    "@gemunion/nest-js-validators": "4.0.42",
     "@gemunion/types-jwt": "0.4.5",
     "@metamask/eth-sig-util": "7.0.3",
     "class-transformer": "0.5.1",
@@ -58,5 +58,5 @@
   },
   "title": "NestJS Metamask module",
   "types": "./dist/index.d.ts",
-  "version": "3.1.40"
+  "version": "3.1.41"
 }
