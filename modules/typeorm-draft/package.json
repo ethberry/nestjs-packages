@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/draft-js-utils": "1.2.44"
+    "@gemunion/draft-js-utils": "1.2.47"
   },
   "devDependencies": {
     "react": "18.3.1",

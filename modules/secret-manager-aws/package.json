@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-secrets-manager": "3.616.0",
-    "@gemunion/constants": "0.12.13",
+    "@gemunion/constants": "0.12.16",
     "@gemunion/nest-js-create-dynamic-module": "1.0.34"
   },
   "devDependencies": {
