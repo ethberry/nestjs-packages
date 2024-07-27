@@ -1,4 +1,10 @@
 {
   "extends": ["github>gemunion/renovate-config"],
   "baseBranches": ["master"]
+  "packageRules": [
+    {
+      "matchPackageNames": ["nestjs-throttler-storage-redis"],
+      "allowedVersions": "<=0.4.4"
+    }
+  ]
 }
