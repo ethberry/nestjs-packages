@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/nestjs-packages/issues"
   },
   "dependencies": {
-    "@aws-sdk/client-secrets-manager": "3.616.0",
+    "@aws-sdk/client-secrets-manager": "3.620.0",
     "@gemunion/constants": "0.12.16",
     "@gemunion/nest-js-create-dynamic-module": "1.0.34"
   },
@@ -17,7 +17,7 @@
     "@gemunion/nestjs-ethers": "5.0.7",
     "@nestjs/common": "10.3.10",
     "@nestjs/config": "3.2.3",
-    "ethers": "6.13.1"
+    "ethers": "6.13.2"
   },
   "engines": {
     "node": ">=22"
