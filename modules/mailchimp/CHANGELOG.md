@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.41](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-mailchimp@4.0.40...@gemunion/nest-js-module-mailchimp@4.0.41) (2024-08-02)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([44d16bb](https://github.com/gemunion/nestjs-packages/commit/44d16bb8ff6f55934baa4897b101895762d21b5c))
+
 ## 4.0.40 (2024-07-27)
 
 ### Bug Fixes
