@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/constants": "0.13.1",
-    "@gemunion/nest-js-module-firebase": "2.0.47",
+    "@gemunion/nest-js-module-firebase": "2.0.48",
     "@golevelup/nestjs-modules": "0.7.1",
     "express": "4.19.2",
     "ipfs-http-client": "56.0.3"
@@ -47,5 +47,5 @@
   },
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.50"
+  "version": "2.0.51"
 }
