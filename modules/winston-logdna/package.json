@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "@gemunion/winston-formatter": "0.0.44",
-    "@logdna/logger": "2.6.9",
+    "@logdna/logger": "2.6.11",
     "logdna-winston": "4.0.1",
-    "winston": "3.14.1",
+    "winston": "3.14.2",
     "winston-transport": "4.7.1"
   },
   "devDependencies": {
