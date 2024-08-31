@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.59](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@5.0.58...@gemunion/nest-js-module-s3@5.0.59) (2024-08-31)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([8ed50e2](https://github.com/gemunion/nestjs-packages/commit/8ed50e2e86e8a70ad272fc22cb403a67a6df4749))
+
 ## [5.0.58](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-s3@5.0.57...@gemunion/nest-js-module-s3@5.0.58) (2024-08-24)
 
 ### Bug Fixes

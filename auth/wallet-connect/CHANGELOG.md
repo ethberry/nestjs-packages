@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.45](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-wallet-connect@3.1.44...@gemunion/nest-js-module-wallet-connect@3.1.45) (2024-08-31)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([8ed50e2](https://github.com/gemunion/nestjs-packages/commit/8ed50e2e86e8a70ad272fc22cb403a67a6df4749))
+
 ## [3.1.44](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-module-wallet-connect@3.1.43...@gemunion/nest-js-module-wallet-connect@3.1.44) (2024-08-24)
 
 ### Bug Fixes
