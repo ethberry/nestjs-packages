@@ -3,7 +3,7 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
 import { ThrottlerModule } from "@nestjs/throttler";
 import type { ThrottlerModuleOptions } from "@nestjs/throttler";
 import { RedisManager } from "@liaoliaots/nestjs-redis";
-import { ThrottlerStorageRedisService } from "nestjs-throttler-storage-redis";
+import { ThrottlerStorageRedisService } from "@nest-lab/throttler-storage-redis";
 
 import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
 
