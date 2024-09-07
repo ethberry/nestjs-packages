@@ -1,4 +1,6 @@
-import { Controller, Get, Query } from "@nestjs/common";
+import { Controller, Get, Query, Res } from "@nestjs/common";
+import { Response } from "express";
+
 // import { Public } from "@gemunion/nest-js-utils";
 import { S3DeleteDto, S3GetDto, S3PutDto } from "./dto";
 import { S3Service } from "./s3.service";
@@ -20,8 +22,9 @@ export class S3Controller {
   }
 
   @Get("/get-stream")
-  public async getObjectAsStream(@Query() data: S3GetDto): Promise<ReadableStream> {
-    return this.s3Service.getObjectAsStream(data);
+  public async getObjectAsStream(@Query() data: S3GetDto, @Res() res: Response): Promise<void> {
+    const file = await this.s3Service.getObjectAsReadable(data);
+    file.pipe(res);
   }
 
   @Get("/delete")

@@ -13,6 +13,7 @@
     "@gemunion/nest-js-validators": "4.1.1",
     "@golevelup/nestjs-modules": "0.7.1",
     "class-validator": "0.14.1",
+    "express": "4.19.2",
     "mime-types": "2.1.35",
     "uuid": "10.0.0"
   },

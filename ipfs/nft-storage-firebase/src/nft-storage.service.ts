@@ -20,13 +20,13 @@ export class NftStorageFirebaseService {
   }
 
   public testFirebase(objectName: string): Readable {
-    return this.firebaseService.getObjectAsStream({
+    return this.firebaseService.getObjectAsReadable({
       objectName,
     });
   }
 
   public async pinFileToIPFS(objectName: string): Promise<string> {
-    const stream = this.firebaseService.getObjectAsStream({ objectName });
+    const stream = this.firebaseService.getObjectAsReadable({ objectName });
     const buf = await this.streamAsPromise(stream);
     const blob = new Blob([buf]);
 

@@ -24,20 +24,20 @@ export class PinataS3Service {
   }
 
   public testS3(objectName: string): Promise<Readable> {
-    return this.s3Service.getObjectAsStream({
+    return this.s3Service.getObjectAsReadable({
       objectName,
     });
   }
 
   public pinFileToIPFS(objectName: string): Promise<string> {
-    const stream = this.s3Service.getObjectAsStream({ objectName });
+    const readable = this.s3Service.getObjectAsReadable({ objectName });
 
     // https://github.com/PinataCloud/Pinata-SDK/issues/28#issuecomment-816439078
     // @ts-ignore
-    stream.path = objectName;
+    readable.path = objectName;
 
     return this.client
-      .pinFileToIPFS(stream, {
+      .pinFileToIPFS(readable, {
         pinataMetadata: {
           name: objectName,
         },

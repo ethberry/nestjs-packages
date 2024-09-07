@@ -21,14 +21,14 @@ export class InfuraFirebaseService {
   }
 
   public testFirebase(objectName: string): Readable {
-    return this.firebaseService.getObjectAsStream({
+    return this.firebaseService.getObjectAsReadable({
       objectName,
     });
   }
 
   public pinFileToIPFS(objectName: string): Promise<string> {
-    const stream = this.firebaseService.getObjectAsStream({ objectName });
-    return this.client.add(stream).then(result => result.path);
+    const readable = this.firebaseService.getObjectAsReadable({ objectName });
+    return this.client.add(readable).then(result => result.path);
   }
 
   public pinJSONToIPFS(data: Record<string, any>, _objectName?: string): Promise<string> {

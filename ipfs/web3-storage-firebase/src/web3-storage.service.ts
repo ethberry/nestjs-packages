@@ -21,27 +21,27 @@ export class Web3StorageFirebaseService {
   }
 
   public testFirebase(objectName: string): Readable {
-    return this.firebaseService.getObjectAsStream({
+    return this.firebaseService.getObjectAsReadable({
       objectName,
     });
   }
 
   public pinFileToIPFS(objectName: string): Promise<string> {
-    const stream = this.firebaseService.getObjectAsStream({ objectName });
-    return this.client.put([{ name: objectName, stream: () => stream }], {
+    const stream = this.firebaseService.getObjectAsReadable({ objectName });
+    return this.client.put([{ name: objectName, stream: () => Readable.toWeb(stream) }], {
       wrapWithDirectory: false,
     });
   }
 
   public async pinJSONToIPFS(data: Record<string, any>, objectName: string): Promise<string> {
-    const stream = this.getReadableStream(Buffer.from(JSON.stringify(data)));
+    const stream = this.getReadable(Buffer.from(JSON.stringify(data)));
     const name = this.changeExtension(objectName, "json");
-    return this.client.put([{ name, stream: () => stream }], {
+    return this.client.put([{ name, stream: () => Readable.toWeb(stream) }], {
       wrapWithDirectory: false,
     });
   }
 
-  public getReadableStream(buffer: Buffer): Readable {
+  public getReadable(buffer: Buffer): Readable {
     const stream = new Readable();
     stream.push(buffer);
     stream.push(null);

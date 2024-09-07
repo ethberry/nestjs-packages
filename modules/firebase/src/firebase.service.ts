@@ -17,7 +17,7 @@ export class FirebaseService {
     this.client = new Storage();
   }
 
-  public getObjectAsStream(dto: IFirebaseGetDto): Readable {
+  public getObjectAsReadable(dto: IFirebaseGetDto): Readable {
     const { objectName, bucket = this.options.bucket } = dto;
 
     return this.client.bucket(bucket).file(objectName).createReadStream();

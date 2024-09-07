@@ -1,11 +1,11 @@
 import { Inject, Injectable } from "@nestjs/common";
 import PinataClient from "@pinata/sdk";
-import { Readable } from "stream";
 
 import { FirebaseService } from "@gemunion/nest-js-module-firebase";
 
 import { PINATA_OPTIONS_PROVIDER } from "./pinata.constants";
 import { IPinataAuth, IPinataOptions } from "./interfaces";
+import { Readable } from "stream";
 
 @Injectable()
 export class PinataFirebaseService {
@@ -24,13 +24,13 @@ export class PinataFirebaseService {
   }
 
   public testFirebase(objectName: string): Readable {
-    return this.firebaseService.getObjectAsStream({
+    return this.firebaseService.getObjectAsReadable({
       objectName,
     });
   }
 
   public pinFileToIPFS(objectName: string): Promise<string> {
-    const stream = this.firebaseService.getObjectAsStream({ objectName });
+    const stream = this.firebaseService.getObjectAsReadable({ objectName });
 
     // https://github.com/PinataCloud/Pinata-SDK/issues/28#issuecomment-816439078
     // @ts-ignore
