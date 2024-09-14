@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.1.2...@gemunion/nest-js-validators@4.1.3) (2024-09-14)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([3c69b3f](https://github.com/gemunion/nestjs-packages/commit/3c69b3f024c5d0394d01f216a1bc6d67a19fed42))
+
 ## 4.1.2 (2024-09-11)
 
 ### Bug Fixes
