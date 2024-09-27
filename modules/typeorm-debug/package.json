@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "@ethberry/nest-js-module-debug": "2.0.40",
-    "@ethberry/nest-js-module-typeorm": "4.0.45",
-    "@ethberry/nest-js-module-typeorm-logger": "3.0.30"
+    "@ethberry/nest-js-module-typeorm": "4.0.45"
   },
   "devDependencies": {
     "@nestjs/axios": "3.0.3",

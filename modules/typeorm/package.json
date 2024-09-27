@@ -7,9 +7,6 @@
   "bugs": {
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
-  "dependencies": {
-    "@ethberry/nest-js-module-typeorm-logger": "3.0.30"
-  },
   "devDependencies": {
     "@ethberry/nest-js-module-license": "4.0.42",
     "@nestjs/common": "10.4.4",
