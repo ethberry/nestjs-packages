@@ -8,8 +8,8 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/constants": "0.13.2",
-    "@ethberry/types-collection": "1.5.17",
+    "@ethberry/constants": "0.13.3",
+    "@ethberry/types-collection": "1.5.19",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1",
     "ts-mixer": "6.0.4"
