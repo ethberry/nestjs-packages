@@ -34,7 +34,8 @@ export class ValidateBigInt implements ValidatorConstraintInterface {
     let bn;
     try {
       bn = BigInt(value as any);
-    } catch (_e) {
+    } catch (e) {
+      void e;
       return "typeMismatch";
     }
 

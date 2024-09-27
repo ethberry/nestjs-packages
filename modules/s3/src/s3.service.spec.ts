@@ -24,7 +24,7 @@ describe("S3Service", () => {
           imports: [ConfigModule],
           inject: [ConfigService],
           useFactory: (configService: ConfigService): string => {
-            return configService.get<string>("GEMUNION_API_KEY", process.env.GEMUNION_API_KEY as string);
+            return configService.get<string>("GEMUNION_API_KEY", process.env.GEMUNION_API_KEY!);
           },
         }),
       ],

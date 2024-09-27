@@ -4,7 +4,7 @@ import Client, { LibraryResponse } from "node-mailjet";
 import { IEmailResult, ISendEmailDto, ISendMailService } from "@ethberry/types-email";
 
 import { MAILJET_OPTIONS_PROVIDER } from "./mailjet.constants";
-import { IContact, IMailjetOptions, ISendTemplateDto, TResponse } from "./interfaces";
+import { IContact, IMailjetOptions, ISendTemplateDto, IResponse } from "./interfaces";
 
 @Injectable()
 export class MailjetService implements ISendMailService {
@@ -82,12 +82,12 @@ export class MailjetService implements ISendMailService {
     listId: number,
     email: string,
     props: Record<string, any>,
-  ): Promise<LibraryResponse<TResponse<IContact>>> {
+  ): Promise<LibraryResponse<IResponse<IContact>>> {
     return this.client
       .post("contactslist", { version: "v3" })
       .id(listId)
       .action("managecontact")
-      .request<TResponse<IContact>>({
+      .request<IResponse<IContact>>({
         Action: "addnoforce",
         Email: email,
         Name: props.name,
@@ -106,7 +106,7 @@ export class MailjetService implements ISendMailService {
       .post("contactslist", { version: "v3" })
       .id(listId)
       .action("managecontact")
-      .request<TResponse<IContact>>({
+      .request<IResponse<IContact>>({
         Action: "remove",
         Email: email,
       })

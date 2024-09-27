@@ -24,7 +24,7 @@ afterEach(async () => {
   await app.close();
 });
 
-describe(ExpressAdapter.name, () => {
+describe("ExpressAdapter", () => {
   it("forRoot() calls with empty object", async () => {
     const createMiddleware = jest.fn(_params => (_req: any, _res: any, next: NextFunction) => {
       next();
@@ -35,7 +35,9 @@ describe(ExpressAdapter.name, () => {
     @Controller("/")
     class TestController {
       @Get()
-      get() {}
+      get() {
+        // empty
+      }
     }
 
     @Module({
@@ -61,7 +63,9 @@ describe(ExpressAdapter.name, () => {
     @Controller("/")
     class TestController {
       @Get()
-      get() {}
+      get() {
+        // empty
+      }
     }
 
     @Module({
@@ -87,7 +91,9 @@ describe(ExpressAdapter.name, () => {
     @Controller("/")
     class TestController {
       @Get()
-      get() {}
+      get() {
+        // empty
+      }
     }
 
     @Module({
@@ -123,7 +129,9 @@ describe(ExpressAdapter.name, () => {
     @Controller("/")
     class TestController {
       @Get()
-      get() {} // tslint:disable-line: no-empty
+      get() {
+        // empty
+      }
     }
 
     @Module({
@@ -154,10 +162,14 @@ describe(ExpressAdapter.name, () => {
     @Controller("/")
     class TestController {
       @Get("allow")
-      allowed() {}
+      allowed() {
+        // empty
+      }
 
       @Get("forbid")
-      forbidden() {}
+      forbidden() {
+        // empty
+      }
     }
 
     @Module({

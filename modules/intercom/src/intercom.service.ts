@@ -45,7 +45,7 @@ export class IntercomService {
           Authorization: `Bearer ${token}`,
         },
       })
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+
       .pipe(map((response: { data: T }) => response.data));
 
     return firstValueFrom(response);

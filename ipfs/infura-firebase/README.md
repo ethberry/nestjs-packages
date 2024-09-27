@@ -23,6 +23,5 @@
     }),
   ],
 })
-export class ExampleModule {
-}
+export class ExampleModule {}
 ```

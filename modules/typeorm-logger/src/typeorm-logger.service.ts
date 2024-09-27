@@ -19,7 +19,7 @@ export class TypeOrmLoggerService implements TypeOrmLogger {
     if (
       this.options === "all" ||
       this.options === true ||
-      (this.options instanceof Array && this.options.indexOf("query") !== -1)
+      (this.options instanceof Array && this.options.includes("query"))
     ) {
       this.loggerService.log(`query : ${query} ${this.stringifyParams(parameters)}`, "TypeOrm");
     }
@@ -32,7 +32,7 @@ export class TypeOrmLoggerService implements TypeOrmLogger {
     if (
       this.options === "all" ||
       this.options === true ||
-      (this.options instanceof Array && this.options.indexOf("error") !== -1)
+      (this.options instanceof Array && this.options.includes("error"))
     ) {
       this.loggerService.log(`query failed: ${query} ${this.stringifyParams(parameters)}`, "TypeOrm");
       this.loggerService.log(`error: ${error}`, "TypeOrm");
@@ -51,7 +51,7 @@ export class TypeOrmLoggerService implements TypeOrmLogger {
    * Logs events from the schema build process.
    */
   logSchemaBuild(message: string): void {
-    if (this.options === "all" || (this.options instanceof Array && this.options.indexOf("schema") !== -1)) {
+    if (this.options === "all" || (this.options instanceof Array && this.options.includes("schema"))) {
       this.loggerService.log(message, "TypeOrm");
     }
   }
@@ -70,15 +70,15 @@ export class TypeOrmLoggerService implements TypeOrmLogger {
   log(level: "log" | "info" | "warn", message: unknown): void {
     switch (level) {
       case "log":
-        if (this.options === "all" || (this.options instanceof Array && this.options.indexOf("log") !== -1))
+        if (this.options === "all" || (this.options instanceof Array && this.options.includes("log")))
           this.loggerService.log(message, "TypeOrm");
         break;
       case "info":
-        if (this.options === "all" || (this.options instanceof Array && this.options.indexOf("info") !== -1))
+        if (this.options === "all" || (this.options instanceof Array && this.options.includes("info")))
           this.loggerService.log(message, "TypeOrm");
         break;
       case "warn":
-        if (this.options === "all" || (this.options instanceof Array && this.options.indexOf("warn") !== -1))
+        if (this.options === "all" || (this.options instanceof Array && this.options.includes("warn")))
           this.loggerService.warn(message, "TypeOrm");
         break;
     }

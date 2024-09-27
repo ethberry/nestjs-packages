@@ -7,7 +7,8 @@ export class AddressPipe implements PipeTransform<string> {
     try {
       getAddress(value);
       return value.toLowerCase();
-    } catch (_e) {
+    } catch (e) {
+      void e;
       throw new BadRequestException(`Validation failed (Address is expected)`);
     }
   }

@@ -6,8 +6,8 @@ export interface IContact {
   Email: string;
 }
 
-export type TResponse<TEntity> = {
+export interface IResponse<TEntity> extends Record<string, unknown> {
   Count: number;
   Total: number;
   Data: Array<TEntity>;
-};
+}
