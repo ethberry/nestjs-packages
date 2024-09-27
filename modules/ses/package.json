@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@aws-sdk/client-ses": "3.654.0",
+    "@aws-sdk/client-ses": "3.658.1",
     "@ethberry/nest-js-module-license": "4.0.42",
     "@ethberry/types-email": "0.2.20",
     "@golevelup/nestjs-modules": "0.7.1"
