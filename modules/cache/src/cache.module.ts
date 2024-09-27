@@ -1,6 +1,6 @@
 import { Module } from "@nestjs/common";
 import { ConfigModule, ConfigService } from "@nestjs/config";
-import { RedisManager } from "@liaoliaots/nestjs-redis";
+import { RedisService } from "@liaoliaots/nestjs-redis";
 import { CacheModule, CacheModuleAsyncOptions } from "@nestjs/cache-manager";
 import { redisInsStore } from "cache-manager-ioredis-yet";
 
@@ -14,12 +14,12 @@ import { CACHE_STORE } from "./cache.constants";
     CacheModule.registerAsync<CacheModuleAsyncOptions>({
       isGlobal: true, // this makes APP_INTERCEPTOR works in app.module
       imports: [ConfigModule],
-      inject: [ConfigService, RedisManager],
-      useFactory: (configService: ConfigService, redisManager: RedisManager) => {
+      inject: [ConfigService, RedisService],
+      useFactory: (configService: ConfigService, redisService: RedisService) => {
         return {
           ttl: configService.get<number>("CACHE_TTL", 3600),
           max: configService.get<number>("CACHE_MAX", 1000),
-          store: redisInsStore(redisManager.getClient(CACHE_STORE)),
+          store: redisInsStore(redisService.getOrThrow(CACHE_STORE)),
         };
       },
     }),

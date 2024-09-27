@@ -1,1 +1,1 @@
-export const GEE_TEST_STORAGE = "GEE_TEST_STORAGE";
+export const GEE_STORE = Symbol("GEE_STORE");

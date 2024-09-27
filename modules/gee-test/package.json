@@ -34,11 +34,11 @@
   "name": "@ethberry/nest-js-module-gee-test",
   "peerDependencies": {
     "@ethberry/nest-js-module-license": "^4.0.0",
-    "@liaoliaots/nestjs-redis": "^9.0.0 || ^10.0.0",
+    "@liaoliaots/nestjs-redis": "^10.0.0",
     "@nestjs/axios": "^3.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.0.0",
-    "@nestjs/schedule": "^3.0.0 || ^4.0.0",
+    "@nestjs/schedule": "^4.0.0",
     "@nestjs/swagger": "^7.0.0",
     "ioredis": "^5.0.0",
     "rxjs": "^7.0.0"
