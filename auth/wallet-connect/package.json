@@ -8,9 +8,9 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/constants": "0.13.2",
+    "@ethberry/constants": "0.13.3",
     "@ethberry/nest-js-validators": "4.1.4",
-    "@ethberry/types-jwt": "0.4.5",
+    "@ethberry/types-jwt": "0.4.7",
     "@metamask/eth-sig-util": "7.0.3",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1",

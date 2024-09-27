@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/nest-js-utils": "4.2.15",
-    "@ethberry/types-iex-cloud": "0.2.21",
+    "@ethberry/types-iex-cloud": "0.2.23",
     "class-validator": "0.14.1"
   },
   "devDependencies": {
