@@ -15,7 +15,7 @@
   "devDependencies": {
     "@ethberry/nest-js-module-license": "4.0.42",
     "@nestjs/axios": "3.0.3",
-    "@nestjs/common": "10.4.3",
+    "@nestjs/common": "10.4.4",
     "@nestjs/config": "3.2.3",
     "@nestjs/swagger": "7.4.2",
     "class-validator": "0.14.1",
