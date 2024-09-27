@@ -22,7 +22,7 @@
     "node": ">=22"
   },
   "license": "UNLICENSED",
-  "name": "@ethberry/common-packages",
+  "name": "@ethberry/nestjs-packages",
   "repository": {
     "type": "git",
     "url": "https://github.com/ethberry/nestjs-packages"

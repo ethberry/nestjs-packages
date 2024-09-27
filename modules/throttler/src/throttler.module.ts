@@ -28,4 +28,4 @@ import { THROTTLE_STORE } from "./throttler.constants";
   ],
   providers: [licenseProvider],
 })
-export class GemunionThrottlerModule {}
+export class EthBerryThrottlerModule {}

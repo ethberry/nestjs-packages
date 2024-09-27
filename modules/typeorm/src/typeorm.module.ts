@@ -10,7 +10,7 @@ import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license
   imports: [LicenseModule.deferred()],
   providers: [licenseProvider],
 })
-export class GemunionTypeormModule {
+export class EthBerryTypeormModule {
   static forRoot(options: PostgresConnectionOptions): DynamicModule {
     return TypeOrmModule.forRootAsync({
       imports: [TypeOrmLoggerModule, ConfigModule],

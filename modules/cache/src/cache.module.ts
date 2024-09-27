@@ -26,4 +26,4 @@ import { CACHE_STORE } from "./cache.constants";
   ],
   providers: [licenseProvider],
 })
-export class GemunionCacheModule {}
+export class EthBerryCacheModule {}

@@ -1,1 +1,1 @@
-export { GemunionTypeormDebugModule as GemunionTypeormModule } from "./typeorm.module";
+export { EthBerryTypeormDebugModule as EthBerryTypeormModule } from "./typeorm.module";

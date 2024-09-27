@@ -1,15 +1,15 @@
 import { DynamicModule, Module } from "@nestjs/common";
 import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 
-import { GemunionTypeormModule } from "@ethberry/nest-js-module-typeorm";
+import { EthBerryTypeormModule } from "@ethberry/nest-js-module-typeorm";
 import { DebugModule } from "@ethberry/nest-js-module-debug";
 
 @Module({})
-export class GemunionTypeormDebugModule {
+export class EthBerryTypeormDebugModule {
   static forRoot(options: PostgresConnectionOptions): DynamicModule {
     return {
-      module: GemunionTypeormModule,
-      imports: [GemunionTypeormModule.forRoot(options), DebugModule],
+      module: EthBerryTypeormModule,
+      imports: [EthBerryTypeormModule.forRoot(options), DebugModule],
     };
   }
 }
