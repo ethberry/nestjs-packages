@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@ethberry/nest-js-module-license": "4.0.42",
-    "@nestjs/common": "10.4.3"
+    "@nestjs/common": "10.4.4"
   },
   "engines": {
     "node": ">=22"
