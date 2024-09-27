@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@ethberry/nest-js-module-license": "4.0.42",
-    "@liaoliaots/nestjs-redis": "9.0.5",
+    "@liaoliaots/nestjs-redis": "10.0.0",
     "@nestjs/axios": "3.0.3",
     "@nestjs/common": "10.4.4",
     "@nestjs/config": "3.2.3",
@@ -34,7 +34,7 @@
   "name": "@ethberry/nest-js-module-gee-test",
   "peerDependencies": {
     "@ethberry/nest-js-module-license": "^4.0.0",
-    "@liaoliaots/nestjs-redis": "^9.0.0",
+    "@liaoliaots/nestjs-redis": "^9.0.0 || ^10.0.0",
     "@nestjs/axios": "^3.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.0.0",
