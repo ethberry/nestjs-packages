@@ -3,7 +3,7 @@ import { WinstonModuleOptions } from "nest-winston";
 import { transports } from "winston";
 import Transport from "winston-transport";
 
-import { formatter } from "@gemunion/winston-formatter";
+import { formatter } from "@ethberry/winston-formatter";
 
 @Injectable()
 export class WinstonConfigService {

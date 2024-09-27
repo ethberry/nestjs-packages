@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner } from "typeorm";
-import { EnabledCountries } from "@gemunion/constants";
+import { EnabledCountries } from "@ethberry/constants";
 
 export function createCountryEnum(ns: string, countries = Object.keys(EnabledCountries)) {
   return class CreateCountryEnum1561991000006 implements MigrationInterface {

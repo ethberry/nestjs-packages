@@ -3,7 +3,7 @@ import { Readable } from "stream";
 import path from "path";
 
 import { Web3Storage } from "web3.storage";
-import { FirebaseService } from "@gemunion/nest-js-module-firebase";
+import { FirebaseService } from "@ethberry/nest-js-module-firebase";
 
 import { WEB3STORAGE_OPTIONS_PROVIDER } from "./web3-storage.constants";
 import { IWeb3StorageOptions } from "./interfaces";

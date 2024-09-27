@@ -2,7 +2,7 @@ import { DynamicModule, Logger, Module } from "@nestjs/common";
 import { HttpModule } from "@nestjs/axios";
 import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
-import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 
 import { MANDRILL_OPTIONS_PROVIDER } from "./mandrill.constants";
 import { MandrillService } from "./mandrill.service";

@@ -2,7 +2,7 @@ import { ApiProperty, ApiPropertyOptional } from "@nestjs/swagger";
 import { IsEnum, IsInt, IsOptional, Min, Validate, ValidateIf, ValidateNested } from "class-validator";
 import { Transform, Type } from "class-transformer";
 
-import { TokenType, IAssetComponentDto, IAssetDto } from "@gemunion/types-blockchain";
+import { TokenType, IAssetComponentDto, IAssetDto } from "@ethberry/types-blockchain";
 
 import { ForbidEnumValues } from "./forbid-enum-values";
 import { IsBigInt } from "./big-int";

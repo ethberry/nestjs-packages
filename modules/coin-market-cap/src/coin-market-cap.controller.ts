@@ -1,7 +1,7 @@
 import { Controller, Get, Query, UseInterceptors } from "@nestjs/common";
 
-import { NotFoundInterceptor, Public } from "@gemunion/nest-js-utils";
-import { ICmcQuote } from "@gemunion/types-coin-market-cap";
+import { NotFoundInterceptor, Public } from "@ethberry/nest-js-utils";
+import { ICmcQuote } from "@ethberry/types-coin-market-cap";
 
 import { CoinMarketCapService } from "./coin-market-cap.service";
 import { SearchRates, SearchOhlc } from "./dto";

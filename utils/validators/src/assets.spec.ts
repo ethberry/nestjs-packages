@@ -1,7 +1,7 @@
 import { Validator } from "class-validator";
 import { plainToInstance } from "class-transformer";
 
-import { TokenType } from "@gemunion/types-blockchain";
+import { TokenType } from "@ethberry/types-blockchain";
 
 import { AllTypesDto, CoinDto, NativeDto, NftDto, NotNativeDto, SemiCoinDto, SemiNftDto } from "./assets";
 

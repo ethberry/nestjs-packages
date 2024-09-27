@@ -5,7 +5,7 @@ import { map } from "rxjs/operators";
 import { URLSearchParams } from "url";
 import { firstValueFrom } from "rxjs";
 
-import type { ICoinGeckoCoin, ICoinGeckoCoinListItem, ICoinGeckoCoinTicker } from "@gemunion/types-coin-gecko";
+import type { ICoinGeckoCoin, ICoinGeckoCoinListItem, ICoinGeckoCoinTicker } from "@ethberry/types-coin-gecko";
 import type { ISearchOhlc, ISearchRates } from "./interfaces";
 
 // const baseUrl = "https://pro-api.coingecko.com/api/v3";

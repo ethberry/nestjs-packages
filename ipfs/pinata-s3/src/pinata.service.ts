@@ -2,7 +2,7 @@ import { Inject, Injectable } from "@nestjs/common";
 import PinataClient from "@pinata/sdk";
 import { Readable } from "stream";
 
-import { S3Service } from "@gemunion/nest-js-module-s3";
+import { S3Service } from "@ethberry/nest-js-module-s3";
 
 import { PINATA_OPTIONS_PROVIDER } from "./pinata.constants";
 import { IPinataAuth, IPinataOptions } from "./interfaces";

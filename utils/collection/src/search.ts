@@ -2,7 +2,7 @@ import { ApiPropertyOptional } from "@nestjs/swagger";
 import { IsOptional, IsString } from "class-validator";
 import { decorate } from "ts-mixer";
 
-import { ISearchDto } from "@gemunion/types-collection";
+import { ISearchDto } from "@ethberry/types-collection";
 
 import { PaginationDto } from "./pagination";
 

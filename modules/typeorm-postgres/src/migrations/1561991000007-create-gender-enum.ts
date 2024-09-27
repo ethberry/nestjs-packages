@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner } from "typeorm";
-import { EnabledGenders } from "@gemunion/constants";
+import { EnabledGenders } from "@ethberry/constants";
 
 export function createGenderEnum(ns: string, genders = Object.keys(EnabledGenders)) {
   return class CreateGenderEnum1561991000007 implements MigrationInterface {

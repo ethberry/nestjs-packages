@@ -1,16 +1,16 @@
 {
   "author": {
-    "email": "trejgun@gemunion.io",
+    "email": "trejgun+ethberry@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/nestjs-packages/issues"
+    "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "3.654.0",
     "@aws-sdk/s3-request-presigner": "3.654.0",
-    "@gemunion/nest-js-validators": "4.1.4",
+    "@ethberry/nest-js-validators": "4.1.4",
     "@golevelup/nestjs-modules": "0.7.1",
     "class-validator": "0.14.1",
     "express": "4.21.0",
@@ -18,7 +18,7 @@
     "uuid": "10.0.0"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "4.0.41",
+    "@ethberry/nest-js-module-license": "4.0.42",
     "@nestjs/common": "10.4.3",
     "@nestjs/config": "3.2.3",
     "@nestjs/core": "10.4.3",
@@ -33,9 +33,9 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/nest-js-module-s3",
+  "name": "@ethberry/nest-js-module-s3",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^4.0.0",
+    "@ethberry/nest-js-module-license": "^4.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/swagger": "^7.0.0"
   },
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunion/nestjs-packages"
+    "url": "https://github.com/ethberry/nestjs-packages"
   },
   "scripts": {
     "build": "tsc",
@@ -54,7 +54,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "-=Gemun Ion Studio=-",
+  "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
   "version": "5.0.63"
 }

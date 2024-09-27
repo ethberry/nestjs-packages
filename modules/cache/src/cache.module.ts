@@ -4,7 +4,7 @@ import { RedisManager } from "@liaoliaots/nestjs-redis";
 import { CacheModule, CacheModuleAsyncOptions } from "@nestjs/cache-manager";
 import { redisInsStore } from "cache-manager-ioredis-yet";
 
-import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 
 import { CACHE_STORE } from "./cache.constants";
 

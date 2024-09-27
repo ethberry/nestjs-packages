@@ -1,5 +1,5 @@
 import { getMetadataArgsStorage, ValueTransformer } from "typeorm";
-import { getText } from "@gemunion/draft-js-utils";
+import { getText } from "@ethberry/draft-js-utils";
 
 export class DraftValueTransformer implements ValueTransformer {
   from(data: Record<string, any>) {

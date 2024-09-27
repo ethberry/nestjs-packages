@@ -3,7 +3,7 @@ import { IsEmail, IsOptional, MaxLength } from "class-validator";
 import { Transform } from "class-transformer";
 import { decorate } from "ts-mixer";
 
-import { emailMaxLength } from "@gemunion/constants";
+import { emailMaxLength } from "@ethberry/constants";
 
 export class EmailDto {
   @decorate(

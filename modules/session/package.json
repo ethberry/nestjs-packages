@@ -1,14 +1,14 @@
 {
   "author": {
-    "email": "trejgun@gemunion.io",
+    "email": "trejgun+ethberry@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/nestjs-packages/issues"
+    "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/nest-js-create-middleware-module": "3.0.53",
+    "@ethberry/nest-js-create-middleware-module": "3.0.53",
     "connect-redis": "7.1.1",
     "express-session": "1.18.0"
   },
@@ -22,7 +22,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/nest-js-module-session",
+  "name": "@ethberry/nest-js-module-session",
   "peerDependencies": {
     "ioredis": "^5.0.0"
   },
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunion/nestjs-packages"
+    "url": "https://github.com/ethberry/nestjs-packages"
   },
   "scripts": {
     "build": "tsc",
@@ -41,7 +41,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "-=Gemun Ion Studio=-",
+  "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
   "version": "3.0.53"
 }

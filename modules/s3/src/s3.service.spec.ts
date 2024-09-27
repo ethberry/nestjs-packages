@@ -4,7 +4,7 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
 import path from "path";
 import { URL } from "url";
 
-import { LicenseModule } from "@gemunion/nest-js-module-license";
+import { LicenseModule } from "@ethberry/nest-js-module-license";
 
 import { S3Service } from "./s3.service";
 import { S3_OPTIONS_PROVIDER } from "./s3.constants";

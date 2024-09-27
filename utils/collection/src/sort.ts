@@ -3,8 +3,8 @@ import { IsArray, IsEnum, IsOptional, IsString, ValidateNested } from "class-val
 import { Type } from "class-transformer";
 import { decorate } from "ts-mixer";
 
-import type { IDateBase, IMuiSortDto, ISortDto } from "@gemunion/types-collection";
-import { SortDirection } from "@gemunion/types-collection";
+import type { IDateBase, IMuiSortDto, ISortDto } from "@ethberry/types-collection";
+import { SortDirection } from "@ethberry/types-collection";
 
 export class SortDto<T extends IDateBase> implements ISortDto<T> {
   @decorate(

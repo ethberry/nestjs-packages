@@ -1,6 +1,6 @@
 import { Mixin } from "ts-mixer";
 
-import { IUuidDateBase } from "@gemunion/types-collection";
+import { IUuidDateBase } from "@ethberry/types-collection";
 
 import { UuidBaseEntity } from "./uuid";
 import { DateBaseEntity } from "./date";

@@ -2,7 +2,7 @@ import { Module } from "@nestjs/common";
 import { HttpModule } from "@nestjs/axios";
 import { ConfigModule } from "@nestjs/config";
 
-import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 
 import { IexCloudService } from "./iex-cloud.service";
 

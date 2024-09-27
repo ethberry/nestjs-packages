@@ -1,20 +1,19 @@
 {
   "author": {
-    "email": "trejgun@gemunion.io",
+    "email": "trejgun+ethberry@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/nestjs-packages/issues"
+    "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
     "@aws-sdk/client-secrets-manager": "3.654.0",
-    "@gemunion/constants": "0.13.1",
-    "@gemunion/nest-js-create-dynamic-module": "1.0.34"
+    "@ethberry/constants": "0.13.2",
+    "@golevelup/nestjs-modules": "0.7.1"
   },
   "devDependencies": {
-    "@gemunion/nest-js-module-license": "4.0.41",
-    "@gemunion/nestjs-ethers": "5.0.7",
+    "@ethberry/nest-js-module-license": "4.0.42",
     "@nestjs/common": "10.4.3",
     "@nestjs/config": "3.2.3",
     "ethers": "6.13.2"
@@ -25,10 +24,9 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/nest-js-module-secret-manager-aws",
+  "name": "@ethberry/nest-js-module-secret-manager-aws",
   "peerDependencies": {
-    "@gemunion/nest-js-module-license": "^4.0.0",
-    "@gemunion/nestjs-ethers": "^5.0.0",
+    "@ethberry/nest-js-module-license": "^4.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.0.0",
     "ethers": "^6.0.0"
@@ -38,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunion/nestjs-packages"
+    "url": "https://github.com/ethberry/nestjs-packages"
   },
   "scripts": {
     "build": "tsc",
@@ -48,7 +46,7 @@
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "-=Gemun Ion Studio=-",
+  "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
   "version": "4.0.61"
 }

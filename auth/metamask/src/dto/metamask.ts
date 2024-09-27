@@ -1,8 +1,8 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsString, IsUUID } from "class-validator";
 
-import { IMetamaskDto } from "@gemunion/types-jwt";
-import { WalletDto } from "@gemunion/nest-js-validators";
+import { IMetamaskDto } from "@ethberry/types-jwt";
+import { WalletDto } from "@ethberry/nest-js-validators";
 
 export class MetamaskDto extends WalletDto implements IMetamaskDto {
   @ApiProperty()

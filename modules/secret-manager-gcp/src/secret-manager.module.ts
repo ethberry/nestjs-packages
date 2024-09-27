@@ -1,7 +1,7 @@
 import { DynamicModule, Logger, Module } from "@nestjs/common";
 
-import { createConfigurableDynamicRootModule } from "@gemunion/nest-js-create-dynamic-module";
-import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
+import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 
 import { ISecretManagerOptions } from "./interfaces";
 import { SecretManagerService } from "./secret-manager.service";

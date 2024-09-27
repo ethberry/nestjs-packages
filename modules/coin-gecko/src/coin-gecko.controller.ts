@@ -1,7 +1,7 @@
 import { Controller, Get, Query, UseInterceptors } from "@nestjs/common";
 
-import { NotFoundInterceptor, Public } from "@gemunion/nest-js-utils";
-import type { ICoinGeckoCoinTicker } from "@gemunion/types-coin-gecko";
+import { NotFoundInterceptor, Public } from "@ethberry/nest-js-utils";
+import type { ICoinGeckoCoinTicker } from "@ethberry/types-coin-gecko";
 
 import { SearchOhlc, SearchRates } from "./dto";
 import { CoinGeckoService } from "./coin-gecko.service";

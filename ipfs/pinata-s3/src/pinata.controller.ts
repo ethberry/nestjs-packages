@@ -1,7 +1,7 @@
 import { Controller, Get, Res } from "@nestjs/common";
 import { Response } from "express";
 
-import { imageUrl } from "@gemunion/constants";
+import { imageUrl } from "@ethberry/constants";
 
 import { PinataS3Service } from "./pinata.service";
 import { IPinataAuth } from "./interfaces";

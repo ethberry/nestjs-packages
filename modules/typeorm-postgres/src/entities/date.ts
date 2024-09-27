@@ -1,7 +1,7 @@
 import { BaseEntity, BeforeInsert, BeforeUpdate, Column } from "typeorm";
 import { decorate } from "ts-mixer";
 
-import { IDateBase } from "@gemunion/types-collection";
+import { IDateBase } from "@ethberry/types-collection";
 
 export abstract class DateBaseEntity extends BaseEntity implements IDateBase {
   @decorate(Column({ type: "timestamptz" }))

@@ -1,7 +1,7 @@
 import { Column } from "typeorm";
 import { decorate } from "ts-mixer";
 
-import { ISearchable } from "@gemunion/types-collection";
+import { ISearchable } from "@ethberry/types-collection";
 
 import { IdDateBaseEntity } from "./id-date";
 import { JsonColumn } from "../decorators/json";

@@ -1,7 +1,7 @@
 import { Inject, Injectable } from "@nestjs/common";
 import PinataClient from "@pinata/sdk";
 
-import { FirebaseService } from "@gemunion/nest-js-module-firebase";
+import { FirebaseService } from "@ethberry/nest-js-module-firebase";
 
 import { PINATA_OPTIONS_PROVIDER } from "./pinata.constants";
 import { IPinataAuth, IPinataOptions } from "./interfaces";

@@ -1,7 +1,7 @@
 import { Controller, Get, Query, Res } from "@nestjs/common";
 import { Response } from "express";
 
-// import { Public } from "@gemunion/nest-js-utils";
+// import { Public } from "@ethberry/nest-js-utils";
 import { S3DeleteDto, S3GetDto, S3PutDto } from "./dto";
 import { S3Service } from "./s3.service";
 import { IS3Result } from "./interfaces";

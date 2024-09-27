@@ -2,7 +2,7 @@ import { Test } from "@nestjs/testing";
 import { Wallet } from "ethers";
 import { v4 } from "uuid";
 
-import { phrase } from "@gemunion/constants";
+import { phrase } from "@ethberry/constants";
 
 import { WalletConnectService } from "./wallet-connect.service";
 

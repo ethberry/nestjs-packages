@@ -1,7 +1,7 @@
 import { DynamicModule, Logger, Module } from "@nestjs/common";
 import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
-import { FirebaseModule } from "@gemunion/nest-js-module-firebase";
+import { FirebaseModule } from "@ethberry/nest-js-module-firebase";
 
 import { INftStorageOptions } from "./interfaces";
 import { NftStorageFirebaseService } from "./nft-storage.service";

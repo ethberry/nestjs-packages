@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Ip, Post } from "@nestjs/common";
 
-import { Public } from "@gemunion/nest-js-utils";
+import { Public } from "@ethberry/nest-js-utils";
 
 import { GeeTestService } from "./geetest.service";
 import { IRegisterResult, IValidateDto } from "./interfaces";

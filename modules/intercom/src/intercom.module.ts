@@ -3,7 +3,7 @@ import { ConfigModule } from "@nestjs/config";
 import { HttpModule } from "@nestjs/axios";
 import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
-import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 
 import { INTERCOM_OPTIONS_PROVIDER } from "./intercom.constants";
 import { IntercomService } from "./intercom.service";

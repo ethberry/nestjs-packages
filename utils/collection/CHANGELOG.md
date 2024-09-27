@@ -5,865 +5,865 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 3.3.25 (2024-09-21)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [3.3.24](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.23...@gemunion/collection@3.3.24) (2024-08-24)
+## [3.3.24](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.23...@ethberry/collection@3.3.24) (2024-08-24)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ffa1242](https://github.com/gemunion/nestjs-packages/commit/ffa1242232ef792525c0d23834127498f17567b4))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ffa1242](https://github.com/ethberry/nestjs-packages/commit/ffa1242232ef792525c0d23834127498f17567b4))
 
 ## 3.3.23 (2024-08-02)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([44d16bb](https://github.com/gemunion/nestjs-packages/commit/44d16bb8ff6f55934baa4897b101895762d21b5c))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([44d16bb](https://github.com/ethberry/nestjs-packages/commit/44d16bb8ff6f55934baa4897b101895762d21b5c))
 
 ## 3.3.22 (2024-07-24)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([d4e43d3](https://github.com/gemunion/nestjs-packages/commit/d4e43d3479b189faa269db4b5419b83de896e8b6))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([d4e43d3](https://github.com/ethberry/nestjs-packages/commit/d4e43d3479b189faa269db4b5419b83de896e8b6))
 
 ## 3.3.21 (2024-07-16)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([eaded9c](https://github.com/gemunion/nestjs-packages/commit/eaded9c14ab24046439c14193b46e1795702630c))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([eaded9c](https://github.com/ethberry/nestjs-packages/commit/eaded9c14ab24046439c14193b46e1795702630c))
 
-## [3.3.20](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.19...@gemunion/collection@3.3.20) (2024-07-06)
+## [3.3.20](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.19...@ethberry/collection@3.3.20) (2024-07-06)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [3.3.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.18...@gemunion/collection@3.3.19) (2024-06-29)
-
-### Bug Fixes
-
-- validation message ([28d56fc](https://github.com/gemunion/nestjs-packages/commit/28d56fc558e5fb74e2ae01b2a5132692e0bea94d))
-
-## [3.3.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.17...@gemunion/collection@3.3.18) (2024-06-23)
+## [3.3.19](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.18...@ethberry/collection@3.3.19) (2024-06-29)
 
 ### Bug Fixes
 
-- add title validation ([7a4e1f8](https://github.com/gemunion/nestjs-packages/commit/7a4e1f8fa38903737a80ea2a88d12828d942d61a))
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([85f9e35](https://github.com/gemunion/nestjs-packages/commit/85f9e355225d7b8fc2855c2e966a4e0fb4b5b3a7))
+- validation message ([28d56fc](https://github.com/ethberry/nestjs-packages/commit/28d56fc558e5fb74e2ae01b2a5132692e0bea94d))
 
-## [3.3.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.16...@gemunion/collection@3.3.17) (2024-06-22)
+## [3.3.18](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.17...@ethberry/collection@3.3.18) (2024-06-23)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9eaef2b](https://github.com/gemunion/nestjs-packages/commit/9eaef2b99e822cacaa04dab85ca0b7966934a71f))
+- add title validation ([7a4e1f8](https://github.com/ethberry/nestjs-packages/commit/7a4e1f8fa38903737a80ea2a88d12828d942d61a))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([85f9e35](https://github.com/ethberry/nestjs-packages/commit/85f9e355225d7b8fc2855c2e966a4e0fb4b5b3a7))
+
+## [3.3.17](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.16...@ethberry/collection@3.3.17) (2024-06-22)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9eaef2b](https://github.com/ethberry/nestjs-packages/commit/9eaef2b99e822cacaa04dab85ca0b7966934a71f))
 
 ## 3.3.16 (2024-06-13)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e3b70a6](https://github.com/gemunion/nestjs-packages/commit/e3b70a6f2185f6a72ef178d6839354972e7c5fe2))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e3b70a6](https://github.com/ethberry/nestjs-packages/commit/e3b70a6f2185f6a72ef178d6839354972e7c5fe2))
 
-## [3.3.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.14...@gemunion/collection@3.3.15) (2024-04-14)
+## [3.3.15](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.14...@ethberry/collection@3.3.15) (2024-04-14)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 3.3.14 (2024-03-20)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0ac0681](https://github.com/gemunion/nestjs-packages/commit/0ac0681267aaf8d90b453622858a9bed43f57e9d))
-- move validation ([0d134aa](https://github.com/gemunion/nestjs-packages/commit/0d134aa0993e0f9b84d1f5c43e37ec3cf9d8c596))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0ac0681](https://github.com/ethberry/nestjs-packages/commit/0ac0681267aaf8d90b453622858a9bed43f57e9d))
+- move validation ([0d134aa](https://github.com/ethberry/nestjs-packages/commit/0d134aa0993e0f9b84d1f5c43e37ec3cf9d8c596))
 
-## [3.3.13](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.12...@gemunion/collection@3.3.13) (2024-03-02)
+## [3.3.13](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.12...@ethberry/collection@3.3.13) (2024-03-02)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([a26a8a7](https://github.com/gemunion/nestjs-packages/commit/a26a8a79f17ea104c94d50a5319420486348d704))
+- **deps:** update all non-major dependencies ([a26a8a7](https://github.com/ethberry/nestjs-packages/commit/a26a8a79f17ea104c94d50a5319420486348d704))
 
 ## 3.3.12 (2024-02-19)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [3.3.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.10...@gemunion/collection@3.3.11) (2024-01-21)
+## [3.3.11](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.10...@ethberry/collection@3.3.11) (2024-01-21)
 
 ### Bug Fixes
 
-- **deps:** update gemunion to v1.2.9 ([0a64144](https://github.com/gemunion/nestjs-packages/commit/0a64144b5a188d7de8d346eba925c1850f0755be))
+- **deps:** update gemunion to v1.2.9 ([0a64144](https://github.com/ethberry/nestjs-packages/commit/0a64144b5a188d7de8d346eba925c1850f0755be))
 
 ## 3.3.10 (2024-01-17)
 
 ### Bug Fixes
 
-- collection and metamask dto ([2afed51](https://github.com/gemunion/nestjs-packages/commit/2afed51d28e34569188604c9ad6c3f6902590cea))
+- collection and metamask dto ([2afed51](https://github.com/ethberry/nestjs-packages/commit/2afed51d28e34569188604c9ad6c3f6902590cea))
 
 ## 3.3.9 (2024-01-16)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([59a8b46](https://github.com/gemunion/nestjs-packages/commit/59a8b465b2468dacb0753a8217a9247f9586b1ad))
+- **deps:** update all non-major dependencies ([59a8b46](https://github.com/ethberry/nestjs-packages/commit/59a8b465b2468dacb0753a8217a9247f9586b1ad))
 
 ## 3.3.8 (2023-12-16)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [3.3.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.6...@gemunion/collection@3.3.7) (2023-11-18)
+## [3.3.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.6...@ethberry/collection@3.3.7) (2023-11-18)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 3.3.6 (2023-11-12)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 3.3.5 (2023-10-24)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [3.3.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.3...@gemunion/collection@3.3.4) (2023-10-12)
-
-### Bug Fixes
-
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([989e85f](https://github.com/gemunion/nestjs-packages/commit/989e85f310069b147d578e4ed9428e230b44b462))
-
-## [3.3.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.2...@gemunion/collection@3.3.3) (2023-10-07)
-
-**Note:** Version bump only for package @gemunion/collection
-
-## [3.3.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.1...@gemunion/collection@3.3.2) (2023-09-30)
+## [3.3.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.3...@ethberry/collection@3.3.4) (2023-10-12)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([dbf26f0](https://github.com/gemunion/nestjs-packages/commit/dbf26f06df651edca4607c7f62e56dab008f9291))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([989e85f](https://github.com/ethberry/nestjs-packages/commit/989e85f310069b147d578e4ed9428e230b44b462))
 
-## [3.3.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.3.0...@gemunion/collection@3.3.1) (2023-09-17)
+## [3.3.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.2...@ethberry/collection@3.3.3) (2023-10-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-# [3.3.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.2.0...@gemunion/collection@3.3.0) (2023-09-10)
+## [3.3.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.1...@ethberry/collection@3.3.2) (2023-09-30)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([dbf26f0](https://github.com/ethberry/nestjs-packages/commit/dbf26f06df651edca4607c7f62e56dab008f9291))
+
+## [3.3.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.3.0...@ethberry/collection@3.3.1) (2023-09-17)
+
+**Note:** Version bump only for package @ethberry/collection
+
+# [3.3.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.2.0...@ethberry/collection@3.3.0) (2023-09-10)
 
 ### Features
 
-- email/imageUrl dto ([e399d39](https://github.com/gemunion/nestjs-packages/commit/e399d39c1196e62720c3f8c7f3da621e42e8a128))
+- email/imageUrl dto ([e399d39](https://github.com/ethberry/nestjs-packages/commit/e399d39c1196e62720c3f8c7f3da621e42e8a128))
 
-# [3.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.1.1...@gemunion/collection@3.2.0) (2023-09-04)
-
-### Features
-
-- accounts dto ([3078873](https://github.com/gemunion/nestjs-packages/commit/30788735ec7c3e12f8f7f5ba461ec8ad35df028e))
-- address/account/referrer/wallet dto ([a0cb904](https://github.com/gemunion/nestjs-packages/commit/a0cb904bc3339cc364acda319ca8d96a883f8b99))
-- chain id dto ([0e8a1ff](https://github.com/gemunion/nestjs-packages/commit/0e8a1ffb78117ccd987294a7dc699c3dc7bbd43e))
-- token type dto ([af32138](https://github.com/gemunion/nestjs-packages/commit/af32138725a94bffb67923ab09ea6b98669e800c))
-
-## [3.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.1.0...@gemunion/collection@3.1.1) (2023-08-25)
-
-### Bug Fixes
-
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([d8fd15e](https://github.com/gemunion/nestjs-packages/commit/d8fd15ea12b16c3fdac921403424fc9786b8f785))
-- make sort order optional ([8f065cf](https://github.com/gemunion/nestjs-packages/commit/8f065cf61a05e1dbb457511657ea98aaac8c2f8e))
-
-# [3.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.11...@gemunion/collection@3.1.0) (2023-08-25)
-
-### Bug Fixes
-
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([dc0bf75](https://github.com/gemunion/nestjs-packages/commit/dc0bf75dc354e382b68786868a04a261df73f364))
+# [3.2.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.1.1...@ethberry/collection@3.2.0) (2023-09-04)
 
 ### Features
 
-- add mui sort ([ba11fbb](https://github.com/gemunion/nestjs-packages/commit/ba11fbb0e866b96b3fcf263bff4fe00a101a8f58))
+- accounts dto ([3078873](https://github.com/ethberry/nestjs-packages/commit/30788735ec7c3e12f8f7f5ba461ec8ad35df028e))
+- address/account/referrer/wallet dto ([a0cb904](https://github.com/ethberry/nestjs-packages/commit/a0cb904bc3339cc364acda319ca8d96a883f8b99))
+- chain id dto ([0e8a1ff](https://github.com/ethberry/nestjs-packages/commit/0e8a1ffb78117ccd987294a7dc699c3dc7bbd43e))
+- token type dto ([af32138](https://github.com/ethberry/nestjs-packages/commit/af32138725a94bffb67923ab09ea6b98669e800c))
 
-## [3.0.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.10...@gemunion/collection@3.0.11) (2023-08-22)
+## [3.1.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.1.0...@ethberry/collection@3.1.1) (2023-08-25)
 
 ### Bug Fixes
 
-- searchable dto ([9fc001b](https://github.com/gemunion/nestjs-packages/commit/9fc001bf5179853d03d46544b3e8208866735968))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([d8fd15e](https://github.com/ethberry/nestjs-packages/commit/d8fd15ea12b16c3fdac921403424fc9786b8f785))
+- make sort order optional ([8f065cf](https://github.com/ethberry/nestjs-packages/commit/8f065cf61a05e1dbb457511657ea98aaac8c2f8e))
+
+# [3.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.0.11...@ethberry/collection@3.1.0) (2023-08-25)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([dc0bf75](https://github.com/ethberry/nestjs-packages/commit/dc0bf75dc354e382b68786868a04a261df73f364))
+
+### Features
+
+- add mui sort ([ba11fbb](https://github.com/ethberry/nestjs-packages/commit/ba11fbb0e866b96b3fcf263bff4fe00a101a8f58))
+
+## [3.0.11](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.0.10...@ethberry/collection@3.0.11) (2023-08-22)
+
+### Bug Fixes
+
+- searchable dto ([9fc001b](https://github.com/ethberry/nestjs-packages/commit/9fc001bf5179853d03d46544b3e8208866735968))
 
 ## 3.0.10 (2023-08-12)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 3.0.9 (2023-08-05)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/ethberry/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
 
 ## 3.0.8 (2023-07-29)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [3.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.6...@gemunion/collection@3.0.7) (2023-07-23)
+## [3.0.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.0.6...@ethberry/collection@3.0.7) (2023-07-23)
 
 ### Bug Fixes
 
-- add address dto ([ea9c040](https://github.com/gemunion/nestjs-packages/commit/ea9c04079af003f31b15157fae0b0caccbe2bc79))
+- add address dto ([ea9c040](https://github.com/ethberry/nestjs-packages/commit/ea9c04079af003f31b15157fae0b0caccbe2bc79))
 
 ## 3.0.6 (2023-07-18)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/ethberry/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
 
 ## 3.0.5 (2023-07-15)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 3.0.4 (2023-07-11)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [3.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.2...@gemunion/collection@3.0.3) (2023-06-30)
+## [3.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.0.2...@ethberry/collection@3.0.3) (2023-06-30)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [3.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@3.0.1...@gemunion/collection@3.0.2) (2023-06-17)
+## [3.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@3.0.1...@ethberry/collection@3.0.2) (2023-06-17)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 3.0.1 (2023-06-17)
 
 ### Bug Fixes
 
-- tsconfig ([f87654a](https://github.com/gemunion/nestjs-packages/commit/f87654a2865ada7d6cba8c3a496c298baf198d1b))
+- tsconfig ([f87654a](https://github.com/ethberry/nestjs-packages/commit/f87654a2865ada7d6cba8c3a496c298baf198d1b))
 
-## [2.4.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.4.6...@gemunion/collection@2.4.7) (2023-06-03)
-
-### Bug Fixes
-
-- manualy update deps ([bccb1a0](https://github.com/gemunion/nestjs-packages/commit/bccb1a095df18dac807d7d5189502e3239236230))
-
-## [2.4.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.4.5...@gemunion/collection@2.4.6) (2023-05-26)
+## [2.4.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.4.6...@ethberry/collection@2.4.7) (2023-06-03)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ca7b648](https://github.com/gemunion/nestjs-packages/commit/ca7b648ee82529432478fda57f12106c887d26b6))
+- manualy update deps ([bccb1a0](https://github.com/ethberry/nestjs-packages/commit/bccb1a095df18dac807d7d5189502e3239236230))
+
+## [2.4.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.4.5...@ethberry/collection@2.4.6) (2023-05-26)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ca7b648](https://github.com/ethberry/nestjs-packages/commit/ca7b648ee82529432478fda57f12106c887d26b6))
 
 ## 2.4.5 (2023-05-12)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0cd4b7e](https://github.com/gemunion/nestjs-packages/commit/0cd4b7e91eb99463fd3457b468cc55c23c6e485c))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0cd4b7e](https://github.com/ethberry/nestjs-packages/commit/0cd4b7e91eb99463fd3457b468cc55c23c6e485c))
 
 ## 2.4.4 (2023-04-10)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [2.4.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.4.2...@gemunion/collection@2.4.3) (2023-04-08)
+## [2.4.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.4.2...@ethberry/collection@2.4.3) (2023-04-08)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 2.4.2 (2023-04-05)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 2.4.1 (2023-03-03)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([44429a7](https://github.com/gemunion/nestjs-packages/commit/44429a7dc07ed7e95e5136e4711e53006e32da9f))
-- sort does not extend search ([9db5850](https://github.com/gemunion/nestjs-packages/commit/9db58509832c8a328bc6f5c67d7e013408b1f57f))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([44429a7](https://github.com/ethberry/nestjs-packages/commit/44429a7dc07ed7e95e5136e4711e53006e32da9f))
+- sort does not extend search ([9db5850](https://github.com/ethberry/nestjs-packages/commit/9db58509832c8a328bc6f5c67d7e013408b1f57f))
 
 # 2.4.0 (2023-02-22)
 
 ### Features
 
-- add referrer dto ([ac828b0](https://github.com/gemunion/nestjs-packages/commit/ac828b057c49e15c1673b04b7509087632b4d6d4))
+- add referrer dto ([ac828b0](https://github.com/ethberry/nestjs-packages/commit/ac828b057c49e15c1673b04b7509087632b4d6d4))
 
 ## 2.3.5 (2023-02-11)
 
 ### Bug Fixes
 
-- **deps:** update dependency ts-mixer to v6.0.3 ([0289ced](https://github.com/gemunion/nestjs-packages/commit/0289ceddde17fa065f61bba3c6d147ab066e4b13))
+- **deps:** update dependency ts-mixer to v6.0.3 ([0289ced](https://github.com/ethberry/nestjs-packages/commit/0289ceddde17fa065f61bba3c6d147ab066e4b13))
 
 ## 2.3.4 (2023-02-09)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [2.3.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.3.2...@gemunion/collection@2.3.3) (2023-02-04)
+## [2.3.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.3.2...@ethberry/collection@2.3.3) (2023-02-04)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([5fbbfeb](https://github.com/gemunion/nestjs-packages/commit/5fbbfeb5969c3c343a6a3e07ad4f7e3b9340eb20))
-- manually update nestjs/axious ([e6297ce](https://github.com/gemunion/nestjs-packages/commit/e6297ce347b7fa4974a695778bf544276f54e4e4))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([5fbbfeb](https://github.com/ethberry/nestjs-packages/commit/5fbbfeb5969c3c343a6a3e07ad4f7e3b9340eb20))
+- manually update nestjs/axious ([e6297ce](https://github.com/ethberry/nestjs-packages/commit/e6297ce347b7fa4974a695778bf544276f54e4e4))
 
 ## 2.3.2 (2023-01-27)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([6414a37](https://github.com/gemunion/nestjs-packages/commit/6414a37bf10dddf152822604bb774bd08d4c4c27))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([6414a37](https://github.com/ethberry/nestjs-packages/commit/6414a37bf10dddf152822604bb774bd08d4c4c27))
 
-## [2.3.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.3.0...@gemunion/collection@2.3.1) (2023-01-25)
+## [2.3.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.3.0...@ethberry/collection@2.3.1) (2023-01-25)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 # 2.3.0 (2023-01-25)
 
 ### Features
 
-- gender and country enum ([5370cd4](https://github.com/gemunion/nestjs-packages/commit/5370cd4b5f9b0f3211c8f53169951cf72c42dc9f))
+- gender and country enum ([5370cd4](https://github.com/ethberry/nestjs-packages/commit/5370cd4b5f9b0f3211c8f53169951cf72c42dc9f))
 
 ## 2.2.7 (2023-01-14)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9115e8d](https://github.com/gemunion/nestjs-packages/commit/9115e8de4c005ea9f264ef91f80a76c3efdacb49))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9115e8d](https://github.com/ethberry/nestjs-packages/commit/9115e8de4c005ea9f264ef91f80a76c3efdacb49))
 
 ## 2.2.6 (2022-12-17)
 
 ### Bug Fixes
 
-- **deps:** update gemunion to v1.5.5 ([72f303b](https://github.com/gemunion/nestjs-packages/commit/72f303beeac3c05124d22866d4e82ca0480f7613))
+- **deps:** update gemunion to v1.5.5 ([72f303b](https://github.com/ethberry/nestjs-packages/commit/72f303beeac3c05124d22866d4e82ca0480f7613))
 
 ## 2.2.5 (2022-12-10)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([8752c10](https://github.com/gemunion/nestjs-packages/commit/8752c109c6ae75373290bb039a87670743dd84fe))
+- **deps:** update all non-major dependencies ([8752c10](https://github.com/ethberry/nestjs-packages/commit/8752c109c6ae75373290bb039a87670743dd84fe))
 
 ## 2.2.4 (2022-11-11)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 2.2.3 (2022-10-28)
 
 ### Bug Fixes
 
-- **deps:** update gemunion to v0.9.0 ([e90b18b](https://github.com/gemunion/nestjs-packages/commit/e90b18b0650b2ba562b705adf1bccab693bba968))
+- **deps:** update gemunion to v0.9.0 ([e90b18b](https://github.com/ethberry/nestjs-packages/commit/e90b18b0650b2ba562b705adf1bccab693bba968))
 
 ## 2.2.2 (2022-10-01)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([2b0c34b](https://github.com/gemunion/nestjs-packages/commit/2b0c34bf3cd4c9f1159938720deb3762e7d22fe3))
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e6bd4f2](https://github.com/gemunion/nestjs-packages/commit/e6bd4f2bc4d46611f53f78f2e55503ae676102c1))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([2b0c34b](https://github.com/ethberry/nestjs-packages/commit/2b0c34bf3cd4c9f1159938720deb3762e7d22fe3))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e6bd4f2](https://github.com/ethberry/nestjs-packages/commit/e6bd4f2bc4d46611f53f78f2e55503ae676102c1))
 
-## [2.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.2.0...@gemunion/collection@2.2.1) (2022-09-14)
+## [2.2.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.2.0...@ethberry/collection@2.2.1) (2022-09-14)
 
 ### Bug Fixes
 
-- add type to wrapped swagger decorators ([284a395](https://github.com/gemunion/nestjs-packages/commit/284a3951ec58a894e5de738d831bfc712cec9852))
-- make search dto non-optional ([e4ef15b](https://github.com/gemunion/nestjs-packages/commit/e4ef15bd954945608293ff77dd64db91cd5ae3b5))
-- make search dto optional ([faf4ea4](https://github.com/gemunion/nestjs-packages/commit/faf4ea465e7d2007a57cb13e8ce6a2d6e214f6ff))
+- add type to wrapped swagger decorators ([284a395](https://github.com/ethberry/nestjs-packages/commit/284a3951ec58a894e5de738d831bfc712cec9852))
+- make search dto non-optional ([e4ef15b](https://github.com/ethberry/nestjs-packages/commit/e4ef15bd954945608293ff77dd64db91cd5ae3b5))
+- make search dto optional ([faf4ea4](https://github.com/ethberry/nestjs-packages/commit/faf4ea465e7d2007a57cb13e8ce6a2d6e214f6ff))
 
-# [2.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.1.1...@gemunion/collection@2.2.0) (2022-09-14)
+# [2.2.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.1.1...@ethberry/collection@2.2.0) (2022-09-14)
 
 ### Features
 
-- uae ts-mixer ([17f1e6d](https://github.com/gemunion/nestjs-packages/commit/17f1e6d011ceefa8d7941a5384bc83b7afad8b86))
+- uae ts-mixer ([17f1e6d](https://github.com/ethberry/nestjs-packages/commit/17f1e6d011ceefa8d7941a5384bc83b7afad8b86))
 
-## [2.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.1.0...@gemunion/collection@2.1.1) (2022-09-14)
-
-### Bug Fixes
-
-- new validators ([b3254b5](https://github.com/gemunion/nestjs-packages/commit/b3254b551c9f72f977498f8d8780f0f79eab6d42))
-
-# [2.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.0.9...@gemunion/collection@2.1.0) (2022-09-14)
+## [2.1.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.1.0...@ethberry/collection@2.1.1) (2022-09-14)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([3c7df0e](https://github.com/gemunion/nestjs-packages/commit/3c7df0ed113a3306e5ce26188034b80db0969073))
-- new validators ([3c29d64](https://github.com/gemunion/nestjs-packages/commit/3c29d64c1e776f52045bf082b43d46196d0bb40e))
+- new validators ([b3254b5](https://github.com/ethberry/nestjs-packages/commit/b3254b551c9f72f977498f8d8780f0f79eab6d42))
+
+# [2.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.0.9...@ethberry/collection@2.1.0) (2022-09-14)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([3c7df0e](https://github.com/ethberry/nestjs-packages/commit/3c7df0ed113a3306e5ce26188034b80db0969073))
+- new validators ([3c29d64](https://github.com/ethberry/nestjs-packages/commit/3c29d64c1e776f52045bf082b43d46196d0bb40e))
 
 ### Features
 
-- new validators ([5378b03](https://github.com/gemunion/nestjs-packages/commit/5378b037502769f7bf8629b5dbb26e4bf9fd7f22))
+- new validators ([5378b03](https://github.com/ethberry/nestjs-packages/commit/5378b037502769f7bf8629b5dbb26e4bf9fd7f22))
 
 ## 2.0.9 (2022-09-10)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [2.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.0.7...@gemunion/collection@2.0.8) (2022-09-03)
+## [2.0.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.0.7...@ethberry/collection@2.0.8) (2022-09-03)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([a176cfd](https://github.com/gemunion/nestjs-packages/commit/a176cfdebc150b99d0c8600e67a2dfe165b7e40f))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([a176cfd](https://github.com/ethberry/nestjs-packages/commit/a176cfdebc150b99d0c8600e67a2dfe165b7e40f))
 
-## [2.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.0.6...@gemunion/collection@2.0.7) (2022-09-03)
+## [2.0.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.0.6...@ethberry/collection@2.0.7) (2022-09-03)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 2.0.6 (2022-08-28)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([6b79a92](https://github.com/gemunion/nestjs-packages/commit/6b79a92e253f62b07fe8f6209738d489d46e05ef))
+- **deps:** update all non-major dependencies ([6b79a92](https://github.com/ethberry/nestjs-packages/commit/6b79a92e253f62b07fe8f6209738d489d46e05ef))
 
-## [2.0.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.0.4...@gemunion/collection@2.0.5) (2022-08-12)
+## [2.0.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.0.4...@ethberry/collection@2.0.5) (2022-08-12)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([f8bd161](https://github.com/gemunion/nestjs-packages/commit/f8bd161c3e2521e7a9e74bc8b3ebd915bc3341f2))
+- **deps:** update all non-major dependencies ([f8bd161](https://github.com/ethberry/nestjs-packages/commit/f8bd161c3e2521e7a9e74bc8b3ebd915bc3341f2))
 
 ## 2.0.4 (2022-08-05)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([aa5a34a](https://github.com/gemunion/nestjs-packages/commit/aa5a34a28af8f71490cb35be50380baeb5b18322))
+- **deps:** update all non-major dependencies ([aa5a34a](https://github.com/ethberry/nestjs-packages/commit/aa5a34a28af8f71490cb35be50380baeb5b18322))
 
-## [2.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.0.2...@gemunion/collection@2.0.3) (2022-07-23)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([ea187bf](https://github.com/gemunion/nestjs-packages/commit/ea187bfbe8ad38d2a32117ec6f0a29efb570c062))
-
-## [2.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@2.0.1...@gemunion/collection@2.0.2) (2022-07-16)
+## [2.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.0.2...@ethberry/collection@2.0.3) (2022-07-23)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([66ecd27](https://github.com/gemunion/nestjs-packages/commit/66ecd2712b6eaee29cd501eaf92775ec4c6be995))
+- **deps:** update all non-major dependencies ([ea187bf](https://github.com/ethberry/nestjs-packages/commit/ea187bfbe8ad38d2a32117ec6f0a29efb570c062))
+
+## [2.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@2.0.1...@ethberry/collection@2.0.2) (2022-07-16)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([66ecd27](https://github.com/ethberry/nestjs-packages/commit/66ecd2712b6eaee29cd501eaf92775ec4c6be995))
 
 ## 2.0.1 (2022-07-08)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([f4f6036](https://github.com/gemunion/nestjs-packages/commit/f4f60367a2d58aad82f86cb87ef8c9c0ab2ab968))
+- **deps:** update all non-major dependencies ([f4f6036](https://github.com/ethberry/nestjs-packages/commit/f4f60367a2d58aad82f86cb87ef8c9c0ab2ab968))
 
 ## 1.2.22 (2022-07-02)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([804c603](https://github.com/gemunion/nestjs-packages/commit/804c603f7ca50f0817390f9367f243045e6dd4a1))
+- **deps:** update all non-major dependencies ([804c603](https://github.com/ethberry/nestjs-packages/commit/804c603f7ca50f0817390f9367f243045e6dd4a1))
 
 ## 1.2.21 (2022-06-11)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([ee3ea9e](https://github.com/gemunion/nestjs-packages/commit/ee3ea9e1411bf19dd9d39c97474481724b19b610))
+- **deps:** update all non-major dependencies ([ee3ea9e](https://github.com/ethberry/nestjs-packages/commit/ee3ea9e1411bf19dd9d39c97474481724b19b610))
 
 ## 1.2.20 (2022-06-05)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([894fb7f](https://github.com/gemunion/nestjs-packages/commit/894fb7f873f24487ef582736bff2a35e1378aa63))
+- **deps:** update all non-major dependencies ([894fb7f](https://github.com/ethberry/nestjs-packages/commit/894fb7f873f24487ef582736bff2a35e1378aa63))
 
-## [1.2.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.2.18...@gemunion/collection@1.2.19) (2022-06-02)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([17da833](https://github.com/gemunion/nestjs-packages/commit/17da83350c4b8a1f519a36beeb40a08ab2ea013e))
-
-## [1.2.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.2.17...@gemunion/collection@1.2.18) (2022-06-02)
+## [1.2.19](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.2.18...@ethberry/collection@1.2.19) (2022-06-02)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([f08b2fa](https://github.com/gemunion/nestjs-packages/commit/f08b2fa02393bbf3a107fe78ca27dbe2d5388d43))
+- **deps:** update all non-major dependencies ([17da833](https://github.com/ethberry/nestjs-packages/commit/17da83350c4b8a1f519a36beeb40a08ab2ea013e))
 
-## [1.2.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.2.16...@gemunion/collection@1.2.17) (2022-06-02)
+## [1.2.18](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.2.17...@ethberry/collection@1.2.18) (2022-06-02)
 
-**Note:** Version bump only for package @gemunion/collection
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([f08b2fa](https://github.com/ethberry/nestjs-packages/commit/f08b2fa02393bbf3a107fe78ca27dbe2d5388d43))
+
+## [1.2.17](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.2.16...@ethberry/collection@1.2.17) (2022-06-02)
+
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.2.16 (2022-05-27)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([3ff15cf](https://github.com/gemunion/nestjs-packages/commit/3ff15cf38a1d6493b5a88e0615d3e94b9d6c5869))
+- **deps:** update all non-major dependencies ([3ff15cf](https://github.com/ethberry/nestjs-packages/commit/3ff15cf38a1d6493b5a88e0615d3e94b9d6c5869))
 
 ## 1.2.15 (2022-05-20)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([947923a](https://github.com/gemunion/nestjs-packages/commit/947923a9fa93b0b1e841b33e9fb5c277c7448a12))
+- **deps:** update all non-major dependencies ([947923a](https://github.com/ethberry/nestjs-packages/commit/947923a9fa93b0b1e841b33e9fb5c277c7448a12))
 
 ## 1.2.14 (2022-05-15)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([edf7232](https://github.com/gemunion/nestjs-packages/commit/edf72324387865788d598c0496366ff317456ae5))
+- **deps:** update all non-major dependencies ([edf7232](https://github.com/ethberry/nestjs-packages/commit/edf72324387865788d598c0496366ff317456ae5))
 
 ## 1.2.13 (2022-05-08)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/types-collection to v1.2.1 ([6add1a2](https://github.com/gemunion/nestjs-packages/commit/6add1a23199c6e106ce166b47337407c0a9b4b72))
+- **deps:** update dependency @ethberry/types-collection to v1.2.1 ([6add1a2](https://github.com/ethberry/nestjs-packages/commit/6add1a23199c6e106ce166b47337407c0a9b4b72))
 
 ## 1.2.12 (2022-05-05)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([d080b8b](https://github.com/gemunion/nestjs-packages/commit/d080b8b529d921a6912253fd9e9a5a39c17e459b))
+- **deps:** update all non-major dependencies ([d080b8b](https://github.com/ethberry/nestjs-packages/commit/d080b8b529d921a6912253fd9e9a5a39c17e459b))
 
 ## 1.2.11 (2022-05-02)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([9858ca2](https://github.com/gemunion/nestjs-packages/commit/9858ca2fa56fb8545fd7096ed648897f427d4851))
+- **deps:** update all non-major dependencies ([9858ca2](https://github.com/ethberry/nestjs-packages/commit/9858ca2fa56fb8545fd7096ed648897f427d4851))
 
-## [1.2.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.2.9...@gemunion/collection@1.2.10) (2022-04-29)
+## [1.2.10](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.2.9...@ethberry/collection@1.2.10) (2022-04-29)
 
 ### Bug Fixes
 
-- peer deps ([7f35600](https://github.com/gemunion/nestjs-packages/commit/7f35600a9fef464bf2a7bdb0b031e379e8143db8))
+- peer deps ([7f35600](https://github.com/ethberry/nestjs-packages/commit/7f35600a9fef464bf2a7bdb0b031e379e8143db8))
 
 ## 1.2.9 (2022-04-29)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.2.8 (2022-04-28)
 
 ### Bug Fixes
 
-- bump minor version ([972cf95](https://github.com/gemunion/nestjs-packages/commit/972cf95637ca7a81d7f3870ec9f3f5fda411c1a8))
+- bump minor version ([972cf95](https://github.com/ethberry/nestjs-packages/commit/972cf95637ca7a81d7f3870ec9f3f5fda411c1a8))
 
 ## 1.2.7 (2022-04-09)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.2.6 (2022-04-01)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([fbf2144](https://github.com/gemunion/nestjs-packages/commit/fbf214493a2a11413ebf986c7a4a0a2676ddddd7))
+- **deps:** update all non-major dependencies ([fbf2144](https://github.com/ethberry/nestjs-packages/commit/fbf214493a2a11413ebf986c7a4a0a2676ddddd7))
 
-## [1.2.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.2.4...@gemunion/collection@1.2.5) (2022-03-25)
+## [1.2.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.2.4...@ethberry/collection@1.2.5) (2022-03-25)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([35783ab](https://github.com/gemunion/nestjs-packages/commit/35783abb1093ec8fa0ed1a6602fadac6e9fcd507))
+- **deps:** update all non-major dependencies ([35783ab](https://github.com/ethberry/nestjs-packages/commit/35783abb1093ec8fa0ed1a6602fadac6e9fcd507))
 
 ## 1.2.4 (2022-03-21)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [1.2.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.2.2...@gemunion/collection@1.2.3) (2022-03-14)
+## [1.2.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.2.2...@ethberry/collection@1.2.3) (2022-03-14)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([59b4f23](https://github.com/gemunion/nestjs-packages/commit/59b4f238b57d91447b14987b8ca43be54359d470))
-- update validator ([eb3a633](https://github.com/gemunion/nestjs-packages/commit/eb3a63390e01730847d1c2c222de2095b2887826))
+- **deps:** update all non-major dependencies ([59b4f23](https://github.com/ethberry/nestjs-packages/commit/59b4f238b57d91447b14987b8ca43be54359d470))
+- update validator ([eb3a633](https://github.com/ethberry/nestjs-packages/commit/eb3a63390e01730847d1c2c222de2095b2887826))
 
 ## 1.2.2 (2022-03-05)
 
 ### Bug Fixes
 
-- default sort ([7902f3d](https://github.com/gemunion/nestjs-packages/commit/7902f3db7ed46386d3dd0a61c8a09d17a73725cd))
-- **deps:** update all non-major dependencies ([8d028f2](https://github.com/gemunion/nestjs-packages/commit/8d028f2e0ea10b5362aa0c5143035c0e3e720f0e))
+- default sort ([7902f3d](https://github.com/ethberry/nestjs-packages/commit/7902f3db7ed46386d3dd0a61c8a09d17a73725cd))
+- **deps:** update all non-major dependencies ([8d028f2](https://github.com/ethberry/nestjs-packages/commit/8d028f2e0ea10b5362aa0c5143035c0e3e720f0e))
 
-## [1.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.2.0...@gemunion/collection@1.2.1) (2022-02-12)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([3e5e082](https://github.com/gemunion/nestjs-packages/commit/3e5e082d1b7ad6e2b45bf90d400a3afa776d6f2c))
-
-# [1.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.9...@gemunion/collection@1.2.0) (2022-02-06)
+## [1.2.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.2.0...@ethberry/collection@1.2.1) (2022-02-12)
 
 ### Bug Fixes
 
-- collection ([b8ee787](https://github.com/gemunion/nestjs-packages/commit/b8ee78759063a10d4b064cad397a722707c02463))
+- **deps:** update all non-major dependencies ([3e5e082](https://github.com/ethberry/nestjs-packages/commit/3e5e082d1b7ad6e2b45bf90d400a3afa776d6f2c))
+
+# [1.2.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.1.9...@ethberry/collection@1.2.0) (2022-02-06)
+
+### Bug Fixes
+
+- collection ([b8ee787](https://github.com/ethberry/nestjs-packages/commit/b8ee78759063a10d4b064cad397a722707c02463))
 
 ### Features
 
-- default sort column ([4305a4c](https://github.com/gemunion/nestjs-packages/commit/4305a4c0701402ec32286a6177ca37c64cf60ad5))
+- default sort column ([4305a4c](https://github.com/ethberry/nestjs-packages/commit/4305a4c0701402ec32286a6177ca37c64cf60ad5))
 
-## [1.1.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.8...@gemunion/collection@1.1.9) (2022-01-31)
+## [1.1.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.1.8...@ethberry/collection@1.1.9) (2022-01-31)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.1.8 (2022-01-29)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([fa7ebd4](https://github.com/gemunion/nestjs-packages/commit/fa7ebd4365dc712c06419446a515147200e6cccd))
+- **deps:** update all non-major dependencies ([fa7ebd4](https://github.com/ethberry/nestjs-packages/commit/fa7ebd4365dc712c06419446a515147200e6cccd))
 
-## [1.1.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.6...@gemunion/collection@1.1.7) (2022-01-22)
+## [1.1.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.1.6...@ethberry/collection@1.1.7) (2022-01-22)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [1.1.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.5...@gemunion/collection@1.1.6) (2022-01-22)
+## [1.1.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.1.5...@ethberry/collection@1.1.6) (2022-01-22)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [1.1.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.4...@gemunion/collection@1.1.5) (2022-01-21)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([bec0d49](https://github.com/gemunion/nestjs-packages/commit/bec0d49f011cf2f3a447bd0abcc239f330162f57))
-
-## [1.1.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.3...@gemunion/collection@1.1.4) (2022-01-14)
-
-**Note:** Version bump only for package @gemunion/collection
-
-## [1.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.1.2...@gemunion/collection@1.1.3) (2022-01-11)
+## [1.1.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.1.4...@ethberry/collection@1.1.5) (2022-01-21)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([71b9494](https://github.com/gemunion/nestjs-packages/commit/71b9494ef943c8ce53087d099af50631393f8b15))
+- **deps:** update all non-major dependencies ([bec0d49](https://github.com/ethberry/nestjs-packages/commit/bec0d49f011cf2f3a447bd0abcc239f330162f57))
+
+## [1.1.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.1.3...@ethberry/collection@1.1.4) (2022-01-14)
+
+**Note:** Version bump only for package @ethberry/collection
+
+## [1.1.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.1.2...@ethberry/collection@1.1.3) (2022-01-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([71b9494](https://github.com/ethberry/nestjs-packages/commit/71b9494ef943c8ce53087d099af50631393f8b15))
 
 ## 1.1.2 (2022-01-08)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([159ed48](https://github.com/gemunion/nestjs-packages/commit/159ed486815403ddfadd98a05ce51b6f0eadffed))
+- **deps:** update all non-major dependencies ([159ed48](https://github.com/ethberry/nestjs-packages/commit/159ed486815403ddfadd98a05ce51b6f0eadffed))
 
 ## 1.1.1 (2021-12-25)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/constants to v0.4.0 ([5a49214](https://github.com/gemunion/nestjs-packages/commit/5a492143c954dee6c1b22621293fb937b364fe43))
+- **deps:** update dependency @ethberry/constants to v0.4.0 ([5a49214](https://github.com/ethberry/nestjs-packages/commit/5a492143c954dee6c1b22621293fb937b364fe43))
 
-# [1.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.24...@gemunion/collection@1.1.0) (2021-12-20)
+# [1.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.24...@ethberry/collection@1.1.0) (2021-12-20)
 
 ### Features
 
-- remove custom validators ([7531e5d](https://github.com/gemunion/nestjs-packages/commit/7531e5d21ec261507460eaee51ba6ec93e7f2f59))
+- remove custom validators ([7531e5d](https://github.com/ethberry/nestjs-packages/commit/7531e5d21ec261507460eaee51ba6ec93e7f2f59))
 
-## [1.0.24](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.23...@gemunion/collection@1.0.24) (2021-12-19)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([e354c52](https://github.com/gemunion/nestjs-packages/commit/e354c52df8d33b4330c39bbb25fd8d557536f628))
-
-## [1.0.23](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.22...@gemunion/collection@1.0.23) (2021-12-16)
+## [1.0.24](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.23...@ethberry/collection@1.0.24) (2021-12-19)
 
 ### Bug Fixes
 
-- manual update version ([81d87d9](https://github.com/gemunion/nestjs-packages/commit/81d87d9ed73c0224058d10c770628b6eec64927a))
+- **deps:** update all non-major dependencies ([e354c52](https://github.com/ethberry/nestjs-packages/commit/e354c52df8d33b4330c39bbb25fd8d557536f628))
 
-## [1.0.22](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.21...@gemunion/collection@1.0.22) (2021-11-26)
+## [1.0.23](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.22...@ethberry/collection@1.0.23) (2021-12-16)
 
-**Note:** Version bump only for package @gemunion/collection
+### Bug Fixes
+
+- manual update version ([81d87d9](https://github.com/ethberry/nestjs-packages/commit/81d87d9ed73c0224058d10c770628b6eec64927a))
+
+## [1.0.22](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.21...@ethberry/collection@1.0.22) (2021-11-26)
+
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.0.21 (2021-11-20)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.0.20 (2021-10-22)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([c756a11](https://github.com/gemunion/nestjs-packages/commit/c756a11df0d867f2918063ef0122e00a22ef5b3a))
+- **deps:** update all non-major dependencies ([c756a11](https://github.com/ethberry/nestjs-packages/commit/c756a11df0d867f2918063ef0122e00a22ef5b3a))
 
-## [1.0.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.18...@gemunion/collection@1.0.19) (2021-10-09)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([#42](https://github.com/gemunion/nestjs-packages/issues/42)) ([246e0ca](https://github.com/gemunion/nestjs-packages/commit/246e0ca0a25d01b10638338209434e1ff9a19c2d))
-
-## [1.0.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.17...@gemunion/collection@1.0.18) (2021-10-09)
+## [1.0.19](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.18...@ethberry/collection@1.0.19) (2021-10-09)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#41](https://github.com/gemunion/nestjs-packages/issues/41)) ([6867fbe](https://github.com/gemunion/nestjs-packages/commit/6867fbef4f590bfda38c97d41d367a0b5293085e))
+- **deps:** update all non-major dependencies ([#42](https://github.com/ethberry/nestjs-packages/issues/42)) ([246e0ca](https://github.com/ethberry/nestjs-packages/commit/246e0ca0a25d01b10638338209434e1ff9a19c2d))
 
-## [1.0.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.16...@gemunion/collection@1.0.17) (2021-10-09)
-
-**Note:** Version bump only for package @gemunion/collection
-
-## [1.0.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.15...@gemunion/collection@1.0.16) (2021-10-03)
+## [1.0.18](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.17...@ethberry/collection@1.0.18) (2021-10-09)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#39](https://github.com/gemunion/nestjs-packages/issues/39)) ([1dc0916](https://github.com/gemunion/nestjs-packages/commit/1dc09168972398a8eee45ef0ac0f9e389692a23c))
+- **deps:** update all non-major dependencies ([#41](https://github.com/ethberry/nestjs-packages/issues/41)) ([6867fbe](https://github.com/ethberry/nestjs-packages/commit/6867fbef4f590bfda38c97d41d367a0b5293085e))
 
-## [1.0.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.14...@gemunion/collection@1.0.15) (2021-10-02)
+## [1.0.17](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.16...@ethberry/collection@1.0.17) (2021-10-09)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [1.0.14](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.12...@gemunion/collection@1.0.14) (2021-09-21)
+## [1.0.16](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.15...@ethberry/collection@1.0.16) (2021-10-03)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([e6cfde4](https://github.com/gemunion/nestjs-packages/commit/e6cfde42a0b9076f70319cdb3a00065f8f2babcc))
+- **deps:** update all non-major dependencies ([#39](https://github.com/ethberry/nestjs-packages/issues/39)) ([1dc0916](https://github.com/ethberry/nestjs-packages/commit/1dc09168972398a8eee45ef0ac0f9e389692a23c))
 
-## [1.0.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.11...@gemunion/collection@1.0.12) (2021-08-29)
+## [1.0.15](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.14...@ethberry/collection@1.0.15) (2021-10-02)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
+
+## [1.0.14](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.12...@ethberry/collection@1.0.14) (2021-09-21)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([e6cfde4](https://github.com/ethberry/nestjs-packages/commit/e6cfde42a0b9076f70319cdb3a00065f8f2babcc))
+
+## [1.0.12](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.11...@ethberry/collection@1.0.12) (2021-08-29)
+
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.0.11 (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.0.10 (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [1.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.8...@gemunion/collection@1.0.9) (2021-08-16)
+## [1.0.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.8...@ethberry/collection@1.0.9) (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.0.8 (2021-08-13)
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
-- path ([a7dd5c8](https://github.com/gemunion/nestjs-packages/commit/a7dd5c834ab4c3fe052b20fa0cd76fd6036ee748))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- path ([a7dd5c8](https://github.com/ethberry/nestjs-packages/commit/a7dd5c834ab4c3fe052b20fa0cd76fd6036ee748))
 
-## [1.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.6...@gemunion/collection@1.0.7) (2021-08-07)
+## [1.0.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.6...@ethberry/collection@1.0.7) (2021-08-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 1.0.6 (2021-08-07)
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
-- path ([a7dd5c8](https://github.com/gemunion/nestjs-packages/commit/a7dd5c834ab4c3fe052b20fa0cd76fd6036ee748))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- path ([a7dd5c8](https://github.com/ethberry/nestjs-packages/commit/a7dd5c834ab4c3fe052b20fa0cd76fd6036ee748))
 
-## [1.0.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.4...@gemunion/collection@1.0.5) (2021-08-06)
+## [1.0.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.4...@ethberry/collection@1.0.5) (2021-08-06)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [1.0.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.3...@gemunion/collection@1.0.4) (2021-07-23)
+## [1.0.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.3...@ethberry/collection@1.0.4) (2021-07-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [1.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.2...@gemunion/collection@1.0.3) (2021-07-22)
+## [1.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.2...@ethberry/collection@1.0.3) (2021-07-22)
 
 ### Bug Fixes
 
-- path ([a7dd5c8](https://github.com/gemunion/nestjs-packages/commit/a7dd5c834ab4c3fe052b20fa0cd76fd6036ee748))
+- path ([a7dd5c8](https://github.com/ethberry/nestjs-packages/commit/a7dd5c834ab4c3fe052b20fa0cd76fd6036ee748))
 
-## [1.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@1.0.1...@gemunion/collection@1.0.2) (2021-07-22)
+## [1.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@1.0.1...@ethberry/collection@1.0.2) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [1.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.1.9...@gemunion/collection@1.0.1) (2021-07-22)
+## [1.0.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.1.9...@ethberry/collection@1.0.1) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.1.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.1.8...@gemunion/collection@0.1.9) (2021-07-22)
+## [0.1.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.1.8...@ethberry/collection@0.1.9) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.1.8 (2021-07-13)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.1.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.1.6...@gemunion/collection@0.1.7) (2021-07-10)
+## [0.1.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.1.6...@ethberry/collection@0.1.7) (2021-07-10)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.1.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.1.5...@gemunion/collection@0.1.6) (2021-07-08)
+## [0.1.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.1.5...@ethberry/collection@0.1.6) (2021-07-08)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.1.5 (2021-07-02)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.1.4 (2021-06-24)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.1.2...@gemunion/collection@0.1.3) (2021-06-19)
+## [0.1.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.1.2...@ethberry/collection@0.1.3) (2021-06-19)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-# [0.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.0.296...@gemunion/collection@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.0.296...@ethberry/collection@0.1.0) (2021-06-09)
 
 ### Features
 
-- use fetchJson ([fc3d86e](https://github.com/gemunion/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+- use fetchJson ([fc3d86e](https://github.com/ethberry/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 ## 0.0.296 (2021-06-01)
 
 ### Features
 
-- send app name to logDna ([df3476a](https://github.com/gemunion/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+- send app name to logDna ([df3476a](https://github.com/ethberry/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 ## 0.0.295 (2021-05-31)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.294 (2021-05-23)
 
 ### Bug Fixes
 
-- typeOrm config logging ([7734340](https://github.com/gemunion/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+- typeOrm config logging ([7734340](https://github.com/ethberry/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 ## 0.0.293 (2021-05-14)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.292 (2021-05-08)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/nestjs-packages/issues/48)) ([1854092](https://github.com/gemunion/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+- **deps:** update all non-major dependencies ([#48](https://github.com/ethberry/nestjs-packages/issues/48)) ([1854092](https://github.com/ethberry/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
-## [0.0.291](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.0.290...@gemunion/collection@0.0.291) (2021-05-07)
+## [0.0.291](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.0.290...@ethberry/collection@0.0.291) (2021-05-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.0.290](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.0.289...@gemunion/collection@0.0.290) (2021-05-07)
+## [0.0.290](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.0.289...@ethberry/collection@0.0.290) (2021-05-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.0.289](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.0.288...@gemunion/collection@0.0.289) (2021-05-07)
+## [0.0.289](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.0.288...@ethberry/collection@0.0.289) (2021-05-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.288 (2021-05-06)
 
 ### Bug Fixes
 
-- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/nestjs-packages/issues/47)) ([06b9b84](https://github.com/gemunion/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/ethberry/nestjs-packages/issues/47)) ([06b9b84](https://github.com/ethberry/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 ## 0.0.287 (2021-05-06)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.286 (2021-04-30)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.285 (2021-04-27)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.284 (2021-04-27)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.283 (2021-04-19)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.282 (2021-04-18)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.281 (2021-04-15)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.280 (2021-04-15)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.279 (2021-04-14)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.0.278](https://github.com/gemunion/nestjs-packages/compare/@gemunion/collection@0.0.277...@gemunion/collection@0.0.278) (2021-03-29)
+## [0.0.278](https://github.com/ethberry/nestjs-packages/compare/@ethberry/collection@0.0.277...@ethberry/collection@0.0.278) (2021-03-29)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.277 (2021-03-29)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.276 (2021-03-28)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.275 (2021-03-27)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.0.274](https://github.com/memoryos/common/compare/@gemunion/collection@0.0.273...@gemunion/collection@0.0.274) (2021-03-26)
+## [0.0.274](https://github.com/memoryos/common/compare/@ethberry/collection@0.0.273...@ethberry/collection@0.0.274) (2021-03-26)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.273 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.272 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.271 (2021-03-24)
 
@@ -875,7 +875,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.194 ([f85a448](https://github.com/memoryos/common/commit/f85a44878e2964cc0d4e7f5137f5f16566767570))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.194 ([f85a448](https://github.com/memoryos/common/commit/f85a44878e2964cc0d4e7f5137f5f16566767570))
 
 ## 0.0.269 (2021-03-23)
 
@@ -891,13 +891,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.267 (2021-03-22)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.266 (2021-03-22)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.191 ([1d50cec](https://github.com/memoryos/common/commit/1d50cec0d1d0b67da40a3d41c0c0b216de098142))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.191 ([1d50cec](https://github.com/memoryos/common/commit/1d50cec0d1d0b67da40a3d41c0c0b216de098142))
 
 ## 0.0.265 (2021-03-19)
 
@@ -957,11 +957,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.182 ([b573262](https://github.com/memoryos/common/commit/b5732627e9184dcd848ecf05d7bed9a823398cda))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.182 ([b573262](https://github.com/memoryos/common/commit/b5732627e9184dcd848ecf05d7bed9a823398cda))
 
 ## 0.0.255 (2021-03-15)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.254 (2021-03-13)
 
@@ -973,13 +973,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.179 ([58d9f3d](https://github.com/memoryos/common/commit/58d9f3d8db6469242c0664e3e13d895699fc47d6))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.179 ([58d9f3d](https://github.com/memoryos/common/commit/58d9f3d8db6469242c0664e3e13d895699fc47d6))
 
 ## 0.0.252 (2021-03-11)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.178 ([9b9ef43](https://github.com/memoryos/common/commit/9b9ef43f2023d5cc9e1ad3afc20e1daefd203493))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.178 ([9b9ef43](https://github.com/memoryos/common/commit/9b9ef43f2023d5cc9e1ad3afc20e1daefd203493))
 
 ## 0.0.251 (2021-03-11)
 
@@ -991,7 +991,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.177 ([42ba0bb](https://github.com/memoryos/common/commit/42ba0bbc3d7922479adcfa337da7b1373d6c7f65))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.177 ([42ba0bb](https://github.com/memoryos/common/commit/42ba0bbc3d7922479adcfa337da7b1373d6c7f65))
 
 ## 0.0.249 (2021-03-10)
 
@@ -1003,27 +1003,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.175 ([d457fc0](https://github.com/memoryos/common/commit/d457fc0e59b6e2959f0c5df46ee11b8c2a130458))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.175 ([d457fc0](https://github.com/memoryos/common/commit/d457fc0e59b6e2959f0c5df46ee11b8c2a130458))
 
 ## 0.0.247 (2021-03-09)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.246 (2021-03-08)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.245 (2021-03-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.244 (2021-03-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.243 (2021-03-06)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.242 (2021-03-05)
 
@@ -1033,43 +1033,43 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.241 (2021-03-05)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.240 (2021-03-05)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.239 (2021-03-05)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.238 (2021-03-04)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.237 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.236 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.235 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.234 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.233 (2021-03-01)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.232 (2021-03-01)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.231 (2021-03-01)
 
@@ -1093,11 +1093,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.163 ([9d18a9f](https://github.com/memoryos/common/commit/9d18a9f65a0f966c2fe70ccb098bb85dd1cc0f3e))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.163 ([9d18a9f](https://github.com/memoryos/common/commit/9d18a9f65a0f966c2fe70ccb098bb85dd1cc0f3e))
 
 ## 0.0.227 (2021-02-26)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.226 (2021-02-25)
 
@@ -1119,33 +1119,33 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.223 (2021-02-25)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.222 (2021-02-25)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.221 (2021-02-25)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.220 (2021-02-24)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.158 ([1003fc6](https://github.com/memoryos/common/commit/1003fc6a4ab08afbd545cb50d7e42231f161e249))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.158 ([1003fc6](https://github.com/memoryos/common/commit/1003fc6a4ab08afbd545cb50d7e42231f161e249))
 
 ## 0.0.219 (2021-02-24)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.218 (2021-02-24)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.217 (2021-02-24)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.216 (2021-02-23)
 
@@ -1161,7 +1161,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.214 (2021-02-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.213 (2021-02-23)
 
@@ -1171,19 +1171,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.212 (2021-02-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.211 (2021-02-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.210 (2021-02-22)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.209 (2021-02-22)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.208 (2021-02-21)
 
@@ -1207,7 +1207,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.152 ([e08a245](https://github.com/memoryos/common/commit/e08a245f2f150a904eeda5fe761834c271370b0c))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.152 ([e08a245](https://github.com/memoryos/common/commit/e08a245f2f150a904eeda5fe761834c271370b0c))
 
 ## 0.0.204 (2021-02-19)
 
@@ -1217,13 +1217,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.203 (2021-02-19)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.202 (2021-02-18)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.149 ([2af678d](https://github.com/memoryos/common/commit/2af678d9023aaff23e3f0370ef4470f7f6971beb))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.149 ([2af678d](https://github.com/memoryos/common/commit/2af678d9023aaff23e3f0370ef4470f7f6971beb))
 
 ## 0.0.201 (2021-02-17)
 
@@ -1245,29 +1245,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.198 (2021-02-17)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.197 (2021-02-17)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.146 ([d0f9c4e](https://github.com/memoryos/common/commit/d0f9c4e02048ff422930124789a8083d685c022d))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.146 ([d0f9c4e](https://github.com/memoryos/common/commit/d0f9c4e02048ff422930124789a8083d685c022d))
 
 ## 0.0.196 (2021-02-16)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.195 (2021-02-16)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.194 (2021-02-16)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.193 (2021-02-15)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.192 (2021-02-14)
 
@@ -1283,7 +1283,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.190 (2021-02-13)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.189 (2021-02-13)
 
@@ -1295,7 +1295,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.142 ([d2045d6](https://github.com/memoryos/common/commit/d2045d6ef8187f8878d5d50ed9b743c9cdec605c))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.142 ([d2045d6](https://github.com/memoryos/common/commit/d2045d6ef8187f8878d5d50ed9b743c9cdec605c))
 
 ## 0.0.187 (2021-02-12)
 
@@ -1305,7 +1305,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.186 (2021-02-12)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.185 (2021-02-12)
 
@@ -1315,11 +1315,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.184 (2021-02-11)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.183 (2021-02-09)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.182 (2021-02-08)
 
@@ -1331,7 +1331,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.135 ([3e7a587](https://github.com/memoryos/common/commit/3e7a587723c49930b7f6b73cfff66b3ad68a1893))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.135 ([3e7a587](https://github.com/memoryos/common/commit/3e7a587723c49930b7f6b73cfff66b3ad68a1893))
 
 ## 0.0.180 (2021-02-05)
 
@@ -1341,13 +1341,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.179 (2021-02-05)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.178 (2021-02-04)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.133 ([43088ee](https://github.com/memoryos/common/commit/43088ee451fe3b86364f9c1017768494acc0d37d))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.133 ([43088ee](https://github.com/memoryos/common/commit/43088ee451fe3b86364f9c1017768494acc0d37d))
 
 ## 0.0.177 (2021-02-04)
 
@@ -1369,11 +1369,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.174 (2021-02-04)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.173 (2021-02-04)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.172 (2021-02-03)
 
@@ -1383,15 +1383,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.171 (2021-02-03)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.170 (2021-02-03)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.169 (2021-02-02)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.168 (2021-02-02)
 
@@ -1401,7 +1401,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.167 (2021-02-02)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.166 (2021-02-01)
 
@@ -1411,7 +1411,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.165 (2021-01-31)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.164 (2021-01-31)
 
@@ -1441,19 +1441,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.121 ([87f20e1](https://github.com/memoryos/common/commit/87f20e1a966e8f2cd7baec2d8fbb964be4a3d884))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.121 ([87f20e1](https://github.com/memoryos/common/commit/87f20e1a966e8f2cd7baec2d8fbb964be4a3d884))
 
 ## 0.0.159 (2021-01-27)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.120 ([f80dba9](https://github.com/memoryos/common/commit/f80dba94dddc08494688f6a870d90cd74d31492f))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.120 ([f80dba9](https://github.com/memoryos/common/commit/f80dba94dddc08494688f6a870d90cd74d31492f))
 
 ## 0.0.158 (2021-01-27)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.119 ([6826624](https://github.com/memoryos/common/commit/6826624082c428aed9d86d72fc4899b42d755d16))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.119 ([6826624](https://github.com/memoryos/common/commit/6826624082c428aed9d86d72fc4899b42d755d16))
 
 ## 0.0.157 (2021-01-27)
 
@@ -1513,7 +1513,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.114 ([10dfb7a](https://github.com/memoryos/common/commit/10dfb7ae958f3e0bbb95644ef9cea1bdb1b08165))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.114 ([10dfb7a](https://github.com/memoryos/common/commit/10dfb7ae958f3e0bbb95644ef9cea1bdb1b08165))
 
 ## 0.0.147 (2021-01-22)
 
@@ -1525,13 +1525,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.112 ([7a671e8](https://github.com/memoryos/common/commit/7a671e84fe642d51165c775e5a1016a99c00a0f9))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.112 ([7a671e8](https://github.com/memoryos/common/commit/7a671e84fe642d51165c775e5a1016a99c00a0f9))
 
 ## 0.0.145 (2021-01-21)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.111 ([193aa8e](https://github.com/memoryos/common/commit/193aa8e4140d1c7f8d341ab4941ad5e40eac30c9))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.111 ([193aa8e](https://github.com/memoryos/common/commit/193aa8e4140d1c7f8d341ab4941ad5e40eac30c9))
 
 ## 0.0.144 (2021-01-21)
 
@@ -1543,13 +1543,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.110 ([e8ef53a](https://github.com/memoryos/common/commit/e8ef53aeb283c73707f52796abdda152eeb38e87))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.110 ([e8ef53a](https://github.com/memoryos/common/commit/e8ef53aeb283c73707f52796abdda152eeb38e87))
 
 ## 0.0.142 (2021-01-15)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.109 ([76612aa](https://github.com/memoryos/common/commit/76612aafdc440626ff4fec84f71f31c27e4f6267))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.109 ([76612aa](https://github.com/memoryos/common/commit/76612aafdc440626ff4fec84f71f31c27e4f6267))
 
 ## 0.0.141 (2021-01-15)
 
@@ -1591,7 +1591,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.105 ([a89eb46](https://github.com/memoryos/common/commit/a89eb46abceab7e51d76cb413a8bc9af0592ade3))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.105 ([a89eb46](https://github.com/memoryos/common/commit/a89eb46abceab7e51d76cb413a8bc9af0592ade3))
 
 ## 0.0.134 (2021-01-13)
 
@@ -1609,19 +1609,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.103 ([b624be4](https://github.com/memoryos/common/commit/b624be427e2e1c05521df542ca54b995809d2a96))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.103 ([b624be4](https://github.com/memoryos/common/commit/b624be427e2e1c05521df542ca54b995809d2a96))
 
 ## 0.0.131 (2021-01-12)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.102 ([6472602](https://github.com/memoryos/common/commit/6472602c3312bad60208ccd2f4f2464d8edfbecb))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.102 ([6472602](https://github.com/memoryos/common/commit/6472602c3312bad60208ccd2f4f2464d8edfbecb))
 
 ## 0.0.130 (2021-01-12)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.101 ([f266670](https://github.com/memoryos/common/commit/f26667071b64b38870c2fe90da89442dd2cf0c23))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.101 ([f266670](https://github.com/memoryos/common/commit/f26667071b64b38870c2fe90da89442dd2cf0c23))
 
 ## 0.0.129 (2021-01-12)
 
@@ -1669,29 +1669,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.96 ([4a6146d](https://github.com/memoryos/common/commit/4a6146d27a323fded8ecc6213c777ea10d247ab2))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.96 ([4a6146d](https://github.com/memoryos/common/commit/4a6146d27a323fded8ecc6213c777ea10d247ab2))
 
 ## 0.0.121 (2021-01-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.120 (2021-01-07)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/provider-user to v0.0.46 ([3b087a6](https://github.com/memoryos/common/commit/3b087a6317f90f9d0cb04a246d9af68497218f26))
+- **deps:** update dependency @ethberry/provider-user to v0.0.46 ([3b087a6](https://github.com/memoryos/common/commit/3b087a6317f90f9d0cb04a246d9af68497218f26))
 
 ## 0.0.119 (2021-01-06)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.95 ([c1cb203](https://github.com/memoryos/common/commit/c1cb2033747c1e89f9537832dfca6886c3a51199))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.95 ([c1cb203](https://github.com/memoryos/common/commit/c1cb2033747c1e89f9537832dfca6886c3a51199))
 
 ## 0.0.118 (2021-01-06)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/provider-api to v0.0.3 ([462917c](https://github.com/memoryos/common/commit/462917c0aa4067bc0bfb7fd8044aead3a3f91535))
+- **deps:** update dependency @ethberry/provider-api to v0.0.3 ([462917c](https://github.com/memoryos/common/commit/462917c0aa4067bc0bfb7fd8044aead3a3f91535))
 
 ## 0.0.117 (2021-01-06)
 
@@ -1709,7 +1709,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.93 ([b5ee8be](https://github.com/memoryos/common/commit/b5ee8be640a0a16ba52abded86520bb5e7b38736))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.93 ([b5ee8be](https://github.com/memoryos/common/commit/b5ee8be640a0a16ba52abded86520bb5e7b38736))
 
 ## 0.0.114 (2021-01-05)
 
@@ -1727,23 +1727,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.91 ([dd423f9](https://github.com/memoryos/common/commit/dd423f93c17bd0d59022ea10ffd04ea37c0eaa8b))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.91 ([dd423f9](https://github.com/memoryos/common/commit/dd423f93c17bd0d59022ea10ffd04ea37c0eaa8b))
 
 ## 0.0.111 (2021-01-03)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.110 (2021-01-03)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.109 (2021-01-03)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.108 (2021-01-03)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.107 (2021-01-01)
 
@@ -1755,31 +1755,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.89 ([9cc77cd](https://github.com/memoryos/common/commit/9cc77cd1ac8f54d7a68767b4feb723f984896d92))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.89 ([9cc77cd](https://github.com/memoryos/common/commit/9cc77cd1ac8f54d7a68767b4feb723f984896d92))
 
 ## 0.0.105 (2020-12-30)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.88 ([d0b5084](https://github.com/memoryos/common/commit/d0b5084779b0b2ad171dbfc145658f1490c27fd5))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.88 ([d0b5084](https://github.com/memoryos/common/commit/d0b5084779b0b2ad171dbfc145658f1490c27fd5))
 
 ## 0.0.104 (2020-12-29)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.87 ([c6d0af1](https://github.com/memoryos/common/commit/c6d0af18c67846ae93ff18d43bbe76af881fc955))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.87 ([c6d0af1](https://github.com/memoryos/common/commit/c6d0af18c67846ae93ff18d43bbe76af881fc955))
 
 ## 0.0.103 (2020-12-29)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.86 ([6483648](https://github.com/memoryos/common/commit/6483648e7b53187b304959d7d7624b7280a15dec))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.86 ([6483648](https://github.com/memoryos/common/commit/6483648e7b53187b304959d7d7624b7280a15dec))
 
 ## 0.0.102 (2020-12-28)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.85 ([5ae66a9](https://github.com/memoryos/common/commit/5ae66a95859f9ffc12536ba091dc870c35a4c0c9))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.85 ([5ae66a9](https://github.com/memoryos/common/commit/5ae66a95859f9ffc12536ba091dc870c35a4c0c9))
 
 ## 0.0.101 (2020-12-28)
 
@@ -1809,19 +1809,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.83 ([7940245](https://github.com/memoryos/common/commit/7940245357d2c6e1606158d0fa532490393e8dd8))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.83 ([7940245](https://github.com/memoryos/common/commit/7940245357d2c6e1606158d0fa532490393e8dd8))
 
 ## 0.0.96 (2020-12-21)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.82 ([bba0bb6](https://github.com/memoryos/common/commit/bba0bb65a156ffee7767f22afe73fb7eaf9f0ac9))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.82 ([bba0bb6](https://github.com/memoryos/common/commit/bba0bb65a156ffee7767f22afe73fb7eaf9f0ac9))
 
 ## 0.0.95 (2020-12-18)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.81 ([39fd115](https://github.com/memoryos/common/commit/39fd115107cd8a98ea0d0f999c13ecc8f49afdbe))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.81 ([39fd115](https://github.com/memoryos/common/commit/39fd115107cd8a98ea0d0f999c13ecc8f49afdbe))
 
 ## 0.0.94 (2020-12-18)
 
@@ -1851,7 +1851,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.77 ([1b4db45](https://github.com/memoryos/common/commit/1b4db459e43116b00c8206f6512fcb8acd2bf142))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.77 ([1b4db45](https://github.com/memoryos/common/commit/1b4db459e43116b00c8206f6512fcb8acd2bf142))
 
 ## 0.0.89 (2020-12-17)
 
@@ -1875,7 +1875,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.72 ([4dfdd15](https://github.com/memoryos/common/commit/4dfdd158b1264f6b396572a7859b050f5d837db3))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.72 ([4dfdd15](https://github.com/memoryos/common/commit/4dfdd158b1264f6b396572a7859b050f5d837db3))
 
 ## 0.0.85 (2020-12-16)
 
@@ -1899,13 +1899,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.68 ([2019f10](https://github.com/memoryos/common/commit/2019f10670fd7216dfbcb3f51195610eb1fca8aa))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.68 ([2019f10](https://github.com/memoryos/common/commit/2019f10670fd7216dfbcb3f51195610eb1fca8aa))
 
 ## 0.0.81 (2020-12-14)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.67 ([cbb8f54](https://github.com/memoryos/common/commit/cbb8f54e2d2d11fe55dc76ce3ee941fb28d730d6))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.67 ([cbb8f54](https://github.com/memoryos/common/commit/cbb8f54e2d2d11fe55dc76ce3ee941fb28d730d6))
 
 ## 0.0.80 (2020-12-14)
 
@@ -1923,7 +1923,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.66 ([a5e84e7](https://github.com/memoryos/common/commit/a5e84e77d8bf710a385ce4c7b63636a476b64a5e))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.66 ([a5e84e7](https://github.com/memoryos/common/commit/a5e84e77d8bf710a385ce4c7b63636a476b64a5e))
 
 ## 0.0.77 (2020-12-11)
 
@@ -1959,25 +1959,25 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.63 ([e44e218](https://github.com/memoryos/common/commit/e44e218a0282d4c0edb634c34a8e9028b6b75bbc))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.63 ([e44e218](https://github.com/memoryos/common/commit/e44e218a0282d4c0edb634c34a8e9028b6b75bbc))
 
 ## 0.0.71 (2020-12-10)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.62 ([ee432ac](https://github.com/memoryos/common/commit/ee432ac000407fe8ca7314b828737b830f4cbe32))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.62 ([ee432ac](https://github.com/memoryos/common/commit/ee432ac000407fe8ca7314b828737b830f4cbe32))
 
 ## 0.0.70 (2020-12-09)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.61 ([aa26cf9](https://github.com/memoryos/common/commit/aa26cf9c1265834fabc1a776a7a880ac0b25e2c9))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.61 ([aa26cf9](https://github.com/memoryos/common/commit/aa26cf9c1265834fabc1a776a7a880ac0b25e2c9))
 
 ## 0.0.69 (2020-12-09)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.60 ([982b3d1](https://github.com/memoryos/common/commit/982b3d1517c1245497df35b303f95dce8fccee0d))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.60 ([982b3d1](https://github.com/memoryos/common/commit/982b3d1517c1245497df35b303f95dce8fccee0d))
 
 ## 0.0.68 (2020-12-08)
 
@@ -1999,7 +1999,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.65 (2020-12-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.64 (2020-12-07)
 
@@ -2017,7 +2017,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.55 ([6b3f827](https://github.com/memoryos/common/commit/6b3f827bd040db1dc106684dbf4e3316645bd10c))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.55 ([6b3f827](https://github.com/memoryos/common/commit/6b3f827bd040db1dc106684dbf4e3316645bd10c))
 
 ## 0.0.61 (2020-12-04)
 
@@ -2027,9 +2027,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.60 (2020-12-04)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.0.59](https://github.com/memoryos/common/compare/@gemunion/collection@0.0.58...@gemunion/collection@0.0.59) (2020-12-04)
+## [0.0.59](https://github.com/memoryos/common/compare/@ethberry/collection@0.0.58...@ethberry/collection@0.0.59) (2020-12-04)
 
 ### Bug Fixes
 
@@ -2045,13 +2045,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.52 ([537123c](https://github.com/memoryos/common/commit/537123c8e37f70a200e4ea9555f640ea23863666))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.52 ([537123c](https://github.com/memoryos/common/commit/537123c8e37f70a200e4ea9555f640ea23863666))
 
 ## 0.0.56 (2020-12-02)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.51 ([5237d3e](https://github.com/memoryos/common/commit/5237d3e4e6da6fd7700e2fb5dcb4131fe7588986))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.51 ([5237d3e](https://github.com/memoryos/common/commit/5237d3e4e6da6fd7700e2fb5dcb4131fe7588986))
 
 ## 0.0.55 (2020-12-01)
 
@@ -2105,7 +2105,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.47 ([ac29e3a](https://github.com/memoryos/common/commit/ac29e3a011534a5bad9672b5f5d0c25d718d1629))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.47 ([ac29e3a](https://github.com/memoryos/common/commit/ac29e3a011534a5bad9672b5f5d0c25d718d1629))
 
 ## 0.0.46 (2020-11-24)
 
@@ -2115,29 +2115,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.45 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.44 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.43 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.42 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.41 (2020-11-23)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.44 ([d5e0102](https://github.com/memoryos/common/commit/d5e01024508546478109e74305a9f5e946811248))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.44 ([d5e0102](https://github.com/memoryos/common/commit/d5e01024508546478109e74305a9f5e946811248))
 
 ## 0.0.40 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
 ## 0.0.39 (2020-11-22)
 
@@ -2149,214 +2149,214 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.41 ([6617a29](https://github.com/memoryos/common/commit/6617a29887946b7f958eabe7831b592e86cff112))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.41 ([6617a29](https://github.com/memoryos/common/commit/6617a29887946b7f958eabe7831b592e86cff112))
 
-## [0.0.37](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.36...@gemunion/collection@0.0.37) (2020-11-20)
-
-### Bug Fixes
-
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.40 ([4a7e917](https://github.com/memoryos/misc/commit/4a7e917c5b96e29ff6118399930eac3b2f89ff85))
-
-## [0.0.36](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.35...@gemunion/collection@0.0.36) (2020-11-19)
+## [0.0.37](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.36...@ethberry/collection@0.0.37) (2020-11-20)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.39 ([8e88a9b](https://github.com/memoryos/misc/commit/8e88a9bae2cd82d033079ddec5891588ac83f64f))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.40 ([4a7e917](https://github.com/memoryos/misc/commit/4a7e917c5b96e29ff6118399930eac3b2f89ff85))
 
-## [0.0.35](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.34...@gemunion/collection@0.0.35) (2020-11-19)
-
-### Bug Fixes
-
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.37 ([61e466f](https://github.com/memoryos/misc/commit/61e466fd1413d7930d2eb261970d741fe300a66f))
-
-## [0.0.34](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.33...@gemunion/collection@0.0.34) (2020-11-18)
+## [0.0.36](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.35...@ethberry/collection@0.0.36) (2020-11-19)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.35 ([07dfa7b](https://github.com/memoryos/misc/commit/07dfa7ba8028494cf31eb746b883bd0d7e5d5d86))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.39 ([8e88a9b](https://github.com/memoryos/misc/commit/8e88a9bae2cd82d033079ddec5891588ac83f64f))
 
-## [0.0.33](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.32...@gemunion/collection@0.0.33) (2020-11-18)
-
-### Bug Fixes
-
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.34 ([b6a489f](https://github.com/memoryos/misc/commit/b6a489f55168af4a8ccf3521c997bfc39a23b04a))
-
-## [0.0.32](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.31...@gemunion/collection@0.0.32) (2020-11-17)
+## [0.0.35](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.34...@ethberry/collection@0.0.35) (2020-11-19)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.33 ([8f00de9](https://github.com/memoryos/misc/commit/8f00de959adedaba74020fb18e6cce86e912ee72))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.37 ([61e466f](https://github.com/memoryos/misc/commit/61e466fd1413d7930d2eb261970d741fe300a66f))
 
-## [0.0.31](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.30...@gemunion/collection@0.0.31) (2020-11-17)
+## [0.0.34](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.33...@ethberry/collection@0.0.34) (2020-11-18)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.32 ([6afca13](https://github.com/memoryos/misc/commit/6afca13a774d952c89c7eb568f2a9575a0e18e74))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.35 ([07dfa7b](https://github.com/memoryos/misc/commit/07dfa7ba8028494cf31eb746b883bd0d7e5d5d86))
 
-## [0.0.30](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.29...@gemunion/collection@0.0.30) (2020-11-17)
+## [0.0.33](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.32...@ethberry/collection@0.0.33) (2020-11-18)
+
+### Bug Fixes
+
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.34 ([b6a489f](https://github.com/memoryos/misc/commit/b6a489f55168af4a8ccf3521c997bfc39a23b04a))
+
+## [0.0.32](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.31...@ethberry/collection@0.0.32) (2020-11-17)
+
+### Bug Fixes
+
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.33 ([8f00de9](https://github.com/memoryos/misc/commit/8f00de959adedaba74020fb18e6cce86e912ee72))
+
+## [0.0.31](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.30...@ethberry/collection@0.0.31) (2020-11-17)
+
+### Bug Fixes
+
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.32 ([6afca13](https://github.com/memoryos/misc/commit/6afca13a774d952c89c7eb568f2a9575a0e18e74))
+
+## [0.0.30](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.29...@ethberry/collection@0.0.30) (2020-11-17)
 
 ### Bug Fixes
 
 - **deps:** update dependency @nestjs/swagger to v4.7.5 ([7c3e8d1](https://github.com/memoryos/misc/commit/7c3e8d1e52439d0a7baa8ffe6a0e1fc667950306))
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.31 ([a734dab](https://github.com/memoryos/misc/commit/a734dabfdf3b10faed47331327d5eae6d496f106))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.31 ([a734dab](https://github.com/memoryos/misc/commit/a734dabfdf3b10faed47331327d5eae6d496f106))
 
-## [0.0.29](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.28...@gemunion/collection@0.0.29) (2020-11-16)
-
-### Bug Fixes
-
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.30 ([460b4bf](https://github.com/memoryos/misc/commit/460b4bfd6b24f601fc5a100e1580b9beb2ff56e0))
-
-## [0.0.28](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.27...@gemunion/collection@0.0.28) (2020-11-16)
+## [0.0.29](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.28...@ethberry/collection@0.0.29) (2020-11-16)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.29 ([5dff5f4](https://github.com/memoryos/misc/commit/5dff5f47829153b233cda8e20810bf92318e53c9))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.30 ([460b4bf](https://github.com/memoryos/misc/commit/460b4bfd6b24f601fc5a100e1580b9beb2ff56e0))
 
-## [0.0.27](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.26...@gemunion/collection@0.0.27) (2020-11-16)
+## [0.0.28](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.27...@ethberry/collection@0.0.28) (2020-11-16)
+
+### Bug Fixes
+
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.29 ([5dff5f4](https://github.com/memoryos/misc/commit/5dff5f47829153b233cda8e20810bf92318e53c9))
+
+## [0.0.27](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.26...@ethberry/collection@0.0.27) (2020-11-16)
 
 ### Bug Fixes
 
 - **deps:** update all non-major dependencies ([0e0880d](https://github.com/memoryos/misc/commit/0e0880d0401a131a2804d208a477cad548974fad))
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.28 ([277871f](https://github.com/memoryos/misc/commit/277871f54aba1b0f75138b2090659428cce0f199))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.28 ([277871f](https://github.com/memoryos/misc/commit/277871f54aba1b0f75138b2090659428cce0f199))
 
-## [0.0.26](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.25...@gemunion/collection@0.0.26) (2020-11-13)
-
-### Bug Fixes
-
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.27 ([ac0cd53](https://github.com/memoryos/misc/commit/ac0cd53d8ffbf1eb195f25bfc052534a721c2f05))
-
-## [0.0.25](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.24...@gemunion/collection@0.0.25) (2020-11-13)
+## [0.0.26](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.25...@ethberry/collection@0.0.26) (2020-11-13)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.26 ([076e54b](https://github.com/memoryos/misc/commit/076e54b2181add191fcbe57c68dcc135cf0a85bf))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.27 ([ac0cd53](https://github.com/memoryos/misc/commit/ac0cd53d8ffbf1eb195f25bfc052534a721c2f05))
 
-## [0.0.24](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.23...@gemunion/collection@0.0.24) (2020-11-13)
+## [0.0.25](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.24...@ethberry/collection@0.0.25) (2020-11-13)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.25 ([0ab4b87](https://github.com/memoryos/misc/commit/0ab4b87b3ae74e8168b19daf819d3494d68ed742))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.26 ([076e54b](https://github.com/memoryos/misc/commit/076e54b2181add191fcbe57c68dcc135cf0a85bf))
 
-## [0.0.23](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.22...@gemunion/collection@0.0.23) (2020-11-13)
+## [0.0.24](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.23...@ethberry/collection@0.0.24) (2020-11-13)
+
+### Bug Fixes
+
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.25 ([0ab4b87](https://github.com/memoryos/misc/commit/0ab4b87b3ae74e8168b19daf819d3494d68ed742))
+
+## [0.0.23](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.22...@ethberry/collection@0.0.23) (2020-11-13)
 
 ### Bug Fixes
 
 - **deps:** update dependency @nestjs/swagger to v4.7.3 ([e822ee5](https://github.com/memoryos/misc/commit/e822ee51f406f740f09a2e7eef2e6ed2f4cfc019))
 
-## [0.0.22](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.21...@gemunion/collection@0.0.22) (2020-11-12)
+## [0.0.22](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.21...@ethberry/collection@0.0.22) (2020-11-12)
 
 ### Bug Fixes
 
 - **deps:** update all non-major dependencies ([a70aaa3](https://github.com/memoryos/misc/commit/a70aaa34df6869bca0ddf847134271b0f7e6c65a))
 
-## [0.0.21](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.20...@gemunion/collection@0.0.21) (2020-11-11)
+## [0.0.21](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.20...@ethberry/collection@0.0.21) (2020-11-11)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.23 ([27c83f2](https://github.com/memoryos/misc/commit/27c83f29a5c88e4f7cff872cd841a02a866496d8))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.23 ([27c83f2](https://github.com/memoryos/misc/commit/27c83f29a5c88e4f7cff872cd841a02a866496d8))
 
-## [0.0.20](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.19...@gemunion/collection@0.0.20) (2020-11-10)
+## [0.0.20](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.19...@ethberry/collection@0.0.20) (2020-11-10)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.22 ([57e29ac](https://github.com/memoryos/misc/commit/57e29acb9ad0a6646feed740dfb36f0e139dac1a))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.22 ([57e29ac](https://github.com/memoryos/misc/commit/57e29acb9ad0a6646feed740dfb36f0e139dac1a))
 
-## [0.0.19](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.18...@gemunion/collection@0.0.19) (2020-11-10)
+## [0.0.19](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.18...@ethberry/collection@0.0.19) (2020-11-10)
 
 ### Bug Fixes
 
 - **deps:** update all non-major dependencies ([fc698da](https://github.com/memoryos/misc/commit/fc698da3694eee59dc6706fe933fdb8b518d2c6b))
 
-## [0.0.18](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.17...@gemunion/collection@0.0.18) (2020-11-10)
+## [0.0.18](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.17...@ethberry/collection@0.0.18) (2020-11-10)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.20 ([0ed66aa](https://github.com/memoryos/misc/commit/0ed66aaf101ac6d80eea151ec69a085cd8685f0a))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.20 ([0ed66aa](https://github.com/memoryos/misc/commit/0ed66aaf101ac6d80eea151ec69a085cd8685f0a))
 
-## [0.0.17](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.16...@gemunion/collection@0.0.17) (2020-11-10)
+## [0.0.17](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.16...@ethberry/collection@0.0.17) (2020-11-10)
 
 ### Bug Fixes
 
 - **deps:** update dependency @nestjs/swagger to v4.7.1 ([a5df118](https://github.com/memoryos/misc/commit/a5df118b56a84730f1e548c240e4db5a8b529a2d))
 
-## [0.0.16](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.15...@gemunion/collection@0.0.16) (2020-11-10)
+## [0.0.16](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.15...@ethberry/collection@0.0.16) (2020-11-10)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.19 ([a369bc1](https://github.com/memoryos/misc/commit/a369bc1cedb562f4dfc88e3d0557203365cf8a0b))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.19 ([a369bc1](https://github.com/memoryos/misc/commit/a369bc1cedb562f4dfc88e3d0557203365cf8a0b))
 
-## [0.0.15](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.14...@gemunion/collection@0.0.15) (2020-11-10)
+## [0.0.15](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.14...@ethberry/collection@0.0.15) (2020-11-10)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.0.14](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.13...@gemunion/collection@0.0.14) (2020-11-10)
+## [0.0.14](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.13...@ethberry/collection@0.0.14) (2020-11-10)
 
 ### Bug Fixes
 
 - **deps:** update all non-major dependencies ([5299451](https://github.com/memoryos/misc/commit/5299451302831fe7ef5a67c5f21e8ff5a943eed8))
 
-## [0.0.13](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.12...@gemunion/collection@0.0.13) (2020-11-09)
+## [0.0.13](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.12...@ethberry/collection@0.0.13) (2020-11-09)
 
 ### Bug Fixes
 
 - **deps:** update all non-major dependencies ([095372c](https://github.com/memoryos/misc/commit/095372c15ec2ae0d28463f3e821917eec9e55c2e))
 
-## [0.0.12](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.11...@gemunion/collection@0.0.12) (2020-11-08)
+## [0.0.12](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.11...@ethberry/collection@0.0.12) (2020-11-08)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.16 ([d6b49f3](https://github.com/memoryos/misc/commit/d6b49f3219f54ebc6237ac1fbbb1943c44c584cf))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.16 ([d6b49f3](https://github.com/memoryos/misc/commit/d6b49f3219f54ebc6237ac1fbbb1943c44c584cf))
 
-## [0.0.11](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.10...@gemunion/collection@0.0.11) (2020-11-07)
+## [0.0.11](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.10...@ethberry/collection@0.0.11) (2020-11-07)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection
 
-## [0.0.10](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.9...@gemunion/collection@0.0.10) (2020-11-06)
-
-### Bug Fixes
-
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.15 ([7cf0608](https://github.com/memoryos/misc/commit/7cf06084d6af0b947ce51a4193b62246b0900aea))
-
-## [0.0.9](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.8...@gemunion/collection@0.0.9) (2020-11-06)
+## [0.0.10](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.9...@ethberry/collection@0.0.10) (2020-11-06)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.14 ([c38c5c2](https://github.com/memoryos/misc/commit/c38c5c20d7c9e3bd4bac0694c862f32c3f5b4cfb))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.15 ([7cf0608](https://github.com/memoryos/misc/commit/7cf06084d6af0b947ce51a4193b62246b0900aea))
 
-## [0.0.8](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.7...@gemunion/collection@0.0.8) (2020-11-06)
+## [0.0.9](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.8...@ethberry/collection@0.0.9) (2020-11-06)
+
+### Bug Fixes
+
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.14 ([c38c5c2](https://github.com/memoryos/misc/commit/c38c5c20d7c9e3bd4bac0694c862f32c3f5b4cfb))
+
+## [0.0.8](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.7...@ethberry/collection@0.0.8) (2020-11-06)
 
 ### Bug Fixes
 
 - **deps:** update dependency @nestjs/swagger to v4.7.0 ([e9369c8](https://github.com/memoryos/misc/commit/e9369c801b60e457872ff9648701e7b4b115a48d))
 
-## [0.0.7](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.6...@gemunion/collection@0.0.7) (2020-11-06)
+## [0.0.7](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.6...@ethberry/collection@0.0.7) (2020-11-06)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.13 ([453f1c2](https://github.com/memoryos/misc/commit/453f1c2246dcb2ca302c305cfb287e75737d99c6))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.13 ([453f1c2](https://github.com/memoryos/misc/commit/453f1c2246dcb2ca302c305cfb287e75737d99c6))
 
-## [0.0.6](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.5...@gemunion/collection@0.0.6) (2020-11-04)
-
-### Bug Fixes
-
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.12 ([4c3de77](https://github.com/memoryos/misc/commit/4c3de7778f2275be21d4bfa23dde97e2ea5f6354))
-
-## [0.0.5](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.4...@gemunion/collection@0.0.5) (2020-11-03)
+## [0.0.6](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.5...@ethberry/collection@0.0.6) (2020-11-04)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.11 ([84f0d8d](https://github.com/memoryos/misc/commit/84f0d8d78f748d0229b40bc1e20e67eb03dc4738))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.12 ([4c3de77](https://github.com/memoryos/misc/commit/4c3de7778f2275be21d4bfa23dde97e2ea5f6354))
 
-## [0.0.4](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.3...@gemunion/collection@0.0.4) (2020-11-02)
-
-**Note:** Version bump only for package @gemunion/collection
-
-## [0.0.3](https://github.com/memoryos/misc/compare/@gemunion/collection@0.0.2...@gemunion/collection@0.0.3) (2020-10-29)
+## [0.0.5](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.4...@ethberry/collection@0.0.5) (2020-11-03)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/nest-js-validators to v0.0.10 ([01733a8](https://github.com/memoryos/misc/commit/01733a865ae5658479d65040232d9d3d3f61a323))
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.11 ([84f0d8d](https://github.com/memoryos/misc/commit/84f0d8d78f748d0229b40bc1e20e67eb03dc4738))
+
+## [0.0.4](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.3...@ethberry/collection@0.0.4) (2020-11-02)
+
+**Note:** Version bump only for package @ethberry/collection
+
+## [0.0.3](https://github.com/memoryos/misc/compare/@ethberry/collection@0.0.2...@ethberry/collection@0.0.3) (2020-10-29)
+
+### Bug Fixes
+
+- **deps:** update dependency @ethberry/nest-js-validators to v0.0.10 ([01733a8](https://github.com/memoryos/misc/commit/01733a865ae5658479d65040232d9d3d3f61a323))
 
 ## 0.0.2 (2020-10-29)
 
-**Note:** Version bump only for package @gemunion/collection
+**Note:** Version bump only for package @ethberry/collection

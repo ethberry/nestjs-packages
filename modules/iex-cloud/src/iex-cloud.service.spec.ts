@@ -2,7 +2,7 @@ import { Test } from "@nestjs/testing";
 import { ConfigModule } from "@nestjs/config";
 import { HttpModule } from "@nestjs/axios";
 
-import { BatchTypes } from "@gemunion/types-iex-cloud";
+import { BatchTypes } from "@ethberry/types-iex-cloud";
 
 import { IexCloudService } from "./iex-cloud.service";
 

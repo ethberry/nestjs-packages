@@ -1,7 +1,7 @@
 import { registerDecorator, ValidationArguments, ValidationOptions } from "class-validator";
 import zxcvbn from "zxcvbn";
 
-import { passwordScore } from "@gemunion/constants";
+import { passwordScore } from "@ethberry/constants";
 
 interface IPasswordConstraints {
   score: number;

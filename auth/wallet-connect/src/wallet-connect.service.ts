@@ -1,8 +1,8 @@
 import { Injectable } from "@nestjs/common";
 import { recoverPersonalSignature } from "@metamask/eth-sig-util";
 
-import { phrase } from "@gemunion/constants";
-import { IWalletConnectDto } from "@gemunion/types-jwt";
+import { phrase } from "@ethberry/constants";
+import { IWalletConnectDto } from "@ethberry/types-jwt";
 
 @Injectable()
 export class WalletConnectService {

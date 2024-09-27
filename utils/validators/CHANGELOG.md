@@ -3,944 +3,944 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [4.1.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.1.3...@gemunion/nest-js-validators@4.1.4) (2024-09-21)
+## [4.1.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.1.3...@ethberry/nest-js-validators@4.1.4) (2024-09-21)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [4.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.1.2...@gemunion/nest-js-validators@4.1.3) (2024-09-14)
+## [4.1.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.1.2...@ethberry/nest-js-validators@4.1.3) (2024-09-14)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([3c69b3f](https://github.com/gemunion/nestjs-packages/commit/3c69b3f024c5d0394d01f216a1bc6d67a19fed42))
+- **deps:** update all non-major dependencies ([3c69b3f](https://github.com/ethberry/nestjs-packages/commit/3c69b3f024c5d0394d01f216a1bc6d67a19fed42))
 
 ## 4.1.2 (2024-09-11)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9b0c11b](https://github.com/gemunion/nestjs-packages/commit/9b0c11b242d092059919efb900fc78d519de8569))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9b0c11b](https://github.com/ethberry/nestjs-packages/commit/9b0c11b242d092059919efb900fc78d519de8569))
 
-## [4.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.1.0...@gemunion/nest-js-validators@4.1.1) (2024-08-31)
+## [4.1.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.1.0...@ethberry/nest-js-validators@4.1.1) (2024-08-31)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-# [4.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.44...@gemunion/nest-js-validators@4.1.0) (2024-08-24)
+# [4.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.44...@ethberry/nest-js-validators@4.1.0) (2024-08-24)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ffa1242](https://github.com/gemunion/nestjs-packages/commit/ffa1242232ef792525c0d23834127498f17567b4))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ffa1242](https://github.com/ethberry/nestjs-packages/commit/ffa1242232ef792525c0d23834127498f17567b4))
 
 ### Features
 
-- amount validator ([08d0ad2](https://github.com/gemunion/nestjs-packages/commit/08d0ad25e7196c07f91aba14df18a60cd37cfe18))
+- amount validator ([08d0ad2](https://github.com/ethberry/nestjs-packages/commit/08d0ad25e7196c07f91aba14df18a60cd37cfe18))
 
-## [4.0.44](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.43...@gemunion/nest-js-validators@4.0.44) (2024-08-02)
-
-### Bug Fixes
-
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([44d16bb](https://github.com/gemunion/nestjs-packages/commit/44d16bb8ff6f55934baa4897b101895762d21b5c))
-
-## [4.0.43](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.42...@gemunion/nest-js-validators@4.0.43) (2024-07-27)
+## [4.0.44](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.43...@ethberry/nest-js-validators@4.0.44) (2024-08-02)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([6b41c5b](https://github.com/gemunion/nestjs-packages/commit/6b41c5b5f207b6b4f98d47722d45611fe18b48cd))
-- **deps:** update all non-major dependencies ([b7802e1](https://github.com/gemunion/nestjs-packages/commit/b7802e1343689558cb7764aa880c720b8ffe5747))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([44d16bb](https://github.com/ethberry/nestjs-packages/commit/44d16bb8ff6f55934baa4897b101895762d21b5c))
+
+## [4.0.43](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.42...@ethberry/nest-js-validators@4.0.43) (2024-07-27)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([6b41c5b](https://github.com/ethberry/nestjs-packages/commit/6b41c5b5f207b6b4f98d47722d45611fe18b48cd))
+- **deps:** update all non-major dependencies ([b7802e1](https://github.com/ethberry/nestjs-packages/commit/b7802e1343689558cb7764aa880c720b8ffe5747))
 
 ## 4.0.42 (2024-07-24)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([d4e43d3](https://github.com/gemunion/nestjs-packages/commit/d4e43d3479b189faa269db4b5419b83de896e8b6))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([d4e43d3](https://github.com/ethberry/nestjs-packages/commit/d4e43d3479b189faa269db4b5419b83de896e8b6))
 
 ## 4.0.41 (2024-07-16)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([eaded9c](https://github.com/gemunion/nestjs-packages/commit/eaded9c14ab24046439c14193b46e1795702630c))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([eaded9c](https://github.com/ethberry/nestjs-packages/commit/eaded9c14ab24046439c14193b46e1795702630c))
 
 ## 4.0.40 (2024-07-06)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [4.0.39](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.38...@gemunion/nest-js-validators@4.0.39) (2024-06-23)
-
-### Bug Fixes
-
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([85f9e35](https://github.com/gemunion/nestjs-packages/commit/85f9e355225d7b8fc2855c2e966a4e0fb4b5b3a7))
-
-## [4.0.38](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.37...@gemunion/nest-js-validators@4.0.38) (2024-06-22)
+## [4.0.39](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.38...@ethberry/nest-js-validators@4.0.39) (2024-06-23)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9eaef2b](https://github.com/gemunion/nestjs-packages/commit/9eaef2b99e822cacaa04dab85ca0b7966934a71f))
-- **deps:** update all non-major dependencies ([fa6b5c1](https://github.com/gemunion/nestjs-packages/commit/fa6b5c1ad0440c4ea758f9b2b3c81b19a30051df))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([85f9e35](https://github.com/ethberry/nestjs-packages/commit/85f9e355225d7b8fc2855c2e966a4e0fb4b5b3a7))
 
-## [4.0.37](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.36...@gemunion/nest-js-validators@4.0.37) (2024-06-13)
-
-### Bug Fixes
-
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e3b70a6](https://github.com/gemunion/nestjs-packages/commit/e3b70a6f2185f6a72ef178d6839354972e7c5fe2))
-
-## [4.0.36](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.35...@gemunion/nest-js-validators@4.0.36) (2024-06-13)
+## [4.0.38](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.37...@ethberry/nest-js-validators@4.0.38) (2024-06-22)
 
 ### Bug Fixes
 
-- better docs ([42606b0](https://github.com/gemunion/nestjs-packages/commit/42606b01696e975afb71af9825ef9bd72a6c1cec))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9eaef2b](https://github.com/ethberry/nestjs-packages/commit/9eaef2b99e822cacaa04dab85ca0b7966934a71f))
+- **deps:** update all non-major dependencies ([fa6b5c1](https://github.com/ethberry/nestjs-packages/commit/fa6b5c1ad0440c4ea758f9b2b3c81b19a30051df))
 
-## [4.0.35](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.34...@gemunion/nest-js-validators@4.0.35) (2024-06-08)
-
-### Bug Fixes
-
-- optional chain id ([ca48df8](https://github.com/gemunion/nestjs-packages/commit/ca48df8f27c210cde5079c2beffbd5cb03b92b1c))
-- schedule validation ([bfcc76b](https://github.com/gemunion/nestjs-packages/commit/bfcc76b2d6aace5b1424fa3f116f9283d58f1335))
-- schedule validation, part 2 ([6d341c3](https://github.com/gemunion/nestjs-packages/commit/6d341c3338963b278512e5008d28d4aec1e6d5d3))
-
-## [4.0.34](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.33...@gemunion/nest-js-validators@4.0.34) (2024-06-07)
+## [4.0.37](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.36...@ethberry/nest-js-validators@4.0.37) (2024-06-13)
 
 ### Bug Fixes
 
-- chainId type ([610118c](https://github.com/gemunion/nestjs-packages/commit/610118c95bc8510462687d78c3d3be17c8cedd1e))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e3b70a6](https://github.com/ethberry/nestjs-packages/commit/e3b70a6f2185f6a72ef178d6839354972e7c5fe2))
 
-## [4.0.33](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.32...@gemunion/nest-js-validators@4.0.33) (2024-06-07)
+## [4.0.36](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.35...@ethberry/nest-js-validators@4.0.36) (2024-06-13)
 
 ### Bug Fixes
 
-- chainId type ([d457d7c](https://github.com/gemunion/nestjs-packages/commit/d457d7c3b2b3459b5c0168d6fe9abab7757f9279))
-- **deps:** update all non-major dependencies ([83c82f1](https://github.com/gemunion/nestjs-packages/commit/83c82f105c0e4e2c59b7080418041b4e08b9d1d7))
+- better docs ([42606b0](https://github.com/ethberry/nestjs-packages/commit/42606b01696e975afb71af9825ef9bd72a6c1cec))
+
+## [4.0.35](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.34...@ethberry/nest-js-validators@4.0.35) (2024-06-08)
+
+### Bug Fixes
+
+- optional chain id ([ca48df8](https://github.com/ethberry/nestjs-packages/commit/ca48df8f27c210cde5079c2beffbd5cb03b92b1c))
+- schedule validation ([bfcc76b](https://github.com/ethberry/nestjs-packages/commit/bfcc76b2d6aace5b1424fa3f116f9283d58f1335))
+- schedule validation, part 2 ([6d341c3](https://github.com/ethberry/nestjs-packages/commit/6d341c3338963b278512e5008d28d4aec1e6d5d3))
+
+## [4.0.34](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.33...@ethberry/nest-js-validators@4.0.34) (2024-06-07)
+
+### Bug Fixes
+
+- chainId type ([610118c](https://github.com/ethberry/nestjs-packages/commit/610118c95bc8510462687d78c3d3be17c8cedd1e))
+
+## [4.0.33](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.32...@ethberry/nest-js-validators@4.0.33) (2024-06-07)
+
+### Bug Fixes
+
+- chainId type ([d457d7c](https://github.com/ethberry/nestjs-packages/commit/d457d7c3b2b3459b5c0168d6fe9abab7757f9279))
+- **deps:** update all non-major dependencies ([83c82f1](https://github.com/ethberry/nestjs-packages/commit/83c82f105c0e4e2c59b7080418041b4e08b9d1d7))
 
 ## 4.0.32 (2024-05-16)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([d1d8df8](https://github.com/gemunion/nestjs-packages/commit/d1d8df8b937ded51839a9248e0e9d71b35192d35))
+- **deps:** update all non-major dependencies ([d1d8df8](https://github.com/ethberry/nestjs-packages/commit/d1d8df8b937ded51839a9248e0e9d71b35192d35))
 
-## [4.0.31](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.30...@gemunion/nest-js-validators@4.0.31) (2024-04-23)
+## [4.0.31](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.30...@ethberry/nest-js-validators@4.0.31) (2024-04-23)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([0601b56](https://github.com/gemunion/nestjs-packages/commit/0601b56f4dda0d45cbbb37dd63cd53ac3ff27090))
+- **deps:** update all non-major dependencies ([0601b56](https://github.com/ethberry/nestjs-packages/commit/0601b56f4dda0d45cbbb37dd63cd53ac3ff27090))
 
-## [4.0.30](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.29...@gemunion/nest-js-validators@4.0.30) (2024-04-14)
+## [4.0.30](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.29...@ethberry/nest-js-validators@4.0.30) (2024-04-14)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 4.0.29 (2024-03-20)
 
 ### Bug Fixes
 
-- move validation ([0d134aa](https://github.com/gemunion/nestjs-packages/commit/0d134aa0993e0f9b84d1f5c43e37ec3cf9d8c596))
+- move validation ([0d134aa](https://github.com/ethberry/nestjs-packages/commit/0d134aa0993e0f9b84d1f5c43e37ec3cf9d8c596))
 
-## [4.0.28](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.27...@gemunion/nest-js-validators@4.0.28) (2024-02-19)
+## [4.0.28](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.27...@ethberry/nest-js-validators@4.0.28) (2024-02-19)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([27b551a](https://github.com/gemunion/nestjs-packages/commit/27b551ad34d8e2c947f6752f234e0622905667c7))
+- **deps:** update all non-major dependencies ([27b551a](https://github.com/ethberry/nestjs-packages/commit/27b551ad34d8e2c947f6752f234e0622905667c7))
 
 ## 4.0.27 (2024-02-03)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([f0a12ca](https://github.com/gemunion/nestjs-packages/commit/f0a12ca86418f66ee212594dea6a4cb7a9258a46))
+- **deps:** update all non-major dependencies ([f0a12ca](https://github.com/ethberry/nestjs-packages/commit/f0a12ca86418f66ee212594dea6a4cb7a9258a46))
 
-## [4.0.26](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.25...@gemunion/nest-js-validators@4.0.26) (2024-01-16)
+## [4.0.26](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.25...@ethberry/nest-js-validators@4.0.26) (2024-01-16)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([59a8b46](https://github.com/gemunion/nestjs-packages/commit/59a8b465b2468dacb0753a8217a9247f9586b1ad))
+- **deps:** update all non-major dependencies ([59a8b46](https://github.com/ethberry/nestjs-packages/commit/59a8b465b2468dacb0753a8217a9247f9586b1ad))
 
 ## 4.0.25 (2023-12-30)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([dd0df23](https://github.com/gemunion/nestjs-packages/commit/dd0df234525abb2226a971e49ab61a041074aaf4))
+- **deps:** update all non-major dependencies ([dd0df23](https://github.com/ethberry/nestjs-packages/commit/dd0df234525abb2226a971e49ab61a041074aaf4))
 
-## [4.0.24](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.23...@gemunion/nest-js-validators@4.0.24) (2023-12-08)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([0f08165](https://github.com/gemunion/nestjs-packages/commit/0f081650fcb2bbf402bc72136c9dea53ad709bd7))
-
-## [4.0.23](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.22...@gemunion/nest-js-validators@4.0.23) (2023-11-18)
-
-**Note:** Version bump only for package @gemunion/nest-js-validators
-
-## [4.0.22](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.21...@gemunion/nest-js-validators@4.0.22) (2023-11-12)
+## [4.0.24](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.23...@ethberry/nest-js-validators@4.0.24) (2023-12-08)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([8f753de](https://github.com/gemunion/nestjs-packages/commit/8f753de173b9151eecc484cc90ece812618fda46))
+- **deps:** update all non-major dependencies ([0f08165](https://github.com/ethberry/nestjs-packages/commit/0f081650fcb2bbf402bc72136c9dea53ad709bd7))
+
+## [4.0.23](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.22...@ethberry/nest-js-validators@4.0.23) (2023-11-18)
+
+**Note:** Version bump only for package @ethberry/nest-js-validators
+
+## [4.0.22](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.21...@ethberry/nest-js-validators@4.0.22) (2023-11-12)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([8f753de](https://github.com/ethberry/nestjs-packages/commit/8f753de173b9151eecc484cc90ece812618fda46))
 
 ## 4.0.21 (2023-11-04)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([e6b8056](https://github.com/gemunion/nestjs-packages/commit/e6b80564ab65c93870f13587efd5b41f8fb58a02))
+- **deps:** update all non-major dependencies ([e6b8056](https://github.com/ethberry/nestjs-packages/commit/e6b80564ab65c93870f13587efd5b41f8fb58a02))
 
-## [4.0.20](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.19...@gemunion/nest-js-validators@4.0.20) (2023-10-21)
+## [4.0.20](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.19...@ethberry/nest-js-validators@4.0.20) (2023-10-21)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([3489340](https://github.com/gemunion/nestjs-packages/commit/34893409c86ff071d87235743dbf71d35497125e))
-- remove allowEmptyString ([a1602c7](https://github.com/gemunion/nestjs-packages/commit/a1602c74deb0af6262420122b725d3c28cad8b02))
+- **deps:** update all non-major dependencies ([3489340](https://github.com/ethberry/nestjs-packages/commit/34893409c86ff071d87235743dbf71d35497125e))
+- remove allowEmptyString ([a1602c7](https://github.com/ethberry/nestjs-packages/commit/a1602c74deb0af6262420122b725d3c28cad8b02))
 
 ## 4.0.19 (2023-10-18)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([8c11fa5](https://github.com/gemunion/nestjs-packages/commit/8c11fa538dd3569df245c96fecbd39205244c1c0))
+- **deps:** update all non-major dependencies ([8c11fa5](https://github.com/ethberry/nestjs-packages/commit/8c11fa538dd3569df245c96fecbd39205244c1c0))
 
-## [4.0.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.17...@gemunion/nest-js-validators@4.0.18) (2023-10-07)
+## [4.0.18](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.17...@ethberry/nest-js-validators@4.0.18) (2023-10-07)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [4.0.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.16...@gemunion/nest-js-validators@4.0.17) (2023-09-30)
+## [4.0.17](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.16...@ethberry/nest-js-validators@4.0.17) (2023-09-30)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([dbf26f0](https://github.com/gemunion/nestjs-packages/commit/dbf26f06df651edca4607c7f62e56dab008f9291))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([dbf26f0](https://github.com/ethberry/nestjs-packages/commit/dbf26f06df651edca4607c7f62e56dab008f9291))
 
 ## 4.0.16 (2023-09-17)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([cb9d78a](https://github.com/gemunion/nestjs-packages/commit/cb9d78a8b5f1e3466a350a32adf9dbdd648f87c4))
+- **deps:** update all non-major dependencies ([cb9d78a](https://github.com/ethberry/nestjs-packages/commit/cb9d78a8b5f1e3466a350a32adf9dbdd648f87c4))
 
 ## 4.0.15 (2023-09-04)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([c78f638](https://github.com/gemunion/nestjs-packages/commit/c78f6385e63ad797c053130b3f7edf3a422b82f0))
+- **deps:** update all non-major dependencies ([c78f638](https://github.com/ethberry/nestjs-packages/commit/c78f6385e63ad797c053130b3f7edf3a422b82f0))
 
-## [4.0.14](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.13...@gemunion/nest-js-validators@4.0.14) (2023-08-25)
+## [4.0.14](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.13...@ethberry/nest-js-validators@4.0.14) (2023-08-25)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([9095b16](https://github.com/gemunion/nestjs-packages/commit/9095b16348778d4a370dfe10ff48524c4aa88896))
+- **deps:** update all non-major dependencies ([9095b16](https://github.com/ethberry/nestjs-packages/commit/9095b16348778d4a370dfe10ff48524c4aa88896))
 
 ## 4.0.13 (2023-08-22)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([dec6ce8](https://github.com/gemunion/nestjs-packages/commit/dec6ce8fe0135599bee726e233c6394711577d30))
+- **deps:** update all non-major dependencies ([dec6ce8](https://github.com/ethberry/nestjs-packages/commit/dec6ce8fe0135599bee726e233c6394711577d30))
 
 ## 4.0.12 (2023-08-05)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/gemunion/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
-- **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0dab123](https://github.com/ethberry/nestjs-packages/commit/0dab123b949b832c932e78c2f9c41d3a15f3ff7b))
+- **deps:** update all non-major dependencies ([1ee881a](https://github.com/ethberry/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
 
-## [4.0.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.10...@gemunion/nest-js-validators@4.0.11) (2023-07-29)
+## [4.0.11](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.10...@ethberry/nest-js-validators@4.0.11) (2023-07-29)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
-- remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
+- **deps:** update all non-major dependencies ([7e64ca6](https://github.com/ethberry/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
+- remove exchange signer ([5823adc](https://github.com/ethberry/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
 
 ## 4.0.10 (2023-07-27)
 
 ### Bug Fixes
 
-- remove exchange signer ([5823adc](https://github.com/gemunion/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
+- remove exchange signer ([5823adc](https://github.com/ethberry/nestjs-packages/commit/5823adc9b589c49c4a6aa71f97b097073e95f9ce))
 
-## [4.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.8...@gemunion/nest-js-validators@4.0.9) (2023-07-25)
+## [4.0.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.8...@ethberry/nest-js-validators@4.0.9) (2023-07-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [4.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.7...@gemunion/nest-js-validators@4.0.8) (2023-07-23)
+## [4.0.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.7...@ethberry/nest-js-validators@4.0.8) (2023-07-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 4.0.7 (2023-07-18)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/gemunion/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([4540fea](https://github.com/ethberry/nestjs-packages/commit/4540feaedb56913ba21006f5fbe0c4557c865c8d))
 
-## [4.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.5...@gemunion/nest-js-validators@4.0.6) (2023-07-15)
+## [4.0.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.5...@ethberry/nest-js-validators@4.0.6) (2023-07-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [4.0.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.4...@gemunion/nest-js-validators@4.0.5) (2023-07-15)
+## [4.0.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.4...@ethberry/nest-js-validators@4.0.5) (2023-07-15)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([a9399e0](https://github.com/gemunion/nestjs-packages/commit/a9399e0d157b5e4c3952919b9279aa7e0b20f4b8))
+- **deps:** update all non-major dependencies ([a9399e0](https://github.com/ethberry/nestjs-packages/commit/a9399e0d157b5e4c3952919b9279aa7e0b20f4b8))
 
 ## 4.0.4 (2023-07-11)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([a8d245c](https://github.com/gemunion/nestjs-packages/commit/a8d245c2e707881061884c28df6fcd765cd1cfbe))
+- **deps:** update all non-major dependencies ([a8d245c](https://github.com/ethberry/nestjs-packages/commit/a8d245c2e707881061884c28df6fcd765cd1cfbe))
 
-## [4.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.2...@gemunion/nest-js-validators@4.0.3) (2023-06-30)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([294f308](https://github.com/gemunion/nestjs-packages/commit/294f308e6894bed862e0c83839d104853605e1f8))
-- **deps:** update all non-major dependencies ([2a6a2c5](https://github.com/gemunion/nestjs-packages/commit/2a6a2c5c38e6828650206f6e5dbfa7857c61ef10))
-
-## [4.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@4.0.1...@gemunion/nest-js-validators@4.0.2) (2023-06-17)
-
-**Note:** Version bump only for package @gemunion/nest-js-validators
-
-## [4.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@3.0.3...@gemunion/nest-js-validators@4.0.1) (2023-06-17)
+## [4.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.2...@ethberry/nest-js-validators@4.0.3) (2023-06-30)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([4208441](https://github.com/gemunion/nestjs-packages/commit/4208441a9c3279b432de6204625ab560cfc02411))
-- tsconfig ([f87654a](https://github.com/gemunion/nestjs-packages/commit/f87654a2865ada7d6cba8c3a496c298baf198d1b))
+- **deps:** update all non-major dependencies ([294f308](https://github.com/ethberry/nestjs-packages/commit/294f308e6894bed862e0c83839d104853605e1f8))
+- **deps:** update all non-major dependencies ([2a6a2c5](https://github.com/ethberry/nestjs-packages/commit/2a6a2c5c38e6828650206f6e5dbfa7857c61ef10))
 
-## [3.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@3.0.2...@gemunion/nest-js-validators@3.0.3) (2023-06-15)
+## [4.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.0.1...@ethberry/nest-js-validators@4.0.2) (2023-06-17)
+
+**Note:** Version bump only for package @ethberry/nest-js-validators
+
+## [4.0.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@3.0.3...@ethberry/nest-js-validators@4.0.1) (2023-06-17)
 
 ### Bug Fixes
 
-- better types ([095ef74](https://github.com/gemunion/nestjs-packages/commit/095ef74e8740b1f89fed33ce3ec212ae8cdd6d6a))
+- **deps:** update all non-major dependencies ([4208441](https://github.com/ethberry/nestjs-packages/commit/4208441a9c3279b432de6204625ab560cfc02411))
+- tsconfig ([f87654a](https://github.com/ethberry/nestjs-packages/commit/f87654a2865ada7d6cba8c3a496c298baf198d1b))
+
+## [3.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@3.0.2...@ethberry/nest-js-validators@3.0.3) (2023-06-15)
+
+### Bug Fixes
+
+- better types ([095ef74](https://github.com/ethberry/nestjs-packages/commit/095ef74e8740b1f89fed33ce3ec212ae8cdd6d6a))
 
 ## 3.0.2 (2023-06-11)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([ed3d290](https://github.com/gemunion/nestjs-packages/commit/ed3d29096a98dab6b2ba7d34c08051275cd9ce09))
+- **deps:** update all non-major dependencies ([ed3d290](https://github.com/ethberry/nestjs-packages/commit/ed3d29096a98dab6b2ba7d34c08051275cd9ce09))
 
-## [3.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.18...@gemunion/nest-js-validators@3.0.1) (2023-06-03)
-
-### Bug Fixes
-
-- manualy update deps ([bccb1a0](https://github.com/gemunion/nestjs-packages/commit/bccb1a095df18dac807d7d5189502e3239236230))
-
-## [2.2.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.17...@gemunion/nest-js-validators@2.2.18) (2023-06-03)
+## [3.0.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.18...@ethberry/nest-js-validators@3.0.1) (2023-06-03)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([a55c0d8](https://github.com/gemunion/nestjs-packages/commit/a55c0d873e5fa19acea1a91e60ecd6baf63d38c1))
+- manualy update deps ([bccb1a0](https://github.com/ethberry/nestjs-packages/commit/bccb1a095df18dac807d7d5189502e3239236230))
 
-## [2.2.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.16...@gemunion/nest-js-validators@2.2.17) (2023-05-26)
+## [2.2.18](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.17...@ethberry/nest-js-validators@2.2.18) (2023-06-03)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ca7b648](https://github.com/gemunion/nestjs-packages/commit/ca7b648ee82529432478fda57f12106c887d26b6))
+- **deps:** update all non-major dependencies ([a55c0d8](https://github.com/ethberry/nestjs-packages/commit/a55c0d873e5fa19acea1a91e60ecd6baf63d38c1))
+
+## [2.2.17](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.16...@ethberry/nest-js-validators@2.2.17) (2023-05-26)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([ca7b648](https://github.com/ethberry/nestjs-packages/commit/ca7b648ee82529432478fda57f12106c887d26b6))
 
 ## 2.2.16 (2023-05-12)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0cd4b7e](https://github.com/gemunion/nestjs-packages/commit/0cd4b7e91eb99463fd3457b468cc55c23c6e485c))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([0cd4b7e](https://github.com/ethberry/nestjs-packages/commit/0cd4b7e91eb99463fd3457b468cc55c23c6e485c))
 
-## [2.2.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.14...@gemunion/nest-js-validators@2.2.15) (2023-04-29)
+## [2.2.15](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.14...@ethberry/nest-js-validators@2.2.15) (2023-04-29)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([a76e963](https://github.com/gemunion/nestjs-packages/commit/a76e9634612cf81c503ac440e19c7fa47763cb84))
+- **deps:** update all non-major dependencies ([a76e963](https://github.com/ethberry/nestjs-packages/commit/a76e9634612cf81c503ac440e19c7fa47763cb84))
 
 ## 2.2.14 (2023-04-22)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([4707453](https://github.com/gemunion/nestjs-packages/commit/470745371894709a73a3d5dfe5618b5fa60de729))
+- **deps:** update all non-major dependencies ([4707453](https://github.com/ethberry/nestjs-packages/commit/470745371894709a73a3d5dfe5618b5fa60de729))
 
 ## 2.2.13 (2023-04-10)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.2.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.11...@gemunion/nest-js-validators@2.2.12) (2023-04-08)
+## [2.2.12](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.11...@ethberry/nest-js-validators@2.2.12) (2023-04-08)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.2.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.10...@gemunion/nest-js-validators@2.2.11) (2023-04-05)
+## [2.2.11](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.10...@ethberry/nest-js-validators@2.2.11) (2023-04-05)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 2.2.10 (2023-03-28)
 
 ### Bug Fixes
 
-- relax types ([516067b](https://github.com/gemunion/nestjs-packages/commit/516067b3b1c16445bf97b1a1a6db1a91804bc230))
+- relax types ([516067b](https://github.com/ethberry/nestjs-packages/commit/516067b3b1c16445bf97b1a1a6db1a91804bc230))
 
-## [2.2.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.8...@gemunion/nest-js-validators@2.2.9) (2023-03-25)
+## [2.2.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.8...@ethberry/nest-js-validators@2.2.9) (2023-03-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.2.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.7...@gemunion/nest-js-validators@2.2.8) (2023-03-17)
+## [2.2.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.7...@ethberry/nest-js-validators@2.2.8) (2023-03-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 2.2.7 (2023-03-11)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 2.2.6 (2023-02-18)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([561673f](https://github.com/gemunion/nestjs-packages/commit/561673fae1688ee7358d3b1dd41b23a391a92487))
+- **deps:** update all non-major dependencies ([561673f](https://github.com/ethberry/nestjs-packages/commit/561673fae1688ee7358d3b1dd41b23a391a92487))
 
-## [2.2.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.4...@gemunion/nest-js-validators@2.2.5) (2023-02-11)
+## [2.2.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.4...@ethberry/nest-js-validators@2.2.5) (2023-02-11)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([daa651e](https://github.com/gemunion/nestjs-packages/commit/daa651e22e3872c229c00af44a2cea0e8e3f1dcf))
+- **deps:** update all non-major dependencies ([daa651e](https://github.com/ethberry/nestjs-packages/commit/daa651e22e3872c229c00af44a2cea0e8e3f1dcf))
 
 ## 2.2.4 (2023-02-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.2.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.2...@gemunion/nest-js-validators@2.2.3) (2023-02-04)
+## [2.2.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.2...@ethberry/nest-js-validators@2.2.3) (2023-02-04)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([5fbbfeb](https://github.com/gemunion/nestjs-packages/commit/5fbbfeb5969c3c343a6a3e07ad4f7e3b9340eb20))
-- manually update nestjs/axious ([e6297ce](https://github.com/gemunion/nestjs-packages/commit/e6297ce347b7fa4974a695778bf544276f54e4e4))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([5fbbfeb](https://github.com/ethberry/nestjs-packages/commit/5fbbfeb5969c3c343a6a3e07ad4f7e3b9340eb20))
+- manually update nestjs/axious ([e6297ce](https://github.com/ethberry/nestjs-packages/commit/e6297ce347b7fa4974a695778bf544276f54e4e4))
 
 ## 2.2.2 (2023-01-27)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([6414a37](https://github.com/gemunion/nestjs-packages/commit/6414a37bf10dddf152822604bb774bd08d4c4c27))
-- **deps:** update all non-major dependencies ([ff349d3](https://github.com/gemunion/nestjs-packages/commit/ff349d38d6362ec195508f5eb81878e9c487f058))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([6414a37](https://github.com/ethberry/nestjs-packages/commit/6414a37bf10dddf152822604bb774bd08d4c4c27))
+- **deps:** update all non-major dependencies ([ff349d3](https://github.com/ethberry/nestjs-packages/commit/ff349d38d6362ec195508f5eb81878e9c487f058))
 
-## [2.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.2.0...@gemunion/nest-js-validators@2.2.1) (2023-01-25)
+## [2.2.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.2.0...@ethberry/nest-js-validators@2.2.1) (2023-01-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-# [2.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.21...@gemunion/nest-js-validators@2.2.0) (2023-01-25)
+# [2.2.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.21...@ethberry/nest-js-validators@2.2.0) (2023-01-25)
 
 ### Features
 
-- gender and country enum ([5370cd4](https://github.com/gemunion/nestjs-packages/commit/5370cd4b5f9b0f3211c8f53169951cf72c42dc9f))
+- gender and country enum ([5370cd4](https://github.com/ethberry/nestjs-packages/commit/5370cd4b5f9b0f3211c8f53169951cf72c42dc9f))
 
-## [2.1.21](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.20...@gemunion/nest-js-validators@2.1.21) (2023-01-25)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([0c49b3d](https://github.com/gemunion/nestjs-packages/commit/0c49b3ddee177de3f791344ff6d86caadb8f70cb))
-
-## [2.1.20](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.19...@gemunion/nest-js-validators@2.1.20) (2023-01-21)
-
-**Note:** Version bump only for package @gemunion/nest-js-validators
-
-## [2.1.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.18...@gemunion/nest-js-validators@2.1.19) (2023-01-14)
+## [2.1.21](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.20...@ethberry/nest-js-validators@2.1.21) (2023-01-25)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9115e8d](https://github.com/gemunion/nestjs-packages/commit/9115e8de4c005ea9f264ef91f80a76c3efdacb49))
+- **deps:** update all non-major dependencies ([0c49b3d](https://github.com/ethberry/nestjs-packages/commit/0c49b3ddee177de3f791344ff6d86caadb8f70cb))
+
+## [2.1.20](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.19...@ethberry/nest-js-validators@2.1.20) (2023-01-21)
+
+**Note:** Version bump only for package @ethberry/nest-js-validators
+
+## [2.1.19](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.18...@ethberry/nest-js-validators@2.1.19) (2023-01-14)
+
+### Bug Fixes
+
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([9115e8d](https://github.com/ethberry/nestjs-packages/commit/9115e8de4c005ea9f264ef91f80a76c3efdacb49))
 
 ## 2.1.18 (2022-12-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.1.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.16...@gemunion/nest-js-validators@2.1.17) (2022-12-17)
+## [2.1.17](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.16...@ethberry/nest-js-validators@2.1.17) (2022-12-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.1.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.15...@gemunion/nest-js-validators@2.1.16) (2022-12-10)
+## [2.1.16](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.15...@ethberry/nest-js-validators@2.1.16) (2022-12-10)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([8752c10](https://github.com/gemunion/nestjs-packages/commit/8752c109c6ae75373290bb039a87670743dd84fe))
+- **deps:** update all non-major dependencies ([8752c10](https://github.com/ethberry/nestjs-packages/commit/8752c109c6ae75373290bb039a87670743dd84fe))
 
 ## 2.1.15 (2022-12-04)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 2.1.14 (2022-11-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.1.13](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.12...@gemunion/nest-js-validators@2.1.13) (2022-11-11)
+## [2.1.13](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.12...@ethberry/nest-js-validators@2.1.13) (2022-11-11)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.1.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.11...@gemunion/nest-js-validators@2.1.12) (2022-11-04)
+## [2.1.12](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.11...@ethberry/nest-js-validators@2.1.12) (2022-11-04)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([214cb17](https://github.com/gemunion/nestjs-packages/commit/214cb1730ce9752ef2292d001a0e78b6120053d8))
+- **deps:** update all non-major dependencies ([214cb17](https://github.com/ethberry/nestjs-packages/commit/214cb1730ce9752ef2292d001a0e78b6120053d8))
 
 ## 2.1.11 (2022-10-28)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([e0dc85a](https://github.com/gemunion/nestjs-packages/commit/e0dc85a189d56dcbefbe490005e18c17ad4ec108))
-- **deps:** update gemunion to v0.9.0 ([e90b18b](https://github.com/gemunion/nestjs-packages/commit/e90b18b0650b2ba562b705adf1bccab693bba968))
+- **deps:** update all non-major dependencies ([e0dc85a](https://github.com/ethberry/nestjs-packages/commit/e0dc85a189d56dcbefbe490005e18c17ad4ec108))
+- **deps:** update gemunion to v0.9.0 ([e90b18b](https://github.com/ethberry/nestjs-packages/commit/e90b18b0650b2ba562b705adf1bccab693bba968))
 
-## [2.1.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.9...@gemunion/nest-js-validators@2.1.10) (2022-10-22)
+## [2.1.10](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.9...@ethberry/nest-js-validators@2.1.10) (2022-10-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.1.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.8...@gemunion/nest-js-validators@2.1.9) (2022-10-16)
+## [2.1.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.8...@ethberry/nest-js-validators@2.1.9) (2022-10-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.1.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.7...@gemunion/nest-js-validators@2.1.8) (2022-10-08)
+## [2.1.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.7...@ethberry/nest-js-validators@2.1.8) (2022-10-08)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.1.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.6...@gemunion/nest-js-validators@2.1.7) (2022-10-01)
+## [2.1.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.6...@ethberry/nest-js-validators@2.1.7) (2022-10-01)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([2b0c34b](https://github.com/gemunion/nestjs-packages/commit/2b0c34bf3cd4c9f1159938720deb3762e7d22fe3))
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e6bd4f2](https://github.com/gemunion/nestjs-packages/commit/e6bd4f2bc4d46611f53f78f2e55503ae676102c1))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([2b0c34b](https://github.com/ethberry/nestjs-packages/commit/2b0c34bf3cd4c9f1159938720deb3762e7d22fe3))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([e6bd4f2](https://github.com/ethberry/nestjs-packages/commit/e6bd4f2bc4d46611f53f78f2e55503ae676102c1))
 
-## [2.1.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.5...@gemunion/nest-js-validators@2.1.6) (2022-09-24)
+## [2.1.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.5...@ethberry/nest-js-validators@2.1.6) (2022-09-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 2.1.5 (2022-09-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 2.1.4 (2022-09-14)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.1.2...@gemunion/nest-js-validators@2.1.3) (2022-09-08)
+## [2.1.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.1.2...@ethberry/nest-js-validators@2.1.3) (2022-09-08)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 2.1.2 (2022-09-03)
 
 ### Bug Fixes
 
-- **deps:** update [@gemunion](https://github.com/gemunion) packages ([a176cfd](https://github.com/gemunion/nestjs-packages/commit/a176cfdebc150b99d0c8600e67a2dfe165b7e40f))
+- **deps:** update [@gemunion](https://github.com/gemunion) packages ([a176cfd](https://github.com/ethberry/nestjs-packages/commit/a176cfdebc150b99d0c8600e67a2dfe165b7e40f))
 
 ## 2.1.1 (2022-08-28)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([6b79a92](https://github.com/gemunion/nestjs-packages/commit/6b79a92e253f62b07fe8f6209738d489d46e05ef))
+- **deps:** update all non-major dependencies ([6b79a92](https://github.com/ethberry/nestjs-packages/commit/6b79a92e253f62b07fe8f6209738d489d46e05ef))
 
-# [2.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.7...@gemunion/nest-js-validators@2.1.0) (2022-08-22)
+# [2.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.0.7...@ethberry/nest-js-validators@2.1.0) (2022-08-22)
 
 ### Features
 
-- IsBeforeDate validator ([742ac71](https://github.com/gemunion/nestjs-packages/commit/742ac71316bf8ec2ec04aec0beb1ccaaf6548a6e))
+- IsBeforeDate validator ([742ac71](https://github.com/ethberry/nestjs-packages/commit/742ac71316bf8ec2ec04aec0beb1ccaaf6548a6e))
 
-## [2.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.6...@gemunion/nest-js-validators@2.0.7) (2022-08-20)
+## [2.0.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.0.6...@ethberry/nest-js-validators@2.0.7) (2022-08-20)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [2.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.5...@gemunion/nest-js-validators@2.0.6) (2022-08-12)
-
-### Bug Fixes
-
-- ^0.0.0 -> ^0.0.1 ([ea0c5fd](https://github.com/gemunion/nestjs-packages/commit/ea0c5fdb81c7da519b82b1e9e545fef9fe098196))
-- **deps:** update all non-major dependencies ([f8bd161](https://github.com/gemunion/nestjs-packages/commit/f8bd161c3e2521e7a9e74bc8b3ebd915bc3341f2))
-- naming ([f503dc5](https://github.com/gemunion/nestjs-packages/commit/f503dc589a2d6a3c1b9faa5955a727420776bc02))
-
-## [2.0.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.4...@gemunion/nest-js-validators@2.0.5) (2022-08-05)
+## [2.0.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.0.5...@ethberry/nest-js-validators@2.0.6) (2022-08-12)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([aa5a34a](https://github.com/gemunion/nestjs-packages/commit/aa5a34a28af8f71490cb35be50380baeb5b18322))
+- ^0.0.0 -> ^0.0.1 ([ea0c5fd](https://github.com/ethberry/nestjs-packages/commit/ea0c5fdb81c7da519b82b1e9e545fef9fe098196))
+- **deps:** update all non-major dependencies ([f8bd161](https://github.com/ethberry/nestjs-packages/commit/f8bd161c3e2521e7a9e74bc8b3ebd915bc3341f2))
+- naming ([f503dc5](https://github.com/ethberry/nestjs-packages/commit/f503dc589a2d6a3c1b9faa5955a727420776bc02))
 
-## [2.0.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.3...@gemunion/nest-js-validators@2.0.4) (2022-07-31)
-
-**Note:** Version bump only for package @gemunion/nest-js-validators
-
-## [2.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.2...@gemunion/nest-js-validators@2.0.3) (2022-07-23)
+## [2.0.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.0.4...@ethberry/nest-js-validators@2.0.5) (2022-08-05)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([ea187bf](https://github.com/gemunion/nestjs-packages/commit/ea187bfbe8ad38d2a32117ec6f0a29efb570c062))
+- **deps:** update all non-major dependencies ([aa5a34a](https://github.com/ethberry/nestjs-packages/commit/aa5a34a28af8f71490cb35be50380baeb5b18322))
 
-## [2.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@2.0.1...@gemunion/nest-js-validators@2.0.2) (2022-07-16)
+## [2.0.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.0.3...@ethberry/nest-js-validators@2.0.4) (2022-07-31)
+
+**Note:** Version bump only for package @ethberry/nest-js-validators
+
+## [2.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.0.2...@ethberry/nest-js-validators@2.0.3) (2022-07-23)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([66ecd27](https://github.com/gemunion/nestjs-packages/commit/66ecd2712b6eaee29cd501eaf92775ec4c6be995))
-- **deps:** update all non-major dependencies ([7cf1e48](https://github.com/gemunion/nestjs-packages/commit/7cf1e485cc42f19e4272e0ba7db5a41d0b3065c0))
+- **deps:** update all non-major dependencies ([ea187bf](https://github.com/ethberry/nestjs-packages/commit/ea187bfbe8ad38d2a32117ec6f0a29efb570c062))
+
+## [2.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@2.0.1...@ethberry/nest-js-validators@2.0.2) (2022-07-16)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([66ecd27](https://github.com/ethberry/nestjs-packages/commit/66ecd2712b6eaee29cd501eaf92775ec4c6be995))
+- **deps:** update all non-major dependencies ([7cf1e48](https://github.com/ethberry/nestjs-packages/commit/7cf1e485cc42f19e4272e0ba7db5a41d0b3065c0))
 
 ## 2.0.1 (2022-07-08)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([f4f6036](https://github.com/gemunion/nestjs-packages/commit/f4f60367a2d58aad82f86cb87ef8c9c0ab2ab968))
+- **deps:** update all non-major dependencies ([f4f6036](https://github.com/ethberry/nestjs-packages/commit/f4f60367a2d58aad82f86cb87ef8c9c0ab2ab968))
 
 ## 1.5.10 (2022-07-02)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([804c603](https://github.com/gemunion/nestjs-packages/commit/804c603f7ca50f0817390f9367f243045e6dd4a1))
+- **deps:** update all non-major dependencies ([804c603](https://github.com/ethberry/nestjs-packages/commit/804c603f7ca50f0817390f9367f243045e6dd4a1))
 
-## [1.5.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.5.8...@gemunion/nest-js-validators@1.5.9) (2022-06-25)
+## [1.5.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.5.8...@ethberry/nest-js-validators@1.5.9) (2022-06-25)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([364cb67](https://github.com/gemunion/nestjs-packages/commit/364cb6747c494c3a553dc96419d22aa539552022))
+- **deps:** update all non-major dependencies ([364cb67](https://github.com/ethberry/nestjs-packages/commit/364cb6747c494c3a553dc96419d22aa539552022))
 
-## [1.5.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.5.7...@gemunion/nest-js-validators@1.5.8) (2022-06-18)
+## [1.5.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.5.7...@ethberry/nest-js-validators@1.5.8) (2022-06-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 1.5.7 (2022-06-11)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([ee3ea9e](https://github.com/gemunion/nestjs-packages/commit/ee3ea9e1411bf19dd9d39c97474481724b19b610))
+- **deps:** update all non-major dependencies ([ee3ea9e](https://github.com/ethberry/nestjs-packages/commit/ee3ea9e1411bf19dd9d39c97474481724b19b610))
 
-## [1.5.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.5.5...@gemunion/nest-js-validators@1.5.6) (2022-06-05)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([894fb7f](https://github.com/gemunion/nestjs-packages/commit/894fb7f873f24487ef582736bff2a35e1378aa63))
-
-## [1.5.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.5.4...@gemunion/nest-js-validators@1.5.5) (2022-06-04)
-
-**Note:** Version bump only for package @gemunion/nest-js-validators
-
-## [1.5.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.5.3...@gemunion/nest-js-validators@1.5.4) (2022-06-02)
+## [1.5.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.5.5...@ethberry/nest-js-validators@1.5.6) (2022-06-05)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([17da833](https://github.com/gemunion/nestjs-packages/commit/17da83350c4b8a1f519a36beeb40a08ab2ea013e))
+- **deps:** update all non-major dependencies ([894fb7f](https://github.com/ethberry/nestjs-packages/commit/894fb7f873f24487ef582736bff2a35e1378aa63))
 
-## [1.5.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.5.2...@gemunion/nest-js-validators@1.5.3) (2022-06-02)
+## [1.5.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.5.4...@ethberry/nest-js-validators@1.5.5) (2022-06-04)
 
-### Bug Fixes
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-- **deps:** update all non-major dependencies ([f08b2fa](https://github.com/gemunion/nestjs-packages/commit/f08b2fa02393bbf3a107fe78ca27dbe2d5388d43))
-
-## [1.5.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.5.1...@gemunion/nest-js-validators@1.5.2) (2022-06-02)
-
-**Note:** Version bump only for package @gemunion/nest-js-validators
-
-## [1.5.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.5.0...@gemunion/nest-js-validators@1.5.1) (2022-05-27)
+## [1.5.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.5.3...@ethberry/nest-js-validators@1.5.4) (2022-06-02)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([3ff15cf](https://github.com/gemunion/nestjs-packages/commit/3ff15cf38a1d6493b5a88e0615d3e94b9d6c5869))
+- **deps:** update all non-major dependencies ([17da833](https://github.com/ethberry/nestjs-packages/commit/17da83350c4b8a1f519a36beeb40a08ab2ea013e))
+
+## [1.5.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.5.2...@ethberry/nest-js-validators@1.5.3) (2022-06-02)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([f08b2fa](https://github.com/ethberry/nestjs-packages/commit/f08b2fa02393bbf3a107fe78ca27dbe2d5388d43))
+
+## [1.5.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.5.1...@ethberry/nest-js-validators@1.5.2) (2022-06-02)
+
+**Note:** Version bump only for package @ethberry/nest-js-validators
+
+## [1.5.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.5.0...@ethberry/nest-js-validators@1.5.1) (2022-05-27)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([3ff15cf](https://github.com/ethberry/nestjs-packages/commit/3ff15cf38a1d6493b5a88e0615d3e94b9d6c5869))
 
 # 1.5.0 (2022-05-25)
 
 ### Features
 
-- forbid enum values ([e70cb6d](https://github.com/gemunion/nestjs-packages/commit/e70cb6da2711a337f89a7922159020293e2f9067))
+- forbid enum values ([e70cb6d](https://github.com/ethberry/nestjs-packages/commit/e70cb6da2711a337f89a7922159020293e2f9067))
 
 ## 1.4.8 (2022-05-20)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([947923a](https://github.com/gemunion/nestjs-packages/commit/947923a9fa93b0b1e841b33e9fb5c277c7448a12))
+- **deps:** update all non-major dependencies ([947923a](https://github.com/ethberry/nestjs-packages/commit/947923a9fa93b0b1e841b33e9fb5c277c7448a12))
 
-## [1.4.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.4.6...@gemunion/nest-js-validators@1.4.7) (2022-05-15)
+## [1.4.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.4.6...@ethberry/nest-js-validators@1.4.7) (2022-05-15)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([edf7232](https://github.com/gemunion/nestjs-packages/commit/edf72324387865788d598c0496366ff317456ae5))
+- **deps:** update all non-major dependencies ([edf7232](https://github.com/ethberry/nestjs-packages/commit/edf72324387865788d598c0496366ff317456ae5))
 
 ## 1.4.6 (2022-05-14)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([247fb16](https://github.com/gemunion/nestjs-packages/commit/247fb16e455558413ae59bb7697e5404b6efed47))
+- **deps:** update all non-major dependencies ([247fb16](https://github.com/ethberry/nestjs-packages/commit/247fb16e455558413ae59bb7697e5404b6efed47))
 
-## [1.4.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.4.4...@gemunion/nest-js-validators@1.4.5) (2022-05-07)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([4b0edf1](https://github.com/gemunion/nestjs-packages/commit/4b0edf10272c5e0c474c1ff13ece1036d43a4987))
-
-## [1.4.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.4.3...@gemunion/nest-js-validators@1.4.4) (2022-05-05)
-
-**Note:** Version bump only for package @gemunion/nest-js-validators
-
-## [1.4.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.4.2...@gemunion/nest-js-validators@1.4.3) (2022-05-05)
+## [1.4.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.4.4...@ethberry/nest-js-validators@1.4.5) (2022-05-07)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([d080b8b](https://github.com/gemunion/nestjs-packages/commit/d080b8b529d921a6912253fd9e9a5a39c17e459b))
+- **deps:** update all non-major dependencies ([4b0edf1](https://github.com/ethberry/nestjs-packages/commit/4b0edf10272c5e0c474c1ff13ece1036d43a4987))
 
-## [1.4.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.4.1...@gemunion/nest-js-validators@1.4.2) (2022-05-03)
+## [1.4.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.4.3...@ethberry/nest-js-validators@1.4.4) (2022-05-05)
+
+**Note:** Version bump only for package @ethberry/nest-js-validators
+
+## [1.4.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.4.2...@ethberry/nest-js-validators@1.4.3) (2022-05-05)
 
 ### Bug Fixes
 
-- IsBigNumber allowEmptyString optional ([b038d78](https://github.com/gemunion/nestjs-packages/commit/b038d7842ccf79e5a38e4e37b8f91fa32e1ae5b0))
+- **deps:** update all non-major dependencies ([d080b8b](https://github.com/ethberry/nestjs-packages/commit/d080b8b529d921a6912253fd9e9a5a39c17e459b))
+
+## [1.4.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.4.1...@ethberry/nest-js-validators@1.4.2) (2022-05-03)
+
+### Bug Fixes
+
+- IsBigNumber allowEmptyString optional ([b038d78](https://github.com/ethberry/nestjs-packages/commit/b038d7842ccf79e5a38e4e37b8f91fa32e1ae5b0))
 
 ## 1.4.1 (2022-05-03)
 
 ### Bug Fixes
 
-- IsBigNumber allowEmptyString ([f33f4a2](https://github.com/gemunion/nestjs-packages/commit/f33f4a2b71ff921104c09491e7a6207fd861adc7))
+- IsBigNumber allowEmptyString ([f33f4a2](https://github.com/ethberry/nestjs-packages/commit/f33f4a2b71ff921104c09491e7a6207fd861adc7))
 
 # 1.4.0 (2022-05-02)
 
 ### Features
 
-- IsBigNumber validator ([bb78243](https://github.com/gemunion/nestjs-packages/commit/bb782437af0ef7914b1381b61447ddd732017b87))
+- IsBigNumber validator ([bb78243](https://github.com/ethberry/nestjs-packages/commit/bb782437af0ef7914b1381b61447ddd732017b87))
 
-## [1.3.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.3.8...@gemunion/nest-js-validators@1.3.9) (2022-04-29)
+## [1.3.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.3.8...@ethberry/nest-js-validators@1.3.9) (2022-04-29)
 
 ### Bug Fixes
 
-- peer deps ([7f35600](https://github.com/gemunion/nestjs-packages/commit/7f35600a9fef464bf2a7bdb0b031e379e8143db8))
+- peer deps ([7f35600](https://github.com/ethberry/nestjs-packages/commit/7f35600a9fef464bf2a7bdb0b031e379e8143db8))
 
 ## 1.3.8 (2022-04-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [1.3.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.3.6...@gemunion/nest-js-validators@1.3.7) (2022-04-09)
+## [1.3.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.3.6...@ethberry/nest-js-validators@1.3.7) (2022-04-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [1.3.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.3.5...@gemunion/nest-js-validators@1.3.6) (2022-04-09)
+## [1.3.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.3.5...@ethberry/nest-js-validators@1.3.6) (2022-04-09)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([714017b](https://github.com/gemunion/nestjs-packages/commit/714017be736b899f4d4a7a73eaf86499a3733012))
-- dont use process.env in re-captcha validator ([d297552](https://github.com/gemunion/nestjs-packages/commit/d297552bc44d22044e941a9c2fe405cae886eff7))
+- **deps:** update all non-major dependencies ([714017b](https://github.com/ethberry/nestjs-packages/commit/714017be736b899f4d4a7a73eaf86499a3733012))
+- dont use process.env in re-captcha validator ([d297552](https://github.com/ethberry/nestjs-packages/commit/d297552bc44d22044e941a9c2fe405cae886eff7))
 
 ## 1.3.5 (2022-04-01)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([fbf2144](https://github.com/gemunion/nestjs-packages/commit/fbf214493a2a11413ebf986c7a4a0a2676ddddd7))
+- **deps:** update all non-major dependencies ([fbf2144](https://github.com/ethberry/nestjs-packages/commit/fbf214493a2a11413ebf986c7a4a0a2676ddddd7))
 
-## [1.3.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.3.3...@gemunion/nest-js-validators@1.3.4) (2022-03-25)
+## [1.3.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.3.3...@ethberry/nest-js-validators@1.3.4) (2022-03-25)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([35783ab](https://github.com/gemunion/nestjs-packages/commit/35783abb1093ec8fa0ed1a6602fadac6e9fcd507))
+- **deps:** update all non-major dependencies ([35783ab](https://github.com/ethberry/nestjs-packages/commit/35783abb1093ec8fa0ed1a6602fadac6e9fcd507))
 
 ## 1.3.3 (2022-03-21)
 
 ### Bug Fixes
 
-- update nestjs config ([f722c26](https://github.com/gemunion/nestjs-packages/commit/f722c268fdeaf0d6f961dd453be77f228ce34d63))
+- update nestjs config ([f722c26](https://github.com/ethberry/nestjs-packages/commit/f722c268fdeaf0d6f961dd453be77f228ce34d63))
 
-## [1.3.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.3.1...@gemunion/nest-js-validators@1.3.2) (2022-03-19)
+## [1.3.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.3.1...@ethberry/nest-js-validators@1.3.2) (2022-03-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [1.3.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.3.0...@gemunion/nest-js-validators@1.3.1) (2022-03-14)
+## [1.3.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.3.0...@ethberry/nest-js-validators@1.3.1) (2022-03-14)
 
 ### Bug Fixes
 
-- dependencies ([65b7fd2](https://github.com/gemunion/nestjs-packages/commit/65b7fd27c841b92f58970bd6a7322d19cd0d7591))
+- dependencies ([65b7fd2](https://github.com/ethberry/nestjs-packages/commit/65b7fd27c841b92f58970bd6a7322d19cd0d7591))
 
 # 1.3.0 (2022-03-14)
 
 ### Features
 
-- update validators ([2b7fcc0](https://github.com/gemunion/nestjs-packages/commit/2b7fcc044edd8aa0dbda6fe670c71b8247517732))
+- update validators ([2b7fcc0](https://github.com/ethberry/nestjs-packages/commit/2b7fcc044edd8aa0dbda6fe670c71b8247517732))
 
 ## 1.2.11 (2022-01-31)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [1.2.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.2.9...@gemunion/nest-js-validators@1.2.10) (2022-01-22)
+## [1.2.10](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.2.9...@ethberry/nest-js-validators@1.2.10) (2022-01-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 1.2.9 (2022-01-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 1.2.8 (2022-01-14)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [1.2.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.2.6...@gemunion/nest-js-validators@1.2.7) (2021-12-20)
+## [1.2.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.2.6...@ethberry/nest-js-validators@1.2.7) (2021-12-20)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 1.2.6 (2021-11-26)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 1.2.5 (2021-10-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [1.2.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.2.3...@gemunion/nest-js-validators@1.2.4) (2021-08-29)
+## [1.2.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.2.3...@ethberry/nest-js-validators@1.2.4) (2021-08-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 1.2.3 (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 1.2.2 (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [1.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.2.0...@gemunion/nest-js-validators@1.2.1) (2021-08-16)
+## [1.2.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.2.0...@ethberry/nest-js-validators@1.2.1) (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 # 1.2.0 (2021-08-13)
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
-- path ([719b5dc](https://github.com/gemunion/nestjs-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
-- validation rule for password confirm field ([1c2592d](https://github.com/gemunion/nestjs-packages/commit/1c2592dd4dde452f3f258d7d9a02dcdd5a2e6319))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- path ([719b5dc](https://github.com/ethberry/nestjs-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
+- validation rule for password confirm field ([1c2592d](https://github.com/ethberry/nestjs-packages/commit/1c2592dd4dde452f3f258d7d9a02dcdd5a2e6319))
 
 ### Features
 
-- unify email modules ([ff6eebe](https://github.com/gemunion/nestjs-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+- unify email modules ([ff6eebe](https://github.com/ethberry/nestjs-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
 
-# [1.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.0.4...@gemunion/nest-js-validators@1.1.0) (2021-08-07)
+# [1.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.0.4...@ethberry/nest-js-validators@1.1.0) (2021-08-07)
 
 ### Features
 
-- unify email modules ([ff6eebe](https://github.com/gemunion/nestjs-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
+- unify email modules ([ff6eebe](https://github.com/ethberry/nestjs-packages/commit/ff6eebec500a2ab07077ac216879ec5af7c362e3))
 
 ## 1.0.4 (2021-08-07)
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
-- path ([719b5dc](https://github.com/gemunion/nestjs-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- path ([719b5dc](https://github.com/ethberry/nestjs-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
 
-## [1.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.0.2...@gemunion/nest-js-validators@1.0.3) (2021-08-06)
+## [1.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.0.2...@ethberry/nest-js-validators@1.0.3) (2021-08-06)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [1.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@1.0.1...@gemunion/nest-js-validators@1.0.2) (2021-07-22)
+## [1.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@1.0.1...@ethberry/nest-js-validators@1.0.2) (2021-07-22)
 
 ### Bug Fixes
 
-- path ([719b5dc](https://github.com/gemunion/nestjs-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
+- path ([719b5dc](https://github.com/ethberry/nestjs-packages/commit/719b5dc4e401dc23270829153dbf78236f6dd9a2))
 
-## [1.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@0.1.7...@gemunion/nest-js-validators@1.0.1) (2021-07-22)
+## [1.0.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@0.1.7...@ethberry/nest-js-validators@1.0.1) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.1.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@0.1.6...@gemunion/nest-js-validators@0.1.7) (2021-07-22)
+## [0.1.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@0.1.6...@ethberry/nest-js-validators@0.1.7) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.1.6 (2021-07-13)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.1.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@0.1.4...@gemunion/nest-js-validators@0.1.5) (2021-07-10)
+## [0.1.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@0.1.4...@ethberry/nest-js-validators@0.1.5) (2021-07-10)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.1.4 (2021-07-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.1.3 (2021-06-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-# [0.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@0.0.216...@gemunion/nest-js-validators@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@0.0.216...@ethberry/nest-js-validators@0.1.0) (2021-06-09)
 
 ### Features
 
-- use fetchJson ([fc3d86e](https://github.com/gemunion/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+- use fetchJson ([fc3d86e](https://github.com/ethberry/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 ## 0.0.216 (2021-06-01)
 
 ### Features
 
-- send app name to logDna ([df3476a](https://github.com/gemunion/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+- send app name to logDna ([df3476a](https://github.com/ethberry/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 ## 0.0.215 (2021-05-31)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.214 (2021-05-23)
 
 ### Bug Fixes
 
-- typeOrm config logging ([7734340](https://github.com/gemunion/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+- typeOrm config logging ([7734340](https://github.com/ethberry/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 ## 0.0.213 (2021-05-14)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.212 (2021-05-08)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/nestjs-packages/issues/48)) ([1854092](https://github.com/gemunion/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+- **deps:** update all non-major dependencies ([#48](https://github.com/ethberry/nestjs-packages/issues/48)) ([1854092](https://github.com/ethberry/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 ## 0.0.211 (2021-05-06)
 
 ### Bug Fixes
 
-- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/nestjs-packages/issues/47)) ([06b9b84](https://github.com/gemunion/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/ethberry/nestjs-packages/issues/47)) ([06b9b84](https://github.com/ethberry/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 ## 0.0.210 (2021-05-06)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.209 (2021-04-30)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.208 (2021-04-27)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.207 (2021-04-27)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.206 (2021-04-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.205 (2021-04-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.204 (2021-04-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.203 (2021-04-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.202 (2021-04-14)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.0.201](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-validators@0.0.200...@gemunion/nest-js-validators@0.0.201) (2021-03-29)
+## [0.0.201](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@0.0.200...@ethberry/nest-js-validators@0.0.201) (2021-03-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.200 (2021-03-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.199 (2021-03-27)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.198 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.197 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.196 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.0.195](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.194...@gemunion/nest-js-validators@0.0.195) (2021-03-24)
+## [0.0.195](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.194...@ethberry/nest-js-validators@0.0.195) (2021-03-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.194 (2021-03-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.193 (2021-03-23)
 
@@ -1010,7 +1010,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.182 (2021-03-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.181 (2021-03-13)
 
@@ -1050,7 +1050,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.175 (2021-03-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.174 (2021-03-09)
 
@@ -1060,7 +1060,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.173 (2021-03-07)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.172 (2021-03-05)
 
@@ -1070,7 +1070,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.171 (2021-03-05)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.170 (2021-03-05)
 
@@ -1092,15 +1092,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.167 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.166 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.165 (2021-03-01)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.164 (2021-02-27)
 
@@ -1128,7 +1128,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.160 (2021-02-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.159 (2021-02-24)
 
@@ -1138,7 +1138,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.158 (2021-02-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.157 (2021-02-24)
 
@@ -1154,7 +1154,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.155 (2021-02-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.154 (2021-02-21)
 
@@ -1164,11 +1164,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.153 (2021-02-20)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.152 (2021-02-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.151 (2021-02-19)
 
@@ -1178,7 +1178,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.150 (2021-02-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.149 (2021-02-17)
 
@@ -1194,7 +1194,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.147 (2021-02-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.146 (2021-02-16)
 
@@ -1210,7 +1210,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.144 (2021-02-13)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.143 (2021-02-12)
 
@@ -1220,11 +1220,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.142 (2021-02-12)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.141 (2021-02-12)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.140 (2021-02-10)
 
@@ -1246,7 +1246,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.137 (2021-02-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.136 (2021-02-08)
 
@@ -1262,7 +1262,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.134 (2021-02-05)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.133 (2021-02-04)
 
@@ -1278,7 +1278,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.131 (2021-02-04)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.130 (2021-02-03)
 
@@ -1288,7 +1288,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.129 (2021-02-03)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.128 (2021-02-03)
 
@@ -1298,11 +1298,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.127 (2021-02-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.126 (2021-02-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.125 (2021-02-01)
 
@@ -1510,7 +1510,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.91 (2021-01-03)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.90 (2021-01-01)
 
@@ -1772,42 +1772,42 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.47 (2020-11-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.46 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.45 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.0.44](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.43...@gemunion/nest-js-validators@0.0.44) (2020-11-23)
+## [0.0.44](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.43...@ethberry/nest-js-validators@0.0.44) (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.43 (2020-11-23)
 
 ### Bug Fixes
 
-- use @gemunion/types-misc 0.0.12 ([266e730](https://github.com/memoryos/nest-js/commit/266e7307ed39fa5cc4332ca9b51fecdd13d207ca))
-- **deps:** update dependency @gemunion/types-misc to v0.0.10 ([eea50ef](https://github.com/memoryos/nest-js/commit/eea50efb029e09f1e832b8da6c348f7bc19e0124))
-- **deps:** update dependency @gemunion/types-misc to v0.0.11 ([d30ff12](https://github.com/memoryos/nest-js/commit/d30ff12814460e3335fa3622fc0a1a4114045d9d))
-- **deps:** update dependency @gemunion/types-misc to v0.0.12 ([20b01d6](https://github.com/memoryos/nest-js/commit/20b01d6dc3460cbc93408803f10f939bccec9e5b))
-- **deps:** update dependency @gemunion/types-misc to v0.0.4 ([b5e586b](https://github.com/memoryos/nest-js/commit/b5e586b0da162242f63b0f97ac3f826a152b3c5d))
-- **deps:** update dependency @gemunion/types-misc to v0.0.5 ([29a38c1](https://github.com/memoryos/nest-js/commit/29a38c1a9187e1b61c466b220146c86197698881))
-- **deps:** update dependency @gemunion/types-misc to v0.0.6 ([2804ce8](https://github.com/memoryos/nest-js/commit/2804ce8ab0f243ccb13a1cb5f6679c9ce51b3f16))
-- **deps:** update dependency @gemunion/types-misc to v0.0.7 ([2694b2a](https://github.com/memoryos/nest-js/commit/2694b2ad3b6c842dde156d19975ba46b1637753a))
-- **deps:** update dependency @gemunion/types-misc to v0.0.8 ([70405e2](https://github.com/memoryos/nest-js/commit/70405e22119d5ba8c246bb7cef0cd7a7243a2dba))
-- **deps:** update dependency @gemunion/types-misc to v0.0.9 ([e92350a](https://github.com/memoryos/nest-js/commit/e92350a233e40c40dcf5e754f2c114679d5d6698))
+- use @ethberry/types-misc 0.0.12 ([266e730](https://github.com/memoryos/nest-js/commit/266e7307ed39fa5cc4332ca9b51fecdd13d207ca))
+- **deps:** update dependency @ethberry/types-misc to v0.0.10 ([eea50ef](https://github.com/memoryos/nest-js/commit/eea50efb029e09f1e832b8da6c348f7bc19e0124))
+- **deps:** update dependency @ethberry/types-misc to v0.0.11 ([d30ff12](https://github.com/memoryos/nest-js/commit/d30ff12814460e3335fa3622fc0a1a4114045d9d))
+- **deps:** update dependency @ethberry/types-misc to v0.0.12 ([20b01d6](https://github.com/memoryos/nest-js/commit/20b01d6dc3460cbc93408803f10f939bccec9e5b))
+- **deps:** update dependency @ethberry/types-misc to v0.0.4 ([b5e586b](https://github.com/memoryos/nest-js/commit/b5e586b0da162242f63b0f97ac3f826a152b3c5d))
+- **deps:** update dependency @ethberry/types-misc to v0.0.5 ([29a38c1](https://github.com/memoryos/nest-js/commit/29a38c1a9187e1b61c466b220146c86197698881))
+- **deps:** update dependency @ethberry/types-misc to v0.0.6 ([2804ce8](https://github.com/memoryos/nest-js/commit/2804ce8ab0f243ccb13a1cb5f6679c9ce51b3f16))
+- **deps:** update dependency @ethberry/types-misc to v0.0.7 ([2694b2a](https://github.com/memoryos/nest-js/commit/2694b2ad3b6c842dde156d19975ba46b1637753a))
+- **deps:** update dependency @ethberry/types-misc to v0.0.8 ([70405e2](https://github.com/memoryos/nest-js/commit/70405e22119d5ba8c246bb7cef0cd7a7243a2dba))
+- **deps:** update dependency @ethberry/types-misc to v0.0.9 ([e92350a](https://github.com/memoryos/nest-js/commit/e92350a233e40c40dcf5e754f2c114679d5d6698))
 
 ## 0.0.41 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.41 (2020-11-21)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
 ## 0.0.40 (2020-11-20)
 
@@ -1879,7 +1879,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/redis to v0.0.15 ([2b5a0fc](https://github.com/memoryos/nest-js/commit/2b5a0fc2018fd89a150d6a4c4f185bb7ee19cff5))
+- **deps:** update dependency @ethberry/redis to v0.0.15 ([2b5a0fc](https://github.com/memoryos/nest-js/commit/2b5a0fc2018fd89a150d6a4c4f185bb7ee19cff5))
 
 ## 0.0.28 (2020-11-16)
 
@@ -1939,13 +1939,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/redis to v0.0.14 ([705e598](https://github.com/memoryos/nest-js/commit/705e598ca54f6202a38052e43c8b8574742bab20))
+- **deps:** update dependency @ethberry/redis to v0.0.14 ([705e598](https://github.com/memoryos/nest-js/commit/705e598ca54f6202a38052e43c8b8574742bab20))
 
 ## 0.0.18 (2020-11-09)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/redis to v0.0.13 ([a82131d](https://github.com/memoryos/nest-js/commit/a82131d992d0914a3dd896fb837eaf938c631d73))
+- **deps:** update dependency @ethberry/redis to v0.0.13 ([a82131d](https://github.com/memoryos/nest-js/commit/a82131d992d0914a3dd896fb837eaf938c631d73))
 
 ## 0.0.17 (2020-11-09)
 
@@ -1957,7 +1957,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/redis to v0.0.12 ([e029d3b](https://github.com/memoryos/nest-js/commit/e029d3bb0a0268d4c870a3b4e46761354ddec5fc))
+- **deps:** update dependency @ethberry/redis to v0.0.12 ([e029d3b](https://github.com/memoryos/nest-js/commit/e029d3bb0a0268d4c870a3b4e46761354ddec5fc))
 
 ## 0.0.15 (2020-11-06)
 
@@ -1971,40 +1971,40 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **deps:** update dependency @nestjs/swagger to v4.7.0 ([90453aa](https://github.com/memoryos/nest-js/commit/90453aa053fcbb3cec48b8a08392a622f2626968))
 
-## [0.0.13](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.12...@gemunion/nest-js-validators@0.0.13) (2020-11-06)
+## [0.0.13](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.12...@ethberry/nest-js-validators@0.0.13) (2020-11-06)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.0.12](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.11...@gemunion/nest-js-validators@0.0.12) (2020-11-04)
+## [0.0.12](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.11...@ethberry/nest-js-validators@0.0.12) (2020-11-04)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.0.11](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.10...@gemunion/nest-js-validators@0.0.11) (2020-11-02)
+## [0.0.11](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.10...@ethberry/nest-js-validators@0.0.11) (2020-11-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.0.10](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.9...@gemunion/nest-js-validators@0.0.10) (2020-10-29)
+## [0.0.10](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.9...@ethberry/nest-js-validators@0.0.10) (2020-10-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.0.9](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.8...@gemunion/nest-js-validators@0.0.9) (2020-10-28)
+## [0.0.9](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.8...@ethberry/nest-js-validators@0.0.9) (2020-10-28)
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/types-misc to v0.0.10 ([eea50ef](https://github.com/memoryos/nest-js/commit/eea50efb029e09f1e832b8da6c348f7bc19e0124))
-- **deps:** update dependency @gemunion/types-misc to v0.0.11 ([d30ff12](https://github.com/memoryos/nest-js/commit/d30ff12814460e3335fa3622fc0a1a4114045d9d))
-- **deps:** update dependency @gemunion/types-misc to v0.0.12 ([20b01d6](https://github.com/memoryos/nest-js/commit/20b01d6dc3460cbc93408803f10f939bccec9e5b))
-- **deps:** update dependency @gemunion/types-misc to v0.0.4 ([b5e586b](https://github.com/memoryos/nest-js/commit/b5e586b0da162242f63b0f97ac3f826a152b3c5d))
-- **deps:** update dependency @gemunion/types-misc to v0.0.5 ([29a38c1](https://github.com/memoryos/nest-js/commit/29a38c1a9187e1b61c466b220146c86197698881))
-- **deps:** update dependency @gemunion/types-misc to v0.0.6 ([2804ce8](https://github.com/memoryos/nest-js/commit/2804ce8ab0f243ccb13a1cb5f6679c9ce51b3f16))
-- **deps:** update dependency @gemunion/types-misc to v0.0.7 ([2694b2a](https://github.com/memoryos/nest-js/commit/2694b2ad3b6c842dde156d19975ba46b1637753a))
-- **deps:** update dependency @gemunion/types-misc to v0.0.8 ([70405e2](https://github.com/memoryos/nest-js/commit/70405e22119d5ba8c246bb7cef0cd7a7243a2dba))
-- **deps:** update dependency @gemunion/types-misc to v0.0.9 ([e92350a](https://github.com/memoryos/nest-js/commit/e92350a233e40c40dcf5e754f2c114679d5d6698))
+- **deps:** update dependency @ethberry/types-misc to v0.0.10 ([eea50ef](https://github.com/memoryos/nest-js/commit/eea50efb029e09f1e832b8da6c348f7bc19e0124))
+- **deps:** update dependency @ethberry/types-misc to v0.0.11 ([d30ff12](https://github.com/memoryos/nest-js/commit/d30ff12814460e3335fa3622fc0a1a4114045d9d))
+- **deps:** update dependency @ethberry/types-misc to v0.0.12 ([20b01d6](https://github.com/memoryos/nest-js/commit/20b01d6dc3460cbc93408803f10f939bccec9e5b))
+- **deps:** update dependency @ethberry/types-misc to v0.0.4 ([b5e586b](https://github.com/memoryos/nest-js/commit/b5e586b0da162242f63b0f97ac3f826a152b3c5d))
+- **deps:** update dependency @ethberry/types-misc to v0.0.5 ([29a38c1](https://github.com/memoryos/nest-js/commit/29a38c1a9187e1b61c466b220146c86197698881))
+- **deps:** update dependency @ethberry/types-misc to v0.0.6 ([2804ce8](https://github.com/memoryos/nest-js/commit/2804ce8ab0f243ccb13a1cb5f6679c9ce51b3f16))
+- **deps:** update dependency @ethberry/types-misc to v0.0.7 ([2694b2a](https://github.com/memoryos/nest-js/commit/2694b2ad3b6c842dde156d19975ba46b1637753a))
+- **deps:** update dependency @ethberry/types-misc to v0.0.8 ([70405e2](https://github.com/memoryos/nest-js/commit/70405e22119d5ba8c246bb7cef0cd7a7243a2dba))
+- **deps:** update dependency @ethberry/types-misc to v0.0.9 ([e92350a](https://github.com/memoryos/nest-js/commit/e92350a233e40c40dcf5e754f2c114679d5d6698))
 
-## [0.0.8](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.7...@gemunion/nest-js-validators@0.0.8) (2020-10-21)
+## [0.0.8](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.7...@ethberry/nest-js-validators@0.0.8) (2020-10-21)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators
 
-## [0.0.7](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-validators@0.0.6...@gemunion/nest-js-validators@0.0.7) (2020-10-15)
+## [0.0.7](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-validators@0.0.6...@ethberry/nest-js-validators@0.0.7) (2020-10-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-validators
+**Note:** Version bump only for package @ethberry/nest-js-validators

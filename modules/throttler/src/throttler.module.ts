@@ -5,7 +5,7 @@ import type { ThrottlerModuleOptions } from "@nestjs/throttler";
 import { RedisManager } from "@liaoliaots/nestjs-redis";
 import { ThrottlerStorageRedisService } from "@nest-lab/throttler-storage-redis";
 
-import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 
 import { THROTTLE_STORE } from "./throttler.constants";
 

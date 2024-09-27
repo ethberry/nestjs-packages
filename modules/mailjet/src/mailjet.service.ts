@@ -1,7 +1,7 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import Client, { LibraryResponse } from "node-mailjet";
 
-import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
+import { IEmailResult, ISendEmailDto, ISendMailService } from "@ethberry/types-email";
 
 import { MAILJET_OPTIONS_PROVIDER } from "./mailjet.constants";
 import { IContact, IMailjetOptions, ISendTemplateDto, TResponse } from "./interfaces";
@@ -62,7 +62,7 @@ export class MailjetService implements ISendMailService {
             TemplateID: dto.template,
             TemplateLanguage: true,
             TemplateErrorReporting: {
-              Email: "trejgun@gemunion.io",
+              Email: "trejgun@gmail.com",
               Name: "TrejGun",
             },
             Variables: dto.data,

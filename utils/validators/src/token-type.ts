@@ -3,7 +3,7 @@ import { IsEnum } from "class-validator";
 import { Transform } from "class-transformer";
 import { decorate } from "ts-mixer";
 
-import { TokenType } from "@gemunion/types-blockchain";
+import { TokenType } from "@ethberry/types-blockchain";
 
 export class TokenTypeDto {
   @decorate(

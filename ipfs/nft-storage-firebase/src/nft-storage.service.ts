@@ -2,7 +2,7 @@ import { Inject, Injectable } from "@nestjs/common";
 import { Readable, Writable } from "stream";
 
 import { Blob, NFTStorage } from "nft.storage";
-import { FirebaseService } from "@gemunion/nest-js-module-firebase";
+import { FirebaseService } from "@ethberry/nest-js-module-firebase";
 
 import { NFTSTORAGE_OPTIONS_PROVIDER } from "./nft-storage.constants";
 import { INftStorageOptions } from "./interfaces";

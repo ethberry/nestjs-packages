@@ -1,15 +1,15 @@
 {
   "author": {
-    "email": "trejgun@gemunion.io",
+    "email": "trejgun+ethberry@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/nestjs-packages/issues"
+    "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.13.1",
-    "@gemunion/nest-js-module-firebase": "2.0.52",
+    "@ethberry/constants": "0.13.2",
+    "@ethberry/nest-js-module-firebase": "2.0.52",
     "@golevelup/nestjs-modules": "0.7.1",
     "@pinata/sdk": "2.1.0",
     "express": "4.21.0"
@@ -25,7 +25,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "dist/index.js",
-  "name": "@gemunion/nest-js-module-pinata-firebase",
+  "name": "@ethberry/nest-js-module-pinata-firebase",
   "peerDependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0"
@@ -35,17 +35,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunion/nestjs-packages"
+    "url": "https://github.com/ethberry/nestjs-packages"
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint  --fix",
+    "lint": "eslint . --fix",
     "prebuild": "rimraf dist",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
   },
-  "title": "-=Gemun Ion Studio=-",
+  "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
   "version": "3.0.55"
 }

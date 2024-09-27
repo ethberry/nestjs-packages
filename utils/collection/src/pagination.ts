@@ -3,8 +3,8 @@ import { IsInt, IsOptional, Min } from "class-validator";
 import { Type } from "class-transformer";
 import { decorate } from "ts-mixer";
 
-import { IPaginationDto } from "@gemunion/types-collection";
-import { defaultItemsPerPage } from "@gemunion/constants";
+import { IPaginationDto } from "@ethberry/types-collection";
+import { defaultItemsPerPage } from "@ethberry/constants";
 
 export class PaginationDto implements IPaginationDto {
   @decorate(

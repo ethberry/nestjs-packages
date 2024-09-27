@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner } from "typeorm";
-import { EnabledLanguages } from "@gemunion/constants";
+import { EnabledLanguages } from "@ethberry/constants";
 
 export function createLanguageEnum(ns: string, languages = Object.keys(EnabledLanguages)) {
   return class CreateLanguageEnum1561991000004 implements MigrationInterface {

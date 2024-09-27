@@ -1,7 +1,7 @@
 import { DynamicModule, Module } from "@nestjs/common";
 import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
-import { LicenseModule, licenseProvider } from "@gemunion/nest-js-module-license";
+import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 
 import { IFirebaseOptions } from "./interfaces";
 import { FirebaseService } from "./firebase.service";

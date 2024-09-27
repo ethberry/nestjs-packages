@@ -3,898 +3,898 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [4.2.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.14...@gemunion/nest-js-utils@4.2.15) (2024-09-21)
+## [4.2.15](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.2.14...@ethberry/nest-js-utils@4.2.15) (2024-09-21)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.2.14 (2024-09-14)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([3c69b3f](https://github.com/gemunion/nestjs-packages/commit/3c69b3f024c5d0394d01f216a1bc6d67a19fed42))
+- **deps:** update all non-major dependencies ([3c69b3f](https://github.com/ethberry/nestjs-packages/commit/3c69b3f024c5d0394d01f216a1bc6d67a19fed42))
 
 ## 4.2.13 (2024-08-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.2.12 (2024-07-27)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([b7802e1](https://github.com/gemunion/nestjs-packages/commit/b7802e1343689558cb7764aa880c720b8ffe5747))
+- **deps:** update all non-major dependencies ([b7802e1](https://github.com/ethberry/nestjs-packages/commit/b7802e1343689558cb7764aa880c720b8ffe5747))
 
 ## 4.2.11 (2024-07-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.2.10 (2024-07-06)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.2.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.8...@gemunion/nest-js-utils@4.2.9) (2024-06-22)
+## [4.2.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.2.8...@ethberry/nest-js-utils@4.2.9) (2024-06-22)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([fa6b5c1](https://github.com/gemunion/nestjs-packages/commit/fa6b5c1ad0440c4ea758f9b2b3c81b19a30051df))
+- **deps:** update all non-major dependencies ([fa6b5c1](https://github.com/ethberry/nestjs-packages/commit/fa6b5c1ad0440c4ea758f9b2b3c81b19a30051df))
 
 ## 4.2.8 (2024-06-13)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.2.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.6...@gemunion/nest-js-utils@4.2.7) (2024-06-07)
+## [4.2.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.2.6...@ethberry/nest-js-utils@4.2.7) (2024-06-07)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([83c82f1](https://github.com/gemunion/nestjs-packages/commit/83c82f105c0e4e2c59b7080418041b4e08b9d1d7))
+- **deps:** update all non-major dependencies ([83c82f1](https://github.com/ethberry/nestjs-packages/commit/83c82f105c0e4e2c59b7080418041b4e08b9d1d7))
 
 ## 4.2.6 (2024-05-16)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([d1d8df8](https://github.com/gemunion/nestjs-packages/commit/d1d8df8b937ded51839a9248e0e9d71b35192d35))
+- **deps:** update all non-major dependencies ([d1d8df8](https://github.com/ethberry/nestjs-packages/commit/d1d8df8b937ded51839a9248e0e9d71b35192d35))
 
-## [4.2.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.4...@gemunion/nest-js-utils@4.2.5) (2024-04-23)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([0601b56](https://github.com/gemunion/nestjs-packages/commit/0601b56f4dda0d45cbbb37dd63cd53ac3ff27090))
-
-## [4.2.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.3...@gemunion/nest-js-utils@4.2.4) (2024-04-14)
+## [4.2.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.2.4...@ethberry/nest-js-utils@4.2.5) (2024-04-23)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([f9781ba](https://github.com/gemunion/nestjs-packages/commit/f9781bada99459c4672e6879b551905b0e2d94ca))
+- **deps:** update all non-major dependencies ([0601b56](https://github.com/ethberry/nestjs-packages/commit/0601b56f4dda0d45cbbb37dd63cd53ac3ff27090))
+
+## [4.2.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.2.3...@ethberry/nest-js-utils@4.2.4) (2024-04-14)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([f9781ba](https://github.com/ethberry/nestjs-packages/commit/f9781bada99459c4672e6879b551905b0e2d94ca))
 
 ## 4.2.3 (2024-03-20)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.2.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.1...@gemunion/nest-js-utils@4.2.2) (2024-03-02)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([a26a8a7](https://github.com/gemunion/nestjs-packages/commit/a26a8a79f17ea104c94d50a5319420486348d704))
-
-## [4.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.2.0...@gemunion/nest-js-utils@4.2.1) (2024-02-19)
+## [4.2.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.2.1...@ethberry/nest-js-utils@4.2.2) (2024-03-02)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([27b551a](https://github.com/gemunion/nestjs-packages/commit/27b551ad34d8e2c947f6752f234e0622905667c7))
+- **deps:** update all non-major dependencies ([a26a8a7](https://github.com/ethberry/nestjs-packages/commit/a26a8a79f17ea104c94d50a5319420486348d704))
+
+## [4.2.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.2.0...@ethberry/nest-js-utils@4.2.1) (2024-02-19)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([27b551a](https://github.com/ethberry/nestjs-packages/commit/27b551ad34d8e2c947f6752f234e0622905667c7))
 
 # 4.2.0 (2024-02-03)
 
 ### Features
 
-- add chainId decorator and pipe ([a3617e7](https://github.com/gemunion/nestjs-packages/commit/a3617e7bcfddb06758b8c2016bc7686b65c362df))
+- add chainId decorator and pipe ([a3617e7](https://github.com/ethberry/nestjs-packages/commit/a3617e7bcfddb06758b8c2016bc7686b65c362df))
 
-## [4.1.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.17...@gemunion/nest-js-utils@4.1.18) (2024-01-16)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([59a8b46](https://github.com/gemunion/nestjs-packages/commit/59a8b465b2468dacb0753a8217a9247f9586b1ad))
-
-## [4.1.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.16...@gemunion/nest-js-utils@4.1.17) (2023-12-30)
+## [4.1.18](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.17...@ethberry/nest-js-utils@4.1.18) (2024-01-16)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([dd0df23](https://github.com/gemunion/nestjs-packages/commit/dd0df234525abb2226a971e49ab61a041074aaf4))
+- **deps:** update all non-major dependencies ([59a8b46](https://github.com/ethberry/nestjs-packages/commit/59a8b465b2468dacb0753a8217a9247f9586b1ad))
 
-## [4.1.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.15...@gemunion/nest-js-utils@4.1.16) (2023-12-16)
-
-**Note:** Version bump only for package @gemunion/nest-js-utils
-
-## [4.1.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.14...@gemunion/nest-js-utils@4.1.15) (2023-12-08)
+## [4.1.17](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.16...@ethberry/nest-js-utils@4.1.17) (2023-12-30)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([0f08165](https://github.com/gemunion/nestjs-packages/commit/0f081650fcb2bbf402bc72136c9dea53ad709bd7))
+- **deps:** update all non-major dependencies ([dd0df23](https://github.com/ethberry/nestjs-packages/commit/dd0df234525abb2226a971e49ab61a041074aaf4))
 
-## [4.1.14](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.13...@gemunion/nest-js-utils@4.1.14) (2023-11-18)
+## [4.1.16](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.15...@ethberry/nest-js-utils@4.1.16) (2023-12-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.1.13](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.12...@gemunion/nest-js-utils@4.1.13) (2023-11-12)
+## [4.1.15](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.14...@ethberry/nest-js-utils@4.1.15) (2023-12-08)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([0f08165](https://github.com/ethberry/nestjs-packages/commit/0f081650fcb2bbf402bc72136c9dea53ad709bd7))
+
+## [4.1.14](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.13...@ethberry/nest-js-utils@4.1.14) (2023-11-18)
+
+**Note:** Version bump only for package @ethberry/nest-js-utils
+
+## [4.1.13](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.12...@ethberry/nest-js-utils@4.1.13) (2023-11-12)
+
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.1.12 (2023-11-04)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([e6b8056](https://github.com/gemunion/nestjs-packages/commit/e6b80564ab65c93870f13587efd5b41f8fb58a02))
+- **deps:** update all non-major dependencies ([e6b8056](https://github.com/ethberry/nestjs-packages/commit/e6b80564ab65c93870f13587efd5b41f8fb58a02))
 
 ## 4.1.11 (2023-10-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.1.10 (2023-10-18)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([8c11fa5](https://github.com/gemunion/nestjs-packages/commit/8c11fa538dd3569df245c96fecbd39205244c1c0))
+- **deps:** update all non-major dependencies ([8c11fa5](https://github.com/ethberry/nestjs-packages/commit/8c11fa538dd3569df245c96fecbd39205244c1c0))
 
-## [4.1.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.8...@gemunion/nest-js-utils@4.1.9) (2023-10-07)
+## [4.1.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.8...@ethberry/nest-js-utils@4.1.9) (2023-10-07)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.1.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.7...@gemunion/nest-js-utils@4.1.8) (2023-09-30)
+## [4.1.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.7...@ethberry/nest-js-utils@4.1.8) (2023-09-30)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.1.7 (2023-09-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.1.6 (2023-09-04)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.1.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.4...@gemunion/nest-js-utils@4.1.5) (2023-08-25)
+## [4.1.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.4...@ethberry/nest-js-utils@4.1.5) (2023-08-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.1.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.1.3...@gemunion/nest-js-utils@4.1.4) (2023-08-22)
+## [4.1.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.1.3...@ethberry/nest-js-utils@4.1.4) (2023-08-22)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([dec6ce8](https://github.com/gemunion/nestjs-packages/commit/dec6ce8fe0135599bee726e233c6394711577d30))
+- **deps:** update all non-major dependencies ([dec6ce8](https://github.com/ethberry/nestjs-packages/commit/dec6ce8fe0135599bee726e233c6394711577d30))
 
 ## 4.1.3 (2023-08-12)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.1.2 (2023-08-05)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([1ee881a](https://github.com/gemunion/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
+- **deps:** update all non-major dependencies ([1ee881a](https://github.com/ethberry/nestjs-packages/commit/1ee881a231084c4c68c605dc336df66928b34b3f))
 
 ## 4.1.1 (2023-07-29)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([7e64ca6](https://github.com/gemunion/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
+- **deps:** update all non-major dependencies ([7e64ca6](https://github.com/ethberry/nestjs-packages/commit/7e64ca66e1f90ef14b36a9a0f414578a787a49de))
 
-# [4.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.9...@gemunion/nest-js-utils@4.1.0) (2023-07-25)
+# [4.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.0.9...@ethberry/nest-js-utils@4.1.0) (2023-07-25)
 
 ### Features
 
-- add 'payment required' error ([89a238c](https://github.com/gemunion/nestjs-packages/commit/89a238c662b1feec7a2a9e57e44a8ddd575d7e72))
+- add 'payment required' error ([89a238c](https://github.com/ethberry/nestjs-packages/commit/89a238c662b1feec7a2a9e57e44a8ddd575d7e72))
 
-## [4.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.8...@gemunion/nest-js-utils@4.0.9) (2023-07-25)
+## [4.0.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.0.8...@ethberry/nest-js-utils@4.0.9) (2023-07-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.0.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.7...@gemunion/nest-js-utils@4.0.8) (2023-07-23)
+## [4.0.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.0.7...@ethberry/nest-js-utils@4.0.8) (2023-07-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.0.7 (2023-07-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.5...@gemunion/nest-js-utils@4.0.6) (2023-07-15)
+## [4.0.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.0.5...@ethberry/nest-js-utils@4.0.6) (2023-07-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.0.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.4...@gemunion/nest-js-utils@4.0.5) (2023-07-15)
+## [4.0.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.0.4...@ethberry/nest-js-utils@4.0.5) (2023-07-15)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([a9399e0](https://github.com/gemunion/nestjs-packages/commit/a9399e0d157b5e4c3952919b9279aa7e0b20f4b8))
+- **deps:** update all non-major dependencies ([a9399e0](https://github.com/ethberry/nestjs-packages/commit/a9399e0d157b5e4c3952919b9279aa7e0b20f4b8))
 
 ## 4.0.4 (2023-07-11)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [4.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.2...@gemunion/nest-js-utils@4.0.3) (2023-06-30)
+## [4.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.0.2...@ethberry/nest-js-utils@4.0.3) (2023-06-30)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([294f308](https://github.com/gemunion/nestjs-packages/commit/294f308e6894bed862e0c83839d104853605e1f8))
-- **deps:** update all non-major dependencies ([2a6a2c5](https://github.com/gemunion/nestjs-packages/commit/2a6a2c5c38e6828650206f6e5dbfa7857c61ef10))
+- **deps:** update all non-major dependencies ([294f308](https://github.com/ethberry/nestjs-packages/commit/294f308e6894bed862e0c83839d104853605e1f8))
+- **deps:** update all non-major dependencies ([2a6a2c5](https://github.com/ethberry/nestjs-packages/commit/2a6a2c5c38e6828650206f6e5dbfa7857c61ef10))
 
-## [4.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@4.0.1...@gemunion/nest-js-utils@4.0.2) (2023-06-17)
+## [4.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.0.1...@ethberry/nest-js-utils@4.0.2) (2023-06-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 4.0.1 (2023-06-17)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([4208441](https://github.com/gemunion/nestjs-packages/commit/4208441a9c3279b432de6204625ab560cfc02411))
-- tsconfig ([f87654a](https://github.com/gemunion/nestjs-packages/commit/f87654a2865ada7d6cba8c3a496c298baf198d1b))
+- **deps:** update all non-major dependencies ([4208441](https://github.com/ethberry/nestjs-packages/commit/4208441a9c3279b432de6204625ab560cfc02411))
+- tsconfig ([f87654a](https://github.com/ethberry/nestjs-packages/commit/f87654a2865ada7d6cba8c3a496c298baf198d1b))
 
 ## 3.0.2 (2023-06-11)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([ed3d290](https://github.com/gemunion/nestjs-packages/commit/ed3d29096a98dab6b2ba7d34c08051275cd9ce09))
+- **deps:** update all non-major dependencies ([ed3d290](https://github.com/ethberry/nestjs-packages/commit/ed3d29096a98dab6b2ba7d34c08051275cd9ce09))
 
-## [3.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.1.17...@gemunion/nest-js-utils@3.0.1) (2023-06-03)
+## [3.0.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.1.17...@ethberry/nest-js-utils@3.0.1) (2023-06-03)
 
 ### Bug Fixes
 
-- manualy update deps ([bccb1a0](https://github.com/gemunion/nestjs-packages/commit/bccb1a095df18dac807d7d5189502e3239236230))
+- manualy update deps ([bccb1a0](https://github.com/ethberry/nestjs-packages/commit/bccb1a095df18dac807d7d5189502e3239236230))
 
 ## 2.1.17 (2023-05-26)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.1.16 (2023-04-29)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([a76e963](https://github.com/gemunion/nestjs-packages/commit/a76e9634612cf81c503ac440e19c7fa47763cb84))
+- **deps:** update all non-major dependencies ([a76e963](https://github.com/ethberry/nestjs-packages/commit/a76e9634612cf81c503ac440e19c7fa47763cb84))
 
 ## 2.1.15 (2023-04-10)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.1.14](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.1.13...@gemunion/nest-js-utils@2.1.14) (2023-04-08)
+## [2.1.14](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.1.13...@ethberry/nest-js-utils@2.1.14) (2023-04-08)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.1.13 (2023-04-05)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.1.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.1.11...@gemunion/nest-js-utils@2.1.12) (2023-03-25)
+## [2.1.12](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.1.11...@ethberry/nest-js-utils@2.1.12) (2023-03-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.1.11 (2023-03-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.1.10 (2023-02-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.1.9 (2023-02-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.1.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.1.7...@gemunion/nest-js-utils@2.1.8) (2023-02-11)
+## [2.1.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.1.7...@ethberry/nest-js-utils@2.1.8) (2023-02-11)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.1.7 (2023-02-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.1.6 (2023-02-04)
 
 ### Bug Fixes
 
-- manually update nestjs/axious ([e6297ce](https://github.com/gemunion/nestjs-packages/commit/e6297ce347b7fa4974a695778bf544276f54e4e4))
+- manually update nestjs/axious ([e6297ce](https://github.com/ethberry/nestjs-packages/commit/e6297ce347b7fa4974a695778bf544276f54e4e4))
 
 ## 2.1.5 (2023-01-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.1.4 (2022-12-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.1.2...@gemunion/nest-js-utils@2.1.3) (2022-12-17)
+## [2.1.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.1.2...@ethberry/nest-js-utils@2.1.3) (2022-12-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.1.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.1.1...@gemunion/nest-js-utils@2.1.2) (2022-12-10)
+## [2.1.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.1.1...@ethberry/nest-js-utils@2.1.2) (2022-12-10)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([8752c10](https://github.com/gemunion/nestjs-packages/commit/8752c109c6ae75373290bb039a87670743dd84fe))
+- **deps:** update all non-major dependencies ([8752c10](https://github.com/ethberry/nestjs-packages/commit/8752c109c6ae75373290bb039a87670743dd84fe))
 
 ## 2.1.1 (2022-12-04)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-# [2.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.19...@gemunion/nest-js-utils@2.1.0) (2022-11-15)
+# [2.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.19...@ethberry/nest-js-utils@2.1.0) (2022-11-15)
 
 ### Features
 
-- validation exception filter ([65f0a8f](https://github.com/gemunion/nestjs-packages/commit/65f0a8f388dfb4a4cb771cf6e436bdf126771e03))
+- validation exception filter ([65f0a8f](https://github.com/ethberry/nestjs-packages/commit/65f0a8f388dfb4a4cb771cf6e436bdf126771e03))
 
-## [2.0.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.18...@gemunion/nest-js-utils@2.0.19) (2022-11-11)
+## [2.0.19](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.18...@ethberry/nest-js-utils@2.0.19) (2022-11-11)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.0.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.17...@gemunion/nest-js-utils@2.0.18) (2022-11-04)
+## [2.0.18](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.17...@ethberry/nest-js-utils@2.0.18) (2022-11-04)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.0.17 (2022-10-28)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.0.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.15...@gemunion/nest-js-utils@2.0.16) (2022-10-22)
+## [2.0.16](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.15...@ethberry/nest-js-utils@2.0.16) (2022-10-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.0.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.14...@gemunion/nest-js-utils@2.0.15) (2022-10-16)
+## [2.0.15](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.14...@ethberry/nest-js-utils@2.0.15) (2022-10-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.0.14](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.13...@gemunion/nest-js-utils@2.0.14) (2022-10-08)
+## [2.0.14](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.13...@ethberry/nest-js-utils@2.0.14) (2022-10-08)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.0.13](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.12...@gemunion/nest-js-utils@2.0.13) (2022-10-01)
+## [2.0.13](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.12...@ethberry/nest-js-utils@2.0.13) (2022-10-01)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.0.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.11...@gemunion/nest-js-utils@2.0.12) (2022-09-24)
+## [2.0.12](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.11...@ethberry/nest-js-utils@2.0.12) (2022-09-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.0.11 (2022-09-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.0.10 (2022-09-10)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.8...@gemunion/nest-js-utils@2.0.9) (2022-09-03)
+## [2.0.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.8...@ethberry/nest-js-utils@2.0.9) (2022-09-03)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 2.0.8 (2022-08-28)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([6b79a92](https://github.com/gemunion/nestjs-packages/commit/6b79a92e253f62b07fe8f6209738d489d46e05ef))
+- **deps:** update all non-major dependencies ([6b79a92](https://github.com/ethberry/nestjs-packages/commit/6b79a92e253f62b07fe8f6209738d489d46e05ef))
 
-## [2.0.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.6...@gemunion/nest-js-utils@2.0.7) (2022-08-20)
+## [2.0.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.6...@ethberry/nest-js-utils@2.0.7) (2022-08-20)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [2.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.5...@gemunion/nest-js-utils@2.0.6) (2022-08-12)
-
-### Bug Fixes
-
-- ^0.0.0 -> ^0.0.1 ([ea0c5fd](https://github.com/gemunion/nestjs-packages/commit/ea0c5fdb81c7da519b82b1e9e545fef9fe098196))
-- class-validator ver ^0.3.0 ([c8b1047](https://github.com/gemunion/nestjs-packages/commit/c8b1047b01ee5236eba5e43d554133753f27768f))
-- **deps:** update all non-major dependencies ([f8bd161](https://github.com/gemunion/nestjs-packages/commit/f8bd161c3e2521e7a9e74bc8b3ebd915bc3341f2))
-
-## [2.0.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.4...@gemunion/nest-js-utils@2.0.5) (2022-08-05)
+## [2.0.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.5...@ethberry/nest-js-utils@2.0.6) (2022-08-12)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([aa5a34a](https://github.com/gemunion/nestjs-packages/commit/aa5a34a28af8f71490cb35be50380baeb5b18322))
+- ^0.0.0 -> ^0.0.1 ([ea0c5fd](https://github.com/ethberry/nestjs-packages/commit/ea0c5fdb81c7da519b82b1e9e545fef9fe098196))
+- class-validator ver ^0.3.0 ([c8b1047](https://github.com/ethberry/nestjs-packages/commit/c8b1047b01ee5236eba5e43d554133753f27768f))
+- **deps:** update all non-major dependencies ([f8bd161](https://github.com/ethberry/nestjs-packages/commit/f8bd161c3e2521e7a9e74bc8b3ebd915bc3341f2))
 
-## [2.0.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.3...@gemunion/nest-js-utils@2.0.4) (2022-07-31)
-
-**Note:** Version bump only for package @gemunion/nest-js-utils
-
-## [2.0.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.2...@gemunion/nest-js-utils@2.0.3) (2022-07-23)
+## [2.0.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.4...@ethberry/nest-js-utils@2.0.5) (2022-08-05)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([ea187bf](https://github.com/gemunion/nestjs-packages/commit/ea187bfbe8ad38d2a32117ec6f0a29efb570c062))
+- **deps:** update all non-major dependencies ([aa5a34a](https://github.com/ethberry/nestjs-packages/commit/aa5a34a28af8f71490cb35be50380baeb5b18322))
 
-## [2.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@2.0.1...@gemunion/nest-js-utils@2.0.2) (2022-07-16)
+## [2.0.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.3...@ethberry/nest-js-utils@2.0.4) (2022-07-31)
+
+**Note:** Version bump only for package @ethberry/nest-js-utils
+
+## [2.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.2...@ethberry/nest-js-utils@2.0.3) (2022-07-23)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([66ecd27](https://github.com/gemunion/nestjs-packages/commit/66ecd2712b6eaee29cd501eaf92775ec4c6be995))
+- **deps:** update all non-major dependencies ([ea187bf](https://github.com/ethberry/nestjs-packages/commit/ea187bfbe8ad38d2a32117ec6f0a29efb570c062))
+
+## [2.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@2.0.1...@ethberry/nest-js-utils@2.0.2) (2022-07-16)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([66ecd27](https://github.com/ethberry/nestjs-packages/commit/66ecd2712b6eaee29cd501eaf92775ec4c6be995))
 
 ## 2.0.1 (2022-07-08)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.5.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.5.9...@gemunion/nest-js-utils@1.5.10) (2022-06-25)
+## [1.5.10](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.5.9...@ethberry/nest-js-utils@1.5.10) (2022-06-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.5.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.5.8...@gemunion/nest-js-utils@1.5.9) (2022-06-18)
+## [1.5.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.5.8...@ethberry/nest-js-utils@1.5.9) (2022-06-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 1.5.8 (2022-06-11)
 
 ### Bug Fixes
 
-- error message ([2b5209a](https://github.com/gemunion/nestjs-packages/commit/2b5209a749174aaad14a06df70cd6de5badbbf6f))
-- error message ([a3b1663](https://github.com/gemunion/nestjs-packages/commit/a3b1663e60e38518794998e4c4d23ee46910ec08))
+- error message ([2b5209a](https://github.com/ethberry/nestjs-packages/commit/2b5209a749174aaad14a06df70cd6de5badbbf6f))
+- error message ([a3b1663](https://github.com/ethberry/nestjs-packages/commit/a3b1663e60e38518794998e4c4d23ee46910ec08))
 
-## [1.5.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.5.6...@gemunion/nest-js-utils@1.5.7) (2022-06-02)
+## [1.5.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.5.6...@ethberry/nest-js-utils@1.5.7) (2022-06-02)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([f08b2fa](https://github.com/gemunion/nestjs-packages/commit/f08b2fa02393bbf3a107fe78ca27dbe2d5388d43))
+- **deps:** update all non-major dependencies ([f08b2fa](https://github.com/ethberry/nestjs-packages/commit/f08b2fa02393bbf3a107fe78ca27dbe2d5388d43))
 
-## [1.5.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.5.5...@gemunion/nest-js-utils@1.5.6) (2022-06-02)
+## [1.5.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.5.5...@ethberry/nest-js-utils@1.5.6) (2022-06-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 1.5.5 (2022-05-27)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([3ff15cf](https://github.com/gemunion/nestjs-packages/commit/3ff15cf38a1d6493b5a88e0615d3e94b9d6c5869))
+- **deps:** update all non-major dependencies ([3ff15cf](https://github.com/ethberry/nestjs-packages/commit/3ff15cf38a1d6493b5a88e0615d3e94b9d6c5869))
 
 ## 1.5.4 (2022-05-20)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([947923a](https://github.com/gemunion/nestjs-packages/commit/947923a9fa93b0b1e841b33e9fb5c277c7448a12))
+- **deps:** update all non-major dependencies ([947923a](https://github.com/ethberry/nestjs-packages/commit/947923a9fa93b0b1e841b33e9fb5c277c7448a12))
 
-## [1.5.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.5.2...@gemunion/nest-js-utils@1.5.3) (2022-05-15)
+## [1.5.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.5.2...@ethberry/nest-js-utils@1.5.3) (2022-05-15)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([edf7232](https://github.com/gemunion/nestjs-packages/commit/edf72324387865788d598c0496366ff317456ae5))
-- lower case of address ([83d393d](https://github.com/gemunion/nestjs-packages/commit/83d393dd49da828daee60c5e57757cf3ebecdaa6))
+- **deps:** update all non-major dependencies ([edf7232](https://github.com/ethberry/nestjs-packages/commit/edf72324387865788d598c0496366ff317456ae5))
+- lower case of address ([83d393d](https://github.com/ethberry/nestjs-packages/commit/83d393dd49da828daee60c5e57757cf3ebecdaa6))
 
 ## 1.5.2 (2022-05-14)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([247fb16](https://github.com/gemunion/nestjs-packages/commit/247fb16e455558413ae59bb7697e5404b6efed47))
+- **deps:** update all non-major dependencies ([247fb16](https://github.com/ethberry/nestjs-packages/commit/247fb16e455558413ae59bb7697e5404b6efed47))
 
 ## 1.5.1 (2022-05-05)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([d080b8b](https://github.com/gemunion/nestjs-packages/commit/d080b8b529d921a6912253fd9e9a5a39c17e459b))
+- **deps:** update all non-major dependencies ([d080b8b](https://github.com/ethberry/nestjs-packages/commit/d080b8b529d921a6912253fd9e9a5a39c17e459b))
 
 # 1.5.0 (2022-05-02)
 
 ### Features
 
-- IsBigNumber validator ([bb78243](https://github.com/gemunion/nestjs-packages/commit/bb782437af0ef7914b1381b61447ddd732017b87))
+- IsBigNumber validator ([bb78243](https://github.com/ethberry/nestjs-packages/commit/bb782437af0ef7914b1381b61447ddd732017b87))
 
 ## 1.4.3 (2022-04-30)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([3b48a32](https://github.com/gemunion/nestjs-packages/commit/3b48a324356f23f1fa701c7edbbb3fb20241e116))
+- **deps:** update all non-major dependencies ([3b48a32](https://github.com/ethberry/nestjs-packages/commit/3b48a324356f23f1fa701c7edbbb3fb20241e116))
 
 ## 1.4.2 (2022-04-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.4.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.4.0...@gemunion/nest-js-utils@1.4.1) (2022-04-16)
+## [1.4.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.4.0...@ethberry/nest-js-utils@1.4.1) (2022-04-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-# [1.4.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.3.1...@gemunion/nest-js-utils@1.4.0) (2022-04-10)
+# [1.4.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.3.1...@ethberry/nest-js-utils@1.4.0) (2022-04-10)
 
 ### Features
 
-- address pipe and api decorators ([1fa201f](https://github.com/gemunion/nestjs-packages/commit/1fa201f609133e81f8fb11ff9024f823c292099b))
+- address pipe and api decorators ([1fa201f](https://github.com/ethberry/nestjs-packages/commit/1fa201f609133e81f8fb11ff9024f823c292099b))
 
-## [1.3.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.3.0...@gemunion/nest-js-utils@1.3.1) (2022-04-09)
+## [1.3.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.3.0...@ethberry/nest-js-utils@1.3.1) (2022-04-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 # 1.3.0 (2022-04-09)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([714017b](https://github.com/gemunion/nestjs-packages/commit/714017be736b899f4d4a7a73eaf86499a3733012))
-- export BigNumberPipe ([d1ab143](https://github.com/gemunion/nestjs-packages/commit/d1ab143f064d345432f0e1832b9d63b3f628d130))
+- **deps:** update all non-major dependencies ([714017b](https://github.com/ethberry/nestjs-packages/commit/714017be736b899f4d4a7a73eaf86499a3733012))
+- export BigNumberPipe ([d1ab143](https://github.com/ethberry/nestjs-packages/commit/d1ab143f064d345432f0e1832b9d63b3f628d130))
 
 ### Features
 
-- ApiBigNumber ([a6562ba](https://github.com/gemunion/nestjs-packages/commit/a6562ba832258738350d43a62536b9034503c9c2))
-- BigNumberPipe ([9982759](https://github.com/gemunion/nestjs-packages/commit/998275975449274907ea099b75f3d9662f2d64f3))
-- metamask login swagger decorator ([f3ac775](https://github.com/gemunion/nestjs-packages/commit/f3ac775e4a112196ad938667ae090332aef5178f))
+- ApiBigNumber ([a6562ba](https://github.com/ethberry/nestjs-packages/commit/a6562ba832258738350d43a62536b9034503c9c2))
+- BigNumberPipe ([9982759](https://github.com/ethberry/nestjs-packages/commit/998275975449274907ea099b75f3d9662f2d64f3))
+- metamask login swagger decorator ([f3ac775](https://github.com/ethberry/nestjs-packages/commit/f3ac775e4a112196ad938667ae090332aef5178f))
 
-## [1.2.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.2.6...@gemunion/nest-js-utils@1.2.7) (2022-03-25)
+## [1.2.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.2.6...@ethberry/nest-js-utils@1.2.7) (2022-03-25)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([35783ab](https://github.com/gemunion/nestjs-packages/commit/35783abb1093ec8fa0ed1a6602fadac6e9fcd507))
+- **deps:** update all non-major dependencies ([35783ab](https://github.com/ethberry/nestjs-packages/commit/35783abb1093ec8fa0ed1a6602fadac6e9fcd507))
 
 ## 1.2.6 (2022-03-21)
 
 ### Bug Fixes
 
-- update nestjs config ([f722c26](https://github.com/gemunion/nestjs-packages/commit/f722c268fdeaf0d6f961dd453be77f228ce34d63))
+- update nestjs config ([f722c26](https://github.com/ethberry/nestjs-packages/commit/f722c268fdeaf0d6f961dd453be77f228ce34d63))
 
 ## 1.2.5 (2022-03-19)
 
 ### Bug Fixes
 
-- remove validators ([62a1922](https://github.com/gemunion/nestjs-packages/commit/62a1922b99c9d6660165c92c177aa8a3d91c7488))
+- remove validators ([62a1922](https://github.com/ethberry/nestjs-packages/commit/62a1922b99c9d6660165c92c177aa8a3d91c7488))
 
-## [1.2.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.2.3...@gemunion/nest-js-utils@1.2.4) (2022-03-14)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([59b4f23](https://github.com/gemunion/nestjs-packages/commit/59b4f238b57d91447b14987b8ca43be54359d470))
-
-## [1.2.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.2.2...@gemunion/nest-js-utils@1.2.3) (2022-03-05)
+## [1.2.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.2.3...@ethberry/nest-js-utils@1.2.4) (2022-03-14)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([8d028f2](https://github.com/gemunion/nestjs-packages/commit/8d028f2e0ea10b5362aa0c5143035c0e3e720f0e))
+- **deps:** update all non-major dependencies ([59b4f23](https://github.com/ethberry/nestjs-packages/commit/59b4f238b57d91447b14987b8ca43be54359d470))
 
-## [1.2.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.2.1...@gemunion/nest-js-utils@1.2.2) (2022-02-26)
+## [1.2.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.2.2...@ethberry/nest-js-utils@1.2.3) (2022-03-05)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([8d028f2](https://github.com/ethberry/nestjs-packages/commit/8d028f2e0ea10b5362aa0c5143035c0e3e720f0e))
+
+## [1.2.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.2.1...@ethberry/nest-js-utils@1.2.2) (2022-02-26)
+
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 1.2.1 (2022-02-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 # 1.2.0 (2022-02-12)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([3e5e082](https://github.com/gemunion/nestjs-packages/commit/3e5e082d1b7ad6e2b45bf90d400a3afa776d6f2c))
+- **deps:** update all non-major dependencies ([3e5e082](https://github.com/ethberry/nestjs-packages/commit/3e5e082d1b7ad6e2b45bf90d400a3afa776d6f2c))
 
 ### Features
 
-- export to-low-case-pipe ([30a1c0e](https://github.com/gemunion/nestjs-packages/commit/30a1c0e166f63b1c631a2420122595cb94a02fa9))
+- export to-low-case-pipe ([30a1c0e](https://github.com/ethberry/nestjs-packages/commit/30a1c0e166f63b1c631a2420122595cb94a02fa9))
 
-## [1.1.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.9...@gemunion/nest-js-utils@1.1.10) (2022-01-31)
+## [1.1.10](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.1.9...@ethberry/nest-js-utils@1.1.10) (2022-01-31)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 1.1.9 (2022-01-29)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([fa7ebd4](https://github.com/gemunion/nestjs-packages/commit/fa7ebd4365dc712c06419446a515147200e6cccd))
+- **deps:** update all non-major dependencies ([fa7ebd4](https://github.com/ethberry/nestjs-packages/commit/fa7ebd4365dc712c06419446a515147200e6cccd))
 
-## [1.1.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.7...@gemunion/nest-js-utils@1.1.8) (2022-01-22)
+## [1.1.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.1.7...@ethberry/nest-js-utils@1.1.8) (2022-01-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.1.7](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.6...@gemunion/nest-js-utils@1.1.7) (2022-01-22)
+## [1.1.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.1.6...@ethberry/nest-js-utils@1.1.7) (2022-01-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.1.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.5...@gemunion/nest-js-utils@1.1.6) (2022-01-21)
-
-### Bug Fixes
-
-- **deps:** update all non-major dependencies ([bec0d49](https://github.com/gemunion/nestjs-packages/commit/bec0d49f011cf2f3a447bd0abcc239f330162f57))
-
-## [1.1.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.4...@gemunion/nest-js-utils@1.1.5) (2022-01-14)
-
-**Note:** Version bump only for package @gemunion/nest-js-utils
-
-## [1.1.4](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.3...@gemunion/nest-js-utils@1.1.4) (2022-01-11)
+## [1.1.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.1.5...@ethberry/nest-js-utils@1.1.6) (2022-01-21)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([71b9494](https://github.com/gemunion/nestjs-packages/commit/71b9494ef943c8ce53087d099af50631393f8b15))
+- **deps:** update all non-major dependencies ([bec0d49](https://github.com/ethberry/nestjs-packages/commit/bec0d49f011cf2f3a447bd0abcc239f330162f57))
 
-## [1.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.2...@gemunion/nest-js-utils@1.1.3) (2022-01-08)
+## [1.1.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.1.4...@ethberry/nest-js-utils@1.1.5) (2022-01-14)
+
+**Note:** Version bump only for package @ethberry/nest-js-utils
+
+## [1.1.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.1.3...@ethberry/nest-js-utils@1.1.4) (2022-01-11)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([159ed48](https://github.com/gemunion/nestjs-packages/commit/159ed486815403ddfadd98a05ce51b6f0eadffed))
+- **deps:** update all non-major dependencies ([71b9494](https://github.com/ethberry/nestjs-packages/commit/71b9494ef943c8ce53087d099af50631393f8b15))
+
+## [1.1.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.1.2...@ethberry/nest-js-utils@1.1.3) (2022-01-08)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([159ed48](https://github.com/ethberry/nestjs-packages/commit/159ed486815403ddfadd98a05ce51b6f0eadffed))
 
 ## 1.1.2 (2022-01-01)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.1.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.1.0...@gemunion/nest-js-utils@1.1.1) (2021-12-19)
+## [1.1.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.1.0...@ethberry/nest-js-utils@1.1.1) (2021-12-19)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([e354c52](https://github.com/gemunion/nestjs-packages/commit/e354c52df8d33b4330c39bbb25fd8d557536f628))
+- **deps:** update all non-major dependencies ([e354c52](https://github.com/ethberry/nestjs-packages/commit/e354c52df8d33b4330c39bbb25fd8d557536f628))
 
-# [1.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.20...@gemunion/nest-js-utils@1.1.0) (2021-12-16)
+# [1.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.20...@ethberry/nest-js-utils@1.1.0) (2021-12-16)
 
 ### Features
 
-- new pipes ([1e38a82](https://github.com/gemunion/nestjs-packages/commit/1e38a829595ca89a0a0cbf890c4a84bb0cddd669))
+- new pipes ([1e38a82](https://github.com/ethberry/nestjs-packages/commit/1e38a829595ca89a0a0cbf890c4a84bb0cddd669))
 
 ## 1.0.20 (2021-12-11)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.0.19](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.18...@gemunion/nest-js-utils@1.0.19) (2021-11-26)
+## [1.0.19](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.18...@ethberry/nest-js-utils@1.0.19) (2021-11-26)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.0.18](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.17...@gemunion/nest-js-utils@1.0.18) (2021-11-20)
+## [1.0.18](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.17...@ethberry/nest-js-utils@1.0.18) (2021-11-20)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.0.17](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.16...@gemunion/nest-js-utils@1.0.17) (2021-11-12)
+## [1.0.17](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.16...@ethberry/nest-js-utils@1.0.17) (2021-11-12)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.0.16](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.15...@gemunion/nest-js-utils@1.0.16) (2021-11-07)
+## [1.0.16](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.15...@ethberry/nest-js-utils@1.0.16) (2021-11-07)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 1.0.15 (2021-10-30)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([290f7c3](https://github.com/gemunion/nestjs-packages/commit/290f7c3b46827d0d7675fedfd679665b4eaca65b))
+- **deps:** update all non-major dependencies ([290f7c3](https://github.com/ethberry/nestjs-packages/commit/290f7c3b46827d0d7675fedfd679665b4eaca65b))
 
-## [1.0.14](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.13...@gemunion/nest-js-utils@1.0.14) (2021-10-22)
+## [1.0.14](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.13...@ethberry/nest-js-utils@1.0.14) (2021-10-22)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([c756a11](https://github.com/gemunion/nestjs-packages/commit/c756a11df0d867f2918063ef0122e00a22ef5b3a))
+- **deps:** update all non-major dependencies ([c756a11](https://github.com/ethberry/nestjs-packages/commit/c756a11df0d867f2918063ef0122e00a22ef5b3a))
 
 ## 1.0.13 (2021-10-16)
 
 ### Bug Fixes
 
-- status code ([8bcb2ef](https://github.com/gemunion/nestjs-packages/commit/8bcb2ef3b17b4ad8268622da038b9f1b4cc2df04))
+- status code ([8bcb2ef](https://github.com/ethberry/nestjs-packages/commit/8bcb2ef3b17b4ad8268622da038b9f1b4cc2df04))
 
 ## 1.0.12 (2021-10-09)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#40](https://github.com/gemunion/nestjs-packages/issues/40)) ([41fe170](https://github.com/gemunion/nestjs-packages/commit/41fe170143aa94bc21d1ef574796ce741d863a30))
+- **deps:** update all non-major dependencies ([#40](https://github.com/ethberry/nestjs-packages/issues/40)) ([41fe170](https://github.com/ethberry/nestjs-packages/commit/41fe170143aa94bc21d1ef574796ce741d863a30))
 
-## [1.0.11](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.10...@gemunion/nest-js-utils@1.0.11) (2021-10-02)
+## [1.0.11](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.10...@ethberry/nest-js-utils@1.0.11) (2021-10-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.0.10](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.9...@gemunion/nest-js-utils@1.0.10) (2021-09-26)
+## [1.0.10](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.9...@ethberry/nest-js-utils@1.0.10) (2021-09-26)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#37](https://github.com/gemunion/nestjs-packages/issues/37)) ([2b8d20b](https://github.com/gemunion/nestjs-packages/commit/2b8d20b4836809ebbf306299453d1671c00cdbb5))
+- **deps:** update all non-major dependencies ([#37](https://github.com/ethberry/nestjs-packages/issues/37)) ([2b8d20b](https://github.com/ethberry/nestjs-packages/commit/2b8d20b4836809ebbf306299453d1671c00cdbb5))
 
-## [1.0.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.8...@gemunion/nest-js-utils@1.0.9) (2021-08-29)
+## [1.0.9](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.8...@ethberry/nest-js-utils@1.0.9) (2021-08-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 1.0.8 (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 1.0.7 (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.0.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.5...@gemunion/nest-js-utils@1.0.6) (2021-08-16)
+## [1.0.6](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.5...@ethberry/nest-js-utils@1.0.6) (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 1.0.5 (2021-08-13)
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 ## 1.0.4 (2021-08-07)
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 ## 1.0.3 (2021-08-06)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.0.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@1.0.1...@gemunion/nest-js-utils@1.0.2) (2021-07-23)
+## [1.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@1.0.1...@ethberry/nest-js-utils@1.0.2) (2021-07-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [1.0.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.4.3...@gemunion/nest-js-utils@1.0.1) (2021-07-22)
+## [1.0.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.4.3...@ethberry/nest-js-utils@1.0.1) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.4.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.4.2...@gemunion/nest-js-utils@0.4.3) (2021-07-22)
+## [0.4.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.4.2...@ethberry/nest-js-utils@0.4.3) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.4.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.4.1...@gemunion/nest-js-utils@0.4.2) (2021-07-22)
-
-### Bug Fixes
-
-- name ([e5ab9d1](https://github.com/gemunion/nestjs-packages/commit/e5ab9d128c3f10904b672f0c616393a8f8c3d6d8))
-
-## [0.4.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.4.0...@gemunion/nest-js-utils@0.4.1) (2021-07-22)
+## [0.4.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.4.1...@ethberry/nest-js-utils@0.4.2) (2021-07-22)
 
 ### Bug Fixes
 
-- name ([73366e3](https://github.com/gemunion/nestjs-packages/commit/73366e33ef0700f6b9614ce5c9d4572de207b06e))
+- name ([e5ab9d1](https://github.com/ethberry/nestjs-packages/commit/e5ab9d128c3f10904b672f0c616393a8f8c3d6d8))
 
-# [0.4.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.3.0...@gemunion/nest-js-utils@0.4.0) (2021-07-22)
+## [0.4.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.4.0...@ethberry/nest-js-utils@0.4.1) (2021-07-22)
+
+### Bug Fixes
+
+- name ([73366e3](https://github.com/ethberry/nestjs-packages/commit/73366e33ef0700f6b9614ce5c9d4572de207b06e))
+
+# [0.4.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.3.0...@ethberry/nest-js-utils@0.4.0) (2021-07-22)
 
 ### Features
 
-- re-captcha validator ([4964fc4](https://github.com/gemunion/nestjs-packages/commit/4964fc4fb7e2eedb29f12959db31d98994b3b415))
+- re-captcha validator ([4964fc4](https://github.com/ethberry/nestjs-packages/commit/4964fc4fb7e2eedb29f12959db31d98994b3b415))
 
-# [0.3.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.2.4...@gemunion/nest-js-utils@0.3.0) (2021-07-17)
+# [0.3.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.2.4...@ethberry/nest-js-utils@0.3.0) (2021-07-17)
 
 ### Features
 
-- user param decorator ([0926f5c](https://github.com/gemunion/nestjs-packages/commit/0926f5c76513bbfd934b48a8aeaf875b4ad02f57))
+- user param decorator ([0926f5c](https://github.com/ethberry/nestjs-packages/commit/0926f5c76513bbfd934b48a8aeaf875b4ad02f57))
 
 ## 0.2.4 (2021-07-13)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.2.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.2.2...@gemunion/nest-js-utils@0.2.3) (2021-07-11)
-
-### Bug Fixes
-
-- raw body ([d1b038d](https://github.com/gemunion/nestjs-packages/commit/d1b038d055583d845e32740ec4cbea6f6ace5b3a))
-
-## [0.2.2](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.2.1...@gemunion/nest-js-utils@0.2.2) (2021-07-10)
+## [0.2.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.2.2...@ethberry/nest-js-utils@0.2.3) (2021-07-11)
 
 ### Bug Fixes
 
-- 404 error handling ([c3ddc09](https://github.com/gemunion/nestjs-packages/commit/c3ddc09a592fa64b3c077ecb00c140fbd6f5bd83))
+- raw body ([d1b038d](https://github.com/ethberry/nestjs-packages/commit/d1b038d055583d845e32740ec4cbea6f6ace5b3a))
 
-## [0.2.1](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.2.0...@gemunion/nest-js-utils@0.2.1) (2021-07-10)
+## [0.2.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.2.1...@ethberry/nest-js-utils@0.2.2) (2021-07-10)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+### Bug Fixes
 
-# [0.2.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.1.5...@gemunion/nest-js-utils@0.2.0) (2021-07-08)
+- 404 error handling ([c3ddc09](https://github.com/ethberry/nestjs-packages/commit/c3ddc09a592fa64b3c077ecb00c140fbd6f5bd83))
+
+## [0.2.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.2.0...@ethberry/nest-js-utils@0.2.1) (2021-07-10)
+
+**Note:** Version bump only for package @ethberry/nest-js-utils
+
+# [0.2.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.1.5...@ethberry/nest-js-utils@0.2.0) (2021-07-08)
 
 ### Features
 
-- undefined || null ([35b4c30](https://github.com/gemunion/nestjs-packages/commit/35b4c305c128aebaf51bf0d56788cba6bdb64d73))
-- urlecoded middleware ([fd31813](https://github.com/gemunion/nestjs-packages/commit/fd31813e5b88dc6515ccddd0436324b4044765eb))
+- undefined || null ([35b4c30](https://github.com/ethberry/nestjs-packages/commit/35b4c305c128aebaf51bf0d56788cba6bdb64d73))
+- urlecoded middleware ([fd31813](https://github.com/ethberry/nestjs-packages/commit/fd31813e5b88dc6515ccddd0436324b4044765eb))
 
 ## 0.1.5 (2021-07-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.1.4 (2021-06-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.1.3](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.1.2...@gemunion/nest-js-utils@0.1.3) (2021-06-19)
+## [0.1.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.1.2...@ethberry/nest-js-utils@0.1.3) (2021-06-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-# [0.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.204...@gemunion/nest-js-utils@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.0.204...@ethberry/nest-js-utils@0.1.0) (2021-06-09)
 
 ### Features
 
-- split provides and guards ([1d5599d](https://github.com/gemunion/nestjs-packages/commit/1d5599dfd2239256b6169db381f03de2931d1256))
-- use fetchJson ([fc3d86e](https://github.com/gemunion/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+- split provides and guards ([1d5599d](https://github.com/ethberry/nestjs-packages/commit/1d5599dfd2239256b6169db381f03de2931d1256))
+- use fetchJson ([fc3d86e](https://github.com/ethberry/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 ## 0.0.204 (2021-06-01)
 
 ### Features
 
-- send app name to logDna ([df3476a](https://github.com/gemunion/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+- send app name to logDna ([df3476a](https://github.com/ethberry/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 ## 0.0.203 (2021-05-31)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.202 (2021-05-23)
 
 ### Bug Fixes
 
-- typeOrm config logging ([7734340](https://github.com/gemunion/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+- typeOrm config logging ([7734340](https://github.com/ethberry/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 ## 0.0.201 (2021-05-14)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.200 (2021-05-08)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/nestjs-packages/issues/48)) ([1854092](https://github.com/gemunion/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+- **deps:** update all non-major dependencies ([#48](https://github.com/ethberry/nestjs-packages/issues/48)) ([1854092](https://github.com/ethberry/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 ## 0.0.199 (2021-05-06)
 
 ### Bug Fixes
 
-- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/nestjs-packages/issues/47)) ([06b9b84](https://github.com/gemunion/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/ethberry/nestjs-packages/issues/47)) ([06b9b84](https://github.com/ethberry/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 ## 0.0.198 (2021-05-06)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.197 (2021-04-30)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.196 (2021-04-27)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.195 (2021-04-27)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.194 (2021-04-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.193 (2021-04-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.192 (2021-04-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.191 (2021-04-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.190 (2021-04-14)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.189](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.188...@gemunion/nest-js-utils@0.0.189) (2021-04-05)
+## [0.0.189](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.0.188...@ethberry/nest-js-utils@0.0.189) (2021-04-05)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.188](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.187...@gemunion/nest-js-utils@0.0.188) (2021-04-02)
+## [0.0.188](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.0.187...@ethberry/nest-js-utils@0.0.188) (2021-04-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.187](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.186...@gemunion/nest-js-utils@0.0.187) (2021-03-30)
+## [0.0.187](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.0.186...@ethberry/nest-js-utils@0.0.187) (2021-03-30)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.186](https://github.com/gemunion/nestjs-packages/compare/@gemunion/nest-js-utils@0.0.185...@gemunion/nest-js-utils@0.0.186) (2021-03-29)
+## [0.0.186](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@0.0.185...@ethberry/nest-js-utils@0.0.186) (2021-03-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.185 (2021-03-29)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.184 (2021-03-27)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.183 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.182 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.181 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.180](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.179...@gemunion/nest-js-utils@0.0.180) (2021-03-24)
+## [0.0.180](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.179...@ethberry/nest-js-utils@0.0.180) (2021-03-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.179 (2021-03-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.178 (2021-03-23)
 
@@ -964,7 +964,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.167 (2021-03-15)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.166 (2021-03-13)
 
@@ -1004,7 +1004,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.160 (2021-03-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.159 (2021-03-09)
 
@@ -1014,15 +1014,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.158 (2021-03-07)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.157](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.155...@gemunion/nest-js-utils@0.0.157) (2021-03-07)
+## [0.0.157](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.155...@ethberry/nest-js-utils@0.0.157) (2021-03-07)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.155](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.154...@gemunion/nest-js-utils@0.0.155) (2021-03-07)
+## [0.0.155](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.154...@ethberry/nest-js-utils@0.0.155) (2021-03-07)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.154 (2021-03-05)
 
@@ -1032,7 +1032,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.153 (2021-03-05)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.152 (2021-03-05)
 
@@ -1054,15 +1054,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.149 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.148 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.147 (2021-03-01)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.146 (2021-02-27)
 
@@ -1090,7 +1090,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.142 (2021-02-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.141 (2021-02-24)
 
@@ -1100,7 +1100,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.140 (2021-02-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.139 (2021-02-24)
 
@@ -1116,7 +1116,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.137 (2021-02-22)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.136 (2021-02-21)
 
@@ -1126,11 +1126,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.135 (2021-02-20)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.134 (2021-02-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.133 (2021-02-19)
 
@@ -1138,21 +1138,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **deps:** update all non-major dependencies ([b6725d4](https://github.com/memoryos/nest-js/commit/b6725d4b2eb177f4cf555a489067a6a9aed0dca8))
 
-## [0.0.132](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.131...@gemunion/nest-js-utils@0.0.132) (2021-02-19)
+## [0.0.132](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.131...@ethberry/nest-js-utils@0.0.132) (2021-02-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.131](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.130...@gemunion/nest-js-utils@0.0.131) (2021-02-19)
+## [0.0.131](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.130...@ethberry/nest-js-utils@0.0.131) (2021-02-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.130](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.129...@gemunion/nest-js-utils@0.0.130) (2021-02-19)
+## [0.0.130](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.129...@ethberry/nest-js-utils@0.0.130) (2021-02-19)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.129 (2021-02-18)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.128 (2021-02-17)
 
@@ -1168,7 +1168,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.126 (2021-02-17)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.125 (2021-02-16)
 
@@ -1184,7 +1184,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.123 (2021-02-13)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.122 (2021-02-12)
 
@@ -1194,11 +1194,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.121 (2021-02-12)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.120 (2021-02-12)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.119 (2021-02-10)
 
@@ -1220,7 +1220,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.116 (2021-02-09)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.115 (2021-02-08)
 
@@ -1236,7 +1236,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.113 (2021-02-05)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.112 (2021-02-04)
 
@@ -1252,7 +1252,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.110 (2021-02-04)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.109 (2021-02-03)
 
@@ -1262,7 +1262,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.108 (2021-02-03)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.107 (2021-02-03)
 
@@ -1272,11 +1272,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.106 (2021-02-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.105 (2021-02-02)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.104 (2021-02-01)
 
@@ -1484,7 +1484,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.70 (2021-01-03)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.69 (2021-01-01)
 
@@ -1522,13 +1522,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **deps:** update dependency @nestjs/swagger to v4.7.9 ([fb5b0a4](https://github.com/memoryos/nest-js/commit/fb5b0a494a6260d8d521674fb43b0c9e57903c89))
 
-## [0.0.63](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.62...@gemunion/nest-js-utils@0.0.63) (2020-12-25)
+## [0.0.63](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.62...@ethberry/nest-js-utils@0.0.63) (2020-12-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
-## [0.0.62](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.61...@gemunion/nest-js-utils@0.0.62) (2020-12-25)
+## [0.0.62](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.61...@ethberry/nest-js-utils@0.0.62) (2020-12-25)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.61 (2020-12-23)
 
@@ -1716,9 +1716,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **deps:** update all non-major dependencies ([e87817a](https://github.com/memoryos/nest-js/commit/e87817a28a300e56de6bad2327fe494669c30402))
 
-## [0.0.30](https://github.com/memoryos/nest-js/compare/@gemunion/nest-js-utils@0.0.29...@gemunion/nest-js-utils@0.0.30) (2020-12-04)
+## [0.0.30](https://github.com/memoryos/nest-js/compare/@ethberry/nest-js-utils@0.0.29...@ethberry/nest-js-utils@0.0.30) (2020-12-04)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.29 (2020-12-03)
 
@@ -1758,23 +1758,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.23 (2020-11-24)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.22 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.21 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.20 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.19 (2020-11-21)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.18 (2020-11-20)
 
@@ -1846,7 +1846,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @gemunion/redis to v0.0.15 ([2b5a0fc](https://github.com/memoryos/nest-js/commit/2b5a0fc2018fd89a150d6a4c4f185bb7ee19cff5))
+- **deps:** update dependency @ethberry/redis to v0.0.15 ([2b5a0fc](https://github.com/memoryos/nest-js/commit/2b5a0fc2018fd89a150d6a4c4f185bb7ee19cff5))
 
 ## 0.0.6 (2020-11-16)
 
@@ -1868,8 +1868,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.3 (2020-11-13)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils
 
 ## 0.0.2 (2020-11-13)
 
-**Note:** Version bump only for package @gemunion/nest-js-utils
+**Note:** Version bump only for package @ethberry/nest-js-utils

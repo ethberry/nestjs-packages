@@ -3,7 +3,7 @@ import { create } from "ipfs-http-client";
 import type { IPFSHTTPClient } from "ipfs-http-client";
 import { Readable } from "stream";
 
-import { FirebaseService } from "@gemunion/nest-js-module-firebase";
+import { FirebaseService } from "@ethberry/nest-js-module-firebase";
 
 import { INFURA_OPTIONS_PROVIDER } from "./infura.constants";
 import { IInfuraOptions } from "./interfaces";

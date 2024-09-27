@@ -2,13 +2,13 @@ import { ApiProperty } from "@nestjs/swagger";
 import { IsString, IsUUID } from "class-validator";
 import { Mixin } from "ts-mixer";
 
-import { IParticleDto } from "@gemunion/types-jwt";
+import { IParticleDto } from "@ethberry/types-jwt";
 import {
   DisplayNameDtoOptionalDto,
   EmailOptionalDto,
   ImageUrlOptionalDto,
   WalletDto,
-} from "@gemunion/nest-js-validators";
+} from "@ethberry/nest-js-validators";
 
 export class ParticleDto
   extends Mixin(WalletDto, DisplayNameDtoOptionalDto, EmailOptionalDto, ImageUrlOptionalDto)

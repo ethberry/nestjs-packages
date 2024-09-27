@@ -4,7 +4,7 @@ import { HttpService } from "@nestjs/axios";
 import { firstValueFrom } from "rxjs";
 import { map } from "rxjs/operators";
 
-import { ICmcQuote, ICmcResponse } from "@gemunion/types-coin-market-cap";
+import { ICmcQuote, ICmcResponse } from "@ethberry/types-coin-market-cap";
 
 import { ISearchOhlc, ISearchRates } from "./interfaces";
 

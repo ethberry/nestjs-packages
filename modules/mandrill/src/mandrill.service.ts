@@ -1,7 +1,7 @@
 import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { HttpService } from "@nestjs/axios";
 
-import { IEmailResult, ISendEmailDto, ISendMailService } from "@gemunion/types-email";
+import { IEmailResult, ISendEmailDto, ISendMailService } from "@ethberry/types-email";
 
 import { IMandrillOptions } from "./interfaces";
 import { MANDRILL_OPTIONS_PROVIDER } from "./mandrill.constants";
