@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.35 (2024-09-27)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([1a30797](https://github.com/ethberry/nestjs-packages/commit/1a30797f16872c797d2d43e532b8315c3c03c5a6))
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+
 ## 3.0.34 (2024-09-21)
 
 **Note:** Version bump only for package @ethberry/nest-js-module-winston-papertrail

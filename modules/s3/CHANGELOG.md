@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.0.64 (2024-09-27)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([af18d0f](https://github.com/ethberry/nestjs-packages/commit/af18d0f6af2f28585d9aa6333efc047ab0accf2b))
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+- ethberry ([864f68e](https://github.com/ethberry/nestjs-packages/commit/864f68e104483c74a293b1362d6bb5f7c4fb5608))
+- lint ([65b2867](https://github.com/ethberry/nestjs-packages/commit/65b2867a8e7fd1fe4a8b1773a25dc6a7f61910cf))
+
 ## [5.0.63](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-s3@5.0.62...@ethberry/nest-js-module-s3@5.0.63) (2024-09-21)
 
 ### Bug Fixes

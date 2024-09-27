@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 7.0.6 (2024-09-27)
+
+### Bug Fixes
+
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+- ethberry ([864f68e](https://github.com/ethberry/nestjs-packages/commit/864f68e104483c74a293b1362d6bb5f7c4fb5608))
+- major update of nestjs-redis ([b3633b9](https://github.com/ethberry/nestjs-packages/commit/b3633b96f5b85ae21b9afd72301fbbc9101a669d))
+
 ## [7.0.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-throttler@7.0.4...@ethberry/nest-js-module-throttler@7.0.5) (2024-09-21)
 
 ### Bug Fixes

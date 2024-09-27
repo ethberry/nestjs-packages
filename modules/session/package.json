@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/nest-js-create-middleware-module": "3.0.53",
+    "@ethberry/nest-js-create-middleware-module": "3.0.54",
     "connect-redis": "7.1.1",
     "express-session": "1.18.0"
   },
@@ -43,5 +43,5 @@
   },
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.0.53"
+  "version": "3.0.54"
 }

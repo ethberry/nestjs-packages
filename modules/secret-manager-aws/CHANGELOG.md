@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.62 (2024-09-27)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([1a30797](https://github.com/ethberry/nestjs-packages/commit/1a30797f16872c797d2d43e532b8315c3c03c5a6))
+- **deps:** update all non-major dependencies ([af18d0f](https://github.com/ethberry/nestjs-packages/commit/af18d0f6af2f28585d9aa6333efc047ab0accf2b))
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+
 ## [4.0.61](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-secret-manager-aws@4.0.60...@ethberry/nest-js-module-secret-manager-aws@4.0.61) (2024-09-21)
 
 ### Bug Fixes

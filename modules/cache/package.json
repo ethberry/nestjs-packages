@@ -51,5 +51,5 @@
   },
   "title": "NestJS Cache module",
   "types": "./dist/index.d.ts",
-  "version": "3.0.46"
+  "version": "3.0.47"
 }

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.57 (2024-09-27)
+
+### Bug Fixes
+
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+- major update of nestjs-redis ([b3633b9](https://github.com/ethberry/nestjs-packages/commit/b3633b96f5b85ae21b9afd72301fbbc9101a669d))
+
 ## [4.0.56](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-gee-test@4.0.55...@ethberry/nest-js-module-gee-test@4.0.56) (2024-09-21)
 
 ### Bug Fixes

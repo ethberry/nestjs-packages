@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.32 (2024-09-27)
+
+### Bug Fixes
+
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+
 ## [3.0.31](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-request-logger@3.0.30...@ethberry/nest-js-module-request-logger@3.0.31) (2024-09-21)
 
 **Note:** Version bump only for package @ethberry/nest-js-module-request-logger

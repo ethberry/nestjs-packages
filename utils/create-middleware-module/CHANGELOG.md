@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.54 (2024-09-27)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([af18d0f](https://github.com/ethberry/nestjs-packages/commit/af18d0f6af2f28585d9aa6333efc047ab0accf2b))
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+- lint ([65b2867](https://github.com/ethberry/nestjs-packages/commit/65b2867a8e7fd1fe4a8b1773a25dc6a7f61910cf))
+
 ## [3.0.53](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-create-middleware-module@3.0.52...@ethberry/nest-js-create-middleware-module@3.0.53) (2024-09-21)
 
 **Note:** Version bump only for package @ethberry/nest-js-create-middleware-module

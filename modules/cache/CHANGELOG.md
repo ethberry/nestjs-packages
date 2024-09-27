@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.0.47 (2024-09-27)
+
+### Bug Fixes
+
+- cache module ([d2b19ec](https://github.com/ethberry/nestjs-packages/commit/d2b19ec0be979f9c104484a077637b77b4babadb))
+- **deps:** update all non-major dependencies ([af18d0f](https://github.com/ethberry/nestjs-packages/commit/af18d0f6af2f28585d9aa6333efc047ab0accf2b))
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+- ethberry ([864f68e](https://github.com/ethberry/nestjs-packages/commit/864f68e104483c74a293b1362d6bb5f7c4fb5608))
+- major update of nestjs-redis ([b3633b9](https://github.com/ethberry/nestjs-packages/commit/b3633b96f5b85ae21b9afd72301fbbc9101a669d))
+
 ## [3.0.46](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-cache@3.0.45...@ethberry/nest-js-module-cache@3.0.46) (2024-09-21)
 
 ### Bug Fixes

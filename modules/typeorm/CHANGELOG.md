@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.46 (2024-09-27)
+
+### Bug Fixes
+
+- eslint + ethberry ([60e4313](https://github.com/ethberry/nestjs-packages/commit/60e4313fa658d7bef80c6dff8b6c0c769777c6f0))
+- ethberry ([864f68e](https://github.com/ethberry/nestjs-packages/commit/864f68e104483c74a293b1362d6bb5f7c4fb5608))
+- use build-in logger ([b0a5584](https://github.com/ethberry/nestjs-packages/commit/b0a55840ba23fc1334e6407a16ea36327b7ac125))
+
 ## [4.0.45](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-typeorm@4.0.44...@ethberry/nest-js-module-typeorm@4.0.45) (2024-09-21)
 
 ### Bug Fixes
