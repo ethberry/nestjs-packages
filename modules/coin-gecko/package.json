@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/nest-js-utils": "4.2.16",
-    "@ethberry/types-coin-gecko": "0.3.3",
+    "@ethberry/types-coin-gecko": "0.3.4",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.1"
   },
