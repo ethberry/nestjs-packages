@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.58](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-gee-test@4.0.57...@ethberry/nest-js-module-gee-test@4.0.58) (2024-09-29)
+
+### Bug Fixes
+
+- rollback @liaoliaots/nestjs-redis ([6d4f36b](https://github.com/ethberry/nestjs-packages/commit/6d4f36b90fef7946ea54e911fe1bf3244974ddb4))
+
 ## 4.0.57 (2024-09-27)
 
 ### Bug Fixes
