@@ -2,7 +2,8 @@ import { Inject, Injectable, Logger, LoggerService } from "@nestjs/common";
 import { HttpService } from "@nestjs/axios";
 import { ConfigService } from "@nestjs/config";
 import { Cron, CronExpression } from "@nestjs/schedule";
-import { RedisService } from "@liaoliaots/nestjs-redis";
+import { InjectRedis } from "@liaoliaots/nestjs-redis";
+import { Redis } from "ioredis";
 import crypto from "crypto";
 import { v4 } from "uuid";
 import { firstValueFrom } from "rxjs";
@@ -26,12 +27,12 @@ export class GeeTestService {
     private readonly loggerService: LoggerService,
     private readonly httpService: HttpService,
     private readonly configService: ConfigService,
-    private readonly redisService: RedisService,
+    @InjectRedis(GEE_STORE)
+    private readonly redisClient: Redis,
   ) {}
 
   public async register(ip: string): Promise<IRegisterResult> {
-    const redis = this.redisService.getOrThrow(GEE_STORE);
-    const bypasscache = await redis.get(GeeTestService.GEETEST_BYPASS_STATUS_KEY);
+    const bypasscache = await this.redisClient.get(GeeTestService.GEETEST_BYPASS_STATUS_KEY);
     if (bypasscache === "success") {
       return this.remoteRegister({
         digestmod: "md5",
@@ -45,8 +46,7 @@ export class GeeTestService {
   }
 
   public async validate(dto: IGeeTestDto): Promise<IValidateResult> {
-    const redis = this.redisService.getOrThrow();
-    const bypasscache = await redis.get(GeeTestService.GEETEST_BYPASS_STATUS_KEY);
+    const bypasscache = await this.redisClient.get(GeeTestService.GEETEST_BYPASS_STATUS_KEY);
 
     let error;
     if (bypasscache === "success") {
@@ -233,18 +233,17 @@ export class GeeTestService {
       // eslint-disable-next-line @typescript-eslint/no-unsafe-return
       .pipe(map(response => response.data));
 
-    const redis = this.redisService.getOrThrow();
     return firstValueFrom(response)
       .then(async (data: { status: string }) => {
         if (data.status === "success") {
-          await redis.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "success");
+          await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "success");
         } else {
-          await redis.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "fail");
+          await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "fail");
         }
       })
       .catch(async e => {
         this.loggerService.error(e.message, e.stack, GeeTestService.name);
-        await redis.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "fail");
+        await this.redisClient.set(GeeTestService.GEETEST_BYPASS_STATUS_KEY, "fail");
       });
   }
 }
