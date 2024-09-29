@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/nest-js-create-middleware-module": "3.0.55",
-    "helmet": "7.1.0"
+    "helmet": "7.2.0"
   },
   "engines": {
     "node": ">=22"
