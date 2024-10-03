@@ -3,7 +3,7 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
 import { RedisManager } from "@liaoliaots/nestjs-redis";
 import { CacheModule, CacheModuleAsyncOptions } from "@nestjs/cache-manager";
 import redisStore from "cache-manager-ioredis";
-import cacheManager from "cache-manager";
+import { caching } from "cache-manager";
 
 import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 import { CACHE_STORE } from "./cache.constants";
@@ -19,7 +19,7 @@ import { CACHE_STORE } from "./cache.constants";
         return {
           ttl: configService.get<number>("CACHE_TTL", 3600),
           max: configService.get<number>("CACHE_MAX", 1000),
-          store: cacheManager.caching({
+          store: caching({
             store: redisStore,
             redisInstance: redisManager.getClient(CACHE_STORE),
           }),
