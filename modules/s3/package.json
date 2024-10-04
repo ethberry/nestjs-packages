@@ -8,8 +8,8 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.658.1",
-    "@aws-sdk/s3-request-presigner": "3.658.1",
+    "@aws-sdk/client-s3": "3.664.0",
+    "@aws-sdk/s3-request-presigner": "3.664.0",
     "@ethberry/nest-js-validators": "4.1.5",
     "@golevelup/nestjs-modules": "0.7.1",
     "class-validator": "0.14.1",
