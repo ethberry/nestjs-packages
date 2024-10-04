@@ -12,7 +12,7 @@
     "@mailchimp/mailchimp_marketing": "3.0.80"
   },
   "devDependencies": {
-    "@ethberry/nest-js-module-license": "4.0.42",
+    "@ethberry/nest-js-module-license": "4.0.43",
     "@nestjs/axios": "3.0.3",
     "@nestjs/common": "10.4.4",
     "@types/mailchimp__mailchimp_marketing": "3.0.20"

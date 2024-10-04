@@ -8,12 +8,12 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/constants": "0.13.4",
+    "@ethberry/constants": "0.13.5",
     "@golevelup/nestjs-modules": "0.7.1",
     "@google-cloud/secret-manager": "5.6.0"
   },
   "devDependencies": {
-    "@ethberry/nest-js-module-license": "4.0.42",
+    "@ethberry/nest-js-module-license": "4.0.43",
     "@nestjs/common": "10.4.4",
     "@nestjs/config": "3.2.3",
     "ethers": "6.13.2"
