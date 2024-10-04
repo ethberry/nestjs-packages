@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/constants": "0.13.5",
-    "@ethberry/nest-js-validators": "4.1.5",
+    "@ethberry/nest-js-validators": "4.1.6",
     "@ethberry/types-jwt": "0.4.8",
     "@metamask/eth-sig-util": "7.0.3",
     "class-transformer": "0.5.1",
@@ -58,5 +58,5 @@
   },
   "title": "NestJS Particle module",
   "types": "./dist/index.d.ts",
-  "version": "3.1.50"
+  "version": "3.1.51"
 }

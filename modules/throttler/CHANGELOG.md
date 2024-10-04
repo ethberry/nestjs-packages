@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-throttler@7.0.7...@ethberry/nest-js-module-throttler@7.0.8) (2024-10-04)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([feb1c6f](https://github.com/ethberry/nestjs-packages/commit/feb1c6f7ff14a2a58c5f4b565c1b20f9194a2cd9))
+
 ## [7.0.7](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-throttler@7.0.6...@ethberry/nest-js-module-throttler@7.0.7) (2024-09-29)
 
 ### Bug Fixes
