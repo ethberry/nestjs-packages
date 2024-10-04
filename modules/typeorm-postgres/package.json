@@ -15,7 +15,7 @@
     "ts-mixer": "6.0.4"
   },
   "devDependencies": {
-    "ethers": "6.13.2",
+    "ethers": "6.13.3",
     "typeorm": "0.3.20"
   },
   "engines": {
