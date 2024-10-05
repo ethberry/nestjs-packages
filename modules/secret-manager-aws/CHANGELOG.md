@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.64](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-secret-manager-aws@4.0.63...@ethberry/nest-js-module-secret-manager-aws@4.0.64) (2024-10-05)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([17841f2](https://github.com/ethberry/nestjs-packages/commit/17841f21f02224477267d2a2188c912b5b0f54ce))
+
 ## 4.0.63 (2024-10-04)
 
 ### Bug Fixes

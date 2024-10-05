@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.66](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-pinata-s3@3.0.65...@ethberry/nest-js-module-pinata-s3@3.0.66) (2024-10-05)
+
+**Note:** Version bump only for package @ethberry/nest-js-module-pinata-s3
+
 ## 3.0.65 (2024-10-04)
 
 ### Bug Fixes

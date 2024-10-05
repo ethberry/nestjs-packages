@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.38](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-winston-papertrail@3.0.37...@ethberry/nest-js-module-winston-papertrail@3.0.38) (2024-10-05)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([17841f2](https://github.com/ethberry/nestjs-packages/commit/17841f21f02224477267d2a2188c912b5b0f54ce))
+
 ## [3.0.37](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-winston-papertrail@3.0.36...@ethberry/nest-js-module-winston-papertrail@3.0.37) (2024-10-04)
 
 ### Bug Fixes

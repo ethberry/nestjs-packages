@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.57](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-helmet@4.0.56...@ethberry/nest-js-module-helmet@4.0.57) (2024-10-05)
+
+### Bug Fixes
+
+- **deps:** update dependency helmet to v8 ([b33dec9](https://github.com/ethberry/nestjs-packages/commit/b33dec96a836cc746caab52c6de0f62c1c309b7d))
+
 ## [4.0.56](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-helmet@4.0.55...@ethberry/nest-js-module-helmet@4.0.56) (2024-10-04)
 
 ### Bug Fixes
