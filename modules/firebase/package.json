@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@golevelup/nestjs-modules": "0.7.1",
-    "@google-cloud/storage": "7.13.0"
+    "@google-cloud/storage": "7.14.0"
   },
   "devDependencies": {
     "@ethberry/nest-js-module-license": "4.0.43",
