@@ -10,7 +10,7 @@
   "dependencies": {
     "@ethberry/nest-js-create-middleware-module": "3.0.55",
     "connect-redis": "7.1.1",
-    "express-session": "1.18.0"
+    "express-session": "1.18.1"
   },
   "devDependencies": {
     "@types/express-session": "1.18.0",
