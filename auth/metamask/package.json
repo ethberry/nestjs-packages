@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/constants": "0.13.5",
-    "@ethberry/nest-js-validators": "4.1.6",
+    "@ethberry/nest-js-validators": "4.1.7",
     "@ethberry/types-jwt": "0.4.8",
     "@metamask/eth-sig-util": "7.0.3",
     "class-transformer": "0.5.1",
@@ -58,5 +58,5 @@
   },
   "title": "NestJS Metamask module",
   "types": "./dist/index.d.ts",
-  "version": "3.1.51"
+  "version": "3.1.52"
 }

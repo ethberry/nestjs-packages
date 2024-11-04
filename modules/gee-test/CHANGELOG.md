@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.60 (2024-11-04)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([6e62c72](https://github.com/ethberry/nestjs-packages/commit/6e62c7206fe4efcc2d1434034ef3e5b54dc96e14))
+- **deps:** update dependency uuid to v11 ([abe7739](https://github.com/ethberry/nestjs-packages/commit/abe773908ad3ee28b43ba138feb7f964a9133d07))
+
 ## [4.0.59](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-gee-test@4.0.58...@ethberry/nest-js-module-gee-test@4.0.59) (2024-10-04)
 
 ### Bug Fixes

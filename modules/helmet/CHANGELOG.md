@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.58](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-helmet@4.0.57...@ethberry/nest-js-module-helmet@4.0.58) (2024-11-04)
+
+**Note:** Version bump only for package @ethberry/nest-js-module-helmet
+
 ## [4.0.57](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-helmet@4.0.56...@ethberry/nest-js-module-helmet@4.0.57) (2024-10-05)
 
 ### Bug Fixes

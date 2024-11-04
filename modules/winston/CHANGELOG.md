@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.39](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-winston@2.0.38...@ethberry/nest-js-module-winston@2.0.39) (2024-11-04)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([6e62c72](https://github.com/ethberry/nestjs-packages/commit/6e62c7206fe4efcc2d1434034ef3e5b54dc96e14))
+
 ## [2.0.38](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-winston@2.0.37...@ethberry/nest-js-module-winston@2.0.38) (2024-10-05)
 
 ### Bug Fixes

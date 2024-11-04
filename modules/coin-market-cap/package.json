@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/nest-js-utils": "4.2.17",
+    "@ethberry/nest-js-utils": "4.2.18",
     "@ethberry/types-coin-market-cap": "0.1.14",
     "class-validator": "0.14.1"
   },
@@ -53,5 +53,5 @@
   },
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.0.54"
+  "version": "3.0.55"
 }

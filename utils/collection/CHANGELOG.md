@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.3.28 (2024-11-04)
+
+**Note:** Version bump only for package @ethberry/collection
+
 ## 3.3.27 (2024-10-04)
 
 ### Bug Fixes
