@@ -17,7 +17,7 @@
     "ts-mixer": "6.0.4"
   },
   "devDependencies": {
-    "@ethberry/nest-js-module-license": "4.0.43",
+    "@ethberry/nest-js-module-license": "4.0.44",
     "@nestjs/common": "10.4.6",
     "@nestjs/swagger": "8.0.1",
     "@nestjs/testing": "10.4.6",
