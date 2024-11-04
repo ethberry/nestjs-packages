@@ -19,7 +19,7 @@
   "devDependencies": {
     "@ethberry/nest-js-module-license": "4.0.43",
     "@nestjs/common": "10.4.6",
-    "@nestjs/swagger": "7.4.2",
+    "@nestjs/swagger": "8.0.1",
     "@nestjs/testing": "10.4.6",
     "@types/jest": "29.5.14",
     "@types/uuid": "10.0.0",
@@ -38,7 +38,7 @@
   "peerDependencies": {
     "@ethberry/nest-js-module-license": "^4.0.0",
     "@nestjs/common": "^10.0.0",
-    "@nestjs/swagger": "^7.0.0",
+    "@nestjs/swagger": "^7.0.0 || ^8.0.0",
     "ethers": "^6.0.0"
   },
   "publishConfig": {
