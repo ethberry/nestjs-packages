@@ -11,7 +11,7 @@
     "@ethberry/nest-js-utils": "4.2.17",
     "class-validator": "0.14.1",
     "qs": "6.13.0",
-    "uuid": "10.0.0"
+    "uuid": "11.0.2"
   },
   "devDependencies": {
     "@ethberry/nest-js-module-license": "4.0.43",
