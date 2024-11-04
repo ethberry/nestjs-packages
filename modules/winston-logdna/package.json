@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/winston-formatter": "0.0.49",
+    "@ethberry/winston-formatter": "0.0.50",
     "@logdna/logger": "2.6.11",
     "logdna-winston": "4.0.1",
     "winston": "3.16.0",

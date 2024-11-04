@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/nest-js-module-debug": "2.0.41",
+    "@ethberry/nest-js-module-debug": "2.0.42",
     "@ethberry/nest-js-module-typeorm": "4.0.47"
   },
   "devDependencies": {
