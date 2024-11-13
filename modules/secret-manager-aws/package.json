@@ -14,8 +14,7 @@
   },
   "devDependencies": {
     "@nestjs/common": "10.4.6",
-    "@nestjs/config": "3.3.0",
-    "ethers": "6.13.4"
+    "@nestjs/config": "3.3.0"
   },
   "engines": {
     "node": ">=22"
@@ -26,8 +25,7 @@
   "name": "@ethberry/nest-js-module-secret-manager-aws",
   "peerDependencies": {
     "@nestjs/common": "^10.0.0",
-    "@nestjs/config": "^3.0.0",
-    "ethers": "^6.0.0"
+    "@nestjs/config": "^3.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

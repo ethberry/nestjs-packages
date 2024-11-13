@@ -15,7 +15,6 @@
     "ts-mixer": "6.0.4"
   },
   "devDependencies": {
-    "ethers": "6.13.4",
     "typeorm": "0.3.20"
   },
   "engines": {
@@ -26,7 +25,6 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-typeorm-postgres",
   "peerDependencies": {
-    "ethers": "^6.0.0",
     "typeorm": "^0.3.0"
   },
   "publishConfig": {

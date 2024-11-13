@@ -35,7 +35,7 @@
   "name": "@ethberry/nest-js-module-s3",
   "peerDependencies": {
     "@nestjs/common": "^10.0.0",
-    "@nestjs/swagger": "^7.0.0 || ^8.0.0"
+    "@nestjs/swagger": "^8.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
