@@ -14,7 +14,6 @@
     "class-validator": "0.14.1"
   },
   "devDependencies": {
-    "@ethberry/nest-js-module-license": "4.0.44",
     "@nestjs/axios": "3.1.1",
     "@nestjs/common": "10.4.6",
     "@nestjs/config": "3.3.0",
@@ -28,7 +27,6 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-coin-gecko",
   "peerDependencies": {
-    "@ethberry/nest-js-module-license": "^4.0.0",
     "@nestjs/axios": "^3.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.0.0",

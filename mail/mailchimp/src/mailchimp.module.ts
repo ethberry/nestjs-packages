@@ -2,15 +2,13 @@ import { DynamicModule, Logger, Module } from "@nestjs/common";
 import { HttpModule } from "@nestjs/axios";
 import { createConfigurableDynamicRootModule } from "@golevelup/nestjs-modules";
 
-import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
-
 import { MAILCHIMP_OPTIONS_PROVIDER } from "./mailchimp.constants";
 import { MailchimpService } from "./mailchimp.service";
 import { IMailchimpOptions } from "./interfaces";
 
 @Module({
-  imports: [LicenseModule.deferred(), HttpModule],
-  providers: [Logger, licenseProvider, MailchimpService],
+  imports: [HttpModule],
+  providers: [Logger, MailchimpService],
   exports: [MailchimpService],
 })
 export class MailchimpModule extends createConfigurableDynamicRootModule<MailchimpModule, IMailchimpOptions>(

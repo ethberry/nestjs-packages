@@ -1,12 +1,9 @@
 import { Module } from "@nestjs/common";
 
-import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
-
 import { WalletConnectService } from "./wallet-connect.service";
 
 @Module({
-  imports: [LicenseModule.deferred()],
-  providers: [licenseProvider, WalletConnectService],
+  providers: [WalletConnectService],
   exports: [WalletConnectService],
 })
 export class WalletConnectModule {}

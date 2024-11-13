@@ -14,7 +14,6 @@
     "uuid": "11.0.2"
   },
   "devDependencies": {
-    "@ethberry/nest-js-module-license": "4.0.44",
     "@liaoliaots/nestjs-redis": "9.0.5",
     "@nestjs/axios": "3.1.1",
     "@nestjs/common": "10.4.6",
@@ -33,7 +32,6 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-gee-test",
   "peerDependencies": {
-    "@ethberry/nest-js-module-license": "^4.0.0",
     "@liaoliaots/nestjs-redis": "^9.0.0",
     "@nestjs/axios": "^3.0.0",
     "@nestjs/common": "^10.0.0",

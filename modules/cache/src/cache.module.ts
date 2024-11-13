@@ -5,12 +5,10 @@ import { CacheModule, CacheModuleAsyncOptions } from "@nestjs/cache-manager";
 import redisStore from "cache-manager-ioredis";
 import { caching } from "cache-manager";
 
-import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
 import { CACHE_STORE } from "./cache.constants";
 
 @Module({
   imports: [
-    LicenseModule.deferred(),
     CacheModule.registerAsync<CacheModuleAsyncOptions>({
       isGlobal: true, // this makes APP_INTERCEPTOR works in app.module
       imports: [ConfigModule],
@@ -27,6 +25,5 @@ import { CACHE_STORE } from "./cache.constants";
       },
     }),
   ],
-  providers: [licenseProvider],
 })
 export class EthBerryCacheModule {}

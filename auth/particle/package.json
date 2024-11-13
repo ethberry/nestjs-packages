@@ -17,7 +17,6 @@
     "ts-mixer": "6.0.4"
   },
   "devDependencies": {
-    "@ethberry/nest-js-module-license": "4.0.44",
     "@nestjs/common": "10.4.6",
     "@nestjs/swagger": "8.0.1",
     "@nestjs/testing": "10.4.6",
@@ -36,7 +35,6 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-particle",
   "peerDependencies": {
-    "@ethberry/nest-js-module-license": "^4.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/swagger": "^7.0.0 || ^8.0.0",
     "ethers": "^6.0.0"

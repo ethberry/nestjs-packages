@@ -3,12 +3,7 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 
-import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
-
-@Module({
-  imports: [LicenseModule.deferred()],
-  providers: [licenseProvider],
-})
+@Module({})
 export class EthBerryTypeormModule {
   static forRoot(options: PostgresConnectionOptions): DynamicModule {
     return TypeOrmModule.forRootAsync({

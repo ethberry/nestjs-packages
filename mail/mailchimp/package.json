@@ -12,7 +12,6 @@
     "@mailchimp/mailchimp_marketing": "3.0.80"
   },
   "devDependencies": {
-    "@ethberry/nest-js-module-license": "4.0.44",
     "@nestjs/axios": "3.1.1",
     "@nestjs/common": "10.4.6",
     "@types/mailchimp__mailchimp_marketing": "3.0.20"
@@ -25,7 +24,6 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-mailchimp",
   "peerDependencies": {
-    "@ethberry/nest-js-module-license": "^4.0.0",
     "@nestjs/axios": "^3.0.0",
     "@nestjs/common": "^10.0.0",
     "rxjs": "^7.0.0"

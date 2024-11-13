@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@aws-sdk/client-ses": "3.682.0",
-    "@ethberry/nest-js-module-license": "4.0.44",
     "@ethberry/types-email": "0.2.23",
     "@golevelup/nestjs-modules": "0.7.1"
   },
@@ -24,7 +23,6 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-ses",
   "peerDependencies": {
-    "@ethberry/nest-js-module-license": "^4.0.0",
     "@nestjs/common": "^10.0.0"
   },
   "publishConfig": {

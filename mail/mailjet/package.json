@@ -13,7 +13,6 @@
     "node-mailjet": "6.0.6"
   },
   "devDependencies": {
-    "@ethberry/nest-js-module-license": "4.0.44",
     "@nestjs/common": "10.4.6"
   },
   "engines": {
@@ -24,7 +23,6 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-mailjet",
   "peerDependencies": {
-    "@ethberry/nest-js-module-license": "^4.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/microservices": "^10.0.0"
   },

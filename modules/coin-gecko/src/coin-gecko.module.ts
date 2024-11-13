@@ -2,14 +2,12 @@ import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { HttpModule } from "@nestjs/axios";
 
-import { LicenseModule, licenseProvider } from "@ethberry/nest-js-module-license";
-
 import { CoinGeckoService } from "./coin-gecko.service";
 import { CoinGeckoController } from "./coin-gecko.controller";
 
 @Module({
-  imports: [LicenseModule.deferred(), ConfigModule, HttpModule],
-  providers: [licenseProvider, CoinGeckoService],
+  imports: [ConfigModule, HttpModule],
+  providers: [CoinGeckoService],
   controllers: [CoinGeckoController],
   exports: [CoinGeckoService],
 })

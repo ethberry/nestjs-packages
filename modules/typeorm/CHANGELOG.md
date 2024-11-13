@@ -836,7 +836,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- export licanse service ([7242d64](https://github.com/ethberry/nestjs-packages/commit/7242d64d3fa6c93ae71da397341a135fc0bfc40b))
+- export license service ([7242d64](https://github.com/ethberry/nestjs-packages/commit/7242d64d3fa6c93ae71da397341a135fc0bfc40b))
 - manually update packages ([dd975db](https://github.com/ethberry/nestjs-packages/commit/dd975db3eb929587918025408a00600715c35fb5))
 
 ## [1.0.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-typeorm@0.1.0...@ethberry/nest-js-module-typeorm@1.0.1) (2021-12-20)
