@@ -10,8 +10,8 @@
   "dependencies": {
     "@ethberry/nest-js-utils": "4.2.18",
     "class-validator": "0.14.1",
-    "qs": "6.13.0",
-    "uuid": "11.0.2"
+    "qs": "6.13.1",
+    "uuid": "11.0.3"
   },
   "devDependencies": {
     "@liaoliaots/nestjs-redis": "9.0.5",
