@@ -11,8 +11,8 @@
     "@ethberry/winston-formatter": "0.0.50",
     "@logdna/logger": "2.6.11",
     "logdna-winston": "4.0.1",
-    "winston": "3.16.0",
-    "winston-transport": "4.8.0"
+    "winston": "3.17.0",
+    "winston-transport": "4.9.0"
   },
   "devDependencies": {
     "@nestjs/common": "10.4.6",
