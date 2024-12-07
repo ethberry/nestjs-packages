@@ -12,7 +12,7 @@
     "@ethberry/nest-js-module-s3": "5.0.67",
     "@golevelup/nestjs-modules": "0.7.1",
     "@pinata/sdk": "2.1.0",
-    "express": "4.21.1"
+    "express": "4.21.2"
   },
   "devDependencies": {
     "@nestjs/common": "10.4.8",
