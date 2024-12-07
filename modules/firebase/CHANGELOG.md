@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.56](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-firebase@2.0.55...@ethberry/nest-js-module-firebase@2.0.56) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/nest-js-module-firebase
+
 ## 2.0.55 (2024-11-04)
 
 ### Bug Fixes

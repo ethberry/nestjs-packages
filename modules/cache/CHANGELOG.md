@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.51](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-cache@3.0.50...@ethberry/nest-js-module-cache@3.0.51) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/nest-js-module-cache
+
 ## 3.0.50 (2024-11-04)
 
 ### Bug Fixes

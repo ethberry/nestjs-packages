@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.19](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils@4.2.18...@ethberry/nest-js-utils@4.2.19) (2024-12-07)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([23649d9](https://github.com/ethberry/nestjs-packages/commit/23649d9e6fc0e5155b501966d0f3c1593baf1635))
+- remove leftovers ([6f044f2](https://github.com/ethberry/nestjs-packages/commit/6f044f2644530aef8c727eaa9fe79ce29743be8c))
+
 ## 4.2.18 (2024-11-04)
 
 ### Bug Fixes

@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.32](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-utils-ws@3.0.31...@ethberry/nest-js-utils-ws@3.0.32) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/nest-js-utils-ws
+
 ## 3.0.31 (2024-11-04)
 
 **Note:** Version bump only for package @ethberry/nest-js-utils-ws

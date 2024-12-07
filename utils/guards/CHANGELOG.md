@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.23](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-guards@3.1.22...@ethberry/nest-js-guards@3.1.23) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/nest-js-guards
+
 ## 3.1.22 (2024-11-04)
 
 **Note:** Version bump only for package @ethberry/nest-js-guards

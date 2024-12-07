@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.8](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.1.7...@ethberry/nest-js-validators@4.1.8) (2024-12-07)
+
+### Bug Fixes
+
+- remove leftovers ([6f044f2](https://github.com/ethberry/nestjs-packages/commit/6f044f2644530aef8c727eaa9fe79ce29743be8c))
+
 ## 4.1.7 (2024-11-04)
 
 ### Bug Fixes
