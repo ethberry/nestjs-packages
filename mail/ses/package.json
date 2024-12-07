@@ -13,7 +13,7 @@
     "@golevelup/nestjs-modules": "0.7.1"
   },
   "devDependencies": {
-    "@nestjs/common": "10.4.8"
+    "@nestjs/common": "10.4.13"
   },
   "engines": {
     "node": ">=22"

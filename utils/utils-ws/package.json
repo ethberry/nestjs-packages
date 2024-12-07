@@ -8,8 +8,8 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "10.4.8",
-    "@nestjs/websockets": "10.4.8"
+    "@nestjs/common": "10.4.13",
+    "@nestjs/websockets": "10.4.13"
   },
   "engines": {
     "node": ">=22"
