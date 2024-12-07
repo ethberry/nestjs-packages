@@ -1,5 +1,5 @@
 import session from "express-session";
-import RedisStore from "connect-redis";
+import { RedisStore } from "connect-redis";
 import { Redis } from "ioredis";
 
 import { createModule } from "@ethberry/nest-js-create-middleware-module";

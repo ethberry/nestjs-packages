@@ -1,5 +1,4 @@
 import { Validator } from "class-validator";
-import { WeiPerEther } from "ethers";
 
 import { IsBigInt } from "./big-int";
 
@@ -12,7 +11,7 @@ describe("IsBigInt", () => {
       }
 
       const model = new TestClass();
-      model.amount = WeiPerEther.toString();
+      model.amount = BigInt("1000000000000000000").toString();
 
       const validator = new Validator();
       return validator.validate(model).then(errors => {

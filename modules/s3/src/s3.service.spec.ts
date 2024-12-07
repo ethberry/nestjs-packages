@@ -4,12 +4,9 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
 import path from "path";
 import { URL } from "url";
 
-import { LicenseModule } from "@ethberry/nest-js-module-license";
-
 import { S3Service } from "./s3.service";
 import { S3_OPTIONS_PROVIDER } from "./s3.constants";
 import { IS3Options, ISdkOptions } from "./interfaces";
-import * as process from "process";
 
 describe("S3Service", () => {
   let s3Service: S3Service;
@@ -19,13 +16,6 @@ describe("S3Service", () => {
       imports: [
         ConfigModule.forRoot({
           envFilePath: `.env`,
-        }),
-        LicenseModule.forRootAsync(LicenseModule, {
-          imports: [ConfigModule],
-          inject: [ConfigService],
-          useFactory: (configService: ConfigService): string => {
-            return configService.get<string>("ETHBERRY_API_KEY", process.env.ETHBERRY_API_KEY);
-          },
         }),
       ],
       providers: [
