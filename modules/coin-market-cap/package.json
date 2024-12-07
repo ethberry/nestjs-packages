@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/nest-js-utils": "4.2.19",
-    "@ethberry/types-coin-market-cap": "0.1.14",
+    "@ethberry/types-coin-market-cap": "0.1.15",
     "class-validator": "0.14.1"
   },
   "devDependencies": {

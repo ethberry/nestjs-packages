@@ -8,10 +8,10 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/constants": "0.13.5",
-    "@ethberry/draft-js-utils": "2.0.0",
-    "@ethberry/types-blockchain": "1.3.5",
-    "@ethberry/types-collection": "1.5.20",
+    "@ethberry/constants": "0.13.6",
+    "@ethberry/draft-js-utils": "2.0.1",
+    "@ethberry/types-blockchain": "1.3.6",
+    "@ethberry/types-collection": "1.5.21",
     "ts-mixer": "6.0.4"
   },
   "devDependencies": {
