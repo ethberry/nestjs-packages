@@ -10,6 +10,5 @@
     }
   },
   "packages": ["ipfs/*", "modules/*", "utils/*", "auth/*"],
-  "useNx": true,
   "version": "independent"
 }
