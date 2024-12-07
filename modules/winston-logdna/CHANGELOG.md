@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.23](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-winston-logdna@3.1.22...@ethberry/nest-js-module-winston-logdna@3.1.23) (2024-12-07)
+
+### Bug Fixes
+
+- **deps:** update ethberry to v0.0.51 ([0396cee](https://github.com/ethberry/nestjs-packages/commit/0396cee44f18d8c2ebc79ff2e8f28a8615d8e8f6))
+
 ## [3.1.22](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-winston-logdna@3.1.21...@ethberry/nest-js-module-winston-logdna@3.1.22) (2024-12-07)
 
 ### Bug Fixes
