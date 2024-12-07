@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/constants": "0.13.5",
-    "@ethberry/draft-js-utils": "1.2.55",
+    "@ethberry/draft-js-utils": "2.0.0",
     "@ethberry/types-blockchain": "1.3.5",
     "@ethberry/types-collection": "1.5.20",
     "ts-mixer": "6.0.4"
