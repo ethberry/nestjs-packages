@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-typeorm-postgres@1.0.53...@ethberry/nest-js-module-typeorm-postgres@2.0.0) (2024-12-07)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([be816f9](https://github.com/ethberry/nestjs-packages/commit/be816f9a45f30e9e07efbaaeaa75e3cc9cde02ef))
+- **deps:** update ethberry to v2 ([fc777bc](https://github.com/ethberry/nestjs-packages/commit/fc777bcc6f524d62d37370acf4876537122443f3))
+
 ## [1.0.53](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-typeorm-postgres@1.0.52...@ethberry/nest-js-module-typeorm-postgres@1.0.53) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/nest-js-module-typeorm-postgres

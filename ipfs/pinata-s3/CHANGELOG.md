@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-pinata-s3@3.0.68...@ethberry/nest-js-module-pinata-s3@4.0.0) (2024-12-07)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([be816f9](https://github.com/ethberry/nestjs-packages/commit/be816f9a45f30e9e07efbaaeaa75e3cc9cde02ef))
+
 ## [3.0.68](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-pinata-s3@3.0.67...@ethberry/nest-js-module-pinata-s3@3.0.68) (2024-12-07)
 
 ### Bug Fixes

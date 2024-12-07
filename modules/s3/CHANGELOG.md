@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-s3@5.0.68...@ethberry/nest-js-module-s3@6.0.0) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/nest-js-module-s3
+
 ## [5.0.68](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-s3@5.0.67...@ethberry/nest-js-module-s3@5.0.68) (2024-12-07)
 
 ### Bug Fixes

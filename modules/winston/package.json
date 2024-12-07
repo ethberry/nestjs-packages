@@ -46,5 +46,5 @@
   },
   "title": "NestJS Winston module",
   "types": "./dist/index.d.ts",
-  "version": "2.0.41"
+  "version": "3.0.0"
 }
