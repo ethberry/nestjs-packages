@@ -16,7 +16,7 @@
   },
   "description": "Collection",
   "devDependencies": {
-    "@nestjs/swagger": "8.1.1"
+    "@nestjs/swagger": "11.0.3"
   },
   "engines": {
     "node": ">=22"
@@ -26,7 +26,7 @@
   "main": "./dist/index.js",
   "name": "@ethberry/collection",
   "peerDependencies": {
-    "@nestjs/swagger": "^8.0.0"
+    "@nestjs/swagger": "^8.0.0 || ^11.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

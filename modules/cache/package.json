@@ -12,10 +12,10 @@
     "cache-manager-ioredis": "2.1.0"
   },
   "devDependencies": {
-    "@nestjs/cache-manager": "2.3.0",
-    "@nestjs/common": "10.4.15",
-    "@nestjs/config": "3.3.0",
-    "@nestjs/core": "10.4.15",
+    "@nestjs/cache-manager": "3.0.0",
+    "@nestjs/common": "11.0.5",
+    "@nestjs/config": "4.0.0",
+    "@nestjs/core": "11.0.5",
     "@types/cache-manager-ioredis": "2.0.6"
   },
   "engines": {
@@ -27,10 +27,10 @@
   "name": "@ethberry/nest-js-module-cache",
   "peerDependencies": {
     "@liaoliaots/nestjs-redis": "^9.0.0",
-    "@nestjs/cache-manager": "^2.0.0",
-    "@nestjs/common": "^10.0.0",
-    "@nestjs/config": "^3.0.0",
-    "@nestjs/core": "^10.0.0"
+    "@nestjs/cache-manager": "^2.0.0 || ^3.0.0",
+    "@nestjs/common": "^10.0.0 || ^11.0.0",
+    "@nestjs/config": "^3.0.0 || ^4.0.0",
+    "@nestjs/core": "^10.0.0 || ^11.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
