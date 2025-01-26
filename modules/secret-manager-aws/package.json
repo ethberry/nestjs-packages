@@ -24,8 +24,8 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-secret-manager-aws",
   "peerDependencies": {
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/config": "^3.0.0 || ^4.0.0"
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -44,5 +44,5 @@
   },
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "5.0.0"
+  "version": "6.0.0"
 }

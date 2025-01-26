@@ -10,7 +10,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "3.735.0",
     "@aws-sdk/s3-request-presigner": "3.735.0",
-    "@ethberry/nest-js-validators": "5.0.0",
+    "@ethberry/nest-js-validators": "6.0.0",
     "@golevelup/nestjs-modules": "0.7.2",
     "class-validator": "0.14.1",
     "express": "4.21.2",
@@ -34,8 +34,8 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-s3",
   "peerDependencies": {
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/swagger": "^8.0.0 || ^11.0.0"
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/swagger": "^11.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -54,5 +54,5 @@
   },
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "6.0.0"
+  "version": "7.0.0"
 }

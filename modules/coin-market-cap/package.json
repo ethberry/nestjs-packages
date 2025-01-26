@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/nest-js-utils": "4.2.19",
+    "@ethberry/nest-js-utils": "5.0.0",
     "@ethberry/types-coin-market-cap": "0.1.15",
     "class-validator": "0.14.1"
   },
@@ -28,10 +28,10 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-coin-market-cap",
   "peerDependencies": {
-    "@nestjs/axios": "^3.0.0 || ^4.0.0",
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/config": "^3.0.0 || ^4.0.0",
-    "@nestjs/swagger": "^8.0.0 || ^11.0.0",
+    "@nestjs/axios": "^4.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/swagger": "^11.0.0",
     "rxjs": "^7.0.0"
   },
   "publishConfig": {
@@ -51,5 +51,5 @@
   },
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "4.0.0"
+  "version": "5.0.0"
 }

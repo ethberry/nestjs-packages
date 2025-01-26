@@ -22,10 +22,10 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-guards-ws",
   "peerDependencies": {
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/core": "^10.0.0 || ^11.0.0",
-    "@nestjs/passport": "^10.0.0 || ^11.0.0",
-    "@nestjs/websockets": "^10.0.0 || ^11.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/passport": "^11.0.0",
+    "@nestjs/websockets": "^11.0.0",
     "socket.io": "^4.0.0"
   },
   "publishConfig": {
@@ -45,5 +45,5 @@
   },
   "title": "nest js guards ws",
   "types": "./dist/index.d.ts",
-  "version": "3.0.33"
+  "version": "4.0.0"
 }

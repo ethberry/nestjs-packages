@@ -26,8 +26,8 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-winston-papertrail",
   "peerDependencies": {
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/config": "^3.0.0 || ^4.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.0",
     "nest-winston": "^1.0.0"
   },
   "publishConfig": {
@@ -47,5 +47,5 @@
   },
   "title": "NestJS Winston+Papertrail module",
   "types": "./dist/index.d.ts",
-  "version": "4.0.0"
+  "version": "5.0.0"
 }

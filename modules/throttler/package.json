@@ -27,10 +27,10 @@
   "name": "@ethberry/nest-js-module-throttler",
   "peerDependencies": {
     "@liaoliaots/nestjs-redis": "^9.0.0",
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/config": "^3.0.0 || ^4.0.0",
-    "@nestjs/graphql": "^12.0.0 || ^13.0.0",
-    "@nestjs/websockets": "^10.0.0 || ^11.0.0"
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/graphql": "^13.0.0",
+    "@nestjs/websockets": "^11.0.0"
   },
   "peerDependenciesMeta": {
     "@nestjs/graphql": {
@@ -57,5 +57,5 @@
   },
   "title": "NestJS Throttle module",
   "types": "./dist/index.d.ts",
-  "version": "7.0.10"
+  "version": "8.0.0"
 }

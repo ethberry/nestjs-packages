@@ -21,9 +21,9 @@
   "main": "./dist/index.js",
   "name": "@ethberry/nest-js-module-typeorm",
   "peerDependencies": {
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/config": "^3.0.0 || ^4.0.0",
-    "@nestjs/typeorm": "^10.0.0 || ^11.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/typeorm": "^11.0.0",
     "typeorm": "^0.3.0"
   },
   "publishConfig": {
@@ -43,5 +43,5 @@
   },
   "title": "NestJS TypeORM module",
   "types": "./dist/index.d.ts",
-  "version": "4.0.49"
+  "version": "5.0.0"
 }

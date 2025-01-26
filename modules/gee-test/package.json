@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/nest-js-utils": "4.2.19",
+    "@ethberry/nest-js-utils": "5.0.0",
     "class-validator": "0.14.1",
     "qs": "6.14.0",
     "uuid": "11.0.5"
@@ -33,11 +33,11 @@
   "name": "@ethberry/nest-js-module-gee-test",
   "peerDependencies": {
     "@liaoliaots/nestjs-redis": "^9.0.0",
-    "@nestjs/axios": "^3.0.0 || ^4.0.0",
-    "@nestjs/common": "^10.0.0 || ^11.0.0",
-    "@nestjs/config": "^3.0.0 || ^4.0.0",
-    "@nestjs/schedule": "^4.0.0 || ^5.0.0",
-    "@nestjs/swagger": "^8.0.0 || ^11.0.0",
+    "@nestjs/axios": "^4.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/schedule": "^5.0.0",
+    "@nestjs/swagger": "^11.0.0",
     "ioredis": "^5.0.0",
     "rxjs": "^7.0.0"
   },
@@ -58,5 +58,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "4.0.61"
+  "version": "5.0.0"
 }
