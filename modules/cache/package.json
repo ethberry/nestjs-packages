@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "cache-manager": "5.7.6",
+    "cache-manager": "6.4.0",
     "cache-manager-ioredis": "2.1.0"
   },
   "devDependencies": {
