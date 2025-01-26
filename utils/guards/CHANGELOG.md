@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.1 (2025-01-26)
+
+### Bug Fixes
+
+- **deps:** update [@nestjs](https://github.com/nestjs) packages ([0cfcc10](https://github.com/ethberry/nestjs-packages/commit/0cfcc109fcb0561789b0dc74e1e56ff5e9137a79))
+
 ## [3.1.23](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-guards@3.1.22...@ethberry/nest-js-guards@3.1.23) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/nest-js-guards

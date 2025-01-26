@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/constants": "0.13.6",
-    "@ethberry/nest-js-module-firebase": "3.0.0",
+    "@ethberry/nest-js-module-firebase": "3.0.1",
     "@golevelup/nestjs-modules": "0.7.2",
     "express": "4.21.2",
     "ipfs-http-client": "56.0.3"
@@ -47,5 +47,5 @@
   },
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "4.0.0"
+  "version": "4.0.1"
 }

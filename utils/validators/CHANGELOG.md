@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.1](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@5.0.0...@ethberry/nest-js-validators@6.0.1) (2025-01-26)
+
+### Bug Fixes
+
+- **deps:** update [@nestjs](https://github.com/nestjs) packages ([0cfcc10](https://github.com/ethberry/nestjs-packages/commit/0cfcc109fcb0561789b0dc74e1e56ff5e9137a79))
+
 # [5.0.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-validators@4.1.8...@ethberry/nest-js-validators@5.0.0) (2024-12-07)
 
 ### Bug Fixes

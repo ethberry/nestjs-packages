@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.1 (2025-01-26)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([031e86b](https://github.com/ethberry/nestjs-packages/commit/031e86b6bdd6500c2bb222ee70fdf96d2fa1ee47))
+
 ## [3.0.57](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-session@3.0.56...@ethberry/nest-js-module-session@3.0.57) (2024-12-07)
 
 ### Bug Fixes

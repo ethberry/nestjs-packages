@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.1 (2025-01-26)
+
+### Bug Fixes
+
+- **deps:** update [@nestjs](https://github.com/nestjs) packages ([0cfcc10](https://github.com/ethberry/nestjs-packages/commit/0cfcc109fcb0561789b0dc74e1e56ff5e9137a79))
+- **deps:** update dependency cache-manager to v6 ([e3d85d3](https://github.com/ethberry/nestjs-packages/commit/e3d85d38c8f06f462bcd7c7734a1aa620b6bbb64))
+
 ## [3.0.51](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-cache@3.0.50...@ethberry/nest-js-module-cache@3.0.51) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/nest-js-module-cache
