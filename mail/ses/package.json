@@ -8,9 +8,9 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@aws-sdk/client-ses": "3.699.0",
+    "@aws-sdk/client-ses": "3.734.0",
     "@ethberry/types-email": "0.2.24",
-    "@golevelup/nestjs-modules": "0.7.1"
+    "@golevelup/nestjs-modules": "0.7.2"
   },
   "devDependencies": {
     "@nestjs/common": "10.4.13"

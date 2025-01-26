@@ -10,8 +10,8 @@
   "dependencies": {
     "@ethberry/nest-js-utils": "4.2.19",
     "class-validator": "0.14.1",
-    "qs": "6.13.1",
-    "uuid": "11.0.3"
+    "qs": "6.14.0",
+    "uuid": "11.0.5"
   },
   "devDependencies": {
     "@liaoliaots/nestjs-redis": "9.0.5",
@@ -21,7 +21,7 @@
     "@nestjs/schedule": "4.1.1",
     "@nestjs/swagger": "8.1.0",
     "@types/uuid": "10.0.0",
-    "ioredis": "5.4.1",
+    "ioredis": "5.4.2",
     "rxjs": "7.8.1"
   },
   "engines": {

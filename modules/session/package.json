@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/express-session": "1.18.1",
-    "ioredis": "5.4.1"
+    "ioredis": "5.4.2"
   },
   "engines": {
     "node": ">=22"
