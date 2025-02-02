@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.0.2 (2025-02-02)
+
+**Note:** Version bump only for package @ethberry/nest-js-module-mailchimp
+
 ## 4.0.49 (2024-11-04)
 
 ### Bug Fixes

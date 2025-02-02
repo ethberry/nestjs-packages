@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 6.0.2 (2025-02-02)
+
+**Note:** Version bump only for package @ethberry/nest-js-module-ses
+
 ## [5.0.61](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-ses@5.0.60...@ethberry/nest-js-module-ses@5.0.61) (2024-11-04)
 
 ### Bug Fixes
