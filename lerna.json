@@ -9,6 +9,6 @@
       "yes": true
     }
   },
-  "packages": ["ipfs/*", "mail/*", , "modules/*", "utils/*", "auth/*"],
+  "packages": ["ipfs/*", "mail/*", "modules/*", "utils/*", "auth/*"],
   "version": "independent"
 }
