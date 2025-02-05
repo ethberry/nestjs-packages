@@ -10,7 +10,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "3.741.0",
     "@aws-sdk/s3-request-presigner": "3.741.0",
-    "@ethberry/nest-js-validators": "6.0.1",
+    "@ethberry/nest-js-validators": "6.0.2",
     "@golevelup/nestjs-modules": "0.7.2",
     "class-validator": "0.14.1",
     "express": "4.21.2",
@@ -54,5 +54,5 @@
   },
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "7.0.1"
+  "version": "7.0.2"
 }
