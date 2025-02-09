@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-secret-manager-env@3.0.2...@ethberry/nest-js-module-secret-manager-env@3.0.3) (2025-02-09)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([ac374d7](https://github.com/ethberry/nestjs-packages/commit/ac374d7babe0d78ac9a55c4475c87abd2abad0a6))
+
 ## 3.0.2 (2025-02-05)
 
 **Note:** Version bump only for package @ethberry/nest-js-module-secret-manager-env

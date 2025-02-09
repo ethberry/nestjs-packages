@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.1 (2025-02-09)
+
+### Bug Fixes
+
+- **deps:** update [@ethberry](https://github.com/ethberry) packages ([ac374d7](https://github.com/ethberry/nestjs-packages/commit/ac374d7babe0d78ac9a55c4475c87abd2abad0a6))
+
 # [2.0.0](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-typeorm-draft@1.0.26...@ethberry/nest-js-module-typeorm-draft@2.0.0) (2024-12-07)
 
 ### Bug Fixes
