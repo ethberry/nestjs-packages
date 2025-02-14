@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@golevelup/nestjs-modules": "0.7.2",
-    "@google-cloud/storage": "7.15.0"
+    "@google-cloud/storage": "7.15.1"
   },
   "devDependencies": {
     "@nestjs/common": "11.0.8",
