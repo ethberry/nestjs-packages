@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/draft-js-utils": "2.0.2"
+    "@ethberry/draft-js-utils": "2.0.3"
   },
   "devDependencies": {
     "react": "19.0.0",
