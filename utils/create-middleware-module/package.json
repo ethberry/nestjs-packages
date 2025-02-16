@@ -16,9 +16,9 @@
   ],
   "description": "NestJS configured middleware module made simple",
   "devDependencies": {
-    "@nestjs/common": "11.0.8",
-    "@nestjs/core": "11.0.8",
-    "@nestjs/platform-express": "11.0.8",
+    "@nestjs/common": "11.0.9",
+    "@nestjs/core": "11.0.9",
+    "@nestjs/platform-express": "11.0.9",
     "@types/express": "5.0.0",
     "@types/jest": "29.5.14",
     "@types/node": "22.13.4",
