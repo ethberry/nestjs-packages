@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-secret-manager-aws@6.0.3...@ethberry/nest-js-module-secret-manager-aws@6.0.4) (2025-02-16)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies to v3.749.0 ([cbf0018](https://github.com/ethberry/nestjs-packages/commit/cbf00183945916359f210c0f671fd08fba1768e4))
+
 ## [6.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-secret-manager-aws@6.0.2...@ethberry/nest-js-module-secret-manager-aws@6.0.3) (2025-02-09)
 
 ### Bug Fixes

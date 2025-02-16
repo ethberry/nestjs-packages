@@ -57,5 +57,5 @@
   },
   "title": "NestJS Throttle module",
   "types": "./dist/index.d.ts",
-  "version": "8.0.3"
+  "version": "8.0.4"
 }

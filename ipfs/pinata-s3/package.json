@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/constants": "0.13.7",
-    "@ethberry/nest-js-module-s3": "7.0.3",
+    "@ethberry/nest-js-module-s3": "7.0.4",
     "@golevelup/nestjs-modules": "0.7.2",
     "@pinata/sdk": "2.1.0",
     "express": "4.21.2"
@@ -47,5 +47,5 @@
   },
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }

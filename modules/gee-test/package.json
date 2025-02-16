@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/nest-js-utils": "5.0.3",
+    "@ethberry/nest-js-utils": "5.0.4",
     "class-validator": "0.14.1",
     "qs": "6.14.0",
     "uuid": "11.0.5"
@@ -58,5 +58,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "5.0.3"
+  "version": "5.0.4"
 }

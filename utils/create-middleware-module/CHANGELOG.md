@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-create-middleware-module@4.0.3...@ethberry/nest-js-create-middleware-module@4.0.4) (2025-02-16)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([a4c3de4](https://github.com/ethberry/nestjs-packages/commit/a4c3de4c7fc6b111cfa9baee44705ccc6430b518))
+
 ## [4.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-create-middleware-module@4.0.2...@ethberry/nest-js-create-middleware-module@4.0.3) (2025-02-09)
 
 **Note:** Version bump only for package @ethberry/nest-js-create-middleware-module
