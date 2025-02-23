@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-typeorm-draft@2.0.2...@ethberry/nest-js-module-typeorm-draft@2.0.3) (2025-02-23)
+
+### Bug Fixes
+
+- **deps:** update ethberry to v2.0.4 ([d615c6b](https://github.com/ethberry/nestjs-packages/commit/d615c6be8c01f6633be0bee0eae47afd8aadca3b))
+
 ## [2.0.2](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-typeorm-draft@2.0.1...@ethberry/nest-js-module-typeorm-draft@2.0.2) (2025-02-16)
 
 ### Bug Fixes

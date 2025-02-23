@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.0.3 (2025-02-23)
+
+**Note:** Version bump only for package @ethberry/collection
+
 ## 5.0.2 (2025-02-09)
 
 ### Bug Fixes

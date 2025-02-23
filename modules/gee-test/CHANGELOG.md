@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.5](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-gee-test@5.0.4...@ethberry/nest-js-module-gee-test@5.0.5) (2025-02-23)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([c01df12](https://github.com/ethberry/nestjs-packages/commit/c01df12f2edb557cdadbcb36f307d99a4d819b9c))
+
 ## [5.0.4](https://github.com/ethberry/nestjs-packages/compare/@ethberry/nest-js-module-gee-test@5.0.3...@ethberry/nest-js-module-gee-test@5.0.4) (2025-02-16)
 
 **Note:** Version bump only for package @ethberry/nest-js-module-gee-test
