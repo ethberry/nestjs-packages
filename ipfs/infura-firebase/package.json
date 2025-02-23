@@ -15,8 +15,8 @@
     "ipfs-http-client": "56.0.3"
   },
   "devDependencies": {
-    "@nestjs/common": "11.0.9",
-    "@nestjs/core": "11.0.9",
+    "@nestjs/common": "11.0.10",
+    "@nestjs/core": "11.0.10",
     "@types/express": "5.0.0"
   },
   "engines": {

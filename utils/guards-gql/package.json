@@ -8,9 +8,9 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "11.0.9",
-    "@nestjs/core": "11.0.9",
-    "@nestjs/graphql": "13.0.2",
+    "@nestjs/common": "11.0.10",
+    "@nestjs/core": "11.0.10",
+    "@nestjs/graphql": "13.0.3",
     "@nestjs/passport": "11.0.5"
   },
   "engines": {
