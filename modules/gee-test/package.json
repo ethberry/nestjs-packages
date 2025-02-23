@@ -11,7 +11,7 @@
     "@ethberry/nest-js-utils": "5.0.4",
     "class-validator": "0.14.1",
     "qs": "6.14.0",
-    "uuid": "11.0.5"
+    "uuid": "11.1.0"
   },
   "devDependencies": {
     "@liaoliaots/nestjs-redis": "9.0.5",
@@ -22,7 +22,7 @@
     "@nestjs/swagger": "11.0.3",
     "@types/uuid": "10.0.0",
     "ioredis": "5.5.0",
-    "rxjs": "7.8.1"
+    "rxjs": "7.8.2"
   },
   "engines": {
     "node": ">=22"
