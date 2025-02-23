@@ -13,7 +13,7 @@
     "node-mailjet": "6.0.6"
   },
   "devDependencies": {
-    "@nestjs/common": "11.0.9"
+    "@nestjs/common": "11.0.10"
   },
   "engines": {
     "node": ">=22"
